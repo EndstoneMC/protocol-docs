@@ -1,0 +1,26 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::Interaction",
+  "fields": [
+    {
+      "name": "Interacted Entity ID",
+      "type": "int64"
+    },
+    {
+      "name": "Interaction Type",
+      "type": "string",
+      "enum": "MinecraftEventing::InteractionType"
+    },
+    {
+      "name": "Interaction Actor Type",
+      "type": "int32"
+    },
+    {
+      "name": "Interaction Actor Variant",
+      "type": "int32"
+    },
+    {
+      "name": "Interaction Actor Color",
+      "type": "uint8"
+    }
+  ]
+}

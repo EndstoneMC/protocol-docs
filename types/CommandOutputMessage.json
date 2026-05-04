@@ -1,0 +1,26 @@
+{
+  "name": "CommandOutputMessage",
+  "fields": [
+    {
+      "name": "Message ID",
+      "type": "string",
+      "constraints": {
+        "max_length": 512
+      }
+    },
+    {
+      "name": "Successful?",
+      "type": "bool"
+    },
+    {
+      "name": "Parameters",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 512
+      }
+    }
+  ]
+}

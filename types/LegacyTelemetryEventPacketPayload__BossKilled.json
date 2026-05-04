@@ -1,0 +1,17 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::BossKilled",
+  "fields": [
+    {
+      "name": "Boss Actor ID",
+      "type": "int64"
+    },
+    {
+      "name": "Party Size",
+      "type": "int32"
+    },
+    {
+      "name": "Boss Type",
+      "type": "int32"
+    }
+  ]
+}

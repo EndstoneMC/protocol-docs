@@ -1,0 +1,13 @@
+{
+  "name": "CameraInstructionOptions::SplineInstruction::SplineRotationOption",
+  "fields": [
+    {
+      "name": "Key frame values",
+      "type": "Vec3"
+    },
+    {
+      "name": "Key frame times",
+      "type": "float"
+    }
+  ]
+}

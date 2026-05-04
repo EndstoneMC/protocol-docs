@@ -1,0 +1,13 @@
+{
+  "name": "ChunkPos",
+  "fields": [
+    {
+      "name": "X",
+      "type": "int32"
+    },
+    {
+      "name": "Z",
+      "type": "int32"
+    }
+  ]
+}

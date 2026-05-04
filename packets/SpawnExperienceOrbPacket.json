@@ -1,0 +1,14 @@
+{
+  "id": 66,
+  "name": "SpawnExperienceOrbPacket",
+  "fields": [
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "XP Value",
+      "type": "int32"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "AvailableCommandsPacketPayload::EnumData",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Values",
+      "type": "uint32",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

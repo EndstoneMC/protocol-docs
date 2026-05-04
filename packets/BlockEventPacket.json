@@ -1,0 +1,18 @@
+{
+  "id": 26,
+  "name": "BlockEventPacket",
+  "fields": [
+    {
+      "name": "Block Position",
+      "type": "NetworkBlockPosition"
+    },
+    {
+      "name": "Event Type",
+      "type": "int32"
+    },
+    {
+      "name": "Event Value",
+      "type": "int32"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::POICauldronUsed",
+  "fields": [
+    {
+      "name": "Block Interaction Type",
+      "type": "string",
+      "enum": "MinecraftEventing::POIBlockInteractionType"
+    },
+    {
+      "name": "Item Id",
+      "type": "int16"
+    }
+  ]
+}

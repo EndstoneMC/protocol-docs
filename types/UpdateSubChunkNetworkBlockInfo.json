@@ -1,0 +1,25 @@
+{
+  "name": "UpdateSubChunkNetworkBlockInfo",
+  "fields": [
+    {
+      "name": "Pos",
+      "type": "NetworkBlockPosition"
+    },
+    {
+      "name": "Runtime Id",
+      "type": "uint32"
+    },
+    {
+      "name": "Update Flags",
+      "type": "uint32"
+    },
+    {
+      "name": "Sync Message - Entity Unique ID",
+      "type": "uint64"
+    },
+    {
+      "name": "Sync Message - Message",
+      "type": "uint32"
+    }
+  ]
+}

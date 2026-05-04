@@ -1,0 +1,23 @@
+{
+  "id": 43,
+  "name": "SetSpawnPositionPacket",
+  "fields": [
+    {
+      "name": "Spawn Position Type",
+      "type": "string",
+      "enum": "SpawnPositionType"
+    },
+    {
+      "name": "Block Position",
+      "type": "NetworkBlockPosition"
+    },
+    {
+      "name": "Dimension type",
+      "type": "AutomaticID<Dimension, int>"
+    },
+    {
+      "name": "Spawn Block Pos",
+      "type": "NetworkBlockPosition"
+    }
+  ]
+}

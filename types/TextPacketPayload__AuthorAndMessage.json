@@ -1,0 +1,39 @@
+{
+  "name": "TextPacketPayload::AuthorAndMessage",
+  "fields": [
+    {
+      "name": "chat",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "whisper",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "announcement",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "Message Type",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "Player Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 32
+      }
+    },
+    {
+      "name": "Message",
+      "type": "string",
+      "constraints": {
+        "min_length": 1
+      }
+    }
+  ]
+}

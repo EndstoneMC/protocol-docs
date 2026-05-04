@@ -1,0 +1,30 @@
+{
+  "id": 138,
+  "name": "EmotePacket",
+  "fields": [
+    {
+      "name": "Actor Runtime Id",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Emote Id",
+      "type": "string"
+    },
+    {
+      "name": "Emote Length Ticks",
+      "type": "uint32"
+    },
+    {
+      "name": "Xuid",
+      "type": "string"
+    },
+    {
+      "name": "PlatformId",
+      "type": "string"
+    },
+    {
+      "name": "Flags",
+      "type": "uint8"
+    }
+  ]
+}

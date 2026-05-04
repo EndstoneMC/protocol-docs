@@ -1,0 +1,10 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::Achievement",
+  "fields": [
+    {
+      "name": "Achievement ID",
+      "type": "string",
+      "enum": "MinecraftEventing::AchievementIds"
+    }
+  ]
+}

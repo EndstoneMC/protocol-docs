@@ -1,0 +1,18 @@
+{
+  "id": 183,
+  "name": "LessonProgressPacket",
+  "fields": [
+    {
+      "name": "Lesson Action",
+      "type": "int32"
+    },
+    {
+      "name": "Score",
+      "type": "int32"
+    },
+    {
+      "name": "Activity Id",
+      "type": "string"
+    }
+  ]
+}

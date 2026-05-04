@@ -1,0 +1,12 @@
+{
+  "name": "GameRulesChangedPacketData",
+  "fields": [
+    {
+      "name": "Rules List",
+      "type": "GameRule",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

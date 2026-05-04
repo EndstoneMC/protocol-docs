@@ -1,0 +1,26 @@
+{
+  "id": 107,
+  "name": "SetDisplayObjectivePacket",
+  "fields": [
+    {
+      "name": "DisplaySlotName",
+      "type": "string"
+    },
+    {
+      "name": "ObjectiveName",
+      "type": "string"
+    },
+    {
+      "name": "ObjectiveDisplayName",
+      "type": "string"
+    },
+    {
+      "name": "CriteriaName",
+      "type": "string"
+    },
+    {
+      "name": "SortOrder",
+      "type": "int32"
+    }
+  ]
+}

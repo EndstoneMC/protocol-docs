@@ -1,0 +1,9 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::TargetBlockHit",
+  "fields": [
+    {
+      "name": "Redstone Level",
+      "type": "int32"
+    }
+  ]
+}

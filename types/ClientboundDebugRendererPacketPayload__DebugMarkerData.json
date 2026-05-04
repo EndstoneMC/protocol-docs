@@ -1,0 +1,24 @@
+{
+  "name": "ClientboundDebugRendererPacketPayload::DebugMarkerData",
+  "fields": [
+    {
+      "name": "Text",
+      "type": "string",
+      "constraints": {
+        "max_length": 4096
+      }
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Color",
+      "type": "mce::Color"
+    },
+    {
+      "name": "duration",
+      "type": "uint64"
+    }
+  ]
+}

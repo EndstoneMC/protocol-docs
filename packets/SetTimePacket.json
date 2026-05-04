@@ -1,0 +1,10 @@
+{
+  "id": 10,
+  "name": "SetTimePacket",
+  "fields": [
+    {
+      "name": "Time",
+      "type": "int32"
+    }
+  ]
+}

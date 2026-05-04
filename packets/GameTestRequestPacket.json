@@ -1,0 +1,35 @@
+{
+  "id": 194,
+  "name": "GameTestRequestPacket",
+  "fields": [
+    {
+      "name": "MaxTestsPerBatch",
+      "type": "int32"
+    },
+    {
+      "name": "RepeatCount",
+      "type": "int32"
+    },
+    {
+      "name": "Rotation",
+      "type": "string",
+      "enum": "Rotation"
+    },
+    {
+      "name": "StopOnFailure",
+      "type": "bool"
+    },
+    {
+      "name": "TestPos",
+      "type": "BlockPos"
+    },
+    {
+      "name": "TestsPerRow",
+      "type": "int32"
+    },
+    {
+      "name": "TestName",
+      "type": "string"
+    }
+  ]
+}

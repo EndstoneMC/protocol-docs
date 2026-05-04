@@ -1,0 +1,161 @@
+{
+  "name": "SharedTypes::Legacy::ContainerType",
+  "values": [
+    {
+      "name": "NONE",
+      "value": -9
+    },
+    {
+      "name": "INVENTORY",
+      "value": -1
+    },
+    {
+      "name": "CONTAINER",
+      "value": 0
+    },
+    {
+      "name": "WORKBENCH",
+      "value": 1
+    },
+    {
+      "name": "FURNACE",
+      "value": 2
+    },
+    {
+      "name": "ENCHANTMENT",
+      "value": 3
+    },
+    {
+      "name": "BREWING_STAND",
+      "value": 4
+    },
+    {
+      "name": "ANVIL",
+      "value": 5
+    },
+    {
+      "name": "DISPENSER",
+      "value": 6
+    },
+    {
+      "name": "DROPPER",
+      "value": 7
+    },
+    {
+      "name": "HOPPER",
+      "value": 8
+    },
+    {
+      "name": "CAULDRON",
+      "value": 9
+    },
+    {
+      "name": "MINECART_CHEST",
+      "value": 10
+    },
+    {
+      "name": "MINECART_HOPPER",
+      "value": 11
+    },
+    {
+      "name": "HORSE",
+      "value": 12
+    },
+    {
+      "name": "BEACON",
+      "value": 13
+    },
+    {
+      "name": "STRUCTURE_EDITOR",
+      "value": 14
+    },
+    {
+      "name": "TRADE",
+      "value": 15
+    },
+    {
+      "name": "COMMAND_BLOCK",
+      "value": 16
+    },
+    {
+      "name": "JUKEBOX",
+      "value": 17
+    },
+    {
+      "name": "ARMOR",
+      "value": 18
+    },
+    {
+      "name": "HAND",
+      "value": 19
+    },
+    {
+      "name": "COMPOUND_CREATOR",
+      "value": 20
+    },
+    {
+      "name": "ELEMENT_CONSTRUCTOR",
+      "value": 21
+    },
+    {
+      "name": "MATERIAL_REDUCER",
+      "value": 22
+    },
+    {
+      "name": "LAB_TABLE",
+      "value": 23
+    },
+    {
+      "name": "LOOM",
+      "value": 24
+    },
+    {
+      "name": "LECTERN",
+      "value": 25
+    },
+    {
+      "name": "GRINDSTONE",
+      "value": 26
+    },
+    {
+      "name": "BLAST_FURNACE",
+      "value": 27
+    },
+    {
+      "name": "SMOKER",
+      "value": 28
+    },
+    {
+      "name": "STONECUTTER",
+      "value": 29
+    },
+    {
+      "name": "CARTOGRAPHY",
+      "value": 30
+    },
+    {
+      "name": "HUD",
+      "value": 31
+    },
+    {
+      "name": "JIGSAW_EDITOR",
+      "value": 32
+    },
+    {
+      "name": "SMITHING_TABLE",
+      "value": 33
+    },
+    {
+      "name": "CHEST_BOAT",
+      "value": 34
+    },
+    {
+      "name": "DECORATED_POT",
+      "value": 35
+    },
+    {
+      "name": "CRAFTER",
+      "value": 36
+    }
+  ]
+}

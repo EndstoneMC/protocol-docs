@@ -1,0 +1,18 @@
+{
+  "id": 51,
+  "name": "ContainerSetDataPacket",
+  "fields": [
+    {
+      "name": "Container ID",
+      "type": "uint8"
+    },
+    {
+      "name": "ID",
+      "type": "int32"
+    },
+    {
+      "name": "Value",
+      "type": "int32"
+    }
+  ]
+}

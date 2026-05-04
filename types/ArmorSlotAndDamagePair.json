@@ -1,0 +1,14 @@
+{
+  "name": "ArmorSlotAndDamagePair",
+  "fields": [
+    {
+      "name": "Armor Slot",
+      "type": "string",
+      "enum": "SharedTypes::Legacy::ArmorSlot"
+    },
+    {
+      "name": "Damage",
+      "type": "int16"
+    }
+  ]
+}

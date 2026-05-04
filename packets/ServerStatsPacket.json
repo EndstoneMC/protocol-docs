@@ -1,0 +1,14 @@
+{
+  "id": 192,
+  "name": "ServerStatsPacket",
+  "fields": [
+    {
+      "name": "ServerTime",
+      "type": "float"
+    },
+    {
+      "name": "NetworkTime",
+      "type": "float"
+    }
+  ]
+}

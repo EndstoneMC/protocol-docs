@@ -1,0 +1,23 @@
+{
+  "id": 318,
+  "name": "MovementEffectPacket",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Effect ID",
+      "type": "string",
+      "enum": "MovementEffectType"
+    },
+    {
+      "name": "Effect Duration",
+      "type": "int32"
+    },
+    {
+      "name": "Tick",
+      "type": "PlayerInputTick"
+    }
+  ]
+}

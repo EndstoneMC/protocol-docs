@@ -1,0 +1,27 @@
+{
+  "id": 118,
+  "name": "SpawnParticleEffectPacket",
+  "fields": [
+    {
+      "name": "Dimension Id",
+      "type": "uint8"
+    },
+    {
+      "name": "Actor Id",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Effect Name",
+      "type": "string"
+    },
+    {
+      "name": "Molang Variables",
+      "type": "string",
+      "optional": true
+    }
+  ]
+}

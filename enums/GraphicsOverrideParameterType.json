@@ -1,0 +1,45 @@
+{
+  "name": "GraphicsOverrideParameterType",
+  "values": [
+    {
+      "name": "SkyZenithColor",
+      "value": 0
+    },
+    {
+      "name": "SkyHorizonColor",
+      "value": 1
+    },
+    {
+      "name": "HorizonBlendMin",
+      "value": 2
+    },
+    {
+      "name": "HorizonBlendMax",
+      "value": 3
+    },
+    {
+      "name": "HorizonBlendStart",
+      "value": 4
+    },
+    {
+      "name": "HorizonBlendMieStart",
+      "value": 5
+    },
+    {
+      "name": "RayleighStrength",
+      "value": 6
+    },
+    {
+      "name": "SunMieStrength",
+      "value": 7
+    },
+    {
+      "name": "MoonMieStrength",
+      "value": 8
+    },
+    {
+      "name": "SunGlareShape",
+      "value": 9
+    }
+  ]
+}

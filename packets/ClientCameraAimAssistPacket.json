@@ -1,0 +1,19 @@
+{
+  "id": 321,
+  "name": "ClientCameraAimAssistPacket",
+  "fields": [
+    {
+      "name": "Camera Preset Id",
+      "type": "string"
+    },
+    {
+      "name": "Action",
+      "type": "string",
+      "enum": "ClientCameraAimAssistPacketAction"
+    },
+    {
+      "name": "Allow aim assist",
+      "type": "bool"
+    }
+  ]
+}

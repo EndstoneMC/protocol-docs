@@ -1,0 +1,14 @@
+{
+  "id": 124,
+  "name": "LevelEventGenericPacket",
+  "fields": [
+    {
+      "name": "Event Id",
+      "type": "int32"
+    },
+    {
+      "name": "__[[CTD]]__",
+      "type": "CompoundTag"
+    }
+  ]
+}

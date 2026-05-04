@@ -1,0 +1,17 @@
+{
+  "name": "LessonAction",
+  "values": [
+    {
+      "name": "Start",
+      "value": 0
+    },
+    {
+      "name": "Complete",
+      "value": 1
+    },
+    {
+      "name": "Restart",
+      "value": 2
+    }
+  ]
+}

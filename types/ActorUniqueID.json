@@ -1,0 +1,9 @@
+{
+  "name": "ActorUniqueID",
+  "fields": [
+    {
+      "name": "Actor Unique ID",
+      "type": "int64"
+    }
+  ]
+}

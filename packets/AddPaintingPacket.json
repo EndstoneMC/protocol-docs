@@ -1,0 +1,26 @@
+{
+  "id": 22,
+  "name": "AddPaintingPacket",
+  "fields": [
+    {
+      "name": "Target Actor ID",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Direction",
+      "type": "int32"
+    },
+    {
+      "name": "Motif",
+      "type": "string"
+    }
+  ]
+}

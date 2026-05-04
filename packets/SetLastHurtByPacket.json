@@ -1,0 +1,11 @@
+{
+  "id": 96,
+  "name": "SetLastHurtByPacket",
+  "fields": [
+    {
+      "name": "LastHurtBy",
+      "type": "string",
+      "enum": "ActorType"
+    }
+  ]
+}

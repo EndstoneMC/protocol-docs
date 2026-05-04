@@ -1,0 +1,30 @@
+{
+  "id": 110,
+  "name": "UpdateBlockSyncedPacket",
+  "fields": [
+    {
+      "name": "Block Position",
+      "type": "NetworkBlockPosition"
+    },
+    {
+      "name": "Block Runtime ID",
+      "type": "uint32"
+    },
+    {
+      "name": "Flags",
+      "type": "uint32"
+    },
+    {
+      "name": "Layer",
+      "type": "uint32"
+    },
+    {
+      "name": "Unique Actor Id",
+      "type": "uint64"
+    },
+    {
+      "name": "Actor Sync Message",
+      "type": "uint64"
+    }
+  ]
+}

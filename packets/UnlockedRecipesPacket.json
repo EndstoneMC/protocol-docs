@@ -1,0 +1,18 @@
+{
+  "id": 199,
+  "name": "UnlockedRecipesPacket",
+  "fields": [
+    {
+      "name": "Packet Type",
+      "type": "string",
+      "enum": "UnlockedRecipesPacketPayload::PacketType"
+    },
+    {
+      "name": "Unlocked Recipes List",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

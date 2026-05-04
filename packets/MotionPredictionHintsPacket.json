@@ -1,0 +1,18 @@
+{
+  "id": 157,
+  "name": "MotionPredictionHintsPacket",
+  "fields": [
+    {
+      "name": "mRuntimeId",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "mMotion",
+      "type": "Vec3"
+    },
+    {
+      "name": "mOnGround",
+      "type": "bool"
+    }
+  ]
+}

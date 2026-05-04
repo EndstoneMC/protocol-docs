@@ -1,0 +1,18 @@
+{
+  "id": 38,
+  "name": "HurtArmorPacket",
+  "fields": [
+    {
+      "name": "Cause",
+      "type": "int32"
+    },
+    {
+      "name": "Damage",
+      "type": "int32"
+    },
+    {
+      "name": "Armor Slots",
+      "type": "uint64"
+    }
+  ]
+}

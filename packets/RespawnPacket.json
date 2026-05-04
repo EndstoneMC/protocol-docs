@@ -1,0 +1,19 @@
+{
+  "id": 45,
+  "name": "RespawnPacket",
+  "fields": [
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "State",
+      "type": "string",
+      "enum": "PlayerRespawnState"
+    },
+    {
+      "name": "Player Runtime Id",
+      "type": "ActorRuntimeID"
+    }
+  ]
+}

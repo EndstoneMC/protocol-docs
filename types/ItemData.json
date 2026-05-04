@@ -1,0 +1,26 @@
+{
+  "name": "ItemData",
+  "fields": [
+    {
+      "name": "Item Name",
+      "type": "string"
+    },
+    {
+      "name": "Item Id",
+      "type": "int16"
+    },
+    {
+      "name": "Is Component Based",
+      "type": "bool"
+    },
+    {
+      "name": "Item Version",
+      "type": "string",
+      "enum": "ItemVersion"
+    },
+    {
+      "name": "Item Component Data",
+      "type": "CompoundTag"
+    }
+  ]
+}

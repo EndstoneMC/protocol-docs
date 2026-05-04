@@ -1,0 +1,22 @@
+{
+  "id": 83,
+  "name": "ResourcePackChunkDataPacket",
+  "fields": [
+    {
+      "name": "Resource Name",
+      "type": "string"
+    },
+    {
+      "name": "Chunk ID",
+      "type": "uint32"
+    },
+    {
+      "name": "Byte Offset",
+      "type": "uint64"
+    },
+    {
+      "name": "Chunk Data",
+      "type": "string"
+    }
+  ]
+}

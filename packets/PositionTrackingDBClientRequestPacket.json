@@ -1,0 +1,15 @@
+{
+  "id": 154,
+  "name": "PositionTrackingDBClientRequestPacket",
+  "fields": [
+    {
+      "name": "Action",
+      "type": "string",
+      "enum": "PositionTrackingDBClientRequestPacketPayload::Action"
+    },
+    {
+      "name": "Id",
+      "type": "PositionTrackingId"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": 69,
+  "name": "RequestChunkRadiusPacket",
+  "fields": [
+    {
+      "name": "Chunk Radius",
+      "type": "int32"
+    },
+    {
+      "name": "Max ChunkRadius",
+      "type": "uint8"
+    }
+  ]
+}

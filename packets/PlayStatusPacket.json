@@ -1,0 +1,11 @@
+{
+  "id": 2,
+  "name": "PlayStatusPacket",
+  "fields": [
+    {
+      "name": "Status",
+      "type": "string",
+      "enum": "PlayStatus"
+    }
+  ]
+}

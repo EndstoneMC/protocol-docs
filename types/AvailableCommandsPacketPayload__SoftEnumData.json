@@ -1,0 +1,22 @@
+{
+  "name": "AvailableCommandsPacketPayload::SoftEnumData",
+  "fields": [
+    {
+      "name": "Enum Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 512
+      }
+    },
+    {
+      "name": "Enum Options",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 10000
+      }
+    }
+  ]
+}

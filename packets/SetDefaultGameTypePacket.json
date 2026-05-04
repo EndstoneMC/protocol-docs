@@ -1,0 +1,21 @@
+{
+  "id": 105,
+  "name": "SetDefaultGameTypePacket",
+  "fields": [
+    {
+      "name": "Default Game Type",
+      "type": "string",
+      "enum": "GameType",
+      "constraints": {
+        "enum_values": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          0
+        ]
+      }
+    }
+  ]
+}

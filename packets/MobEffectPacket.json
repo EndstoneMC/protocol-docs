@@ -1,0 +1,39 @@
+{
+  "id": 28,
+  "name": "MobEffectPacket",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Event ID",
+      "type": "string",
+      "enum": "MobEffectPacketPayload::Event"
+    },
+    {
+      "name": "Effect ID",
+      "type": "int32"
+    },
+    {
+      "name": "Effect Amplifier",
+      "type": "int32"
+    },
+    {
+      "name": "Show Particles",
+      "type": "bool"
+    },
+    {
+      "name": "Effect Duration Ticks",
+      "type": "int32"
+    },
+    {
+      "name": "Tick",
+      "type": "PlayerInputTick"
+    },
+    {
+      "name": "Ambient",
+      "type": "bool"
+    }
+  ]
+}

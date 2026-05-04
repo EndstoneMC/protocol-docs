@@ -1,0 +1,22 @@
+{
+  "id": 21,
+  "name": "UpdateBlockPacket",
+  "fields": [
+    {
+      "name": "Block Position",
+      "type": "NetworkBlockPosition"
+    },
+    {
+      "name": "Block Runtime ID",
+      "type": "uint32"
+    },
+    {
+      "name": "Flags",
+      "type": "uint32"
+    },
+    {
+      "name": "Layer",
+      "type": "uint32"
+    }
+  ]
+}

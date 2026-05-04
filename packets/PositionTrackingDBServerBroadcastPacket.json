@@ -1,0 +1,19 @@
+{
+  "id": 153,
+  "name": "PositionTrackingDBServerBroadcastPacket",
+  "fields": [
+    {
+      "name": "Action",
+      "type": "string",
+      "enum": "PositionTrackingDBServerBroadcastPacketPayload::Action"
+    },
+    {
+      "name": "Id",
+      "type": "PositionTrackingId"
+    },
+    {
+      "name": "Position tracking data",
+      "type": "CompoundTag"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": 35,
+  "name": "ActorPickRequestPacket",
+  "fields": [
+    {
+      "name": "Actor ID",
+      "type": "int64"
+    },
+    {
+      "name": "Max Slots",
+      "type": "uint8"
+    },
+    {
+      "name": "With Data",
+      "type": "bool"
+    }
+  ]
+}

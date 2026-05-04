@@ -1,0 +1,22 @@
+{
+  "id": 114,
+  "name": "UpdateSoftEnumPacket",
+  "fields": [
+    {
+      "name": "Enum Name",
+      "type": "string"
+    },
+    {
+      "name": "Values",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "Update Type",
+      "type": "string",
+      "enum": "SoftEnumUpdateType"
+    }
+  ]
+}

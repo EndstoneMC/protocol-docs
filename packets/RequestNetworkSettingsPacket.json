@@ -1,0 +1,14 @@
+{
+  "id": 193,
+  "name": "RequestNetworkSettingsPacket",
+  "fields": [
+    {
+      "name": "ClientNetworkVersion",
+      "type": "int32",
+      "constraints": {
+        "minimum": 897,
+        "maximum": 897
+      }
+    }
+  ]
+}

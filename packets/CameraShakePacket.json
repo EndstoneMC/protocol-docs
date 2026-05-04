@@ -1,0 +1,24 @@
+{
+  "id": 159,
+  "name": "CameraShakePacket",
+  "fields": [
+    {
+      "name": "Intensity",
+      "type": "float"
+    },
+    {
+      "name": "Seconds",
+      "type": "float"
+    },
+    {
+      "name": "Shake Type",
+      "type": "string",
+      "enum": "CameraShakeType"
+    },
+    {
+      "name": "Shake Action",
+      "type": "string",
+      "enum": "CameraShakeAction"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::BellUsed",
+  "fields": [
+    {
+      "name": "Item Id",
+      "type": "int16"
+    }
+  ]
+}

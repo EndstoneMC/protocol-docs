@@ -1,0 +1,27 @@
+{
+  "id": 98,
+  "name": "NpcRequestPacket",
+  "fields": [
+    {
+      "name": "NPC Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Request Type",
+      "type": "string",
+      "enum": "NpcRequestPacketPayload::RequestType"
+    },
+    {
+      "name": "Actions",
+      "type": "string"
+    },
+    {
+      "name": "Action Index",
+      "type": "uint8"
+    },
+    {
+      "name": "Scene Name",
+      "type": "string"
+    }
+  ]
+}

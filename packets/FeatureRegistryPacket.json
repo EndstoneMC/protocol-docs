@@ -1,0 +1,13 @@
+{
+  "id": 191,
+  "name": "FeatureRegistryPacket",
+  "fields": [
+    {
+      "name": "FeaturesDataList",
+      "type": "FeatureRegistry::FeatureBinaryJsonFormat",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

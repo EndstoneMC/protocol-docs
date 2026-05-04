@@ -1,0 +1,47 @@
+{
+  "name": "TextPacketPayload::MessageOnly",
+  "fields": [
+    {
+      "name": "raw",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "tip",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "systemMessage",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "textObjectWhisper",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "textObjectAnnouncement",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "textObject",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "Message Type",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "Message",
+      "type": "string",
+      "constraints": {
+        "min_length": 1
+      }
+    }
+  ]
+}

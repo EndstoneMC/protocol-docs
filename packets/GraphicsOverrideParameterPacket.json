@@ -1,0 +1,32 @@
+{
+  "id": 331,
+  "name": "GraphicsOverrideParameterPacket",
+  "fields": [
+    {
+      "name": "Parameter Keyframe Values",
+      "type": {
+        "key": "float",
+        "value": "Vec3"
+      },
+      "constraints": {
+        "max_properties": 255
+      }
+    },
+    {
+      "name": "Biome Identifier",
+      "type": "string",
+      "constraints": {
+        "max_length": 255
+      }
+    },
+    {
+      "name": "Identifier for Parameter",
+      "type": "string",
+      "enum": "GraphicsOverrideParameterType"
+    },
+    {
+      "name": "Reset Parameter",
+      "type": "bool"
+    }
+  ]
+}

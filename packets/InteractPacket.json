@@ -1,0 +1,20 @@
+{
+  "id": 33,
+  "name": "InteractPacket",
+  "fields": [
+    {
+      "name": "Action",
+      "type": "string",
+      "enum": "InteractPacketPayload::Action"
+    },
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Position",
+      "type": "Vec3",
+      "optional": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 327,
+  "name": "ClientboundControlSchemeSetPacket",
+  "fields": [
+    {
+      "name": "Control Scheme",
+      "type": "string",
+      "enum": "ControlScheme::Scheme"
+    }
+  ]
+}

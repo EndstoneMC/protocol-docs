@@ -1,0 +1,30 @@
+{
+  "id": 182,
+  "name": "ChangeMobPropertyPacket",
+  "fields": [
+    {
+      "name": "Actor Id",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Property Name",
+      "type": "string"
+    },
+    {
+      "name": "BoolComponent Value",
+      "type": "bool"
+    },
+    {
+      "name": "StringComponent Value",
+      "type": "string"
+    },
+    {
+      "name": "IntComponent Value",
+      "type": "int32"
+    },
+    {
+      "name": "FloatComponent Value",
+      "type": "float"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": 1,
+  "name": "LoginPacket",
+  "fields": [
+    {
+      "name": "Client Network Version",
+      "type": "int32"
+    },
+    {
+      "name": "Connection Request",
+      "type": "string",
+      "constraints": {
+        "description": "Connection request validity check"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "NetworkBlockPosition",
+  "fields": [
+    {
+      "name": "X",
+      "type": "int32"
+    },
+    {
+      "name": "Y",
+      "type": "uint32"
+    },
+    {
+      "name": "Z",
+      "type": "int32"
+    }
+  ]
+}

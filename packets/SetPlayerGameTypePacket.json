@@ -1,0 +1,11 @@
+{
+  "id": 62,
+  "name": "SetPlayerGameTypePacket",
+  "fields": [
+    {
+      "name": "Player Game Type",
+      "type": "string",
+      "enum": "GameType"
+    }
+  ]
+}

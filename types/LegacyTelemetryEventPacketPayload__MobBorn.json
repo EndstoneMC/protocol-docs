@@ -1,0 +1,17 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::MobBorn",
+  "fields": [
+    {
+      "name": "Born Baby: Entity Type",
+      "type": "int32"
+    },
+    {
+      "name": "Born Baby: Entity Variant",
+      "type": "int32"
+    },
+    {
+      "name": "Born Baby: Color",
+      "type": "uint8"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "TextPacketPayload::MessageAndParams",
+  "fields": [
+    {
+      "name": "translate",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "popup",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "jukeboxPopup",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "Message Type",
+      "type": "string",
+      "enum": "TextPacketType"
+    },
+    {
+      "name": "Message",
+      "type": "string",
+      "constraints": {
+        "min_length": 1
+      }
+    },
+    {
+      "name": "Parameter List",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 4
+      }
+    }
+  ]
+}

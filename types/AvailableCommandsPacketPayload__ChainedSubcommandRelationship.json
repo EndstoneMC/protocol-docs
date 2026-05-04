@@ -1,0 +1,13 @@
+{
+  "name": "AvailableCommandsPacketPayload::ChainedSubcommandRelationship",
+  "fields": [
+    {
+      "name": "SubCommand First Value",
+      "type": "uint32"
+    },
+    {
+      "name": "SubCommand Second Value",
+      "type": "uint32"
+    }
+  ]
+}

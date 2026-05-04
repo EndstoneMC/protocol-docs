@@ -1,0 +1,13 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::PiglinBarter",
+  "fields": [
+    {
+      "name": "Item Id",
+      "type": "int32"
+    },
+    {
+      "name": "Was Targeting Bartering Player",
+      "type": "bool"
+    }
+  ]
+}

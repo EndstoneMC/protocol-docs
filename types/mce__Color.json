@@ -1,0 +1,9 @@
+{
+  "name": "mce::Color",
+  "fields": [
+    {
+      "name": "Color",
+      "type": "int32"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": 44,
+  "name": "AnimatePacket",
+  "fields": [
+    {
+      "name": "Action",
+      "type": "string",
+      "enum": "AnimatePacketPayload::Action"
+    },
+    {
+      "name": "Target Actor Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Data",
+      "type": "float"
+    },
+    {
+      "name": "Swing Source",
+      "type": "string",
+      "enum": "ActorSwingSource",
+      "optional": true
+    }
+  ]
+}

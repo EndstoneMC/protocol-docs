@@ -1,0 +1,17 @@
+{
+  "name": "ShowStoreOfferRedirectType",
+  "values": [
+    {
+      "name": "MarketplaceOffer",
+      "value": 0
+    },
+    {
+      "name": "DressingRoomOffer",
+      "value": 1
+    },
+    {
+      "name": "ThirdPartyServerPage",
+      "value": 2
+    }
+  ]
+}

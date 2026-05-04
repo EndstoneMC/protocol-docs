@@ -1,0 +1,39 @@
+{
+  "id": 88,
+  "name": "SetTitlePacket",
+  "fields": [
+    {
+      "name": "Title Type",
+      "type": "string",
+      "enum": "SetTitlePacketPayload::TitleType"
+    },
+    {
+      "name": "Title Text",
+      "type": "string"
+    },
+    {
+      "name": "Fade In Time",
+      "type": "int32"
+    },
+    {
+      "name": "Stay Time",
+      "type": "int32"
+    },
+    {
+      "name": "Fade Out Time",
+      "type": "int32"
+    },
+    {
+      "name": "Xuid",
+      "type": "string"
+    },
+    {
+      "name": "Platform Online Id",
+      "type": "string"
+    },
+    {
+      "name": "Filtered Title Message",
+      "type": "string"
+    }
+  ]
+}

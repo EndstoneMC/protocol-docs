@@ -1,0 +1,17 @@
+{
+  "name": "BlockPos",
+  "fields": [
+    {
+      "name": "X",
+      "type": "int32"
+    },
+    {
+      "name": "Y",
+      "type": "int32"
+    },
+    {
+      "name": "Z",
+      "type": "int32"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": 109,
+  "name": "LabTablePacket",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "string",
+      "enum": "LabTablePacketPayload::Type"
+    },
+    {
+      "name": "Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Reaction",
+      "type": "string",
+      "enum": "LabTableReactionType"
+    }
+  ]
+}
