@@ -1,0 +1,14 @@
+{
+  "id": 167,
+  "name": "RemoveVolumeEntityPacket",
+  "fields": [
+    {
+      "name": "Entity Network Id",
+      "type": "EntityNetId"
+    },
+    {
+      "name": "Dimension Type",
+      "type": "AutomaticID<Dimension, int>"
+    }
+  ]
+}

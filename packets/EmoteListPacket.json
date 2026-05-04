@@ -1,0 +1,17 @@
+{
+  "id": 152,
+  "name": "EmoteListPacket",
+  "fields": [
+    {
+      "name": "Runtime id",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Emote piece ids",
+      "type": "mce::UUID",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

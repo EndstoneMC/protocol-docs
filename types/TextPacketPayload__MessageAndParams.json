@@ -1,0 +1,34 @@
+{
+  "name": "TextPacketPayload::MessageAndParams",
+  "fields": [
+    {
+      "name": "Message Type",
+      "type": "uvarint32",
+      "enum": "TextPacketType",
+      "constraints": {
+        "enum_values": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "name": "Message",
+      "type": "string",
+      "constraints": {
+        "min_length": 1
+      }
+    },
+    {
+      "name": "Parameter List",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "SphereDataPayload",
+  "fields": [
+    {
+      "name": "Num Segments",
+      "type": "uint8"
+    }
+  ]
+}

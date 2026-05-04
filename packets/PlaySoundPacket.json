@@ -1,0 +1,22 @@
+{
+  "id": 86,
+  "name": "PlaySoundPacket",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Volume",
+      "type": "float"
+    },
+    {
+      "name": "Pitch",
+      "type": "float"
+    }
+  ]
+}

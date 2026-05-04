@@ -1,0 +1,14 @@
+{
+  "id": 342,
+  "name": "PartyChangedPacket",
+  "fields": [
+    {
+      "name": "party_id",
+      "type": "string",
+      "constraints": {
+        "max_length": 49
+      },
+      "optional": true
+    }
+  ]
+}

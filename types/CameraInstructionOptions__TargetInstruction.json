@@ -1,0 +1,14 @@
+{
+  "name": "CameraInstructionOptions::TargetInstruction",
+  "fields": [
+    {
+      "name": "Target Center Offset",
+      "type": "Vec3",
+      "optional": true
+    },
+    {
+      "name": "Target Actor ID",
+      "type": "int64"
+    }
+  ]
+}

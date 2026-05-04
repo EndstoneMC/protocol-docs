@@ -1,0 +1,9 @@
+{
+  "name": "TextDataPayload",
+  "fields": [
+    {
+      "name": "Text",
+      "type": "string"
+    }
+  ]
+}

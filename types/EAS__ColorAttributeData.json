@@ -1,0 +1,14 @@
+{
+  "name": "EAS::ColorAttributeData",
+  "fields": [
+    {
+      "name": "value",
+      "type": "string"
+    },
+    {
+      "name": "operation",
+      "type": "string",
+      "enum": "EAS::ColorAttributeOperation"
+    }
+  ]
+}

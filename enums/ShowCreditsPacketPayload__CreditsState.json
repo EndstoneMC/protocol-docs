@@ -1,0 +1,13 @@
+{
+  "name": "ShowCreditsPacketPayload::CreditsState",
+  "values": [
+    {
+      "name": "Start",
+      "value": 0
+    },
+    {
+      "name": "Finished",
+      "value": 1
+    }
+  ]
+}

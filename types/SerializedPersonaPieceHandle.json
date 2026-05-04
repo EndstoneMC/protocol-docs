@@ -1,0 +1,26 @@
+{
+  "name": "SerializedPersonaPieceHandle",
+  "fields": [
+    {
+      "name": "PieceId",
+      "type": "string"
+    },
+    {
+      "name": "PieceType",
+      "type": "uint32",
+      "enum": "persona::PieceType"
+    },
+    {
+      "name": "PackId",
+      "type": "mce::UUID"
+    },
+    {
+      "name": "IsDefaultPiece",
+      "type": "bool"
+    },
+    {
+      "name": "ProductId",
+      "type": "string"
+    }
+  ]
+}

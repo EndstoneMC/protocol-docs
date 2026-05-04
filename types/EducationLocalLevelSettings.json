@@ -1,0 +1,10 @@
+{
+  "name": "EducationLocalLevelSettings",
+  "fields": [
+    {
+      "name": "Code Builder Override Uri",
+      "type": "string",
+      "optional": true
+    }
+  ]
+}

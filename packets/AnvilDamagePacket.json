@@ -1,0 +1,15 @@
+{
+  "id": 141,
+  "name": "AnvilDamagePacket",
+  "notes": "Sends the current damage the anvil has taken per use from client.",
+  "fields": [
+    {
+      "name": "Damage Amount",
+      "type": "uint8"
+    },
+    {
+      "name": "Block Position",
+      "type": "BlockPos"
+    }
+  ]
+}

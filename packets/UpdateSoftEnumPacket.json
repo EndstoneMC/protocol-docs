@@ -1,0 +1,23 @@
+{
+  "id": 114,
+  "name": "UpdateSoftEnumPacket",
+  "notes": "This allows someone to sync between server and client tags and enums on mobs or on the level.",
+  "fields": [
+    {
+      "name": "Enum Name",
+      "type": "string"
+    },
+    {
+      "name": "Values",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "Update Type",
+      "type": "uint8",
+      "enum": "SoftEnumUpdateType"
+    }
+  ]
+}

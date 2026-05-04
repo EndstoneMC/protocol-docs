@@ -1,0 +1,23 @@
+{
+  "id": 93,
+  "name": "PlayerSkinPacket",
+  "notes": "Sent from the client to server, then processed and broadcasted to all clients. This is used by third-party(3P) servers to send custom geometry.",
+  "fields": [
+    {
+      "name": "UUID",
+      "type": "mce::UUID"
+    },
+    {
+      "name": "Serialized Skin",
+      "type": "SerializedSkinRef"
+    },
+    {
+      "name": "Localized New Skin Name",
+      "type": "string"
+    },
+    {
+      "name": "Localized Old Skin Name",
+      "type": "string"
+    }
+  ]
+}

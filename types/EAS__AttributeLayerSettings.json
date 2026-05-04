@@ -1,0 +1,29 @@
+{
+  "name": "EAS::AttributeLayerSettings",
+  "fields": [
+    {
+      "name": "Priority",
+      "type": "int32"
+    },
+    {
+      "name": "Weight",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "float",
+          "string"
+        ]
+      }
+    },
+    {
+      "name": "Enabled",
+      "type": "bool"
+    },
+    {
+      "name": "TransitionsPaused",
+      "type": "bool"
+    }
+  ]
+}

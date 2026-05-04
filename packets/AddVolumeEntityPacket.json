@@ -1,0 +1,47 @@
+{
+  "id": 166,
+  "name": "AddVolumeEntityPacket",
+  "fields": [
+    {
+      "name": "Entity Network Id",
+      "type": "EntityNetId"
+    },
+    {
+      "name": "Components",
+      "type": "CompoundTag"
+    },
+    {
+      "name": "JSON Identifier",
+      "type": "string",
+      "constraints": {
+        "min_length": 1
+      }
+    },
+    {
+      "name": "Instance Name",
+      "type": "string",
+      "constraints": {
+        "min_length": 1
+      }
+    },
+    {
+      "name": "Min Bounds",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Max Bounds",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Dimension Type",
+      "type": "AutomaticID<Dimension, int>"
+    },
+    {
+      "name": "Engine Version",
+      "type": "string",
+      "constraints": {
+        "description": "Ensure it is a valid MinEngineVersion"
+      }
+    }
+  ]
+}

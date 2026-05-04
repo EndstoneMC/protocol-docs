@@ -1,0 +1,921 @@
+{
+  "name": "MinecraftPacketIds",
+  "values": [
+    {
+      "name": "KeepAlive",
+      "value": 0
+    },
+    {
+      "name": "Login",
+      "value": 1
+    },
+    {
+      "name": "PlayStatus",
+      "value": 2
+    },
+    {
+      "name": "ServerToClientHandshake",
+      "value": 3
+    },
+    {
+      "name": "ClientToServerHandshake",
+      "value": 4
+    },
+    {
+      "name": "Disconnect",
+      "value": 5
+    },
+    {
+      "name": "ResourcePacksInfo",
+      "value": 6
+    },
+    {
+      "name": "ResourcePackStack",
+      "value": 7
+    },
+    {
+      "name": "ResourcePackClientResponse",
+      "value": 8
+    },
+    {
+      "name": "Text",
+      "value": 9
+    },
+    {
+      "name": "SetTime",
+      "value": 10
+    },
+    {
+      "name": "StartGame",
+      "value": 11
+    },
+    {
+      "name": "AddPlayer",
+      "value": 12
+    },
+    {
+      "name": "AddActor",
+      "value": 13
+    },
+    {
+      "name": "RemoveActor",
+      "value": 14
+    },
+    {
+      "name": "AddItemActor",
+      "value": 15
+    },
+    {
+      "name": "ServerPlayerPostMovePosition",
+      "value": 16
+    },
+    {
+      "name": "TakeItemActor",
+      "value": 17
+    },
+    {
+      "name": "MoveAbsoluteActor",
+      "value": 18
+    },
+    {
+      "name": "MovePlayer",
+      "value": 19
+    },
+    {
+      "name": "PassengerJump",
+      "value": 20
+    },
+    {
+      "name": "UpdateBlock",
+      "value": 21
+    },
+    {
+      "name": "AddPainting",
+      "value": 22
+    },
+    {
+      "name": "TickSync",
+      "value": 23
+    },
+    {
+      "name": "LevelSoundEventV1",
+      "value": 24
+    },
+    {
+      "name": "LevelEvent",
+      "value": 25
+    },
+    {
+      "name": "TileEvent",
+      "value": 26
+    },
+    {
+      "name": "ActorEvent",
+      "value": 27
+    },
+    {
+      "name": "MobEffect",
+      "value": 28
+    },
+    {
+      "name": "UpdateAttributes",
+      "value": 29
+    },
+    {
+      "name": "InventoryTransaction",
+      "value": 30
+    },
+    {
+      "name": "PlayerEquipment",
+      "value": 31
+    },
+    {
+      "name": "MobArmorEquipment",
+      "value": 32
+    },
+    {
+      "name": "Interact",
+      "value": 33
+    },
+    {
+      "name": "BlockPickRequest",
+      "value": 34
+    },
+    {
+      "name": "ActorPickRequest",
+      "value": 35
+    },
+    {
+      "name": "PlayerAction",
+      "value": 36
+    },
+    {
+      "name": "ActorFall",
+      "value": 37
+    },
+    {
+      "name": "HurtArmor",
+      "value": 38
+    },
+    {
+      "name": "SetActorData",
+      "value": 39
+    },
+    {
+      "name": "SetActorMotion",
+      "value": 40
+    },
+    {
+      "name": "SetActorLink",
+      "value": 41
+    },
+    {
+      "name": "SetHealth",
+      "value": 42
+    },
+    {
+      "name": "SetSpawnPosition",
+      "value": 43
+    },
+    {
+      "name": "Animate",
+      "value": 44
+    },
+    {
+      "name": "Respawn",
+      "value": 45
+    },
+    {
+      "name": "ContainerOpen",
+      "value": 46
+    },
+    {
+      "name": "ContainerClose",
+      "value": 47
+    },
+    {
+      "name": "PlayerHotbar",
+      "value": 48
+    },
+    {
+      "name": "InventoryContent",
+      "value": 49
+    },
+    {
+      "name": "InventorySlot",
+      "value": 50
+    },
+    {
+      "name": "ContainerSetData",
+      "value": 51
+    },
+    {
+      "name": "CraftingData",
+      "value": 52
+    },
+    {
+      "name": "CraftingEvent",
+      "value": 53
+    },
+    {
+      "name": "GuiDataPickItem",
+      "value": 54
+    },
+    {
+      "name": "AdventureSettings",
+      "value": 55
+    },
+    {
+      "name": "BlockActorData",
+      "value": 56
+    },
+    {
+      "name": "PlayerInput",
+      "value": 57
+    },
+    {
+      "name": "FullChunkData",
+      "value": 58
+    },
+    {
+      "name": "SetCommandsEnabled",
+      "value": 59
+    },
+    {
+      "name": "SetDifficulty",
+      "value": 60
+    },
+    {
+      "name": "ChangeDimension",
+      "value": 61
+    },
+    {
+      "name": "SetPlayerGameType",
+      "value": 62
+    },
+    {
+      "name": "PlayerList",
+      "value": 63
+    },
+    {
+      "name": "SimpleEvent",
+      "value": 64
+    },
+    {
+      "name": "LegacyTelemetryEvent",
+      "value": 65
+    },
+    {
+      "name": "SpawnExperienceOrb",
+      "value": 66
+    },
+    {
+      "name": "MapData",
+      "value": 67
+    },
+    {
+      "name": "MapInfoRequest",
+      "value": 68
+    },
+    {
+      "name": "RequestChunkRadius",
+      "value": 69
+    },
+    {
+      "name": "ChunkRadiusUpdated",
+      "value": 70
+    },
+    {
+      "name": "ItemFrameDropItem",
+      "value": 71
+    },
+    {
+      "name": "GameRulesChanged",
+      "value": 72
+    },
+    {
+      "name": "Camera",
+      "value": 73
+    },
+    {
+      "name": "BossEvent",
+      "value": 74
+    },
+    {
+      "name": "ShowCredits",
+      "value": 75
+    },
+    {
+      "name": "AvailableCommands",
+      "value": 76
+    },
+    {
+      "name": "CommandRequest",
+      "value": 77
+    },
+    {
+      "name": "CommandBlockUpdate",
+      "value": 78
+    },
+    {
+      "name": "CommandOutput",
+      "value": 79
+    },
+    {
+      "name": "UpdateTrade",
+      "value": 80
+    },
+    {
+      "name": "UpdateEquip",
+      "value": 81
+    },
+    {
+      "name": "ResourcePackDataInfo",
+      "value": 82
+    },
+    {
+      "name": "ResourcePackChunkData",
+      "value": 83
+    },
+    {
+      "name": "ResourcePackChunkRequest",
+      "value": 84
+    },
+    {
+      "name": "Transfer",
+      "value": 85
+    },
+    {
+      "name": "PlaySound",
+      "value": 86
+    },
+    {
+      "name": "StopSound",
+      "value": 87
+    },
+    {
+      "name": "SetTitle",
+      "value": 88
+    },
+    {
+      "name": "AddBehaviorTree",
+      "value": 89
+    },
+    {
+      "name": "StructureBlockUpdate",
+      "value": 90
+    },
+    {
+      "name": "ShowStoreOffer",
+      "value": 91
+    },
+    {
+      "name": "PurchaseReceipt",
+      "value": 92
+    },
+    {
+      "name": "PlayerSkin",
+      "value": 93
+    },
+    {
+      "name": "SubclientLogin",
+      "value": 94
+    },
+    {
+      "name": "AutomationClientConnect",
+      "value": 95
+    },
+    {
+      "name": "SetLastHurtBy",
+      "value": 96
+    },
+    {
+      "name": "BookEdit",
+      "value": 97
+    },
+    {
+      "name": "NPCRequest",
+      "value": 98
+    },
+    {
+      "name": "PhotoTransfer",
+      "value": 99
+    },
+    {
+      "name": "ShowModalForm",
+      "value": 100
+    },
+    {
+      "name": "ModalFormResponse",
+      "value": 101
+    },
+    {
+      "name": "ServerSettingsRequest",
+      "value": 102
+    },
+    {
+      "name": "ServerSettingsResponse",
+      "value": 103
+    },
+    {
+      "name": "ShowProfile",
+      "value": 104
+    },
+    {
+      "name": "SetDefaultGameType",
+      "value": 105
+    },
+    {
+      "name": "RemoveObjective",
+      "value": 106
+    },
+    {
+      "name": "SetDisplayObjective",
+      "value": 107
+    },
+    {
+      "name": "SetScore",
+      "value": 108
+    },
+    {
+      "name": "LabTable",
+      "value": 109
+    },
+    {
+      "name": "UpdateBlockSynced",
+      "value": 110
+    },
+    {
+      "name": "MoveDeltaActor",
+      "value": 111
+    },
+    {
+      "name": "SetScoreboardIdentity",
+      "value": 112
+    },
+    {
+      "name": "SetLocalPlayerAsInit",
+      "value": 113
+    },
+    {
+      "name": "UpdateSoftEnum",
+      "value": 114
+    },
+    {
+      "name": "Ping",
+      "value": 115
+    },
+    {
+      "name": "BlockPalette",
+      "value": 116
+    },
+    {
+      "name": "ScriptCustomEvent",
+      "value": 117
+    },
+    {
+      "name": "SpawnParticleEffect",
+      "value": 118
+    },
+    {
+      "name": "AvailableActorIDList",
+      "value": 119
+    },
+    {
+      "name": "LevelSoundEventV2",
+      "value": 120
+    },
+    {
+      "name": "NetworkChunkPublisherUpdate",
+      "value": 121
+    },
+    {
+      "name": "BiomeDefinitionList",
+      "value": 122
+    },
+    {
+      "name": "LevelSoundEvent",
+      "value": 123
+    },
+    {
+      "name": "LevelEventGeneric",
+      "value": 124
+    },
+    {
+      "name": "LecternUpdate",
+      "value": 125
+    },
+    {
+      "name": "VideoStreamConnect",
+      "value": 126
+    },
+    {
+      "name": "AddEntity",
+      "value": 127
+    },
+    {
+      "name": "RemoveEntity",
+      "value": 128
+    },
+    {
+      "name": "ClientCacheStatus",
+      "value": 129
+    },
+    {
+      "name": "OnScreenTextureAnimation",
+      "value": 130
+    },
+    {
+      "name": "MapCreateLockedCopy",
+      "value": 131
+    },
+    {
+      "name": "StructureTemplateDataExportRequest",
+      "value": 132
+    },
+    {
+      "name": "StructureTemplateDataExportResponse",
+      "value": 133
+    },
+    {
+      "name": "ClientCacheBlobStatusPacket",
+      "value": 135
+    },
+    {
+      "name": "ClientCacheMissResponsePacket",
+      "value": 136
+    },
+    {
+      "name": "EducationSettingsPacket",
+      "value": 137
+    },
+    {
+      "name": "Emote",
+      "value": 138
+    },
+    {
+      "name": "MultiplayerSettingsPacket",
+      "value": 139
+    },
+    {
+      "name": "SettingsCommandPacket",
+      "value": 140
+    },
+    {
+      "name": "AnvilDamage",
+      "value": 141
+    },
+    {
+      "name": "CompletedUsingItem",
+      "value": 142
+    },
+    {
+      "name": "NetworkSettings",
+      "value": 143
+    },
+    {
+      "name": "PlayerAuthInputPacket",
+      "value": 144
+    },
+    {
+      "name": "CreativeContent",
+      "value": 145
+    },
+    {
+      "name": "PlayerEnchantOptions",
+      "value": 146
+    },
+    {
+      "name": "ItemStackRequest",
+      "value": 147
+    },
+    {
+      "name": "ItemStackResponse",
+      "value": 148
+    },
+    {
+      "name": "PlayerArmorDamage",
+      "value": 149
+    },
+    {
+      "name": "CodeBuilderPacket",
+      "value": 150
+    },
+    {
+      "name": "UpdatePlayerGameType",
+      "value": 151
+    },
+    {
+      "name": "EmoteList",
+      "value": 152
+    },
+    {
+      "name": "PositionTrackingDBServerBroadcast",
+      "value": 153
+    },
+    {
+      "name": "PositionTrackingDBClientRequest",
+      "value": 154
+    },
+    {
+      "name": "DebugInfoPacket",
+      "value": 155
+    },
+    {
+      "name": "PacketViolationWarning",
+      "value": 156
+    },
+    {
+      "name": "MotionPredictionHints",
+      "value": 157
+    },
+    {
+      "name": "TriggerAnimation",
+      "value": 158
+    },
+    {
+      "name": "CameraShake",
+      "value": 159
+    },
+    {
+      "name": "PlayerFogSetting",
+      "value": 160
+    },
+    {
+      "name": "CorrectPlayerMovePredictionPacket",
+      "value": 161
+    },
+    {
+      "name": "ItemRegistryPacket",
+      "value": 162
+    },
+    {
+      "name": "FilterTextPacket",
+      "value": 163
+    },
+    {
+      "name": "ClientBoundDebugRendererPacket",
+      "value": 164
+    },
+    {
+      "name": "SyncActorProperty",
+      "value": 165
+    },
+    {
+      "name": "AddVolumeEntityPacket",
+      "value": 166
+    },
+    {
+      "name": "RemoveVolumeEntityPacket",
+      "value": 167
+    },
+    {
+      "name": "SimulationTypePacket",
+      "value": 168
+    },
+    {
+      "name": "NpcDialoguePacket",
+      "value": 169
+    },
+    {
+      "name": "EduUriResourcePacket",
+      "value": 170
+    },
+    {
+      "name": "CreatePhotoPacket",
+      "value": 171
+    },
+    {
+      "name": "UpdateSubChunkBlocks",
+      "value": 172
+    },
+    {
+      "name": "PhotoInfoRequest",
+      "value": 173
+    },
+    {
+      "name": "SubChunkPacket",
+      "value": 174
+    },
+    {
+      "name": "SubChunkRequestPacket",
+      "value": 175
+    },
+    {
+      "name": "PlayerStartItemCooldown",
+      "value": 176
+    },
+    {
+      "name": "ScriptMessagePacket",
+      "value": 177
+    },
+    {
+      "name": "CodeBuilderSourcePacket",
+      "value": 178
+    },
+    {
+      "name": "TickingAreasLoadStatus",
+      "value": 179
+    },
+    {
+      "name": "DimensionDataPacket",
+      "value": 180
+    },
+    {
+      "name": "AgentAction",
+      "value": 181
+    },
+    {
+      "name": "ChangeMobProperty",
+      "value": 182
+    },
+    {
+      "name": "LessonProgressPacket",
+      "value": 183
+    },
+    {
+      "name": "RequestAbilityPacket",
+      "value": 184
+    },
+    {
+      "name": "RequestPermissionsPacket",
+      "value": 185
+    },
+    {
+      "name": "ToastRequest",
+      "value": 186
+    },
+    {
+      "name": "UpdateAbilitiesPacket",
+      "value": 187
+    },
+    {
+      "name": "UpdateAdventureSettingsPacket",
+      "value": 188
+    },
+    {
+      "name": "DeathInfo",
+      "value": 189
+    },
+    {
+      "name": "EditorNetworkPacket",
+      "value": 190
+    },
+    {
+      "name": "FeatureRegistryPacket",
+      "value": 191
+    },
+    {
+      "name": "ServerStats",
+      "value": 192
+    },
+    {
+      "name": "RequestNetworkSettings",
+      "value": 193
+    },
+    {
+      "name": "GameTestRequestPacket",
+      "value": 194
+    },
+    {
+      "name": "GameTestResultsPacket",
+      "value": 195
+    },
+    {
+      "name": "PlayerClientInputPermissions",
+      "value": 196
+    },
+    {
+      "name": "ClientCheatAbilityPacket",
+      "value": 197
+    },
+    {
+      "name": "CameraPresets",
+      "value": 198
+    },
+    {
+      "name": "UnlockedRecipes",
+      "value": 199
+    },
+    {
+      "name": "TitleSpecificPacketsStart",
+      "value": 200
+    },
+    {
+      "name": "TitleSpecificPacketsEnd",
+      "value": 299
+    },
+    {
+      "name": "CameraInstruction",
+      "value": 300
+    },
+    {
+      "name": "CompressedBiomeDefinitionList",
+      "value": 301
+    },
+    {
+      "name": "TrimData",
+      "value": 302
+    },
+    {
+      "name": "OpenSign",
+      "value": 303
+    },
+    {
+      "name": "AgentAnimation",
+      "value": 304
+    },
+    {
+      "name": "RefreshEntitlementsPacket",
+      "value": 305
+    },
+    {
+      "name": "PlayerToggleCrafterSlotRequestPacket",
+      "value": 306
+    },
+    {
+      "name": "SetPlayerInventoryOptions",
+      "value": 307
+    },
+    {
+      "name": "SetHudPacket",
+      "value": 308
+    },
+    {
+      "name": "AwardAchievementPacket",
+      "value": 309
+    },
+    {
+      "name": "ClientboundCloseScreen",
+      "value": 310
+    },
+    {
+      "name": "ClientboundLoadingScreenPacket",
+      "value": 311
+    },
+    {
+      "name": "ServerboundLoadingScreenPacket",
+      "value": 312
+    },
+    {
+      "name": "JigsawStructureDataPacket",
+      "value": 313
+    },
+    {
+      "name": "CurrentStructureFeaturePacket",
+      "value": 314
+    },
+    {
+      "name": "ServerboundDiagnosticsPacket",
+      "value": 315
+    },
+    {
+      "name": "CameraAimAssist",
+      "value": 316
+    },
+    {
+      "name": "ContainerRegistryCleanup",
+      "value": 317
+    },
+    {
+      "name": "MovementEffect",
+      "value": 318
+    },
+    {
+      "name": "SetMovementAuthorityMode",
+      "value": 319
+    },
+    {
+      "name": "CameraAimAssistActorPriority",
+      "value": 339
+    },
+    {
+      "name": "CameraAimAssistPresets",
+      "value": 320
+    },
+    {
+      "name": "ClientCameraAimAssist",
+      "value": 321
+    },
+    {
+      "name": "ClientMovementPredictionSyncPacket",
+      "value": 322
+    },
+    {
+      "name": "UpdateClientOptions",
+      "value": 323
+    },
+    {
+      "name": "PlayerVideoCapturePacket",
+      "value": 324
+    },
+    {
+      "name": "PlayerUpdateEntityOverridesPacket",
+      "value": 325
+    },
+    {
+      "name": "PlayerLocation",
+      "value": 326
+    }
+  ]
+}

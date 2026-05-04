@@ -1,0 +1,25 @@
+{
+  "id": 97,
+  "name": "BookEditPacket",
+  "fields": [
+    {
+      "name": "Book Slot",
+      "type": "varint32"
+    },
+    {
+      "name": "Operation",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "BookEditAction::ReplacePage",
+          "BookEditAction::AddPage",
+          "BookEditAction::DeletePage",
+          "BookEditAction::SwapPages",
+          "BookEditAction::Finalize"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": 308,
+  "name": "SetHudPacket",
+  "notes": "This packet will toggle the HUD visibility.",
+  "fields": [
+    {
+      "name": "Hud Element",
+      "type": "HudElement",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "Hud Visible",
+      "type": "uvarint32",
+      "enum": "HudVisibility"
+    }
+  ]
+}

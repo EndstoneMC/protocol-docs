@@ -1,0 +1,20 @@
+{
+  "name": "AttributeLayerSyncPacketData::UpdateAttributeLayerSettingsData",
+  "fields": [
+    {
+      "name": "Attribute Layer Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 128
+      }
+    },
+    {
+      "name": "Attribute Layer Dimension",
+      "type": "AutomaticID<Dimension, int>"
+    },
+    {
+      "name": "Attributes Layer Settings",
+      "type": "EAS::AttributeLayerSettings"
+    }
+  ]
+}

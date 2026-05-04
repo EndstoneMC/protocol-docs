@@ -1,0 +1,100 @@
+{
+  "name": "SerializedSkinRef",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "string"
+    },
+    {
+      "name": "PlayFabID",
+      "type": "string"
+    },
+    {
+      "name": "ResourcePatch",
+      "type": "string"
+    },
+    {
+      "name": "ImageData",
+      "type": "SkinImage"
+    },
+    {
+      "name": "AnimatedImageData",
+      "type": "AnimatedImageData",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "CapeImageData",
+      "type": "SkinImage"
+    },
+    {
+      "name": "GeometryData",
+      "type": "string"
+    },
+    {
+      "name": "GeometryDataMinEngineVersion",
+      "type": "string"
+    },
+    {
+      "name": "AnimationData",
+      "type": "string"
+    },
+    {
+      "name": "CapeID",
+      "type": "string"
+    },
+    {
+      "name": "FullID",
+      "type": "string"
+    },
+    {
+      "name": "ArmSize",
+      "type": "uint8",
+      "enum": "persona::ArmSize::Type"
+    },
+    {
+      "name": "SkinColor",
+      "type": "mce::Color"
+    },
+    {
+      "name": "PersonaPieces",
+      "type": "SerializedPersonaPieceHandle",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "PieceTintColors",
+      "type": {
+        "key": "persona::PieceType",
+        "value": "TintMapColor"
+      }
+    },
+    {
+      "name": "IsPremium",
+      "type": "bool"
+    },
+    {
+      "name": "IsPersona",
+      "type": "bool"
+    },
+    {
+      "name": "IsPersonaCapeOnClassicSkin",
+      "type": "bool"
+    },
+    {
+      "name": "IsPrimaryUser",
+      "type": "bool"
+    },
+    {
+      "name": "OverridesPlayerAppearance",
+      "type": "bool"
+    },
+    {
+      "name": "TrustedSkinFlag",
+      "type": "string",
+      "enum": "TrustedSkinFlag"
+    }
+  ]
+}

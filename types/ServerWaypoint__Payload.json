@@ -1,0 +1,39 @@
+{
+  "name": "ServerWaypoint::Payload",
+  "fields": [
+    {
+      "name": "UpdateFlag",
+      "type": "uint32"
+    },
+    {
+      "name": "IsVisible",
+      "type": "bool",
+      "optional": true
+    },
+    {
+      "name": "WorldPosition",
+      "type": "WorldPosition",
+      "optional": true
+    },
+    {
+      "name": "TextureId",
+      "type": "uint32",
+      "optional": true
+    },
+    {
+      "name": "Color",
+      "type": "mce::Color",
+      "optional": true
+    },
+    {
+      "name": "ClientPositionAuthority",
+      "type": "bool",
+      "optional": true
+    },
+    {
+      "name": "ActorUniqueID",
+      "type": "ActorUniqueID",
+      "optional": true
+    }
+  ]
+}

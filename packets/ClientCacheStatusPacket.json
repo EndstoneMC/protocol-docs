@@ -1,0 +1,11 @@
+{
+  "id": 129,
+  "name": "ClientCacheStatusPacket",
+  "notes": "Sent by the Client once, at login, to communicate if it supports the client blob cache protocol or not.\n\t<br> Documented in <a href=https://github.com/Mojang/bedrock-docs/blob/master/GameplaySystems/ClientBlobCacheProtocol.md>https://github.com/Mojang/bedrock-docs/blob/master/GameplaySystems/ClientBlobCacheProtocol.md</a>",
+  "fields": [
+    {
+      "name": "Is cache supported?",
+      "type": "bool"
+    }
+  ]
+}

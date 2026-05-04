@@ -1,0 +1,42 @@
+{
+  "id": 336,
+  "name": "ClientboundTextureShiftPacket",
+  "fields": [
+    {
+      "name": "Action ID",
+      "type": "uint8",
+      "enum": "ClientboundTextureShiftPacketPayload::Action"
+    },
+    {
+      "name": "Collection Name",
+      "type": "string"
+    },
+    {
+      "name": "From Step",
+      "type": "string"
+    },
+    {
+      "name": "To Step",
+      "type": "string"
+    },
+    {
+      "name": "All Steps",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "Current Length In Ticks",
+      "type": "uvarint64"
+    },
+    {
+      "name": "Total Length In Ticks",
+      "type": "uvarint64"
+    },
+    {
+      "name": "Enabled",
+      "type": "bool"
+    }
+  ]
+}

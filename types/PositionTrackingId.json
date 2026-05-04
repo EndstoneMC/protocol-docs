@@ -1,0 +1,9 @@
+{
+  "name": "PositionTrackingId",
+  "fields": [
+    {
+      "name": "Value",
+      "type": "varint32"
+    }
+  ]
+}

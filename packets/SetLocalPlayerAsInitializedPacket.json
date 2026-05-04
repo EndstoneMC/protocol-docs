@@ -1,0 +1,11 @@
+{
+  "id": 113,
+  "name": "SetLocalPlayerAsInitializedPacket",
+  "notes": "Client tells the server that the client is ready to roll.",
+  "fields": [
+    {
+      "name": "Player ID",
+      "type": "ActorRuntimeID"
+    }
+  ]
+}

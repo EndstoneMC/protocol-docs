@@ -1,0 +1,22 @@
+{
+  "id": 333,
+  "name": "ClientboundDataDrivenUIShowScreenPacket",
+  "fields": [
+    {
+      "name": "ScreenId",
+      "type": "string",
+      "constraints": {
+        "max_length": 500
+      }
+    },
+    {
+      "name": "FormId",
+      "type": "uint32"
+    },
+    {
+      "name": "DataInstanceId",
+      "type": "uint32",
+      "optional": true
+    }
+  ]
+}

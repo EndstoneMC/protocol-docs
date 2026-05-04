@@ -1,0 +1,15 @@
+{
+  "name": "SyncWorldClocksPacketPayload::SyncStateData",
+  "fields": [
+    {
+      "name": "ClockData",
+      "type": "SyncWorldClockStateData",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 256
+      }
+    }
+  ]
+}
