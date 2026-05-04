@@ -1,0 +1,23 @@
+{
+  "id": 132,
+  "name": "StructureTemplateDataRequestPacket",
+  "fields": [
+    {
+      "name": "Structure Name",
+      "type": "string"
+    },
+    {
+      "name": "Structure Position",
+      "type": "NetworkBlockPosition"
+    },
+    {
+      "name": "Structure Settings",
+      "type": "StructureSettings"
+    },
+    {
+      "name": "Requested Operation",
+      "type": "uint8",
+      "enum": "StructureTemplateRequestOperation"
+    }
+  ]
+}

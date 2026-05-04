@@ -1,0 +1,25 @@
+{
+  "name": "InteractPacketPayload::Action",
+  "values": [
+    {
+      "name": "Invalid",
+      "value": 0
+    },
+    {
+      "name": "StopRiding",
+      "value": 3
+    },
+    {
+      "name": "InteractUpdate",
+      "value": 4
+    },
+    {
+      "name": "NpcOpen",
+      "value": 5
+    },
+    {
+      "name": "OpenInventory",
+      "value": 6
+    }
+  ]
+}

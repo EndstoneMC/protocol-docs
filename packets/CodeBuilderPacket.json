@@ -1,0 +1,14 @@
+{
+  "id": 150,
+  "name": "CodeBuilderPacket",
+  "fields": [
+    {
+      "name": "URL",
+      "type": "string"
+    },
+    {
+      "name": "Should open code builder",
+      "type": "bool"
+    }
+  ]
+}

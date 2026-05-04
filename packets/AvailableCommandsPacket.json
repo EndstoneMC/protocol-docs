@@ -1,0 +1,65 @@
+{
+  "id": 76,
+  "name": "AvailableCommandsPacket",
+  "fields": [
+    {
+      "name": "Enum Values",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "Chained Subcommand Values",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "Post Fixes",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "Enum Data",
+      "type": "AvailableCommandsPacketPayload::EnumData",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "Chained Subcommand Data",
+      "type": "AvailableCommandsPacketPayload::ChainedSubcommandData",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 16
+      }
+    },
+    {
+      "name": "Commands",
+      "type": "AvailableCommandsPacketPayload::CommandData",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "Soft Enums",
+      "type": "AvailableCommandsPacketPayload::SoftEnumData",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "Constraints",
+      "type": "AvailableCommandsPacketPayload::ConstrainedValueData",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

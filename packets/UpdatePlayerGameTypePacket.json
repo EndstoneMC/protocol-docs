@@ -1,0 +1,19 @@
+{
+  "id": 151,
+  "name": "UpdatePlayerGameTypePacket",
+  "fields": [
+    {
+      "name": "Player Game Type",
+      "type": "uvarint32",
+      "enum": "GameType"
+    },
+    {
+      "name": "Target player",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Tick",
+      "type": "PlayerInputTick"
+    }
+  ]
+}

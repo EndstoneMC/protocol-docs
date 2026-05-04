@@ -1,0 +1,64 @@
+{
+  "name": "Bedrock::DDUI::DataStoreUpdate",
+  "fields": [
+    {
+      "name": "Data Store Name",
+      "type": "string",
+      "constraints": {
+        "min_length": 1,
+        "max_length": 1000
+      }
+    },
+    {
+      "name": "Property",
+      "type": "string",
+      "constraints": {
+        "min_length": 1,
+        "max_length": 1000
+      }
+    },
+    {
+      "name": "Path",
+      "type": "string",
+      "constraints": {
+        "max_length": 1000
+      }
+    },
+    {
+      "name": "Data",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "double",
+          "bool",
+          "string"
+        ]
+      },
+      "constraints": {
+        "variant_types": [
+          null,
+          null,
+          {
+            "max_length": 5000
+          }
+        ]
+      }
+    },
+    {
+      "name": "Property Update Count",
+      "type": "uint32",
+      "constraints": {
+        "maximum": 4294967294
+      }
+    },
+    {
+      "name": "Path Update Count",
+      "type": "uint32",
+      "constraints": {
+        "maximum": 4294967294
+      }
+    }
+  ]
+}

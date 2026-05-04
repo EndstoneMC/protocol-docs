@@ -1,0 +1,22 @@
+{
+  "id": 312,
+  "name": "ServerboundLoadingScreenPacket",
+  "fields": [
+    {
+      "name": "Loading Screen Packet Type",
+      "type": "uvarint32",
+      "enum": "ServerboundLoadingScreenPacketType",
+      "constraints": {
+        "enum_values": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Loading Screen Id",
+      "type": "uint32",
+      "optional": true
+    }
+  ]
+}

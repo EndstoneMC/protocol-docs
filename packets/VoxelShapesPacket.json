@@ -1,0 +1,20 @@
+{
+  "id": 337,
+  "name": "VoxelShapesPacket",
+  "fields": [
+    {
+      "name": "Shapes",
+      "type": "VoxelShapes::SerializableVoxelShape",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "Name Map",
+      "type": {
+        "key": "string",
+        "value": "VoxelShapes::RegistryHandle"
+      }
+    }
+  ]
+}

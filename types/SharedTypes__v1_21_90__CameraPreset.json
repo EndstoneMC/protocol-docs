@@ -1,0 +1,115 @@
+{
+  "name": "SharedTypes::v1_21_90::CameraPreset",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Inherit From",
+      "type": "string"
+    },
+    {
+      "name": "Pos X",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Pos Y",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Pos Z",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Rot X",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Rot Y",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Rotation Speed",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Snap to Target",
+      "type": "bool",
+      "optional": true
+    },
+    {
+      "name": "Horizontal Rotation Limit",
+      "type": "Vec2",
+      "optional": true
+    },
+    {
+      "name": "Vertical Rotation Limit",
+      "type": "Vec2",
+      "optional": true
+    },
+    {
+      "name": "Continue Targeting",
+      "type": "bool",
+      "optional": true
+    },
+    {
+      "name": "Block Listening Radius",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "View Offset",
+      "type": "Vec2",
+      "optional": true
+    },
+    {
+      "name": "Entity Offset",
+      "type": "Vec3",
+      "optional": true
+    },
+    {
+      "name": "Radius",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Yaw Limit Min",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Yaw Limit Max",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Listener",
+      "type": "uint8",
+      "enum": "SharedTypes::v1_21_90::CameraPreset::AudioListener",
+      "optional": true
+    },
+    {
+      "name": "Player Effects",
+      "type": "bool",
+      "optional": true
+    },
+    {
+      "name": "Aim Assist",
+      "type": "SharedTypes::v1_21_50::CameraAimAssistCommandPresetDefinition",
+      "optional": true
+    },
+    {
+      "name": "Control Scheme",
+      "type": "uint8",
+      "enum": "ControlScheme::Scheme",
+      "optional": true
+    }
+  ]
+}

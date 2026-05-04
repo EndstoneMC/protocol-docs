@@ -1,0 +1,38 @@
+{
+  "id": 9,
+  "name": "TextPacket",
+  "fields": [
+    {
+      "name": "Localize?",
+      "type": "bool"
+    },
+    {
+      "name": "Body",
+      "type": {
+        "switch": {
+          "name": "Message Type",
+          "type": "uvarint32",
+          "enum": "TextPacketType"
+        },
+        "cases": [
+          "TextPacketPayload::MessageOnly",
+          "TextPacketPayload::AuthorAndMessage",
+          "TextPacketPayload::MessageAndParams"
+        ]
+      }
+    },
+    {
+      "name": "Sender's XUID",
+      "type": "string"
+    },
+    {
+      "name": "Platform Id",
+      "type": "string"
+    },
+    {
+      "name": "Filtered Message",
+      "type": "string",
+      "optional": true
+    }
+  ]
+}

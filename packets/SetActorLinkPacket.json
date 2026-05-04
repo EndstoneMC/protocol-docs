@@ -1,0 +1,10 @@
+{
+  "id": 41,
+  "name": "SetActorLinkPacket",
+  "fields": [
+    {
+      "name": "Link",
+      "type": "ActorLink"
+    }
+  ]
+}

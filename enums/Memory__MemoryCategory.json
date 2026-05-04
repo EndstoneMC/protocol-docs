@@ -1,0 +1,329 @@
+{
+  "name": "Memory::MemoryCategory",
+  "values": [
+    {
+      "name": "Unknown",
+      "value": 0
+    },
+    {
+      "name": "Invalid_SizeUnknown",
+      "value": 1
+    },
+    {
+      "name": "Actor",
+      "value": 2
+    },
+    {
+      "name": "ActorAnimation",
+      "value": 3
+    },
+    {
+      "name": "ActorRendering",
+      "value": 4
+    },
+    {
+      "name": "Balancer",
+      "value": 5
+    },
+    {
+      "name": "BlockTickingQueues",
+      "value": 6
+    },
+    {
+      "name": "Biome_Storage",
+      "value": 7
+    },
+    {
+      "name": "Cereal",
+      "value": 8
+    },
+    {
+      "name": "CircuitSystem",
+      "value": 9
+    },
+    {
+      "name": "Client",
+      "value": 10
+    },
+    {
+      "name": "Commands",
+      "value": 11
+    },
+    {
+      "name": "DBStorage",
+      "value": 12
+    },
+    {
+      "name": "Debug",
+      "value": 13
+    },
+    {
+      "name": "Documentation",
+      "value": 14
+    },
+    {
+      "name": "ECSSystems",
+      "value": 15
+    },
+    {
+      "name": "FMOD",
+      "value": 16
+    },
+    {
+      "name": "Fonts",
+      "value": 17
+    },
+    {
+      "name": "ImGui",
+      "value": 18
+    },
+    {
+      "name": "Input",
+      "value": 19
+    },
+    {
+      "name": "JsonUI",
+      "value": 20
+    },
+    {
+      "name": "JsonUI_ControlFactory_Json",
+      "value": 21
+    },
+    {
+      "name": "JsonUI_ControlTree",
+      "value": 22
+    },
+    {
+      "name": "JsonUI_ControlTree_ControlElement",
+      "value": 23
+    },
+    {
+      "name": "JsonUI_ControlTree_PopulateDataBinding",
+      "value": 24
+    },
+    {
+      "name": "JsonUI_ControlTree_PopulateFocus",
+      "value": 25
+    },
+    {
+      "name": "JsonUI_ControlTree_PopulateLayout",
+      "value": 26
+    },
+    {
+      "name": "JsonUI_ControlTree_PopulateOther",
+      "value": 27
+    },
+    {
+      "name": "JsonUI_ControlTree_PopulateSprite",
+      "value": 28
+    },
+    {
+      "name": "JsonUI_ControlTree_PopulateText",
+      "value": 29
+    },
+    {
+      "name": "JsonUI_ControlTree_PopulateTTS",
+      "value": 30
+    },
+    {
+      "name": "JsonUI_ControlTree_Visibility",
+      "value": 31
+    },
+    {
+      "name": "JsonUI_CreateUI",
+      "value": 32
+    },
+    {
+      "name": "JsonUI_Defs",
+      "value": 33
+    },
+    {
+      "name": "JsonUI_LayoutManager",
+      "value": 34
+    },
+    {
+      "name": "JsonUI_LayoutManager_RemoveDependencies",
+      "value": 35
+    },
+    {
+      "name": "JsonUI_LayoutManager_InitVariable",
+      "value": 36
+    },
+    {
+      "name": "Languages",
+      "value": 37
+    },
+    {
+      "name": "Level",
+      "value": 38
+    },
+    {
+      "name": "LevelStructures",
+      "value": 39
+    },
+    {
+      "name": "LevelChunk",
+      "value": 40
+    },
+    {
+      "name": "LevelChunkGen",
+      "value": 41
+    },
+    {
+      "name": "LevelChunkGenThreadLocal",
+      "value": 42
+    },
+    {
+      "name": "Network",
+      "value": 43
+    },
+    {
+      "name": "Marketplace",
+      "value": 44
+    },
+    {
+      "name": "Material_DragonCompiledDefinition",
+      "value": 45
+    },
+    {
+      "name": "Material_DragonMaterial",
+      "value": 46
+    },
+    {
+      "name": "Material_DragonResource",
+      "value": 47
+    },
+    {
+      "name": "Material_DragonUniformMap",
+      "value": 48
+    },
+    {
+      "name": "Material_RenderMaterial",
+      "value": 49
+    },
+    {
+      "name": "Material_RenderMaterialGroup",
+      "value": 50
+    },
+    {
+      "name": "Material_VariationManager",
+      "value": 51
+    },
+    {
+      "name": "Molang",
+      "value": 52
+    },
+    {
+      "name": "OreUI",
+      "value": 53
+    },
+    {
+      "name": "Persona",
+      "value": 54
+    },
+    {
+      "name": "Player",
+      "value": 55
+    },
+    {
+      "name": "RenderChunk",
+      "value": 56
+    },
+    {
+      "name": "RenderChunk_IndexBuffer",
+      "value": 57
+    },
+    {
+      "name": "RenderChunk_VertexBuffer",
+      "value": 58
+    },
+    {
+      "name": "Rendering",
+      "value": 59
+    },
+    {
+      "name": "Rendering_Library",
+      "value": 60
+    },
+    {
+      "name": "RequestLog",
+      "value": 61
+    },
+    {
+      "name": "ResourcePacks",
+      "value": 62
+    },
+    {
+      "name": "Sound",
+      "value": 63
+    },
+    {
+      "name": "SubChunk_BiomeData",
+      "value": 64
+    },
+    {
+      "name": "SubChunk_BlockData",
+      "value": 65
+    },
+    {
+      "name": "SubChunk_LightData",
+      "value": 66
+    },
+    {
+      "name": "Textures",
+      "value": 67
+    },
+    {
+      "name": "VR",
+      "value": 68
+    },
+    {
+      "name": "WeatherRenderer",
+      "value": 69
+    },
+    {
+      "name": "World_Generator",
+      "value": 70
+    },
+    {
+      "name": "Tasks",
+      "value": 71
+    },
+    {
+      "name": "Test",
+      "value": 72
+    },
+    {
+      "name": "Scripting",
+      "value": 73
+    },
+    {
+      "name": "Scripting_Runtime",
+      "value": 74
+    },
+    {
+      "name": "Scripting_Context",
+      "value": 75
+    },
+    {
+      "name": "Scripting_Context_Bindings_MC",
+      "value": 76
+    },
+    {
+      "name": "Scripting_Context_Bindings_GT",
+      "value": 77
+    },
+    {
+      "name": "Scripting_Context_Run",
+      "value": 78
+    },
+    {
+      "name": "DataDrivenUI",
+      "value": 79
+    },
+    {
+      "name": "DataDrivenUI_Defs",
+      "value": 80
+    }
+  ]
+}

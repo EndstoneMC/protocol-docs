@@ -1,0 +1,14 @@
+{
+  "id": 196,
+  "name": "UpdateClientInputLocksPacket",
+  "fields": [
+    {
+      "name": "Input Lock ComponentData",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Server Pos",
+      "type": "Vec3"
+    }
+  ]
+}

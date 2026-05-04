@@ -1,0 +1,16 @@
+{
+  "id": 162,
+  "name": "ItemRegistryPacket",
+  "fields": [
+    {
+      "name": "Item Data",
+      "type": "ItemData",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "description": "Verify that specified items exist"
+      }
+    }
+  ]
+}

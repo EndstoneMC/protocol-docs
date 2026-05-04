@@ -1,0 +1,12 @@
+{
+  "id": 323,
+  "name": "UpdateClientOptionsPacket",
+  "fields": [
+    {
+      "name": "Graphics Mode Change",
+      "type": "uint8",
+      "enum": "GraphicsMode",
+      "optional": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 99,
+  "name": "PhotoTransferPacket",
+  "fields": [
+    {
+      "name": "Photo Name",
+      "type": "string"
+    },
+    {
+      "name": "Photo Data",
+      "type": "string"
+    },
+    {
+      "name": "Book ID",
+      "type": "string"
+    },
+    {
+      "name": "Type",
+      "type": "uint8",
+      "enum": "PhotoType"
+    },
+    {
+      "name": "Source Type",
+      "type": "uint8",
+      "enum": "PhotoType"
+    },
+    {
+      "name": "Owner ID",
+      "type": "int64"
+    },
+    {
+      "name": "New Photo Name",
+      "type": "string"
+    }
+  ]
+}

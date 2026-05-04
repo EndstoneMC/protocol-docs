@@ -1,0 +1,245 @@
+{
+  "name": "ActorEvent",
+  "values": [
+    {
+      "name": "NONE",
+      "value": 0
+    },
+    {
+      "name": "JUMP",
+      "value": 1
+    },
+    {
+      "name": "HURT",
+      "value": 2
+    },
+    {
+      "name": "DEATH",
+      "value": 3
+    },
+    {
+      "name": "START_ATTACKING",
+      "value": 4
+    },
+    {
+      "name": "STOP_ATTACKING",
+      "value": 5
+    },
+    {
+      "name": "TAMING_FAILED",
+      "value": 6
+    },
+    {
+      "name": "TAMING_SUCCEEDED",
+      "value": 7
+    },
+    {
+      "name": "SHAKE_WETNESS",
+      "value": 8
+    },
+    {
+      "name": "EAT_GRASS",
+      "value": 10
+    },
+    {
+      "name": "FISHHOOK_BUBBLE",
+      "value": 11
+    },
+    {
+      "name": "FISHHOOK_FISHPOS",
+      "value": 12
+    },
+    {
+      "name": "FISHHOOK_HOOKTIME",
+      "value": 13
+    },
+    {
+      "name": "FISHHOOK_TEASE",
+      "value": 14
+    },
+    {
+      "name": "SQUID_FLEEING",
+      "value": 15
+    },
+    {
+      "name": "ZOMBIE_CONVERTING",
+      "value": 16
+    },
+    {
+      "name": "PLAY_AMBIENT",
+      "value": 17
+    },
+    {
+      "name": "SPAWN_ALIVE",
+      "value": 18
+    },
+    {
+      "name": "START_OFFER_FLOWER",
+      "value": 19
+    },
+    {
+      "name": "STOP_OFFER_FLOWER",
+      "value": 20
+    },
+    {
+      "name": "LOVE_HEARTS",
+      "value": 21
+    },
+    {
+      "name": "VILLAGER_ANGRY",
+      "value": 22
+    },
+    {
+      "name": "VILLAGER_HAPPY",
+      "value": 23
+    },
+    {
+      "name": "WITCH_HAT_MAGIC",
+      "value": 24
+    },
+    {
+      "name": "FIREWORKS_EXPLODE",
+      "value": 25
+    },
+    {
+      "name": "IN_LOVE_HEARTS",
+      "value": 26
+    },
+    {
+      "name": "SILVERFISH_MERGE_ANIM",
+      "value": 27
+    },
+    {
+      "name": "GUARDIAN_ATTACK_SOUND",
+      "value": 28
+    },
+    {
+      "name": "DRINK_POTION",
+      "value": 29
+    },
+    {
+      "name": "THROW_POTION",
+      "value": 30
+    },
+    {
+      "name": "PRIME_TNTCART",
+      "value": 31
+    },
+    {
+      "name": "PRIME_CREEPER",
+      "value": 32
+    },
+    {
+      "name": "AIR_SUPPLY",
+      "value": 33
+    },
+    {
+      "name": "DEPRECATED_ADD_PLAYER_LEVELS",
+      "value": 34
+    },
+    {
+      "name": "GUARDIAN_MINING_FATIGUE",
+      "value": 35
+    },
+    {
+      "name": "AGENT_SWING_ARM",
+      "value": 36
+    },
+    {
+      "name": "DRAGON_START_DEATH_ANIM",
+      "value": 37
+    },
+    {
+      "name": "GROUND_DUST",
+      "value": 38
+    },
+    {
+      "name": "SHAKE",
+      "value": 39
+    },
+    {
+      "name": "FEED",
+      "value": 57
+    },
+    {
+      "name": "BABY_AGE",
+      "value": 60
+    },
+    {
+      "name": "INSTANT_DEATH",
+      "value": 61
+    },
+    {
+      "name": "NOTIFY_TRADE",
+      "value": 62
+    },
+    {
+      "name": "LEASH_DESTROYED",
+      "value": 63
+    },
+    {
+      "name": "CARAVAN_UPDATED",
+      "value": 64
+    },
+    {
+      "name": "TALISMAN_ACTIVATE",
+      "value": 65
+    },
+    {
+      "name": "DEPRECATED_UPDATE_STRUCTURE_FEATURE",
+      "value": 66
+    },
+    {
+      "name": "PLAYER_SPAWNED_MOB",
+      "value": 67
+    },
+    {
+      "name": "PUKE",
+      "value": 68
+    },
+    {
+      "name": "UPDATE_STACK_SIZE",
+      "value": 69
+    },
+    {
+      "name": "START_SWIMMING",
+      "value": 70
+    },
+    {
+      "name": "BALLOON_POP",
+      "value": 71
+    },
+    {
+      "name": "TREASURE_HUNT",
+      "value": 72
+    },
+    {
+      "name": "SUMMON_AGENT",
+      "value": 73
+    },
+    {
+      "name": "FINISHED_CHARGING_ITEM",
+      "value": 74
+    },
+    {
+      "name": "ACTOR_GROW_UP",
+      "value": 76
+    },
+    {
+      "name": "VIBRATION_DETECTED",
+      "value": 77
+    },
+    {
+      "name": "DRINK_MILK",
+      "value": 78
+    },
+    {
+      "name": "SHAKE_WETNESS_STOP",
+      "value": 79
+    },
+    {
+      "name": "KINETIC_DAMAGE_DEALT",
+      "value": 80
+    }
+  ]
+}

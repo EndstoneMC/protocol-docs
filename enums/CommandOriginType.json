@@ -1,0 +1,69 @@
+{
+  "name": "CommandOriginType",
+  "values": [
+    {
+      "name": "Player",
+      "value": 0
+    },
+    {
+      "name": "CommandBlock",
+      "value": 1
+    },
+    {
+      "name": "MinecartCommandBlock",
+      "value": 2
+    },
+    {
+      "name": "DevConsole",
+      "value": 3
+    },
+    {
+      "name": "Test",
+      "value": 4
+    },
+    {
+      "name": "AutomationPlayer",
+      "value": 5
+    },
+    {
+      "name": "ClientAutomation",
+      "value": 6
+    },
+    {
+      "name": "DedicatedServer",
+      "value": 7
+    },
+    {
+      "name": "Entity",
+      "value": 8
+    },
+    {
+      "name": "Virtual",
+      "value": 9
+    },
+    {
+      "name": "GameArgument",
+      "value": 10
+    },
+    {
+      "name": "EntityServer",
+      "value": 11
+    },
+    {
+      "name": "Precompiled",
+      "value": 12
+    },
+    {
+      "name": "GameDirectorEntityServer",
+      "value": 13
+    },
+    {
+      "name": "Scripting",
+      "value": 14
+    },
+    {
+      "name": "ExecuteContext",
+      "value": 15
+    }
+  ]
+}

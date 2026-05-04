@@ -1,0 +1,49 @@
+{
+  "id": 315,
+  "name": "ServerboundDiagnosticsPacket",
+  "fields": [
+    {
+      "name": "AvgFps",
+      "type": "float"
+    },
+    {
+      "name": "AvgServerSimTickTimeMS",
+      "type": "float"
+    },
+    {
+      "name": "AvgClientSimTickTimeMS",
+      "type": "float"
+    },
+    {
+      "name": "AvgBeginFrameTimeMS",
+      "type": "float"
+    },
+    {
+      "name": "AvgInputTimeMS",
+      "type": "float"
+    },
+    {
+      "name": "AvgRenderTimeMS",
+      "type": "float"
+    },
+    {
+      "name": "AvgEndFrameTimeMS",
+      "type": "float"
+    },
+    {
+      "name": "AvgRemainderTimePercent",
+      "type": "float"
+    },
+    {
+      "name": "AvgUnaccountedTimePercent",
+      "type": "float"
+    },
+    {
+      "name": "Memory Category Values",
+      "type": "Memory::MemoryCategoryCounter",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

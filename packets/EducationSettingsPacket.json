@@ -1,0 +1,10 @@
+{
+  "id": 137,
+  "name": "EducationSettingsPacket",
+  "fields": [
+    {
+      "name": "Education Level Settings",
+      "type": "EducationLevelSettings"
+    }
+  ]
+}

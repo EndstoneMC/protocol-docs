@@ -1,0 +1,35 @@
+{
+  "id": 123,
+  "name": "LevelSoundEventPacket",
+  "fields": [
+    {
+      "name": "Event ID",
+      "type": "uvarint32",
+      "enum": "SharedTypes::Legacy::LevelSoundEvent"
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Data",
+      "type": "varint32"
+    },
+    {
+      "name": "Actor Identifier",
+      "type": "string"
+    },
+    {
+      "name": "Is Baby",
+      "type": "bool"
+    },
+    {
+      "name": "Is Global",
+      "type": "bool"
+    },
+    {
+      "name": "Actor Unique Id",
+      "type": "int64"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": 56,
+  "name": "BlockActorDataPacket",
+  "fields": [
+    {
+      "name": "Block Position",
+      "type": "NetworkBlockPosition"
+    },
+    {
+      "name": "Actor Data Tags",
+      "type": "CompoundTag"
+    }
+  ]
+}

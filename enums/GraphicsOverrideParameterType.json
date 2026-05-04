@@ -1,0 +1,109 @@
+{
+  "name": "GraphicsOverrideParameterType",
+  "values": [
+    {
+      "name": "SkyZenithColor",
+      "value": 0
+    },
+    {
+      "name": "SkyHorizonColor",
+      "value": 1
+    },
+    {
+      "name": "HorizonBlendMin",
+      "value": 2
+    },
+    {
+      "name": "HorizonBlendMax",
+      "value": 3
+    },
+    {
+      "name": "HorizonBlendStart",
+      "value": 4
+    },
+    {
+      "name": "HorizonBlendMieStart",
+      "value": 5
+    },
+    {
+      "name": "RayleighStrength",
+      "value": 6
+    },
+    {
+      "name": "SunMieStrength",
+      "value": 7
+    },
+    {
+      "name": "MoonMieStrength",
+      "value": 8
+    },
+    {
+      "name": "SunGlareShape",
+      "value": 9
+    },
+    {
+      "name": "Chlorophyll",
+      "value": 10
+    },
+    {
+      "name": "CDOM",
+      "value": 11
+    },
+    {
+      "name": "SuspendedSediment",
+      "value": 12
+    },
+    {
+      "name": "WavesDepth",
+      "value": 13
+    },
+    {
+      "name": "WavesFrequency",
+      "value": 14
+    },
+    {
+      "name": "WavesFrequencyScaling",
+      "value": 15
+    },
+    {
+      "name": "WavesSpeed",
+      "value": 16
+    },
+    {
+      "name": "WavesSpeedScaling",
+      "value": 17
+    },
+    {
+      "name": "WavesShape",
+      "value": 18
+    },
+    {
+      "name": "WavesOctaves",
+      "value": 19
+    },
+    {
+      "name": "WavesMix",
+      "value": 20
+    },
+    {
+      "name": "WavesPull",
+      "value": 21
+    },
+    {
+      "name": "WavesDirectionIncrement",
+      "value": 22
+    },
+    {
+      "name": "MidtonesContrast",
+      "value": 23
+    },
+    {
+      "name": "HighlightsContrast",
+      "value": 24
+    },
+    {
+      "name": "ShadowsContrast",
+      "value": 25
+    }
+  ]
+}

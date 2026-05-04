@@ -1,0 +1,23 @@
+{
+  "name": "AvailableCommandsPacketPayload::ConstrainedValueData",
+  "fields": [
+    {
+      "name": "Enum Value Symbol",
+      "type": "uint32"
+    },
+    {
+      "name": "Enum Symbol",
+      "type": "uint32"
+    },
+    {
+      "name": "Constraint Indices",
+      "type": "uint8",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 250
+      }
+    }
+  ]
+}

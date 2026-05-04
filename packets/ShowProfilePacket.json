@@ -1,0 +1,10 @@
+{
+  "id": 104,
+  "name": "ShowProfilePacket",
+  "fields": [
+    {
+      "name": "Player XUID",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "AutomaticID<Dimension, int>",
+  "fields": [
+    {
+      "name": "value",
+      "type": "varint32"
+    }
+  ]
+}

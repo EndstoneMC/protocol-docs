@@ -1,0 +1,21 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::PlayerDied",
+  "fields": [
+    {
+      "name": "Instigator Actor ID",
+      "type": "varint32"
+    },
+    {
+      "name": "Instigator Mob Variant",
+      "type": "varint32"
+    },
+    {
+      "name": "Damage Source",
+      "type": "varint32"
+    },
+    {
+      "name": "Died in Raid?",
+      "type": "bool"
+    }
+  ]
+}

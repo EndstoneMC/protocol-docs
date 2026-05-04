@@ -1,0 +1,11 @@
+{
+  "id": 168,
+  "name": "SimulationTypePacket",
+  "fields": [
+    {
+      "name": "Sim Type",
+      "type": "uint8",
+      "enum": "SimulationType"
+    }
+  ]
+}

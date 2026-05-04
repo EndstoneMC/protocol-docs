@@ -1,0 +1,18 @@
+{
+  "id": 185,
+  "name": "RequestPermissionsPacket",
+  "fields": [
+    {
+      "name": "Target Player Id's Raw ID",
+      "type": "int64"
+    },
+    {
+      "name": "Player Permission Level",
+      "type": "varint32"
+    },
+    {
+      "name": "Custom Permission Flags",
+      "type": "uint16"
+    }
+  ]
+}

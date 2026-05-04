@@ -1,0 +1,23 @@
+{
+  "id": 184,
+  "name": "RequestAbilityPacket",
+  "fields": [
+    {
+      "name": "Ability",
+      "type": "varint32"
+    },
+    {
+      "name": "Value Type",
+      "type": "uint8",
+      "enum": "RequestAbilityPacketPayload::Type"
+    },
+    {
+      "name": "Bool",
+      "type": "bool"
+    },
+    {
+      "name": "Float",
+      "type": "float"
+    }
+  ]
+}

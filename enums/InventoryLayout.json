@@ -1,0 +1,21 @@
+{
+  "name": "InventoryLayout",
+  "values": [
+    {
+      "name": "None",
+      "value": 0
+    },
+    {
+      "name": "InventoryOnly",
+      "value": 1
+    },
+    {
+      "name": "Default",
+      "value": 2
+    },
+    {
+      "name": "RecipeBookOnly",
+      "value": 3
+    }
+  ]
+}

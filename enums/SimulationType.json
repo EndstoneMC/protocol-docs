@@ -1,0 +1,21 @@
+{
+  "name": "SimulationType",
+  "values": [
+    {
+      "name": "Game",
+      "value": 0
+    },
+    {
+      "name": "Editor",
+      "value": 1
+    },
+    {
+      "name": "Test",
+      "value": 2
+    },
+    {
+      "name": "INVALID",
+      "value": 3
+    }
+  ]
+}

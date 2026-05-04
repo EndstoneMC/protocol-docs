@@ -1,0 +1,17 @@
+{
+  "id": 189,
+  "name": "DeathInfoPacket",
+  "fields": [
+    {
+      "name": "Death Cause Attack Name",
+      "type": "string"
+    },
+    {
+      "name": "Death Cause Message List",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

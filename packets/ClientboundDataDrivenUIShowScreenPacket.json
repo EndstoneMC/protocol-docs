@@ -1,0 +1,13 @@
+{
+  "id": 333,
+  "name": "ClientboundDataDrivenUIShowScreenPacket",
+  "fields": [
+    {
+      "name": "ScreenId",
+      "type": "string",
+      "constraints": {
+        "max_length": 500
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": 68,
+  "name": "MapInfoRequestPacket",
+  "fields": [
+    {
+      "name": "Map Unique ID",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Client Pixels List",
+      "type": "MapInfoRequestPacketAnon::ClientPixelsProxy",
+      "repeat": {
+        "prefix": "uint32"
+      },
+      "constraints": {
+        "max_items": 16384
+      }
+    }
+  ]
+}

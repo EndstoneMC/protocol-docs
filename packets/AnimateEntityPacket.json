@@ -1,0 +1,37 @@
+{
+  "id": 158,
+  "name": "AnimateEntityPacket",
+  "fields": [
+    {
+      "name": "mAnimation",
+      "type": "string"
+    },
+    {
+      "name": "mNextState",
+      "type": "string"
+    },
+    {
+      "name": "mStopExpression",
+      "type": "string"
+    },
+    {
+      "name": "mStopExpressionVersion",
+      "type": "int32"
+    },
+    {
+      "name": "mController",
+      "type": "string"
+    },
+    {
+      "name": "mBlendOutTime",
+      "type": "float"
+    },
+    {
+      "name": "mRuntimeIds",
+      "type": "ActorRuntimeID",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": 36,
+  "name": "PlayerActionPacket",
+  "fields": [
+    {
+      "name": "Player Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Action",
+      "type": "uvarint32",
+      "enum": "PlayerActionType"
+    },
+    {
+      "name": "Block Position",
+      "type": "NetworkBlockPosition"
+    },
+    {
+      "name": "Result Pos",
+      "type": "NetworkBlockPosition"
+    },
+    {
+      "name": "Face",
+      "type": "varint32"
+    }
+  ]
+}

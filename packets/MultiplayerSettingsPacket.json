@@ -1,0 +1,11 @@
+{
+  "id": 139,
+  "name": "MultiplayerSettingsPacket",
+  "fields": [
+    {
+      "name": "PacketType",
+      "type": "uvarint32",
+      "enum": "MultiplayerSettingsPacketType"
+    }
+  ]
+}

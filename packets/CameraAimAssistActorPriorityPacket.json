@@ -1,0 +1,13 @@
+{
+  "id": 339,
+  "name": "CameraAimAssistActorPriorityPacket",
+  "fields": [
+    {
+      "name": "Camera Aim-Assist Actor Priority List",
+      "type": "CameraAimAssistActorPriority::PriorityData",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

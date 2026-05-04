@@ -1,0 +1,201 @@
+{
+  "name": "CurrentCmdVersion",
+  "values": [
+    {
+      "name": "Invalid",
+      "value": -1
+    },
+    {
+      "name": "Initial",
+      "value": 1
+    },
+    {
+      "name": "TpRotationClamping",
+      "value": 2
+    },
+    {
+      "name": "NewBedrockCmdSystem",
+      "value": 3
+    },
+    {
+      "name": "ExecuteUsesVec3",
+      "value": 4
+    },
+    {
+      "name": "CloneFixes",
+      "value": 5
+    },
+    {
+      "name": "UpdateAquatic",
+      "value": 6
+    },
+    {
+      "name": "EntitySelectorUsesVec3",
+      "value": 7
+    },
+    {
+      "name": "ContainersDontDropItemsAnymore",
+      "value": 8
+    },
+    {
+      "name": "FiltersObeyDimensions",
+      "value": 9
+    },
+    {
+      "name": "ExecuteAndBlockCommandAndSelfSelectorFixes",
+      "value": 10
+    },
+    {
+      "name": "InstantEffectsUseTicks",
+      "value": 11
+    },
+    {
+      "name": "DontRegisterBrokenFunctionCommands",
+      "value": 12
+    },
+    {
+      "name": "ClearSpawnPointCommand",
+      "value": 13
+    },
+    {
+      "name": "CloneAndTeleportRotationFixes",
+      "value": 14
+    },
+    {
+      "name": "TeleportDimensionFixes",
+      "value": 15
+    },
+    {
+      "name": "CloneUpdateBlockAndTimeFixes",
+      "value": 16
+    },
+    {
+      "name": "CloneIntersectFix",
+      "value": 17
+    },
+    {
+      "name": "FunctionExecuteOrderAndChestSlotFix",
+      "value": 18
+    },
+    {
+      "name": "NonTickingAreasNoLongerConsideredLoaded",
+      "value": 19
+    },
+    {
+      "name": "SpreadplayersHazardAndResolvePlayerByNameFix",
+      "value": 20
+    },
+    {
+      "name": "NewExecuteCommandSyntaxExperimentAndChestLootTableFixAndTeleportFacingVerticalUnclampedAndLocateBiomeAndFeatureMerged",
+      "value": 21
+    },
+    {
+      "name": "WaterloggingAddedToStructureCommand",
+      "value": 22
+    },
+    {
+      "name": "SelectorDistanceFilteredAndRelativeRotationFix",
+      "value": 23
+    },
+    {
+      "name": "NewSummonCommandAddedRotationOptionsAndBubbleColumnCloneFixAndExecuteInDimensionTeleportFixAndNewExecuteRotationFix",
+      "value": 24
+    },
+    {
+      "name": "NewExecuteCommandReleaseEnchantCommandLevelFixAndHasItemDataFixAndCommandDeferral",
+      "value": 25
+    },
+    {
+      "name": "ExecuteIfScoreFixes",
+      "value": 26
+    },
+    {
+      "name": "ReplaceItemAndLootReplaceBlockCommandsDoNotPlaceItemsIntoCauldronsFix",
+      "value": 27
+    },
+    {
+      "name": "ChangesToCommandOriginRotation",
+      "value": 28
+    },
+    {
+      "name": "RemoveAuxValueParameterFromBlockCommands",
+      "value": 29
+    },
+    {
+      "name": "VolumeSelectorFixes",
+      "value": 30
+    },
+    {
+      "name": "EnableSummonRotation",
+      "value": 31
+    },
+    {
+      "name": "SummonCommandDefaultRotation",
+      "value": 32
+    },
+    {
+      "name": "PositionalDimensionFiltering",
+      "value": 33
+    },
+    {
+      "name": "CommandSelectorHasItemFilterNoLongerCallsSameItemFunction",
+      "value": 34
+    },
+    {
+      "name": "AgentSweepingBlockTest",
+      "value": 34
+    },
+    {
+      "name": "BlockStateEquals",
+      "value": 35
+    },
+    {
+      "name": "CommandPositionFix",
+      "value": 35
+    },
+    {
+      "name": "CommandSelectorHasItemFilterUsesDataAsDamageForSelectingDamageableItems",
+      "value": 36
+    },
+    {
+      "name": "ExecuteDetectConditionSubcommandNotAllowNonLoadedBlocks",
+      "value": 37
+    },
+    {
+      "name": "RemoveSuicideKeyword",
+      "value": 38
+    },
+    {
+      "name": "CloneContainerBlockEntityRemovalFix",
+      "value": 39
+    },
+    {
+      "name": "StopSoundMusicFix",
+      "value": 40
+    },
+    {
+      "name": "SpreadPlayersStuckInGroundFixAndMaxHeightParameter",
+      "value": 41
+    },
+    {
+      "name": "LocateStructureOutput",
+      "value": 42
+    },
+    {
+      "name": "PostBlockFlattening",
+      "value": 43
+    },
+    {
+      "name": "TestForBlockCommandDoesNotIgnoreBlockState",
+      "value": 44
+    },
+    {
+      "name": "Count",
+      "value": 46
+    },
+    {
+      "name": "Latest",
+      "value": 45
+    }
+  ]
+}

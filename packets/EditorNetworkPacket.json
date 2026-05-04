@@ -1,0 +1,14 @@
+{
+  "id": 190,
+  "name": "EditorNetworkPacket",
+  "fields": [
+    {
+      "name": "Route To Manager",
+      "type": "bool"
+    },
+    {
+      "name": "Binary Payload",
+      "type": "CompoundTag"
+    }
+  ]
+}

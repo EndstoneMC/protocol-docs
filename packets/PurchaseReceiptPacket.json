@@ -1,0 +1,16 @@
+{
+  "id": 92,
+  "name": "PurchaseReceiptPacket",
+  "fields": [
+    {
+      "name": "PurchaseReceipts",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 10000
+      }
+    }
+  ]
+}
