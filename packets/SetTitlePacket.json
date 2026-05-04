@@ -1,0 +1,40 @@
+{
+  "id": 88,
+  "name": "SetTitlePacket",
+  "notes": "There are 2 commands associated with it: title and titleraw.\n\tBoth of which have functionality to change fade in/out time for titles, sub titles, and action bar text.\n\ttitleraw is using json to format so it will be bigger (i don't have an example)",
+  "fields": [
+    {
+      "name": "Title Type",
+      "type": "uvarint32",
+      "enum": "SetTitlePacketPayload::TitleType"
+    },
+    {
+      "name": "Title Text",
+      "type": "string"
+    },
+    {
+      "name": "Fade In Time",
+      "type": "varint32"
+    },
+    {
+      "name": "Stay Time",
+      "type": "varint32"
+    },
+    {
+      "name": "Fade Out Time",
+      "type": "varint32"
+    },
+    {
+      "name": "Xuid",
+      "type": "string"
+    },
+    {
+      "name": "Platform Online Id",
+      "type": "string"
+    },
+    {
+      "name": "Filtered Title Message",
+      "type": "string"
+    }
+  ]
+}

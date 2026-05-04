@@ -1,0 +1,23 @@
+{
+  "name": "BookEditAction::AddPage",
+  "fields": [
+    {
+      "name": "Page Index",
+      "type": "varint32"
+    },
+    {
+      "name": "Page Text",
+      "type": "string",
+      "constraints": {
+        "max_length": 768
+      }
+    },
+    {
+      "name": "Photo Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 768
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": 155,
+  "name": "DebugInfoPacket",
+  "fields": [
+    {
+      "name": "Actor Id",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Data",
+      "type": "string"
+    }
+  ]
+}

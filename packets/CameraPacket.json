@@ -1,0 +1,14 @@
+{
+  "id": 73,
+  "name": "CameraPacket",
+  "fields": [
+    {
+      "name": "Camera ID",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Target Player ID",
+      "type": "ActorUniqueID"
+    }
+  ]
+}

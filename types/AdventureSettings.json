@@ -1,0 +1,25 @@
+{
+  "name": "AdventureSettings",
+  "fields": [
+    {
+      "name": "no PvM",
+      "type": "bool"
+    },
+    {
+      "name": "no MvP",
+      "type": "bool"
+    },
+    {
+      "name": "Immutable World",
+      "type": "bool"
+    },
+    {
+      "name": "Show Name Tags",
+      "type": "bool"
+    },
+    {
+      "name": "Auto Jump",
+      "type": "bool"
+    }
+  ]
+}

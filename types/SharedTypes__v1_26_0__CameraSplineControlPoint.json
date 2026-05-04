@@ -1,0 +1,9 @@
+{
+  "name": "SharedTypes::v1_26_0::CameraSplineControlPoint",
+  "fields": [
+    {
+      "name": "position",
+      "type": "Vec3"
+    }
+  ]
+}

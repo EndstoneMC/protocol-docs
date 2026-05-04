@@ -1,0 +1,113 @@
+{
+  "name": "persona::PieceType",
+  "values": [
+    {
+      "name": "Skeleton",
+      "value": 1
+    },
+    {
+      "name": "Body",
+      "value": 2
+    },
+    {
+      "name": "Skin",
+      "value": 3
+    },
+    {
+      "name": "Bottom",
+      "value": 4
+    },
+    {
+      "name": "Feet",
+      "value": 5
+    },
+    {
+      "name": "Dress",
+      "value": 6
+    },
+    {
+      "name": "Top",
+      "value": 7
+    },
+    {
+      "name": "High_Pants",
+      "value": 8
+    },
+    {
+      "name": "Hands",
+      "value": 9
+    },
+    {
+      "name": "Outerwear",
+      "value": 10
+    },
+    {
+      "name": "FacialHair",
+      "value": 11
+    },
+    {
+      "name": "Mouth",
+      "value": 12
+    },
+    {
+      "name": "Eyes",
+      "value": 13
+    },
+    {
+      "name": "Hair",
+      "value": 14
+    },
+    {
+      "name": "Hood",
+      "value": 15
+    },
+    {
+      "name": "Back",
+      "value": 16
+    },
+    {
+      "name": "FaceAccessory",
+      "value": 17
+    },
+    {
+      "name": "Head",
+      "value": 18
+    },
+    {
+      "name": "Legs",
+      "value": 19
+    },
+    {
+      "name": "LeftLeg",
+      "value": 20
+    },
+    {
+      "name": "RightLeg",
+      "value": 21
+    },
+    {
+      "name": "Arms",
+      "value": 22
+    },
+    {
+      "name": "LeftArm",
+      "value": 23
+    },
+    {
+      "name": "RightArm",
+      "value": 24
+    },
+    {
+      "name": "Capes",
+      "value": 25
+    },
+    {
+      "name": "ClassicSkin",
+      "value": 26
+    },
+    {
+      "name": "Emote",
+      "value": 27
+    }
+  ]
+}

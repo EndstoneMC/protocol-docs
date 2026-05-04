@@ -1,0 +1,34 @@
+{
+  "name": "BiomeNoiseGradientSurfaceData",
+  "fields": [
+    {
+      "name": "non-replaceable blocks",
+      "type": "uint32",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "gradient blocks",
+      "type": "uint32",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "noise seed string",
+      "type": "string"
+    },
+    {
+      "name": "first octave",
+      "type": "int32"
+    },
+    {
+      "name": "amplitudes",
+      "type": "float",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": 77,
+  "name": "CommandRequestPacket",
+  "fields": [
+    {
+      "name": "Command",
+      "type": "string",
+      "constraints": {
+        "max_length": 512
+      }
+    },
+    {
+      "name": "Origin",
+      "type": "CommandOriginData"
+    },
+    {
+      "name": "IsInternal",
+      "type": "bool"
+    },
+    {
+      "name": "Version",
+      "type": "string",
+      "enum": "CurrentCmdVersion"
+    }
+  ]
+}

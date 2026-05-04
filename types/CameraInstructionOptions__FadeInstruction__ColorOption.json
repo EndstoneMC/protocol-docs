@@ -1,0 +1,17 @@
+{
+  "name": "CameraInstructionOptions::FadeInstruction::ColorOption",
+  "fields": [
+    {
+      "name": "Red",
+      "type": "float"
+    },
+    {
+      "name": "Green",
+      "type": "float"
+    },
+    {
+      "name": "Blue",
+      "type": "float"
+    }
+  ]
+}

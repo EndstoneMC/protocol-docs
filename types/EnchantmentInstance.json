@@ -1,0 +1,14 @@
+{
+  "name": "EnchantmentInstance",
+  "fields": [
+    {
+      "name": "Enchant Type",
+      "type": "uvarint32",
+      "enum": "Enchant::Type"
+    },
+    {
+      "name": "Enchant Level",
+      "type": "uint8"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "LabTablePacketPayload::Type",
+  "values": [
+    {
+      "name": "StartCombine",
+      "value": 0
+    },
+    {
+      "name": "StartReaction",
+      "value": 1
+    },
+    {
+      "name": "Reset",
+      "value": 2
+    }
+  ]
+}

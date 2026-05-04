@@ -1,0 +1,21 @@
+{
+  "name": "BiomeClimateData",
+  "fields": [
+    {
+      "name": "temperature",
+      "type": "float"
+    },
+    {
+      "name": "downfall",
+      "type": "float"
+    },
+    {
+      "name": "snow accumulation min",
+      "type": "float"
+    },
+    {
+      "name": "snow accumulation max",
+      "type": "float"
+    }
+  ]
+}

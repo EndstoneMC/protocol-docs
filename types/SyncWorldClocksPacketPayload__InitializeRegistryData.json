@@ -1,0 +1,15 @@
+{
+  "name": "SyncWorldClocksPacketPayload::InitializeRegistryData",
+  "fields": [
+    {
+      "name": "ClockData",
+      "type": "WorldClockData",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 256
+      }
+    }
+  ]
+}

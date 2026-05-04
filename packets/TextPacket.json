@@ -1,0 +1,39 @@
+{
+  "id": 9,
+  "name": "TextPacket",
+  "notes": "Used for commands, messages, and other info printed to the screen. Most of which are server->client or server broadcasted to all clients, but some cases have a client to other client via the server",
+  "fields": [
+    {
+      "name": "Localize?",
+      "type": "bool"
+    },
+    {
+      "name": "Body",
+      "type": {
+        "switch": {
+          "name": "Message Type",
+          "type": "uvarint32",
+          "enum": "TextPacketType"
+        },
+        "cases": [
+          "TextPacketPayload::MessageOnly",
+          "TextPacketPayload::AuthorAndMessage",
+          "TextPacketPayload::MessageAndParams"
+        ]
+      }
+    },
+    {
+      "name": "Sender's XUID",
+      "type": "string"
+    },
+    {
+      "name": "Platform Id",
+      "type": "string"
+    },
+    {
+      "name": "Filtered Message",
+      "type": "string",
+      "optional": true
+    }
+  ]
+}

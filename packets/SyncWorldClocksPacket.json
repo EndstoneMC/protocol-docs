@@ -1,0 +1,21 @@
+{
+  "id": 344,
+  "name": "SyncWorldClocksPacket",
+  "notes": "Sent from the server when a client joins to initialize all world clocks for the client and periodically to all clients to keep them in sync.\n\tIt is also sent to all clients when a world clock's paused state changes or when time markers are added or removed.",
+  "fields": [
+    {
+      "name": "Data",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "SyncWorldClocksPacketPayload::SyncStateData",
+          "SyncWorldClocksPacketPayload::InitializeRegistryData",
+          "SyncWorldClocksPacketPayload::AddTimeMarkerData",
+          "SyncWorldClocksPacketPayload::RemoveTimeMarkerData"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": 31,
+  "name": "MobEquipmentPacket",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Item",
+      "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData"
+    },
+    {
+      "name": "Slot",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Selected Slot",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Container ID",
+      "type": "uvarint32"
+    }
+  ]
+}

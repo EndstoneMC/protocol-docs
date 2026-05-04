@@ -1,0 +1,38 @@
+{
+  "id": 158,
+  "name": "AnimateEntityPacket",
+  "notes": "Several properties can be specified in the following order:</br>\n\t- The name of the animation (a string) that the specified entities are to play.</br>\n\t- The next state to transition to (a string) once the specified animation is finished playing.</br>\n\t- The stop expression (a string), the condition that determines when to transition to the next state.</br>\n\t- The name of an animation controller (a string) that you would like to use.</br>\n\t- The blend out time (a float), the amount of time to blend out of this animation.</br>\n\t- A vector of ActorRuntimeIds of the entities that will play the specified animation.",
+  "fields": [
+    {
+      "name": "mAnimation",
+      "type": "string"
+    },
+    {
+      "name": "mNextState",
+      "type": "string"
+    },
+    {
+      "name": "mStopExpression",
+      "type": "string"
+    },
+    {
+      "name": "mStopExpressionVersion",
+      "type": "int32"
+    },
+    {
+      "name": "mController",
+      "type": "string"
+    },
+    {
+      "name": "mBlendOutTime",
+      "type": "float"
+    },
+    {
+      "name": "mRuntimeIds",
+      "type": "ActorRuntimeID",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

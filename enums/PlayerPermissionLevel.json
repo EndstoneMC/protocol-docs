@@ -1,0 +1,21 @@
+{
+  "name": "PlayerPermissionLevel",
+  "values": [
+    {
+      "name": "Visitor",
+      "value": 0
+    },
+    {
+      "name": "Member",
+      "value": 1
+    },
+    {
+      "name": "Operator",
+      "value": 2
+    },
+    {
+      "name": "Custom",
+      "value": 3
+    }
+  ]
+}

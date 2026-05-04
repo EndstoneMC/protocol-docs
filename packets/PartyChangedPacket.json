@@ -1,0 +1,11 @@
+{
+  "id": 342,
+  "name": "PartyChangedPacket",
+  "fields": [
+    {
+      "name": "party_info",
+      "type": "PlayerPartyInfo",
+      "optional": true
+    }
+  ]
+}

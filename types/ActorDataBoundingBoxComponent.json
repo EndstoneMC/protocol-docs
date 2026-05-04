@@ -1,0 +1,12 @@
+{
+  "name": "ActorDataBoundingBoxComponent",
+  "fields": [
+    {
+      "name": "Actor Data Bounding Box",
+      "type": "float",
+      "repeat": {
+        "count": 3
+      }
+    }
+  ]
+}

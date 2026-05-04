@@ -1,0 +1,13 @@
+{
+  "name": "BiomeWeightedData",
+  "fields": [
+    {
+      "name": "biome identifier",
+      "type": "uint16"
+    },
+    {
+      "name": "weight",
+      "type": "uint32"
+    }
+  ]
+}

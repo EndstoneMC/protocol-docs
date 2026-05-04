@@ -1,0 +1,29 @@
+{
+  "name": "CommandPermissionLevel",
+  "values": [
+    {
+      "name": "Any",
+      "value": 0
+    },
+    {
+      "name": "GameDirectors",
+      "value": 1
+    },
+    {
+      "name": "Admin",
+      "value": 2
+    },
+    {
+      "name": "Host",
+      "value": 3
+    },
+    {
+      "name": "Owner",
+      "value": 4
+    },
+    {
+      "name": "Internal",
+      "value": 5
+    }
+  ]
+}

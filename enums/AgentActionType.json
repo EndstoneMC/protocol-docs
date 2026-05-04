@@ -1,0 +1,77 @@
+{
+  "name": "AgentActionType",
+  "values": [
+    {
+      "name": "Attack",
+      "value": 1
+    },
+    {
+      "name": "Collect",
+      "value": 2
+    },
+    {
+      "name": "Destroy",
+      "value": 3
+    },
+    {
+      "name": "DetectRedstone",
+      "value": 4
+    },
+    {
+      "name": "DetectObstacle",
+      "value": 5
+    },
+    {
+      "name": "Drop",
+      "value": 6
+    },
+    {
+      "name": "DropAll",
+      "value": 7
+    },
+    {
+      "name": "Inspect",
+      "value": 8
+    },
+    {
+      "name": "InspectData",
+      "value": 9
+    },
+    {
+      "name": "InspectItemCount",
+      "value": 10
+    },
+    {
+      "name": "InspectItemDetail",
+      "value": 11
+    },
+    {
+      "name": "InspectItemSpace",
+      "value": 12
+    },
+    {
+      "name": "Interact",
+      "value": 13
+    },
+    {
+      "name": "Move",
+      "value": 14
+    },
+    {
+      "name": "PlaceBlock",
+      "value": 15
+    },
+    {
+      "name": "Till",
+      "value": 16
+    },
+    {
+      "name": "TransferItemTo",
+      "value": 17
+    },
+    {
+      "name": "Turn",
+      "value": 18
+    }
+  ]
+}

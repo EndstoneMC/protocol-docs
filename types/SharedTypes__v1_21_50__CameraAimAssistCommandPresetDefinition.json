@@ -1,0 +1,26 @@
+{
+  "name": "SharedTypes::v1_21_50::CameraAimAssistCommandPresetDefinition",
+  "fields": [
+    {
+      "name": "Preset Id",
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "Target Mode",
+      "type": "uint8",
+      "enum": "CameraAimAssist::TargetMode",
+      "optional": true
+    },
+    {
+      "name": "View Angle",
+      "type": "Vec2",
+      "optional": true
+    },
+    {
+      "name": "Distance",
+      "type": "float",
+      "optional": true
+    }
+  ]
+}

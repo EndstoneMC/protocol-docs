@@ -1,0 +1,12 @@
+{
+  "id": 168,
+  "name": "SimulationTypePacket",
+  "notes": "- mSimType: an enum representing the simulation type to switch to.",
+  "fields": [
+    {
+      "name": "Sim Type",
+      "type": "uint8",
+      "enum": "SimulationType"
+    }
+  ]
+}

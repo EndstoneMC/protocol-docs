@@ -1,0 +1,14 @@
+{
+  "id": 142,
+  "name": "CompletedUsingItemPacket",
+  "fields": [
+    {
+      "name": "Item Id",
+      "type": "int16"
+    },
+    {
+      "name": "Item Use Method",
+      "type": "int32"
+    }
+  ]
+}

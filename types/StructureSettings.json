@@ -1,0 +1,64 @@
+{
+  "name": "StructureSettings",
+  "fields": [
+    {
+      "name": "Structure Palette Name",
+      "type": "string"
+    },
+    {
+      "name": "Should ignore entities?",
+      "type": "bool"
+    },
+    {
+      "name": "Should ignore blocks?",
+      "type": "bool"
+    },
+    {
+      "name": "Should Allow Non Ticking Player and Ticking Area Chunks",
+      "type": "bool"
+    },
+    {
+      "name": "Structure Size",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Structure Offset",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Last Edit Player",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Rotation",
+      "type": "uint8",
+      "enum": "Rotation"
+    },
+    {
+      "name": "Mirror",
+      "type": "uint8",
+      "enum": "Mirror"
+    },
+    {
+      "name": "Animation Mode",
+      "type": "uint8",
+      "enum": "AnimationMode"
+    },
+    {
+      "name": "Animation Seconds",
+      "type": "float"
+    },
+    {
+      "name": "Integrity Value",
+      "type": "float"
+    },
+    {
+      "name": "Integrity Seed",
+      "type": "uint32"
+    },
+    {
+      "name": "Rotation Pivot",
+      "type": "Vec3"
+    }
+  ]
+}

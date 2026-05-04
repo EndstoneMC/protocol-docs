@@ -1,0 +1,18 @@
+{
+  "id": 25,
+  "name": "LevelEventPacket",
+  "fields": [
+    {
+      "name": "Event Id",
+      "type": "varint32"
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Data",
+      "type": "varint32"
+    }
+  ]
+}

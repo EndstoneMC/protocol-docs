@@ -1,0 +1,26 @@
+{
+  "id": 306,
+  "name": "PlayerToggleCrafterSlotRequestPacket",
+  "fields": [
+    {
+      "name": "Pos X",
+      "type": "int32"
+    },
+    {
+      "name": "Pos Y",
+      "type": "int32"
+    },
+    {
+      "name": "Pos Z",
+      "type": "int32"
+    },
+    {
+      "name": "Slot Index",
+      "type": "uint8"
+    },
+    {
+      "name": "Is Disabled",
+      "type": "bool"
+    }
+  ]
+}

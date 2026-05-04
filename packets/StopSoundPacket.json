@@ -1,0 +1,18 @@
+{
+  "id": 87,
+  "name": "StopSoundPacket",
+  "fields": [
+    {
+      "name": "Sound Name",
+      "type": "string"
+    },
+    {
+      "name": "Stop All Sounds?",
+      "type": "bool"
+    },
+    {
+      "name": "Stop Music (Legacy)",
+      "type": "bool"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "BiomeMesaSurfaceData",
+  "fields": [
+    {
+      "name": "clay material",
+      "type": "uint32"
+    },
+    {
+      "name": "hard clay material",
+      "type": "uint32"
+    },
+    {
+      "name": "bryce pillars",
+      "type": "bool"
+    },
+    {
+      "name": "has forest",
+      "type": "bool"
+    }
+  ]
+}

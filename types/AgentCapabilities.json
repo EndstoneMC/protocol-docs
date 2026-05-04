@@ -1,0 +1,10 @@
+{
+  "name": "AgentCapabilities",
+  "fields": [
+    {
+      "name": "Can Modify Blocks",
+      "type": "bool",
+      "optional": true
+    }
+  ]
+}

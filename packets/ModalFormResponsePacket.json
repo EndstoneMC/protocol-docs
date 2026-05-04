@@ -1,0 +1,22 @@
+{
+  "id": 101,
+  "name": "ModalFormResponsePacket",
+  "notes": "see ModalFormRequestPacket",
+  "fields": [
+    {
+      "name": "Form ID",
+      "type": "uvarint32"
+    },
+    {
+      "name": "JSON Response",
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "Form Cancel Reason",
+      "type": "uint8",
+      "enum": "ModalFormCancelReason",
+      "optional": true
+    }
+  ]
+}
