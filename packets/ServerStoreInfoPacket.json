@@ -1,0 +1,11 @@
+{
+  "id": 346,
+  "name": "ServerStoreInfoPacket",
+  "fields": [
+    {
+      "name": "client_store_entry_point_configuration",
+      "type": "ServerConfiguration::ClientStoreEntryPointConfiguration",
+      "optional": true
+    }
+  ]
+}

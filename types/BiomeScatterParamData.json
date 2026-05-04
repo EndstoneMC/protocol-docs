@@ -1,0 +1,41 @@
+{
+  "name": "BiomeScatterParamData",
+  "fields": [
+    {
+      "name": "coordinates",
+      "type": "BiomeCoordinateData",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "eval order",
+      "type": "uvarint32",
+      "enum": "SharedTypes::v1_21_10::CoordinateEvaluationOrder"
+    },
+    {
+      "name": "chance percent type",
+      "type": "varint32"
+    },
+    {
+      "name": "chance percent",
+      "type": "uint16"
+    },
+    {
+      "name": "chance numerator",
+      "type": "int32"
+    },
+    {
+      "name": "chance denominator",
+      "type": "int32"
+    },
+    {
+      "name": "iterations type",
+      "type": "varint32"
+    },
+    {
+      "name": "iterations",
+      "type": "uint16"
+    }
+  ]
+}

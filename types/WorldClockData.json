@@ -1,0 +1,34 @@
+{
+  "name": "WorldClockData",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "uvarint64"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 128
+      }
+    },
+    {
+      "name": "Time",
+      "type": "varint32"
+    },
+    {
+      "name": "IsPaused",
+      "type": "bool"
+    },
+    {
+      "name": "TimeMarkers",
+      "type": "TimeMarkerData",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 256
+      }
+    }
+  ]
+}

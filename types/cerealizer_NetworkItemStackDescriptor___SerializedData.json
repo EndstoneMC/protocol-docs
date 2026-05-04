@@ -1,0 +1,38 @@
+{
+  "name": "cerealizer<NetworkItemStackDescriptor>::SerializedData",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "int16"
+    },
+    {
+      "name": "Stack size",
+      "type": "uint16",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 64
+      }
+    },
+    {
+      "name": "Aux value",
+      "type": "uvarint32",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 32767
+      }
+    },
+    {
+      "name": "Net Id Variant",
+      "type": "ItemStackNetIdVariant",
+      "optional": true
+    },
+    {
+      "name": "Block Runtime Id",
+      "type": "uvarint32"
+    },
+    {
+      "name": "User Data Buffer",
+      "type": "string"
+    }
+  ]
+}

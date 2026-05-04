@@ -1,0 +1,24 @@
+{
+  "id": 43,
+  "name": "SetSpawnPositionPacket",
+  "notes": "see RespawnPacket",
+  "fields": [
+    {
+      "name": "Spawn Position Type",
+      "type": "uvarint32",
+      "enum": "SpawnPositionType"
+    },
+    {
+      "name": "Block Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Dimension type",
+      "type": "DimensionType"
+    },
+    {
+      "name": "Spawn Block Pos",
+      "type": "BlockPos"
+    }
+  ]
+}

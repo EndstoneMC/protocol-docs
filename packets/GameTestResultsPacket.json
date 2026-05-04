@@ -1,0 +1,19 @@
+{
+  "id": 195,
+  "name": "GameTestResultsPacket",
+  "notes": "Internal Text Packet",
+  "fields": [
+    {
+      "name": "Succeeded",
+      "type": "bool"
+    },
+    {
+      "name": "Error",
+      "type": "string"
+    },
+    {
+      "name": "TestName",
+      "type": "string"
+    }
+  ]
+}

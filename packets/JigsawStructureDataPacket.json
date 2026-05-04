@@ -1,0 +1,11 @@
+{
+  "id": 313,
+  "name": "JigsawStructureDataPacket",
+  "notes": "Sends the serialized jigsaw rule JSON to the client as it's needed on both the client and server.",
+  "fields": [
+    {
+      "name": "Jigsaw Structure Data Tag",
+      "type": "CompoundTag"
+    }
+  ]
+}

@@ -1,0 +1,2269 @@
+{
+  "name": "SharedTypes::Legacy::LevelSoundEvent",
+  "values": [
+    {
+      "name": "ItemUseOn",
+      "value": 0
+    },
+    {
+      "name": "Hit",
+      "value": 1
+    },
+    {
+      "name": "Step",
+      "value": 2
+    },
+    {
+      "name": "Fly",
+      "value": 3
+    },
+    {
+      "name": "Jump",
+      "value": 4
+    },
+    {
+      "name": "Break",
+      "value": 5
+    },
+    {
+      "name": "Place",
+      "value": 6
+    },
+    {
+      "name": "HeavyStep",
+      "value": 7
+    },
+    {
+      "name": "Gallop",
+      "value": 8
+    },
+    {
+      "name": "Fall",
+      "value": 9
+    },
+    {
+      "name": "Ambient",
+      "value": 10
+    },
+    {
+      "name": "AmbientBaby",
+      "value": 11
+    },
+    {
+      "name": "AmbientInWater",
+      "value": 12
+    },
+    {
+      "name": "Breathe",
+      "value": 13
+    },
+    {
+      "name": "Death",
+      "value": 14
+    },
+    {
+      "name": "DeathInWater",
+      "value": 15
+    },
+    {
+      "name": "DeathToZombie",
+      "value": 16
+    },
+    {
+      "name": "Hurt",
+      "value": 17
+    },
+    {
+      "name": "HurtInWater",
+      "value": 18
+    },
+    {
+      "name": "Mad",
+      "value": 19
+    },
+    {
+      "name": "Boost",
+      "value": 20
+    },
+    {
+      "name": "Bow",
+      "value": 21
+    },
+    {
+      "name": "SquishBig",
+      "value": 22
+    },
+    {
+      "name": "SquishSmall",
+      "value": 23
+    },
+    {
+      "name": "FallBig",
+      "value": 24
+    },
+    {
+      "name": "FallSmall",
+      "value": 25
+    },
+    {
+      "name": "Splash",
+      "value": 26
+    },
+    {
+      "name": "Fizz",
+      "value": 27
+    },
+    {
+      "name": "Flap",
+      "value": 28
+    },
+    {
+      "name": "Swim",
+      "value": 29
+    },
+    {
+      "name": "Drink",
+      "value": 30
+    },
+    {
+      "name": "Eat",
+      "value": 31
+    },
+    {
+      "name": "Takeoff",
+      "value": 32
+    },
+    {
+      "name": "Shake",
+      "value": 33
+    },
+    {
+      "name": "Plop",
+      "value": 34
+    },
+    {
+      "name": "Land",
+      "value": 35
+    },
+    {
+      "name": "Saddle",
+      "value": 36
+    },
+    {
+      "name": "Armor",
+      "value": 37
+    },
+    {
+      "name": "ArmorPlace",
+      "value": 38
+    },
+    {
+      "name": "AddChest",
+      "value": 39
+    },
+    {
+      "name": "Throw",
+      "value": 40
+    },
+    {
+      "name": "Attack",
+      "value": 41
+    },
+    {
+      "name": "AttackNoDamage",
+      "value": 42
+    },
+    {
+      "name": "AttackStrong",
+      "value": 43
+    },
+    {
+      "name": "Warn",
+      "value": 44
+    },
+    {
+      "name": "Shear",
+      "value": 45
+    },
+    {
+      "name": "Milk",
+      "value": 46
+    },
+    {
+      "name": "Thunder",
+      "value": 47
+    },
+    {
+      "name": "Explode",
+      "value": 48
+    },
+    {
+      "name": "Fire",
+      "value": 49
+    },
+    {
+      "name": "Ignite",
+      "value": 50
+    },
+    {
+      "name": "Fuse",
+      "value": 51
+    },
+    {
+      "name": "Stare",
+      "value": 52
+    },
+    {
+      "name": "Spawn",
+      "value": 53
+    },
+    {
+      "name": "Shoot",
+      "value": 54
+    },
+    {
+      "name": "BreakBlock",
+      "value": 55
+    },
+    {
+      "name": "Launch",
+      "value": 56
+    },
+    {
+      "name": "Blast",
+      "value": 57
+    },
+    {
+      "name": "LargeBlast",
+      "value": 58
+    },
+    {
+      "name": "Twinkle",
+      "value": 59
+    },
+    {
+      "name": "Remedy",
+      "value": 60
+    },
+    {
+      "name": "Unfect",
+      "value": 61
+    },
+    {
+      "name": "LevelUp",
+      "value": 62
+    },
+    {
+      "name": "BowHit",
+      "value": 63
+    },
+    {
+      "name": "BulletHit",
+      "value": 64
+    },
+    {
+      "name": "ExtinguishFire",
+      "value": 65
+    },
+    {
+      "name": "ItemFizz",
+      "value": 66
+    },
+    {
+      "name": "ChestOpen",
+      "value": 67
+    },
+    {
+      "name": "ChestClosed",
+      "value": 68
+    },
+    {
+      "name": "ShulkerBoxOpen",
+      "value": 69
+    },
+    {
+      "name": "ShulkerBoxClosed",
+      "value": 70
+    },
+    {
+      "name": "EnderChestOpen",
+      "value": 71
+    },
+    {
+      "name": "EnderChestClosed",
+      "value": 72
+    },
+    {
+      "name": "PowerOn",
+      "value": 73
+    },
+    {
+      "name": "PowerOff",
+      "value": 74
+    },
+    {
+      "name": "Attach",
+      "value": 75
+    },
+    {
+      "name": "Detach",
+      "value": 76
+    },
+    {
+      "name": "Deny",
+      "value": 77
+    },
+    {
+      "name": "Tripod",
+      "value": 78
+    },
+    {
+      "name": "Pop",
+      "value": 79
+    },
+    {
+      "name": "DropSlot",
+      "value": 80
+    },
+    {
+      "name": "Note",
+      "value": 81
+    },
+    {
+      "name": "Thorns",
+      "value": 82
+    },
+    {
+      "name": "PistonIn",
+      "value": 83
+    },
+    {
+      "name": "PistonOut",
+      "value": 84
+    },
+    {
+      "name": "Portal",
+      "value": 85
+    },
+    {
+      "name": "Water",
+      "value": 86
+    },
+    {
+      "name": "LavaPop",
+      "value": 87
+    },
+    {
+      "name": "Lava",
+      "value": 88
+    },
+    {
+      "name": "Burp",
+      "value": 89
+    },
+    {
+      "name": "BucketFillWater",
+      "value": 90
+    },
+    {
+      "name": "BucketFillLava",
+      "value": 91
+    },
+    {
+      "name": "BucketEmptyWater",
+      "value": 92
+    },
+    {
+      "name": "BucketEmptyLava",
+      "value": 93
+    },
+    {
+      "name": "EquipChain",
+      "value": 94
+    },
+    {
+      "name": "EquipDiamond",
+      "value": 95
+    },
+    {
+      "name": "EquipGeneric",
+      "value": 96
+    },
+    {
+      "name": "EquipGold",
+      "value": 97
+    },
+    {
+      "name": "EquipIron",
+      "value": 98
+    },
+    {
+      "name": "EquipLeather",
+      "value": 99
+    },
+    {
+      "name": "EquipElytra",
+      "value": 100
+    },
+    {
+      "name": "Record13",
+      "value": 101
+    },
+    {
+      "name": "RecordCat",
+      "value": 102
+    },
+    {
+      "name": "RecordBlocks",
+      "value": 103
+    },
+    {
+      "name": "RecordChirp",
+      "value": 104
+    },
+    {
+      "name": "RecordFar",
+      "value": 105
+    },
+    {
+      "name": "RecordMall",
+      "value": 106
+    },
+    {
+      "name": "RecordMellohi",
+      "value": 107
+    },
+    {
+      "name": "RecordStal",
+      "value": 108
+    },
+    {
+      "name": "RecordStrad",
+      "value": 109
+    },
+    {
+      "name": "RecordWard",
+      "value": 110
+    },
+    {
+      "name": "Record11",
+      "value": 111
+    },
+    {
+      "name": "RecordWait",
+      "value": 112
+    },
+    {
+      "name": "RecordNull",
+      "value": 113
+    },
+    {
+      "name": "Flop",
+      "value": 114
+    },
+    {
+      "name": "GuardianCurse",
+      "value": 115
+    },
+    {
+      "name": "MobWarning",
+      "value": 116
+    },
+    {
+      "name": "MobWarningBaby",
+      "value": 117
+    },
+    {
+      "name": "Teleport",
+      "value": 118
+    },
+    {
+      "name": "ShulkerOpen",
+      "value": 119
+    },
+    {
+      "name": "ShulkerClose",
+      "value": 120
+    },
+    {
+      "name": "Haggle",
+      "value": 121
+    },
+    {
+      "name": "HaggleYes",
+      "value": 122
+    },
+    {
+      "name": "HaggleNo",
+      "value": 123
+    },
+    {
+      "name": "HaggleIdle",
+      "value": 124
+    },
+    {
+      "name": "ChorusGrow",
+      "value": 125
+    },
+    {
+      "name": "ChorusDeath",
+      "value": 126
+    },
+    {
+      "name": "Glass",
+      "value": 127
+    },
+    {
+      "name": "PotionBrewed",
+      "value": 128
+    },
+    {
+      "name": "CastSpell",
+      "value": 129
+    },
+    {
+      "name": "PrepareAttackSpell",
+      "value": 130
+    },
+    {
+      "name": "PrepareSummon",
+      "value": 131
+    },
+    {
+      "name": "PrepareWololo",
+      "value": 132
+    },
+    {
+      "name": "Fang",
+      "value": 133
+    },
+    {
+      "name": "Charge",
+      "value": 134
+    },
+    {
+      "name": "TakePicture",
+      "value": 135
+    },
+    {
+      "name": "PlaceLeashKnot",
+      "value": 136
+    },
+    {
+      "name": "BreakLeashKnot",
+      "value": 137
+    },
+    {
+      "name": "AmbientGrowl",
+      "value": 138
+    },
+    {
+      "name": "AmbientWhine",
+      "value": 139
+    },
+    {
+      "name": "AmbientPant",
+      "value": 140
+    },
+    {
+      "name": "AmbientPurr",
+      "value": 141
+    },
+    {
+      "name": "AmbientPurreow",
+      "value": 142
+    },
+    {
+      "name": "DeathMinVolume",
+      "value": 143
+    },
+    {
+      "name": "DeathMidVolume",
+      "value": 144
+    },
+    {
+      "name": "ImitateBlaze",
+      "value": 145
+    },
+    {
+      "name": "ImitateCaveSpider",
+      "value": 146
+    },
+    {
+      "name": "ImitateCreeper",
+      "value": 147
+    },
+    {
+      "name": "ImitateElderGuardian",
+      "value": 148
+    },
+    {
+      "name": "ImitateEnderDragon",
+      "value": 149
+    },
+    {
+      "name": "ImitateEnderman",
+      "value": 150
+    },
+    {
+      "name": "ImitateEndermite",
+      "value": 151
+    },
+    {
+      "name": "ImitateEvocationIllager",
+      "value": 152
+    },
+    {
+      "name": "ImitateGhast",
+      "value": 153
+    },
+    {
+      "name": "ImitateHusk",
+      "value": 154
+    },
+    {
+      "name": "ImitateMagmaCube",
+      "value": 156
+    },
+    {
+      "name": "ImitatePolarBear",
+      "value": 157
+    },
+    {
+      "name": "ImitateShulker",
+      "value": 158
+    },
+    {
+      "name": "ImitateSilverfish",
+      "value": 159
+    },
+    {
+      "name": "ImitateSkeleton",
+      "value": 160
+    },
+    {
+      "name": "ImitateSlime",
+      "value": 161
+    },
+    {
+      "name": "ImitateSpider",
+      "value": 162
+    },
+    {
+      "name": "ImitateStray",
+      "value": 163
+    },
+    {
+      "name": "ImitateVex",
+      "value": 164
+    },
+    {
+      "name": "ImitateVindicationIllager",
+      "value": 165
+    },
+    {
+      "name": "ImitateWitch",
+      "value": 166
+    },
+    {
+      "name": "ImitateWither",
+      "value": 167
+    },
+    {
+      "name": "ImitateWitherSkeleton",
+      "value": 168
+    },
+    {
+      "name": "ImitateWolf",
+      "value": 169
+    },
+    {
+      "name": "ImitateZombie",
+      "value": 170
+    },
+    {
+      "name": "ImitateZombiePigman",
+      "value": 171
+    },
+    {
+      "name": "ImitateZombieVillager",
+      "value": 172
+    },
+    {
+      "name": "EnderEyePlaced",
+      "value": 173
+    },
+    {
+      "name": "EndPortalCreated",
+      "value": 174
+    },
+    {
+      "name": "AnvilUse",
+      "value": 175
+    },
+    {
+      "name": "BottleDragonBreath",
+      "value": 176
+    },
+    {
+      "name": "PortalTravel",
+      "value": 177
+    },
+    {
+      "name": "TridentHit",
+      "value": 178
+    },
+    {
+      "name": "TridentReturn",
+      "value": 179
+    },
+    {
+      "name": "TridentRiptide_1",
+      "value": 180
+    },
+    {
+      "name": "TridentRiptide_2",
+      "value": 181
+    },
+    {
+      "name": "TridentRiptide_3",
+      "value": 182
+    },
+    {
+      "name": "TridentThrow",
+      "value": 183
+    },
+    {
+      "name": "TridentThunder",
+      "value": 184
+    },
+    {
+      "name": "TridentHitGround",
+      "value": 185
+    },
+    {
+      "name": "Default",
+      "value": 186
+    },
+    {
+      "name": "FletchingTableUse",
+      "value": 187
+    },
+    {
+      "name": "ElemConstructOpen",
+      "value": 188
+    },
+    {
+      "name": "IceBombHit",
+      "value": 189
+    },
+    {
+      "name": "BalloonPop",
+      "value": 190
+    },
+    {
+      "name": "LTReactionIceBomb",
+      "value": 191
+    },
+    {
+      "name": "LTReactionBleach",
+      "value": 192
+    },
+    {
+      "name": "LTReactionElephantToothpaste",
+      "value": 193
+    },
+    {
+      "name": "LTReactionElephantToothpaste2",
+      "value": 194
+    },
+    {
+      "name": "LTReactionGlowStick",
+      "value": 195
+    },
+    {
+      "name": "LTReactionGlowStick2",
+      "value": 196
+    },
+    {
+      "name": "LTReactionLuminol",
+      "value": 197
+    },
+    {
+      "name": "LTReactionSalt",
+      "value": 198
+    },
+    {
+      "name": "LTReactionFertilizer",
+      "value": 199
+    },
+    {
+      "name": "LTReactionFireball",
+      "value": 200
+    },
+    {
+      "name": "LTReactionMagnesiumSalt",
+      "value": 201
+    },
+    {
+      "name": "LTReactionMiscFire",
+      "value": 202
+    },
+    {
+      "name": "LTReactionFire",
+      "value": 203
+    },
+    {
+      "name": "LTReactionMiscExplosion",
+      "value": 204
+    },
+    {
+      "name": "LTReactionMiscMystical",
+      "value": 205
+    },
+    {
+      "name": "LTReactionMiscMystical2",
+      "value": 206
+    },
+    {
+      "name": "LTReactionProduct",
+      "value": 207
+    },
+    {
+      "name": "SparklerUse",
+      "value": 208
+    },
+    {
+      "name": "GlowStickUse",
+      "value": 209
+    },
+    {
+      "name": "SparklerActive",
+      "value": 210
+    },
+    {
+      "name": "ConvertToDrowned",
+      "value": 211
+    },
+    {
+      "name": "BucketFillFish",
+      "value": 212
+    },
+    {
+      "name": "BucketEmptyFish",
+      "value": 213
+    },
+    {
+      "name": "BubbleColumnUpwards",
+      "value": 214
+    },
+    {
+      "name": "BubbleColumnDownwards",
+      "value": 215
+    },
+    {
+      "name": "BubblePop",
+      "value": 216
+    },
+    {
+      "name": "BubbleUpInside",
+      "value": 217
+    },
+    {
+      "name": "BubbleDownInside",
+      "value": 218
+    },
+    {
+      "name": "HurtBaby",
+      "value": 219
+    },
+    {
+      "name": "DeathBaby",
+      "value": 220
+    },
+    {
+      "name": "StepBaby",
+      "value": 221
+    },
+    {
+      "name": "SpawnBaby",
+      "value": 222
+    },
+    {
+      "name": "Born",
+      "value": 223
+    },
+    {
+      "name": "TurtleEggBreak",
+      "value": 224
+    },
+    {
+      "name": "TurtleEggCrack",
+      "value": 225
+    },
+    {
+      "name": "TurtleEggHatched",
+      "value": 226
+    },
+    {
+      "name": "LayEgg",
+      "value": 227
+    },
+    {
+      "name": "TurtleEggAttacked",
+      "value": 228
+    },
+    {
+      "name": "BeaconActivate",
+      "value": 229
+    },
+    {
+      "name": "BeaconAmbient",
+      "value": 230
+    },
+    {
+      "name": "BeaconDeactivate",
+      "value": 231
+    },
+    {
+      "name": "BeaconPower",
+      "value": 232
+    },
+    {
+      "name": "ConduitActivate",
+      "value": 233
+    },
+    {
+      "name": "ConduitAmbient",
+      "value": 234
+    },
+    {
+      "name": "ConduitAttack",
+      "value": 235
+    },
+    {
+      "name": "ConduitDeactivate",
+      "value": 236
+    },
+    {
+      "name": "ConduitShort",
+      "value": 237
+    },
+    {
+      "name": "Swoop",
+      "value": 238
+    },
+    {
+      "name": "BambooSaplingPlace",
+      "value": 239
+    },
+    {
+      "name": "PreSneeze",
+      "value": 240
+    },
+    {
+      "name": "Sneeze",
+      "value": 241
+    },
+    {
+      "name": "AmbientTame",
+      "value": 242
+    },
+    {
+      "name": "Scared",
+      "value": 243
+    },
+    {
+      "name": "ScaffoldingClimb",
+      "value": 244
+    },
+    {
+      "name": "CrossbowLoadingStart",
+      "value": 245
+    },
+    {
+      "name": "CrossbowLoadingMiddle",
+      "value": 246
+    },
+    {
+      "name": "CrossbowLoadingEnd",
+      "value": 247
+    },
+    {
+      "name": "CrossbowShoot",
+      "value": 248
+    },
+    {
+      "name": "CrossbowQuickChargeStart",
+      "value": 249
+    },
+    {
+      "name": "CrossbowQuickChargeMiddle",
+      "value": 250
+    },
+    {
+      "name": "CrossbowQuickChargeEnd",
+      "value": 251
+    },
+    {
+      "name": "AmbientAggressive",
+      "value": 252
+    },
+    {
+      "name": "AmbientWorried",
+      "value": 253
+    },
+    {
+      "name": "CantBreed",
+      "value": 254
+    },
+    {
+      "name": "ShieldBlock",
+      "value": 255
+    },
+    {
+      "name": "LecternBookPlace",
+      "value": 256
+    },
+    {
+      "name": "GrindstoneUse",
+      "value": 257
+    },
+    {
+      "name": "Bell",
+      "value": 258
+    },
+    {
+      "name": "CampfireCrackle",
+      "value": 259
+    },
+    {
+      "name": "Roar",
+      "value": 260
+    },
+    {
+      "name": "Stun",
+      "value": 261
+    },
+    {
+      "name": "SweetBerryBushHurt",
+      "value": 262
+    },
+    {
+      "name": "SweetBerryBushPick",
+      "value": 263
+    },
+    {
+      "name": "CartographyTableUse",
+      "value": 264
+    },
+    {
+      "name": "StonecutterUse",
+      "value": 265
+    },
+    {
+      "name": "ComposterEmpty",
+      "value": 266
+    },
+    {
+      "name": "ComposterFill",
+      "value": 267
+    },
+    {
+      "name": "ComposterFillLayer",
+      "value": 268
+    },
+    {
+      "name": "ComposterReady",
+      "value": 269
+    },
+    {
+      "name": "BarrelOpen",
+      "value": 270
+    },
+    {
+      "name": "BarrelClose",
+      "value": 271
+    },
+    {
+      "name": "RaidHorn",
+      "value": 272
+    },
+    {
+      "name": "LoomUse",
+      "value": 273
+    },
+    {
+      "name": "AmbientInRaid",
+      "value": 274
+    },
+    {
+      "name": "UICartographyTableUse",
+      "value": 275
+    },
+    {
+      "name": "UIStonecutterUse",
+      "value": 276
+    },
+    {
+      "name": "UILoomUse",
+      "value": 277
+    },
+    {
+      "name": "SmokerUse",
+      "value": 278
+    },
+    {
+      "name": "BlastFurnaceUse",
+      "value": 279
+    },
+    {
+      "name": "SmithingTableUse",
+      "value": 280
+    },
+    {
+      "name": "Screech",
+      "value": 281
+    },
+    {
+      "name": "Sleep",
+      "value": 282
+    },
+    {
+      "name": "FurnaceUse",
+      "value": 283
+    },
+    {
+      "name": "MooshroomConvert",
+      "value": 284
+    },
+    {
+      "name": "MilkSuspiciously",
+      "value": 285
+    },
+    {
+      "name": "Celebrate",
+      "value": 286
+    },
+    {
+      "name": "JumpPrevent",
+      "value": 287
+    },
+    {
+      "name": "AmbientPollinate",
+      "value": 288
+    },
+    {
+      "name": "BeehiveDrip",
+      "value": 289
+    },
+    {
+      "name": "BeehiveEnter",
+      "value": 290
+    },
+    {
+      "name": "BeehiveExit",
+      "value": 291
+    },
+    {
+      "name": "BeehiveWork",
+      "value": 292
+    },
+    {
+      "name": "BeehiveShear",
+      "value": 293
+    },
+    {
+      "name": "HoneybottleDrink",
+      "value": 294
+    },
+    {
+      "name": "AmbientCave",
+      "value": 295
+    },
+    {
+      "name": "Retreat",
+      "value": 296
+    },
+    {
+      "name": "ConvertToZombified",
+      "value": 297
+    },
+    {
+      "name": "Admire",
+      "value": 298
+    },
+    {
+      "name": "StepLava",
+      "value": 299
+    },
+    {
+      "name": "Tempt",
+      "value": 300
+    },
+    {
+      "name": "Panic",
+      "value": 301
+    },
+    {
+      "name": "Angry",
+      "value": 302
+    },
+    {
+      "name": "AmbientMoodWarpedForest",
+      "value": 303
+    },
+    {
+      "name": "AmbientMoodSoulsandValley",
+      "value": 304
+    },
+    {
+      "name": "AmbientMoodNetherWastes",
+      "value": 305
+    },
+    {
+      "name": "AmbientMoodBasaltDeltas",
+      "value": 306
+    },
+    {
+      "name": "AmbientMoodCrimsonForest",
+      "value": 307
+    },
+    {
+      "name": "RespawnAnchorCharge",
+      "value": 308
+    },
+    {
+      "name": "RespawnAnchorDeplete",
+      "value": 309
+    },
+    {
+      "name": "RespawnAnchorSetSpawn",
+      "value": 310
+    },
+    {
+      "name": "RespawnAnchorAmbient",
+      "value": 311
+    },
+    {
+      "name": "SoulEscapeQuiet",
+      "value": 312
+    },
+    {
+      "name": "SoulEscapeLoud",
+      "value": 313
+    },
+    {
+      "name": "RecordPigstep",
+      "value": 314
+    },
+    {
+      "name": "LinkCompassToLodestone",
+      "value": 315
+    },
+    {
+      "name": "UseSmithingTable",
+      "value": 316
+    },
+    {
+      "name": "EquipNetherite",
+      "value": 317
+    },
+    {
+      "name": "AmbientLoopWarpedForest",
+      "value": 318
+    },
+    {
+      "name": "AmbientLoopSoulsandValley",
+      "value": 319
+    },
+    {
+      "name": "AmbientLoopNetherWastes",
+      "value": 320
+    },
+    {
+      "name": "AmbientLoopBasaltDeltas",
+      "value": 321
+    },
+    {
+      "name": "AmbientLoopCrimsonForest",
+      "value": 322
+    },
+    {
+      "name": "AmbientAdditionWarpedForest",
+      "value": 323
+    },
+    {
+      "name": "AmbientAdditionSoulsandValley",
+      "value": 324
+    },
+    {
+      "name": "AmbientAdditionNetherWastes",
+      "value": 325
+    },
+    {
+      "name": "AmbientAdditionBasaltDeltas",
+      "value": 326
+    },
+    {
+      "name": "AmbientAdditionCrimsonForest",
+      "value": 327
+    },
+    {
+      "name": "SculkSensorPowerOn",
+      "value": 328
+    },
+    {
+      "name": "SculkSensorPowerOff",
+      "value": 329
+    },
+    {
+      "name": "BucketFillPowderSnow",
+      "value": 330
+    },
+    {
+      "name": "BucketEmptyPowderSnow",
+      "value": 331
+    },
+    {
+      "name": "PointedDripstoneCauldronDripWater",
+      "value": 332
+    },
+    {
+      "name": "PointedDripstoneCauldronDripLava",
+      "value": 333
+    },
+    {
+      "name": "PointedDripstoneDripWater",
+      "value": 334
+    },
+    {
+      "name": "PointedDripstoneDripLava",
+      "value": 335
+    },
+    {
+      "name": "CaveVinesPickBerries",
+      "value": 336
+    },
+    {
+      "name": "BigDripleafTiltDown",
+      "value": 337
+    },
+    {
+      "name": "BigDripleafTiltUp",
+      "value": 338
+    },
+    {
+      "name": "CopperWaxOn",
+      "value": 339
+    },
+    {
+      "name": "CopperWaxOff",
+      "value": 340
+    },
+    {
+      "name": "Scrape",
+      "value": 341
+    },
+    {
+      "name": "PlayerHurtDrown",
+      "value": 342
+    },
+    {
+      "name": "PlayerHurtOnFire",
+      "value": 343
+    },
+    {
+      "name": "PlayerHurtFreeze",
+      "value": 344
+    },
+    {
+      "name": "UseSpyglass",
+      "value": 345
+    },
+    {
+      "name": "StopUsingSpyglass",
+      "value": 346
+    },
+    {
+      "name": "AmethystBlockChime",
+      "value": 347
+    },
+    {
+      "name": "AmbientScreamer",
+      "value": 348
+    },
+    {
+      "name": "HurtScreamer",
+      "value": 349
+    },
+    {
+      "name": "DeathScreamer",
+      "value": 350
+    },
+    {
+      "name": "MilkScreamer",
+      "value": 351
+    },
+    {
+      "name": "JumpToBlock",
+      "value": 352
+    },
+    {
+      "name": "PreRam",
+      "value": 353
+    },
+    {
+      "name": "PreRamScreamer",
+      "value": 354
+    },
+    {
+      "name": "RamImpact",
+      "value": 355
+    },
+    {
+      "name": "RamImpactScreamer",
+      "value": 356
+    },
+    {
+      "name": "SquidInkSquirt",
+      "value": 357
+    },
+    {
+      "name": "GlowSquidInkSquirt",
+      "value": 358
+    },
+    {
+      "name": "ConvertToStray",
+      "value": 359
+    },
+    {
+      "name": "CakeAddCandle",
+      "value": 360
+    },
+    {
+      "name": "ExtinguishCandle",
+      "value": 361
+    },
+    {
+      "name": "AmbientCandle",
+      "value": 362
+    },
+    {
+      "name": "BlockClick",
+      "value": 363
+    },
+    {
+      "name": "BlockClickFail",
+      "value": 364
+    },
+    {
+      "name": "SculkCatalystBloom",
+      "value": 365
+    },
+    {
+      "name": "SculkShriekerShriek",
+      "value": 366
+    },
+    {
+      "name": "NearbyClose",
+      "value": 367
+    },
+    {
+      "name": "NearbyCloser",
+      "value": 368
+    },
+    {
+      "name": "NearbyClosest",
+      "value": 369
+    },
+    {
+      "name": "Agitated",
+      "value": 370
+    },
+    {
+      "name": "RecordOtherside",
+      "value": 371
+    },
+    {
+      "name": "Tongue",
+      "value": 372
+    },
+    {
+      "name": "CrackIronGolem",
+      "value": 373
+    },
+    {
+      "name": "RepairIronGolem",
+      "value": 374
+    },
+    {
+      "name": "Listening",
+      "value": 375
+    },
+    {
+      "name": "Heartbeat",
+      "value": 376
+    },
+    {
+      "name": "HornBreak",
+      "value": 377
+    },
+    {
+      "name": "SculkSpread",
+      "value": 379
+    },
+    {
+      "name": "SculkCharge",
+      "value": 380
+    },
+    {
+      "name": "SculkSensorPlace",
+      "value": 381
+    },
+    {
+      "name": "SculkShriekerPlace",
+      "value": 382
+    },
+    {
+      "name": "GoatCall0",
+      "value": 383
+    },
+    {
+      "name": "GoatCall1",
+      "value": 384
+    },
+    {
+      "name": "GoatCall2",
+      "value": 385
+    },
+    {
+      "name": "GoatCall3",
+      "value": 386
+    },
+    {
+      "name": "GoatCall4",
+      "value": 387
+    },
+    {
+      "name": "GoatCall5",
+      "value": 388
+    },
+    {
+      "name": "GoatCall6",
+      "value": 389
+    },
+    {
+      "name": "GoatCall7",
+      "value": 390
+    },
+    {
+      "name": "ImitateWarden",
+      "value": 426
+    },
+    {
+      "name": "ListeningAngry",
+      "value": 427
+    },
+    {
+      "name": "Item_Given",
+      "value": 428
+    },
+    {
+      "name": "Item_Taken",
+      "value": 429
+    },
+    {
+      "name": "Disappeared",
+      "value": 430
+    },
+    {
+      "name": "Reappeared",
+      "value": 431
+    },
+    {
+      "name": "DrinkMilk",
+      "value": 432
+    },
+    {
+      "name": "FrogspawnHatched",
+      "value": 433
+    },
+    {
+      "name": "LaySpawn",
+      "value": 434
+    },
+    {
+      "name": "FrogspawnBreak",
+      "value": 435
+    },
+    {
+      "name": "SonicBoom",
+      "value": 436
+    },
+    {
+      "name": "SonicCharge",
+      "value": 437
+    },
+    {
+      "name": "Item_Thrown",
+      "value": 438
+    },
+    {
+      "name": "Record5",
+      "value": 439
+    },
+    {
+      "name": "ConvertToFrog",
+      "value": 440
+    },
+    {
+      "name": "RecordPlaying",
+      "value": 441
+    },
+    {
+      "name": "EnchantingTableUse",
+      "value": 442
+    },
+    {
+      "name": "StepSand",
+      "value": 443
+    },
+    {
+      "name": "DashReady",
+      "value": 444
+    },
+    {
+      "name": "BundleDropContents",
+      "value": 445
+    },
+    {
+      "name": "BundleInsert",
+      "value": 446
+    },
+    {
+      "name": "BundleRemoveOne",
+      "value": 447
+    },
+    {
+      "name": "PressurePlateClickOff",
+      "value": 448
+    },
+    {
+      "name": "PressurePlateClickOn",
+      "value": 449
+    },
+    {
+      "name": "ButtonClickOff",
+      "value": 450
+    },
+    {
+      "name": "ButtonClickOn",
+      "value": 451
+    },
+    {
+      "name": "DoorOpen",
+      "value": 452
+    },
+    {
+      "name": "DoorClose",
+      "value": 453
+    },
+    {
+      "name": "TrapdoorOpen",
+      "value": 454
+    },
+    {
+      "name": "TrapdoorClose",
+      "value": 455
+    },
+    {
+      "name": "FenceGateOpen",
+      "value": 456
+    },
+    {
+      "name": "FenceGateClose",
+      "value": 457
+    },
+    {
+      "name": "Insert",
+      "value": 458
+    },
+    {
+      "name": "Pickup",
+      "value": 459
+    },
+    {
+      "name": "InsertEnchanted",
+      "value": 460
+    },
+    {
+      "name": "PickupEnchanted",
+      "value": 461
+    },
+    {
+      "name": "Brush",
+      "value": 462
+    },
+    {
+      "name": "BrushCompleted",
+      "value": 463
+    },
+    {
+      "name": "ShatterDecoratedPot",
+      "value": 464
+    },
+    {
+      "name": "BreakDecoratedPot",
+      "value": 465
+    },
+    {
+      "name": "SnifferEggCrack",
+      "value": 466
+    },
+    {
+      "name": "SnifferEggHatched",
+      "value": 467
+    },
+    {
+      "name": "WaxedSignInteractFail",
+      "value": 468
+    },
+    {
+      "name": "RecordRelic",
+      "value": 469
+    },
+    {
+      "name": "Bump",
+      "value": 470
+    },
+    {
+      "name": "PumpkinCarve",
+      "value": 471
+    },
+    {
+      "name": "ConvertHuskToZombie",
+      "value": 472
+    },
+    {
+      "name": "PigDeath",
+      "value": 473
+    },
+    {
+      "name": "HoglinConvertToZombified",
+      "value": 474
+    },
+    {
+      "name": "AmbientUnderwaterEnter",
+      "value": 475
+    },
+    {
+      "name": "AmbientUnderwaterExit",
+      "value": 476
+    },
+    {
+      "name": "BottleFill",
+      "value": 477
+    },
+    {
+      "name": "BottleEmpty",
+      "value": 478
+    },
+    {
+      "name": "CrafterCraft",
+      "value": 479
+    },
+    {
+      "name": "CrafterFail",
+      "value": 480
+    },
+    {
+      "name": "DecoratedPotInsert",
+      "value": 481
+    },
+    {
+      "name": "DecoratedPotInsertFail",
+      "value": 482
+    },
+    {
+      "name": "CrafterDisableSlot",
+      "value": 483
+    },
+    {
+      "name": "TrialSpawnerOpenShutter",
+      "value": 484
+    },
+    {
+      "name": "TrialSpawnerEjectItem",
+      "value": 485
+    },
+    {
+      "name": "TrialSpawnerDetectPlayer",
+      "value": 486
+    },
+    {
+      "name": "TrialSpawnerSpawnMob",
+      "value": 487
+    },
+    {
+      "name": "TrialSpawnerCloseShutter",
+      "value": 488
+    },
+    {
+      "name": "TrialSpawnerAmbient",
+      "value": 489
+    },
+    {
+      "name": "CopperBulbTurnOn",
+      "value": 490
+    },
+    {
+      "name": "CopperBulbTurnOff",
+      "value": 491
+    },
+    {
+      "name": "AmbientInAir",
+      "value": 492
+    },
+    {
+      "name": "BreezeWindChargeBurst",
+      "value": 493
+    },
+    {
+      "name": "ImitateBreeze",
+      "value": 494
+    },
+    {
+      "name": "ArmadilloBrush",
+      "value": 495
+    },
+    {
+      "name": "ArmadilloScuteDrop",
+      "value": 496
+    },
+    {
+      "name": "EquipWolf",
+      "value": 497
+    },
+    {
+      "name": "UnequipWolf",
+      "value": 498
+    },
+    {
+      "name": "Reflect",
+      "value": 499
+    },
+    {
+      "name": "VaultOpenShutter",
+      "value": 500
+    },
+    {
+      "name": "VaultCloseShutter",
+      "value": 501
+    },
+    {
+      "name": "VaultEjectItem",
+      "value": 502
+    },
+    {
+      "name": "VaultInsertItem",
+      "value": 503
+    },
+    {
+      "name": "VaultInsertItemFail",
+      "value": 504
+    },
+    {
+      "name": "VaultAmbient",
+      "value": 505
+    },
+    {
+      "name": "VaultActivate",
+      "value": 506
+    },
+    {
+      "name": "VaultDeactivate",
+      "value": 507
+    },
+    {
+      "name": "HurtReduced",
+      "value": 508
+    },
+    {
+      "name": "WindChargeBurst",
+      "value": 509
+    },
+    {
+      "name": "ImitateBogged",
+      "value": 510
+    },
+    {
+      "name": "WolfArmorCrack",
+      "value": 511
+    },
+    {
+      "name": "WolfArmorBreak",
+      "value": 512
+    },
+    {
+      "name": "WolfArmorRepair",
+      "value": 513
+    },
+    {
+      "name": "MaceSmashAir",
+      "value": 514
+    },
+    {
+      "name": "MaceSmashGround",
+      "value": 515
+    },
+    {
+      "name": "TrialSpawnerChargeActivate",
+      "value": 516
+    },
+    {
+      "name": "TrialSpawnerAmbientOminous",
+      "value": 517
+    },
+    {
+      "name": "OminousItemSpawnerSpawnItem",
+      "value": 518
+    },
+    {
+      "name": "OminousBottleEndUse",
+      "value": 519
+    },
+    {
+      "name": "MaceHeavySmashGround",
+      "value": 520
+    },
+    {
+      "name": "OminousItemSpawnerSpawnItemBegin",
+      "value": 521
+    },
+    {
+      "name": "ApplyEffectBadOmen",
+      "value": 523
+    },
+    {
+      "name": "ApplyEffectRaidOmen",
+      "value": 524
+    },
+    {
+      "name": "ApplyEffectTrialOmen",
+      "value": 525
+    },
+    {
+      "name": "OminousItemSpawnerAboutToSpawnItem",
+      "value": 526
+    },
+    {
+      "name": "RecordCreator",
+      "value": 527
+    },
+    {
+      "name": "RecordCreatorMusicBox",
+      "value": 528
+    },
+    {
+      "name": "RecordPrecipice",
+      "value": 529
+    },
+    {
+      "name": "VaultRejectRewardedPlayer",
+      "value": 530
+    },
+    {
+      "name": "ImitateDrowned",
+      "value": 531
+    },
+    {
+      "name": "ImitateCreaking",
+      "value": 532
+    },
+    {
+      "name": "BundleInsertFail",
+      "value": 533
+    },
+    {
+      "name": "SpongeAbsorb",
+      "value": 534
+    },
+    {
+      "name": "CreakingHeartTrail",
+      "value": 536
+    },
+    {
+      "name": "CreakingHeartSpawn",
+      "value": 537
+    },
+    {
+      "name": "Activate",
+      "value": 538
+    },
+    {
+      "name": "Deactivate",
+      "value": 539
+    },
+    {
+      "name": "Freeze",
+      "value": 540
+    },
+    {
+      "name": "Unfreeze",
+      "value": 541
+    },
+    {
+      "name": "Open",
+      "value": 542
+    },
+    {
+      "name": "OpenLong",
+      "value": 543
+    },
+    {
+      "name": "Close",
+      "value": 544
+    },
+    {
+      "name": "CloseLong",
+      "value": 545
+    },
+    {
+      "name": "ImitatePhantom",
+      "value": 546
+    },
+    {
+      "name": "ImitateZoglin",
+      "value": 547
+    },
+    {
+      "name": "ImitateGuardian",
+      "value": 548
+    },
+    {
+      "name": "ImitateRavager",
+      "value": 549
+    },
+    {
+      "name": "ImitatePillager",
+      "value": 550
+    },
+    {
+      "name": "PlaceInWater",
+      "value": 551
+    },
+    {
+      "name": "StateChange",
+      "value": 552
+    },
+    {
+      "name": "ImitateHappyGhast",
+      "value": 553
+    },
+    {
+      "name": "UnequipGeneric",
+      "value": 554
+    },
+    {
+      "name": "RecordTears",
+      "value": 555
+    },
+    {
+      "name": "TheEndLightFlash",
+      "value": 556
+    },
+    {
+      "name": "LeadLeash",
+      "value": 557
+    },
+    {
+      "name": "LeadUnleash",
+      "value": 558
+    },
+    {
+      "name": "LeadBreak",
+      "value": 559
+    },
+    {
+      "name": "Unsaddle",
+      "value": 560
+    },
+    {
+      "name": "EquipCopper",
+      "value": 561
+    },
+    {
+      "name": "RecordLavaChicken",
+      "value": 562
+    },
+    {
+      "name": "PlaceItem",
+      "value": 563
+    },
+    {
+      "name": "SingleItemSwap",
+      "value": 564
+    },
+    {
+      "name": "MultiItemSwap",
+      "value": 565
+    },
+    {
+      "name": "Lunge1",
+      "value": 566
+    },
+    {
+      "name": "Lunge2",
+      "value": 567
+    },
+    {
+      "name": "Lunge3",
+      "value": 568
+    },
+    {
+      "name": "AttackCritical",
+      "value": 569
+    },
+    {
+      "name": "SpearAttackHit",
+      "value": 570
+    },
+    {
+      "name": "SpearAttackMiss",
+      "value": 571
+    },
+    {
+      "name": "WoodenSpearAttackHit",
+      "value": 572
+    },
+    {
+      "name": "WoodenSpearAttackMiss",
+      "value": 573
+    },
+    {
+      "name": "ImitateParched",
+      "value": 574
+    },
+    {
+      "name": "ImitateCamelHusk",
+      "value": 575
+    },
+    {
+      "name": "SpearUse",
+      "value": 576
+    },
+    {
+      "name": "WoodenSpearUse",
+      "value": 577
+    },
+    {
+      "name": "SaddleInWater",
+      "value": 578
+    },
+    {
+      "name": "Undefined",
+      "value": 604
+    },
+    {
+      "name": "StoneSpearAttackHit",
+      "value": 579
+    },
+    {
+      "name": "IronSpearAttackHit",
+      "value": 580
+    },
+    {
+      "name": "CopperSpearAttackHit",
+      "value": 581
+    },
+    {
+      "name": "GoldenSpearAttackHit",
+      "value": 582
+    },
+    {
+      "name": "DiamondSpearAttackHit",
+      "value": 583
+    },
+    {
+      "name": "NetheriteSpearAttackHit",
+      "value": 584
+    },
+    {
+      "name": "StoneSpearAttackMiss",
+      "value": 585
+    },
+    {
+      "name": "IronSpearAttackMiss",
+      "value": 586
+    },
+    {
+      "name": "CopperSpearAttackMiss",
+      "value": 587
+    },
+    {
+      "name": "GoldenSpearAttackMiss",
+      "value": 588
+    },
+    {
+      "name": "DiamondSpearAttackMiss",
+      "value": 589
+    },
+    {
+      "name": "NetheriteSpearAttackMiss",
+      "value": 590
+    },
+    {
+      "name": "StoneSpearUse",
+      "value": 591
+    },
+    {
+      "name": "IronSpearUse",
+      "value": 592
+    },
+    {
+      "name": "CopperSpearUse",
+      "value": 593
+    },
+    {
+      "name": "GoldenSpearUse",
+      "value": 594
+    },
+    {
+      "name": "DiamondSpearUse",
+      "value": 595
+    },
+    {
+      "name": "NetheriteSpearUse",
+      "value": 596
+    },
+    {
+      "name": "PauseGrowth",
+      "value": 597
+    },
+    {
+      "name": "ResetGrowth",
+      "value": 598
+    },
+    {
+      "name": "PushedByPlayer",
+      "value": 599
+    },
+    {
+      "name": "Bounce",
+      "value": 600
+    },
+    {
+      "name": "SlimeLanding",
+      "value": 601
+    },
+    {
+      "name": "AbsorbBlock",
+      "value": 602
+    },
+    {
+      "name": "EjectBlock",
+      "value": 603
+    }
+  ]
+}

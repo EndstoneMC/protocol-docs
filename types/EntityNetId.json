@@ -1,0 +1,9 @@
+{
+  "name": "EntityNetId",
+  "fields": [
+    {
+      "name": "Raw Id",
+      "type": "uvarint32"
+    }
+  ]
+}

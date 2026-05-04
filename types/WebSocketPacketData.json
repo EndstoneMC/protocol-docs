@@ -1,0 +1,9 @@
+{
+  "name": "WebSocketPacketData",
+  "fields": [
+    {
+      "name": "Websocket Server URI",
+      "type": "string"
+    }
+  ]
+}

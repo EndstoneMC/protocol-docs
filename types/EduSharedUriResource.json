@@ -1,0 +1,13 @@
+{
+  "name": "EduSharedUriResource",
+  "fields": [
+    {
+      "name": "Button Name",
+      "type": "string"
+    },
+    {
+      "name": "Link Uri",
+      "type": "string"
+    }
+  ]
+}

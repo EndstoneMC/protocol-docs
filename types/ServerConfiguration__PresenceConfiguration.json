@@ -1,0 +1,28 @@
+{
+  "name": "ServerConfiguration::PresenceConfiguration",
+  "fields": [
+    {
+      "name": "experienceName",
+      "type": "string",
+      "constraints": {
+        "min_length": 1,
+        "max_length": 40
+      }
+    },
+    {
+      "name": "worldName",
+      "type": "string",
+      "constraints": {
+        "min_length": 1,
+        "max_length": 40
+      }
+    },
+    {
+      "name": "richPresenceId",
+      "type": "string",
+      "constraints": {
+        "max_length": 40
+      }
+    }
+  ]
+}

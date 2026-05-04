@@ -1,0 +1,21 @@
+{
+  "name": "ECS::Profiling::Diagnostics::EntityDiagnosticTimingInfo",
+  "fields": [
+    {
+      "name": "Display Name",
+      "type": "string"
+    },
+    {
+      "name": "Entity",
+      "type": "string"
+    },
+    {
+      "name": "Time in NS",
+      "type": "uint64"
+    },
+    {
+      "name": "Percent of Total",
+      "type": "uint8"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 348,
+  "name": "ClientboundUpdateSoundDataPacket",
+  "fields": [
+    {
+      "name": "Server Sound Handle",
+      "type": "ServerSoundHandle"
+    },
+    {
+      "name": "Sound Event",
+      "type": "string",
+      "enum": "SoundDataEvent"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "InventoryTransaction",
+  "fields": [
+    {
+      "name": "Actions",
+      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)",
+      "constraints": {
+        "description": "Verify that the number of InventoryActions does not exceed 100"
+      }
+    }
+  ]
+}

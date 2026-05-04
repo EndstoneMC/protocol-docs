@@ -1,0 +1,71 @@
+{
+  "name": "PrimitiveShapeDataPayload",
+  "fields": [
+    {
+      "name": "NetworkId",
+      "type": "uvarint64"
+    },
+    {
+      "name": "Shape Type",
+      "type": "uint8",
+      "enum": "ScriptModuleMinecraft::ScriptPrimitiveShapeType",
+      "optional": true
+    },
+    {
+      "name": "Location",
+      "type": "Vec3",
+      "optional": true
+    },
+    {
+      "name": "Scale",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Rotation",
+      "type": "Vec3",
+      "optional": true
+    },
+    {
+      "name": "Total Time Left",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Maximum Render Distance",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Color",
+      "type": "mce::Color",
+      "optional": true
+    },
+    {
+      "name": "Dimension ID",
+      "type": "DimensionType",
+      "optional": true
+    },
+    {
+      "name": "Attached To Entity ID",
+      "type": "ActorUniqueID",
+      "optional": true
+    },
+    {
+      "name": "Extra Shape Data",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          null,
+          "ArrowDataPayload",
+          "TextDataPayload",
+          "BoxDataPayload",
+          "LineDataPayload",
+          "SphereDataPayload"
+        ]
+      }
+    }
+  ]
+}

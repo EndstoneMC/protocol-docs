@@ -1,0 +1,9 @@
+{
+  "name": "ActorDataFlagComponent",
+  "fields": [
+    {
+      "name": "Actor Flag Bitset Data",
+      "type": "brstd::bitset<130>"
+    }
+  ]
+}

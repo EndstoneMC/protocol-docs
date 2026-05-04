@@ -1,0 +1,25 @@
+{
+  "name": "BossBarOverlay",
+  "values": [
+    {
+      "name": "PROGRESS",
+      "value": 0
+    },
+    {
+      "name": "NOTCHED_6",
+      "value": 1
+    },
+    {
+      "name": "NOTCHED_10",
+      "value": 2
+    },
+    {
+      "name": "NOTCHED_12",
+      "value": 3
+    },
+    {
+      "name": "NOTCHED_20",
+      "value": 4
+    }
+  ]
+}

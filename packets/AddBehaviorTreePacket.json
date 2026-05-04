@@ -1,0 +1,11 @@
+{
+  "id": 89,
+  "name": "AddBehaviorTreePacket",
+  "notes": "For automation",
+  "fields": [
+    {
+      "name": "Behavior Tree Structure (JSON)",
+      "type": "string"
+    }
+  ]
+}

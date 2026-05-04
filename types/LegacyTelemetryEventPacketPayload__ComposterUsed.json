@@ -1,0 +1,14 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::ComposterUsed",
+  "fields": [
+    {
+      "name": "Block Interaction Type",
+      "type": "uvarint32",
+      "enum": "MinecraftEventing::POIBlockInteractionType"
+    },
+    {
+      "name": "Item Id",
+      "type": "varint32"
+    }
+  ]
+}

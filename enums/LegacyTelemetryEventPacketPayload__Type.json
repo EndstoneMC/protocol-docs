@@ -1,0 +1,133 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::Type",
+  "values": [
+    {
+      "name": "Achievement",
+      "value": 0
+    },
+    {
+      "name": "Interaction",
+      "value": 1
+    },
+    {
+      "name": "PortalCreated",
+      "value": 2
+    },
+    {
+      "name": "PortalUsed",
+      "value": 3
+    },
+    {
+      "name": "MobKilled",
+      "value": 4
+    },
+    {
+      "name": "CauldronUsed",
+      "value": 5
+    },
+    {
+      "name": "PlayerDied",
+      "value": 6
+    },
+    {
+      "name": "BossKilled",
+      "value": 7
+    },
+    {
+      "name": "AgentCommand_OBSOLETE",
+      "value": 8
+    },
+    {
+      "name": "AgentCreated",
+      "value": 9
+    },
+    {
+      "name": "PatternRemoved_OBSOLETE",
+      "value": 10
+    },
+    {
+      "name": "SlashCommand",
+      "value": 11
+    },
+    {
+      "name": "FishBucketed_OBSOLETE",
+      "value": 12
+    },
+    {
+      "name": "MobBorn",
+      "value": 13
+    },
+    {
+      "name": "PetDied_OBSOLETE",
+      "value": 14
+    },
+    {
+      "name": "POICauldronUsed",
+      "value": 15
+    },
+    {
+      "name": "ComposterUsed",
+      "value": 16
+    },
+    {
+      "name": "BellUsed",
+      "value": 17
+    },
+    {
+      "name": "ActorDefinition",
+      "value": 18
+    },
+    {
+      "name": "RaidUpdate",
+      "value": 19
+    },
+    {
+      "name": "PlayerMovementAnomaly_OBSOLETE",
+      "value": 20
+    },
+    {
+      "name": "PlayerMovementCorrected_OBSOLETE",
+      "value": 21
+    },
+    {
+      "name": "HoneyHarvested",
+      "value": 22
+    },
+    {
+      "name": "TargetBlockHit",
+      "value": 23
+    },
+    {
+      "name": "PiglinBarter",
+      "value": 24
+    },
+    {
+      "name": "PlayerWaxedOrUnwaxedCopper",
+      "value": 25
+    },
+    {
+      "name": "CodeBuilderRuntimeAction",
+      "value": 26
+    },
+    {
+      "name": "CodeBuilderScoreboard",
+      "value": 27
+    },
+    {
+      "name": "StriderRiddenInLavaInOverworld",
+      "value": 28
+    },
+    {
+      "name": "SneakCloseToSculkSensor",
+      "value": 29
+    },
+    {
+      "name": "CarefulRestoration",
+      "value": 30
+    },
+    {
+      "name": "ItemUsed",
+      "value": 31
+    }
+  ]
+}

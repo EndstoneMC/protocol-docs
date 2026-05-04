@@ -1,0 +1,47 @@
+{
+  "name": "BiomeDefinitionData",
+  "fields": [
+    {
+      "name": "id",
+      "type": "uint16"
+    },
+    {
+      "name": "temperature",
+      "type": "float"
+    },
+    {
+      "name": "downfall",
+      "type": "float"
+    },
+    {
+      "name": "foliage snow",
+      "type": "float"
+    },
+    {
+      "name": "depth",
+      "type": "float"
+    },
+    {
+      "name": "scale",
+      "type": "float"
+    },
+    {
+      "name": "map water color ARGB",
+      "type": "int32"
+    },
+    {
+      "name": "rain",
+      "type": "bool"
+    },
+    {
+      "name": "tags",
+      "type": "BiomeTagsData",
+      "optional": true
+    },
+    {
+      "name": "chunk gen data",
+      "type": "BiomeDefinitionChunkGenData",
+      "optional": true
+    }
+  ]
+}

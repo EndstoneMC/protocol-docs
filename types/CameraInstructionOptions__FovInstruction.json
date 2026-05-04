@@ -1,0 +1,22 @@
+{
+  "name": "CameraInstructionOptions::FovInstruction",
+  "fields": [
+    {
+      "name": "Field of View",
+      "type": "float"
+    },
+    {
+      "name": "FOV Ease Time",
+      "type": "float"
+    },
+    {
+      "name": "FOV Ease Type",
+      "type": "string",
+      "enum": "EasingType"
+    },
+    {
+      "name": "Field of View Clear",
+      "type": "bool"
+    }
+  ]
+}

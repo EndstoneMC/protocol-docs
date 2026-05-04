@@ -1,0 +1,18 @@
+{
+  "id": 48,
+  "name": "PlayerHotbarPacket",
+  "fields": [
+    {
+      "name": "Selected Slot",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Container ID",
+      "type": "uint8"
+    },
+    {
+      "name": "Should select slot?",
+      "type": "bool"
+    }
+  ]
+}

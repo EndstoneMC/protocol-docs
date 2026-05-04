@@ -1,0 +1,19 @@
+{
+  "id": 157,
+  "name": "MotionPredictionHintsPacket",
+  "notes": "This is from the server when spatial optimizations are enabled and the server does not send a spatial update.",
+  "fields": [
+    {
+      "name": "mRuntimeId",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "mMotion",
+      "type": "Vec3"
+    },
+    {
+      "name": "mOnGround",
+      "type": "bool"
+    }
+  ]
+}

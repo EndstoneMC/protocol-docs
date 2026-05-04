@@ -1,0 +1,25 @@
+{
+  "name": "ArrowDataPayload",
+  "fields": [
+    {
+      "name": "Arrow End Location",
+      "type": "Vec3",
+      "optional": true
+    },
+    {
+      "name": "Arrow Head Length",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Arrow Head Radius",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Num Segments",
+      "type": "uint8",
+      "optional": true
+    }
+  ]
+}

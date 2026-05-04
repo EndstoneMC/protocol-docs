@@ -1,0 +1,37 @@
+{
+  "id": 161,
+  "name": "CorrectPlayerMovePredictionPacket",
+  "notes": "Used only in server authoritative movement mode, see ServerAuthMovementMode documentation.<br>\n\tSince it is sent to the specified client the target player is implied to be the receiver.<br>\n\tIt is an optional part of the server authoritative protocol. A server could choose to never send this or do all corrections\n\tthrough MovePlayerPacket, although doing so would likely provide less smooth results.",
+  "fields": [
+    {
+      "name": "PredictionType",
+      "type": "uint8",
+      "enum": "RewindType"
+    },
+    {
+      "name": "Pos",
+      "type": "Vec3"
+    },
+    {
+      "name": "Pos Delta",
+      "type": "Vec3"
+    },
+    {
+      "name": "Rotation",
+      "type": "Vec2"
+    },
+    {
+      "name": "VehicleAngularVelocity",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "On Ground",
+      "type": "bool"
+    },
+    {
+      "name": "Tick",
+      "type": "PlayerInputTick"
+    }
+  ]
+}

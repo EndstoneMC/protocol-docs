@@ -1,0 +1,12 @@
+{
+  "name": "BiomeConsolidatedFeaturesData",
+  "fields": [
+    {
+      "name": "features",
+      "type": "BiomeConsolidatedFeatureData",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

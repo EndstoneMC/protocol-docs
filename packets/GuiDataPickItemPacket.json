@@ -1,0 +1,19 @@
+{
+  "id": 54,
+  "name": "GuiDataPickItemPacket",
+  "notes": "This is only used when players use pick block, a command is used, tests, and some 3rd party content.",
+  "fields": [
+    {
+      "name": "Item Name",
+      "type": "string"
+    },
+    {
+      "name": "Item Effect Name",
+      "type": "string"
+    },
+    {
+      "name": "Slot",
+      "type": "int32"
+    }
+  ]
+}

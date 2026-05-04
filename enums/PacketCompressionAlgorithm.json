@@ -1,0 +1,17 @@
+{
+  "name": "PacketCompressionAlgorithm",
+  "values": [
+    {
+      "name": "ZLib",
+      "value": 0
+    },
+    {
+      "name": "Snappy",
+      "value": 1
+    },
+    {
+      "name": "None",
+      "value": 65535
+    }
+  ]
+}

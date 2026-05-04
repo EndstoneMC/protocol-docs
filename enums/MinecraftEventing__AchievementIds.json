@@ -1,0 +1,293 @@
+{
+  "name": "MinecraftEventing::AchievementIds",
+  "values": [
+    {
+      "name": "ChestFullOfCobblestone",
+      "value": 7
+    },
+    {
+      "name": "DiamondForYou",
+      "value": 10
+    },
+    {
+      "name": "IronBelly",
+      "value": 20
+    },
+    {
+      "name": "IronMan",
+      "value": 21
+    },
+    {
+      "name": "OnARail",
+      "value": 29
+    },
+    {
+      "name": "Overkill",
+      "value": 30
+    },
+    {
+      "name": "ReturnToSender",
+      "value": 37
+    },
+    {
+      "name": "SniperDuel",
+      "value": 38
+    },
+    {
+      "name": "StayinFrosty",
+      "value": 39
+    },
+    {
+      "name": "TakeInventory",
+      "value": 40
+    },
+    {
+      "name": "MapRoom",
+      "value": 50
+    },
+    {
+      "name": "FreightStation",
+      "value": 52
+    },
+    {
+      "name": "SmeltEverything",
+      "value": 53
+    },
+    {
+      "name": "TasteOfYourOwnMedicine",
+      "value": 54
+    },
+    {
+      "name": "WhenPigsFly",
+      "value": 56
+    },
+    {
+      "name": "Inception",
+      "value": 58
+    },
+    {
+      "name": "ArtificialSelection",
+      "value": 60
+    },
+    {
+      "name": "FreeDiver",
+      "value": 61
+    },
+    {
+      "name": "SpawnTheWither",
+      "value": 62
+    },
+    {
+      "name": "Beaconator",
+      "value": 63
+    },
+    {
+      "name": "GreatView",
+      "value": 64
+    },
+    {
+      "name": "SuperSonic",
+      "value": 65
+    },
+    {
+      "name": "TheEndAgain",
+      "value": 66
+    },
+    {
+      "name": "TreasureHunter",
+      "value": 67
+    },
+    {
+      "name": "ShootingStar",
+      "value": 68
+    },
+    {
+      "name": "FashionShow",
+      "value": 69
+    },
+    {
+      "name": "SelfPublishedAuthor",
+      "value": 71
+    },
+    {
+      "name": "AlternativeFuel",
+      "value": 72
+    },
+    {
+      "name": "SleepWithTheFishes",
+      "value": 73
+    },
+    {
+      "name": "Castaway",
+      "value": 74
+    },
+    {
+      "name": "ImAMarineBiologist",
+      "value": 75
+    },
+    {
+      "name": "SailThe7Seas",
+      "value": 76
+    },
+    {
+      "name": "MeGold",
+      "value": 77
+    },
+    {
+      "name": "Ahoy",
+      "value": 78
+    },
+    {
+      "name": "Atlantis",
+      "value": 79
+    },
+    {
+      "name": "OnePickleTwoPickleSeaPickleFour",
+      "value": 80
+    },
+    {
+      "name": "DoaBarrelRoll",
+      "value": 81
+    },
+    {
+      "name": "Moskstraumen",
+      "value": 82
+    },
+    {
+      "name": "Echolocation",
+      "value": 83
+    },
+    {
+      "name": "WhereHaveYouBeen",
+      "value": 84
+    },
+    {
+      "name": "TopOfTheWorld",
+      "value": 85
+    },
+    {
+      "name": "FruitOnTheLoom",
+      "value": 86
+    },
+    {
+      "name": "SoundTheAlarm",
+      "value": 87
+    },
+    {
+      "name": "BuyLowSellHigh",
+      "value": 88
+    },
+    {
+      "name": "Disenchanted",
+      "value": 89
+    },
+    {
+      "name": "TimeForStew",
+      "value": 90
+    },
+    {
+      "name": "BeeOurGuest",
+      "value": 91
+    },
+    {
+      "name": "TotalBeeLocation",
+      "value": 92
+    },
+    {
+      "name": "StickySituation",
+      "value": 93
+    },
+    {
+      "name": "CoverMeInDebris",
+      "value": 94
+    },
+    {
+      "name": "FloatYourGoat",
+      "value": 95
+    },
+    {
+      "name": "Friend",
+      "value": 96
+    },
+    {
+      "name": "WaxOnWaxOff",
+      "value": 97
+    },
+    {
+      "name": "StriderRiddenInLavaInOverworld",
+      "value": 98
+    },
+    {
+      "name": "GoatHornAcquired",
+      "value": 99
+    },
+    {
+      "name": "JukeboxUsedInMeadows",
+      "value": 100
+    },
+    {
+      "name": "TradedAtWorldHeight",
+      "value": 101
+    },
+    {
+      "name": "SurvivedFallFromWorldHeight",
+      "value": 102
+    },
+    {
+      "name": "SneakCloseToSculkSensor",
+      "value": 103
+    },
+    {
+      "name": "ItSpreads",
+      "value": 104
+    },
+    {
+      "name": "BirthdaySong",
+      "value": 105
+    },
+    {
+      "name": "WithOurPowersCombined",
+      "value": 106
+    },
+    {
+      "name": "PlantingThePast",
+      "value": 107
+    },
+    {
+      "name": "CarefulRestoration",
+      "value": 108
+    },
+    {
+      "name": "Revaulting",
+      "value": 109
+    },
+    {
+      "name": "CraftersCraftingCrafters",
+      "value": 110
+    },
+    {
+      "name": "WhoNeedsRockets",
+      "value": 111
+    },
+    {
+      "name": "OverOverkill",
+      "value": 112
+    },
+    {
+      "name": "HeartTransplanter",
+      "value": 113
+    },
+    {
+      "name": "StayHydrated",
+      "value": 114
+    },
+    {
+      "name": "MobKabob",
+      "value": 115
+    },
+    {
+      "name": "AdventuringTime",
+      "value": 116
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "EAS::AttributeLayerData",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 128
+      }
+    },
+    {
+      "name": "NoiseName",
+      "type": "string",
+      "constraints": {
+        "max_length": 128
+      },
+      "optional": true
+    },
+    {
+      "name": "Dimension",
+      "type": "DimensionType"
+    },
+    {
+      "name": "Settings",
+      "type": "EAS::AttributeLayerSettings"
+    },
+    {
+      "name": "Attributes",
+      "type": "EAS::EnvironmentAttributeData",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 1024
+      }
+    }
+  ]
+}

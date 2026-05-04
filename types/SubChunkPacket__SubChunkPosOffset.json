@@ -1,0 +1,17 @@
+{
+  "name": "SubChunkPacket::SubChunkPosOffset",
+  "fields": [
+    {
+      "name": "Subchunk Offset X",
+      "type": "int8"
+    },
+    {
+      "name": "Subchunk Offset Y",
+      "type": "int8"
+    },
+    {
+      "name": "Subchunk Offset Z",
+      "type": "int8"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Vec2",
+  "fields": [
+    {
+      "name": "X",
+      "type": "float"
+    },
+    {
+      "name": "Y",
+      "type": "float"
+    }
+  ]
+}

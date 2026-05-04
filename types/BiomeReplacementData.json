@@ -1,0 +1,32 @@
+{
+  "name": "BiomeReplacementData",
+  "fields": [
+    {
+      "name": "replacement biome",
+      "type": "uint16"
+    },
+    {
+      "name": "dimension",
+      "type": "uint16"
+    },
+    {
+      "name": "target biomes",
+      "type": "uint16",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "amount",
+      "type": "float"
+    },
+    {
+      "name": "noise frequency scale",
+      "type": "float"
+    },
+    {
+      "name": "replacement index",
+      "type": "uint32"
+    }
+  ]
+}
