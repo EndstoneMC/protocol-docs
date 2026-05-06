@@ -24,6 +24,22 @@
     {
       "name": "Arrow",
       "value": 5
+    },
+    {
+      "name": "Cylinder",
+      "value": 6
+    },
+    {
+      "name": "Pyramid",
+      "value": 7
+    },
+    {
+      "name": "Ellipsoid",
+      "value": 8
+    },
+    {
+      "name": "Cone",
+      "value": 9
     }
   ]
 }

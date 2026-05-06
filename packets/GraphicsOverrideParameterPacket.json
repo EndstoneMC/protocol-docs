@@ -30,6 +30,14 @@
       }
     },
     {
+      "name": "Player Identifier",
+      "type": "string",
+      "constraints": {
+        "max_length": 255
+      },
+      "optional": true
+    },
+    {
       "name": "Identifier for Parameter",
       "type": "uint8",
       "enum": "GraphicsOverrideParameterType"

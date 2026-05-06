@@ -63,7 +63,11 @@
           "TextDataPayload",
           "BoxDataPayload",
           "LineDataPayload",
-          "SphereDataPayload"
+          "SphereDataPayload",
+          "CylinderDataPayload",
+          "PyramidDataPayload",
+          "EllipsoidDataPayload",
+          "ConeDataPayload"
         ]
       }
     }

@@ -2163,7 +2163,7 @@
     },
     {
       "name": "Undefined",
-      "value": 604
+      "value": 606
     },
     {
       "name": "StoneSpearAttackHit",
@@ -2264,6 +2264,14 @@
     {
       "name": "EjectBlock",
       "value": 603
+    },
+    {
+      "name": "GeyserEruptionStart",
+      "value": 604
+    },
+    {
+      "name": "GeyserEruptionActive",
+      "value": 605
     }
   ]
 }
