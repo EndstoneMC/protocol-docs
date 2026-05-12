@@ -8,6 +8,10 @@
     {
       "name": "DOLPHIN_BOOST",
       "value": 1
+    },
+    {
+      "name": "GEYSER_BOOST",
+      "value": 2
     }
   ]
 }

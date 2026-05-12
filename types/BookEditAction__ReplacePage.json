@@ -9,14 +9,14 @@
       "name": "Page Text",
       "type": "string",
       "constraints": {
-        "max_length": 768
+        "max_length": 256
       }
     },
     {
       "name": "Photo Name",
       "type": "string",
       "constraints": {
-        "max_length": 768
+        "max_length": 256
       }
     }
   ]

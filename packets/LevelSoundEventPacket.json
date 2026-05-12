@@ -4,9 +4,8 @@
   "notes": "Most sounds get launched on server and replicated to clients, but a handful of player initiated sounds are launched on their client and replicated through the network.\n\t(In most of the codebase 'Event' means telemetry events; this is not the case here, this is how sounds get replicated across the network in vanilla.)\n\tWith support for custom entities. Entity Id is a string and Event Id is an integer.",
   "fields": [
     {
-      "name": "Event ID",
-      "type": "uvarint32",
-      "enum": "SharedTypes::Legacy::LevelSoundEvent"
+      "name": "Sound Event",
+      "type": "string"
     },
     {
       "name": "Position",
