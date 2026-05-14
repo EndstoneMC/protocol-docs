@@ -5,24 +5,20 @@
   "fields": [
     {
       "name": "Target Runtime ID",
-      "type": "ActorRuntimeID",
-      "deprecated": true
+      "type": "ActorRuntimeID"
     },
     {
       "name": "Effect ID",
       "type": "uvarint32",
-      "enum": "MovementEffectType",
-      "deprecated": true
+      "enum": "MovementEffectType"
     },
     {
       "name": "Effect Duration",
-      "type": "varint32",
-      "deprecated": true
+      "type": "varint32"
     },
     {
       "name": "Tick",
-      "type": "PlayerInputTick",
-      "deprecated": true
+      "type": "PlayerInputTick"
     }
   ]
 }

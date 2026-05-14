@@ -6,7 +6,8 @@
       "type": "string",
       "constraints": {
         "max_length": 128
-      }
+      },
+      "deprecated": true
     },
     {
       "name": "NoiseName",
@@ -14,15 +15,18 @@
       "constraints": {
         "max_length": 128
       },
-      "optional": true
+      "optional": true,
+      "deprecated": true
     },
     {
       "name": "Dimension",
-      "type": "DimensionType"
+      "type": "DimensionType",
+      "deprecated": true
     },
     {
       "name": "Settings",
-      "type": "EAS::AttributeLayerSettings"
+      "type": "EAS::AttributeLayerSettings",
+      "deprecated": true
     },
     {
       "name": "Attributes",
@@ -32,7 +36,8 @@
       },
       "constraints": {
         "max_items": 1024
-      }
+      },
+      "deprecated": true
     }
   ]
 }

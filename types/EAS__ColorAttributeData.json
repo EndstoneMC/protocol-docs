@@ -3,12 +3,14 @@
   "fields": [
     {
       "name": "value",
-      "type": "string"
+      "type": "string",
+      "deprecated": true
     },
     {
       "name": "operation",
       "type": "string",
-      "enum": "EAS::ColorAttributeOperation"
+      "enum": "EAS::ColorAttributeOperation",
+      "deprecated": true
     }
   ]
 }
