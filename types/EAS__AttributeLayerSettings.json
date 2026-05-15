@@ -3,23 +3,19 @@
   "fields": [
     {
       "name": "Priority",
-      "type": "int32",
-      "deprecated": true
+      "type": "int32"
     },
     {
       "name": "Weight",
-      "type": "float",
-      "deprecated": true
+      "type": "float"
     },
     {
       "name": "Enabled",
-      "type": "bool",
-      "deprecated": true
+      "type": "bool"
     },
     {
       "name": "TransitionsPaused",
-      "type": "bool",
-      "deprecated": true
+      "type": "bool"
     }
   ]
 }

@@ -3,14 +3,12 @@
   "fields": [
     {
       "name": "value",
-      "type": "bool",
-      "deprecated": true
+      "type": "bool"
     },
     {
       "name": "operation",
       "type": "string",
-      "enum": "EAS::BoolAttributeOperation",
-      "deprecated": true
+      "enum": "EAS::BoolAttributeOperation"
     }
   ]
 }

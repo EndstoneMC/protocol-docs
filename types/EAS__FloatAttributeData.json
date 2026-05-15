@@ -3,26 +3,22 @@
   "fields": [
     {
       "name": "value",
-      "type": "float",
-      "deprecated": true
+      "type": "float"
     },
     {
       "name": "operation",
       "type": "string",
-      "enum": "EAS::FloatAttributeOperation",
-      "deprecated": true
+      "enum": "EAS::FloatAttributeOperation"
     },
     {
       "name": "constraintMin",
       "type": "float",
-      "optional": true,
-      "deprecated": true
+      "optional": true
     },
     {
       "name": "constraintMax",
       "type": "float",
-      "optional": true,
-      "deprecated": true
+      "optional": true
     }
   ]
 }

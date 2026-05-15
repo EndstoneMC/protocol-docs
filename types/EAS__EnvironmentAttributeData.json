@@ -6,8 +6,7 @@
       "type": "string",
       "constraints": {
         "max_length": 128
-      },
-      "deprecated": true
+      }
     },
     {
       "name": "FromAttribute",
@@ -21,8 +20,7 @@
           "EAS::ColorAttributeData"
         ]
       },
-      "optional": true,
-      "deprecated": true
+      "optional": true
     },
     {
       "name": "Attribute",
@@ -35,8 +33,7 @@
           "EAS::FloatAttributeData",
           "EAS::ColorAttributeData"
         ]
-      },
-      "deprecated": true
+      }
     },
     {
       "name": "ToAttribute",
@@ -50,34 +47,28 @@
           "EAS::ColorAttributeData"
         ]
       },
-      "optional": true,
-      "deprecated": true
+      "optional": true
     },
     {
       "name": "CurrentTransitionTicks",
-      "type": "uint32",
-      "deprecated": true
+      "type": "uint32"
     },
     {
       "name": "TotalTransitionTicks",
-      "type": "uint32",
-      "deprecated": true
+      "type": "uint32"
     },
     {
       "name": "Easing",
       "type": "string",
-      "enum": "EasingType",
-      "deprecated": true
+      "enum": "EasingType"
     },
     {
       "name": "LocalTransitionTicks",
-      "type": "uint32",
-      "deprecated": true
+      "type": "uint32"
     },
     {
       "name": "NoiseTransition",
-      "type": "bool",
-      "deprecated": true
+      "type": "bool"
     }
   ]
 }
