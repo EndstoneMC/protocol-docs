@@ -2258,8 +2258,16 @@
       "value": 608
     },
     {
-      "name": "undefined",
+      "name": "geyser_continuous_eruption_start",
       "value": 609
+    },
+    {
+      "name": "geyser_continuous_eruption_active",
+      "value": 610
+    },
+    {
+      "name": "undefined",
+      "value": 611
     }
   ]
 }

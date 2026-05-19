@@ -24,15 +24,24 @@
     },
     {
       "name": "Sender's XUID",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "max_length": 64
+      }
     },
     {
       "name": "Platform Id",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "max_length": 256
+      }
     },
     {
       "name": "Filtered Message",
       "type": "string",
+      "constraints": {
+        "max_length": 65536
+      },
       "optional": true
     }
   ]
