@@ -5,13 +5,11 @@
   "fields": [
     {
       "name": "Chunk Radius",
-      "type": "varint32",
-      "deprecated": true
+      "type": "varint32"
     },
     {
       "name": "Max ChunkRadius",
-      "type": "uint8",
-      "deprecated": true
+      "type": "uint8"
     }
   ]
 }

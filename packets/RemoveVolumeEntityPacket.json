@@ -4,13 +4,11 @@
   "fields": [
     {
       "name": "Entity Network Id",
-      "type": "EntityNetId",
-      "deprecated": true
+      "type": "EntityNetId"
     },
     {
       "name": "Dimension Type",
-      "type": "DimensionType",
-      "deprecated": true
+      "type": "DimensionType"
     }
   ]
 }
