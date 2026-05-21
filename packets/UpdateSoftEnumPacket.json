@@ -5,19 +5,22 @@
   "fields": [
     {
       "name": "Enum Name",
-      "type": "string"
+      "type": "string",
+      "deprecated": true
     },
     {
       "name": "Values",
       "type": "string",
       "repeat": {
         "prefix": "uvarint32"
-      }
+      },
+      "deprecated": true
     },
     {
       "name": "Update Type",
       "type": "uint8",
-      "enum": "SoftEnumUpdateType"
+      "enum": "SoftEnumUpdateType",
+      "deprecated": true
     }
   ]
 }

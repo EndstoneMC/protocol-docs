@@ -5,7 +5,8 @@
   "fields": [
     {
       "name": "Web Socket Data",
-      "type": "WebSocketPacketData"
+      "type": "WebSocketPacketData",
+      "deprecated": true
     }
   ]
 }

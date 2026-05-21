@@ -5,15 +5,18 @@
     {
       "name": "Player Game Type",
       "type": "uvarint32",
-      "enum": "GameType"
+      "enum": "GameType",
+      "deprecated": true
     },
     {
       "name": "Target player",
-      "type": "ActorUniqueID"
+      "type": "ActorUniqueID",
+      "deprecated": true
     },
     {
       "name": "Tick",
-      "type": "PlayerInputTick"
+      "type": "PlayerInputTick",
+      "deprecated": true
     }
   ]
 }
