@@ -3,8 +3,7 @@
   "fields": [
     {
       "name": "Websocket Server URI",
-      "type": "string",
-      "deprecated": true
+      "type": "string"
     }
   ]
 }
