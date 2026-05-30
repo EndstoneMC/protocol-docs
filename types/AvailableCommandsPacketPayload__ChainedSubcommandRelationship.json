@@ -3,11 +3,13 @@
   "fields": [
     {
       "name": "SubCommand First Value",
-      "type": "uvarint32"
+      "type": "uvarint32",
+      "deprecated": true
     },
     {
       "name": "SubCommand Second Value",
-      "type": "uvarint32"
+      "type": "uvarint32",
+      "deprecated": true
     }
   ]
 }

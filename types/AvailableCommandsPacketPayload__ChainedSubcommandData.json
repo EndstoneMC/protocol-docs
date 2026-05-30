@@ -6,7 +6,8 @@
       "type": "string",
       "constraints": {
         "max_length": 512
-      }
+      },
+      "deprecated": true
     },
     {
       "name": "SubCommand values",
@@ -16,7 +17,8 @@
       },
       "constraints": {
         "max_items": 32
-      }
+      },
+      "deprecated": true
     }
   ]
 }
