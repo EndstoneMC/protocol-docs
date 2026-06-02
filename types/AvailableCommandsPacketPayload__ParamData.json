@@ -1,0 +1,21 @@
+{
+  "name": "AvailableCommandsPacketPayload::ParamData",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Parse Symbol",
+      "type": "uint32"
+    },
+    {
+      "name": "Is Optional?",
+      "type": "bool"
+    },
+    {
+      "name": "Options",
+      "type": "uint8"
+    }
+  ]
+}

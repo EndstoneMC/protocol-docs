@@ -1,0 +1,13 @@
+{
+  "name": "ModalFormCancelReason",
+  "values": [
+    {
+      "name": "UserClosed",
+      "value": 0
+    },
+    {
+      "name": "UserBusy",
+      "value": 1
+    }
+  ]
+}

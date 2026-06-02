@@ -1,0 +1,129 @@
+{
+  "id": 348,
+  "name": "ClientboundUpdateSoundDataPacket",
+  "fields": [
+    {
+      "name": "Server Sound Handle",
+      "type": "ServerSoundHandle"
+    },
+    {
+      "name": "Stop",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "SoundDataEvent::Stop",
+          "SoundDataEvent::SetVolume",
+          "SoundDataEvent::SetPitch",
+          "SoundDataEvent::Fade",
+          "SoundDataEvent::SeekTo",
+          "SoundDataEvent::Pause",
+          "SoundDataEvent::Resume"
+        ]
+      }
+    },
+    {
+      "name": "SetVolume",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "SoundDataEvent::Stop",
+          "SoundDataEvent::SetVolume",
+          "SoundDataEvent::SetPitch",
+          "SoundDataEvent::Fade",
+          "SoundDataEvent::SeekTo",
+          "SoundDataEvent::Pause",
+          "SoundDataEvent::Resume"
+        ]
+      }
+    },
+    {
+      "name": "SetPitch",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "SoundDataEvent::Stop",
+          "SoundDataEvent::SetVolume",
+          "SoundDataEvent::SetPitch",
+          "SoundDataEvent::Fade",
+          "SoundDataEvent::SeekTo",
+          "SoundDataEvent::Pause",
+          "SoundDataEvent::Resume"
+        ]
+      }
+    },
+    {
+      "name": "Fade",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "SoundDataEvent::Stop",
+          "SoundDataEvent::SetVolume",
+          "SoundDataEvent::SetPitch",
+          "SoundDataEvent::Fade",
+          "SoundDataEvent::SeekTo",
+          "SoundDataEvent::Pause",
+          "SoundDataEvent::Resume"
+        ]
+      }
+    },
+    {
+      "name": "SeekTo",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "SoundDataEvent::Stop",
+          "SoundDataEvent::SetVolume",
+          "SoundDataEvent::SetPitch",
+          "SoundDataEvent::Fade",
+          "SoundDataEvent::SeekTo",
+          "SoundDataEvent::Pause",
+          "SoundDataEvent::Resume"
+        ]
+      }
+    },
+    {
+      "name": "Pause",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "SoundDataEvent::Stop",
+          "SoundDataEvent::SetVolume",
+          "SoundDataEvent::SetPitch",
+          "SoundDataEvent::Fade",
+          "SoundDataEvent::SeekTo",
+          "SoundDataEvent::Pause",
+          "SoundDataEvent::Resume"
+        ]
+      }
+    },
+    {
+      "name": "Resume",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "SoundDataEvent::Stop",
+          "SoundDataEvent::SetVolume",
+          "SoundDataEvent::SetPitch",
+          "SoundDataEvent::Fade",
+          "SoundDataEvent::SeekTo",
+          "SoundDataEvent::Pause",
+          "SoundDataEvent::Resume"
+        ]
+      }
+    }
+  ]
+}

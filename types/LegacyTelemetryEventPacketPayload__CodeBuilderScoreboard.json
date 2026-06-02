@@ -1,0 +1,16 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::CodeBuilderScoreboard",
+  "fields": [
+    {
+      "name": "Objective Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 256
+      }
+    },
+    {
+      "name": "Score",
+      "type": "varint32"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "id": 102,
+  "name": "ServerSettingsRequestPacket",
+  "notes": "It is also an empty packet. There is no handler for this packet, should be removed.",
+  "fields": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "BiomeStringList",
+  "fields": [
+    {
+      "name": "strings",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

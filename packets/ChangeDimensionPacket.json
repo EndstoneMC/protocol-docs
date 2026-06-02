@@ -1,0 +1,23 @@
+{
+  "id": 61,
+  "name": "ChangeDimensionPacket",
+  "fields": [
+    {
+      "name": "Dimension ID",
+      "type": "DimensionType"
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Respawn",
+      "type": "bool"
+    },
+    {
+      "name": "Loading Screen Id",
+      "type": "uint32",
+      "optional": true
+    }
+  ]
+}

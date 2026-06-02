@@ -1,0 +1,34 @@
+{
+  "name": "BiomeCoordinateData",
+  "fields": [
+    {
+      "name": "min value type",
+      "type": "varint32"
+    },
+    {
+      "name": "min value",
+      "type": "uint16"
+    },
+    {
+      "name": "max value type",
+      "type": "varint32"
+    },
+    {
+      "name": "max value",
+      "type": "uint16"
+    },
+    {
+      "name": "grid offset",
+      "type": "uint32"
+    },
+    {
+      "name": "grid step size",
+      "type": "uint32"
+    },
+    {
+      "name": "distribution",
+      "type": "uvarint32",
+      "enum": "SharedTypes::v1_21_10::RandomDistributionType"
+    }
+  ]
+}

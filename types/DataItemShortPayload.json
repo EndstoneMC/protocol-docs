@@ -1,0 +1,14 @@
+{
+  "name": "DataItemShortPayload",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "string",
+      "enum": "DataItemType"
+    },
+    {
+      "name": "Value",
+      "type": "int16"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ItemReleaseInventoryTransaction::ActionType",
+  "values": [
+    {
+      "name": "Release",
+      "value": 0
+    },
+    {
+      "name": "Use",
+      "value": 1
+    }
+  ]
+}

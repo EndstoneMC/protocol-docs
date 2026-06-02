@@ -1,0 +1,13 @@
+{
+  "name": "ItemUseInventoryTransaction::ClientCooldownState",
+  "values": [
+    {
+      "name": "Off",
+      "value": 0
+    },
+    {
+      "name": "On",
+      "value": 1
+    }
+  ]
+}

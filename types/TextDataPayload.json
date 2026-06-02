@@ -1,0 +1,30 @@
+{
+  "name": "TextDataPayload",
+  "fields": [
+    {
+      "name": "Text",
+      "type": "string"
+    },
+    {
+      "name": "UseRotation",
+      "type": "bool"
+    },
+    {
+      "name": "BackgroundColor",
+      "type": "mce::Color",
+      "optional": true
+    },
+    {
+      "name": "DepthTest",
+      "type": "bool"
+    },
+    {
+      "name": "ShowBackface",
+      "type": "bool"
+    },
+    {
+      "name": "ShowTextBackface",
+      "type": "bool"
+    }
+  ]
+}

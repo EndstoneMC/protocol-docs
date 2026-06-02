@@ -1,0 +1,9 @@
+{
+  "name": "SoundDataEvent::SetVolume",
+  "fields": [
+    {
+      "name": "Volume",
+      "type": "float"
+    }
+  ]
+}

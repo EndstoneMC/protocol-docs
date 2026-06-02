@@ -1,0 +1,9 @@
+{
+  "name": "LineDataPayload",
+  "fields": [
+    {
+      "name": "Line End Location",
+      "type": "Vec3"
+    }
+  ]
+}

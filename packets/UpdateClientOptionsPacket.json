@@ -1,0 +1,18 @@
+{
+  "id": 323,
+  "name": "UpdateClientOptionsPacket",
+  "notes": "The values in this packet are originally synced through the Connection Request and then updated via this packet.",
+  "fields": [
+    {
+      "name": "Graphics Mode Change",
+      "type": "uint8",
+      "enum": "GraphicsMode",
+      "optional": true
+    },
+    {
+      "name": "Filter Profanity Change",
+      "type": "bool",
+      "optional": true
+    }
+  ]
+}

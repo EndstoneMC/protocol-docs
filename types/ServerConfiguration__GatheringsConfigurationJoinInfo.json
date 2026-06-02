@@ -1,0 +1,66 @@
+{
+  "name": "ServerConfiguration::GatheringsConfigurationJoinInfo",
+  "fields": [
+    {
+      "name": "experienceId",
+      "type": "mce::UUID",
+      "constraints": {
+        "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+      }
+    },
+    {
+      "name": "experienceName",
+      "type": "string",
+      "constraints": {
+        "min_length": 1,
+        "max_length": 29
+      }
+    },
+    {
+      "name": "worldId",
+      "type": "mce::UUID",
+      "constraints": {
+        "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+      }
+    },
+    {
+      "name": "worldName",
+      "type": "string",
+      "constraints": {
+        "min_length": 1,
+        "max_length": 29
+      }
+    },
+    {
+      "name": "creatorId",
+      "type": "string",
+      "constraints": {
+        "min_length": 1,
+        "max_length": 60
+      }
+    },
+    {
+      "name": "targetId",
+      "type": "mce::UUID",
+      "constraints": {
+        "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+      }
+    },
+    {
+      "name": "scenarioId",
+      "type": "string",
+      "constraints": {
+        "min_length": 1,
+        "max_length": 100
+      }
+    },
+    {
+      "name": "serverId",
+      "type": "string",
+      "constraints": {
+        "min_length": 1,
+        "max_length": 100
+      }
+    }
+  ]
+}

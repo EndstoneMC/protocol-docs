@@ -1,0 +1,22 @@
+{
+  "id": 30,
+  "name": "InventoryTransactionPacket",
+  "fields": [
+    {
+      "name": "Legacy Request ID",
+      "type": "TypedClientNetId<struct ItemStackLegacyRequestIdTag, int32_t, 0>"
+    },
+    {
+      "name": "Legacy Set Item Slots",
+      "type": "LegacySetSlot",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "optional": true
+    },
+    {
+      "name": "Transaction",
+      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+    }
+  ]
+}

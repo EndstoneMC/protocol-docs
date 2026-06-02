@@ -1,0 +1,13 @@
+{
+  "name": "BookEditAction::SwapPages",
+  "fields": [
+    {
+      "name": "Page Index",
+      "type": "varint32"
+    },
+    {
+      "name": "Swap With Index",
+      "type": "varint32"
+    }
+  ]
+}

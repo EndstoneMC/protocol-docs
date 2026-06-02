@@ -1,0 +1,9 @@
+{
+  "name": "WaypointGroup::WaypointHandle",
+  "fields": [
+    {
+      "name": "UUID",
+      "type": "mce::UUID"
+    }
+  ]
+}

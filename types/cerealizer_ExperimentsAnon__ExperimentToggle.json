@@ -1,0 +1,13 @@
+{
+  "name": "cerealizer_ExperimentsAnon::ExperimentToggle",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Enabled",
+      "type": "bool"
+    }
+  ]
+}

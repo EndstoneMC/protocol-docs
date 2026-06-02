@@ -1,0 +1,13 @@
+{
+  "name": "InventorySource::InventorySourceFlags",
+  "values": [
+    {
+      "name": "No Flag",
+      "value": 0
+    },
+    {
+      "name": "World Interaction Random",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "CameraAimAssist::TargetMode",
+  "values": [
+    {
+      "name": "angle",
+      "value": 0
+    },
+    {
+      "name": "distance",
+      "value": 1
+    }
+  ]
+}

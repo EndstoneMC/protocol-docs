@@ -1,0 +1,25 @@
+{
+  "id": 349,
+  "name": "SendPartyDestinationCookiePacket",
+  "fields": [
+    {
+      "name": "cookie",
+      "type": "string",
+      "constraints": {
+        "max_length": 2048
+      }
+    },
+    {
+      "name": "intent",
+      "type": "string",
+      "enum": "PartyDestinationCookieIntent"
+    },
+    {
+      "name": "destination_name",
+      "type": "string",
+      "constraints": {
+        "max_length": 64
+      }
+    }
+  ]
+}

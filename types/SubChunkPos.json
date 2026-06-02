@@ -1,0 +1,17 @@
+{
+  "name": "SubChunkPos",
+  "fields": [
+    {
+      "name": "Subchunk Position X",
+      "type": "int32"
+    },
+    {
+      "name": "Subchunk Position Y",
+      "type": "int32"
+    },
+    {
+      "name": "Subchunk Position Z",
+      "type": "int32"
+    }
+  ]
+}

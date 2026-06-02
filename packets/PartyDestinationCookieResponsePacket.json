@@ -1,0 +1,17 @@
+{
+  "id": 350,
+  "name": "PartyDestinationCookieResponsePacket",
+  "fields": [
+    {
+      "name": "cookie",
+      "type": "string",
+      "constraints": {
+        "max_length": 2048
+      }
+    },
+    {
+      "name": "accepted",
+      "type": "bool"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "SkinImage",
+  "fields": [
+    {
+      "name": "Width",
+      "type": "uint32",
+      "constraints": {
+        "maximum": 4096
+      }
+    },
+    {
+      "name": "Height",
+      "type": "uint32",
+      "constraints": {
+        "maximum": 4096
+      }
+    },
+    {
+      "name": "ImageBytes",
+      "type": "uint8",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 67108864
+      }
+    }
+  ]
+}

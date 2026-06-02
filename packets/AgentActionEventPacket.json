@@ -1,0 +1,19 @@
+{
+  "id": 181,
+  "name": "AgentActionEventPacket",
+  "fields": [
+    {
+      "name": "Request Id",
+      "type": "string"
+    },
+    {
+      "name": "Action",
+      "type": "uint32",
+      "enum": "AgentActionType"
+    },
+    {
+      "name": "Response",
+      "type": "string"
+    }
+  ]
+}

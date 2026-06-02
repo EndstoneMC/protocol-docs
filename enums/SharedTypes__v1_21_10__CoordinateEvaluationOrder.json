@@ -1,0 +1,29 @@
+{
+  "name": "SharedTypes::v1_21_10::CoordinateEvaluationOrder",
+  "values": [
+    {
+      "name": "XYZ",
+      "value": 0
+    },
+    {
+      "name": "XZY",
+      "value": 1
+    },
+    {
+      "name": "YXZ",
+      "value": 2
+    },
+    {
+      "name": "YZX",
+      "value": 3
+    },
+    {
+      "name": "ZXY",
+      "value": 4
+    },
+    {
+      "name": "ZYX",
+      "value": 5
+    }
+  ]
+}

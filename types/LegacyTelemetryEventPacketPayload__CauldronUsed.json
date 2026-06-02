@@ -1,0 +1,17 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::CauldronUsed",
+  "fields": [
+    {
+      "name": "Contents Color",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Contents Type",
+      "type": "varint32"
+    },
+    {
+      "name": "Fill Level",
+      "type": "varint32"
+    }
+  ]
+}

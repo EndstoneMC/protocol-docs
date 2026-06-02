@@ -1,0 +1,48 @@
+{
+  "name": "CameraInstructionOptions::SetInstruction",
+  "fields": [
+    {
+      "name": "preset",
+      "type": "uint32"
+    },
+    {
+      "name": "ease",
+      "type": "CameraInstructionOptions::SetInstruction::EaseOption",
+      "optional": true
+    },
+    {
+      "name": "pos",
+      "type": "CameraInstructionOptions::SetInstruction::PosOption",
+      "optional": true
+    },
+    {
+      "name": "rot",
+      "type": "CameraInstructionOptions::SetInstruction::RotOption",
+      "optional": true
+    },
+    {
+      "name": "facing",
+      "type": "CameraInstructionOptions::SetInstruction::FacingOption",
+      "optional": true
+    },
+    {
+      "name": "view_offset",
+      "type": "CameraInstructionOptions::SetInstruction::ViewOffsetOption",
+      "optional": true
+    },
+    {
+      "name": "entity_offset",
+      "type": "CameraInstructionOptions::SetInstruction::EntityOffsetOption",
+      "optional": true
+    },
+    {
+      "name": "default",
+      "type": "bool",
+      "optional": true
+    },
+    {
+      "name": "removeIgnoreStartingValuesComponent",
+      "type": "bool"
+    }
+  ]
+}

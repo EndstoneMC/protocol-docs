@@ -1,0 +1,17 @@
+{
+  "id": 136,
+  "name": "ClientCacheMissResponsePacket",
+  "notes": "Any missing blob should just be thrown into one of these packet ASAP and sent. This is actually how chunk data gets to the client the first time.",
+  "fields": [
+    {
+      "name": "Missing Blobs",
+      "type": "MissingBlobData",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 4095
+      }
+    }
+  ]
+}

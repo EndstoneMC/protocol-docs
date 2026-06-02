@@ -1,0 +1,12 @@
+{
+  "name": "SynchedActorData::CopyableDataList",
+  "fields": [
+    {
+      "name": "Data",
+      "type": "DataItemEntry",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

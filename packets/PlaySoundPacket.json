@@ -1,0 +1,31 @@
+{
+  "id": 86,
+  "name": "PlaySoundPacket",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Volume",
+      "type": "float"
+    },
+    {
+      "name": "Pitch",
+      "type": "float"
+    },
+    {
+      "name": "Loop Count",
+      "type": "varint32"
+    },
+    {
+      "name": "Server Sound Handle",
+      "type": "ServerSoundHandle",
+      "optional": true
+    }
+  ]
+}

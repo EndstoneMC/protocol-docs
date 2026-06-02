@@ -1,0 +1,46 @@
+{
+  "id": 80,
+  "name": "UpdateTradePacket",
+  "fields": [
+    {
+      "name": "Container Id",
+      "type": "uint8"
+    },
+    {
+      "name": "Type",
+      "type": "uint8"
+    },
+    {
+      "name": "Size",
+      "type": "varint32"
+    },
+    {
+      "name": "Trader Tier",
+      "type": "varint32"
+    },
+    {
+      "name": "Entity Unique Id",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Last Trading Player",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Display Name",
+      "type": "string"
+    },
+    {
+      "name": "Use New Trade Screen",
+      "type": "bool"
+    },
+    {
+      "name": "Using Economy Trade",
+      "type": "bool"
+    },
+    {
+      "name": "Data",
+      "type": "CompoundTag"
+    }
+  ]
+}

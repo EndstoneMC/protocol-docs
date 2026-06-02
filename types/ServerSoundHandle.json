@@ -1,0 +1,9 @@
+{
+  "name": "ServerSoundHandle",
+  "fields": [
+    {
+      "name": "Server Sound Handle",
+      "type": "uint64"
+    }
+  ]
+}

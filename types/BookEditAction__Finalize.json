@@ -1,0 +1,26 @@
+{
+  "name": "BookEditAction::Finalize",
+  "fields": [
+    {
+      "name": "Title",
+      "type": "string",
+      "constraints": {
+        "max_length": 256
+      }
+    },
+    {
+      "name": "Author",
+      "type": "string",
+      "constraints": {
+        "max_length": 256
+      }
+    },
+    {
+      "name": "XUID",
+      "type": "string",
+      "constraints": {
+        "max_length": 256
+      }
+    }
+  ]
+}

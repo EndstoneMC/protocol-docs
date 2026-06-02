@@ -1,0 +1,17 @@
+{
+  "name": "SyncWorldClockStateData",
+  "fields": [
+    {
+      "name": "ClockId",
+      "type": "uvarint64"
+    },
+    {
+      "name": "Time",
+      "type": "varint32"
+    },
+    {
+      "name": "IsPaused",
+      "type": "bool"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 28,
+  "name": "MobEffectPacket",
+  "notes": "At the start of the game the server sends any mob effects with _sendAdditionalLevelData() if the joining player saved out with them,\nand then anytime a mob effect is added, removed, or updated this packet is sent.<br>\nIt is important for player movement simulation to ensure that the following effects are sent for the player or any client predicted vehicle they are in control of:<br>\n- levitation<br>\n- slow_falling<br>\n- jump<br>\n- movement_speed<br>\n- movement_slowdown<br>\n- weaving",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Event ID",
+      "type": "uint8",
+      "enum": "MobEffectPacketPayload::Event"
+    },
+    {
+      "name": "Effect ID",
+      "type": "varint32"
+    },
+    {
+      "name": "Effect Amplifier",
+      "type": "varint32"
+    },
+    {
+      "name": "Show Particles",
+      "type": "bool"
+    },
+    {
+      "name": "Effect Duration Ticks",
+      "type": "varint32"
+    },
+    {
+      "name": "Tick",
+      "type": "PlayerInputTick"
+    },
+    {
+      "name": "Ambient",
+      "type": "bool"
+    }
+  ]
+}

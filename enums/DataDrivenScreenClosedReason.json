@@ -1,0 +1,25 @@
+{
+  "name": "DataDrivenScreenClosedReason",
+  "values": [
+    {
+      "name": "ProgrammaticClose",
+      "value": 0
+    },
+    {
+      "name": "ProgrammaticCloseAll",
+      "value": 1
+    },
+    {
+      "name": "ClientCanceled",
+      "value": 2
+    },
+    {
+      "name": "UserBusy",
+      "value": 3
+    },
+    {
+      "name": "InvalidForm",
+      "value": 4
+    }
+  ]
+}

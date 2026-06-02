@@ -1,0 +1,29 @@
+{
+  "name": "AttributeModifier",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Amount",
+      "type": "float"
+    },
+    {
+      "name": "Operation",
+      "type": "int32"
+    },
+    {
+      "name": "Operand",
+      "type": "int32"
+    },
+    {
+      "name": "Is Serializable?",
+      "type": "bool"
+    }
+  ]
+}

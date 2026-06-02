@@ -1,0 +1,29 @@
+{
+  "name": "BiomeSurfaceMaterialData",
+  "fields": [
+    {
+      "name": "top block",
+      "type": "uint32"
+    },
+    {
+      "name": "mid block",
+      "type": "uint32"
+    },
+    {
+      "name": "sea floor block",
+      "type": "uint32"
+    },
+    {
+      "name": "foundation block",
+      "type": "uint32"
+    },
+    {
+      "name": "sea block",
+      "type": "uint32"
+    },
+    {
+      "name": "sea floor depth",
+      "type": "int32"
+    }
+  ]
+}

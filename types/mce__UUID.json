@@ -1,0 +1,13 @@
+{
+  "name": "mce::UUID",
+  "fields": [
+    {
+      "name": "Most Significant Bits",
+      "type": "uint64"
+    },
+    {
+      "name": "Least Significant Bits",
+      "type": "uint64"
+    }
+  ]
+}

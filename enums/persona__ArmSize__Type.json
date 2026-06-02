@@ -1,0 +1,13 @@
+{
+  "name": "persona::ArmSize::Type",
+  "values": [
+    {
+      "name": "Slim",
+      "value": 0
+    },
+    {
+      "name": "Wide",
+      "value": 1
+    }
+  ]
+}
