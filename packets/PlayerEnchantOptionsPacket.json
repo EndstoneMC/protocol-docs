@@ -10,8 +10,7 @@
       },
       "constraints": {
         "max_items": 3
-      },
-      "deprecated": true
+      }
     }
   ]
 }
