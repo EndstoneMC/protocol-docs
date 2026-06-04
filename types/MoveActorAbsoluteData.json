@@ -3,27 +3,33 @@
   "fields": [
     {
       "name": "ActorRuntimeID",
-      "type": "ActorRuntimeID"
+      "type": "ActorRuntimeID",
+      "deprecated": true
     },
     {
       "name": "Header",
-      "type": "uint8"
+      "type": "uint8",
+      "deprecated": true
     },
     {
       "name": "Position",
-      "type": "Vec3"
+      "type": "Vec3",
+      "deprecated": true
     },
     {
       "name": "Rotation X",
-      "type": "uint8"
+      "type": "uint8",
+      "deprecated": true
     },
     {
       "name": "Rotation Y",
-      "type": "uint8"
+      "type": "uint8",
+      "deprecated": true
     },
     {
       "name": "Rotation Y Head",
-      "type": "uint8"
+      "type": "uint8",
+      "deprecated": true
     }
   ]
 }

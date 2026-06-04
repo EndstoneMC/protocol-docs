@@ -6,7 +6,8 @@
     {
       "name": "PacketType",
       "type": "uvarint32",
-      "enum": "MultiplayerSettingsPacketType"
+      "enum": "MultiplayerSettingsPacketType",
+      "deprecated": true
     }
   ]
 }
