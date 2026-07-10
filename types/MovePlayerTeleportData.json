@@ -1,0 +1,13 @@
+{
+  "name": "MovePlayerTeleportData",
+  "fields": [
+    {
+      "name": "Teleportation Cause",
+      "type": "int32"
+    },
+    {
+      "name": "Source Actor Type",
+      "type": "int32"
+    }
+  ]
+}

@@ -10,7 +10,7 @@
       "name": "View Angle",
       "type": "Vec2",
       "constraints": {
-        "description": "Check that x is in [10, 90], and y is in [10, 90]"
+        "description": "There are different constraints for different indexes, please refer to member help for more details"
       }
     },
     {

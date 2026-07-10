@@ -1,0 +1,122 @@
+{
+  "id": 11,
+  "name": "StartGamePacket",
+  "notes": "The player movement mode is also specified here, see ServerAuthMovementMode enum documentation for details on the modes.",
+  "fields": [
+    {
+      "name": "Entity ID",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Game Type",
+      "type": "uvarint32",
+      "enum": "GameType",
+      "constraints": {
+        "enum_values": [
+          -1,
+          0,
+          1,
+          2,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Rotation",
+      "type": "Vec2"
+    },
+    {
+      "name": "Settings",
+      "type": "LevelSettings"
+    },
+    {
+      "name": "Level ID",
+      "type": "string"
+    },
+    {
+      "name": "Level Name",
+      "type": "string"
+    },
+    {
+      "name": "Template Content Identity",
+      "type": "string"
+    },
+    {
+      "name": "Is Trial",
+      "type": "bool"
+    },
+    {
+      "name": "Movement Settings",
+      "type": "SyncedPlayerMovementSettings"
+    },
+    {
+      "name": "Level Current Time",
+      "type": "uint64"
+    },
+    {
+      "name": "Enchantment Seed",
+      "type": "varint32"
+    },
+    {
+      "name": "Block Properties",
+      "type": "ServerBlockProperty",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "Multiplayer Correlation Id",
+      "type": "string"
+    },
+    {
+      "name": "Enable Item Stack Net Manager",
+      "type": "bool"
+    },
+    {
+      "name": "Server Version",
+      "type": "string"
+    },
+    {
+      "name": "Player Property Data",
+      "type": "CompoundTag"
+    },
+    {
+      "name": "Server Block Type Registry Checksum",
+      "type": "uint64"
+    },
+    {
+      "name": "World Template ID",
+      "type": "mce::UUID"
+    },
+    {
+      "name": "Server Enabled ClientSide Generation",
+      "type": "bool"
+    },
+    {
+      "name": "BlockNetworkIds Are Hashes",
+      "type": "bool"
+    },
+    {
+      "name": "NetworkPermissions",
+      "type": "NetworkPermissions"
+    },
+    {
+      "name": "Server Configuration Join Info",
+      "type": "ServerConfiguration::ServerConfigurationJoinInfo",
+      "optional": true
+    },
+    {
+      "name": "Server Telemetry Data",
+      "type": "Social::Events::ServerTelemetryData"
+    }
+  ]
+}

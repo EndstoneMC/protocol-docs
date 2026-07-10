@@ -1,0 +1,52 @@
+{
+  "id": 19,
+  "name": "MovePlayerPacket",
+  "fields": [
+    {
+      "name": "Player Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Rotation",
+      "type": "Vec2"
+    },
+    {
+      "name": "Y-Head Rotation",
+      "type": "float"
+    },
+    {
+      "name": "Position Mode",
+      "type": "uint8",
+      "enum": "PlayerPositionModeComponent::PositionMode",
+      "constraints": {
+        "enum_values": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "name": "On Ground",
+      "type": "bool"
+    },
+    {
+      "name": "Riding Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Teleport Data",
+      "type": "MovePlayerTeleportData",
+      "optional": true
+    },
+    {
+      "name": "Tick",
+      "type": "PlayerInputTick"
+    }
+  ]
+}

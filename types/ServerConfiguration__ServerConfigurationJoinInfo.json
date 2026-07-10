@@ -1,0 +1,20 @@
+{
+  "name": "ServerConfiguration::ServerConfigurationJoinInfo",
+  "fields": [
+    {
+      "name": "gathering",
+      "type": "ServerConfiguration::GatheringsConfigurationJoinInfo",
+      "optional": true
+    },
+    {
+      "name": "clientStoreEntryPoint",
+      "type": "ServerConfiguration::ClientStoreEntryPointConfiguration",
+      "optional": true
+    },
+    {
+      "name": "presence",
+      "type": "ServerConfiguration::PresenceConfiguration",
+      "optional": true
+    }
+  ]
+}

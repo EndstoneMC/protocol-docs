@@ -1,12 +1,8 @@
 {
   "id": 141,
   "name": "AnvilDamagePacket",
-  "notes": "Sends the current damage the anvil has taken per use from client.",
+  "notes": "Only used when Item Stack Net Manager is disabled on the server.\n\tSends the position of the anvil that is requesting to be damaged from the client.",
   "fields": [
-    {
-      "name": "Damage Amount",
-      "type": "uint8"
-    },
     {
       "name": "Block Position",
       "type": "BlockPos"

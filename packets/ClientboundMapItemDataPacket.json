@@ -1,0 +1,91 @@
+{
+  "id": 67,
+  "name": "ClientboundMapItemDataPacket",
+  "fields": [
+    {
+      "name": "Map ID",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Dimension",
+      "type": "uint8"
+    },
+    {
+      "name": "Is Locked",
+      "type": "bool"
+    },
+    {
+      "name": "Map Origin",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Creation Map IDs",
+      "type": "ActorUniqueID",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 65535
+      },
+      "optional": true
+    },
+    {
+      "name": "Scale",
+      "type": "int8",
+      "optional": true
+    },
+    {
+      "name": "Tracked Actor IDs",
+      "type": "MapItemTrackedActor::UniqueId",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 65535
+      },
+      "optional": true
+    },
+    {
+      "name": "Decorations",
+      "type": "MapDecoration",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 65535
+      },
+      "optional": true
+    },
+    {
+      "name": "Width",
+      "type": "varint32",
+      "optional": true
+    },
+    {
+      "name": "Height",
+      "type": "varint32",
+      "optional": true
+    },
+    {
+      "name": "Start X",
+      "type": "varint32",
+      "optional": true
+    },
+    {
+      "name": "Start Y",
+      "type": "varint32",
+      "optional": true
+    },
+    {
+      "name": "Pixels",
+      "type": "uint32",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 16384
+      },
+      "optional": true
+    }
+  ]
+}

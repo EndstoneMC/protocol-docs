@@ -8,7 +8,7 @@
     },
     {
       "name": "SubChunk Position Offset List",
-      "type": "SubChunkPacket::SubChunkPosOffset",
+      "type": "SubChunkPacketPayload::SubChunkPosOffset",
       "repeat": {
         "prefix": "uvarint32"
       },

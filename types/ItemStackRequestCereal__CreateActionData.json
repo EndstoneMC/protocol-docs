@@ -1,0 +1,14 @@
+{
+  "name": "ItemStackRequestCereal::CreateActionData",
+  "fields": [
+    {
+      "name": "Action type",
+      "type": "uint8",
+      "enum": "ItemStackRequestActionType"
+    },
+    {
+      "name": "Results Index",
+      "type": "uint8"
+    }
+  ]
+}

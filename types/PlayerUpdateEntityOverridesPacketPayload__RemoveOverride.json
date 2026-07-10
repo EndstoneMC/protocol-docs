@@ -1,0 +1,10 @@
+{
+  "name": "PlayerUpdateEntityOverridesPacketPayload::RemoveOverride",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "string",
+      "enum": "UpdateType"
+    }
+  ]
+}

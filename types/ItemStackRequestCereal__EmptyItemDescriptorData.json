@@ -1,0 +1,10 @@
+{
+  "name": "ItemStackRequestCereal::EmptyItemDescriptorData",
+  "fields": [
+    {
+      "name": "Descriptor Type",
+      "type": "uint8",
+      "enum": "ItemStackRequestCereal::ItemDescriptorType"
+    }
+  ]
+}

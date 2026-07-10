@@ -28,6 +28,10 @@
     {
       "name": "Dimension Type",
       "type": "DimensionType"
+    },
+    {
+      "name": "Pack Id",
+      "type": "mce::UUID"
     }
   ]
 }

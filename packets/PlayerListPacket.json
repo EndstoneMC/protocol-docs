@@ -1,0 +1,27 @@
+{
+  "id": 63,
+  "name": "PlayerListPacket",
+  "notes": "Sent from the Server at the start of the game or when a player is added to all clients. Lists the players.",
+  "fields": [
+    {
+      "name": "Entries",
+      "type": {
+        "switch": {
+          "name": "Action",
+          "type": "uvarint32",
+          "enum": "PlayerListPacketType"
+        },
+        "cases": [
+          "PlayerListPacketPayload::RemoveEntry",
+          "PlayerListPacketPayload::AddEntry"
+        ]
+      },
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 1000
+      }
+    }
+  ]
+}

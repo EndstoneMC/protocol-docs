@@ -1,0 +1,16 @@
+{
+  "id": 147,
+  "name": "ItemStackRequestPacket",
+  "fields": [
+    {
+      "name": "Requests",
+      "type": "ItemStackRequestPacketData::RequestData",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 100
+      }
+    }
+  ]
+}

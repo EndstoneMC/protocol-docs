@@ -1,0 +1,29 @@
+{
+  "name": "PotionMixDataEntry",
+  "fields": [
+    {
+      "name": "From Potion Id",
+      "type": "varint32"
+    },
+    {
+      "name": "From Item Aux",
+      "type": "varint32"
+    },
+    {
+      "name": "Reagent Item Id",
+      "type": "varint32"
+    },
+    {
+      "name": "Reagent Item Aux",
+      "type": "varint32"
+    },
+    {
+      "name": "To Potion Id",
+      "type": "varint32"
+    },
+    {
+      "name": "To Item Aux",
+      "type": "varint32"
+    }
+  ]
+}

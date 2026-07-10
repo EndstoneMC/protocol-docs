@@ -1,5 +1,5 @@
 {
-  "name": "persona::ArmSize::Type",
+  "name": "SharedTypes::persona::ArmSizeType",
   "values": [
     {
       "name": "Slim",

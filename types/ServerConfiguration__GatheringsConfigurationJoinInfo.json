@@ -21,7 +21,8 @@
       "type": "mce::UUID",
       "constraints": {
         "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
-      }
+      },
+      "optional": true
     },
     {
       "name": "worldName",
@@ -29,7 +30,8 @@
       "constraints": {
         "min_length": 1,
         "max_length": 29
-      }
+      },
+      "optional": true
     },
     {
       "name": "creatorId",
@@ -44,7 +46,8 @@
       "type": "mce::UUID",
       "constraints": {
         "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
-      }
+      },
+      "optional": true
     },
     {
       "name": "scenarioId",
@@ -52,7 +55,8 @@
       "constraints": {
         "min_length": 1,
         "max_length": 100
-      }
+      },
+      "optional": true
     },
     {
       "name": "serverId",
@@ -60,7 +64,8 @@
       "constraints": {
         "min_length": 1,
         "max_length": 100
-      }
+      },
+      "optional": true
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "name": "SpawnSettings",
+  "fields": [
+    {
+      "name": "Spawn Biome Type",
+      "type": "uint16",
+      "enum": "SpawnBiomeType",
+      "constraints": {
+        "enum_values": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "User Defined Biome Name",
+      "type": "string"
+    },
+    {
+      "name": "Dimension",
+      "type": "varint32"
+    }
+  ]
+}

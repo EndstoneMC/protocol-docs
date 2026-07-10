@@ -1,0 +1,25 @@
+{
+  "name": "cerealizer<RecipeIngredient>::SerializedData",
+  "fields": [
+    {
+      "name": "Descriptor",
+      "type": "string"
+    },
+    {
+      "name": "Aux Value",
+      "type": "varint32",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 32767
+      }
+    },
+    {
+      "name": "Stack Size",
+      "type": "varint32",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 64
+      }
+    }
+  ]
+}

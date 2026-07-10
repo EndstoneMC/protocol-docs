@@ -1,0 +1,20 @@
+{
+  "name": "MapItemTrackedActor::UniqueId",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "uint32",
+      "enum": "MapItemTrackedActor::Type"
+    },
+    {
+      "name": "Entity ID",
+      "type": "ActorUniqueID",
+      "optional": true
+    },
+    {
+      "name": "Block Position",
+      "type": "BlockPos",
+      "optional": true
+    }
+  ]
+}

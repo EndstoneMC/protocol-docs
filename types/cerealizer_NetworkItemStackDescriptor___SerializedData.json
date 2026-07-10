@@ -23,7 +23,7 @@
     },
     {
       "name": "Net Id Variant",
-      "type": "ItemStackNetIdVariant",
+      "type": "varint32",
       "optional": true
     },
     {

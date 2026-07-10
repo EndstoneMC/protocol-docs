@@ -8,7 +8,7 @@
     {
       "name": "PieceType",
       "type": "uint32",
-      "enum": "persona::PieceType"
+      "enum": "SharedTypes::persona::PieceType"
     },
     {
       "name": "PackId",

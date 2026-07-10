@@ -1,0 +1,95 @@
+{
+  "id": 144,
+  "name": "PlayerAuthInputPacket",
+  "notes": "These are for Server Authoritative Movement to sync all player input with the server.",
+  "fields": [
+    {
+      "name": "Player Rotation",
+      "type": "Vec2"
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Move Vector",
+      "type": "Vec2"
+    },
+    {
+      "name": "Player Head Rotation",
+      "type": "float"
+    },
+    {
+      "name": "Input Data",
+      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)",
+      "constraints": {
+        "description": "Verify input data entries are known, unique, and not deprecated"
+      }
+    },
+    {
+      "name": "Input Mode",
+      "type": "uvarint32",
+      "enum": "InputMode"
+    },
+    {
+      "name": "Play Mode",
+      "type": "uvarint32",
+      "enum": "ClientPlayMode"
+    },
+    {
+      "name": "New Interaction Model",
+      "type": "uvarint32",
+      "enum": "NewInteractionModel"
+    },
+    {
+      "name": "Interact Rotation",
+      "type": "Vec2"
+    },
+    {
+      "name": "Client Tick",
+      "type": "PlayerInputTick"
+    },
+    {
+      "name": "Pos Delta",
+      "type": "Vec3"
+    },
+    {
+      "name": "Item Use Transaction",
+      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+    },
+    {
+      "name": "Item Stack Request",
+      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+    },
+    {
+      "name": "Player Block Actions",
+      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)",
+      "constraints": {
+        "max_items": 100,
+        "items": {
+          "description": "Verify block actions are one of StartDestroyBlock, AbortDestroyBlock, StopDestroyBlock, CrackBlock, PredictDestroyBlock, or ContinueDestroyBlock"
+        }
+      }
+    },
+    {
+      "name": "Vehicle Rotation",
+      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+    },
+    {
+      "name": "Client Predicted Vehicle",
+      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+    },
+    {
+      "name": "Analog Move Vector",
+      "type": "Vec2"
+    },
+    {
+      "name": "Camera Orientation",
+      "type": "Vec3"
+    },
+    {
+      "name": "Raw Move Vector",
+      "type": "Vec2"
+    }
+  ]
+}

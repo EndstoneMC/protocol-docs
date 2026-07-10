@@ -1,5 +1,5 @@
 {
-  "name": "persona::PieceType",
+  "name": "SharedTypes::persona::PieceType",
   "values": [
     {
       "name": "Skeleton",

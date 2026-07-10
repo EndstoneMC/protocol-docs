@@ -1,0 +1,58 @@
+{
+  "name": "SubChunkPacketPayload::HeightmapData",
+  "fields": [
+    {
+      "name": "Height Map Type",
+      "type": "uint8",
+      "enum": "SubChunkPacketPayload::HeightMapDataType",
+      "constraints": {
+        "enum_values": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "name": "Subchunk Height Map",
+      "type": {
+        "type": "int8",
+        "repeat": {
+          "count": 16
+        }
+      },
+      "repeat": {
+        "count": 16
+      },
+      "optional": true
+    },
+    {
+      "name": "Render Height Map Type",
+      "type": "uint8",
+      "enum": "SubChunkPacketPayload::HeightMapDataType",
+      "constraints": {
+        "enum_values": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "name": "Subchunk Render Height Map",
+      "type": {
+        "type": "int8",
+        "repeat": {
+          "count": 16
+        }
+      },
+      "repeat": {
+        "count": 16
+      },
+      "optional": true
+    }
+  ]
+}

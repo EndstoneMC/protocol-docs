@@ -1,0 +1,37 @@
+{
+  "id": 6,
+  "name": "ResourcePacksInfoPacket",
+  "notes": "Sends resource pack information to the client including pack IDs, versions, sizes, and content keys.",
+  "fields": [
+    {
+      "name": "Resource Pack Required",
+      "type": "bool"
+    },
+    {
+      "name": "Has Addon Packs",
+      "type": "bool"
+    },
+    {
+      "name": "Has Scripts",
+      "type": "bool"
+    },
+    {
+      "name": "Force Disable Vibrant Visuals",
+      "type": "bool"
+    },
+    {
+      "name": "World Template Id And Version",
+      "type": "PackIdVersion"
+    },
+    {
+      "name": "Resource Packs",
+      "type": "PackInfoData",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 65535
+      }
+    }
+  ]
+}

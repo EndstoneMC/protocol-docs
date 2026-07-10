@@ -1,0 +1,13 @@
+{
+  "name": "SpawnBiomeType",
+  "values": [
+    {
+      "name": "Default",
+      "value": 0
+    },
+    {
+      "name": "UserDefined",
+      "value": 1
+    }
+  ]
+}

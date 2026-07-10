@@ -1,0 +1,10 @@
+{
+  "name": "ItemStackRequestCereal::CraftNonImplementedActionData",
+  "fields": [
+    {
+      "name": "Action type",
+      "type": "uint8",
+      "enum": "ItemStackRequestActionType"
+    }
+  ]
+}

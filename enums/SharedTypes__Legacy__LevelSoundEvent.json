@@ -2266,8 +2266,20 @@
       "value": 610
     },
     {
-      "name": "undefined",
+      "name": "mount",
       "value": 611
+    },
+    {
+      "name": "dismount",
+      "value": 612
+    },
+    {
+      "name": "straw_bed.break_leave",
+      "value": 613
+    },
+    {
+      "name": "undefined",
+      "value": 614
     }
   ]
 }

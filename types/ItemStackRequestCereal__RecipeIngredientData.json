@@ -1,0 +1,27 @@
+{
+  "name": "ItemStackRequestCereal::RecipeIngredientData",
+  "fields": [
+    {
+      "name": "Item Descriptor",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "ItemStackRequestCereal::EmptyItemDescriptorData",
+          "ItemStackRequestCereal::ItemNameDescriptorData",
+          "ItemStackRequestCereal::MolangItemDescriptorData",
+          "ItemStackRequestCereal::ItemTagDescriptorData"
+        ]
+      }
+    },
+    {
+      "name": "StackSize",
+      "type": "uint16",
+      "constraints": {
+        "minimum": 1,
+        "maximum": 65535
+      }
+    }
+  ]
+}

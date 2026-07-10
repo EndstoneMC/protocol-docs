@@ -1,0 +1,16 @@
+{
+  "name": "MaterialReducerDataEntry",
+  "fields": [
+    {
+      "name": "From Item Key",
+      "type": "varint32"
+    },
+    {
+      "name": "Item Ids and Counts",
+      "type": "MaterialReducerEntryOutput",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

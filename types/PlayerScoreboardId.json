@@ -1,0 +1,9 @@
+{
+  "name": "PlayerScoreboardId",
+  "fields": [
+    {
+      "name": "Player Unique Id",
+      "type": "varint64"
+    }
+  ]
+}

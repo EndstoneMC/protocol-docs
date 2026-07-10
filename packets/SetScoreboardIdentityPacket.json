@@ -1,0 +1,25 @@
+{
+  "id": 112,
+  "name": "SetScoreboardIdentityPacket",
+  "notes": "Send an update packet for a player identity definition iff a tracked player has logged in with a different display name.",
+  "fields": [
+    {
+      "name": "Scoreboard Identity Packet Type",
+      "type": "uint8",
+      "enum": "ScoreboardIdentityPacketType",
+      "constraints": {
+        "enum_values": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "name": "Scoreboard Identity Info",
+      "type": "ScoreboardIdentityPacketInfo",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

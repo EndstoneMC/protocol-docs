@@ -5,7 +5,11 @@
   "fields": [
     {
       "name": "Ability",
-      "type": "varint32"
+      "type": "varint32",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 19
+      }
     },
     {
       "name": "Value Type",

@@ -1,0 +1,24 @@
+{
+  "name": "ItemStackRequestCereal::CraftCreativeActionData",
+  "fields": [
+    {
+      "name": "Action type",
+      "type": "uint8",
+      "enum": "ItemStackRequestActionType"
+    },
+    {
+      "name": "Creative Item Net Id",
+      "type": "uvarint32",
+      "constraints": {
+        "minimum": 1
+      }
+    },
+    {
+      "name": "Number of requested crafts",
+      "type": "uint8",
+      "constraints": {
+        "minimum": 1
+      }
+    }
+  ]
+}

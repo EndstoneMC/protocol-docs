@@ -51,7 +51,7 @@
     {
       "name": "ArmSize",
       "type": "uint8",
-      "enum": "persona::ArmSize::Type"
+      "enum": "SharedTypes::persona::ArmSizeType"
     },
     {
       "name": "SkinColor",
@@ -67,7 +67,7 @@
     {
       "name": "PieceTintColors",
       "type": {
-        "key": "persona::PieceType",
+        "key": "SharedTypes::persona::PieceType",
         "value": "TintMapColor"
       }
     },
@@ -95,6 +95,10 @@
       "name": "TrustedSkinFlag",
       "type": "string",
       "enum": "TrustedSkinFlag"
+    },
+    {
+      "name": "ProfileHash",
+      "type": "string"
     }
   ]
 }

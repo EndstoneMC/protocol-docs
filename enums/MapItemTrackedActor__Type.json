@@ -1,0 +1,17 @@
+{
+  "name": "MapItemTrackedActor::Type",
+  "values": [
+    {
+      "name": "Entity",
+      "value": 0
+    },
+    {
+      "name": "BlockEntity",
+      "value": 1
+    },
+    {
+      "name": "Other",
+      "value": 2
+    }
+  ]
+}

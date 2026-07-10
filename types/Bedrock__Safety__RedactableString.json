@@ -1,0 +1,14 @@
+{
+  "name": "Bedrock::Safety::RedactableString",
+  "fields": [
+    {
+      "name": "Unredacted",
+      "type": "string"
+    },
+    {
+      "name": "Redacted",
+      "type": "string",
+      "optional": true
+    }
+  ]
+}

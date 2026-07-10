@@ -1,0 +1,17 @@
+{
+  "name": "CreativeItemEntryPayload",
+  "fields": [
+    {
+      "name": "Creative Net Id",
+      "type": "TypedServerNetId<struct CreativeItemNetIdTag>"
+    },
+    {
+      "name": "Item Instance",
+      "type": "cerealizer<NetworkItemInstanceDescriptor>::SerializedData"
+    },
+    {
+      "name": "Group Index",
+      "type": "uvarint32"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": 148,
+  "name": "ItemStackResponsePacket",
+  "fields": [
+    {
+      "name": "Responses",
+      "type": "ItemStackResponseInfo",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

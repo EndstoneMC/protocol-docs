@@ -576,6 +576,22 @@
     {
       "name": "InvalidName",
       "value": 143
+    },
+    {
+      "name": "ExpiredToken",
+      "value": 144
+    },
+    {
+      "name": "HostAcceptsNoTypeOfAuth",
+      "value": 145
+    },
+    {
+      "name": "NotAuthenticatedFastFail",
+      "value": 146
+    },
+    {
+      "name": "EditorNotAllowed",
+      "value": 147
     }
   ]
 }

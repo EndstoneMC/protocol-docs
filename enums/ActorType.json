@@ -631,7 +631,11 @@
     },
     {
       "name": "SulfurCube",
-      "value": 2969
+      "value": 921
+    },
+    {
+      "name": "Cushion",
+      "value": 154
     }
   ]
 }

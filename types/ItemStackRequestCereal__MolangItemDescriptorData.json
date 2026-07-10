@@ -1,0 +1,22 @@
+{
+  "name": "ItemStackRequestCereal::MolangItemDescriptorData",
+  "fields": [
+    {
+      "name": "Descriptor Type",
+      "type": "uint8",
+      "enum": "ItemStackRequestCereal::ItemDescriptorType"
+    },
+    {
+      "name": "Tag Expression",
+      "type": "string",
+      "constraints": {
+        "min_length": 1
+      }
+    },
+    {
+      "name": "Molang Version",
+      "type": "uint16",
+      "enum": "MolangVersion"
+    }
+  ]
+}

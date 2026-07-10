@@ -1,0 +1,21 @@
+{
+  "name": "ResourcePackResponse",
+  "values": [
+    {
+      "name": "Cancel",
+      "value": 1
+    },
+    {
+      "name": "Downloading",
+      "value": 2
+    },
+    {
+      "name": "DownloadingFinished",
+      "value": 3
+    },
+    {
+      "name": "ResourcePackStackFinished",
+      "value": 4
+    }
+  ]
+}

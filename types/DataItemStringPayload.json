@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Type",
-      "type": "string",
+      "type": "uint8",
       "enum": "DataItemType"
     },
     {

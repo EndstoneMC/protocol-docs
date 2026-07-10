@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Actor Flag Bitset Data",
-      "type": "brstd::bitset<130>"
+      "type": "brstd::bitset<131>"
     }
   ]
 }

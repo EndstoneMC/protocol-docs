@@ -1,0 +1,18 @@
+{
+  "name": "ItemStackRequestCereal::SwapActionData",
+  "fields": [
+    {
+      "name": "Action type",
+      "type": "uint8",
+      "enum": "ItemStackRequestActionType"
+    },
+    {
+      "name": "Source",
+      "type": "ItemStackRequestCereal::SlotInfoData"
+    },
+    {
+      "name": "Destination",
+      "type": "ItemStackRequestCereal::SlotInfoData"
+    }
+  ]
+}

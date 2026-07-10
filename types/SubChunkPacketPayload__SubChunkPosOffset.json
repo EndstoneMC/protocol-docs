@@ -1,5 +1,5 @@
 {
-  "name": "SubChunkPacket::SubChunkPosOffset",
+  "name": "SubChunkPacketPayload::SubChunkPosOffset",
   "fields": [
     {
       "name": "Subchunk Offset X",

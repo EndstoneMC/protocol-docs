@@ -1,0 +1,17 @@
+{
+  "name": "ItemStackRequestCereal::ItemTagDescriptorData",
+  "fields": [
+    {
+      "name": "Descriptor Type",
+      "type": "uint8",
+      "enum": "ItemStackRequestCereal::ItemDescriptorType"
+    },
+    {
+      "name": "Item Tag",
+      "type": "string",
+      "constraints": {
+        "min_length": 1
+      }
+    }
+  ]
+}
