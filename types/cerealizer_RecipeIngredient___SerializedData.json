@@ -3,7 +3,10 @@
   "fields": [
     {
       "name": "Descriptor",
-      "type": "string"
+      "type": {
+        "key": "string",
+        "value": "string"
+      }
     },
     {
       "name": "Aux Value",
