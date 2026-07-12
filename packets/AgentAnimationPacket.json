@@ -5,13 +5,11 @@
     {
       "name": "Agent Animation",
       "type": "uint8",
-      "enum": "AgentAnimation",
-      "deprecated": true
+      "enum": "AgentAnimation"
     },
     {
       "name": "Runtime Id",
-      "type": "ActorRuntimeID",
-      "deprecated": true
+      "type": "ActorRuntimeID"
     }
   ]
 }
