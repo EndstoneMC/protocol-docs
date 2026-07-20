@@ -16,7 +16,18 @@
     },
     {
       "name": "Transaction",
-      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "NormalTransactionData",
+          "InventoryMismatchData",
+          "ItemUseInventoryTransaction",
+          "ItemUseOnActorInventoryTransaction",
+          "ItemReleaseInventoryTransaction"
+        ]
+      }
     }
   ]
 }

@@ -8,11 +8,14 @@
     },
     {
       "name": "Container ID",
-      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+      "type": "varint32",
+      "optional": true
     },
     {
       "name": "Bit Flags",
-      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+      "type": "uvarint32",
+      "enum": "InventorySource::InventorySourceFlags",
+      "optional": true
     }
   ]
 }

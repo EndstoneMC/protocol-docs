@@ -21,7 +21,10 @@
     },
     {
       "name": "Input Data",
-      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)",
+      "type": "PlayerAuthInputPacketPayload::InputData",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
       "constraints": {
         "description": "Verify input data entries are known, unique, and not deprecated"
       }
@@ -55,29 +58,37 @@
     },
     {
       "name": "Item Use Transaction",
-      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+      "type": "PackedItemUseLegacyInventoryTransaction",
+      "optional": true
     },
     {
       "name": "Item Stack Request",
-      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+      "type": "ItemStackRequestCereal::RequestData",
+      "optional": true
     },
     {
       "name": "Player Block Actions",
-      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)",
+      "type": "PlayerBlockActionData",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
       "constraints": {
         "max_items": 100,
         "items": {
           "description": "Verify block actions are one of StartDestroyBlock, AbortDestroyBlock, StopDestroyBlock, CrackBlock, PredictDestroyBlock, or ContinueDestroyBlock"
         }
-      }
+      },
+      "optional": true
     },
     {
       "name": "Vehicle Rotation",
-      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+      "type": "Vec2",
+      "optional": true
     },
     {
       "name": "Client Predicted Vehicle",
-      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+      "type": "ActorUniqueID",
+      "optional": true
     },
     {
       "name": "Analog Move Vector",

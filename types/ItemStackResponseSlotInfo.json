@@ -15,7 +15,8 @@
     },
     {
       "name": "Item Stack Net Id",
-      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+      "type": "TypedServerNetId<struct ItemStackNetIdTag, int32_t, 0>",
+      "optional": true
     },
     {
       "name": "Custom Name",

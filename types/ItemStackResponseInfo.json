@@ -84,7 +84,11 @@
     },
     {
       "name": "Containers",
-      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+      "type": "ItemStackResponseContainerInfo",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "optional": true
     }
   ]
 }

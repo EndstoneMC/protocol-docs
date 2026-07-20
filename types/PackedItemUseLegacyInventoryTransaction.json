@@ -15,7 +15,7 @@
     },
     {
       "name": "Item Use Transaction",
-      "type": "entt::meta_any (*)(const entt::meta_any &, const cereal::SerializerContext &)"
+      "type": "ItemUseInventoryTransaction"
     }
   ]
 }
