@@ -1,0 +1,25 @@
+{
+  "id": 121,
+  "name": "NetworkChunkPublisherUpdatePacket",
+  "notes": "Used (from the server) when a user's Chunk View moves, I.e. the area that determines what chunks exist. For ClientSideGeneration we also send the client a list of ChunkPos that the Server will fully build.",
+  "fields": [
+    {
+      "name": "New position for view",
+      "type": "BlockPos"
+    },
+    {
+      "name": "New radius for view",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Server Built Chunks List",
+      "type": "ChunkPos",
+      "repeat": {
+        "prefix": "uint32"
+      },
+      "constraints": {
+        "max_items": 9216
+      }
+    }
+  ]
+}

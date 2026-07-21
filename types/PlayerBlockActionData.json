@@ -1,0 +1,18 @@
+{
+  "name": "PlayerBlockActionData",
+  "fields": [
+    {
+      "name": "Player Action Type",
+      "type": "uvarint32",
+      "enum": "PlayerActionType"
+    },
+    {
+      "name": "Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Facing",
+      "type": "varint32"
+    }
+  ]
+}

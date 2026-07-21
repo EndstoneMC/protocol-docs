@@ -1,0 +1,20 @@
+{
+  "id": 321,
+  "name": "ClientCameraAimAssistPacket",
+  "notes": "Sent by clients to the server for activating/deactivating aim-assist.\n\tActivation uses the CameraPreset Id for server-side lookup and uses its aim_assist field\n\tfor aim-assist activation settings.",
+  "fields": [
+    {
+      "name": "Camera Preset Id",
+      "type": "string"
+    },
+    {
+      "name": "Action",
+      "type": "uint8",
+      "enum": "ClientCameraAimAssistPacketAction"
+    },
+    {
+      "name": "Allow aim assist",
+      "type": "bool"
+    }
+  ]
+}

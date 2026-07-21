@@ -1,0 +1,14 @@
+{
+  "name": "PlayerUpdateEntityOverridesPacketPayload::IntOverride",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "string",
+      "enum": "UpdateType"
+    },
+    {
+      "name": "Value",
+      "type": "int32"
+    }
+  ]
+}

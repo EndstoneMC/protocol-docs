@@ -1,0 +1,19 @@
+{
+  "name": "PropertySyncData",
+  "fields": [
+    {
+      "name": "Int Entries List",
+      "type": "PropertySyncData::PropertySyncIntEntry",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "Float Entries List",
+      "type": "PropertySyncData::PropertySyncFloatEntry",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": 177,
+  "name": "ScriptMessagePacket",
+  "fields": [
+    {
+      "name": "Message Id",
+      "type": "string"
+    },
+    {
+      "name": "Message Value",
+      "type": "string"
+    }
+  ]
+}

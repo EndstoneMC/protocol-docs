@@ -1,0 +1,17 @@
+{
+  "name": "PlayerRespawnState",
+  "values": [
+    {
+      "name": "SearchingForSpawn",
+      "value": 0
+    },
+    {
+      "name": "ReadyToSpawn",
+      "value": 1
+    },
+    {
+      "name": "ClientReadyToSpawn",
+      "value": 2
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "LegacySetSlot",
+  "fields": [
+    {
+      "name": "Container Enum",
+      "type": "uvarint32",
+      "enum": "ContainerEnumName"
+    },
+    {
+      "name": "Slots",
+      "type": "uint8",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

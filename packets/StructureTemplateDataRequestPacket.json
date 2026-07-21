@@ -1,0 +1,27 @@
+{
+  "id": 132,
+  "name": "StructureTemplateDataRequestPacket",
+  "notes": "This is used to kick off the process of loading and returning a structure in a Tag from the server back to the client. Currently this functionality is completely disabled and does nothing.",
+  "fields": [
+    {
+      "name": "Structure Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 256
+      }
+    },
+    {
+      "name": "Structure Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Structure Settings",
+      "type": "StructureSettings"
+    },
+    {
+      "name": "Requested Operation",
+      "type": "uint8",
+      "enum": "StructureTemplateRequestOperation"
+    }
+  ]
+}

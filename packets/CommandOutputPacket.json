@@ -1,0 +1,14 @@
+{
+  "id": 79,
+  "name": "CommandOutputPacket",
+  "fields": [
+    {
+      "name": "Origin Data",
+      "type": "CommandOriginData"
+    },
+    {
+      "name": "Output",
+      "type": "CommandOutput"
+    }
+  ]
+}

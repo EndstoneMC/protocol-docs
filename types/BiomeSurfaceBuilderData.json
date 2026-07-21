@@ -1,0 +1,41 @@
+{
+  "name": "BiomeSurfaceBuilderData",
+  "fields": [
+    {
+      "name": "surface materials",
+      "type": "BiomeSurfaceMaterialData",
+      "optional": true
+    },
+    {
+      "name": "has default overworld surface",
+      "type": "bool"
+    },
+    {
+      "name": "has swamp surface",
+      "type": "bool"
+    },
+    {
+      "name": "has frozen ocean surface",
+      "type": "bool"
+    },
+    {
+      "name": "has the end surface",
+      "type": "bool"
+    },
+    {
+      "name": "mesa surface",
+      "type": "BiomeMesaSurfaceData",
+      "optional": true
+    },
+    {
+      "name": "capped surface",
+      "type": "BiomeCappedSurfaceData",
+      "optional": true
+    },
+    {
+      "name": "noise gradient surface",
+      "type": "BiomeNoiseGradientSurfaceData",
+      "optional": true
+    }
+  ]
+}

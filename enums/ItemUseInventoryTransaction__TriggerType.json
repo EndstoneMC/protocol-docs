@@ -1,0 +1,17 @@
+{
+  "name": "ItemUseInventoryTransaction::TriggerType",
+  "values": [
+    {
+      "name": "Unknown",
+      "value": 0
+    },
+    {
+      "name": "Player Input",
+      "value": 1
+    },
+    {
+      "name": "Simulation Tick",
+      "value": 2
+    }
+  ]
+}

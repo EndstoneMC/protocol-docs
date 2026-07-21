@@ -1,0 +1,14 @@
+{
+  "name": "DataItemPosPayload",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "uint8",
+      "enum": "DataItemType"
+    },
+    {
+      "name": "Value",
+      "type": "BlockPos"
+    }
+  ]
+}

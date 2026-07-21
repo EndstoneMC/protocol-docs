@@ -1,0 +1,85 @@
+{
+  "name": "ItemStackRequestActionType",
+  "values": [
+    {
+      "name": "Take",
+      "value": 0
+    },
+    {
+      "name": "Place",
+      "value": 1
+    },
+    {
+      "name": "Swap",
+      "value": 2
+    },
+    {
+      "name": "Drop",
+      "value": 3
+    },
+    {
+      "name": "Destroy",
+      "value": 4
+    },
+    {
+      "name": "Consume",
+      "value": 5
+    },
+    {
+      "name": "Create",
+      "value": 6
+    },
+    {
+      "name": "PlaceInItemContainer",
+      "value": 7
+    },
+    {
+      "name": "TakeFromItemContainer",
+      "value": 8
+    },
+    {
+      "name": "ScreenLabTableCombine",
+      "value": 9
+    },
+    {
+      "name": "ScreenBeaconPayment",
+      "value": 10
+    },
+    {
+      "name": "ScreenHUDMineBlock",
+      "value": 11
+    },
+    {
+      "name": "CraftRecipe",
+      "value": 12
+    },
+    {
+      "name": "CraftRecipeAuto",
+      "value": 13
+    },
+    {
+      "name": "CraftCreative",
+      "value": 14
+    },
+    {
+      "name": "CraftRecipeOptional",
+      "value": 15
+    },
+    {
+      "name": "CraftRepairAndDisenchant",
+      "value": 16
+    },
+    {
+      "name": "CraftLoom",
+      "value": 17
+    },
+    {
+      "name": "CraftNonImplemented",
+      "value": 18
+    },
+    {
+      "name": "CraftResults",
+      "value": 19
+    }
+  ]
+}

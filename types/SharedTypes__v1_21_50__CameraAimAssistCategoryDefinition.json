@@ -1,0 +1,13 @@
+{
+  "name": "SharedTypes::v1_21_50::CameraAimAssistCategoryDefinition",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "priorities",
+      "type": "SharedTypes::v1_21_50::CameraAimAssistCategoryPriorities"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "ItemStackRequestCereal::RequestData",
+  "fields": [
+    {
+      "name": "Client Request Id",
+      "type": "TypedClientNetId<struct ItemStackRequestIdTag, int32_t, 0>",
+      "constraints": {
+        "description": "Verify the request id is a valid negative odd client request id"
+      }
+    },
+    {
+      "name": "Actions",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "ItemStackRequestCereal::TakeActionData",
+          "ItemStackRequestCereal::PlaceActionData",
+          "ItemStackRequestCereal::SwapActionData",
+          "ItemStackRequestCereal::DropActionData",
+          "ItemStackRequestCereal::DestroyActionData",
+          "ItemStackRequestCereal::ConsumeActionData",
+          "ItemStackRequestCereal::CreateActionData",
+          "ItemStackRequestCereal::LabTableCombineActionData",
+          "ItemStackRequestCereal::BeaconPaymentActionData",
+          "ItemStackRequestCereal::MineBlockActionData",
+          "ItemStackRequestCereal::CraftRecipeActionData",
+          "ItemStackRequestCereal::CraftRecipeAutoActionData",
+          "ItemStackRequestCereal::CraftCreativeActionData",
+          "ItemStackRequestCereal::CraftRecipeOptionalActionData",
+          "ItemStackRequestCereal::CraftRepairAndDisenchantActionData",
+          "ItemStackRequestCereal::CraftLoomActionData",
+          "ItemStackRequestCereal::CraftNonImplementedActionData",
+          "ItemStackRequestCereal::CraftResultsActionData"
+        ]
+      },
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "min_items": 1,
+        "max_items": 100
+      }
+    },
+    {
+      "name": "Strings To Filter",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "items": {
+          "max_length": 1000
+        }
+      }
+    },
+    {
+      "name": "StringsToFilterOrigin",
+      "type": "uint32",
+      "enum": "TextProcessingEventOrigin"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": 189,
+  "name": "DeathInfoPacket",
+  "notes": "mDeathCauseMessage: is untranslated cause of death string vector returned from ActorDamageSource",
+  "fields": [
+    {
+      "name": "Death Cause Attack Name",
+      "type": "string"
+    },
+    {
+      "name": "Death Cause Message List",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

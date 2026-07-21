@@ -1,0 +1,16 @@
+{
+  "name": "Experiments",
+  "fields": [
+    {
+      "name": "Toggles",
+      "type": "cerealizer_ExperimentsAnon::ExperimentToggle",
+      "repeat": {
+        "prefix": "uint32"
+      }
+    },
+    {
+      "name": "ExperimentsEverToggled",
+      "type": "bool"
+    }
+  ]
+}

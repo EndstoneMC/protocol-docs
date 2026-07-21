@@ -1,0 +1,27 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::SlashCommand",
+  "fields": [
+    {
+      "name": "Success Count",
+      "type": "varint32"
+    },
+    {
+      "name": "Error Count",
+      "type": "varint32"
+    },
+    {
+      "name": "Command Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 512
+      }
+    },
+    {
+      "name": "Error List",
+      "type": "string",
+      "constraints": {
+        "max_length": 2048
+      }
+    }
+  ]
+}

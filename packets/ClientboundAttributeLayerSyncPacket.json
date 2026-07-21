@@ -1,0 +1,20 @@
+{
+  "id": 345,
+  "name": "ClientboundAttributeLayerSyncPacket",
+  "fields": [
+    {
+      "name": "Data",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "AttributeLayerSyncPacketData::UpdateAttributeLayersData",
+          "AttributeLayerSyncPacketData::UpdateAttributeLayerSettingsData",
+          "AttributeLayerSyncPacketData::UpdateEnvironmentAttributesData",
+          "AttributeLayerSyncPacketData::RemoveEnvironmentAttributesData"
+        ]
+      }
+    }
+  ]
+}

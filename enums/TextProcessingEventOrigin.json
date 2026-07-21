@@ -1,0 +1,73 @@
+{
+  "name": "TextProcessingEventOrigin",
+  "values": [
+    {
+      "name": "unknown",
+      "value": -1
+    },
+    {
+      "name": "ServerChatPublic",
+      "value": 0
+    },
+    {
+      "name": "ServerChatWhisper",
+      "value": 1
+    },
+    {
+      "name": "SignText",
+      "value": 2
+    },
+    {
+      "name": "AnvilText",
+      "value": 3
+    },
+    {
+      "name": "BookAndQuillText",
+      "value": 4
+    },
+    {
+      "name": "CommandBlockText",
+      "value": 5
+    },
+    {
+      "name": "BlockActorDataText",
+      "value": 6
+    },
+    {
+      "name": "JoinEventText",
+      "value": 7
+    },
+    {
+      "name": "LeaveEventText",
+      "value": 8
+    },
+    {
+      "name": "SlashCommandChat",
+      "value": 9
+    },
+    {
+      "name": "CartographyText",
+      "value": 10
+    },
+    {
+      "name": "KickCommand",
+      "value": 11
+    },
+    {
+      "name": "TitleCommand",
+      "value": 12
+    },
+    {
+      "name": "SummonCommand",
+      "value": 13
+    },
+    {
+      "name": "ServerForm",
+      "value": 14
+    },
+    {
+      "name": "DataDrivenUI",
+      "value": 15
+    }
+  ]
+}

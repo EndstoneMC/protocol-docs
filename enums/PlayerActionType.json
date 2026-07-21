@@ -1,0 +1,169 @@
+{
+  "name": "PlayerActionType",
+  "values": [
+    {
+      "name": "Unknown",
+      "value": -1
+    },
+    {
+      "name": "StartDestroyBlock",
+      "value": 0
+    },
+    {
+      "name": "AbortDestroyBlock",
+      "value": 1
+    },
+    {
+      "name": "StopDestroyBlock",
+      "value": 2
+    },
+    {
+      "name": "GetUpdatedBlock",
+      "value": 3
+    },
+    {
+      "name": "DropItem",
+      "value": 4
+    },
+    {
+      "name": "StartSleeping",
+      "value": 5
+    },
+    {
+      "name": "StopSleeping",
+      "value": 6
+    },
+    {
+      "name": "Respawn",
+      "value": 7
+    },
+    {
+      "name": "StartJump",
+      "value": 8
+    },
+    {
+      "name": "StartSprinting",
+      "value": 9
+    },
+    {
+      "name": "StopSprinting",
+      "value": 10
+    },
+    {
+      "name": "StartSneaking",
+      "value": 11
+    },
+    {
+      "name": "StopSneaking",
+      "value": 12
+    },
+    {
+      "name": "CreativeDestroyBlock",
+      "value": 13
+    },
+    {
+      "name": "ChangeDimensionAck",
+      "value": 14
+    },
+    {
+      "name": "StartGliding",
+      "value": 15
+    },
+    {
+      "name": "StopGliding",
+      "value": 16
+    },
+    {
+      "name": "DenyDestroyBlock",
+      "value": 17
+    },
+    {
+      "name": "CrackBlock",
+      "value": 18
+    },
+    {
+      "name": "ChangeSkin",
+      "value": 19
+    },
+    {
+      "name": "UpdatedEnchantingSeed",
+      "value": 20
+    },
+    {
+      "name": "StartSwimming",
+      "value": 21
+    },
+    {
+      "name": "StopSwimming",
+      "value": 22
+    },
+    {
+      "name": "StartSpinAttack",
+      "value": 23
+    },
+    {
+      "name": "StopSpinAttack",
+      "value": 24
+    },
+    {
+      "name": "InteractWithBlock",
+      "value": 25
+    },
+    {
+      "name": "PredictDestroyBlock",
+      "value": 26
+    },
+    {
+      "name": "ContinueDestroyBlock",
+      "value": 27
+    },
+    {
+      "name": "StartItemUseOn",
+      "value": 28
+    },
+    {
+      "name": "StopItemUseOn",
+      "value": 29
+    },
+    {
+      "name": "HandledTeleport",
+      "value": 30
+    },
+    {
+      "name": "MissedSwing",
+      "value": 31
+    },
+    {
+      "name": "StartCrawling",
+      "value": 32
+    },
+    {
+      "name": "StopCrawling",
+      "value": 33
+    },
+    {
+      "name": "StartFlying",
+      "value": 34
+    },
+    {
+      "name": "StopFlying",
+      "value": 35
+    },
+    {
+      "name": "ClientAckServerData",
+      "value": 36
+    },
+    {
+      "name": "StartUsingItem",
+      "value": 37
+    },
+    {
+      "name": "InternalUpdate",
+      "value": 38
+    },
+    {
+      "name": "Count",
+      "value": 39
+    }
+  ]
+}

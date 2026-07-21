@@ -1,0 +1,11 @@
+{
+  "id": 106,
+  "name": "RemoveObjectivePacket",
+  "notes": "This is just the name of the objective.",
+  "fields": [
+    {
+      "name": "Objective Name",
+      "type": "string"
+    }
+  ]
+}

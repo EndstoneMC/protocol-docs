@@ -1,0 +1,29 @@
+{
+  "id": 174,
+  "name": "SubChunkPacket",
+  "notes": "Contains subchunk terrain data, heightmaps, and optional blob cache IDs.",
+  "fields": [
+    {
+      "name": "Cache Enabled",
+      "type": "bool"
+    },
+    {
+      "name": "Dimension Type",
+      "type": "DimensionType"
+    },
+    {
+      "name": "Center Pos",
+      "type": "SubChunkPos"
+    },
+    {
+      "name": "SubChunk Data",
+      "type": "SubChunkPacketPayload::SubChunkPacketData",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 8192
+      }
+    }
+  ]
+}

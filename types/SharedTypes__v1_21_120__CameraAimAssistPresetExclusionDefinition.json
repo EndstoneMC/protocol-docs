@@ -1,0 +1,33 @@
+{
+  "name": "SharedTypes::v1_21_120::CameraAimAssistPresetExclusionDefinition",
+  "fields": [
+    {
+      "name": "blocks",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "entities",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "block_tags",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "entity_type_families",
+      "type": "string",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

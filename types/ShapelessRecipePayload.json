@@ -1,0 +1,47 @@
+{
+  "name": "ShapelessRecipePayload",
+  "fields": [
+    {
+      "name": "Recipe Id",
+      "type": "string"
+    },
+    {
+      "name": "Ingredients",
+      "type": "cerealizer<RecipeIngredient>::SerializedData",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 128
+      }
+    },
+    {
+      "name": "Results",
+      "type": "cerealizer<NetworkItemInstanceDescriptor>::SerializedData",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "UUID",
+      "type": "mce::UUID"
+    },
+    {
+      "name": "Tag",
+      "type": "string"
+    },
+    {
+      "name": "Priority",
+      "type": "varint32"
+    },
+    {
+      "name": "Unlocking Requirement",
+      "type": "cerealizer<RecipeUnlockingRequirement>::SerializedData",
+      "optional": true
+    },
+    {
+      "name": "Net Id",
+      "type": "TypedServerNetId<struct RecipeNetIdTag>"
+    }
+  ]
+}

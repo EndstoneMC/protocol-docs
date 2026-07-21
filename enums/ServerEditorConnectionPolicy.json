@@ -1,0 +1,21 @@
+{
+  "name": "ServerEditorConnectionPolicy",
+  "values": [
+    {
+      "name": "MatchWorldType",
+      "value": 0
+    },
+    {
+      "name": "EditorOnly",
+      "value": 1
+    },
+    {
+      "name": "VanillaOnly",
+      "value": 2
+    },
+    {
+      "name": "Mixed",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "MapDecoration",
+  "fields": [
+    {
+      "name": "Image Type",
+      "type": "uint8",
+      "enum": "MapDecoration::Type"
+    },
+    {
+      "name": "Rotation",
+      "type": "uint8"
+    },
+    {
+      "name": "X",
+      "type": "uint8"
+    },
+    {
+      "name": "Y",
+      "type": "uint8"
+    },
+    {
+      "name": "Label",
+      "type": "string"
+    },
+    {
+      "name": "Color",
+      "type": "mce::Color"
+    }
+  ]
+}

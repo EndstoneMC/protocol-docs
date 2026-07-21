@@ -1,0 +1,22 @@
+{
+  "id": 39,
+  "name": "SetActorDataPacket",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Actor Data",
+      "type": "SynchedActorData::CopyableDataList"
+    },
+    {
+      "name": "Synched Properties",
+      "type": "PropertySyncData"
+    },
+    {
+      "name": "Tick",
+      "type": "PlayerInputTick"
+    }
+  ]
+}

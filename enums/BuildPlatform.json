@@ -1,0 +1,65 @@
+{
+  "name": "BuildPlatform",
+  "values": [
+    {
+      "name": "Google",
+      "value": 1
+    },
+    {
+      "name": "iOS",
+      "value": 2
+    },
+    {
+      "name": "OSX",
+      "value": 3
+    },
+    {
+      "name": "Amazon",
+      "value": 4
+    },
+    {
+      "name": "GearVR",
+      "value": 5
+    },
+    {
+      "name": "UWP",
+      "value": 7
+    },
+    {
+      "name": "Win32",
+      "value": 8
+    },
+    {
+      "name": "Dedicated",
+      "value": 9
+    },
+    {
+      "name": "tvOS",
+      "value": 10
+    },
+    {
+      "name": "Sony",
+      "value": 11
+    },
+    {
+      "name": "Nintendo",
+      "value": 12
+    },
+    {
+      "name": "Xbox",
+      "value": 13
+    },
+    {
+      "name": "WindowsPhone",
+      "value": 14
+    },
+    {
+      "name": "Linux",
+      "value": 15
+    },
+    {
+      "name": "Unknown",
+      "value": -1
+    }
+  ]
+}

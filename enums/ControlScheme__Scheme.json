@@ -1,0 +1,25 @@
+{
+  "name": "ControlScheme::Scheme",
+  "values": [
+    {
+      "name": "locked_player_relative_strafe",
+      "value": 0
+    },
+    {
+      "name": "camera_relative",
+      "value": 1
+    },
+    {
+      "name": "camera_relative_strafe",
+      "value": 2
+    },
+    {
+      "name": "player_relative",
+      "value": 3
+    },
+    {
+      "name": "player_relative_strafe",
+      "value": 4
+    }
+  ]
+}

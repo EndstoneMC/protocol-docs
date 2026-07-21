@@ -1,0 +1,21 @@
+{
+  "id": 178,
+  "name": "CodeBuilderSourcePacket",
+  "fields": [
+    {
+      "name": "Operation",
+      "type": "uint8",
+      "enum": "CodeBuilderStorageQueryOptions::Operation"
+    },
+    {
+      "name": "Category",
+      "type": "uint8",
+      "enum": "CodeBuilderStorageQueryOptions::Category"
+    },
+    {
+      "name": "CodeStatus",
+      "type": "uint8",
+      "enum": "CodeBuilderExecutionState::CodeStatus"
+    }
+  ]
+}

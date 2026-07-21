@@ -1,0 +1,22 @@
+{
+  "name": "ItemStackRequestCereal::ConsumeActionData",
+  "fields": [
+    {
+      "name": "Action type",
+      "type": "uint8",
+      "enum": "ItemStackRequestActionType"
+    },
+    {
+      "name": "Amount",
+      "type": "uint8",
+      "constraints": {
+        "minimum": 1,
+        "maximum": 64
+      }
+    },
+    {
+      "name": "Source",
+      "type": "ItemStackRequestCereal::SlotInfoData"
+    }
+  ]
+}

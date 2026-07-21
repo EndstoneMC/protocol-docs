@@ -1,0 +1,9 @@
+{
+  "name": "Int64Tag",
+  "fields": [
+    {
+      "name": "data",
+      "type": "varint64"
+    }
+  ]
+}

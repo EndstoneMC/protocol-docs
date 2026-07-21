@@ -1,0 +1,76 @@
+{
+  "id": 12,
+  "name": "AddPlayerPacket",
+  "notes": "A new player joins the game; the server sends this packet to the other players.",
+  "fields": [
+    {
+      "name": "UUID",
+      "type": "mce::UUID"
+    },
+    {
+      "name": "Player Name",
+      "type": "string"
+    },
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Platform Chat Id",
+      "type": "string"
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Velocity",
+      "type": "Vec3"
+    },
+    {
+      "name": "Rotation",
+      "type": "Vec2"
+    },
+    {
+      "name": "Y-Head Rotation",
+      "type": "float"
+    },
+    {
+      "name": "Carried Item",
+      "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData"
+    },
+    {
+      "name": "Player Game Type",
+      "type": "uvarint32",
+      "enum": "GameType"
+    },
+    {
+      "name": "Entity Data",
+      "type": "SynchedActorData::CopyableDataList"
+    },
+    {
+      "name": "Synched Properties",
+      "type": "PropertySyncData"
+    },
+    {
+      "name": "Abilities Data",
+      "type": "SerializedAbilitiesData"
+    },
+    {
+      "name": "Actor Links",
+      "type": "ActorLink",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "Device Id",
+      "type": "string"
+    },
+    {
+      "name": "Build Platform",
+      "type": "uint32",
+      "enum": "BuildPlatform"
+    }
+  ]
+}

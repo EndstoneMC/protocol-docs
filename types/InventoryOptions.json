@@ -1,0 +1,29 @@
+{
+  "name": "InventoryOptions",
+  "fields": [
+    {
+      "name": "Left Inventory Tab",
+      "type": "uvarint32",
+      "enum": "InventoryLeftTabIndex"
+    },
+    {
+      "name": "Right Inventory Tab",
+      "type": "uvarint32",
+      "enum": "InventoryRightTabIndex"
+    },
+    {
+      "name": "Filtering",
+      "type": "bool"
+    },
+    {
+      "name": "Layout Inv",
+      "type": "uvarint32",
+      "enum": "InventoryLayout"
+    },
+    {
+      "name": "Layout Craft",
+      "type": "uvarint32",
+      "enum": "InventoryLayout"
+    }
+  ]
+}

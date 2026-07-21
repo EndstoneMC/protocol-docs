@@ -1,0 +1,28 @@
+{
+  "name": "ItemStackRequestCereal::CraftRepairAndDisenchantActionData",
+  "fields": [
+    {
+      "name": "Action type",
+      "type": "uint8",
+      "enum": "ItemStackRequestActionType"
+    },
+    {
+      "name": "Recipe Net Id",
+      "type": "int32"
+    },
+    {
+      "name": "Number of requested crafts",
+      "type": "uint8",
+      "constraints": {
+        "minimum": 1
+      }
+    },
+    {
+      "name": "Repair Cost",
+      "type": "varint32",
+      "constraints": {
+        "minimum": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ECS::Profiling::Diagnostics::SystemCategory",
+  "fields": [
+    {
+      "name": "Category Name",
+      "type": "string"
+    },
+    {
+      "name": "System Index",
+      "type": "uint64"
+    }
+  ]
+}

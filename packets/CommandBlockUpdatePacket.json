@@ -1,0 +1,47 @@
+{
+  "id": 78,
+  "name": "CommandBlockUpdatePacket",
+  "notes": "Sent when you close the command block screen on the client.",
+  "fields": [
+    {
+      "name": "Target",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "CommandBlockUpdatePacketPayload::EntityCommandTarget",
+          "CommandBlockUpdatePacketPayload::BlockCommandData"
+        ]
+      }
+    },
+    {
+      "name": "Command",
+      "type": "string"
+    },
+    {
+      "name": "Last Output",
+      "type": "string"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "FilteredName",
+      "type": "string"
+    },
+    {
+      "name": "Track Output",
+      "type": "bool"
+    },
+    {
+      "name": "Tick Delay",
+      "type": "int32"
+    },
+    {
+      "name": "Execute On First Tick",
+      "type": "bool"
+    }
+  ]
+}

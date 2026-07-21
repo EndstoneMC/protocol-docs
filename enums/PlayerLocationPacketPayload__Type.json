@@ -1,0 +1,13 @@
+{
+  "name": "PlayerLocationPacketPayload::Type",
+  "values": [
+    {
+      "name": "PLAYER_LOCATION_COORDINATES",
+      "value": 0
+    },
+    {
+      "name": "PLAYER_LOCATION_HIDE",
+      "value": 1
+    }
+  ]
+}

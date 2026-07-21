@@ -1,0 +1,13 @@
+{
+  "name": "SoundDataEvent::Fade",
+  "fields": [
+    {
+      "name": "Duration",
+      "type": "float"
+    },
+    {
+      "name": "Target Volume",
+      "type": "float"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": 302,
+  "name": "TrimDataPacket",
+  "notes": "- mTrimPatterns: vector of TrimPattern\n- mTrimMaterials: vector of TrimMaterial",
+  "fields": [
+    {
+      "name": "TrimPattern List",
+      "type": "TrimPattern",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    },
+    {
+      "name": "TrimMaterial List",
+      "type": "TrimMaterial",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

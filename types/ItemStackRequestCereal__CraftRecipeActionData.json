@@ -1,0 +1,24 @@
+{
+  "name": "ItemStackRequestCereal::CraftRecipeActionData",
+  "fields": [
+    {
+      "name": "Action type",
+      "type": "uint8",
+      "enum": "ItemStackRequestActionType"
+    },
+    {
+      "name": "Recipe Net Id",
+      "type": "TypedServerNetId<struct RecipeNetIdTag>",
+      "constraints": {
+        "description": "Verify the recipe net id is non-zero"
+      }
+    },
+    {
+      "name": "Number of requested crafts",
+      "type": "uint8",
+      "constraints": {
+        "minimum": 1
+      }
+    }
+  ]
+}

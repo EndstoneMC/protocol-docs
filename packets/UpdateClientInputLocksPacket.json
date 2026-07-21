@@ -1,0 +1,11 @@
+{
+  "id": 196,
+  "name": "UpdateClientInputLocksPacket",
+  "notes": "Used to update the players input permissions. Sends the full permission set and the server position of the player at the time the permission was modified.",
+  "fields": [
+    {
+      "name": "Input Lock ComponentData",
+      "type": "uvarint32"
+    }
+  ]
+}

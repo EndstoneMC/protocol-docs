@@ -1,0 +1,14 @@
+{
+  "name": "EAS::BoolAttributeData",
+  "fields": [
+    {
+      "name": "value",
+      "type": "bool"
+    },
+    {
+      "name": "operation",
+      "type": "string",
+      "enum": "EAS::BoolAttributeOperation"
+    }
+  ]
+}

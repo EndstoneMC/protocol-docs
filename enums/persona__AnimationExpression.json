@@ -1,0 +1,13 @@
+{
+  "name": "persona::AnimationExpression",
+  "values": [
+    {
+      "name": "Linear",
+      "value": 0
+    },
+    {
+      "name": "Blinking",
+      "value": 1
+    }
+  ]
+}

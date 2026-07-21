@@ -1,0 +1,21 @@
+{
+  "name": "Social::Events::ServerTelemetryData",
+  "fields": [
+    {
+      "name": "Server Id",
+      "type": "string"
+    },
+    {
+      "name": "Scenario Id",
+      "type": "string"
+    },
+    {
+      "name": "World Id",
+      "type": "string"
+    },
+    {
+      "name": "Owner Id",
+      "type": "string"
+    }
+  ]
+}

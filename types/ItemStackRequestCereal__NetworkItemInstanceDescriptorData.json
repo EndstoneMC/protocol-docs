@@ -1,0 +1,35 @@
+{
+  "name": "ItemStackRequestCereal::NetworkItemInstanceDescriptorData",
+  "fields": [
+    {
+      "name": "Item Descriptor",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "ItemStackRequestCereal::EmptyItemDescriptorData",
+          "ItemStackRequestCereal::ItemNameDescriptorData",
+          "ItemStackRequestCereal::MolangItemDescriptorData",
+          "ItemStackRequestCereal::ItemTagDescriptorData"
+        ]
+      }
+    },
+    {
+      "name": "Stack size",
+      "type": "uint16",
+      "constraints": {
+        "minimum": 1,
+        "maximum": 64
+      }
+    },
+    {
+      "name": "Block Runtime Id",
+      "type": "uvarint32"
+    },
+    {
+      "name": "User Data Buffer",
+      "type": "string"
+    }
+  ]
+}

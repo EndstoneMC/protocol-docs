@@ -1,0 +1,17 @@
+{
+  "name": "ItemStackRequestCereal::SlotInfoData",
+  "fields": [
+    {
+      "name": "Full container name.",
+      "type": "FullContainerName"
+    },
+    {
+      "name": "Slot",
+      "type": "uint8"
+    },
+    {
+      "name": "Net Id Variant",
+      "type": "int32"
+    }
+  ]
+}

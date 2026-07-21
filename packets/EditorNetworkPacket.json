@@ -1,0 +1,18 @@
+{
+  "id": 190,
+  "name": "EditorNetworkPacket",
+  "fields": [
+    {
+      "name": "Route To Manager",
+      "type": "bool"
+    },
+    {
+      "name": "Raw Variant Name",
+      "type": "string"
+    },
+    {
+      "name": "Raw Variant Data",
+      "type": "string"
+    }
+  ]
+}

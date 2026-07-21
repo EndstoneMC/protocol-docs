@@ -1,0 +1,12 @@
+{
+  "name": "CameraPresets",
+  "fields": [
+    {
+      "name": "Presets",
+      "type": "SharedTypes::v1_21_90::CameraPreset",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

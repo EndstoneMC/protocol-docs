@@ -1,0 +1,11 @@
+{
+  "id": 59,
+  "name": "SetCommandsEnabledPacket",
+  "notes": "see SimpleEventPacket",
+  "fields": [
+    {
+      "name": "Commands Enabled",
+      "type": "bool"
+    }
+  ]
+}

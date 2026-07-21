@@ -1,0 +1,50 @@
+{
+  "id": 331,
+  "name": "GraphicsOverrideParameterPacket",
+  "fields": [
+    {
+      "name": "Parameter Keyframe Values",
+      "type": {
+        "key": "float",
+        "value": "Vec3"
+      },
+      "constraints": {
+        "max_properties": 255
+      }
+    },
+    {
+      "name": "Float Value",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Vec3 Value",
+      "type": "Vec3",
+      "optional": true
+    },
+    {
+      "name": "Biome Identifier",
+      "type": "string",
+      "constraints": {
+        "max_length": 255
+      }
+    },
+    {
+      "name": "Player Identifier",
+      "type": "string",
+      "constraints": {
+        "max_length": 255
+      },
+      "optional": true
+    },
+    {
+      "name": "Identifier for Parameter",
+      "type": "uint8",
+      "enum": "GraphicsOverrideParameterType"
+    },
+    {
+      "name": "Reset Parameter",
+      "type": "bool"
+    }
+  ]
+}

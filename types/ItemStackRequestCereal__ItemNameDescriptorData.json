@@ -1,0 +1,25 @@
+{
+  "name": "ItemStackRequestCereal::ItemNameDescriptorData",
+  "fields": [
+    {
+      "name": "Descriptor Type",
+      "type": "uint8",
+      "enum": "ItemStackRequestCereal::ItemDescriptorType"
+    },
+    {
+      "name": "Full Name",
+      "type": "string",
+      "constraints": {
+        "min_length": 1
+      }
+    },
+    {
+      "name": "Aux Value",
+      "type": "varint32",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 32767
+      }
+    }
+  ]
+}

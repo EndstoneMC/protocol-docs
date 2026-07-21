@@ -1,0 +1,17 @@
+{
+  "name": "PackInstanceId",
+  "fields": [
+    {
+      "name": "Pack ID",
+      "type": "string"
+    },
+    {
+      "name": "Version",
+      "type": "string"
+    },
+    {
+      "name": "Sub Pack Name",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "PlayerPositionModeComponent::PositionMode",
+  "values": [
+    {
+      "name": "Normal",
+      "value": 0
+    },
+    {
+      "name": "Respawn",
+      "value": 1
+    },
+    {
+      "name": "Teleport",
+      "value": 2
+    },
+    {
+      "name": "OnlyHeadRot",
+      "value": 3
+    }
+  ]
+}

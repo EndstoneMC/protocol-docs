@@ -1,0 +1,60 @@
+{
+  "name": "PlayerListPacketPayload::AddEntry",
+  "fields": [
+    {
+      "name": "Action",
+      "type": "uint8",
+      "enum": "PlayerListPacketType",
+      "constraints": {
+        "enum_values": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "UUID",
+      "type": "mce::UUID"
+    },
+    {
+      "name": "Actor Unique ID",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Player Name",
+      "type": "string"
+    },
+    {
+      "name": "XBL XUID",
+      "type": "string"
+    },
+    {
+      "name": "Platform Online ID",
+      "type": "string"
+    },
+    {
+      "name": "Build Platform",
+      "type": "uint32",
+      "enum": "BuildPlatform"
+    },
+    {
+      "name": "Serialized Skin",
+      "type": "SerializedSkinRef"
+    },
+    {
+      "name": "Is Teacher",
+      "type": "bool"
+    },
+    {
+      "name": "Is Host",
+      "type": "bool"
+    },
+    {
+      "name": "Is SubClient",
+      "type": "bool"
+    },
+    {
+      "name": "Player Color",
+      "type": "mce::Color"
+    }
+  ]
+}

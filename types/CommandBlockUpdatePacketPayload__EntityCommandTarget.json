@@ -1,0 +1,9 @@
+{
+  "name": "CommandBlockUpdatePacketPayload::EntityCommandTarget",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    }
+  ]
+}

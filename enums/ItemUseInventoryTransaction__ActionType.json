@@ -1,0 +1,21 @@
+{
+  "name": "ItemUseInventoryTransaction::ActionType",
+  "values": [
+    {
+      "name": "Place",
+      "value": 0
+    },
+    {
+      "name": "Use",
+      "value": 1
+    },
+    {
+      "name": "Destroy",
+      "value": 2
+    },
+    {
+      "name": "Use As Attack",
+      "value": 3
+    }
+  ]
+}

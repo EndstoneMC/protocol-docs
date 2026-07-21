@@ -1,0 +1,11 @@
+{
+  "id": 141,
+  "name": "AnvilDamagePacket",
+  "notes": "Only used when Item Stack Net Manager is disabled on the server.\n\tSends the position of the anvil that is requesting to be damaged from the client.",
+  "fields": [
+    {
+      "name": "Block Position",
+      "type": "BlockPos"
+    }
+  ]
+}

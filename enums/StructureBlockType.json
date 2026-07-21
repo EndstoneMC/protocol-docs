@@ -1,0 +1,29 @@
+{
+  "name": "StructureBlockType",
+  "values": [
+    {
+      "name": "Data",
+      "value": 0
+    },
+    {
+      "name": "Save",
+      "value": 1
+    },
+    {
+      "name": "Load",
+      "value": 2
+    },
+    {
+      "name": "Corner",
+      "value": 3
+    },
+    {
+      "name": "Invalid",
+      "value": 4
+    },
+    {
+      "name": "Export",
+      "value": 5
+    }
+  ]
+}

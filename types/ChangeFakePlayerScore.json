@@ -1,0 +1,32 @@
+{
+  "name": "ChangeFakePlayerScore",
+  "fields": [
+    {
+      "name": "Action",
+      "type": "string",
+      "enum": "ScorePacketEntryAction"
+    },
+    {
+      "name": "Scoreboard Id",
+      "type": "ScoreboardId"
+    },
+    {
+      "name": "Objective Name",
+      "type": "string",
+      "constraints": {
+        "min_length": 1
+      }
+    },
+    {
+      "name": "Score Value",
+      "type": "int32"
+    },
+    {
+      "name": "Fake Player Name",
+      "type": "string",
+      "constraints": {
+        "min_length": 1
+      }
+    }
+  ]
+}

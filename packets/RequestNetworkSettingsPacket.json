@@ -1,0 +1,15 @@
+{
+  "id": 193,
+  "name": "RequestNetworkSettingsPacket",
+  "notes": "This is the initial packet sent from the client to initiate a connection.  NOTE: this packet should not contain anything other than the client version, don't add new data here.",
+  "fields": [
+    {
+      "name": "ClientNetworkVersion",
+      "type": "int32_be",
+      "constraints": {
+        "minimum": 2171,
+        "maximum": 2171
+      }
+    }
+  ]
+}

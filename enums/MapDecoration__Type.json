@@ -1,0 +1,109 @@
+{
+  "name": "MapDecoration::Type",
+  "values": [
+    {
+      "name": "MarkerWhite",
+      "value": 0
+    },
+    {
+      "name": "MarkerGreen",
+      "value": 1
+    },
+    {
+      "name": "MarkerRed",
+      "value": 2
+    },
+    {
+      "name": "MarkerBlue",
+      "value": 3
+    },
+    {
+      "name": "XWhite",
+      "value": 4
+    },
+    {
+      "name": "TriangleRed",
+      "value": 5
+    },
+    {
+      "name": "SquareWhite",
+      "value": 6
+    },
+    {
+      "name": "MarkerSign",
+      "value": 7
+    },
+    {
+      "name": "MarkerPink",
+      "value": 8
+    },
+    {
+      "name": "MarkerOrange",
+      "value": 9
+    },
+    {
+      "name": "MarkerYellow",
+      "value": 10
+    },
+    {
+      "name": "MarkerTeal",
+      "value": 11
+    },
+    {
+      "name": "TriangleGreen",
+      "value": 12
+    },
+    {
+      "name": "SmallSquareWhite",
+      "value": 13
+    },
+    {
+      "name": "Mansion",
+      "value": 14
+    },
+    {
+      "name": "Monument",
+      "value": 15
+    },
+    {
+      "name": "NoDraw",
+      "value": 16
+    },
+    {
+      "name": "VillageDesert",
+      "value": 17
+    },
+    {
+      "name": "VillagePlains",
+      "value": 18
+    },
+    {
+      "name": "VillageSavanna",
+      "value": 19
+    },
+    {
+      "name": "VillageSnowy",
+      "value": 20
+    },
+    {
+      "name": "VillageTaiga",
+      "value": 21
+    },
+    {
+      "name": "JungleTemple",
+      "value": 22
+    },
+    {
+      "name": "WitchHut",
+      "value": 23
+    },
+    {
+      "name": "TrialChambers",
+      "value": 24
+    },
+    {
+      "name": "Count",
+      "value": 25
+    }
+  ]
+}

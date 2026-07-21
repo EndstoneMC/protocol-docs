@@ -1,0 +1,45 @@
+{
+  "name": "PlayStatus",
+  "values": [
+    {
+      "name": "LoginSuccess",
+      "value": 0
+    },
+    {
+      "name": "LoginFailed_ClientOld",
+      "value": 1
+    },
+    {
+      "name": "LoginFailed_ServerOld",
+      "value": 2
+    },
+    {
+      "name": "PlayerSpawn",
+      "value": 3
+    },
+    {
+      "name": "LoginFailed_InvalidTenant",
+      "value": 4
+    },
+    {
+      "name": "LoginFailed_EditionMismatchEduToVanilla",
+      "value": 5
+    },
+    {
+      "name": "LoginFailed_EditionMismatchVanillaToEdu",
+      "value": 6
+    },
+    {
+      "name": "LoginFailed_ServerFullSubClient",
+      "value": 7
+    },
+    {
+      "name": "LoginFailed_EditorMismatchEditorToVanilla",
+      "value": 8
+    },
+    {
+      "name": "LoginFailed_EditorMismatchVanillaToEditor",
+      "value": 9
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ChunkPos",
+  "fields": [
+    {
+      "name": "X",
+      "type": "varint32"
+    },
+    {
+      "name": "Z",
+      "type": "varint32"
+    }
+  ]
+}

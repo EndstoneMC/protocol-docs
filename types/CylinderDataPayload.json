@@ -1,0 +1,21 @@
+{
+  "name": "CylinderDataPayload",
+  "fields": [
+    {
+      "name": "Radius X",
+      "type": "Vec2"
+    },
+    {
+      "name": "Radius Z",
+      "type": "Vec2"
+    },
+    {
+      "name": "Height",
+      "type": "float"
+    },
+    {
+      "name": "Num Segments",
+      "type": "uint8"
+    }
+  ]
+}

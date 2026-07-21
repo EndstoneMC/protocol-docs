@@ -1,0 +1,26 @@
+{
+  "name": "SerializedAbilitiesData",
+  "fields": [
+    {
+      "name": "Target Player Raw Id",
+      "type": "int64"
+    },
+    {
+      "name": "Player Permissions",
+      "type": "uint8",
+      "enum": "PlayerPermissionLevel"
+    },
+    {
+      "name": "Command Permissions",
+      "type": "uint8",
+      "enum": "CommandPermissionLevel"
+    },
+    {
+      "name": "Layers",
+      "type": "SerializedAbilitiesData::SerializedLayer",
+      "repeat": {
+        "prefix": "uvarint32"
+      }
+    }
+  ]
+}

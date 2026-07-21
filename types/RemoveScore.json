@@ -1,0 +1,22 @@
+{
+  "name": "RemoveScore",
+  "fields": [
+    {
+      "name": "Action",
+      "type": "string",
+      "enum": "ScorePacketEntryAction"
+    },
+    {
+      "name": "Scoreboard Id",
+      "type": "ScoreboardId"
+    },
+    {
+      "name": "Objective Name",
+      "type": "string",
+      "constraints": {
+        "min_length": 1
+      },
+      "optional": true
+    }
+  ]
+}

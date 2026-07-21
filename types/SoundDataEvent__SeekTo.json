@@ -1,0 +1,9 @@
+{
+  "name": "SoundDataEvent::SeekTo",
+  "fields": [
+    {
+      "name": "Seconds",
+      "type": "float"
+    }
+  ]
+}

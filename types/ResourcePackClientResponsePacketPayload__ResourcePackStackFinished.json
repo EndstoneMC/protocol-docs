@@ -1,0 +1,10 @@
+{
+  "name": "ResourcePackClientResponsePacketPayload::ResourcePackStackFinished",
+  "fields": [
+    {
+      "name": "Response Type",
+      "type": "string",
+      "enum": "ResourcePackResponse"
+    }
+  ]
+}

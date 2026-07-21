@@ -1,0 +1,21 @@
+{
+  "name": "CommandBlockUpdatePacketPayload::BlockCommandData",
+  "fields": [
+    {
+      "name": "Block Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Command Block Mode",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Redstone Mode",
+      "type": "bool"
+    },
+    {
+      "name": "Is Conditional",
+      "type": "bool"
+    }
+  ]
+}

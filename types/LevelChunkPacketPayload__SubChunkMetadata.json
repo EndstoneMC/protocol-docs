@@ -1,0 +1,9 @@
+{
+  "name": "LevelChunkPacketPayload::SubChunkMetadata",
+  "fields": [
+    {
+      "name": "Blob Id",
+      "type": "uint64"
+    }
+  ]
+}

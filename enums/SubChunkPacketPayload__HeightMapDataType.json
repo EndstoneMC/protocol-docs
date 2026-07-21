@@ -1,0 +1,25 @@
+{
+  "name": "SubChunkPacketPayload::HeightMapDataType",
+  "values": [
+    {
+      "name": "NoData",
+      "value": 0
+    },
+    {
+      "name": "HasData",
+      "value": 1
+    },
+    {
+      "name": "AllTooHigh",
+      "value": 2
+    },
+    {
+      "name": "AllTooLow",
+      "value": 3
+    },
+    {
+      "name": "AllCopied",
+      "value": 4
+    }
+  ]
+}

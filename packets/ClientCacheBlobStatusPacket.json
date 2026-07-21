@@ -1,0 +1,27 @@
+{
+  "id": 135,
+  "name": "ClientCacheBlobStatusPacket",
+  "notes": "Sent periodically by the client to update the server on which blob it has (ACK) and which blobs it is lacking (MISS).",
+  "fields": [
+    {
+      "name": "Missing Ids",
+      "type": "uint64",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 4095
+      }
+    },
+    {
+      "name": "Found Ids",
+      "type": "uint64",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 4095
+      }
+    }
+  ]
+}

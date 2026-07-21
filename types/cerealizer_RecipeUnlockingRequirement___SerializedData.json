@@ -1,0 +1,21 @@
+{
+  "name": "cerealizer<RecipeUnlockingRequirement>::SerializedData",
+  "fields": [
+    {
+      "name": "Unlocking Context",
+      "type": "uvarint32",
+      "enum": "RecipeUnlockingRequirement::UnlockingContext"
+    },
+    {
+      "name": "Unlocking Ingredients",
+      "type": "cerealizer<RecipeIngredient>::SerializedData",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "constraints": {
+        "max_items": 128
+      },
+      "optional": true
+    }
+  ]
+}

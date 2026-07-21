@@ -1,0 +1,17 @@
+{
+  "name": "EAS::ColorAttributeData",
+  "fields": [
+    {
+      "name": "value",
+      "type": "int32",
+      "repeat": {
+        "count": 4
+      }
+    },
+    {
+      "name": "operation",
+      "type": "string",
+      "enum": "EAS::ColorAttributeOperation"
+    }
+  ]
+}

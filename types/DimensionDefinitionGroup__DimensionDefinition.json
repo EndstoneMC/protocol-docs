@@ -1,0 +1,37 @@
+{
+  "name": "DimensionDefinitionGroup::DimensionDefinition",
+  "fields": [
+    {
+      "name": "Height Maximum",
+      "type": "varint32"
+    },
+    {
+      "name": "Height Minimum",
+      "type": "varint32"
+    },
+    {
+      "name": "Generator Type",
+      "type": "uvarint32",
+      "enum": "GeneratorType",
+      "constraints": {
+        "enum_values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Dimension Type",
+      "type": "DimensionType"
+    },
+    {
+      "name": "Pack Id",
+      "type": "mce::UUID"
+    }
+  ]
+}

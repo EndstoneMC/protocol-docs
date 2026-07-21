@@ -1,0 +1,14 @@
+{
+  "name": "Memory::MemoryCategoryCounter",
+  "fields": [
+    {
+      "name": "Category",
+      "type": "uint8",
+      "enum": "Memory::MemoryCategory"
+    },
+    {
+      "name": "Current Bytes",
+      "type": "uint64"
+    }
+  ]
+}

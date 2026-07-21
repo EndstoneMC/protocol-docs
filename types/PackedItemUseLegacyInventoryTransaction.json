@@ -1,0 +1,21 @@
+{
+  "name": "PackedItemUseLegacyInventoryTransaction",
+  "fields": [
+    {
+      "name": "Legacy Request ID",
+      "type": "TypedClientNetId<struct ItemStackLegacyRequestIdTag, int32_t, 0>"
+    },
+    {
+      "name": "Legacy Set Item Slots",
+      "type": "LegacySetSlot",
+      "repeat": {
+        "prefix": "uvarint32"
+      },
+      "optional": true
+    },
+    {
+      "name": "Item Use Transaction",
+      "type": "ItemUseInventoryTransaction"
+    }
+  ]
+}

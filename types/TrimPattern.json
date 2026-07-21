@@ -1,0 +1,13 @@
+{
+  "name": "TrimPattern",
+  "fields": [
+    {
+      "name": "Item Name",
+      "type": "string"
+    },
+    {
+      "name": "Pattern Id",
+      "type": "string"
+    }
+  ]
+}
