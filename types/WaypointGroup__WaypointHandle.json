@@ -3,7 +3,8 @@
   "fields": [
     {
       "name": "UUID",
-      "type": "mce::UUID"
+      "type": "mce::UUID",
+      "deprecated": true
     }
   ]
 }

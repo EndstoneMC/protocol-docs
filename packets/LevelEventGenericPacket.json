@@ -4,11 +4,13 @@
   "fields": [
     {
       "name": "Event Id",
-      "type": "varint32"
+      "type": "varint32",
+      "deprecated": true
     },
     {
       "name": "__[[CTD]]__",
-      "type": "CompoundTag"
+      "type": "CompoundTag",
+      "deprecated": true
     }
   ]
 }
