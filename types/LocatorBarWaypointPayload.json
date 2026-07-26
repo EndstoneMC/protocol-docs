@@ -3,19 +3,16 @@
   "fields": [
     {
       "name": "GroupHandle",
-      "type": "WaypointGroup::WaypointHandle",
-      "deprecated": true
+      "type": "WaypointGroup::WaypointHandle"
     },
     {
       "name": "ServerWaypointPayload",
-      "type": "ServerWaypoint::Payload",
-      "deprecated": true
+      "type": "ServerWaypoint::Payload"
     },
     {
       "name": "ActionFlag",
       "type": "uvarint32",
-      "enum": "ServerWaypointGroup::Action",
-      "deprecated": true
+      "enum": "ServerWaypointGroup::Action"
     }
   ]
 }
