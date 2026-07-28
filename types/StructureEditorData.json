@@ -19,7 +19,7 @@
     },
     {
       "name": "Structure Block Type",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "StructureBlockType"
     },
     {

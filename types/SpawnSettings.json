@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Spawn Biome Type",
-      "type": "uint16",
+      "type": "int16",
       "enum": "SpawnBiomeType",
       "constraints": {
         "enum_values": [

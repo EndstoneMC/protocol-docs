@@ -41,7 +41,7 @@
     },
     {
       "name": "New Interaction Model",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "NewInteractionModel"
     },
     {

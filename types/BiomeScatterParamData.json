@@ -10,7 +10,7 @@
     },
     {
       "name": "eval order",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "SharedTypes::v1_21_10::CoordinateEvaluationOrder"
     },
     {

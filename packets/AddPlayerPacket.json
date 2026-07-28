@@ -41,7 +41,7 @@
     },
     {
       "name": "Player Game Type",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "GameType"
     },
     {
@@ -69,7 +69,7 @@
     },
     {
       "name": "Build Platform",
-      "type": "uint32",
+      "type": "int32",
       "enum": "BuildPlatform"
     }
   ]

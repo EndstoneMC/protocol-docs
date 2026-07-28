@@ -15,7 +15,7 @@
     },
     {
       "name": "Molang Version",
-      "type": "uint16",
+      "type": "int16",
       "enum": "MolangVersion"
     }
   ]
