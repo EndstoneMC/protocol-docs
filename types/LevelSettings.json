@@ -186,7 +186,7 @@
     },
     {
       "name": "Player Permissions",
-      "type": "varint32",
+      "type": "int8",
       "enum": "PlayerPermissionLevel",
       "constraints": {
         "enum_values": [

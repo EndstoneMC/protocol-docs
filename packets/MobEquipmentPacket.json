@@ -12,15 +12,15 @@
     },
     {
       "name": "Slot",
-      "type": "uvarint32"
+      "type": "uint8"
     },
     {
       "name": "Selected Slot",
-      "type": "uvarint32"
+      "type": "uint8"
     },
     {
       "name": "Container ID",
-      "type": "uvarint32"
+      "type": "uint8"
     }
   ]
 }

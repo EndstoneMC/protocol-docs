@@ -28,7 +28,7 @@
     },
     {
       "name": "Redstone Save Mode",
-      "type": "uvarint32",
+      "type": "uint8",
       "enum": "StructureRedstoneSaveMode"
     }
   ]

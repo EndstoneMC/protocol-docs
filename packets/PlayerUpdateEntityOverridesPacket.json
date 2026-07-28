@@ -16,7 +16,7 @@
       "type": {
         "switch": {
           "name": "Type",
-          "type": "uvarint32",
+          "type": "uint8",
           "enum": "UpdateType"
         },
         "cases": [

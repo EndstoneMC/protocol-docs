@@ -12,7 +12,7 @@
     },
     {
       "name": "Event Type",
-      "type": "uvarint32",
+      "type": "uint8",
       "enum": "BossEventUpdateType"
     },
     {
@@ -35,12 +35,12 @@
     },
     {
       "name": "Color",
-      "type": "uvarint32",
+      "type": "uint8",
       "enum": "BossBarColor"
     },
     {
       "name": "Overlay",
-      "type": "uvarint32",
+      "type": "uint8",
       "enum": "BossBarOverlay"
     }
   ]
