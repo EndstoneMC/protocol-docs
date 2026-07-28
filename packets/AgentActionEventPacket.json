@@ -8,7 +8,7 @@
     },
     {
       "name": "Action",
-      "type": "uint32",
+      "type": "int32",
       "enum": "AgentActionType"
     },
     {

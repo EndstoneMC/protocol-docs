@@ -3,12 +3,12 @@
   "fields": [
     {
       "name": "Left Inventory Tab",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "InventoryLeftTabIndex"
     },
     {
       "name": "Right Inventory Tab",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "InventoryRightTabIndex"
     },
     {
@@ -17,12 +17,12 @@
     },
     {
       "name": "Layout Inv",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "InventoryLayout"
     },
     {
       "name": "Layout Craft",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "InventoryLayout"
     }
   ]

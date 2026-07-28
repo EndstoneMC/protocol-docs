@@ -4,7 +4,7 @@
   "fields": [
     {
       "name": "Title Type",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "SetTitlePacketPayload::TitleType"
     },
     {

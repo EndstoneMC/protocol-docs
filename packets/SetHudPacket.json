@@ -11,7 +11,7 @@
     },
     {
       "name": "Hud Visible",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "HudVisibility"
     }
   ]
