@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Message Type",
-      "type": "uvarint32",
+      "type": "uint8",
       "enum": "TextPacketType",
       "constraints": {
         "enum_values": [

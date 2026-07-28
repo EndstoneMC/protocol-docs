@@ -7,7 +7,7 @@
     },
     {
       "name": "Interaction Type",
-      "type": "uvarint32",
+      "type": "uint8",
       "enum": "MinecraftEventing::InteractionType"
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "name": "Interaction Actor Color",
-      "type": "uvarint32"
+      "type": "uint8"
     }
   ]
 }

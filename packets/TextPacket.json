@@ -12,7 +12,7 @@
       "type": {
         "switch": {
           "name": "Message Type",
-          "type": "uvarint32",
+          "type": "uint8",
           "enum": "TextPacketType"
         },
         "cases": [
