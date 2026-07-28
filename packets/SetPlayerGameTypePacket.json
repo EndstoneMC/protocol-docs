@@ -5,7 +5,7 @@
   "fields": [
     {
       "name": "Player Game Type",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "GameType"
     }
   ]

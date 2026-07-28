@@ -9,7 +9,7 @@
     },
     {
       "name": "Action",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "PlayerActionType"
     },
     {
