@@ -1,0 +1,21 @@
+{
+  "name": "SetPlayerFurnaceOptionsPacketPayload::FurnaceType",
+  "values": [
+    {
+      "name": "None",
+      "value": 0
+    },
+    {
+      "name": "Furnace",
+      "value": 1
+    },
+    {
+      "name": "BlastFurnace",
+      "value": 2
+    },
+    {
+      "name": "Smoker",
+      "value": 3
+    }
+  ]
+}

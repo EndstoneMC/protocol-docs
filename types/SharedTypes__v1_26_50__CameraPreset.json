@@ -1,5 +1,5 @@
 {
-  "name": "SharedTypes::v1_21_90::CameraPreset",
+  "name": "SharedTypes::v1_26_50::CameraPreset",
   "fields": [
     {
       "name": "Name",
@@ -109,6 +109,15 @@
       "name": "Control Scheme",
       "type": "uint8",
       "enum": "ControlScheme::Scheme",
+      "optional": true
+    },
+    {
+      "name": "Apply Inherited Starting Rotation",
+      "type": "bool"
+    },
+    {
+      "name": "Starting Rotation",
+      "type": "Vec2",
       "optional": true
     }
   ]

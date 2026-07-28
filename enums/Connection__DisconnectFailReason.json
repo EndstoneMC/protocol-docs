@@ -592,6 +592,10 @@
     {
       "name": "EditorNotAllowed",
       "value": 147
+    },
+    {
+      "name": "MissingStructureData",
+      "value": 148
     }
   ]
 }
