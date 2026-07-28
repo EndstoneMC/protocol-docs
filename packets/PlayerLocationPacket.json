@@ -12,7 +12,7 @@
       "type": {
         "switch": {
           "name": "Packet Type",
-          "type": "uvarint32",
+          "type": "varint32",
           "enum": "PlayerLocationPacketPayload::Type"
         },
         "cases": [

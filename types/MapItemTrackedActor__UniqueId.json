@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Type",
-      "type": "uint32",
+      "type": "int32",
       "enum": "MapItemTrackedActor::Type"
     },
     {

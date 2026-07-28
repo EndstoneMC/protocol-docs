@@ -8,7 +8,7 @@
     },
     {
       "name": "Event Type",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "LegacyTelemetryEventPacketPayload::Type"
     },
     {

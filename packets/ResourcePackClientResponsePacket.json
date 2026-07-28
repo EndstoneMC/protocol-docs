@@ -8,7 +8,7 @@
       "type": {
         "switch": {
           "name": "Response Type",
-          "type": "uvarint32",
+          "type": "varint32",
           "enum": "ResourcePackResponse"
         },
         "cases": [

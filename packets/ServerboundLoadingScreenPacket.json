@@ -5,7 +5,7 @@
   "fields": [
     {
       "name": "Loading Screen Packet Type",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "ServerboundLoadingScreenPacketType",
       "constraints": {
         "enum_values": [

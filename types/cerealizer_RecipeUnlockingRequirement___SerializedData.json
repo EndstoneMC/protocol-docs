@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Unlocking Context",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "RecipeUnlockingRequirement::UnlockingContext"
     },
     {

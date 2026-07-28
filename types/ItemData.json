@@ -15,7 +15,7 @@
     },
     {
       "name": "Item Version",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "ItemVersion"
     },
     {

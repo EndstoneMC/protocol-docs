@@ -5,7 +5,7 @@
   "fields": [
     {
       "name": "Status",
-      "type": "uint32_be",
+      "type": "int32_be",
       "enum": "PlayStatus"
     }
   ]

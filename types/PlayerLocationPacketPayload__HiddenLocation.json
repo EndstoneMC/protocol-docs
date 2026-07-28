@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Packet Type",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "PlayerLocationPacketPayload::Type",
       "constraints": {
         "enum_values": [

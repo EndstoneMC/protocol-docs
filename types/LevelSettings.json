@@ -11,7 +11,7 @@
     },
     {
       "name": "Generator Type",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "GeneratorType",
       "constraints": {
         "enum_values": [
@@ -27,7 +27,7 @@
     },
     {
       "name": "Game Type",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "GameType",
       "constraints": {
         "enum_values": [
@@ -46,7 +46,7 @@
     },
     {
       "name": "Game Difficulty",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "SharedTypes::Legacy::Difficulty",
       "constraints": {
         "enum_values": [
@@ -69,7 +69,7 @@
     },
     {
       "name": "Editor World Type",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "Editor::WorldType",
       "constraints": {
         "enum_values": [
@@ -134,7 +134,7 @@
     },
     {
       "name": "Xbox Live Broadcast Setting",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "Social::GamePublishSetting",
       "constraints": {
         "enum_values": [
@@ -148,7 +148,7 @@
     },
     {
       "name": "Platform Broadcast Setting",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "Social::GamePublishSetting",
       "constraints": {
         "enum_values": [
@@ -186,7 +186,7 @@
     },
     {
       "name": "Player Permissions",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "PlayerPermissionLevel",
       "constraints": {
         "enum_values": [
@@ -284,7 +284,7 @@
     },
     {
       "name": "Server Editor Connection Policy",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "ServerEditorConnectionPolicy",
       "constraints": {
         "enum_values": [
