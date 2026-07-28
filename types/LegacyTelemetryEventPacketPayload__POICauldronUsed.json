@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Block Interaction Type",
-      "type": "uvarint32",
+      "type": "uint8",
       "enum": "MinecraftEventing::POIBlockInteractionType"
     },
     {
