@@ -7,7 +7,7 @@
     },
     {
       "name": "Action Type",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "ItemUseInventoryTransaction::ActionType"
     },
     {
