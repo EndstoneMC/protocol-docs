@@ -4,12 +4,12 @@
   "fields": [
     {
       "name": "Violation Type",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "PacketViolationType"
     },
     {
       "name": "Violation Severity",
-      "type": "uvarint32",
+      "type": "varint32",
       "enum": "PacketViolationSeverity"
     },
     {
