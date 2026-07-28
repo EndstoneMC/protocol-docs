@@ -8,7 +8,7 @@
       "type": {
         "switch": {
           "name": "Action",
-          "type": "uvarint32",
+          "type": "uint8",
           "enum": "ScorePacketEntryAction"
         },
         "cases": [

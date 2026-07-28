@@ -11,7 +11,7 @@
     },
     {
       "name": "Born Baby: Color",
-      "type": "uvarint32"
+      "type": "uint8"
     }
   ]
 }

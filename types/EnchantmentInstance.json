@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Enchant Type",
-      "type": "uvarint32",
+      "type": "uint8",
       "enum": "Enchant::Type"
     },
     {

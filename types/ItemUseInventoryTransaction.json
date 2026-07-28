@@ -12,7 +12,7 @@
     },
     {
       "name": "Trigger Type",
-      "type": "uvarint32",
+      "type": "uint8",
       "enum": "ItemUseInventoryTransaction::TriggerType"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "name": "Face",
-      "type": "uvarint32"
+      "type": "uint8"
     },
     {
       "name": "Slot",
