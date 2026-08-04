@@ -20,6 +20,10 @@
       "type": "float"
     },
     {
+      "type": "bool",
+      "value": true
+    },
+    {
       "name": "Input Data",
       "type": "PlayerAuthInputPacketPayload::InputData",
       "repeat": {
@@ -57,14 +61,26 @@
       "type": "Vec3"
     },
     {
+      "type": "bool",
+      "value": true
+    },
+    {
       "name": "Item Use Transaction",
       "type": "PackedItemUseLegacyInventoryTransaction",
       "optional": true
     },
     {
+      "type": "bool",
+      "value": true
+    },
+    {
       "name": "Item Stack Request",
       "type": "ItemStackRequestCereal::RequestData",
       "optional": true
+    },
+    {
+      "type": "bool",
+      "value": true
     },
     {
       "name": "Player Block Actions",
@@ -81,9 +97,17 @@
       "optional": true
     },
     {
+      "type": "bool",
+      "value": true
+    },
+    {
       "name": "Vehicle Rotation",
       "type": "Vec2",
       "optional": true
+    },
+    {
+      "type": "bool",
+      "value": true
     },
     {
       "name": "Client Predicted Vehicle",
