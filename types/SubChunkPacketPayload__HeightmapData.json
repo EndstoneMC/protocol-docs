@@ -16,7 +16,12 @@
     },
     {
       "name": "Subchunk Height Map",
-      "type": "int8",
+      "type": {
+        "type": "int8",
+        "repeat": {
+          "count": 16
+        }
+      },
       "repeat": {
         "count": 16
       },
@@ -38,7 +43,12 @@
     },
     {
       "name": "Subchunk Render Height Map",
-      "type": "int8",
+      "type": {
+        "type": "int8",
+        "repeat": {
+          "count": 16
+        }
+      },
       "repeat": {
         "count": 16
       },
