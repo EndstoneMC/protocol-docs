@@ -67,7 +67,10 @@
     {
       "name": "PieceTintColors",
       "type": {
-        "key": "persona::PieceType",
+        "key": {
+          "type": "string",
+          "enum": "persona::PieceType"
+        },
         "value": "TintMapColor"
       }
     },
