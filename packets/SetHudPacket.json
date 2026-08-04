@@ -4,7 +4,8 @@
   "fields": [
     {
       "name": "Hud Element",
-      "type": "HudElement",
+      "type": "varint32",
+      "enum": "HudElement",
       "repeat": {
         "prefix": "uvarint32"
       }
