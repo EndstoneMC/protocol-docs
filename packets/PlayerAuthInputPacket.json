@@ -25,7 +25,8 @@
     },
     {
       "name": "Input Data",
-      "type": "PlayerAuthInputPacketPayload::InputData",
+      "type": "varint32",
+      "enum": "PlayerAuthInputPacketPayload::InputData",
       "repeat": {
         "prefix": "uvarint32"
       },

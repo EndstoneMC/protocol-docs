@@ -7,12 +7,7 @@
     },
     {
       "name": "ItemEnchants",
-      "type": {
-        "type": "EnchantmentInstance",
-        "repeat": {
-          "prefix": "uvarint32"
-        }
-      },
+      "type": "EnchantmentInstance",
       "repeat": {
         "count": 3
       },
