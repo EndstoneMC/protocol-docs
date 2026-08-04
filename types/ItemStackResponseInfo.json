@@ -83,6 +83,10 @@
       "type": "TypedClientNetId<struct ItemStackRequestIdTag, int32_t, 0>"
     },
     {
+      "type": "bool",
+      "value": true
+    },
+    {
       "name": "Containers",
       "type": "ItemStackResponseContainerInfo",
       "repeat": {
