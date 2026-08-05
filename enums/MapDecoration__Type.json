@@ -102,8 +102,28 @@
       "value": 24
     },
     {
-      "name": "Count",
+      "name": "AbandonedCamp",
       "value": 25
+    },
+    {
+      "name": "BuriedAncientCity",
+      "value": 26
+    },
+    {
+      "name": "BuriedMineshaft",
+      "value": 27
+    },
+    {
+      "name": "DesertPyramid",
+      "value": 28
+    },
+    {
+      "name": "WarmOceanRuins",
+      "value": 29
+    },
+    {
+      "name": "Count",
+      "value": 30
     }
   ]
 }

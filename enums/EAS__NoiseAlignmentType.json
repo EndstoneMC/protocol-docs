@@ -1,0 +1,9 @@
+{
+  "name": "EAS::NoiseAlignmentType",
+  "values": [
+    {
+      "name": "minLocalTransitionEnd",
+      "value": 0
+    }
+  ]
+}
