@@ -7,17 +7,9 @@
       "enum": "InventorySourceType"
     },
     {
-      "type": "bool",
-      "value": true
-    },
-    {
       "name": "Container ID",
       "type": "int8",
       "optional": true
-    },
-    {
-      "type": "bool",
-      "value": true
     },
     {
       "name": "Bit Flags",

@@ -14,10 +14,6 @@
       "optional": true
     },
     {
-      "type": "bool",
-      "value": true
-    },
-    {
       "name": "Item Use Transaction",
       "type": "ItemUseInventoryTransaction"
     }

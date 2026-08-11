@@ -22,7 +22,13 @@
         "cases": [
           "float",
           "bool",
-          "string"
+          "string",
+          {
+            "type": "string",
+            "repeat": {
+              "prefix": "uvarint32"
+            }
+          }
         ]
       }
     }

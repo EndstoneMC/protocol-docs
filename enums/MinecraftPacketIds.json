@@ -932,6 +932,10 @@
     {
       "name": "SetPlayerFurnaceOptions",
       "value": 351
+    },
+    {
+      "name": "RecordStarted",
+      "value": 352
     }
   ]
 }

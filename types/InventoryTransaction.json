@@ -2,10 +2,6 @@
   "name": "InventoryTransaction",
   "fields": [
     {
-      "type": "bool",
-      "value": true
-    },
-    {
       "name": "Actions",
       "type": "InventoryAction",
       "repeat": {

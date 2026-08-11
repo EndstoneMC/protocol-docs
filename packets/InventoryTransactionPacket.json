@@ -15,10 +15,6 @@
       "optional": true
     },
     {
-      "type": "bool",
-      "value": true
-    },
-    {
       "name": "Transaction",
       "type": {
         "switch": {

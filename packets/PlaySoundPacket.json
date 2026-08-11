@@ -23,8 +23,17 @@
       "type": "varint32"
     },
     {
+      "name": "Bypass Listener Range Check",
+      "type": "bool"
+    },
+    {
       "name": "Server Sound Handle",
       "type": "ServerSoundHandle",
+      "optional": true
+    },
+    {
+      "name": "Playback Position Seconds",
+      "type": "float",
       "optional": true
     }
   ]

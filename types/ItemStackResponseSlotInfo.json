@@ -14,10 +14,6 @@
       "type": "uint8"
     },
     {
-      "type": "bool",
-      "value": true
-    },
-    {
       "name": "Item Stack Net Id",
       "type": "TypedServerNetId<struct ItemStackNetIdTag, int32_t, 0>",
       "optional": true

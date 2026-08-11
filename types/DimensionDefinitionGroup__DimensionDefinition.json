@@ -2,11 +2,11 @@
   "name": "DimensionDefinitionGroup::DimensionDefinition",
   "fields": [
     {
-      "name": "Height Maximum",
+      "name": "Minimum Y",
       "type": "varint32"
     },
     {
-      "name": "Height Minimum",
+      "name": "Height Range",
       "type": "varint32"
     },
     {
@@ -32,6 +32,13 @@
     {
       "name": "Pack Id",
       "type": "mce::UUID"
+    },
+    {
+      "name": "Default Biome",
+      "type": "string",
+      "constraints": {
+        "max_length": 256
+      }
     }
   ]
 }

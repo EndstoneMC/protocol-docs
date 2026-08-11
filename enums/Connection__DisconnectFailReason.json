@@ -596,6 +596,10 @@
     {
       "name": "MissingStructureData",
       "value": 148
+    },
+    {
+      "name": "UnsupportedTransport",
+      "value": 149
     }
   ]
 }
