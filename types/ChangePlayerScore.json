@@ -12,10 +12,7 @@
     },
     {
       "name": "Objective Name",
-      "type": "string",
-      "constraints": {
-        "min_length": 1
-      }
+      "type": "string"
     },
     {
       "name": "Score Value",

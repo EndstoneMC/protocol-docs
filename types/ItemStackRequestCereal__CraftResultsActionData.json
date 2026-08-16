@@ -13,10 +13,7 @@
         "prefix": "uvarint32"
       },
       "constraints": {
-        "min_items": 1,
-        "items": {
-          "description": "Verify the craft result descriptor resolves to a non-empty item"
-        }
+        "min_items": 1
       }
     },
     {

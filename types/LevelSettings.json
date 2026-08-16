@@ -12,33 +12,12 @@
     {
       "name": "Generator Type",
       "type": "varint32",
-      "enum": "GeneratorType",
-      "constraints": {
-        "enum_values": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
-        ]
-      }
+      "enum": "GeneratorType"
     },
     {
       "name": "Game Type",
       "type": "varint32",
-      "enum": "GameType",
-      "constraints": {
-        "enum_values": [
-          -1,
-          0,
-          1,
-          2,
-          5,
-          6
-        ]
-      }
+      "enum": "GameType"
     },
     {
       "name": "Is Hardcore",
@@ -47,17 +26,7 @@
     {
       "name": "Game Difficulty",
       "type": "varint32",
-      "enum": "SharedTypes::Legacy::Difficulty",
-      "constraints": {
-        "enum_values": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5
-        ]
-      }
+      "enum": "SharedTypes::Legacy::Difficulty"
     },
     {
       "name": "Default Spawn Block Position",
@@ -70,15 +39,7 @@
     {
       "name": "Editor World Type",
       "type": "varint32",
-      "enum": "Editor::WorldType",
-      "constraints": {
-        "enum_values": [
-          0,
-          1,
-          2,
-          3
-        ]
-      }
+      "enum": "Editor::WorldType"
     },
     {
       "name": "Is Created In Editor",
@@ -95,14 +56,7 @@
     {
       "name": "Education Edition Offer",
       "type": "uvarint32",
-      "enum": "EducationEditionOffer",
-      "constraints": {
-        "enum_values": [
-          0,
-          1,
-          2
-        ]
-      }
+      "enum": "EducationEditionOffer"
     },
     {
       "name": "Education Features Enabled",
@@ -135,30 +89,12 @@
     {
       "name": "Xbox Live Broadcast Setting",
       "type": "varint32",
-      "enum": "Social::GamePublishSetting",
-      "constraints": {
-        "enum_values": [
-          0,
-          1,
-          2,
-          3,
-          4
-        ]
-      }
+      "enum": "Social::GamePublishSetting"
     },
     {
       "name": "Platform Broadcast Setting",
       "type": "varint32",
-      "enum": "Social::GamePublishSetting",
-      "constraints": {
-        "enum_values": [
-          0,
-          1,
-          2,
-          3,
-          4
-        ]
-      }
+      "enum": "Social::GamePublishSetting"
     },
     {
       "name": "Commands Enabled",
@@ -187,15 +123,7 @@
     {
       "name": "Player Permissions",
       "type": "int8",
-      "enum": "PlayerPermissionLevel",
-      "constraints": {
-        "enum_values": [
-          0,
-          1,
-          2,
-          3
-        ]
-      }
+      "enum": "PlayerPermissionLevel"
     },
     {
       "name": "Server Chunk Tick Range",
@@ -269,14 +197,7 @@
     {
       "name": "Chat Restriction Level",
       "type": "uint8",
-      "enum": "ChatRestrictionLevel",
-      "constraints": {
-        "enum_values": [
-          0,
-          1,
-          2
-        ]
-      }
+      "enum": "ChatRestrictionLevel"
     },
     {
       "name": "Disable Player Interactions",
@@ -285,15 +206,7 @@
     {
       "name": "Server Editor Connection Policy",
       "type": "varint32",
-      "enum": "ServerEditorConnectionPolicy",
-      "constraints": {
-        "enum_values": [
-          0,
-          1,
-          2,
-          3
-        ]
-      }
+      "enum": "ServerEditorConnectionPolicy"
     },
     {
       "name": "Allow Anonymous Block Drops In Editor Worlds",
