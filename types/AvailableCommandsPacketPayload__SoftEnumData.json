@@ -13,9 +13,6 @@
       "type": "string",
       "repeat": {
         "prefix": "uvarint32"
-      },
-      "constraints": {
-        "max_items": 10000
       }
     }
   ]
