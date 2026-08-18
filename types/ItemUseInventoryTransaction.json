@@ -28,6 +28,11 @@
       "type": "varint32"
     },
     {
+      "name": "Hand",
+      "type": "uint8",
+      "enum": "HandSlot"
+    },
+    {
       "name": "Item",
       "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData"
     },

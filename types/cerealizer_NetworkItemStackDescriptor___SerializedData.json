@@ -7,11 +7,7 @@
     },
     {
       "name": "Stack size",
-      "type": "uint16",
-      "constraints": {
-        "minimum": 0,
-        "maximum": 64
-      }
+      "type": "uint16"
     },
     {
       "name": "Aux value",

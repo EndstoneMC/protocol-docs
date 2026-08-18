@@ -25,9 +25,6 @@
       "enum": "PlayerAuthInputPacketPayload::InputData",
       "repeat": {
         "prefix": "uvarint32"
-      },
-      "constraints": {
-        "description": "Verify input data entries are known, unique, and not deprecated"
       }
     },
     {

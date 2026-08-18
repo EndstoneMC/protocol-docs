@@ -7,10 +7,6 @@
       "type": "ActorUniqueID"
     },
     {
-      "name": "Player ID",
-      "type": "ActorUniqueID"
-    },
-    {
       "name": "Event Type",
       "type": "uint8",
       "enum": "BossEventUpdateType"

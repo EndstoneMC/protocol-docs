@@ -2,6 +2,10 @@
   "name": "SharedTypes::persona::PieceType",
   "values": [
     {
+      "name": "Unknown",
+      "value": 0
+    },
+    {
       "name": "Skeleton",
       "value": 1
     },
@@ -108,6 +112,10 @@
     {
       "name": "Emote",
       "value": 27
+    },
+    {
+      "name": "Unsupported",
+      "value": 28
     }
   ]
 }

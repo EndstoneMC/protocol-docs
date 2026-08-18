@@ -4,13 +4,7 @@
     {
       "name": "Spawn Biome Type",
       "type": "int16",
-      "enum": "SpawnBiomeType",
-      "constraints": {
-        "enum_values": [
-          0,
-          1
-        ]
-      }
+      "enum": "SpawnBiomeType"
     },
     {
       "name": "User Defined Biome Name",
