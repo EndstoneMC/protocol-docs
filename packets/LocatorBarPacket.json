@@ -5,9 +5,7 @@
     {
       "name": "Waypoints",
       "type": "LocatorBarWaypointPayload",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 40000
       }

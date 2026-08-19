@@ -4,9 +4,7 @@
     {
       "name": "legacy pre hills edge",
       "type": "BiomeConditionalTransformationData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

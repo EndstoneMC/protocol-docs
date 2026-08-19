@@ -9,9 +9,7 @@
     {
       "name": "SubChunk Position Offset List",
       "type": "SubChunkPacket::SubChunkPosOffset",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 8192
       }

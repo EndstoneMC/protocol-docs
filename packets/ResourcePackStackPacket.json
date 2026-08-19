@@ -10,9 +10,7 @@
     {
       "name": "Texture Pack List",
       "type": "PackInstanceId",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 65535
       }

@@ -8,9 +8,7 @@
     {
       "name": "Parameter Data",
       "type": "AvailableCommandsPacketPayload::ParamData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

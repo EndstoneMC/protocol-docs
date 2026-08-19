@@ -12,9 +12,7 @@
     {
       "name": "target biomes",
       "type": "uint16",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "amount",

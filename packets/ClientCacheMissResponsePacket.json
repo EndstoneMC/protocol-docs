@@ -6,9 +6,7 @@
     {
       "name": "Missing Blobs",
       "type": "MissingBlobData",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 4095
       }

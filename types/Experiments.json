@@ -4,9 +4,7 @@
     {
       "name": "Toggles",
       "type": "cerealizer_ExperimentsAnon::ExperimentToggle",
-      "repeat": {
-        "prefix": "uint32"
-      }
+      "repeat": "uint32"
     },
     {
       "name": "ExperimentsEverToggled",

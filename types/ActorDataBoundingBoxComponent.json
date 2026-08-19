@@ -4,9 +4,7 @@
     {
       "name": "Actor Data Bounding Box",
       "type": "float",
-      "repeat": {
-        "count": 3
-      }
+      "repeat": 3
     }
   ]
 }

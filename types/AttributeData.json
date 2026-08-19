@@ -32,9 +32,7 @@
     {
       "name": "Modifiers",
       "type": "AttributeModifier",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

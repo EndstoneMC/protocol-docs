@@ -4,9 +4,7 @@
     {
       "name": "features",
       "type": "BiomeConsolidatedFeatureData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }
