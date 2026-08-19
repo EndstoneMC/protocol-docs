@@ -20,9 +20,7 @@
     {
       "name": "AnimatedImageData",
       "type": "AnimatedImageData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "CapeImageData",
@@ -60,9 +58,7 @@
     {
       "name": "PersonaPieces",
       "type": "SerializedPersonaPieceHandle",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "PieceTintColors",

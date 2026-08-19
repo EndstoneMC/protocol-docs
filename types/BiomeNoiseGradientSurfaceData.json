@@ -4,16 +4,12 @@
     {
       "name": "non-replaceable blocks",
       "type": "uint32",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "gradient blocks",
       "type": "uint32",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "noise seed string",
@@ -26,9 +22,7 @@
     {
       "name": "amplitudes",
       "type": "float",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

@@ -4,9 +4,7 @@
     {
       "name": "value",
       "type": "int32",
-      "repeat": {
-        "count": 4
-      }
+      "repeat": 4
     },
     {
       "name": "operation",

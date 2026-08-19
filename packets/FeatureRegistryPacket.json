@@ -5,9 +5,7 @@
     {
       "name": "FeaturesDataList",
       "type": "FeatureRegistry::FeatureBinaryJsonFormat",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

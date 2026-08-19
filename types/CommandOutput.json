@@ -13,9 +13,7 @@
     {
       "name": "Output Messages",
       "type": "CommandOutputMessage",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Data Set",

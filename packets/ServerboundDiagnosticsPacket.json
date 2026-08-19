@@ -41,23 +41,17 @@
     {
       "name": "Memory Category Values",
       "type": "Memory::MemoryCategoryCounter",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Entity Diagnostics",
       "type": "ECS::Profiling::Diagnostics::EntityDiagnosticTimingInfo",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "System Diagnostics",
       "type": "ECS::Profiling::Diagnostics::SystemDiagnosticTimingInfo",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

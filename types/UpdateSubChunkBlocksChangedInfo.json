@@ -4,16 +4,12 @@
     {
       "name": "Blocks Changed - Standards",
       "type": "UpdateSubChunkNetworkBlockInfo",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Blocks Changed - Extras",
       "type": "UpdateSubChunkNetworkBlockInfo",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

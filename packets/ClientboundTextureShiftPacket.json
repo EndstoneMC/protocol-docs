@@ -22,9 +22,7 @@
     {
       "name": "All Steps",
       "type": "string",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Current Length In Ticks",
