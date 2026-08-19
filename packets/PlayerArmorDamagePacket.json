@@ -5,9 +5,7 @@
     {
       "name": "Armor Slot and Damage Pairs",
       "type": "ArmorSlotAndDamagePair",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 5
       }

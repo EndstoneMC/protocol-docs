@@ -6,9 +6,7 @@
     {
       "name": "Shapes",
       "type": "VoxelShapes::SerializableVoxelShape",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Name Map",

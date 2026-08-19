@@ -6,9 +6,7 @@
     {
       "name": "Removed Containers",
       "type": "FullContainerName",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

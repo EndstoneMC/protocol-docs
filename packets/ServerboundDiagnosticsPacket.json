@@ -41,9 +41,7 @@
     {
       "name": "Memory Category Values",
       "type": "Memory::MemoryCategoryCounter",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

@@ -25,23 +25,17 @@
     {
       "name": "control_points",
       "type": "SharedTypes::v1_26_0::CameraSplineControlPoint",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "progress_key_frames",
       "type": "SharedTypes::v1_26_0::CameraSplineProgressKeyFrame",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "rotation_key_frames",
       "type": "SharedTypes::v1_26_0::CameraSplineRotationKeyFrame",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

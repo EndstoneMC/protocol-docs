@@ -6,9 +6,7 @@
     {
       "name": "PurchaseReceipts",
       "type": "string",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 10000
       }
