@@ -19,7 +19,7 @@
       "type": {
         "type": "int8",
         "repeat": {
-          "count": 16
+          "prefix": "uvarint32"
         }
       },
       "repeat": {
@@ -46,7 +46,7 @@
       "type": {
         "type": "int8",
         "repeat": {
-          "count": 16
+          "prefix": "uvarint32"
         }
       },
       "repeat": {
