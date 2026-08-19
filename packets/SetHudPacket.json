@@ -6,9 +6,7 @@
       "name": "Hud Element",
       "type": "varint32",
       "enum": "HudElement",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Hud Visible",

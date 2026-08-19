@@ -5,9 +5,7 @@
     {
       "name": "Camera Data Splines",
       "type": "SharedTypes::v1_26_0::CameraSplineDefinition",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

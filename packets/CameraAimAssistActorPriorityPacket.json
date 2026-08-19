@@ -5,9 +5,7 @@
     {
       "name": "Camera Aim-Assist Actor Priority List",
       "type": "CameraAimAssistActorPriority::PriorityData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

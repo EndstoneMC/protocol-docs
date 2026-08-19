@@ -12,9 +12,7 @@
     {
       "name": "Constraint Indices",
       "type": "uint8",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 250
       }

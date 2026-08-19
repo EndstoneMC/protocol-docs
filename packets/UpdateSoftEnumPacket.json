@@ -9,9 +9,7 @@
     {
       "name": "Values",
       "type": "string",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Update Type",

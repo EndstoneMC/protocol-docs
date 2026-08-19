@@ -10,9 +10,7 @@
     {
       "name": "Unlocked Recipes List",
       "type": "string",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }
