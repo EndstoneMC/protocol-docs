@@ -5,16 +5,12 @@
     {
       "name": "Camera Aim-Assist Presets",
       "type": "SharedTypes::v1_21_50::CameraAimAssistCategoryDefinition",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Camera Aim-Assist Categories",
       "type": "SharedTypes::v1_21_120::CameraAimAssistPresetDefinition",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Operation",

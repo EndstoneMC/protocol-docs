@@ -13,9 +13,7 @@
     {
       "name": "Server Built Chunks List",
       "type": "ChunkPos",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 9216
       }

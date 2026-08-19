@@ -4,9 +4,7 @@
     {
       "name": "Rules List",
       "type": "GameRule",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

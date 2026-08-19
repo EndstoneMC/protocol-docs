@@ -8,9 +8,7 @@
     {
       "name": "Values",
       "type": "uint32",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

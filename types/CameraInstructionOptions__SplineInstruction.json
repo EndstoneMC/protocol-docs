@@ -12,23 +12,17 @@
     {
       "name": "curve",
       "type": "Vec3",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "progressKeyFrames",
       "type": "Vec2",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "rotationOption",
       "type": "CameraInstructionOptions::SplineInstruction::SplineRotationOption",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }
