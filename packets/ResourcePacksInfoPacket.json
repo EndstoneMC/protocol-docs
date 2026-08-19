@@ -26,9 +26,7 @@
     {
       "name": "Resource Packs",
       "type": "PackInfoData",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 65535
       }

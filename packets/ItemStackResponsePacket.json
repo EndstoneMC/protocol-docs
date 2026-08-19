@@ -5,9 +5,7 @@
     {
       "name": "Responses",
       "type": "ItemStackResponseInfo",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

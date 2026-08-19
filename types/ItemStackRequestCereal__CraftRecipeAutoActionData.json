@@ -23,9 +23,7 @@
     {
       "name": "Ingredients",
       "type": "ItemStackRequestCereal::RecipeIngredientData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

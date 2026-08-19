@@ -8,9 +8,7 @@
     {
       "name": "Slots",
       "type": "ItemStackResponseSlotInfo",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

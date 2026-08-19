@@ -4,16 +4,12 @@
     {
       "name": "non-replaceable blocks",
       "type": "uint32",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "gradient blocks",
       "type": "SerializedNoiseBlockSpecifier",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "noise",

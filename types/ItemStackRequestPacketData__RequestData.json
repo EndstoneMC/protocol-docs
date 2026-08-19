@@ -35,9 +35,7 @@
           "ItemStackRequestCereal::CraftResultsActionData"
         ]
       },
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "min_items": 1,
         "max_items": 100
@@ -46,9 +44,7 @@
     {
       "name": "Strings To Filter",
       "type": "string",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "items": {
           "max_length": 1000

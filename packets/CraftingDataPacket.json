@@ -6,79 +6,57 @@
     {
       "name": "Shaped Recipes",
       "type": "ShapedRecipePayload",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Shapeless Recipes",
       "type": "ShapelessRecipePayload",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Multi Recipes",
       "type": "MultiRecipePayload",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "User Data Shapeless Recipes",
       "type": "ShapelessRecipePayload",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Shapeless Chemistry Recipes",
       "type": "ShapelessRecipePayload",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Shaped Chemistry Recipes",
       "type": "ShapedRecipePayload",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Smithing Transform Recipes",
       "type": "SmithingTransformRecipePayload",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Smithing Trim Recipes",
       "type": "SmithingTrimRecipePayload",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Potion Mixes",
       "type": "PotionMixDataEntry",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Container Mixes",
       "type": "ContainerMixDataEntry",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Material Reducers",
       "type": "MaterialReducerDataEntry",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Clear Recipes",

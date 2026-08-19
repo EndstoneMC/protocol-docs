@@ -4,16 +4,12 @@
     {
       "name": "floor blocks",
       "type": "uint32",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "ceiling blocks",
       "type": "uint32",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "sea block",

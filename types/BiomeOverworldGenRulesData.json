@@ -4,51 +4,37 @@
     {
       "name": "hills transformations",
       "type": "BiomeWeightedData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "mutate transformations",
       "type": "BiomeWeightedData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "river transformations",
       "type": "BiomeWeightedData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "shore transformations",
       "type": "BiomeWeightedData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "pre hills edge",
       "type": "BiomeConditionalTransformationData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "post shore edge",
       "type": "BiomeConditionalTransformationData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "climate",
       "type": "BiomeWeightedTemperatureData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

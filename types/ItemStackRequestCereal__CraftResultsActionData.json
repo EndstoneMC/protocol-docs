@@ -9,9 +9,7 @@
     {
       "name": "Craft Results",
       "type": "ItemStackRequestCereal::NetworkItemInstanceDescriptorData",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "min_items": 1
       }

@@ -4,9 +4,7 @@
     {
       "name": "Presets",
       "type": "SharedTypes::v1_26_50::CameraPreset",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

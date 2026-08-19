@@ -15,9 +15,7 @@
     {
       "name": "Attributes",
       "type": "string",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 1024,
         "items": {

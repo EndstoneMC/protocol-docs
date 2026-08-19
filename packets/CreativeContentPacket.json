@@ -6,16 +6,12 @@
     {
       "name": "Groups",
       "type": "CreativeGroupInfoPayload",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Entries",
       "type": "CreativeItemEntryPayload",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

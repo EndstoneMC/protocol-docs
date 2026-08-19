@@ -21,9 +21,7 @@
     {
       "name": "Creation Map IDs",
       "type": "ActorUniqueID",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 65535
       },
@@ -37,9 +35,7 @@
     {
       "name": "Tracked Actor IDs",
       "type": "MapItemTrackedActor::UniqueId",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 65535
       },
@@ -48,9 +44,7 @@
     {
       "name": "Decorations",
       "type": "MapDecoration",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 65535
       },
@@ -79,9 +73,7 @@
     {
       "name": "Pixels",
       "type": "uint32",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 16384
       },

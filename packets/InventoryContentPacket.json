@@ -9,9 +9,7 @@
     {
       "name": "Slots",
       "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Full Container Name",

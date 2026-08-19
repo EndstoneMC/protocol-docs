@@ -9,9 +9,7 @@
     {
       "name": "Slots",
       "type": "uint8",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

@@ -8,9 +8,7 @@
     {
       "name": "Item Ids and Counts",
       "type": "MaterialReducerEntryOutput",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

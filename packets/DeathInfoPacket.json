@@ -10,9 +10,7 @@
     {
       "name": "Death Cause Message List",
       "type": "string",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

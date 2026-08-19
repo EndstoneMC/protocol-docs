@@ -4,16 +4,12 @@
     {
       "name": "Int Entries List",
       "type": "PropertySyncData::PropertySyncIntEntry",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Float Entries List",
       "type": "PropertySyncData::PropertySyncFloatEntry",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

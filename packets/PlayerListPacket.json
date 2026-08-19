@@ -16,9 +16,7 @@
           "PlayerListPacketPayload::AddEntry"
         ]
       },
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 1000
       }

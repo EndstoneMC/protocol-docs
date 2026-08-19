@@ -4,9 +4,7 @@
     {
       "name": "transforms into",
       "type": "BiomeWeightedData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "condition json",

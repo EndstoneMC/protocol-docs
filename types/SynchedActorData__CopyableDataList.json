@@ -4,9 +4,7 @@
     {
       "name": "Data",
       "type": "DataItemEntry",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

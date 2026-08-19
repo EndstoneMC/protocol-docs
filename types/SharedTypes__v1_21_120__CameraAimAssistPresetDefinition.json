@@ -12,9 +12,7 @@
     {
       "name": "liquid_targeting_list",
       "type": "string",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "item_settings",

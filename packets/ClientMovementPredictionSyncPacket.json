@@ -14,9 +14,7 @@
     {
       "name": "Movement Attributes",
       "type": "float",
-      "repeat": {
-        "count": 9
-      }
+      "repeat": 9
     },
     {
       "name": "Actor Unique ID",

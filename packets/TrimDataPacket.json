@@ -6,16 +6,12 @@
     {
       "name": "TrimPattern List",
       "type": "TrimPattern",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "TrimMaterial List",
       "type": "TrimMaterial",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

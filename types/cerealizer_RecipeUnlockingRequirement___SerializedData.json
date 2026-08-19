@@ -9,9 +9,7 @@
     {
       "name": "Unlocking Ingredients",
       "type": "cerealizer<RecipeIngredient>::SerializedData",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 128
       },

@@ -59,9 +59,7 @@
     {
       "name": "Block Properties",
       "type": "ServerBlockProperty",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Multiplayer Correlation Id",

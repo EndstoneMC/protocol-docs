@@ -5,9 +5,7 @@
     {
       "name": "Requests",
       "type": "ItemStackRequestPacketData::RequestData",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 100
       }

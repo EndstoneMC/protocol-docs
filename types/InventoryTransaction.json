@@ -4,9 +4,7 @@
     {
       "name": "Actions",
       "type": "InventoryAction",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "description": "Verify that the number of InventoryActions does not exceed 100"
       }

@@ -4,9 +4,7 @@
     {
       "name": "coordinates",
       "type": "BiomeCoordinateData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "eval order",
