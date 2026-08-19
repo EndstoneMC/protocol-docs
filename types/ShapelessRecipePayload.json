@@ -8,9 +8,7 @@
     {
       "name": "Ingredients",
       "type": "cerealizer<RecipeIngredient>::SerializedData",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 128
       }
@@ -18,9 +16,7 @@
     {
       "name": "Results",
       "type": "cerealizer<NetworkItemInstanceDescriptor>::SerializedData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "UUID",

@@ -18,9 +18,7 @@
     {
       "name": "Layers",
       "type": "SerializedAbilitiesData::SerializedLayer",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

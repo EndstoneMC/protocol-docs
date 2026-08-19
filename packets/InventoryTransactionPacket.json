@@ -9,9 +9,7 @@
     {
       "name": "Legacy Set Item Slots",
       "type": "LegacySetSlot",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "optional": true
     },
     {

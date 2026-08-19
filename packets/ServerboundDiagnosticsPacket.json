@@ -41,38 +41,28 @@
     {
       "name": "Memory Category Values",
       "type": "Memory::MemoryCategoryCounter",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Entity Diagnostics",
       "type": "ECS::Profiling::Diagnostics::EntityDiagnosticTimingInfo",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "System Diagnostics",
       "type": "ECS::Profiling::Diagnostics::SystemDiagnosticTimingInfo",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "System Categories",
       "type": "ECS::Profiling::Diagnostics::SystemCategory",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "optional": true
     },
     {
       "name": "Whisker Scopes",
       "type": "Bedrock::Profile::Whisker::Diagnostics::ScopeDataSummary",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

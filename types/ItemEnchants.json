@@ -9,13 +9,9 @@
       "name": "ItemEnchants",
       "type": {
         "type": "EnchantmentInstance",
-        "repeat": {
-          "prefix": "uvarint32"
-        }
+        "repeat": "uvarint32"
       },
-      "repeat": {
-        "count": 3
-      },
+      "repeat": 3,
       "constraints": {
         "description": "Verify amount of EnchantmentInstances being serialized in ItemEnchants"
       }

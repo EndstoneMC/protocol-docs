@@ -17,9 +17,7 @@
     {
       "name": "Scoreboard Identity Info",
       "type": "ScoreboardIdentityPacketInfo",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

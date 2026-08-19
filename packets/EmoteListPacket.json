@@ -9,9 +9,7 @@
     {
       "name": "Emote piece ids",
       "type": "mce::UUID",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

@@ -10,9 +10,7 @@
     {
       "name": "Attribute List",
       "type": "AttributeData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Tick",

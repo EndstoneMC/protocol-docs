@@ -4,9 +4,7 @@
     {
       "name": "Attribute Layers",
       "type": "EAS::AttributeLayerData",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 512
       }

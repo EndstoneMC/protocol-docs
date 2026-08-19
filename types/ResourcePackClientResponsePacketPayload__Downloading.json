@@ -9,9 +9,7 @@
     {
       "name": "Downloading Packs",
       "type": "string",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_properties": 65535
       }

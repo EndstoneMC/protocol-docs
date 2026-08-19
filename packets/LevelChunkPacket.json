@@ -34,9 +34,7 @@
     {
       "name": "Cache Metadata",
       "type": "LevelChunkPacketPayload::SubChunkMetadata",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 65
       }

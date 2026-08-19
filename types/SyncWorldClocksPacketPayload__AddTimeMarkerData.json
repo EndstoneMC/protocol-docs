@@ -8,9 +8,7 @@
     {
       "name": "TimeMarkers",
       "type": "TimeMarkerData",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 256
       }

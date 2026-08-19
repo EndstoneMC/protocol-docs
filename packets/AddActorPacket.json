@@ -38,9 +38,7 @@
     {
       "name": "Attributes List",
       "type": "SyncedAttribute",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     },
     {
       "name": "Actor Data",
@@ -53,9 +51,7 @@
     {
       "name": "Actor Links",
       "type": "ActorLink",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

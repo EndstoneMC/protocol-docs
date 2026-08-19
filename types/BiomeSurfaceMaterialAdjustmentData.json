@@ -4,9 +4,7 @@
     {
       "name": "adjustments",
       "type": "BiomeElementData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

@@ -4,9 +4,7 @@
     {
       "name": "biome replacements",
       "type": "BiomeReplacementData",
-      "repeat": {
-        "prefix": "uvarint32"
-      }
+      "repeat": "uvarint32"
     }
   ]
 }

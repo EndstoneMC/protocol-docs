@@ -27,9 +27,7 @@
       "name": "Input Data",
       "type": "varint32",
       "enum": "PlayerAuthInputPacketPayload::InputData",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "description": "Verify input data entries are known, unique, and not deprecated"
       }
@@ -86,9 +84,7 @@
     {
       "name": "Player Block Actions",
       "type": "PlayerBlockActionData",
-      "repeat": {
-        "prefix": "uvarint32"
-      },
+      "repeat": "uvarint32",
       "constraints": {
         "max_items": 100,
         "items": {
