@@ -11,10 +11,6 @@
       "type": "ScoreboardId"
     },
     {
-      "type": "bool",
-      "value": true
-    },
-    {
       "name": "Objective Name",
       "type": "string",
       "optional": true
