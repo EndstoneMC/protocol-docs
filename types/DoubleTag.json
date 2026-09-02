@@ -1,0 +1,9 @@
+{
+  "name": "DoubleTag",
+  "fields": [
+    {
+      "name": "data",
+      "type": "double"
+    }
+  ]
+}

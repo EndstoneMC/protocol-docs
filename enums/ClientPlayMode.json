@@ -1,0 +1,45 @@
+{
+  "name": "ClientPlayMode",
+  "values": [
+    {
+      "name": "Normal",
+      "value": 0
+    },
+    {
+      "name": "Teaser",
+      "value": 1
+    },
+    {
+      "name": "Screen",
+      "value": 2
+    },
+    {
+      "name": "Viewer",
+      "value": 3
+    },
+    {
+      "name": "Reality",
+      "value": 4
+    },
+    {
+      "name": "Placement",
+      "value": 5
+    },
+    {
+      "name": "LivingRoom",
+      "value": 6
+    },
+    {
+      "name": "ExitLevel",
+      "value": 7
+    },
+    {
+      "name": "ExitLevelLivingRoom",
+      "value": 8
+    },
+    {
+      "name": "NumModes",
+      "value": 9
+    }
+  ]
+}

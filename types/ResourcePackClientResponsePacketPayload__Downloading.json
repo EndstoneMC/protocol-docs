@@ -1,0 +1,18 @@
+{
+  "name": "ResourcePackClientResponsePacketPayload::Downloading",
+  "fields": [
+    {
+      "name": "Response Type",
+      "type": "string",
+      "enum": "ResourcePackResponse"
+    },
+    {
+      "name": "Downloading Packs",
+      "type": "string",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_properties": 65535
+      }
+    }
+  ]
+}

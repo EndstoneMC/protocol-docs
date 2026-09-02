@@ -1,0 +1,68 @@
+{
+  "id": 315,
+  "name": "ServerboundDiagnosticsPacket",
+  "fields": [
+    {
+      "name": "AvgFps",
+      "type": "float"
+    },
+    {
+      "name": "AvgServerSimTickTimeMS",
+      "type": "float"
+    },
+    {
+      "name": "AvgClientSimTickTimeMS",
+      "type": "float"
+    },
+    {
+      "name": "AvgBeginFrameTimeMS",
+      "type": "float"
+    },
+    {
+      "name": "AvgInputTimeMS",
+      "type": "float"
+    },
+    {
+      "name": "AvgRenderTimeMS",
+      "type": "float"
+    },
+    {
+      "name": "AvgEndFrameTimeMS",
+      "type": "float"
+    },
+    {
+      "name": "AvgRemainderTimePercent",
+      "type": "float"
+    },
+    {
+      "name": "AvgUnaccountedTimePercent",
+      "type": "float"
+    },
+    {
+      "name": "Memory Category Values",
+      "type": "Memory::MemoryCategoryCounter",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Entity Diagnostics",
+      "type": "ECS::Profiling::Diagnostics::EntityDiagnosticTimingInfo",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "System Diagnostics",
+      "type": "ECS::Profiling::Diagnostics::SystemDiagnosticTimingInfo",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "System Categories",
+      "type": "ECS::Profiling::Diagnostics::SystemCategory",
+      "repeat": "uvarint32",
+      "optional": true
+    },
+    {
+      "name": "Whisker Scopes",
+      "type": "Bedrock::Profile::Whisker::Diagnostics::ScopeDataSummary",
+      "repeat": "uvarint32"
+    }
+  ]
+}

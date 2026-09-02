@@ -1,0 +1,55 @@
+{
+  "name": "ShapedRecipePayload",
+  "fields": [
+    {
+      "name": "Recipe Id",
+      "type": "string"
+    },
+    {
+      "name": "Width",
+      "type": "varint32"
+    },
+    {
+      "name": "Height",
+      "type": "varint32"
+    },
+    {
+      "name": "Ingredients",
+      "type": "cerealizer<RecipeIngredient>::SerializedData",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 128
+      }
+    },
+    {
+      "name": "Results",
+      "type": "cerealizer<NetworkItemInstanceDescriptor>::SerializedData",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "UUID",
+      "type": "mce::UUID"
+    },
+    {
+      "name": "Tag",
+      "type": "string"
+    },
+    {
+      "name": "Priority",
+      "type": "varint32"
+    },
+    {
+      "name": "Assume Symmetry",
+      "type": "bool"
+    },
+    {
+      "name": "Unlocking Requirement",
+      "type": "cerealizer<RecipeUnlockingRequirement>::SerializedData",
+      "optional": true
+    },
+    {
+      "name": "Net Id",
+      "type": "TypedServerNetId<struct RecipeNetIdTag>"
+    }
+  ]
+}

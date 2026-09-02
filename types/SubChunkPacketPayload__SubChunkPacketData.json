@@ -1,0 +1,38 @@
+{
+  "name": "SubChunkPacketPayload::SubChunkPacketData",
+  "fields": [
+    {
+      "name": "SubChunk Pos Offset",
+      "type": "SubChunkPacketPayload::SubChunkPosOffset"
+    },
+    {
+      "name": "SubChunk Request Result",
+      "type": "uint8",
+      "enum": "SubChunkPacketPayload::SubChunkRequestResult",
+      "constraints": {
+        "enum_values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Serialized Sub Chunk",
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "Height Map Data",
+      "type": "SubChunkPacketPayload::HeightmapData"
+    },
+    {
+      "name": "Blob Id",
+      "type": "uint64",
+      "optional": true
+    }
+  ]
+}

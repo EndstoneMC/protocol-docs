@@ -1,0 +1,23 @@
+{
+  "id": 337,
+  "name": "VoxelShapesPacket",
+  "notes": "Sends the serializable voxel shapes data to the client as it's needed on both the client and server. This packet should always be sent before StartGamePacket.",
+  "fields": [
+    {
+      "name": "Shapes",
+      "type": "VoxelShapes::SerializableVoxelShape",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Name Map",
+      "type": {
+        "key": "string",
+        "value": "VoxelShapes::RegistryHandle"
+      }
+    },
+    {
+      "name": "Custom Shape Count",
+      "type": "uint16"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": 322,
+  "name": "ClientMovementPredictionSyncPacket",
+  "notes": "Only used in Server-Authoritative Movement. Sent periodically if the client has received corrections from the server. Contains information about client-predictions that are relevant to movement.",
+  "fields": [
+    {
+      "name": "Actor Data Flag",
+      "type": "ActorDataFlagComponent"
+    },
+    {
+      "name": "Actor Bounding Box",
+      "type": "ActorDataBoundingBoxComponent"
+    },
+    {
+      "name": "Movement Attributes",
+      "type": "float",
+      "repeat": 9
+    },
+    {
+      "name": "Actor Unique ID",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Actor Flying State",
+      "type": "bool"
+    }
+  ]
+}

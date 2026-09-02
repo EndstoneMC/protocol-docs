@@ -1,0 +1,20 @@
+{
+  "id": 29,
+  "name": "UpdateAttributesPacket",
+  "notes": "Occasionally updating player attributes (buffs/debuffs, health, etc)",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Attribute List",
+      "type": "AttributeData",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Tick",
+      "type": "PlayerInputTick"
+    }
+  ]
+}

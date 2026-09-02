@@ -1,0 +1,35 @@
+{
+  "name": "SharedTypes::v1_21_120::CameraAimAssistPresetDefinition",
+  "fields": [
+    {
+      "name": "identifier",
+      "type": "string"
+    },
+    {
+      "name": "exclusion_settings",
+      "type": "SharedTypes::v1_21_120::CameraAimAssistPresetExclusionDefinition"
+    },
+    {
+      "name": "liquid_targeting_list",
+      "type": "string",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "item_settings",
+      "type": {
+        "key": "string",
+        "value": "string"
+      }
+    },
+    {
+      "name": "default_item_settings",
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "hand_settings",
+      "type": "string",
+      "optional": true
+    }
+  ]
+}

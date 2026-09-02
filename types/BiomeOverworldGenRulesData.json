@@ -1,0 +1,40 @@
+{
+  "name": "BiomeOverworldGenRulesData",
+  "fields": [
+    {
+      "name": "hills transformations",
+      "type": "BiomeWeightedData",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "mutate transformations",
+      "type": "BiomeWeightedData",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "river transformations",
+      "type": "BiomeWeightedData",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "shore transformations",
+      "type": "BiomeWeightedData",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "pre hills edge",
+      "type": "BiomeConditionalTransformationData",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "post shore edge",
+      "type": "BiomeConditionalTransformationData",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "climate",
+      "type": "BiomeWeightedTemperatureData",
+      "repeat": "uvarint32"
+    }
+  ]
+}

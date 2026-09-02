@@ -1,0 +1,23 @@
+{
+  "id": 8,
+  "name": "ResourcePackClientResponsePacket",
+  "notes": "Sent to MinecraftGame to complete the resource pack loading process.",
+  "fields": [
+    {
+      "name": "Response",
+      "type": {
+        "switch": {
+          "name": "Response Type",
+          "type": "int8",
+          "enum": "ResourcePackResponse"
+        },
+        "cases": [
+          "ResourcePackClientResponsePacketPayload::Cancel",
+          "ResourcePackClientResponsePacketPayload::Downloading",
+          "ResourcePackClientResponsePacketPayload::DownloadingFinished",
+          "ResourcePackClientResponsePacketPayload::ResourcePackStackFinished"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "InventorySource",
+  "fields": [
+    {
+      "name": "Source Type",
+      "type": "uvarint32",
+      "enum": "InventorySourceType"
+    },
+    {
+      "name": "Container ID",
+      "type": "int8",
+      "optional": true
+    },
+    {
+      "name": "Bit Flags",
+      "type": "uvarint32",
+      "enum": "InventorySource::InventorySourceFlags",
+      "optional": true
+    }
+  ]
+}

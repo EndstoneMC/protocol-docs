@@ -1,0 +1,13 @@
+{
+  "name": "AttributeLayerSyncPacketData::UpdateAttributeLayersData",
+  "fields": [
+    {
+      "name": "Attribute Layers",
+      "type": "EAS::AttributeLayerData",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 512
+      }
+    }
+  ]
+}

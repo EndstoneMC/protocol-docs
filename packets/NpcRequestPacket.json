@@ -1,0 +1,28 @@
+{
+  "id": 98,
+  "name": "NpcRequestPacket",
+  "notes": "A request is made from the client during an interaction with an NPC then the request is processed by the server. \n\tActor MUST have the NPCComponent to be handled. \n\tWe currently only use this for EDU, but the goal was to expose the NPC Component to creators.",
+  "fields": [
+    {
+      "name": "NPC Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Request Type",
+      "type": "uint8",
+      "enum": "NpcRequestPacketPayload::RequestType"
+    },
+    {
+      "name": "Actions",
+      "type": "string"
+    },
+    {
+      "name": "Action Index",
+      "type": "uint8"
+    },
+    {
+      "name": "Scene Name",
+      "type": "string"
+    }
+  ]
+}

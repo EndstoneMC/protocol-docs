@@ -1,0 +1,15 @@
+{
+  "id": 92,
+  "name": "PurchaseReceiptPacket",
+  "notes": "Sent from the client after we make a purchase in the store OR if we login and our entitlements are verified.\nIt sends a vector of purchase receipts(string).There is a handler and a multiple senders.",
+  "fields": [
+    {
+      "name": "PurchaseReceipts",
+      "type": "string",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 10000
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "TextPacketPayload::MessageAndParams",
+  "fields": [
+    {
+      "name": "Message Type",
+      "type": "uint8",
+      "enum": "TextPacketType",
+      "constraints": {
+        "enum_values": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "name": "Message",
+      "type": "string",
+      "constraints": {
+        "min_length": 1,
+        "max_length": 65536
+      }
+    },
+    {
+      "name": "Parameter List",
+      "type": "string",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 4
+      }
+    }
+  ]
+}

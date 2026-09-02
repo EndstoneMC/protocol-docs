@@ -1,0 +1,35 @@
+{
+  "name": "StructureEditorData",
+  "fields": [
+    {
+      "name": "Structure Name",
+      "type": "Bedrock::Safety::RedactableString"
+    },
+    {
+      "name": "Data Field",
+      "type": "string"
+    },
+    {
+      "name": "Should include players?",
+      "type": "bool"
+    },
+    {
+      "name": "Should show bounding box?",
+      "type": "bool"
+    },
+    {
+      "name": "Structure Block Type",
+      "type": "varint32",
+      "enum": "StructureBlockType"
+    },
+    {
+      "name": "Structure Settings",
+      "type": "StructureSettings"
+    },
+    {
+      "name": "Redstone Save Mode",
+      "type": "uint8",
+      "enum": "StructureRedstoneSaveMode"
+    }
+  ]
+}

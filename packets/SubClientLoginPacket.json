@@ -1,0 +1,10 @@
+{
+  "id": 94,
+  "name": "SubClientLoginPacket",
+  "fields": [
+    {
+      "name": "Sub Client Connection Request",
+      "type": "string"
+    }
+  ]
+}

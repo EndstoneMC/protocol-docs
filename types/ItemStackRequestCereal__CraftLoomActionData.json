@@ -1,0 +1,21 @@
+{
+  "name": "ItemStackRequestCereal::CraftLoomActionData",
+  "fields": [
+    {
+      "name": "Action type",
+      "type": "uint8",
+      "enum": "ItemStackRequestActionType"
+    },
+    {
+      "name": "Pattern Name Id",
+      "type": "string"
+    },
+    {
+      "name": "Num Crafts",
+      "type": "uint8",
+      "constraints": {
+        "minimum": 1
+      }
+    }
+  ]
+}

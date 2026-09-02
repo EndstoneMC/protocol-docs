@@ -1,0 +1,22 @@
+{
+  "name": "ItemStackRequestCereal::MineBlockActionData",
+  "fields": [
+    {
+      "name": "Action type",
+      "type": "uint8",
+      "enum": "ItemStackRequestActionType"
+    },
+    {
+      "name": "Slot",
+      "type": "varint32"
+    },
+    {
+      "name": "Predicted Durability",
+      "type": "varint32"
+    },
+    {
+      "name": "Net Id Variant",
+      "type": "int32"
+    }
+  ]
+}

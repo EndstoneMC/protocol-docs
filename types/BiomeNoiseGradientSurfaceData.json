@@ -1,0 +1,19 @@
+{
+  "name": "BiomeNoiseGradientSurfaceData",
+  "fields": [
+    {
+      "name": "non-replaceable blocks",
+      "type": "uint32",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "gradient blocks",
+      "type": "SerializedNoiseBlockSpecifier",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "noise",
+      "type": "SharedTypes::v1_26_30::NoiseDescriptor"
+    }
+  ]
+}

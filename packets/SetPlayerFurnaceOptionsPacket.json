@@ -1,0 +1,15 @@
+{
+  "id": 351,
+  "name": "SetPlayerFurnaceOptionsPacket",
+  "fields": [
+    {
+      "name": "FurnaceType",
+      "type": "uint8",
+      "enum": "SetPlayerFurnaceOptionsPacketPayload::FurnaceType"
+    },
+    {
+      "name": "Furnace Options",
+      "type": "FurnaceOptions"
+    }
+  ]
+}

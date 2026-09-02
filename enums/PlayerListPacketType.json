@@ -1,0 +1,13 @@
+{
+  "name": "PlayerListPacketType",
+  "values": [
+    {
+      "name": "Add",
+      "value": 0
+    },
+    {
+      "name": "Remove",
+      "value": 1
+    }
+  ]
+}

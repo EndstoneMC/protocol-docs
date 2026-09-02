@@ -1,0 +1,25 @@
+{
+  "name": "BiomeConsolidatedFeatureData",
+  "fields": [
+    {
+      "name": "scatter",
+      "type": "BiomeScatterParamData"
+    },
+    {
+      "name": "feature",
+      "type": "uint16"
+    },
+    {
+      "name": "identifier",
+      "type": "uint16"
+    },
+    {
+      "name": "pass",
+      "type": "uint16"
+    },
+    {
+      "name": "can use internal feature",
+      "type": "bool"
+    }
+  ]
+}

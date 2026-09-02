@@ -1,0 +1,10 @@
+{
+  "name": "BiomeTagsData",
+  "fields": [
+    {
+      "name": "tags",
+      "type": "uint16",
+      "repeat": "uvarint32"
+    }
+  ]
+}

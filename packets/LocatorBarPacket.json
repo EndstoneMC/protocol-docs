@@ -1,0 +1,14 @@
+{
+  "id": 341,
+  "name": "LocatorBarPacket",
+  "fields": [
+    {
+      "name": "Waypoints",
+      "type": "LocatorBarWaypointPayload",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 40000
+      }
+    }
+  ]
+}

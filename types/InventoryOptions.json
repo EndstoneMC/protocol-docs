@@ -1,0 +1,29 @@
+{
+  "name": "InventoryOptions",
+  "fields": [
+    {
+      "name": "Left Inventory Tab",
+      "type": "varint32",
+      "enum": "InventoryLeftTabIndex"
+    },
+    {
+      "name": "Right Inventory Tab",
+      "type": "varint32",
+      "enum": "InventoryRightTabIndex"
+    },
+    {
+      "name": "Filtering",
+      "type": "bool"
+    },
+    {
+      "name": "Layout Inv",
+      "type": "varint32",
+      "enum": "InventoryLayout"
+    },
+    {
+      "name": "Layout Craft",
+      "type": "varint32",
+      "enum": "InventoryLayout"
+    }
+  ]
+}

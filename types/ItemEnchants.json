@@ -1,0 +1,20 @@
+{
+  "name": "ItemEnchants",
+  "fields": [
+    {
+      "name": "Slot",
+      "type": "int32"
+    },
+    {
+      "name": "ItemEnchants",
+      "type": {
+        "type": "EnchantmentInstance",
+        "repeat": "uvarint32"
+      },
+      "repeat": 3,
+      "constraints": {
+        "description": "Verify amount of EnchantmentInstances being serialized in ItemEnchants"
+      }
+    }
+  ]
+}

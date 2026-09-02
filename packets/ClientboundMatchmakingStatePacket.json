@@ -1,0 +1,18 @@
+{
+  "id": 353,
+  "name": "ClientboundMatchmakingStatePacket",
+  "fields": [
+    {
+      "name": "State",
+      "type": "string",
+      "enum": "MatchmakingState"
+    },
+    {
+      "name": "Destination Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 13,
+  "name": "AddActorPacket",
+  "notes": "Newly created entities on server use AddActorPacket to notify clients that they exist.",
+  "fields": [
+    {
+      "name": "Target Actor ID",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Actor Type",
+      "type": "string"
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Velocity",
+      "type": "Vec3"
+    },
+    {
+      "name": "Rotation",
+      "type": "Vec2"
+    },
+    {
+      "name": "Y Head Rotation",
+      "type": "float"
+    },
+    {
+      "name": "Y Body Rotation",
+      "type": "float"
+    },
+    {
+      "name": "Attributes List",
+      "type": "SyncedAttribute",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Actor Data",
+      "type": "SynchedActorData::CopyableDataList"
+    },
+    {
+      "name": "Synched Properties",
+      "type": "PropertySyncData"
+    },
+    {
+      "name": "Actor Links",
+      "type": "ActorLink",
+      "repeat": "uvarint32"
+    }
+  ]
+}

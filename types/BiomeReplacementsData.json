@@ -1,0 +1,10 @@
+{
+  "name": "BiomeReplacementsData",
+  "fields": [
+    {
+      "name": "biome replacements",
+      "type": "BiomeReplacementData",
+      "repeat": "uvarint32"
+    }
+  ]
+}

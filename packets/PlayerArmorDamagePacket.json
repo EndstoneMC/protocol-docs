@@ -1,0 +1,14 @@
+{
+  "id": 149,
+  "name": "PlayerArmorDamagePacket",
+  "fields": [
+    {
+      "name": "Armor Slot and Damage Pairs",
+      "type": "ArmorSlotAndDamagePair",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 5
+      }
+    }
+  ]
+}

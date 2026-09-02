@@ -1,0 +1,25 @@
+{
+  "name": "EAS::TransitionSettingsData",
+  "fields": [
+    {
+      "name": "TotalTransitionTicks",
+      "type": "uvarint32"
+    },
+    {
+      "name": "CurrentTransitionTicks",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Easing",
+      "type": "uvarint32",
+      "enum": "EasingType"
+    },
+    {
+      "name": "ClockName",
+      "type": "string",
+      "constraints": {
+        "max_length": 128
+      }
+    }
+  ]
+}

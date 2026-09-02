@@ -1,0 +1,30 @@
+{
+  "name": "DataItemEntry",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Payload",
+      "type": {
+        "switch": {
+          "name": "Type",
+          "type": "uint8",
+          "enum": "DataItemType"
+        },
+        "cases": [
+          "DataItemBytePayload",
+          "DataItemShortPayload",
+          "DataItemIntPayload",
+          "DataItemFloatPayload",
+          "DataItemStringPayload",
+          "DataItemCompoundTagPayload",
+          "DataItemPosPayload",
+          "DataItemInt64Payload",
+          "DataItemVec3Payload"
+        ]
+      }
+    }
+  ]
+}

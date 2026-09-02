@@ -1,0 +1,39 @@
+{
+  "name": "CameraInstructionOptions::SplineInstruction",
+  "fields": [
+    {
+      "name": "totalTime",
+      "type": "float"
+    },
+    {
+      "name": "type",
+      "type": "uint8"
+    },
+    {
+      "name": "curve",
+      "type": "Vec3",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "progressKeyFrames",
+      "type": "CameraInstructionOptions::SplineInstruction::SplineProgressOption",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "rotationOption",
+      "type": "CameraInstructionOptions::SplineInstruction::SplineRotationOption",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "splineIdentifier",
+      "type": "string",
+      "constraints": {
+        "max_length": 1024
+      }
+    },
+    {
+      "name": "loadFromJson",
+      "type": "bool"
+    }
+  ]
+}

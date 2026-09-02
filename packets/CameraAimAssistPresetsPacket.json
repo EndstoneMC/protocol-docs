@@ -1,0 +1,22 @@
+{
+  "id": 320,
+  "name": "CameraAimAssistPresetsPacket",
+  "notes": "Sent by the server to clients for initializing and updating the client aim-assist registry.\n\tAddToExisting operations are sent by the server when new presets/categories are added to the registry through creator facing APIs.",
+  "fields": [
+    {
+      "name": "Camera Aim-Assist Presets",
+      "type": "SharedTypes::v1_21_50::CameraAimAssistCategoryDefinition",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Camera Aim-Assist Categories",
+      "type": "SharedTypes::v1_21_120::CameraAimAssistPresetDefinition",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Operation",
+      "type": "uint8",
+      "enum": "CameraAimAssistPresetsPacketOperation"
+    }
+  ]
+}

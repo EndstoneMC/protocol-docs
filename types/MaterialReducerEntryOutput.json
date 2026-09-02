@@ -1,0 +1,13 @@
+{
+  "name": "MaterialReducerEntryOutput",
+  "fields": [
+    {
+      "name": "Item Id",
+      "type": "varint32"
+    },
+    {
+      "name": "Item Count",
+      "type": "varint32"
+    }
+  ]
+}

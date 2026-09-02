@@ -1,0 +1,13 @@
+{
+  "name": "InventoryTransaction",
+  "fields": [
+    {
+      "name": "Actions",
+      "type": "InventoryAction",
+      "repeat": "uvarint32",
+      "constraints": {
+        "description": "Verify that the number of InventoryActions does not exceed 100"
+      }
+    }
+  ]
+}

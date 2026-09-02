@@ -1,0 +1,277 @@
+{
+  "name": "ItemStackNetResult",
+  "values": [
+    {
+      "name": "Success",
+      "value": 0
+    },
+    {
+      "name": "Error",
+      "value": 1
+    },
+    {
+      "name": "InvalidRequestActionType",
+      "value": 2
+    },
+    {
+      "name": "ActionRequestNotAllowed",
+      "value": 3
+    },
+    {
+      "name": "ScreenHandlerEndRequestFailed",
+      "value": 4
+    },
+    {
+      "name": "ItemRequestActionHandlerCommitFailed",
+      "value": 5
+    },
+    {
+      "name": "InvalidRequestCraftActionType",
+      "value": 6
+    },
+    {
+      "name": "InvalidCraftRequest",
+      "value": 7
+    },
+    {
+      "name": "InvalidCraftRequestScreen",
+      "value": 8
+    },
+    {
+      "name": "InvalidCraftResult",
+      "value": 9
+    },
+    {
+      "name": "InvalidCraftResultIndex",
+      "value": 10
+    },
+    {
+      "name": "InvalidCraftResultItem",
+      "value": 11
+    },
+    {
+      "name": "InvalidItemNetId",
+      "value": 12
+    },
+    {
+      "name": "MissingCreatedOutputContainer",
+      "value": 13
+    },
+    {
+      "name": "FailedToSetCreatedItemOutputSlot",
+      "value": 14
+    },
+    {
+      "name": "RequestAlreadyInProgress",
+      "value": 15
+    },
+    {
+      "name": "FailedToInitSparseContainer",
+      "value": 16
+    },
+    {
+      "name": "ResultTransferFailed",
+      "value": 17
+    },
+    {
+      "name": "ExpectedItemSlotNotFullyConsumed",
+      "value": 18
+    },
+    {
+      "name": "ExpectedAnywhereItemNotFullyConsumed",
+      "value": 19
+    },
+    {
+      "name": "ItemAlreadyConsumedFromSlot",
+      "value": 20
+    },
+    {
+      "name": "ConsumedTooMuchFromSlot",
+      "value": 21
+    },
+    {
+      "name": "MismatchSlotExpectedConsumedItem",
+      "value": 22
+    },
+    {
+      "name": "MismatchSlotExpectedConsumedItemNetIdVariant",
+      "value": 23
+    },
+    {
+      "name": "FailedToMatchExpectedSlotConsumedItem",
+      "value": 24
+    },
+    {
+      "name": "FailedToMatchExpectedAllowedAnywhereConsumedItem",
+      "value": 25
+    },
+    {
+      "name": "ConsumedItemOutOfAllowedSlotRange",
+      "value": 26
+    },
+    {
+      "name": "ConsumedItemNotAllowed",
+      "value": 27
+    },
+    {
+      "name": "PlayerNotInCreativeMode",
+      "value": 28
+    },
+    {
+      "name": "InvalidExperimentalRecipeRequest",
+      "value": 29
+    },
+    {
+      "name": "FailedToCraftCreative",
+      "value": 30
+    },
+    {
+      "name": "FailedToGetLevelRecipe",
+      "value": 31
+    },
+    {
+      "name": "FailedToFindRecipeByNetId",
+      "value": 32
+    },
+    {
+      "name": "MismatchedCraftingSize",
+      "value": 33
+    },
+    {
+      "name": "MissingInputSparseContainer",
+      "value": 34
+    },
+    {
+      "name": "MismatchedRecipeForInputGridItems",
+      "value": 35
+    },
+    {
+      "name": "EmptyCraftResults",
+      "value": 36
+    },
+    {
+      "name": "FailedToEnchant",
+      "value": 37
+    },
+    {
+      "name": "MissingInputItem",
+      "value": 38
+    },
+    {
+      "name": "InsufficientPlayerLevelToEnchant",
+      "value": 39
+    },
+    {
+      "name": "MissingMaterialItem",
+      "value": 40
+    },
+    {
+      "name": "MissingActor",
+      "value": 41
+    },
+    {
+      "name": "UnknownPrimaryEffect",
+      "value": 42
+    },
+    {
+      "name": "PrimaryEffectOutOfRange",
+      "value": 43
+    },
+    {
+      "name": "PrimaryEffectUnavailable",
+      "value": 44
+    },
+    {
+      "name": "SecondaryEffectOutOfRange",
+      "value": 45
+    },
+    {
+      "name": "SecondaryEffectUnavailable",
+      "value": 46
+    },
+    {
+      "name": "DstContainerEqualToCreatedOutputContainer",
+      "value": 47
+    },
+    {
+      "name": "DstContainerAndSlotEqualToSrcContainerAndSlot",
+      "value": 48
+    },
+    {
+      "name": "FailedToValidateSrcSlot",
+      "value": 49
+    },
+    {
+      "name": "FailedToValidateDstSlot",
+      "value": 50
+    },
+    {
+      "name": "InvalidAdjustedAmount",
+      "value": 51
+    },
+    {
+      "name": "InvalidItemSetType",
+      "value": 52
+    },
+    {
+      "name": "InvalidTransferAmount",
+      "value": 53
+    },
+    {
+      "name": "CannotSwapItem",
+      "value": 54
+    },
+    {
+      "name": "CannotPlaceItem",
+      "value": 55
+    },
+    {
+      "name": "UnhandledItemSetType",
+      "value": 56
+    },
+    {
+      "name": "InvalidRemovedAmount",
+      "value": 57
+    },
+    {
+      "name": "InvalidRegion",
+      "value": 58
+    },
+    {
+      "name": "CannotDropItem",
+      "value": 59
+    },
+    {
+      "name": "CannotDestroyItem",
+      "value": 60
+    },
+    {
+      "name": "InvalidSourceContainer",
+      "value": 61
+    },
+    {
+      "name": "ItemNotConsumed",
+      "value": 62
+    },
+    {
+      "name": "InvalidNumCrafts",
+      "value": 63
+    },
+    {
+      "name": "InvalidCraftResultStackSize",
+      "value": 64
+    },
+    {
+      "name": "CannotRemoveItem",
+      "value": 65
+    },
+    {
+      "name": "CannotConsumeItem",
+      "value": 66
+    },
+    {
+      "name": "ScreenStackError",
+      "value": 67
+    }
+  ]
+}

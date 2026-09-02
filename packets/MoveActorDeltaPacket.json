@@ -1,0 +1,11 @@
+{
+  "id": 111,
+  "name": "MoveActorDeltaPacket",
+  "notes": "Each position, rotation and head-rotation component is sent as an independent optional, accompanied by flags indicating whether the actor is on the ground and whether this is a teleport.",
+  "fields": [
+    {
+      "name": "Move Data",
+      "type": "MoveActorDeltaData"
+    }
+  ]
+}

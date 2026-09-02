@@ -1,0 +1,36 @@
+{
+  "name": "VoxelShapes::SerializableVoxelShape",
+  "fields": [
+    {
+      "name": "Cells",
+      "type": "VoxelShapes::SerializableCells"
+    },
+    {
+      "name": "X Coordinates",
+      "type": "float",
+      "repeat": "uvarint32",
+      "constraints": {
+        "min_items": 1,
+        "max_items": 128
+      }
+    },
+    {
+      "name": "Y Coordinates",
+      "type": "float",
+      "repeat": "uvarint32",
+      "constraints": {
+        "min_items": 1,
+        "max_items": 128
+      }
+    },
+    {
+      "name": "Z Coordinates",
+      "type": "float",
+      "repeat": "uvarint32",
+      "constraints": {
+        "min_items": 1,
+        "max_items": 128
+      }
+    }
+  ]
+}

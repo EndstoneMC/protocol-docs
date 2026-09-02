@@ -1,0 +1,27 @@
+{
+  "name": "GameRule",
+  "fields": [
+    {
+      "name": "Rule Name",
+      "type": "string"
+    },
+    {
+      "name": "Rule Can Be Modified",
+      "type": "bool"
+    },
+    {
+      "name": "Rule Value",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          null,
+          "bool",
+          "int32",
+          "float"
+        ]
+      }
+    }
+  ]
+}

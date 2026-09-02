@@ -1,0 +1,10 @@
+{
+  "id": 309,
+  "name": "AwardAchievementPacket",
+  "fields": [
+    {
+      "name": "AchievementID",
+      "type": "int32"
+    }
+  ]
+}

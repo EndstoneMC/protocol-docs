@@ -1,0 +1,23 @@
+{
+  "id": 49,
+  "name": "InventoryContentPacket",
+  "fields": [
+    {
+      "name": "Container Id",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Slots",
+      "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Full Container Name",
+      "type": "FullContainerName"
+    },
+    {
+      "name": "Storage Item",
+      "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData"
+    }
+  ]
+}

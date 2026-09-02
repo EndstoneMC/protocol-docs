@@ -1,0 +1,10 @@
+{
+  "name": "BiomeSurfaceMaterialAdjustmentData",
+  "fields": [
+    {
+      "name": "adjustments",
+      "type": "BiomeElementData",
+      "repeat": "uvarint32"
+    }
+  ]
+}

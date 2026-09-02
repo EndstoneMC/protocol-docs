@@ -1,0 +1,17 @@
+{
+  "name": "CameraInstructionOptions::FadeInstruction::TimeOption",
+  "fields": [
+    {
+      "name": "Fade In Time",
+      "type": "float"
+    },
+    {
+      "name": "Hold Time",
+      "type": "float"
+    },
+    {
+      "name": "Fade Out Time",
+      "type": "float"
+    }
+  ]
+}

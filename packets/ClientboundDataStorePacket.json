@@ -1,0 +1,23 @@
+{
+  "id": 330,
+  "name": "ClientboundDataStorePacket",
+  "fields": [
+    {
+      "name": "Updates",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "Bedrock::DDUI::DataStoreUpdate",
+          "Bedrock::DDUI::DataStoreChange",
+          "Bedrock::DDUI::DataStoreRemoval"
+        ]
+      },
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 500
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "GeneratorType",
+  "values": [
+    {
+      "name": "Legacy",
+      "value": 0
+    },
+    {
+      "name": "Overworld",
+      "value": 1
+    },
+    {
+      "name": "Flat",
+      "value": 2
+    },
+    {
+      "name": "Nether",
+      "value": 3
+    },
+    {
+      "name": "TheEnd",
+      "value": 4
+    },
+    {
+      "name": "Void",
+      "value": 5
+    },
+    {
+      "name": "Undefined",
+      "value": 6
+    }
+  ]
+}

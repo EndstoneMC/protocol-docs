@@ -1,0 +1,18 @@
+{
+  "name": "EAS::ConstantAttributeData",
+  "fields": [
+    {
+      "name": "Attribute",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "EAS::BoolAttributeData",
+          "EAS::FloatAttributeData",
+          "EAS::ColorAttributeData"
+        ]
+      }
+    }
+  ]
+}

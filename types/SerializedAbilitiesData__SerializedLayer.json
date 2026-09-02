@@ -1,0 +1,29 @@
+{
+  "name": "SerializedAbilitiesData::SerializedLayer",
+  "fields": [
+    {
+      "name": "SerializedLayer",
+      "type": "uint16"
+    },
+    {
+      "name": "AbilitiesSet",
+      "type": "uint32"
+    },
+    {
+      "name": "AbilityValues",
+      "type": "uint32"
+    },
+    {
+      "name": "FlySpeed",
+      "type": "float"
+    },
+    {
+      "name": "VerticalFlySpeed",
+      "type": "float"
+    },
+    {
+      "name": "WalkSpeed",
+      "type": "float"
+    }
+  ]
+}

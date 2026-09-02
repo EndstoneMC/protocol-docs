@@ -1,0 +1,31 @@
+{
+  "id": 325,
+  "name": "PlayerUpdateEntityOverridesPacket",
+  "notes": "Updates client entity property override data. Sets/removes an override for the indicated property for a specific entity on a client or clears all overrides for that entity.",
+  "fields": [
+    {
+      "name": "Target ID",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Property Index",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Update",
+      "type": {
+        "switch": {
+          "name": "Type",
+          "type": "uint8",
+          "enum": "UpdateType"
+        },
+        "cases": [
+          "PlayerUpdateEntityOverridesPacketPayload::ClearOverride",
+          "PlayerUpdateEntityOverridesPacketPayload::RemoveOverride",
+          "PlayerUpdateEntityOverridesPacketPayload::IntOverride",
+          "PlayerUpdateEntityOverridesPacketPayload::FloatOverride"
+        ]
+      }
+    }
+  ]
+}

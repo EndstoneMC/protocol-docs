@@ -1,0 +1,109 @@
+{
+  "name": "MinecraftEventing::POIBlockInteractionType",
+  "values": [
+    {
+      "name": "None",
+      "value": 0
+    },
+    {
+      "name": "Extend",
+      "value": 1
+    },
+    {
+      "name": "Clone",
+      "value": 2
+    },
+    {
+      "name": "Lock",
+      "value": 3
+    },
+    {
+      "name": "Create",
+      "value": 4
+    },
+    {
+      "name": "CreateLocator",
+      "value": 5
+    },
+    {
+      "name": "Rename",
+      "value": 6
+    },
+    {
+      "name": "ItemPlaced",
+      "value": 7
+    },
+    {
+      "name": "ItemRemoved",
+      "value": 8
+    },
+    {
+      "name": "Cooking",
+      "value": 9
+    },
+    {
+      "name": "Dousing",
+      "value": 10
+    },
+    {
+      "name": "Lighting",
+      "value": 11
+    },
+    {
+      "name": "Haystack",
+      "value": 12
+    },
+    {
+      "name": "Filled",
+      "value": 13
+    },
+    {
+      "name": "Emptied",
+      "value": 14
+    },
+    {
+      "name": "AddDye",
+      "value": 15
+    },
+    {
+      "name": "DyeItem",
+      "value": 16
+    },
+    {
+      "name": "ClearItem",
+      "value": 17
+    },
+    {
+      "name": "EnchantArrow",
+      "value": 18
+    },
+    {
+      "name": "CompostItemPlaced",
+      "value": 19
+    },
+    {
+      "name": "RecoveredBonemeal",
+      "value": 20
+    },
+    {
+      "name": "BookPlaced",
+      "value": 21
+    },
+    {
+      "name": "BookOpened",
+      "value": 22
+    },
+    {
+      "name": "Disenchant",
+      "value": 23
+    },
+    {
+      "name": "Repair",
+      "value": 24
+    },
+    {
+      "name": "DisenchantAndRepair",
+      "value": 25
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::CodeBuilderRuntimeAction",
+  "fields": [
+    {
+      "name": "CodeBuilder Runtime Action",
+      "type": "string",
+      "constraints": {
+        "max_length": 16
+      }
+    }
+  ]
+}

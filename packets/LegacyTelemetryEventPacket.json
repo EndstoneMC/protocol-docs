@@ -1,0 +1,51 @@
+{
+  "id": 65,
+  "name": "LegacyTelemetryEventPacket",
+  "fields": [
+    {
+      "name": "Target Actor ID",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Event Type",
+      "type": "varint32",
+      "enum": "LegacyTelemetryEventPacketPayload::Type"
+    },
+    {
+      "name": "Use Player ID",
+      "type": "bool"
+    },
+    {
+      "name": "Event Data",
+      "type": {
+        "switch": {
+          "type": "uvarint32"
+        },
+        "cases": [
+          "LegacyTelemetryEventPacketPayload::Achievement",
+          "LegacyTelemetryEventPacketPayload::Interaction",
+          "LegacyTelemetryEventPacketPayload::PortalCreated",
+          "LegacyTelemetryEventPacketPayload::PortalUsed",
+          "LegacyTelemetryEventPacketPayload::MobKilled",
+          "LegacyTelemetryEventPacketPayload::CauldronUsed",
+          "LegacyTelemetryEventPacketPayload::PlayerDied",
+          "LegacyTelemetryEventPacketPayload::BossKilled",
+          "LegacyTelemetryEventPacketPayload::SlashCommand",
+          "LegacyTelemetryEventPacketPayload::MobBorn",
+          "LegacyTelemetryEventPacketPayload::POICauldronUsed",
+          "LegacyTelemetryEventPacketPayload::ComposterUsed",
+          "LegacyTelemetryEventPacketPayload::BellUsed",
+          "LegacyTelemetryEventPacketPayload::ActorDefinition",
+          "LegacyTelemetryEventPacketPayload::RaidUpdate",
+          "LegacyTelemetryEventPacketPayload::TargetBlockHit",
+          "LegacyTelemetryEventPacketPayload::PiglinBarter",
+          "LegacyTelemetryEventPacketPayload::PlayerWaxedOrUnwaxedCopper",
+          "LegacyTelemetryEventPacketPayload::CodeBuilderRuntimeAction",
+          "LegacyTelemetryEventPacketPayload::CodeBuilderScoreboard",
+          "LegacyTelemetryEventPacketPayload::ItemUsed",
+          "LegacyTelemetryEventPacketPayload::Empty"
+        ]
+      }
+    }
+  ]
+}

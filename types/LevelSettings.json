@@ -1,0 +1,216 @@
+{
+  "name": "LevelSettings",
+  "fields": [
+    {
+      "name": "Seed",
+      "type": "uint64"
+    },
+    {
+      "name": "Spawn Settings",
+      "type": "SpawnSettings"
+    },
+    {
+      "name": "Generator Type",
+      "type": "varint32",
+      "enum": "GeneratorType"
+    },
+    {
+      "name": "Game Type",
+      "type": "varint32",
+      "enum": "GameType"
+    },
+    {
+      "name": "Is Hardcore",
+      "type": "bool"
+    },
+    {
+      "name": "Game Difficulty",
+      "type": "varint32",
+      "enum": "SharedTypes::Legacy::Difficulty"
+    },
+    {
+      "name": "Default Spawn Block Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Achievements Disabled",
+      "type": "bool"
+    },
+    {
+      "name": "Editor World Type",
+      "type": "varint32",
+      "enum": "Editor::WorldType"
+    },
+    {
+      "name": "Is Created In Editor",
+      "type": "bool"
+    },
+    {
+      "name": "Is Exported From Editor",
+      "type": "bool"
+    },
+    {
+      "name": "Day Cycle Stop Time",
+      "type": "varint32"
+    },
+    {
+      "name": "Education Edition Offer",
+      "type": "uvarint32",
+      "enum": "EducationEditionOffer"
+    },
+    {
+      "name": "Education Features Enabled",
+      "type": "bool"
+    },
+    {
+      "name": "Education Product ID",
+      "type": "string"
+    },
+    {
+      "name": "Rain Level",
+      "type": "float"
+    },
+    {
+      "name": "Lightning Level",
+      "type": "float"
+    },
+    {
+      "name": "Has Confirmed Platform Locked Content",
+      "type": "bool"
+    },
+    {
+      "name": "Multiplayer Game Intent",
+      "type": "bool"
+    },
+    {
+      "name": "LAN Broadcast Intent",
+      "type": "bool"
+    },
+    {
+      "name": "Xbox Live Broadcast Setting",
+      "type": "varint32",
+      "enum": "Social::GamePublishSetting"
+    },
+    {
+      "name": "Platform Broadcast Setting",
+      "type": "varint32",
+      "enum": "Social::GamePublishSetting"
+    },
+    {
+      "name": "Commands Enabled",
+      "type": "bool"
+    },
+    {
+      "name": "Texture Packs Required",
+      "type": "bool"
+    },
+    {
+      "name": "Rule Data",
+      "type": "GameRulesChangedPacketData"
+    },
+    {
+      "name": "Experiments",
+      "type": "Experiments"
+    },
+    {
+      "name": "Has Bonus Chest Enabled",
+      "type": "bool"
+    },
+    {
+      "name": "Start With Map Enabled",
+      "type": "bool"
+    },
+    {
+      "name": "Player Permissions",
+      "type": "int8",
+      "enum": "PlayerPermissionLevel"
+    },
+    {
+      "name": "Server Chunk Tick Range",
+      "type": "int32"
+    },
+    {
+      "name": "Has Locked Behavior Pack",
+      "type": "bool"
+    },
+    {
+      "name": "Has Locked Resource Pack",
+      "type": "bool"
+    },
+    {
+      "name": "Is From Locked Template",
+      "type": "bool"
+    },
+    {
+      "name": "Use Msa Gamertags Only",
+      "type": "bool"
+    },
+    {
+      "name": "Is From World Template",
+      "type": "bool"
+    },
+    {
+      "name": "Is World Template Option Locked",
+      "type": "bool"
+    },
+    {
+      "name": "Only Spawn V1 Villagers",
+      "type": "bool"
+    },
+    {
+      "name": "Persona Disabled",
+      "type": "bool"
+    },
+    {
+      "name": "Custom Skins Disabled",
+      "type": "bool"
+    },
+    {
+      "name": "Emote Chat Muted",
+      "type": "bool"
+    },
+    {
+      "name": "Base Game Version",
+      "type": "string"
+    },
+    {
+      "name": "Limited World Width",
+      "type": "int32"
+    },
+    {
+      "name": "Limited World Depth",
+      "type": "int32"
+    },
+    {
+      "name": "Nether Type",
+      "type": "bool"
+    },
+    {
+      "name": "Edu Shared Uri Resource",
+      "type": "EduSharedUriResource"
+    },
+    {
+      "name": "Override Force Experimental Gameplay",
+      "type": "bool",
+      "optional": true
+    },
+    {
+      "name": "Chat Restriction Level",
+      "type": "uint8",
+      "enum": "ChatRestrictionLevel"
+    },
+    {
+      "name": "Disable Player Interactions",
+      "type": "bool"
+    },
+    {
+      "name": "Server Editor Connection Policy",
+      "type": "varint32",
+      "enum": "ServerEditorConnectionPolicy"
+    },
+    {
+      "name": "Allow Anonymous Block Drops In Editor Worlds",
+      "type": "bool"
+    }
+  ]
+}

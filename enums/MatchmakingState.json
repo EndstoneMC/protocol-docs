@@ -1,0 +1,17 @@
+{
+  "name": "MatchmakingState",
+  "values": [
+    {
+      "name": "Idle",
+      "value": 0
+    },
+    {
+      "name": "Matchmaking",
+      "value": 1
+    },
+    {
+      "name": "MatchFound",
+      "value": 2
+    }
+  ]
+}

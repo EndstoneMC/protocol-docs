@@ -1,0 +1,20 @@
+{
+  "id": 45,
+  "name": "RespawnPacket",
+  "notes": "For some reason each respawn 1 packet is sent from the client and 3 are sent from the server.",
+  "fields": [
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "State",
+      "type": "uint8",
+      "enum": "PlayerRespawnState"
+    },
+    {
+      "name": "Player Runtime Id",
+      "type": "ActorRuntimeID"
+    }
+  ]
+}

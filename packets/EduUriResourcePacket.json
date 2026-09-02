@@ -1,0 +1,10 @@
+{
+  "id": 170,
+  "name": "EduUriResourcePacket",
+  "fields": [
+    {
+      "name": "Edu Shared URI Resource",
+      "type": "EduSharedUriResource"
+    }
+  ]
+}

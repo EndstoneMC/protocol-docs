@@ -1,0 +1,17 @@
+{
+  "name": "PlayerUpdateEntityOverridesPacketPayload::FloatOverride",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "string",
+      "enum": "UpdateType"
+    },
+    {
+      "name": "Value",
+      "type": "float",
+      "constraints": {
+        "description": "Must be a finite (non-NaN, non-infinite) floating-point value"
+      }
+    }
+  ]
+}

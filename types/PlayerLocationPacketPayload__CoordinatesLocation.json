@@ -1,0 +1,19 @@
+{
+  "name": "PlayerLocationPacketPayload::CoordinatesLocation",
+  "fields": [
+    {
+      "name": "Packet Type",
+      "type": "varint32",
+      "enum": "PlayerLocationPacketPayload::Type",
+      "constraints": {
+        "enum_values": [
+          0
+        ]
+      }
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    }
+  ]
+}

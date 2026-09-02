@@ -1,0 +1,48 @@
+{
+  "name": "AvailableCommandsPacketPayload::CommandData",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 512
+      }
+    },
+    {
+      "name": "Description",
+      "type": "string",
+      "constraints": {
+        "max_length": 1000
+      }
+    },
+    {
+      "name": "Flags",
+      "type": "uint16"
+    },
+    {
+      "name": "Permission Level",
+      "type": "string",
+      "enum": "CommandPermissionLevel"
+    },
+    {
+      "name": "Alias Enum",
+      "type": "int32"
+    },
+    {
+      "name": "CommandData Chained Subcommand Indexes",
+      "type": "uint32",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 250
+      }
+    },
+    {
+      "name": "Overloads",
+      "type": "AvailableCommandsPacketPayload::OverloadData",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 250
+      }
+    }
+  ]
+}

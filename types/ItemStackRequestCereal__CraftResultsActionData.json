@@ -1,0 +1,25 @@
+{
+  "name": "ItemStackRequestCereal::CraftResultsActionData",
+  "fields": [
+    {
+      "name": "Action type",
+      "type": "uint8",
+      "enum": "ItemStackRequestActionType"
+    },
+    {
+      "name": "Craft Results",
+      "type": "ItemStackRequestCereal::NetworkItemInstanceDescriptorData",
+      "repeat": "uvarint32",
+      "constraints": {
+        "min_items": 1
+      }
+    },
+    {
+      "name": "Num Crafts",
+      "type": "uint8",
+      "constraints": {
+        "minimum": 1
+      }
+    }
+  ]
+}

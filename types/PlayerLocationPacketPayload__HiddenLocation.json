@@ -1,0 +1,15 @@
+{
+  "name": "PlayerLocationPacketPayload::HiddenLocation",
+  "fields": [
+    {
+      "name": "Packet Type",
+      "type": "varint32",
+      "enum": "PlayerLocationPacketPayload::Type",
+      "constraints": {
+        "enum_values": [
+          1
+        ]
+      }
+    }
+  ]
+}

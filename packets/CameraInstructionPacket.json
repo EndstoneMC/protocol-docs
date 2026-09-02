@@ -1,0 +1,10 @@
+{
+  "id": 300,
+  "name": "CameraInstructionPacket",
+  "fields": [
+    {
+      "name": "Camera Instruction",
+      "type": "CameraInstruction"
+    }
+  ]
+}

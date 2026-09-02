@@ -1,0 +1,14 @@
+{
+  "id": 354,
+  "name": "ServerboundStonecutterSetRecipePacket",
+  "fields": [
+    {
+      "name": "Container Id",
+      "type": "uint8"
+    },
+    {
+      "name": "Recipe Index",
+      "type": "varint32"
+    }
+  ]
+}

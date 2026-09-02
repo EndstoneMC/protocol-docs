@@ -1,0 +1,14 @@
+{
+  "name": "AvailableCommandsPacketPayload::OverloadData",
+  "fields": [
+    {
+      "name": "isChaining",
+      "type": "bool"
+    },
+    {
+      "name": "Parameter Data",
+      "type": "AvailableCommandsPacketPayload::ParamData",
+      "repeat": "uvarint32"
+    }
+  ]
+}

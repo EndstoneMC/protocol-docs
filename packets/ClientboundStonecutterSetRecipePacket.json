@@ -1,0 +1,18 @@
+{
+  "id": 355,
+  "name": "ClientboundStonecutterSetRecipePacket",
+  "fields": [
+    {
+      "name": "Player Id",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Container Id",
+      "type": "uint8"
+    },
+    {
+      "name": "Recipe Index",
+      "type": "varint32"
+    }
+  ]
+}

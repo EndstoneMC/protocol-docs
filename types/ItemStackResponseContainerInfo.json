@@ -1,0 +1,14 @@
+{
+  "name": "ItemStackResponseContainerInfo",
+  "fields": [
+    {
+      "name": "Full Container Name",
+      "type": "FullContainerName"
+    },
+    {
+      "name": "Slots",
+      "type": "ItemStackResponseSlotInfo",
+      "repeat": "uvarint32"
+    }
+  ]
+}

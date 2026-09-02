@@ -1,0 +1,9 @@
+{
+  "name": "BoxDataPayload",
+  "fields": [
+    {
+      "name": "Box Bound",
+      "type": "Vec3"
+    }
+  ]
+}

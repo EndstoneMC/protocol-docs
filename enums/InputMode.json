@@ -1,0 +1,29 @@
+{
+  "name": "InputMode",
+  "values": [
+    {
+      "name": "Undefined",
+      "value": 0
+    },
+    {
+      "name": "Mouse",
+      "value": 1
+    },
+    {
+      "name": "Touch",
+      "value": 2
+    },
+    {
+      "name": "GamePad",
+      "value": 3
+    },
+    {
+      "name": "MotionController",
+      "value": 4
+    },
+    {
+      "name": "Count",
+      "value": 5
+    }
+  ]
+}

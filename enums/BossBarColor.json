@@ -1,0 +1,37 @@
+{
+  "name": "BossBarColor",
+  "values": [
+    {
+      "name": "PINK",
+      "value": 0
+    },
+    {
+      "name": "BLUE",
+      "value": 1
+    },
+    {
+      "name": "RED",
+      "value": 2
+    },
+    {
+      "name": "GREEN",
+      "value": 3
+    },
+    {
+      "name": "YELLOW",
+      "value": 4
+    },
+    {
+      "name": "PURPLE",
+      "value": 5
+    },
+    {
+      "name": "REBECCA_PURPLE",
+      "value": 6
+    },
+    {
+      "name": "WHITE",
+      "value": 7
+    }
+  ]
+}

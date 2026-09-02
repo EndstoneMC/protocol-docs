@@ -1,0 +1,32 @@
+{
+  "name": "TextPacketPayload::AuthorAndMessage",
+  "fields": [
+    {
+      "name": "Message Type",
+      "type": "uint8",
+      "enum": "TextPacketType",
+      "constraints": {
+        "enum_values": [
+          1,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "name": "Player Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 256
+      }
+    },
+    {
+      "name": "Message",
+      "type": "string",
+      "constraints": {
+        "min_length": 1,
+        "max_length": 65536
+      }
+    }
+  ]
+}

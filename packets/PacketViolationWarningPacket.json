@@ -1,0 +1,24 @@
+{
+  "id": 156,
+  "name": "PacketViolationWarningPacket",
+  "fields": [
+    {
+      "name": "Violation Type",
+      "type": "varint32",
+      "enum": "PacketViolationType"
+    },
+    {
+      "name": "Violation Severity",
+      "type": "varint32",
+      "enum": "PacketViolationSeverity"
+    },
+    {
+      "name": "Violation PacketId",
+      "type": "varint32"
+    },
+    {
+      "name": "Violation Context",
+      "type": "string"
+    }
+  ]
+}

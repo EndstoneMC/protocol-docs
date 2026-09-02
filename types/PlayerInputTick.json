@@ -1,0 +1,9 @@
+{
+  "name": "PlayerInputTick",
+  "fields": [
+    {
+      "name": "Input tick",
+      "type": "uvarint64"
+    }
+  ]
+}
