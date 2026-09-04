@@ -5,7 +5,7 @@
       "name": "Response Type",
       "type": "string",
       "enum": "ResourcePackResponse",
-      "value": "Response Type"
+      "value": "Cancel"
     }
   ]
 }
