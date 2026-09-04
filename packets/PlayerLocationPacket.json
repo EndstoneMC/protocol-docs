@@ -10,11 +10,7 @@
     {
       "name": "Location",
       "type": {
-        "switch": {
-          "name": "Packet Type",
-          "type": "varint32",
-          "enum": "PlayerLocationPacketPayload::Type"
-        },
+        "switch": "uvarint32",
         "cases": [
           "PlayerLocationPacketPayload::CoordinatesLocation",
           "PlayerLocationPacketPayload::HiddenLocation"

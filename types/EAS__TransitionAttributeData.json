@@ -4,9 +4,7 @@
     {
       "name": "FromAttribute",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "EAS::BoolAttributeData",
           "EAS::FloatAttributeData",
@@ -17,9 +15,7 @@
     {
       "name": "ToAttribute",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "EAS::BoolAttributeData",
           "EAS::FloatAttributeData",

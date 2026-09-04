@@ -4,9 +4,7 @@
     {
       "name": "Attribute",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "EAS::BoolAttributeData",
           "EAS::FloatAttributeData",

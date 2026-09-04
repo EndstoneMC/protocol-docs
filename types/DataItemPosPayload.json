@@ -4,7 +4,8 @@
     {
       "name": "Type",
       "type": "uint8",
-      "enum": "DataItemType"
+      "enum": "DataItemType",
+      "value": 6
     },
     {
       "name": "Value",

@@ -4,7 +4,8 @@
     {
       "name": "Type",
       "type": "string",
-      "enum": "UpdateType"
+      "enum": "UpdateType",
+      "value": "Type"
     }
   ]
 }

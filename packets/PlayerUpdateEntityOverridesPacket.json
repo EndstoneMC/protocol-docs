@@ -14,11 +14,7 @@
     {
       "name": "Update",
       "type": {
-        "switch": {
-          "name": "Type",
-          "type": "uint8",
-          "enum": "UpdateType"
-        },
+        "switch": "uvarint32",
         "cases": [
           "PlayerUpdateEntityOverridesPacketPayload::ClearOverride",
           "PlayerUpdateEntityOverridesPacketPayload::RemoveOverride",

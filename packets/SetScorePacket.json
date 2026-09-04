@@ -6,11 +6,7 @@
     {
       "name": "Score Info",
       "type": {
-        "switch": {
-          "name": "Action",
-          "type": "uint8",
-          "enum": "ScorePacketEntryAction"
-        },
+        "switch": "uvarint32",
         "cases": [
           "RemoveScore",
           "ChangePlayerScore",

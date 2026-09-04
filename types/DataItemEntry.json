@@ -8,11 +8,7 @@
     {
       "name": "Payload",
       "type": {
-        "switch": {
-          "name": "Type",
-          "type": "uint8",
-          "enum": "DataItemType"
-        },
+        "switch": "uvarint32",
         "cases": [
           "DataItemBytePayload",
           "DataItemShortPayload",
