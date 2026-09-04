@@ -5,7 +5,7 @@
       "name": "Action",
       "type": "string",
       "enum": "ScorePacketEntryAction",
-      "value": "Action"
+      "value": "ChangeFakePlayer"
     },
     {
       "name": "Scoreboard Id",

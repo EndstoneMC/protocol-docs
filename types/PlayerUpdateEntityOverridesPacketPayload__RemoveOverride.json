@@ -5,7 +5,7 @@
       "name": "Type",
       "type": "string",
       "enum": "UpdateType",
-      "value": "Type"
+      "value": "RemoveOverride"
     }
   ]
 }
