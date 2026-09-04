@@ -2,19 +2,19 @@
   "name": "ServerEditorConnectionPolicy",
   "values": [
     {
-      "name": "MatchWorldType",
+      "name": "matchworldtype",
       "value": 0
     },
     {
-      "name": "EditorOnly",
+      "name": "editoronly",
       "value": 1
     },
     {
-      "name": "VanillaOnly",
+      "name": "vanillaonly",
       "value": 2
     },
     {
-      "name": "Mixed",
+      "name": "mixed",
       "value": 3
     }
   ]

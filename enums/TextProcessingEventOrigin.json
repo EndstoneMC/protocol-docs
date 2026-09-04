@@ -6,67 +6,67 @@
       "value": -1
     },
     {
-      "name": "ServerChatPublic",
+      "name": "serverchatpublic",
       "value": 0
     },
     {
-      "name": "ServerChatWhisper",
+      "name": "serverchatwhisper",
       "value": 1
     },
     {
-      "name": "SignText",
+      "name": "signtext",
       "value": 2
     },
     {
-      "name": "AnvilText",
+      "name": "anviltext",
       "value": 3
     },
     {
-      "name": "BookAndQuillText",
+      "name": "bookandquilltext",
       "value": 4
     },
     {
-      "name": "CommandBlockText",
+      "name": "commandblocktext",
       "value": 5
     },
     {
-      "name": "BlockActorDataText",
+      "name": "blockactordatatext",
       "value": 6
     },
     {
-      "name": "JoinEventText",
+      "name": "joineventtext",
       "value": 7
     },
     {
-      "name": "LeaveEventText",
+      "name": "leaveeventtext",
       "value": 8
     },
     {
-      "name": "SlashCommandChat",
+      "name": "slashcommandchat",
       "value": 9
     },
     {
-      "name": "CartographyText",
+      "name": "cartographytext",
       "value": 10
     },
     {
-      "name": "KickCommand",
+      "name": "kickcommand",
       "value": 11
     },
     {
-      "name": "TitleCommand",
+      "name": "titlecommand",
       "value": 12
     },
     {
-      "name": "SummonCommand",
+      "name": "summoncommand",
       "value": 13
     },
     {
-      "name": "ServerForm",
+      "name": "serverform",
       "value": 14
     },
     {
-      "name": "DataDrivenUI",
+      "name": "datadrivenui",
       "value": 15
     }
   ]

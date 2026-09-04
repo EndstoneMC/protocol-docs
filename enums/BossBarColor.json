@@ -2,35 +2,35 @@
   "name": "BossBarColor",
   "values": [
     {
-      "name": "PINK",
+      "name": "pink",
       "value": 0
     },
     {
-      "name": "BLUE",
+      "name": "blue",
       "value": 1
     },
     {
-      "name": "RED",
+      "name": "red",
       "value": 2
     },
     {
-      "name": "GREEN",
+      "name": "green",
       "value": 3
     },
     {
-      "name": "YELLOW",
+      "name": "yellow",
       "value": 4
     },
     {
-      "name": "PURPLE",
+      "name": "purple",
       "value": 5
     },
     {
-      "name": "REBECCA_PURPLE",
+      "name": "rebecca_purple",
       "value": 6
     },
     {
-      "name": "WHITE",
+      "name": "white",
       "value": 7
     }
   ]

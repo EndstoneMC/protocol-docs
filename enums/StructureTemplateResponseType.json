@@ -2,15 +2,15 @@
   "name": "StructureTemplateResponseType",
   "values": [
     {
-      "name": "None",
+      "name": "none",
       "value": 0
     },
     {
-      "name": "Export",
+      "name": "export",
       "value": 1
     },
     {
-      "name": "Query",
+      "name": "query",
       "value": 2
     }
   ]

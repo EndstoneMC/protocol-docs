@@ -2,11 +2,11 @@
   "name": "CameraAimAssistPacketPayload::TargetMode",
   "values": [
     {
-      "name": "Angle",
+      "name": "angle",
       "value": 0
     },
     {
-      "name": "Distance",
+      "name": "distance",
       "value": 1
     }
   ]

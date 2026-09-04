@@ -2,19 +2,19 @@
   "name": "UpdateType",
   "values": [
     {
-      "name": "ClearOverrides",
+      "name": "clearoverrides",
       "value": 0
     },
     {
-      "name": "RemoveOverride",
+      "name": "removeoverride",
       "value": 1
     },
     {
-      "name": "SetIntOverride",
+      "name": "setintoverride",
       "value": 2
     },
     {
-      "name": "SetFloatOverride",
+      "name": "setfloatoverride",
       "value": 3
     }
   ]

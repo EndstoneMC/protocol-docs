@@ -2,179 +2,179 @@
   "name": "Enchant::Type",
   "values": [
     {
-      "name": "Protection",
+      "name": "protection",
       "value": 0
     },
     {
-      "name": "FireProtection",
+      "name": "fireprotection",
       "value": 1
     },
     {
-      "name": "FeatherFalling",
+      "name": "featherfalling",
       "value": 2
     },
     {
-      "name": "BlastProtection",
+      "name": "blastprotection",
       "value": 3
     },
     {
-      "name": "ProjectileProtection",
+      "name": "projectileprotection",
       "value": 4
     },
     {
-      "name": "Thorns",
+      "name": "thorns",
       "value": 5
     },
     {
-      "name": "Respiration",
+      "name": "respiration",
       "value": 6
     },
     {
-      "name": "DepthStrider",
+      "name": "depthstrider",
       "value": 7
     },
     {
-      "name": "AquaAffinity",
+      "name": "aquaaffinity",
       "value": 8
     },
     {
-      "name": "Sharpness",
+      "name": "sharpness",
       "value": 9
     },
     {
-      "name": "Smite",
+      "name": "smite",
       "value": 10
     },
     {
-      "name": "BaneOfArthropods",
+      "name": "baneofarthropods",
       "value": 11
     },
     {
-      "name": "Knockback",
+      "name": "knockback",
       "value": 12
     },
     {
-      "name": "FireAspect",
+      "name": "fireaspect",
       "value": 13
     },
     {
-      "name": "Looting",
+      "name": "looting",
       "value": 14
     },
     {
-      "name": "Efficiency",
+      "name": "efficiency",
       "value": 15
     },
     {
-      "name": "SilkTouch",
+      "name": "silktouch",
       "value": 16
     },
     {
-      "name": "Unbreaking",
+      "name": "unbreaking",
       "value": 17
     },
     {
-      "name": "Fortune",
+      "name": "fortune",
       "value": 18
     },
     {
-      "name": "Power",
+      "name": "power",
       "value": 19
     },
     {
-      "name": "Punch",
+      "name": "punch",
       "value": 20
     },
     {
-      "name": "Flame",
+      "name": "flame",
       "value": 21
     },
     {
-      "name": "Infinity",
+      "name": "infinity",
       "value": 22
     },
     {
-      "name": "LuckOfTheSea",
+      "name": "luckofthesea",
       "value": 23
     },
     {
-      "name": "Lure",
+      "name": "lure",
       "value": 24
     },
     {
-      "name": "FrostWalker",
+      "name": "frostwalker",
       "value": 25
     },
     {
-      "name": "Mending",
+      "name": "mending",
       "value": 26
     },
     {
-      "name": "CurseOfBinding",
+      "name": "curseofbinding",
       "value": 27
     },
     {
-      "name": "CurseOfVanishing",
+      "name": "curseofvanishing",
       "value": 28
     },
     {
-      "name": "Impaling",
+      "name": "impaling",
       "value": 29
     },
     {
-      "name": "Riptide",
+      "name": "riptide",
       "value": 30
     },
     {
-      "name": "Loyalty",
+      "name": "loyalty",
       "value": 31
     },
     {
-      "name": "Channeling",
+      "name": "channeling",
       "value": 32
     },
     {
-      "name": "Multishot",
+      "name": "multishot",
       "value": 33
     },
     {
-      "name": "Piercing",
+      "name": "piercing",
       "value": 34
     },
     {
-      "name": "QuickCharge",
+      "name": "quickcharge",
       "value": 35
     },
     {
-      "name": "SoulSpeed",
+      "name": "soulspeed",
       "value": 36
     },
     {
-      "name": "SwiftSneak",
+      "name": "swiftsneak",
       "value": 37
     },
     {
-      "name": "WindBurst",
+      "name": "windburst",
       "value": 38
     },
     {
-      "name": "Density",
+      "name": "density",
       "value": 39
     },
     {
-      "name": "Breach",
+      "name": "breach",
       "value": 40
     },
     {
-      "name": "Lunge",
+      "name": "lunge",
       "value": 41
     },
     {
-      "name": "NumEnchantments",
+      "name": "numenchantments",
       "value": 42
     },
     {
-      "name": "InvalidEnchantment",
+      "name": "invalidenchantment",
       "value": 43
     }
   ]

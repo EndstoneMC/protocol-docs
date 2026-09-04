@@ -2,43 +2,43 @@
   "name": "ClientPlayMode",
   "values": [
     {
-      "name": "Normal",
+      "name": "normal",
       "value": 0
     },
     {
-      "name": "Teaser",
+      "name": "teaser",
       "value": 1
     },
     {
-      "name": "Screen",
+      "name": "screen",
       "value": 2
     },
     {
-      "name": "Viewer",
+      "name": "viewer",
       "value": 3
     },
     {
-      "name": "Reality",
+      "name": "reality",
       "value": 4
     },
     {
-      "name": "Placement",
+      "name": "placement",
       "value": 5
     },
     {
-      "name": "LivingRoom",
+      "name": "livingroom",
       "value": 6
     },
     {
-      "name": "ExitLevel",
+      "name": "exitlevel",
       "value": 7
     },
     {
-      "name": "ExitLevelLivingRoom",
+      "name": "exitlevellivingroom",
       "value": 8
     },
     {
-      "name": "NumModes",
+      "name": "nummodes",
       "value": 9
     }
   ]

@@ -2,27 +2,27 @@
   "name": "StructureBlockType",
   "values": [
     {
-      "name": "Data",
+      "name": "data",
       "value": 0
     },
     {
-      "name": "Save",
+      "name": "save",
       "value": 1
     },
     {
-      "name": "Load",
+      "name": "load",
       "value": 2
     },
     {
-      "name": "Corner",
+      "name": "corner",
       "value": 3
     },
     {
-      "name": "Invalid",
+      "name": "invalid",
       "value": 4
     },
     {
-      "name": "Export",
+      "name": "export",
       "value": 5
     }
   ]

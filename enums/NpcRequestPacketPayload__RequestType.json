@@ -2,31 +2,31 @@
   "name": "NpcRequestPacketPayload::RequestType",
   "values": [
     {
-      "name": "SetActions",
+      "name": "setactions",
       "value": 0
     },
     {
-      "name": "ExecuteAction",
+      "name": "executeaction",
       "value": 1
     },
     {
-      "name": "ExecuteClosingCommands",
+      "name": "executeclosingcommands",
       "value": 2
     },
     {
-      "name": "SetName",
+      "name": "setname",
       "value": 3
     },
     {
-      "name": "SetSkin",
+      "name": "setskin",
       "value": 4
     },
     {
-      "name": "SetInteractText",
+      "name": "setinteracttext",
       "value": 5
     },
     {
-      "name": "ExecuteOpeningCommands",
+      "name": "executeopeningcommands",
       "value": 6
     }
   ]

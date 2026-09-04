@@ -2,71 +2,71 @@
   "name": "MolangVersion",
   "values": [
     {
-      "name": "Invalid",
+      "name": "invalid",
       "value": -1
     },
     {
-      "name": "BeforeVersioning",
+      "name": "beforeversioning",
       "value": 0
     },
     {
-      "name": "Initial",
+      "name": "initial",
       "value": 1
     },
     {
-      "name": "FixedItemRemainingUseDurationQuery",
+      "name": "fixeditemremainingusedurationquery",
       "value": 2
     },
     {
-      "name": "ExpressionErrorMessages",
+      "name": "expressionerrormessages",
       "value": 3
     },
     {
-      "name": "UnexpectedOperatorErrors",
+      "name": "unexpectedoperatorerrors",
       "value": 4
     },
     {
-      "name": "ConditionalOperatorAssociativity",
+      "name": "conditionaloperatorassociativity",
       "value": 5
     },
     {
-      "name": "ComparisonAndLogicalOperatorPrecedence",
+      "name": "comparisonandlogicaloperatorprecedence",
       "value": 6
     },
     {
-      "name": "DivideByNegativeValue",
+      "name": "dividebynegativevalue",
       "value": 7
     },
     {
-      "name": "FixedCapeFlapAmountQuery",
+      "name": "fixedcapeflapamountquery",
       "value": 8
     },
     {
-      "name": "QueryBlockPropertyRenamedToState",
+      "name": "queryblockpropertyrenamedtostate",
       "value": 9
     },
     {
-      "name": "DeprecateOldBlockQueryNames",
+      "name": "deprecateoldblockquerynames",
       "value": 10
     },
     {
-      "name": "DeprecatedSnifferAndCamelQueries",
+      "name": "deprecatedsnifferandcamelqueries",
       "value": 11
     },
     {
-      "name": "LeafSupportingInFirstSolidBlockBelow",
+      "name": "leafsupportinginfirstsolidblockbelow",
       "value": 12
     },
     {
-      "name": "NumValidVersions",
+      "name": "numvalidversions",
       "value": 14
     },
     {
-      "name": "Latest",
+      "name": "latest",
       "value": 13
     },
     {
-      "name": "HardcodedMolang",
+      "name": "hardcodedmolang",
       "value": 13
     }
   ]

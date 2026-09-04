@@ -2,23 +2,23 @@
   "name": "SharedTypes::Legacy::ArmorSlot",
   "values": [
     {
-      "name": "Head",
+      "name": "head",
       "value": 0
     },
     {
-      "name": "Torso",
+      "name": "torso",
       "value": 1
     },
     {
-      "name": "Legs",
+      "name": "legs",
       "value": 2
     },
     {
-      "name": "Feet",
+      "name": "feet",
       "value": 3
     },
     {
-      "name": "Body",
+      "name": "body",
       "value": 4
     }
   ]
