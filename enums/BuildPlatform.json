@@ -2,63 +2,63 @@
   "name": "BuildPlatform",
   "values": [
     {
-      "name": "Google",
+      "name": "google",
       "value": 1
     },
     {
-      "name": "iOS",
+      "name": "ios",
       "value": 2
     },
     {
-      "name": "OSX",
+      "name": "osx",
       "value": 3
     },
     {
-      "name": "Amazon",
+      "name": "amazon",
       "value": 4
     },
     {
-      "name": "GearVR",
+      "name": "gearvr",
       "value": 5
     },
     {
-      "name": "UWP",
+      "name": "uwp",
       "value": 7
     },
     {
-      "name": "Win32",
+      "name": "win32",
       "value": 8
     },
     {
-      "name": "Dedicated",
+      "name": "dedicated",
       "value": 9
     },
     {
-      "name": "tvOS",
+      "name": "tvos",
       "value": 10
     },
     {
-      "name": "Sony",
+      "name": "sony",
       "value": 11
     },
     {
-      "name": "Nintendo",
+      "name": "nintendo",
       "value": 12
     },
     {
-      "name": "Xbox",
+      "name": "xbox",
       "value": 13
     },
     {
-      "name": "WindowsPhone",
+      "name": "windowsphone",
       "value": 14
     },
     {
-      "name": "Linux",
+      "name": "linux",
       "value": 15
     },
     {
-      "name": "Unknown",
+      "name": "unknown",
       "value": -1
     }
   ]

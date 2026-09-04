@@ -2,11 +2,11 @@
   "name": "SharedTypes::persona::ArmSizeType",
   "values": [
     {
-      "name": "Slim",
+      "name": "slim",
       "value": 0
     },
     {
-      "name": "Wide",
+      "name": "wide",
       "value": 1
     }
   ]

@@ -2,15 +2,15 @@
   "name": "PositionTrackingDBServerBroadcastPacketPayload::Action",
   "values": [
     {
-      "name": "Update",
+      "name": "update",
       "value": 0
     },
     {
-      "name": "Destroy",
+      "name": "destroy",
       "value": 1
     },
     {
-      "name": "NotFound",
+      "name": "notfound",
       "value": 2
     }
   ]

@@ -2,19 +2,19 @@
   "name": "RecipeUnlockingRequirement::UnlockingContext",
   "values": [
     {
-      "name": "None",
+      "name": "none",
       "value": 0
     },
     {
-      "name": "AlwaysUnlocked",
+      "name": "alwaysunlocked",
       "value": 1
     },
     {
-      "name": "PlayerInWater",
+      "name": "playerinwater",
       "value": 2
     },
     {
-      "name": "PlayerHasManyItems",
+      "name": "playerhasmanyitems",
       "value": 3
     }
   ]

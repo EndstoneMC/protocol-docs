@@ -2,11 +2,11 @@
   "name": "PlayerListPacketType",
   "values": [
     {
-      "name": "Add",
+      "name": "add",
       "value": 0
     },
     {
-      "name": "Remove",
+      "name": "remove",
       "value": 1
     }
   ]

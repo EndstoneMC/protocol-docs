@@ -2,11 +2,11 @@
   "name": "PacketViolationType",
   "values": [
     {
-      "name": "Unknown",
+      "name": "unknown",
       "value": -1
     },
     {
-      "name": "PacketMalformed",
+      "name": "packetmalformed",
       "value": 0
     }
   ]

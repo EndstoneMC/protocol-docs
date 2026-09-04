@@ -2,15 +2,15 @@
   "name": "ChatRestrictionLevel",
   "values": [
     {
-      "name": "None",
+      "name": "none",
       "value": 0
     },
     {
-      "name": "Dropped",
+      "name": "dropped",
       "value": 1
     },
     {
-      "name": "Disabled",
+      "name": "disabled",
       "value": 2
     }
   ]

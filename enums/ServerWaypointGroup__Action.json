@@ -2,19 +2,19 @@
   "name": "ServerWaypointGroup::Action",
   "values": [
     {
-      "name": "None",
+      "name": "none",
       "value": 0
     },
     {
-      "name": "Add",
+      "name": "add",
       "value": 1
     },
     {
-      "name": "Remove",
+      "name": "remove",
       "value": 2
     },
     {
-      "name": "Update",
+      "name": "update",
       "value": 3
     }
   ]

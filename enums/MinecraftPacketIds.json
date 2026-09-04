@@ -2,947 +2,947 @@
   "name": "MinecraftPacketIds",
   "values": [
     {
-      "name": "KeepAlive",
+      "name": "keepalive",
       "value": 0
     },
     {
-      "name": "Login",
+      "name": "login",
       "value": 1
     },
     {
-      "name": "PlayStatus",
+      "name": "playstatus",
       "value": 2
     },
     {
-      "name": "ServerToClientHandshake",
+      "name": "servertoclienthandshake",
       "value": 3
     },
     {
-      "name": "ClientToServerHandshake",
+      "name": "clienttoserverhandshake",
       "value": 4
     },
     {
-      "name": "Disconnect",
+      "name": "disconnect",
       "value": 5
     },
     {
-      "name": "ResourcePacksInfo",
+      "name": "resourcepacksinfo",
       "value": 6
     },
     {
-      "name": "ResourcePackStack",
+      "name": "resourcepackstack",
       "value": 7
     },
     {
-      "name": "ResourcePackClientResponse",
+      "name": "resourcepackclientresponse",
       "value": 8
     },
     {
-      "name": "Text",
+      "name": "text",
       "value": 9
     },
     {
-      "name": "SetTime",
+      "name": "settime",
       "value": 10
     },
     {
-      "name": "StartGame",
+      "name": "startgame",
       "value": 11
     },
     {
-      "name": "AddPlayer",
+      "name": "addplayer",
       "value": 12
     },
     {
-      "name": "AddActor",
+      "name": "addactor",
       "value": 13
     },
     {
-      "name": "RemoveActor",
+      "name": "removeactor",
       "value": 14
     },
     {
-      "name": "AddItemActor",
+      "name": "additemactor",
       "value": 15
     },
     {
-      "name": "ServerPlayerPostMovePosition",
+      "name": "serverplayerpostmoveposition",
       "value": 16
     },
     {
-      "name": "TakeItemActor",
+      "name": "takeitemactor",
       "value": 17
     },
     {
-      "name": "MoveAbsoluteActor",
+      "name": "moveabsoluteactor",
       "value": 18
     },
     {
-      "name": "MovePlayer",
+      "name": "moveplayer",
       "value": 19
     },
     {
-      "name": "PassengerJump",
+      "name": "passengerjump",
       "value": 20
     },
     {
-      "name": "UpdateBlock",
+      "name": "updateblock",
       "value": 21
     },
     {
-      "name": "AddPainting",
+      "name": "addpainting",
       "value": 22
     },
     {
-      "name": "TickSync",
+      "name": "ticksync",
       "value": 23
     },
     {
-      "name": "LevelSoundEventV1",
+      "name": "levelsoundeventv1",
       "value": 24
     },
     {
-      "name": "LevelEvent",
+      "name": "levelevent",
       "value": 25
     },
     {
-      "name": "TileEvent",
+      "name": "tileevent",
       "value": 26
     },
     {
-      "name": "ActorEvent",
+      "name": "actorevent",
       "value": 27
     },
     {
-      "name": "MobEffect",
+      "name": "mobeffect",
       "value": 28
     },
     {
-      "name": "UpdateAttributes",
+      "name": "updateattributes",
       "value": 29
     },
     {
-      "name": "InventoryTransaction",
+      "name": "inventorytransaction",
       "value": 30
     },
     {
-      "name": "PlayerEquipment",
+      "name": "playerequipment",
       "value": 31
     },
     {
-      "name": "MobArmorEquipment",
+      "name": "mobarmorequipment",
       "value": 32
     },
     {
-      "name": "Interact",
+      "name": "interact",
       "value": 33
     },
     {
-      "name": "BlockPickRequest",
+      "name": "blockpickrequest",
       "value": 34
     },
     {
-      "name": "ActorPickRequest",
+      "name": "actorpickrequest",
       "value": 35
     },
     {
-      "name": "PlayerAction",
+      "name": "playeraction",
       "value": 36
     },
     {
-      "name": "ActorFall",
+      "name": "actorfall",
       "value": 37
     },
     {
-      "name": "HurtArmor",
+      "name": "hurtarmor",
       "value": 38
     },
     {
-      "name": "SetActorData",
+      "name": "setactordata",
       "value": 39
     },
     {
-      "name": "SetActorMotion",
+      "name": "setactormotion",
       "value": 40
     },
     {
-      "name": "SetActorLink",
+      "name": "setactorlink",
       "value": 41
     },
     {
-      "name": "SetHealth",
+      "name": "sethealth",
       "value": 42
     },
     {
-      "name": "SetSpawnPosition",
+      "name": "setspawnposition",
       "value": 43
     },
     {
-      "name": "Animate",
+      "name": "animate",
       "value": 44
     },
     {
-      "name": "Respawn",
+      "name": "respawn",
       "value": 45
     },
     {
-      "name": "ContainerOpen",
+      "name": "containeropen",
       "value": 46
     },
     {
-      "name": "ContainerClose",
+      "name": "containerclose",
       "value": 47
     },
     {
-      "name": "PlayerHotbar",
+      "name": "playerhotbar",
       "value": 48
     },
     {
-      "name": "InventoryContent",
+      "name": "inventorycontent",
       "value": 49
     },
     {
-      "name": "InventorySlot",
+      "name": "inventoryslot",
       "value": 50
     },
     {
-      "name": "ContainerSetData",
+      "name": "containersetdata",
       "value": 51
     },
     {
-      "name": "CraftingData",
+      "name": "craftingdata",
       "value": 52
     },
     {
-      "name": "CraftingEvent",
+      "name": "craftingevent",
       "value": 53
     },
     {
-      "name": "GuiDataPickItem",
+      "name": "guidatapickitem",
       "value": 54
     },
     {
-      "name": "AdventureSettings",
+      "name": "adventuresettings",
       "value": 55
     },
     {
-      "name": "BlockActorData",
+      "name": "blockactordata",
       "value": 56
     },
     {
-      "name": "PlayerInput",
+      "name": "playerinput",
       "value": 57
     },
     {
-      "name": "FullChunkData",
+      "name": "fullchunkdata",
       "value": 58
     },
     {
-      "name": "SetCommandsEnabled",
+      "name": "setcommandsenabled",
       "value": 59
     },
     {
-      "name": "SetDifficulty",
+      "name": "setdifficulty",
       "value": 60
     },
     {
-      "name": "ChangeDimension",
+      "name": "changedimension",
       "value": 61
     },
     {
-      "name": "SetPlayerGameType",
+      "name": "setplayergametype",
       "value": 62
     },
     {
-      "name": "PlayerList",
+      "name": "playerlist",
       "value": 63
     },
     {
-      "name": "SimpleEvent",
+      "name": "simpleevent",
       "value": 64
     },
     {
-      "name": "LegacyTelemetryEvent",
+      "name": "legacytelemetryevent",
       "value": 65
     },
     {
-      "name": "SpawnExperienceOrb",
+      "name": "spawnexperienceorb",
       "value": 66
     },
     {
-      "name": "MapData",
+      "name": "mapdata",
       "value": 67
     },
     {
-      "name": "MapInfoRequest",
+      "name": "mapinforequest",
       "value": 68
     },
     {
-      "name": "RequestChunkRadius",
+      "name": "requestchunkradius",
       "value": 69
     },
     {
-      "name": "ChunkRadiusUpdated",
+      "name": "chunkradiusupdated",
       "value": 70
     },
     {
-      "name": "ItemFrameDropItem",
+      "name": "itemframedropitem",
       "value": 71
     },
     {
-      "name": "GameRulesChanged",
+      "name": "gameruleschanged",
       "value": 72
     },
     {
-      "name": "Camera",
+      "name": "camera",
       "value": 73
     },
     {
-      "name": "BossEvent",
+      "name": "bossevent",
       "value": 74
     },
     {
-      "name": "ShowCredits",
+      "name": "showcredits",
       "value": 75
     },
     {
-      "name": "AvailableCommands",
+      "name": "availablecommands",
       "value": 76
     },
     {
-      "name": "CommandRequest",
+      "name": "commandrequest",
       "value": 77
     },
     {
-      "name": "CommandBlockUpdate",
+      "name": "commandblockupdate",
       "value": 78
     },
     {
-      "name": "CommandOutput",
+      "name": "commandoutput",
       "value": 79
     },
     {
-      "name": "UpdateTrade",
+      "name": "updatetrade",
       "value": 80
     },
     {
-      "name": "UpdateEquip",
+      "name": "updateequip",
       "value": 81
     },
     {
-      "name": "ResourcePackDataInfo",
+      "name": "resourcepackdatainfo",
       "value": 82
     },
     {
-      "name": "ResourcePackChunkData",
+      "name": "resourcepackchunkdata",
       "value": 83
     },
     {
-      "name": "ResourcePackChunkRequest",
+      "name": "resourcepackchunkrequest",
       "value": 84
     },
     {
-      "name": "Transfer",
+      "name": "transfer",
       "value": 85
     },
     {
-      "name": "PlaySound",
+      "name": "playsound",
       "value": 86
     },
     {
-      "name": "StopSound",
+      "name": "stopsound",
       "value": 87
     },
     {
-      "name": "SetTitle",
+      "name": "settitle",
       "value": 88
     },
     {
-      "name": "AddBehaviorTree",
+      "name": "addbehaviortree",
       "value": 89
     },
     {
-      "name": "StructureBlockUpdate",
+      "name": "structureblockupdate",
       "value": 90
     },
     {
-      "name": "ShowStoreOffer",
+      "name": "showstoreoffer",
       "value": 91
     },
     {
-      "name": "PurchaseReceipt",
+      "name": "purchasereceipt",
       "value": 92
     },
     {
-      "name": "PlayerSkin",
+      "name": "playerskin",
       "value": 93
     },
     {
-      "name": "SubclientLogin",
+      "name": "subclientlogin",
       "value": 94
     },
     {
-      "name": "AutomationClientConnect",
+      "name": "automationclientconnect",
       "value": 95
     },
     {
-      "name": "SetLastHurtBy",
+      "name": "setlasthurtby",
       "value": 96
     },
     {
-      "name": "BookEdit",
+      "name": "bookedit",
       "value": 97
     },
     {
-      "name": "NPCRequest",
+      "name": "npcrequest",
       "value": 98
     },
     {
-      "name": "PhotoTransfer",
+      "name": "phototransfer",
       "value": 99
     },
     {
-      "name": "ShowModalForm",
+      "name": "showmodalform",
       "value": 100
     },
     {
-      "name": "ModalFormResponse",
+      "name": "modalformresponse",
       "value": 101
     },
     {
-      "name": "ServerSettingsRequest",
+      "name": "serversettingsrequest",
       "value": 102
     },
     {
-      "name": "ServerSettingsResponse",
+      "name": "serversettingsresponse",
       "value": 103
     },
     {
-      "name": "ShowProfile",
+      "name": "showprofile",
       "value": 104
     },
     {
-      "name": "SetDefaultGameType",
+      "name": "setdefaultgametype",
       "value": 105
     },
     {
-      "name": "RemoveObjective",
+      "name": "removeobjective",
       "value": 106
     },
     {
-      "name": "SetDisplayObjective",
+      "name": "setdisplayobjective",
       "value": 107
     },
     {
-      "name": "SetScore",
+      "name": "setscore",
       "value": 108
     },
     {
-      "name": "LabTable",
+      "name": "labtable",
       "value": 109
     },
     {
-      "name": "UpdateBlockSynced",
+      "name": "updateblocksynced",
       "value": 110
     },
     {
-      "name": "MoveDeltaActor",
+      "name": "movedeltaactor",
       "value": 111
     },
     {
-      "name": "SetScoreboardIdentity",
+      "name": "setscoreboardidentity",
       "value": 112
     },
     {
-      "name": "SetLocalPlayerAsInit",
+      "name": "setlocalplayerasinit",
       "value": 113
     },
     {
-      "name": "UpdateSoftEnum",
+      "name": "updatesoftenum",
       "value": 114
     },
     {
-      "name": "Ping",
+      "name": "ping",
       "value": 115
     },
     {
-      "name": "BlockPalette",
+      "name": "blockpalette",
       "value": 116
     },
     {
-      "name": "ScriptCustomEvent",
+      "name": "scriptcustomevent",
       "value": 117
     },
     {
-      "name": "SpawnParticleEffect",
+      "name": "spawnparticleeffect",
       "value": 118
     },
     {
-      "name": "AvailableActorIDList",
+      "name": "availableactoridlist",
       "value": 119
     },
     {
-      "name": "LevelSoundEventV2",
+      "name": "levelsoundeventv2",
       "value": 120
     },
     {
-      "name": "NetworkChunkPublisherUpdate",
+      "name": "networkchunkpublisherupdate",
       "value": 121
     },
     {
-      "name": "BiomeDefinitionList",
+      "name": "biomedefinitionlist",
       "value": 122
     },
     {
-      "name": "LevelSoundEvent",
+      "name": "levelsoundevent",
       "value": 123
     },
     {
-      "name": "LevelEventGeneric",
+      "name": "leveleventgeneric",
       "value": 124
     },
     {
-      "name": "LecternUpdate",
+      "name": "lecternupdate",
       "value": 125
     },
     {
-      "name": "VideoStreamConnect",
+      "name": "videostreamconnect",
       "value": 126
     },
     {
-      "name": "AddEntity",
+      "name": "addentity",
       "value": 127
     },
     {
-      "name": "RemoveEntity",
+      "name": "removeentity",
       "value": 128
     },
     {
-      "name": "ClientCacheStatus",
+      "name": "clientcachestatus",
       "value": 129
     },
     {
-      "name": "OnScreenTextureAnimation",
+      "name": "onscreentextureanimation",
       "value": 130
     },
     {
-      "name": "MapCreateLockedCopy",
+      "name": "mapcreatelockedcopy",
       "value": 131
     },
     {
-      "name": "StructureTemplateDataExportRequest",
+      "name": "structuretemplatedataexportrequest",
       "value": 132
     },
     {
-      "name": "StructureTemplateDataExportResponse",
+      "name": "structuretemplatedataexportresponse",
       "value": 133
     },
     {
-      "name": "ClientCacheBlobStatusPacket",
+      "name": "clientcacheblobstatuspacket",
       "value": 135
     },
     {
-      "name": "ClientCacheMissResponsePacket",
+      "name": "clientcachemissresponsepacket",
       "value": 136
     },
     {
-      "name": "EducationSettingsPacket",
+      "name": "educationsettingspacket",
       "value": 137
     },
     {
-      "name": "Emote",
+      "name": "emote",
       "value": 138
     },
     {
-      "name": "MultiplayerSettingsPacket",
+      "name": "multiplayersettingspacket",
       "value": 139
     },
     {
-      "name": "SettingsCommandPacket",
+      "name": "settingscommandpacket",
       "value": 140
     },
     {
-      "name": "AnvilDamage",
+      "name": "anvildamage",
       "value": 141
     },
     {
-      "name": "CompletedUsingItem",
+      "name": "completedusingitem",
       "value": 142
     },
     {
-      "name": "NetworkSettings",
+      "name": "networksettings",
       "value": 143
     },
     {
-      "name": "PlayerAuthInputPacket",
+      "name": "playerauthinputpacket",
       "value": 144
     },
     {
-      "name": "CreativeContent",
+      "name": "creativecontent",
       "value": 145
     },
     {
-      "name": "PlayerEnchantOptions",
+      "name": "playerenchantoptions",
       "value": 146
     },
     {
-      "name": "ItemStackRequest",
+      "name": "itemstackrequest",
       "value": 147
     },
     {
-      "name": "ItemStackResponse",
+      "name": "itemstackresponse",
       "value": 148
     },
     {
-      "name": "PlayerArmorDamage",
+      "name": "playerarmordamage",
       "value": 149
     },
     {
-      "name": "CodeBuilderPacket",
+      "name": "codebuilderpacket",
       "value": 150
     },
     {
-      "name": "UpdatePlayerGameType",
+      "name": "updateplayergametype",
       "value": 151
     },
     {
-      "name": "EmoteList",
+      "name": "emotelist",
       "value": 152
     },
     {
-      "name": "PositionTrackingDBServerBroadcast",
+      "name": "positiontrackingdbserverbroadcast",
       "value": 153
     },
     {
-      "name": "PositionTrackingDBClientRequest",
+      "name": "positiontrackingdbclientrequest",
       "value": 154
     },
     {
-      "name": "DebugInfoPacket",
+      "name": "debuginfopacket",
       "value": 155
     },
     {
-      "name": "PacketViolationWarning",
+      "name": "packetviolationwarning",
       "value": 156
     },
     {
-      "name": "MotionPredictionHints",
+      "name": "motionpredictionhints",
       "value": 157
     },
     {
-      "name": "TriggerAnimation",
+      "name": "triggeranimation",
       "value": 158
     },
     {
-      "name": "CameraShake",
+      "name": "camerashake",
       "value": 159
     },
     {
-      "name": "PlayerFogSetting",
+      "name": "playerfogsetting",
       "value": 160
     },
     {
-      "name": "CorrectPlayerMovePredictionPacket",
+      "name": "correctplayermovepredictionpacket",
       "value": 161
     },
     {
-      "name": "ItemRegistryPacket",
+      "name": "itemregistrypacket",
       "value": 162
     },
     {
-      "name": "FilterTextPacket",
+      "name": "filtertextpacket",
       "value": 163
     },
     {
-      "name": "ClientBoundDebugRendererPacket",
+      "name": "clientbounddebugrendererpacket",
       "value": 164
     },
     {
-      "name": "SyncActorProperty",
+      "name": "syncactorproperty",
       "value": 165
     },
     {
-      "name": "AddVolumeEntityPacket",
+      "name": "addvolumeentitypacket",
       "value": 166
     },
     {
-      "name": "RemoveVolumeEntityPacket",
+      "name": "removevolumeentitypacket",
       "value": 167
     },
     {
-      "name": "SimulationTypePacket",
+      "name": "simulationtypepacket",
       "value": 168
     },
     {
-      "name": "NpcDialoguePacket",
+      "name": "npcdialoguepacket",
       "value": 169
     },
     {
-      "name": "EduUriResourcePacket",
+      "name": "eduuriresourcepacket",
       "value": 170
     },
     {
-      "name": "CreatePhotoPacket",
+      "name": "createphotopacket",
       "value": 171
     },
     {
-      "name": "UpdateSubChunkBlocks",
+      "name": "updatesubchunkblocks",
       "value": 172
     },
     {
-      "name": "PhotoInfoRequest",
+      "name": "photoinforequest",
       "value": 173
     },
     {
-      "name": "SubChunkPacket",
+      "name": "subchunkpacket",
       "value": 174
     },
     {
-      "name": "SubChunkRequestPacket",
+      "name": "subchunkrequestpacket",
       "value": 175
     },
     {
-      "name": "PlayerStartItemCooldown",
+      "name": "playerstartitemcooldown",
       "value": 176
     },
     {
-      "name": "ScriptMessagePacket",
+      "name": "scriptmessagepacket",
       "value": 177
     },
     {
-      "name": "CodeBuilderSourcePacket",
+      "name": "codebuildersourcepacket",
       "value": 178
     },
     {
-      "name": "TickingAreasLoadStatus",
+      "name": "tickingareasloadstatus",
       "value": 179
     },
     {
-      "name": "DimensionDataPacket",
+      "name": "dimensiondatapacket",
       "value": 180
     },
     {
-      "name": "AgentAction",
+      "name": "agentaction",
       "value": 181
     },
     {
-      "name": "ChangeMobProperty",
+      "name": "changemobproperty",
       "value": 182
     },
     {
-      "name": "LessonProgressPacket",
+      "name": "lessonprogresspacket",
       "value": 183
     },
     {
-      "name": "RequestAbilityPacket",
+      "name": "requestabilitypacket",
       "value": 184
     },
     {
-      "name": "RequestPermissionsPacket",
+      "name": "requestpermissionspacket",
       "value": 185
     },
     {
-      "name": "ToastRequest",
+      "name": "toastrequest",
       "value": 186
     },
     {
-      "name": "UpdateAbilitiesPacket",
+      "name": "updateabilitiespacket",
       "value": 187
     },
     {
-      "name": "UpdateAdventureSettingsPacket",
+      "name": "updateadventuresettingspacket",
       "value": 188
     },
     {
-      "name": "DeathInfo",
+      "name": "deathinfo",
       "value": 189
     },
     {
-      "name": "EditorNetworkPacket",
+      "name": "editornetworkpacket",
       "value": 190
     },
     {
-      "name": "FeatureRegistryPacket",
+      "name": "featureregistrypacket",
       "value": 191
     },
     {
-      "name": "ServerStats",
+      "name": "serverstats",
       "value": 192
     },
     {
-      "name": "RequestNetworkSettings",
+      "name": "requestnetworksettings",
       "value": 193
     },
     {
-      "name": "GameTestRequestPacket",
+      "name": "gametestrequestpacket",
       "value": 194
     },
     {
-      "name": "GameTestResultsPacket",
+      "name": "gametestresultspacket",
       "value": 195
     },
     {
-      "name": "PlayerClientInputPermissions",
+      "name": "playerclientinputpermissions",
       "value": 196
     },
     {
-      "name": "ClientCheatAbilityPacket",
+      "name": "clientcheatabilitypacket",
       "value": 197
     },
     {
-      "name": "CameraPresets",
+      "name": "camerapresets",
       "value": 198
     },
     {
-      "name": "UnlockedRecipes",
+      "name": "unlockedrecipes",
       "value": 199
     },
     {
-      "name": "TitleSpecificPacketsStart",
+      "name": "titlespecificpacketsstart",
       "value": 200
     },
     {
-      "name": "TitleSpecificPacketsEnd",
+      "name": "titlespecificpacketsend",
       "value": 299
     },
     {
-      "name": "CameraInstruction",
+      "name": "camerainstruction",
       "value": 300
     },
     {
-      "name": "CompressedBiomeDefinitionList",
+      "name": "compressedbiomedefinitionlist",
       "value": 301
     },
     {
-      "name": "TrimData",
+      "name": "trimdata",
       "value": 302
     },
     {
-      "name": "OpenSign",
+      "name": "opensign",
       "value": 303
     },
     {
-      "name": "AgentAnimation",
+      "name": "agentanimation",
       "value": 304
     },
     {
-      "name": "RefreshEntitlementsPacket",
+      "name": "refreshentitlementspacket",
       "value": 305
     },
     {
-      "name": "PlayerToggleCrafterSlotRequestPacket",
+      "name": "playertogglecrafterslotrequestpacket",
       "value": 306
     },
     {
-      "name": "SetPlayerInventoryOptions",
+      "name": "setplayerinventoryoptions",
       "value": 307
     },
     {
-      "name": "SetHudPacket",
+      "name": "sethudpacket",
       "value": 308
     },
     {
-      "name": "AwardAchievementPacket",
+      "name": "awardachievementpacket",
       "value": 309
     },
     {
-      "name": "ClientboundCloseScreen",
+      "name": "clientboundclosescreen",
       "value": 310
     },
     {
-      "name": "ClientboundLoadingScreenPacket",
+      "name": "clientboundloadingscreenpacket",
       "value": 311
     },
     {
-      "name": "ServerboundLoadingScreenPacket",
+      "name": "serverboundloadingscreenpacket",
       "value": 312
     },
     {
-      "name": "JigsawStructureDataPacket",
+      "name": "jigsawstructuredatapacket",
       "value": 313
     },
     {
-      "name": "CurrentStructureFeaturePacket",
+      "name": "currentstructurefeaturepacket",
       "value": 314
     },
     {
-      "name": "ServerboundDiagnosticsPacket",
+      "name": "serverbounddiagnosticspacket",
       "value": 315
     },
     {
-      "name": "CameraAimAssist",
+      "name": "cameraaimassist",
       "value": 316
     },
     {
-      "name": "ContainerRegistryCleanup",
+      "name": "containerregistrycleanup",
       "value": 317
     },
     {
-      "name": "MovementEffect",
+      "name": "movementeffect",
       "value": 318
     },
     {
-      "name": "SetMovementAuthorityMode",
+      "name": "setmovementauthoritymode",
       "value": 319
     },
     {
-      "name": "CameraAimAssistActorPriority",
+      "name": "cameraaimassistactorpriority",
       "value": 339
     },
     {
-      "name": "CameraAimAssistPresets",
+      "name": "cameraaimassistpresets",
       "value": 320
     },
     {
-      "name": "ClientCameraAimAssist",
+      "name": "clientcameraaimassist",
       "value": 321
     },
     {
-      "name": "ClientMovementPredictionSyncPacket",
+      "name": "clientmovementpredictionsyncpacket",
       "value": 322
     },
     {
-      "name": "UpdateClientOptions",
+      "name": "updateclientoptions",
       "value": 323
     },
     {
-      "name": "PlayerVideoCapturePacket",
+      "name": "playervideocapturepacket",
       "value": 324
     },
     {
-      "name": "PlayerUpdateEntityOverridesPacket",
+      "name": "playerupdateentityoverridespacket",
       "value": 325
     },
     {
-      "name": "PlayerLocation",
+      "name": "playerlocation",
       "value": 326
     },
     {
-      "name": "SyncWorldClocks",
+      "name": "syncworldclocks",
       "value": 344
     },
     {
-      "name": "SendPartyDestinationCookie",
+      "name": "sendpartydestinationcookie",
       "value": 349
     },
     {
-      "name": "PartyDestinationCookieResponse",
+      "name": "partydestinationcookieresponse",
       "value": 350
     },
     {
-      "name": "SetPlayerFurnaceOptions",
+      "name": "setplayerfurnaceoptions",
       "value": 351
     },
     {
-      "name": "RecordStarted",
+      "name": "recordstarted",
       "value": 352
     },
     {
-      "name": "ClientboundMatchmakingState",
+      "name": "clientboundmatchmakingstate",
       "value": 353
     },
     {
-      "name": "ServerboundMatchmakingCancel",
+      "name": "serverboundmatchmakingcancel",
       "value": 356
     }
   ]

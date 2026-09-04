@@ -5,7 +5,7 @@
       "name": "Action",
       "type": "string",
       "enum": "ScorePacketEntryAction",
-      "value": "Remove"
+      "value": "remove"
     },
     {
       "name": "Scoreboard Id",

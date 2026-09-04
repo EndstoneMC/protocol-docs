@@ -2,15 +2,15 @@
   "name": "MatchmakingState",
   "values": [
     {
-      "name": "Idle",
+      "name": "idle",
       "value": 0
     },
     {
-      "name": "Matchmaking",
+      "name": "matchmaking",
       "value": 1
     },
     {
-      "name": "MatchFound",
+      "name": "matchfound",
       "value": 2
     }
   ]

@@ -2,11 +2,11 @@
   "name": "HandSlot",
   "values": [
     {
-      "name": "Mainhand",
+      "name": "mainhand",
       "value": 0
     },
     {
-      "name": "Offhand",
+      "name": "offhand",
       "value": 1
     }
   ]

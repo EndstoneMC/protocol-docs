@@ -2,83 +2,83 @@
   "name": "ItemStackRequestActionType",
   "values": [
     {
-      "name": "Take",
+      "name": "take",
       "value": 0
     },
     {
-      "name": "Place",
+      "name": "place",
       "value": 1
     },
     {
-      "name": "Swap",
+      "name": "swap",
       "value": 2
     },
     {
-      "name": "Drop",
+      "name": "drop",
       "value": 3
     },
     {
-      "name": "Destroy",
+      "name": "destroy",
       "value": 4
     },
     {
-      "name": "Consume",
+      "name": "consume",
       "value": 5
     },
     {
-      "name": "Create",
+      "name": "create",
       "value": 6
     },
     {
-      "name": "PlaceInItemContainer",
+      "name": "placeinitemcontainer",
       "value": 7
     },
     {
-      "name": "TakeFromItemContainer",
+      "name": "takefromitemcontainer",
       "value": 8
     },
     {
-      "name": "ScreenLabTableCombine",
+      "name": "screenlabtablecombine",
       "value": 9
     },
     {
-      "name": "ScreenBeaconPayment",
+      "name": "screenbeaconpayment",
       "value": 10
     },
     {
-      "name": "ScreenHUDMineBlock",
+      "name": "screenhudmineblock",
       "value": 11
     },
     {
-      "name": "CraftRecipe",
+      "name": "craftrecipe",
       "value": 12
     },
     {
-      "name": "CraftRecipeAuto",
+      "name": "craftrecipeauto",
       "value": 13
     },
     {
-      "name": "CraftCreative",
+      "name": "craftcreative",
       "value": 14
     },
     {
-      "name": "CraftRecipeOptional",
+      "name": "craftrecipeoptional",
       "value": 15
     },
     {
-      "name": "CraftRepairAndDisenchant",
+      "name": "craftrepairanddisenchant",
       "value": 16
     },
     {
-      "name": "CraftLoom",
+      "name": "craftloom",
       "value": 17
     },
     {
-      "name": "CraftNonImplemented",
+      "name": "craftnonimplemented",
       "value": 18
     },
     {
-      "name": "CraftResults",
+      "name": "craftresults",
       "value": 19
     }
   ]
