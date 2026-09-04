@@ -2,23 +2,23 @@
   "name": "InteractPacketPayload::Action",
   "values": [
     {
-      "name": "Invalid",
+      "name": "invalid",
       "value": 0
     },
     {
-      "name": "StopRiding",
+      "name": "stopriding",
       "value": 3
     },
     {
-      "name": "InteractUpdate",
+      "name": "interactupdate",
       "value": 4
     },
     {
-      "name": "NpcOpen",
+      "name": "npcopen",
       "value": 5
     },
     {
-      "name": "OpenInventory",
+      "name": "openinventory",
       "value": 6
     }
   ]

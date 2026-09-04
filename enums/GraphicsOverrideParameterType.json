@@ -2,107 +2,107 @@
   "name": "GraphicsOverrideParameterType",
   "values": [
     {
-      "name": "SkyZenithColor",
+      "name": "skyzenithcolor",
       "value": 0
     },
     {
-      "name": "SkyHorizonColor",
+      "name": "skyhorizoncolor",
       "value": 1
     },
     {
-      "name": "HorizonBlendMin",
+      "name": "horizonblendmin",
       "value": 2
     },
     {
-      "name": "HorizonBlendMax",
+      "name": "horizonblendmax",
       "value": 3
     },
     {
-      "name": "HorizonBlendStart",
+      "name": "horizonblendstart",
       "value": 4
     },
     {
-      "name": "HorizonBlendMieStart",
+      "name": "horizonblendmiestart",
       "value": 5
     },
     {
-      "name": "RayleighStrength",
+      "name": "rayleighstrength",
       "value": 6
     },
     {
-      "name": "SunMieStrength",
+      "name": "sunmiestrength",
       "value": 7
     },
     {
-      "name": "MoonMieStrength",
+      "name": "moonmiestrength",
       "value": 8
     },
     {
-      "name": "SunGlareShape",
+      "name": "sunglareshape",
       "value": 9
     },
     {
-      "name": "Chlorophyll",
+      "name": "chlorophyll",
       "value": 10
     },
     {
-      "name": "CDOM",
+      "name": "cdom",
       "value": 11
     },
     {
-      "name": "SuspendedSediment",
+      "name": "suspendedsediment",
       "value": 12
     },
     {
-      "name": "WavesDepth",
+      "name": "wavesdepth",
       "value": 13
     },
     {
-      "name": "WavesFrequency",
+      "name": "wavesfrequency",
       "value": 14
     },
     {
-      "name": "WavesFrequencyScaling",
+      "name": "wavesfrequencyscaling",
       "value": 15
     },
     {
-      "name": "WavesSpeed",
+      "name": "wavesspeed",
       "value": 16
     },
     {
-      "name": "WavesSpeedScaling",
+      "name": "wavesspeedscaling",
       "value": 17
     },
     {
-      "name": "WavesShape",
+      "name": "wavesshape",
       "value": 18
     },
     {
-      "name": "WavesOctaves",
+      "name": "wavesoctaves",
       "value": 19
     },
     {
-      "name": "WavesMix",
+      "name": "wavesmix",
       "value": 20
     },
     {
-      "name": "WavesPull",
+      "name": "wavespull",
       "value": 21
     },
     {
-      "name": "WavesDirectionIncrement",
+      "name": "wavesdirectionincrement",
       "value": 22
     },
     {
-      "name": "MidtonesContrast",
+      "name": "midtonescontrast",
       "value": 23
     },
     {
-      "name": "HighlightsContrast",
+      "name": "highlightscontrast",
       "value": 24
     },
     {
-      "name": "ShadowsContrast",
+      "name": "shadowscontrast",
       "value": 25
     }
   ]

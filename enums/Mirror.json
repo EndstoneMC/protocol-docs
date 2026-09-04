@@ -2,19 +2,19 @@
   "name": "Mirror",
   "values": [
     {
-      "name": "None",
+      "name": "none",
       "value": 0
     },
     {
-      "name": "X",
+      "name": "x",
       "value": 1
     },
     {
-      "name": "Z",
+      "name": "z",
       "value": 2
     },
     {
-      "name": "XZ",
+      "name": "xz",
       "value": 3
     }
   ]

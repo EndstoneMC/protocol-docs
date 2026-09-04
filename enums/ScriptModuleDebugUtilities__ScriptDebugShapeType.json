@@ -2,27 +2,27 @@
   "name": "ScriptModuleDebugUtilities::ScriptDebugShapeType",
   "values": [
     {
-      "name": "Line",
+      "name": "line",
       "value": 0
     },
     {
-      "name": "Box",
+      "name": "box",
       "value": 1
     },
     {
-      "name": "Sphere",
+      "name": "sphere",
       "value": 2
     },
     {
-      "name": "Circle",
+      "name": "circle",
       "value": 3
     },
     {
-      "name": "Text",
+      "name": "text",
       "value": 4
     },
     {
-      "name": "Arrow",
+      "name": "arrow",
       "value": 5
     }
   ]
