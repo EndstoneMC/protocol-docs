@@ -10,11 +10,7 @@
     {
       "name": "Body",
       "type": {
-        "switch": {
-          "name": "Message Type",
-          "type": "uint8",
-          "enum": "TextPacketType"
-        },
+        "switch": "uvarint32",
         "cases": [
           "TextPacketPayload::MessageOnly",
           "TextPacketPayload::AuthorAndMessage",

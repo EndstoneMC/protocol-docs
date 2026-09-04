@@ -6,9 +6,7 @@
     {
       "name": "Start Video Capture",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "PlayerVideoCapturePacketPayload::StartVideoCapture",
           "PlayerVideoCapturePacketPayload::StopVideoCapture"
@@ -18,9 +16,7 @@
     {
       "name": "Stop Video Capture",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "PlayerVideoCapturePacketPayload::StartVideoCapture",
           "PlayerVideoCapturePacketPayload::StopVideoCapture"
