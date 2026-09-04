@@ -4,9 +4,7 @@
     {
       "name": "Item stack net ID variant",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "TypedServerNetId<struct ItemStackNetIdTag, int32_t, 0>",
           "TypedClientNetId<struct ItemStackRequestIdTag, int32_t, 0>",
