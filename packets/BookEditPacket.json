@@ -9,9 +9,7 @@
     {
       "name": "Operation",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "BookEditAction::ReplacePage",
           "BookEditAction::AddPage",
