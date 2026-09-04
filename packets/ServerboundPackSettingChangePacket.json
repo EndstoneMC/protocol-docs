@@ -16,9 +16,7 @@
     {
       "name": "PackSettingValue",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "float",
           "bool",

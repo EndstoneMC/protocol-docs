@@ -4,7 +4,8 @@
     {
       "name": "Action type",
       "type": "uint8",
-      "enum": "ItemStackRequestActionType"
+      "enum": "ItemStackRequestActionType",
+      "value": 13
     },
     {
       "name": "Recipe Net Id",

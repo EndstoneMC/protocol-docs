@@ -4,9 +4,7 @@
     {
       "name": "Item Descriptor",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "ItemStackRequestCereal::EmptyItemDescriptorData",
           "ItemStackRequestCereal::ItemNameDescriptorData",

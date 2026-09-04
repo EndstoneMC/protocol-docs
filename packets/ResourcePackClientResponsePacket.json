@@ -6,11 +6,7 @@
     {
       "name": "Response",
       "type": {
-        "switch": {
-          "name": "Response Type",
-          "type": "int8",
-          "enum": "ResourcePackResponse"
-        },
+        "switch": "uvarint32",
         "cases": [
           "ResourcePackClientResponsePacketPayload::Cancel",
           "ResourcePackClientResponsePacketPayload::Downloading",

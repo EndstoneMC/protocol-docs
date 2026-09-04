@@ -11,9 +11,7 @@
     {
       "name": "Actions",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "ItemStackRequestCereal::TakeActionData",
           "ItemStackRequestCereal::PlaceActionData",
