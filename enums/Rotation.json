@@ -2,31 +2,31 @@
   "name": "Rotation",
   "values": [
     {
-      "name": "None",
+      "name": "none",
       "value": 0
     },
     {
-      "name": "Rotate90",
+      "name": "rotate90",
       "value": 1
     },
     {
-      "name": "Rotate180",
+      "name": "rotate180",
       "value": 2
     },
     {
-      "name": "Rotate270",
+      "name": "rotate270",
       "value": 3
     },
     {
-      "name": "Clockwise90",
+      "name": "clockwise90",
       "value": 1
     },
     {
-      "name": "Clockwise180",
+      "name": "clockwise180",
       "value": 2
     },
     {
-      "name": "CounterClockwise90",
+      "name": "counterclockwise90",
       "value": 3
     }
   ]

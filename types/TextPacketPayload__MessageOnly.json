@@ -17,25 +17,25 @@
       "name": "systemMessage",
       "type": "string",
       "enum": "TextPacketType",
-      "value": "systemMessage"
+      "value": "systemmessage"
     },
     {
       "name": "textObjectWhisper",
       "type": "string",
       "enum": "TextPacketType",
-      "value": "textObjectWhisper"
+      "value": "textobjectwhisper"
     },
     {
       "name": "textObjectAnnouncement",
       "type": "string",
       "enum": "TextPacketType",
-      "value": "textObjectAnnouncement"
+      "value": "textobjectannouncement"
     },
     {
       "name": "textObject",
       "type": "string",
       "enum": "TextPacketType",
-      "value": "textObject"
+      "value": "textobject"
     },
     {
       "name": "Message Type",

@@ -2,11 +2,11 @@
   "name": "SpawnPositionType",
   "values": [
     {
-      "name": "PlayerRespawn",
+      "name": "playerrespawn",
       "value": 0
     },
     {
-      "name": "WorldSpawn",
+      "name": "worldspawn",
       "value": 1
     }
   ]

@@ -2,131 +2,131 @@
   "name": "LegacyTelemetryEventPacketPayload::Type",
   "values": [
     {
-      "name": "Achievement",
+      "name": "achievement",
       "value": 0
     },
     {
-      "name": "Interaction",
+      "name": "interaction",
       "value": 1
     },
     {
-      "name": "PortalCreated",
+      "name": "portalcreated",
       "value": 2
     },
     {
-      "name": "PortalUsed",
+      "name": "portalused",
       "value": 3
     },
     {
-      "name": "MobKilled",
+      "name": "mobkilled",
       "value": 4
     },
     {
-      "name": "CauldronUsed",
+      "name": "cauldronused",
       "value": 5
     },
     {
-      "name": "PlayerDied",
+      "name": "playerdied",
       "value": 6
     },
     {
-      "name": "BossKilled",
+      "name": "bosskilled",
       "value": 7
     },
     {
-      "name": "AgentCommand_OBSOLETE",
+      "name": "agentcommand_obsolete",
       "value": 8
     },
     {
-      "name": "AgentCreated",
+      "name": "agentcreated",
       "value": 9
     },
     {
-      "name": "PatternRemoved_OBSOLETE",
+      "name": "patternremoved_obsolete",
       "value": 10
     },
     {
-      "name": "SlashCommand",
+      "name": "slashcommand",
       "value": 11
     },
     {
-      "name": "FishBucketed_OBSOLETE",
+      "name": "fishbucketed_obsolete",
       "value": 12
     },
     {
-      "name": "MobBorn",
+      "name": "mobborn",
       "value": 13
     },
     {
-      "name": "PetDied_OBSOLETE",
+      "name": "petdied_obsolete",
       "value": 14
     },
     {
-      "name": "POICauldronUsed",
+      "name": "poicauldronused",
       "value": 15
     },
     {
-      "name": "ComposterUsed",
+      "name": "composterused",
       "value": 16
     },
     {
-      "name": "BellUsed",
+      "name": "bellused",
       "value": 17
     },
     {
-      "name": "ActorDefinition",
+      "name": "actordefinition",
       "value": 18
     },
     {
-      "name": "RaidUpdate",
+      "name": "raidupdate",
       "value": 19
     },
     {
-      "name": "PlayerMovementAnomaly_OBSOLETE",
+      "name": "playermovementanomaly_obsolete",
       "value": 20
     },
     {
-      "name": "PlayerMovementCorrected_OBSOLETE",
+      "name": "playermovementcorrected_obsolete",
       "value": 21
     },
     {
-      "name": "HoneyHarvested",
+      "name": "honeyharvested",
       "value": 22
     },
     {
-      "name": "TargetBlockHit",
+      "name": "targetblockhit",
       "value": 23
     },
     {
-      "name": "PiglinBarter",
+      "name": "piglinbarter",
       "value": 24
     },
     {
-      "name": "PlayerWaxedOrUnwaxedCopper",
+      "name": "playerwaxedorunwaxedcopper",
       "value": 25
     },
     {
-      "name": "CodeBuilderRuntimeAction",
+      "name": "codebuilderruntimeaction",
       "value": 26
     },
     {
-      "name": "CodeBuilderScoreboard",
+      "name": "codebuilderscoreboard",
       "value": 27
     },
     {
-      "name": "StriderRiddenInLavaInOverworld",
+      "name": "striderriddeninlavainoverworld",
       "value": 28
     },
     {
-      "name": "SneakCloseToSculkSensor",
+      "name": "sneakclosetosculksensor",
       "value": 29
     },
     {
-      "name": "CarefulRestoration",
+      "name": "carefulrestoration",
       "value": 30
     },
     {
-      "name": "ItemUsed",
+      "name": "itemused",
       "value": 31
     }
   ]

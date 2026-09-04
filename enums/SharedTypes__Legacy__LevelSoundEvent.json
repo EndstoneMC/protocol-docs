@@ -2,2163 +2,2163 @@
   "name": "SharedTypes::Legacy::LevelSoundEvent",
   "values": [
     {
-      "name": "ItemUseOn",
+      "name": "itemuseon",
       "value": 0
     },
     {
-      "name": "Hit",
+      "name": "hit",
       "value": 1
     },
     {
-      "name": "Step",
+      "name": "step",
       "value": 2
     },
     {
-      "name": "Fly",
+      "name": "fly",
       "value": 3
     },
     {
-      "name": "Jump",
+      "name": "jump",
       "value": 4
     },
     {
-      "name": "Break",
+      "name": "break",
       "value": 5
     },
     {
-      "name": "Place",
+      "name": "place",
       "value": 6
     },
     {
-      "name": "HeavyStep",
+      "name": "heavystep",
       "value": 7
     },
     {
-      "name": "Gallop",
+      "name": "gallop",
       "value": 8
     },
     {
-      "name": "Fall",
+      "name": "fall",
       "value": 9
     },
     {
-      "name": "Ambient",
+      "name": "ambient",
       "value": 10
     },
     {
-      "name": "AmbientBaby",
+      "name": "ambientbaby",
       "value": 11
     },
     {
-      "name": "AmbientInWater",
+      "name": "ambientinwater",
       "value": 12
     },
     {
-      "name": "Breathe",
+      "name": "breathe",
       "value": 13
     },
     {
-      "name": "Death",
+      "name": "death",
       "value": 14
     },
     {
-      "name": "DeathInWater",
+      "name": "deathinwater",
       "value": 15
     },
     {
-      "name": "DeathToZombie",
+      "name": "deathtozombie",
       "value": 16
     },
     {
-      "name": "Hurt",
+      "name": "hurt",
       "value": 17
     },
     {
-      "name": "HurtInWater",
+      "name": "hurtinwater",
       "value": 18
     },
     {
-      "name": "Mad",
+      "name": "mad",
       "value": 19
     },
     {
-      "name": "Boost",
+      "name": "boost",
       "value": 20
     },
     {
-      "name": "Bow",
+      "name": "bow",
       "value": 21
     },
     {
-      "name": "SquishBig",
+      "name": "squishbig",
       "value": 22
     },
     {
-      "name": "SquishSmall",
+      "name": "squishsmall",
       "value": 23
     },
     {
-      "name": "FallBig",
+      "name": "fallbig",
       "value": 24
     },
     {
-      "name": "FallSmall",
+      "name": "fallsmall",
       "value": 25
     },
     {
-      "name": "Splash",
+      "name": "splash",
       "value": 26
     },
     {
-      "name": "Fizz",
+      "name": "fizz",
       "value": 27
     },
     {
-      "name": "Flap",
+      "name": "flap",
       "value": 28
     },
     {
-      "name": "Swim",
+      "name": "swim",
       "value": 29
     },
     {
-      "name": "Drink",
+      "name": "drink",
       "value": 30
     },
     {
-      "name": "Eat",
+      "name": "eat",
       "value": 31
     },
     {
-      "name": "Takeoff",
+      "name": "takeoff",
       "value": 32
     },
     {
-      "name": "Shake",
+      "name": "shake",
       "value": 33
     },
     {
-      "name": "Plop",
+      "name": "plop",
       "value": 34
     },
     {
-      "name": "Land",
+      "name": "land",
       "value": 35
     },
     {
-      "name": "Saddle",
+      "name": "saddle",
       "value": 36
     },
     {
-      "name": "Armor",
+      "name": "armor",
       "value": 37
     },
     {
-      "name": "ArmorPlace",
+      "name": "armorplace",
       "value": 38
     },
     {
-      "name": "AddChest",
+      "name": "addchest",
       "value": 39
     },
     {
-      "name": "Throw",
+      "name": "throw",
       "value": 40
     },
     {
-      "name": "Attack",
+      "name": "attack",
       "value": 41
     },
     {
-      "name": "AttackNoDamage",
+      "name": "attacknodamage",
       "value": 42
     },
     {
-      "name": "AttackStrong",
+      "name": "attackstrong",
       "value": 43
     },
     {
-      "name": "Warn",
+      "name": "warn",
       "value": 44
     },
     {
-      "name": "Shear",
+      "name": "shear",
       "value": 45
     },
     {
-      "name": "Milk",
+      "name": "milk",
       "value": 46
     },
     {
-      "name": "Thunder",
+      "name": "thunder",
       "value": 47
     },
     {
-      "name": "Explode",
+      "name": "explode",
       "value": 48
     },
     {
-      "name": "Fire",
+      "name": "fire",
       "value": 49
     },
     {
-      "name": "Ignite",
+      "name": "ignite",
       "value": 50
     },
     {
-      "name": "Fuse",
+      "name": "fuse",
       "value": 51
     },
     {
-      "name": "Stare",
+      "name": "stare",
       "value": 52
     },
     {
-      "name": "Spawn",
+      "name": "spawn",
       "value": 53
     },
     {
-      "name": "Shoot",
+      "name": "shoot",
       "value": 54
     },
     {
-      "name": "BreakBlock",
+      "name": "breakblock",
       "value": 55
     },
     {
-      "name": "Launch",
+      "name": "launch",
       "value": 56
     },
     {
-      "name": "Blast",
+      "name": "blast",
       "value": 57
     },
     {
-      "name": "LargeBlast",
+      "name": "largeblast",
       "value": 58
     },
     {
-      "name": "Twinkle",
+      "name": "twinkle",
       "value": 59
     },
     {
-      "name": "Remedy",
+      "name": "remedy",
       "value": 60
     },
     {
-      "name": "Unfect",
+      "name": "unfect",
       "value": 61
     },
     {
-      "name": "LevelUp",
+      "name": "levelup",
       "value": 62
     },
     {
-      "name": "BowHit",
+      "name": "bowhit",
       "value": 63
     },
     {
-      "name": "BulletHit",
+      "name": "bullethit",
       "value": 64
     },
     {
-      "name": "ExtinguishFire",
+      "name": "extinguishfire",
       "value": 65
     },
     {
-      "name": "ItemFizz",
+      "name": "itemfizz",
       "value": 66
     },
     {
-      "name": "ChestOpen",
+      "name": "chestopen",
       "value": 67
     },
     {
-      "name": "ChestClosed",
+      "name": "chestclosed",
       "value": 68
     },
     {
-      "name": "ShulkerBoxOpen",
+      "name": "shulkerboxopen",
       "value": 69
     },
     {
-      "name": "ShulkerBoxClosed",
+      "name": "shulkerboxclosed",
       "value": 70
     },
     {
-      "name": "EnderChestOpen",
+      "name": "enderchestopen",
       "value": 71
     },
     {
-      "name": "EnderChestClosed",
+      "name": "enderchestclosed",
       "value": 72
     },
     {
-      "name": "PowerOn",
+      "name": "poweron",
       "value": 73
     },
     {
-      "name": "PowerOff",
+      "name": "poweroff",
       "value": 74
     },
     {
-      "name": "Attach",
+      "name": "attach",
       "value": 75
     },
     {
-      "name": "Detach",
+      "name": "detach",
       "value": 76
     },
     {
-      "name": "Deny",
+      "name": "deny",
       "value": 77
     },
     {
-      "name": "Tripod",
+      "name": "tripod",
       "value": 78
     },
     {
-      "name": "Pop",
+      "name": "pop",
       "value": 79
     },
     {
-      "name": "DropSlot",
+      "name": "dropslot",
       "value": 80
     },
     {
-      "name": "Note",
+      "name": "note",
       "value": 81
     },
     {
-      "name": "Thorns",
+      "name": "thorns",
       "value": 82
     },
     {
-      "name": "PistonIn",
+      "name": "pistonin",
       "value": 83
     },
     {
-      "name": "PistonOut",
+      "name": "pistonout",
       "value": 84
     },
     {
-      "name": "Portal",
+      "name": "portal",
       "value": 85
     },
     {
-      "name": "Water",
+      "name": "water",
       "value": 86
     },
     {
-      "name": "LavaPop",
+      "name": "lavapop",
       "value": 87
     },
     {
-      "name": "Lava",
+      "name": "lava",
       "value": 88
     },
     {
-      "name": "Burp",
+      "name": "burp",
       "value": 89
     },
     {
-      "name": "BucketFillWater",
+      "name": "bucketfillwater",
       "value": 90
     },
     {
-      "name": "BucketFillLava",
+      "name": "bucketfilllava",
       "value": 91
     },
     {
-      "name": "BucketEmptyWater",
+      "name": "bucketemptywater",
       "value": 92
     },
     {
-      "name": "BucketEmptyLava",
+      "name": "bucketemptylava",
       "value": 93
     },
     {
-      "name": "EquipChain",
+      "name": "equipchain",
       "value": 94
     },
     {
-      "name": "EquipDiamond",
+      "name": "equipdiamond",
       "value": 95
     },
     {
-      "name": "EquipGeneric",
+      "name": "equipgeneric",
       "value": 96
     },
     {
-      "name": "EquipGold",
+      "name": "equipgold",
       "value": 97
     },
     {
-      "name": "EquipIron",
+      "name": "equipiron",
       "value": 98
     },
     {
-      "name": "EquipLeather",
+      "name": "equipleather",
       "value": 99
     },
     {
-      "name": "EquipElytra",
+      "name": "equipelytra",
       "value": 100
     },
     {
-      "name": "Record13",
+      "name": "record13",
       "value": 101
     },
     {
-      "name": "RecordCat",
+      "name": "recordcat",
       "value": 102
     },
     {
-      "name": "RecordBlocks",
+      "name": "recordblocks",
       "value": 103
     },
     {
-      "name": "RecordChirp",
+      "name": "recordchirp",
       "value": 104
     },
     {
-      "name": "RecordFar",
+      "name": "recordfar",
       "value": 105
     },
     {
-      "name": "RecordMall",
+      "name": "recordmall",
       "value": 106
     },
     {
-      "name": "RecordMellohi",
+      "name": "recordmellohi",
       "value": 107
     },
     {
-      "name": "RecordStal",
+      "name": "recordstal",
       "value": 108
     },
     {
-      "name": "RecordStrad",
+      "name": "recordstrad",
       "value": 109
     },
     {
-      "name": "RecordWard",
+      "name": "recordward",
       "value": 110
     },
     {
-      "name": "Record11",
+      "name": "record11",
       "value": 111
     },
     {
-      "name": "RecordWait",
+      "name": "recordwait",
       "value": 112
     },
     {
-      "name": "RecordNull",
+      "name": "recordnull",
       "value": 113
     },
     {
-      "name": "Flop",
+      "name": "flop",
       "value": 114
     },
     {
-      "name": "GuardianCurse",
+      "name": "guardiancurse",
       "value": 115
     },
     {
-      "name": "MobWarning",
+      "name": "mobwarning",
       "value": 116
     },
     {
-      "name": "MobWarningBaby",
+      "name": "mobwarningbaby",
       "value": 117
     },
     {
-      "name": "Teleport",
+      "name": "teleport",
       "value": 118
     },
     {
-      "name": "ShulkerOpen",
+      "name": "shulkeropen",
       "value": 119
     },
     {
-      "name": "ShulkerClose",
+      "name": "shulkerclose",
       "value": 120
     },
     {
-      "name": "Haggle",
+      "name": "haggle",
       "value": 121
     },
     {
-      "name": "HaggleYes",
+      "name": "haggleyes",
       "value": 122
     },
     {
-      "name": "HaggleNo",
+      "name": "haggleno",
       "value": 123
     },
     {
-      "name": "HaggleIdle",
+      "name": "haggleidle",
       "value": 124
     },
     {
-      "name": "ChorusGrow",
+      "name": "chorusgrow",
       "value": 125
     },
     {
-      "name": "ChorusDeath",
+      "name": "chorusdeath",
       "value": 126
     },
     {
-      "name": "Glass",
+      "name": "glass",
       "value": 127
     },
     {
-      "name": "PotionBrewed",
+      "name": "potionbrewed",
       "value": 128
     },
     {
-      "name": "CastSpell",
+      "name": "castspell",
       "value": 129
     },
     {
-      "name": "PrepareAttackSpell",
+      "name": "prepareattackspell",
       "value": 130
     },
     {
-      "name": "PrepareSummon",
+      "name": "preparesummon",
       "value": 131
     },
     {
-      "name": "PrepareWololo",
+      "name": "preparewololo",
       "value": 132
     },
     {
-      "name": "Fang",
+      "name": "fang",
       "value": 133
     },
     {
-      "name": "Charge",
+      "name": "charge",
       "value": 134
     },
     {
-      "name": "TakePicture",
+      "name": "takepicture",
       "value": 135
     },
     {
-      "name": "PlaceLeashKnot",
+      "name": "placeleashknot",
       "value": 136
     },
     {
-      "name": "BreakLeashKnot",
+      "name": "breakleashknot",
       "value": 137
     },
     {
-      "name": "AmbientGrowl",
+      "name": "ambientgrowl",
       "value": 138
     },
     {
-      "name": "AmbientWhine",
+      "name": "ambientwhine",
       "value": 139
     },
     {
-      "name": "AmbientPant",
+      "name": "ambientpant",
       "value": 140
     },
     {
-      "name": "AmbientPurr",
+      "name": "ambientpurr",
       "value": 141
     },
     {
-      "name": "AmbientPurreow",
+      "name": "ambientpurreow",
       "value": 142
     },
     {
-      "name": "DeathMinVolume",
+      "name": "deathminvolume",
       "value": 143
     },
     {
-      "name": "DeathMidVolume",
+      "name": "deathmidvolume",
       "value": 144
     },
     {
-      "name": "ImitateBlaze",
+      "name": "imitateblaze",
       "value": 145
     },
     {
-      "name": "ImitateCaveSpider",
+      "name": "imitatecavespider",
       "value": 146
     },
     {
-      "name": "ImitateCreeper",
+      "name": "imitatecreeper",
       "value": 147
     },
     {
-      "name": "ImitateElderGuardian",
+      "name": "imitateelderguardian",
       "value": 148
     },
     {
-      "name": "ImitateEnderDragon",
+      "name": "imitateenderdragon",
       "value": 149
     },
     {
-      "name": "ImitateEnderman",
+      "name": "imitateenderman",
       "value": 150
     },
     {
-      "name": "ImitateEndermite",
+      "name": "imitateendermite",
       "value": 151
     },
     {
-      "name": "ImitateEvocationIllager",
+      "name": "imitateevocationillager",
       "value": 152
     },
     {
-      "name": "ImitateGhast",
+      "name": "imitateghast",
       "value": 153
     },
     {
-      "name": "ImitateHusk",
+      "name": "imitatehusk",
       "value": 154
     },
     {
-      "name": "ImitateMagmaCube",
+      "name": "imitatemagmacube",
       "value": 156
     },
     {
-      "name": "ImitatePolarBear",
+      "name": "imitatepolarbear",
       "value": 157
     },
     {
-      "name": "ImitateShulker",
+      "name": "imitateshulker",
       "value": 158
     },
     {
-      "name": "ImitateSilverfish",
+      "name": "imitatesilverfish",
       "value": 159
     },
     {
-      "name": "ImitateSkeleton",
+      "name": "imitateskeleton",
       "value": 160
     },
     {
-      "name": "ImitateSlime",
+      "name": "imitateslime",
       "value": 161
     },
     {
-      "name": "ImitateSpider",
+      "name": "imitatespider",
       "value": 162
     },
     {
-      "name": "ImitateStray",
+      "name": "imitatestray",
       "value": 163
     },
     {
-      "name": "ImitateVex",
+      "name": "imitatevex",
       "value": 164
     },
     {
-      "name": "ImitateVindicationIllager",
+      "name": "imitatevindicationillager",
       "value": 165
     },
     {
-      "name": "ImitateWitch",
+      "name": "imitatewitch",
       "value": 166
     },
     {
-      "name": "ImitateWither",
+      "name": "imitatewither",
       "value": 167
     },
     {
-      "name": "ImitateWitherSkeleton",
+      "name": "imitatewitherskeleton",
       "value": 168
     },
     {
-      "name": "ImitateWolf",
+      "name": "imitatewolf",
       "value": 169
     },
     {
-      "name": "ImitateZombie",
+      "name": "imitatezombie",
       "value": 170
     },
     {
-      "name": "ImitateZombiePigman",
+      "name": "imitatezombiepigman",
       "value": 171
     },
     {
-      "name": "ImitateZombieVillager",
+      "name": "imitatezombievillager",
       "value": 172
     },
     {
-      "name": "EnderEyePlaced",
+      "name": "endereyeplaced",
       "value": 173
     },
     {
-      "name": "EndPortalCreated",
+      "name": "endportalcreated",
       "value": 174
     },
     {
-      "name": "AnvilUse",
+      "name": "anviluse",
       "value": 175
     },
     {
-      "name": "BottleDragonBreath",
+      "name": "bottledragonbreath",
       "value": 176
     },
     {
-      "name": "PortalTravel",
+      "name": "portaltravel",
       "value": 177
     },
     {
-      "name": "TridentHit",
+      "name": "tridenthit",
       "value": 178
     },
     {
-      "name": "TridentReturn",
+      "name": "tridentreturn",
       "value": 179
     },
     {
-      "name": "TridentRiptide_1",
+      "name": "tridentriptide_1",
       "value": 180
     },
     {
-      "name": "TridentRiptide_2",
+      "name": "tridentriptide_2",
       "value": 181
     },
     {
-      "name": "TridentRiptide_3",
+      "name": "tridentriptide_3",
       "value": 182
     },
     {
-      "name": "TridentThrow",
+      "name": "tridentthrow",
       "value": 183
     },
     {
-      "name": "TridentThunder",
+      "name": "tridentthunder",
       "value": 184
     },
     {
-      "name": "TridentHitGround",
+      "name": "tridenthitground",
       "value": 185
     },
     {
-      "name": "Default",
+      "name": "default",
       "value": 186
     },
     {
-      "name": "FletchingTableUse",
+      "name": "fletchingtableuse",
       "value": 187
     },
     {
-      "name": "ElemConstructOpen",
+      "name": "elemconstructopen",
       "value": 188
     },
     {
-      "name": "IceBombHit",
+      "name": "icebombhit",
       "value": 189
     },
     {
-      "name": "BalloonPop",
+      "name": "balloonpop",
       "value": 190
     },
     {
-      "name": "LTReactionIceBomb",
+      "name": "ltreactionicebomb",
       "value": 191
     },
     {
-      "name": "LTReactionBleach",
+      "name": "ltreactionbleach",
       "value": 192
     },
     {
-      "name": "LTReactionElephantToothpaste",
+      "name": "ltreactionelephanttoothpaste",
       "value": 193
     },
     {
-      "name": "LTReactionElephantToothpaste2",
+      "name": "ltreactionelephanttoothpaste2",
       "value": 194
     },
     {
-      "name": "LTReactionGlowStick",
+      "name": "ltreactionglowstick",
       "value": 195
     },
     {
-      "name": "LTReactionGlowStick2",
+      "name": "ltreactionglowstick2",
       "value": 196
     },
     {
-      "name": "LTReactionLuminol",
+      "name": "ltreactionluminol",
       "value": 197
     },
     {
-      "name": "LTReactionSalt",
+      "name": "ltreactionsalt",
       "value": 198
     },
     {
-      "name": "LTReactionFertilizer",
+      "name": "ltreactionfertilizer",
       "value": 199
     },
     {
-      "name": "LTReactionFireball",
+      "name": "ltreactionfireball",
       "value": 200
     },
     {
-      "name": "LTReactionMagnesiumSalt",
+      "name": "ltreactionmagnesiumsalt",
       "value": 201
     },
     {
-      "name": "LTReactionMiscFire",
+      "name": "ltreactionmiscfire",
       "value": 202
     },
     {
-      "name": "LTReactionFire",
+      "name": "ltreactionfire",
       "value": 203
     },
     {
-      "name": "LTReactionMiscExplosion",
+      "name": "ltreactionmiscexplosion",
       "value": 204
     },
     {
-      "name": "LTReactionMiscMystical",
+      "name": "ltreactionmiscmystical",
       "value": 205
     },
     {
-      "name": "LTReactionMiscMystical2",
+      "name": "ltreactionmiscmystical2",
       "value": 206
     },
     {
-      "name": "LTReactionProduct",
+      "name": "ltreactionproduct",
       "value": 207
     },
     {
-      "name": "SparklerUse",
+      "name": "sparkleruse",
       "value": 208
     },
     {
-      "name": "GlowStickUse",
+      "name": "glowstickuse",
       "value": 209
     },
     {
-      "name": "SparklerActive",
+      "name": "sparkleractive",
       "value": 210
     },
     {
-      "name": "ConvertToDrowned",
+      "name": "converttodrowned",
       "value": 211
     },
     {
-      "name": "BucketFillFish",
+      "name": "bucketfillfish",
       "value": 212
     },
     {
-      "name": "BucketEmptyFish",
+      "name": "bucketemptyfish",
       "value": 213
     },
     {
-      "name": "BubbleColumnUpwards",
+      "name": "bubblecolumnupwards",
       "value": 214
     },
     {
-      "name": "BubbleColumnDownwards",
+      "name": "bubblecolumndownwards",
       "value": 215
     },
     {
-      "name": "BubblePop",
+      "name": "bubblepop",
       "value": 216
     },
     {
-      "name": "BubbleUpInside",
+      "name": "bubbleupinside",
       "value": 217
     },
     {
-      "name": "BubbleDownInside",
+      "name": "bubbledowninside",
       "value": 218
     },
     {
-      "name": "HurtBaby",
+      "name": "hurtbaby",
       "value": 219
     },
     {
-      "name": "DeathBaby",
+      "name": "deathbaby",
       "value": 220
     },
     {
-      "name": "StepBaby",
+      "name": "stepbaby",
       "value": 221
     },
     {
-      "name": "SpawnBaby",
+      "name": "spawnbaby",
       "value": 222
     },
     {
-      "name": "Born",
+      "name": "born",
       "value": 223
     },
     {
-      "name": "TurtleEggBreak",
+      "name": "turtleeggbreak",
       "value": 224
     },
     {
-      "name": "TurtleEggCrack",
+      "name": "turtleeggcrack",
       "value": 225
     },
     {
-      "name": "TurtleEggHatched",
+      "name": "turtleegghatched",
       "value": 226
     },
     {
-      "name": "LayEgg",
+      "name": "layegg",
       "value": 227
     },
     {
-      "name": "TurtleEggAttacked",
+      "name": "turtleeggattacked",
       "value": 228
     },
     {
-      "name": "BeaconActivate",
+      "name": "beaconactivate",
       "value": 229
     },
     {
-      "name": "BeaconAmbient",
+      "name": "beaconambient",
       "value": 230
     },
     {
-      "name": "BeaconDeactivate",
+      "name": "beacondeactivate",
       "value": 231
     },
     {
-      "name": "BeaconPower",
+      "name": "beaconpower",
       "value": 232
     },
     {
-      "name": "ConduitActivate",
+      "name": "conduitactivate",
       "value": 233
     },
     {
-      "name": "ConduitAmbient",
+      "name": "conduitambient",
       "value": 234
     },
     {
-      "name": "ConduitAttack",
+      "name": "conduitattack",
       "value": 235
     },
     {
-      "name": "ConduitDeactivate",
+      "name": "conduitdeactivate",
       "value": 236
     },
     {
-      "name": "ConduitShort",
+      "name": "conduitshort",
       "value": 237
     },
     {
-      "name": "Swoop",
+      "name": "swoop",
       "value": 238
     },
     {
-      "name": "BambooSaplingPlace",
+      "name": "bamboosaplingplace",
       "value": 239
     },
     {
-      "name": "PreSneeze",
+      "name": "presneeze",
       "value": 240
     },
     {
-      "name": "Sneeze",
+      "name": "sneeze",
       "value": 241
     },
     {
-      "name": "AmbientTame",
+      "name": "ambienttame",
       "value": 242
     },
     {
-      "name": "Scared",
+      "name": "scared",
       "value": 243
     },
     {
-      "name": "ScaffoldingClimb",
+      "name": "scaffoldingclimb",
       "value": 244
     },
     {
-      "name": "CrossbowLoadingStart",
+      "name": "crossbowloadingstart",
       "value": 245
     },
     {
-      "name": "CrossbowLoadingMiddle",
+      "name": "crossbowloadingmiddle",
       "value": 246
     },
     {
-      "name": "CrossbowLoadingEnd",
+      "name": "crossbowloadingend",
       "value": 247
     },
     {
-      "name": "CrossbowShoot",
+      "name": "crossbowshoot",
       "value": 248
     },
     {
-      "name": "CrossbowQuickChargeStart",
+      "name": "crossbowquickchargestart",
       "value": 249
     },
     {
-      "name": "CrossbowQuickChargeMiddle",
+      "name": "crossbowquickchargemiddle",
       "value": 250
     },
     {
-      "name": "CrossbowQuickChargeEnd",
+      "name": "crossbowquickchargeend",
       "value": 251
     },
     {
-      "name": "AmbientAggressive",
+      "name": "ambientaggressive",
       "value": 252
     },
     {
-      "name": "AmbientWorried",
+      "name": "ambientworried",
       "value": 253
     },
     {
-      "name": "CantBreed",
+      "name": "cantbreed",
       "value": 254
     },
     {
-      "name": "ShieldBlock",
+      "name": "shieldblock",
       "value": 255
     },
     {
-      "name": "LecternBookPlace",
+      "name": "lecternbookplace",
       "value": 256
     },
     {
-      "name": "GrindstoneUse",
+      "name": "grindstoneuse",
       "value": 257
     },
     {
-      "name": "Bell",
+      "name": "bell",
       "value": 258
     },
     {
-      "name": "CampfireCrackle",
+      "name": "campfirecrackle",
       "value": 259
     },
     {
-      "name": "Roar",
+      "name": "roar",
       "value": 260
     },
     {
-      "name": "Stun",
+      "name": "stun",
       "value": 261
     },
     {
-      "name": "SweetBerryBushHurt",
+      "name": "sweetberrybushhurt",
       "value": 262
     },
     {
-      "name": "SweetBerryBushPick",
+      "name": "sweetberrybushpick",
       "value": 263
     },
     {
-      "name": "CartographyTableUse",
+      "name": "cartographytableuse",
       "value": 264
     },
     {
-      "name": "StonecutterUse",
+      "name": "stonecutteruse",
       "value": 265
     },
     {
-      "name": "ComposterEmpty",
+      "name": "composterempty",
       "value": 266
     },
     {
-      "name": "ComposterFill",
+      "name": "composterfill",
       "value": 267
     },
     {
-      "name": "ComposterFillLayer",
+      "name": "composterfilllayer",
       "value": 268
     },
     {
-      "name": "ComposterReady",
+      "name": "composterready",
       "value": 269
     },
     {
-      "name": "BarrelOpen",
+      "name": "barrelopen",
       "value": 270
     },
     {
-      "name": "BarrelClose",
+      "name": "barrelclose",
       "value": 271
     },
     {
-      "name": "RaidHorn",
+      "name": "raidhorn",
       "value": 272
     },
     {
-      "name": "LoomUse",
+      "name": "loomuse",
       "value": 273
     },
     {
-      "name": "AmbientInRaid",
+      "name": "ambientinraid",
       "value": 274
     },
     {
-      "name": "UICartographyTableUse",
+      "name": "uicartographytableuse",
       "value": 275
     },
     {
-      "name": "UIStonecutterUse",
+      "name": "uistonecutteruse",
       "value": 276
     },
     {
-      "name": "UILoomUse",
+      "name": "uiloomuse",
       "value": 277
     },
     {
-      "name": "SmokerUse",
+      "name": "smokeruse",
       "value": 278
     },
     {
-      "name": "BlastFurnaceUse",
+      "name": "blastfurnaceuse",
       "value": 279
     },
     {
-      "name": "SmithingTableUse",
+      "name": "smithingtableuse",
       "value": 280
     },
     {
-      "name": "Screech",
+      "name": "screech",
       "value": 281
     },
     {
-      "name": "Sleep",
+      "name": "sleep",
       "value": 282
     },
     {
-      "name": "FurnaceUse",
+      "name": "furnaceuse",
       "value": 283
     },
     {
-      "name": "MooshroomConvert",
+      "name": "mooshroomconvert",
       "value": 284
     },
     {
-      "name": "MilkSuspiciously",
+      "name": "milksuspiciously",
       "value": 285
     },
     {
-      "name": "Celebrate",
+      "name": "celebrate",
       "value": 286
     },
     {
-      "name": "JumpPrevent",
+      "name": "jumpprevent",
       "value": 287
     },
     {
-      "name": "AmbientPollinate",
+      "name": "ambientpollinate",
       "value": 288
     },
     {
-      "name": "BeehiveDrip",
+      "name": "beehivedrip",
       "value": 289
     },
     {
-      "name": "BeehiveEnter",
+      "name": "beehiveenter",
       "value": 290
     },
     {
-      "name": "BeehiveExit",
+      "name": "beehiveexit",
       "value": 291
     },
     {
-      "name": "BeehiveWork",
+      "name": "beehivework",
       "value": 292
     },
     {
-      "name": "BeehiveShear",
+      "name": "beehiveshear",
       "value": 293
     },
     {
-      "name": "HoneybottleDrink",
+      "name": "honeybottledrink",
       "value": 294
     },
     {
-      "name": "AmbientCave",
+      "name": "ambientcave",
       "value": 295
     },
     {
-      "name": "Retreat",
+      "name": "retreat",
       "value": 296
     },
     {
-      "name": "ConvertToZombified",
+      "name": "converttozombified",
       "value": 297
     },
     {
-      "name": "Admire",
+      "name": "admire",
       "value": 298
     },
     {
-      "name": "StepLava",
+      "name": "steplava",
       "value": 299
     },
     {
-      "name": "Tempt",
+      "name": "tempt",
       "value": 300
     },
     {
-      "name": "Panic",
+      "name": "panic",
       "value": 301
     },
     {
-      "name": "Angry",
+      "name": "angry",
       "value": 302
     },
     {
-      "name": "AmbientMoodWarpedForest",
+      "name": "ambientmoodwarpedforest",
       "value": 303
     },
     {
-      "name": "AmbientMoodSoulsandValley",
+      "name": "ambientmoodsoulsandvalley",
       "value": 304
     },
     {
-      "name": "AmbientMoodNetherWastes",
+      "name": "ambientmoodnetherwastes",
       "value": 305
     },
     {
-      "name": "AmbientMoodBasaltDeltas",
+      "name": "ambientmoodbasaltdeltas",
       "value": 306
     },
     {
-      "name": "AmbientMoodCrimsonForest",
+      "name": "ambientmoodcrimsonforest",
       "value": 307
     },
     {
-      "name": "RespawnAnchorCharge",
+      "name": "respawnanchorcharge",
       "value": 308
     },
     {
-      "name": "RespawnAnchorDeplete",
+      "name": "respawnanchordeplete",
       "value": 309
     },
     {
-      "name": "RespawnAnchorSetSpawn",
+      "name": "respawnanchorsetspawn",
       "value": 310
     },
     {
-      "name": "RespawnAnchorAmbient",
+      "name": "respawnanchorambient",
       "value": 311
     },
     {
-      "name": "SoulEscapeQuiet",
+      "name": "soulescapequiet",
       "value": 312
     },
     {
-      "name": "SoulEscapeLoud",
+      "name": "soulescapeloud",
       "value": 313
     },
     {
-      "name": "RecordPigstep",
+      "name": "recordpigstep",
       "value": 314
     },
     {
-      "name": "LinkCompassToLodestone",
+      "name": "linkcompasstolodestone",
       "value": 315
     },
     {
-      "name": "UseSmithingTable",
+      "name": "usesmithingtable",
       "value": 316
     },
     {
-      "name": "EquipNetherite",
+      "name": "equipnetherite",
       "value": 317
     },
     {
-      "name": "AmbientLoopWarpedForest",
+      "name": "ambientloopwarpedforest",
       "value": 318
     },
     {
-      "name": "AmbientLoopSoulsandValley",
+      "name": "ambientloopsoulsandvalley",
       "value": 319
     },
     {
-      "name": "AmbientLoopNetherWastes",
+      "name": "ambientloopnetherwastes",
       "value": 320
     },
     {
-      "name": "AmbientLoopBasaltDeltas",
+      "name": "ambientloopbasaltdeltas",
       "value": 321
     },
     {
-      "name": "AmbientLoopCrimsonForest",
+      "name": "ambientloopcrimsonforest",
       "value": 322
     },
     {
-      "name": "AmbientAdditionWarpedForest",
+      "name": "ambientadditionwarpedforest",
       "value": 323
     },
     {
-      "name": "AmbientAdditionSoulsandValley",
+      "name": "ambientadditionsoulsandvalley",
       "value": 324
     },
     {
-      "name": "AmbientAdditionNetherWastes",
+      "name": "ambientadditionnetherwastes",
       "value": 325
     },
     {
-      "name": "AmbientAdditionBasaltDeltas",
+      "name": "ambientadditionbasaltdeltas",
       "value": 326
     },
     {
-      "name": "AmbientAdditionCrimsonForest",
+      "name": "ambientadditioncrimsonforest",
       "value": 327
     },
     {
-      "name": "SculkSensorPowerOn",
+      "name": "sculksensorpoweron",
       "value": 328
     },
     {
-      "name": "SculkSensorPowerOff",
+      "name": "sculksensorpoweroff",
       "value": 329
     },
     {
-      "name": "BucketFillPowderSnow",
+      "name": "bucketfillpowdersnow",
       "value": 330
     },
     {
-      "name": "BucketEmptyPowderSnow",
+      "name": "bucketemptypowdersnow",
       "value": 331
     },
     {
-      "name": "PointedDripstoneCauldronDripWater",
+      "name": "pointeddripstonecauldrondripwater",
       "value": 332
     },
     {
-      "name": "PointedDripstoneCauldronDripLava",
+      "name": "pointeddripstonecauldrondriplava",
       "value": 333
     },
     {
-      "name": "PointedDripstoneDripWater",
+      "name": "pointeddripstonedripwater",
       "value": 334
     },
     {
-      "name": "PointedDripstoneDripLava",
+      "name": "pointeddripstonedriplava",
       "value": 335
     },
     {
-      "name": "CaveVinesPickBerries",
+      "name": "cavevinespickberries",
       "value": 336
     },
     {
-      "name": "BigDripleafTiltDown",
+      "name": "bigdripleaftiltdown",
       "value": 337
     },
     {
-      "name": "BigDripleafTiltUp",
+      "name": "bigdripleaftiltup",
       "value": 338
     },
     {
-      "name": "CopperWaxOn",
+      "name": "copperwaxon",
       "value": 339
     },
     {
-      "name": "CopperWaxOff",
+      "name": "copperwaxoff",
       "value": 340
     },
     {
-      "name": "Scrape",
+      "name": "scrape",
       "value": 341
     },
     {
-      "name": "PlayerHurtDrown",
+      "name": "playerhurtdrown",
       "value": 342
     },
     {
-      "name": "PlayerHurtOnFire",
+      "name": "playerhurtonfire",
       "value": 343
     },
     {
-      "name": "PlayerHurtFreeze",
+      "name": "playerhurtfreeze",
       "value": 344
     },
     {
-      "name": "UseSpyglass",
+      "name": "usespyglass",
       "value": 345
     },
     {
-      "name": "StopUsingSpyglass",
+      "name": "stopusingspyglass",
       "value": 346
     },
     {
-      "name": "AmethystBlockChime",
+      "name": "amethystblockchime",
       "value": 347
     },
     {
-      "name": "AmbientScreamer",
+      "name": "ambientscreamer",
       "value": 348
     },
     {
-      "name": "HurtScreamer",
+      "name": "hurtscreamer",
       "value": 349
     },
     {
-      "name": "DeathScreamer",
+      "name": "deathscreamer",
       "value": 350
     },
     {
-      "name": "MilkScreamer",
+      "name": "milkscreamer",
       "value": 351
     },
     {
-      "name": "JumpToBlock",
+      "name": "jumptoblock",
       "value": 352
     },
     {
-      "name": "PreRam",
+      "name": "preram",
       "value": 353
     },
     {
-      "name": "PreRamScreamer",
+      "name": "preramscreamer",
       "value": 354
     },
     {
-      "name": "RamImpact",
+      "name": "ramimpact",
       "value": 355
     },
     {
-      "name": "RamImpactScreamer",
+      "name": "ramimpactscreamer",
       "value": 356
     },
     {
-      "name": "SquidInkSquirt",
+      "name": "squidinksquirt",
       "value": 357
     },
     {
-      "name": "GlowSquidInkSquirt",
+      "name": "glowsquidinksquirt",
       "value": 358
     },
     {
-      "name": "ConvertToStray",
+      "name": "converttostray",
       "value": 359
     },
     {
-      "name": "CakeAddCandle",
+      "name": "cakeaddcandle",
       "value": 360
     },
     {
-      "name": "ExtinguishCandle",
+      "name": "extinguishcandle",
       "value": 361
     },
     {
-      "name": "AmbientCandle",
+      "name": "ambientcandle",
       "value": 362
     },
     {
-      "name": "BlockClick",
+      "name": "blockclick",
       "value": 363
     },
     {
-      "name": "BlockClickFail",
+      "name": "blockclickfail",
       "value": 364
     },
     {
-      "name": "SculkCatalystBloom",
+      "name": "sculkcatalystbloom",
       "value": 365
     },
     {
-      "name": "SculkShriekerShriek",
+      "name": "sculkshriekershriek",
       "value": 366
     },
     {
-      "name": "NearbyClose",
+      "name": "nearbyclose",
       "value": 367
     },
     {
-      "name": "NearbyCloser",
+      "name": "nearbycloser",
       "value": 368
     },
     {
-      "name": "NearbyClosest",
+      "name": "nearbyclosest",
       "value": 369
     },
     {
-      "name": "Agitated",
+      "name": "agitated",
       "value": 370
     },
     {
-      "name": "RecordOtherside",
+      "name": "recordotherside",
       "value": 371
     },
     {
-      "name": "Tongue",
+      "name": "tongue",
       "value": 372
     },
     {
-      "name": "CrackIronGolem",
+      "name": "crackirongolem",
       "value": 373
     },
     {
-      "name": "RepairIronGolem",
+      "name": "repairirongolem",
       "value": 374
     },
     {
-      "name": "Listening",
+      "name": "listening",
       "value": 375
     },
     {
-      "name": "Heartbeat",
+      "name": "heartbeat",
       "value": 376
     },
     {
-      "name": "HornBreak",
+      "name": "hornbreak",
       "value": 377
     },
     {
-      "name": "SculkSpread",
+      "name": "sculkspread",
       "value": 379
     },
     {
-      "name": "SculkCharge",
+      "name": "sculkcharge",
       "value": 380
     },
     {
-      "name": "SculkSensorPlace",
+      "name": "sculksensorplace",
       "value": 381
     },
     {
-      "name": "SculkShriekerPlace",
+      "name": "sculkshriekerplace",
       "value": 382
     },
     {
-      "name": "GoatCall0",
+      "name": "goatcall0",
       "value": 383
     },
     {
-      "name": "GoatCall1",
+      "name": "goatcall1",
       "value": 384
     },
     {
-      "name": "GoatCall2",
+      "name": "goatcall2",
       "value": 385
     },
     {
-      "name": "GoatCall3",
+      "name": "goatcall3",
       "value": 386
     },
     {
-      "name": "GoatCall4",
+      "name": "goatcall4",
       "value": 387
     },
     {
-      "name": "GoatCall5",
+      "name": "goatcall5",
       "value": 388
     },
     {
-      "name": "GoatCall6",
+      "name": "goatcall6",
       "value": 389
     },
     {
-      "name": "GoatCall7",
+      "name": "goatcall7",
       "value": 390
     },
     {
-      "name": "ImitateWarden",
+      "name": "imitatewarden",
       "value": 426
     },
     {
-      "name": "ListeningAngry",
+      "name": "listeningangry",
       "value": 427
     },
     {
-      "name": "Item_Given",
+      "name": "item_given",
       "value": 428
     },
     {
-      "name": "Item_Taken",
+      "name": "item_taken",
       "value": 429
     },
     {
-      "name": "Disappeared",
+      "name": "disappeared",
       "value": 430
     },
     {
-      "name": "Reappeared",
+      "name": "reappeared",
       "value": 431
     },
     {
-      "name": "DrinkMilk",
+      "name": "drinkmilk",
       "value": 432
     },
     {
-      "name": "FrogspawnHatched",
+      "name": "frogspawnhatched",
       "value": 433
     },
     {
-      "name": "LaySpawn",
+      "name": "layspawn",
       "value": 434
     },
     {
-      "name": "FrogspawnBreak",
+      "name": "frogspawnbreak",
       "value": 435
     },
     {
-      "name": "SonicBoom",
+      "name": "sonicboom",
       "value": 436
     },
     {
-      "name": "SonicCharge",
+      "name": "soniccharge",
       "value": 437
     },
     {
-      "name": "Item_Thrown",
+      "name": "item_thrown",
       "value": 438
     },
     {
-      "name": "Record5",
+      "name": "record5",
       "value": 439
     },
     {
-      "name": "ConvertToFrog",
+      "name": "converttofrog",
       "value": 440
     },
     {
-      "name": "RecordPlaying",
+      "name": "recordplaying",
       "value": 441
     },
     {
-      "name": "EnchantingTableUse",
+      "name": "enchantingtableuse",
       "value": 442
     },
     {
-      "name": "StepSand",
+      "name": "stepsand",
       "value": 443
     },
     {
-      "name": "DashReady",
+      "name": "dashready",
       "value": 444
     },
     {
-      "name": "BundleDropContents",
+      "name": "bundledropcontents",
       "value": 445
     },
     {
-      "name": "BundleInsert",
+      "name": "bundleinsert",
       "value": 446
     },
     {
-      "name": "BundleRemoveOne",
+      "name": "bundleremoveone",
       "value": 447
     },
     {
-      "name": "PressurePlateClickOff",
+      "name": "pressureplateclickoff",
       "value": 448
     },
     {
-      "name": "PressurePlateClickOn",
+      "name": "pressureplateclickon",
       "value": 449
     },
     {
-      "name": "ButtonClickOff",
+      "name": "buttonclickoff",
       "value": 450
     },
     {
-      "name": "ButtonClickOn",
+      "name": "buttonclickon",
       "value": 451
     },
     {
-      "name": "DoorOpen",
+      "name": "dooropen",
       "value": 452
     },
     {
-      "name": "DoorClose",
+      "name": "doorclose",
       "value": 453
     },
     {
-      "name": "TrapdoorOpen",
+      "name": "trapdooropen",
       "value": 454
     },
     {
-      "name": "TrapdoorClose",
+      "name": "trapdoorclose",
       "value": 455
     },
     {
-      "name": "FenceGateOpen",
+      "name": "fencegateopen",
       "value": 456
     },
     {
-      "name": "FenceGateClose",
+      "name": "fencegateclose",
       "value": 457
     },
     {
-      "name": "Insert",
+      "name": "insert",
       "value": 458
     },
     {
-      "name": "Pickup",
+      "name": "pickup",
       "value": 459
     },
     {
-      "name": "InsertEnchanted",
+      "name": "insertenchanted",
       "value": 460
     },
     {
-      "name": "PickupEnchanted",
+      "name": "pickupenchanted",
       "value": 461
     },
     {
-      "name": "Brush",
+      "name": "brush",
       "value": 462
     },
     {
-      "name": "BrushCompleted",
+      "name": "brushcompleted",
       "value": 463
     },
     {
-      "name": "ShatterDecoratedPot",
+      "name": "shatterdecoratedpot",
       "value": 464
     },
     {
-      "name": "BreakDecoratedPot",
+      "name": "breakdecoratedpot",
       "value": 465
     },
     {
-      "name": "SnifferEggCrack",
+      "name": "sniffereggcrack",
       "value": 466
     },
     {
-      "name": "SnifferEggHatched",
+      "name": "snifferegghatched",
       "value": 467
     },
     {
-      "name": "WaxedSignInteractFail",
+      "name": "waxedsigninteractfail",
       "value": 468
     },
     {
-      "name": "RecordRelic",
+      "name": "recordrelic",
       "value": 469
     },
     {
-      "name": "Bump",
+      "name": "bump",
       "value": 470
     },
     {
-      "name": "PumpkinCarve",
+      "name": "pumpkincarve",
       "value": 471
     },
     {
-      "name": "ConvertHuskToZombie",
+      "name": "converthusktozombie",
       "value": 472
     },
     {
-      "name": "PigDeath",
+      "name": "pigdeath",
       "value": 473
     },
     {
-      "name": "HoglinConvertToZombified",
+      "name": "hoglinconverttozombified",
       "value": 474
     },
     {
-      "name": "AmbientUnderwaterEnter",
+      "name": "ambientunderwaterenter",
       "value": 475
     },
     {
-      "name": "AmbientUnderwaterExit",
+      "name": "ambientunderwaterexit",
       "value": 476
     },
     {
-      "name": "BottleFill",
+      "name": "bottlefill",
       "value": 477
     },
     {
-      "name": "BottleEmpty",
+      "name": "bottleempty",
       "value": 478
     },
     {
-      "name": "CrafterCraft",
+      "name": "craftercraft",
       "value": 479
     },
     {
-      "name": "CrafterFail",
+      "name": "crafterfail",
       "value": 480
     },
     {
-      "name": "DecoratedPotInsert",
+      "name": "decoratedpotinsert",
       "value": 481
     },
     {
-      "name": "DecoratedPotInsertFail",
+      "name": "decoratedpotinsertfail",
       "value": 482
     },
     {
-      "name": "CrafterDisableSlot",
+      "name": "crafterdisableslot",
       "value": 483
     },
     {
-      "name": "TrialSpawnerOpenShutter",
+      "name": "trialspawneropenshutter",
       "value": 484
     },
     {
-      "name": "TrialSpawnerEjectItem",
+      "name": "trialspawnerejectitem",
       "value": 485
     },
     {
-      "name": "TrialSpawnerDetectPlayer",
+      "name": "trialspawnerdetectplayer",
       "value": 486
     },
     {
-      "name": "TrialSpawnerSpawnMob",
+      "name": "trialspawnerspawnmob",
       "value": 487
     },
     {
-      "name": "TrialSpawnerCloseShutter",
+      "name": "trialspawnercloseshutter",
       "value": 488
     },
     {
-      "name": "TrialSpawnerAmbient",
+      "name": "trialspawnerambient",
       "value": 489
     },
     {
-      "name": "CopperBulbTurnOn",
+      "name": "copperbulbturnon",
       "value": 490
     },
     {
-      "name": "CopperBulbTurnOff",
+      "name": "copperbulbturnoff",
       "value": 491
     },
     {
-      "name": "AmbientInAir",
+      "name": "ambientinair",
       "value": 492
     },
     {
-      "name": "BreezeWindChargeBurst",
+      "name": "breezewindchargeburst",
       "value": 493
     },
     {
-      "name": "ImitateBreeze",
+      "name": "imitatebreeze",
       "value": 494
     },
     {
-      "name": "ArmadilloBrush",
+      "name": "armadillobrush",
       "value": 495
     },
     {
-      "name": "ArmadilloScuteDrop",
+      "name": "armadilloscutedrop",
       "value": 496
     },
     {
-      "name": "EquipWolf",
+      "name": "equipwolf",
       "value": 497
     },
     {
-      "name": "UnequipWolf",
+      "name": "unequipwolf",
       "value": 498
     },
     {
-      "name": "Reflect",
+      "name": "reflect",
       "value": 499
     },
     {
-      "name": "VaultOpenShutter",
+      "name": "vaultopenshutter",
       "value": 500
     },
     {
-      "name": "VaultCloseShutter",
+      "name": "vaultcloseshutter",
       "value": 501
     },
     {
-      "name": "VaultEjectItem",
+      "name": "vaultejectitem",
       "value": 502
     },
     {
-      "name": "VaultInsertItem",
+      "name": "vaultinsertitem",
       "value": 503
     },
     {
-      "name": "VaultInsertItemFail",
+      "name": "vaultinsertitemfail",
       "value": 504
     },
     {
-      "name": "VaultAmbient",
+      "name": "vaultambient",
       "value": 505
     },
     {
-      "name": "VaultActivate",
+      "name": "vaultactivate",
       "value": 506
     },
     {
-      "name": "VaultDeactivate",
+      "name": "vaultdeactivate",
       "value": 507
     },
     {
-      "name": "HurtReduced",
+      "name": "hurtreduced",
       "value": 508
     },
     {
-      "name": "WindChargeBurst",
+      "name": "windchargeburst",
       "value": 509
     },
     {
-      "name": "ImitateBogged",
+      "name": "imitatebogged",
       "value": 510
     },
     {
-      "name": "WolfArmorCrack",
+      "name": "wolfarmorcrack",
       "value": 511
     },
     {
-      "name": "WolfArmorBreak",
+      "name": "wolfarmorbreak",
       "value": 512
     },
     {
-      "name": "WolfArmorRepair",
+      "name": "wolfarmorrepair",
       "value": 513
     },
     {
-      "name": "MaceSmashAir",
+      "name": "macesmashair",
       "value": 514
     },
     {
-      "name": "MaceSmashGround",
+      "name": "macesmashground",
       "value": 515
     },
     {
-      "name": "TrialSpawnerChargeActivate",
+      "name": "trialspawnerchargeactivate",
       "value": 516
     },
     {
-      "name": "TrialSpawnerAmbientOminous",
+      "name": "trialspawnerambientominous",
       "value": 517
     },
     {
-      "name": "OminousItemSpawnerSpawnItem",
+      "name": "ominousitemspawnerspawnitem",
       "value": 518
     },
     {
-      "name": "OminousBottleEndUse",
+      "name": "ominousbottleenduse",
       "value": 519
     },
     {
-      "name": "MaceHeavySmashGround",
+      "name": "maceheavysmashground",
       "value": 520
     },
     {
-      "name": "OminousItemSpawnerSpawnItemBegin",
+      "name": "ominousitemspawnerspawnitembegin",
       "value": 521
     },
     {
-      "name": "ApplyEffectBadOmen",
+      "name": "applyeffectbadomen",
       "value": 523
     },
     {
-      "name": "ApplyEffectRaidOmen",
+      "name": "applyeffectraidomen",
       "value": 524
     },
     {
-      "name": "ApplyEffectTrialOmen",
+      "name": "applyeffecttrialomen",
       "value": 525
     },
     {
-      "name": "OminousItemSpawnerAboutToSpawnItem",
+      "name": "ominousitemspawnerabouttospawnitem",
       "value": 526
     },
     {
-      "name": "RecordCreator",
+      "name": "recordcreator",
       "value": 527
     },
     {
-      "name": "RecordCreatorMusicBox",
+      "name": "recordcreatormusicbox",
       "value": 528
     },
     {
-      "name": "RecordPrecipice",
+      "name": "recordprecipice",
       "value": 529
     },
     {
-      "name": "VaultRejectRewardedPlayer",
+      "name": "vaultrejectrewardedplayer",
       "value": 530
     },
     {
-      "name": "ImitateDrowned",
+      "name": "imitatedrowned",
       "value": 531
     },
     {
-      "name": "ImitateCreaking",
+      "name": "imitatecreaking",
       "value": 532
     },
     {
-      "name": "BundleInsertFail",
+      "name": "bundleinsertfail",
       "value": 533
     },
     {
-      "name": "SpongeAbsorb",
+      "name": "spongeabsorb",
       "value": 534
     },
     {
-      "name": "CreakingHeartTrail",
+      "name": "creakinghearttrail",
       "value": 536
     },
     {
-      "name": "CreakingHeartSpawn",
+      "name": "creakingheartspawn",
       "value": 537
     },
     {
-      "name": "Activate",
+      "name": "activate",
       "value": 538
     },
     {
-      "name": "Deactivate",
+      "name": "deactivate",
       "value": 539
     },
     {
-      "name": "Freeze",
+      "name": "freeze",
       "value": 540
     },
     {
-      "name": "Unfreeze",
+      "name": "unfreeze",
       "value": 541
     },
     {
-      "name": "Open",
+      "name": "open",
       "value": 542
     },
     {
-      "name": "OpenLong",
+      "name": "openlong",
       "value": 543
     },
     {
-      "name": "Close",
+      "name": "close",
       "value": 544
     },
     {
-      "name": "CloseLong",
+      "name": "closelong",
       "value": 545
     },
     {
-      "name": "ImitatePhantom",
+      "name": "imitatephantom",
       "value": 546
     },
     {
-      "name": "ImitateZoglin",
+      "name": "imitatezoglin",
       "value": 547
     },
     {
-      "name": "ImitateGuardian",
+      "name": "imitateguardian",
       "value": 548
     },
     {
-      "name": "ImitateRavager",
+      "name": "imitateravager",
       "value": 549
     },
     {
-      "name": "ImitatePillager",
+      "name": "imitatepillager",
       "value": 550
     },
     {
-      "name": "PlaceInWater",
+      "name": "placeinwater",
       "value": 551
     },
     {
-      "name": "StateChange",
+      "name": "statechange",
       "value": 552
     },
     {
-      "name": "ImitateHappyGhast",
+      "name": "imitatehappyghast",
       "value": 553
     },
     {
-      "name": "UnequipGeneric",
+      "name": "unequipgeneric",
       "value": 554
     },
     {
-      "name": "RecordTears",
+      "name": "recordtears",
       "value": 555
     },
     {
-      "name": "TheEndLightFlash",
+      "name": "theendlightflash",
       "value": 556
     },
     {
-      "name": "LeadLeash",
+      "name": "leadleash",
       "value": 557
     },
     {
-      "name": "LeadUnleash",
+      "name": "leadunleash",
       "value": 558
     },
     {
-      "name": "LeadBreak",
+      "name": "leadbreak",
       "value": 559
     },
     {
-      "name": "Unsaddle",
+      "name": "unsaddle",
       "value": 560
     },
     {
-      "name": "EquipCopper",
+      "name": "equipcopper",
       "value": 561
     },
     {
-      "name": "RecordLavaChicken",
+      "name": "recordlavachicken",
       "value": 562
     },
     {
-      "name": "PlaceItem",
+      "name": "placeitem",
       "value": 563
     },
     {
-      "name": "SingleItemSwap",
+      "name": "singleitemswap",
       "value": 564
     },
     {
-      "name": "MultiItemSwap",
+      "name": "multiitemswap",
       "value": 565
     },
     {
-      "name": "Lunge1",
+      "name": "lunge1",
       "value": 566
     },
     {
-      "name": "Lunge2",
+      "name": "lunge2",
       "value": 567
     },
     {
-      "name": "Lunge3",
+      "name": "lunge3",
       "value": 568
     },
     {
-      "name": "AttackCritical",
+      "name": "attackcritical",
       "value": 569
     },
     {
-      "name": "SpearAttackHit",
+      "name": "spearattackhit",
       "value": 570
     },
     {
-      "name": "SpearAttackMiss",
+      "name": "spearattackmiss",
       "value": 571
     },
     {
-      "name": "WoodenSpearAttackHit",
+      "name": "woodenspearattackhit",
       "value": 572
     },
     {
-      "name": "WoodenSpearAttackMiss",
+      "name": "woodenspearattackmiss",
       "value": 573
     },
     {
-      "name": "ImitateParched",
+      "name": "imitateparched",
       "value": 574
     },
     {
-      "name": "ImitateCamelHusk",
+      "name": "imitatecamelhusk",
       "value": 575
     },
     {
-      "name": "SpearUse",
+      "name": "spearuse",
       "value": 576
     },
     {
-      "name": "WoodenSpearUse",
+      "name": "woodenspearuse",
       "value": 577
     },
     {
-      "name": "Undefined",
+      "name": "undefined",
       "value": 578
     }
   ]

@@ -2,11 +2,11 @@
   "name": "MovementEffectType",
   "values": [
     {
-      "name": "GLIDE_BOOST",
+      "name": "glide_boost",
       "value": 0
     },
     {
-      "name": "DOLPHIN_BOOST",
+      "name": "dolphin_boost",
       "value": 1
     }
   ]

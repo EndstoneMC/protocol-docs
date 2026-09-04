@@ -2,23 +2,23 @@
   "name": "CommandOutputType",
   "values": [
     {
-      "name": "None",
+      "name": "none",
       "value": 0
     },
     {
-      "name": "LastOutput",
+      "name": "lastoutput",
       "value": 1
     },
     {
-      "name": "Silent",
+      "name": "silent",
       "value": 2
     },
     {
-      "name": "AllOutput",
+      "name": "alloutput",
       "value": 3
     },
     {
-      "name": "DataSet",
+      "name": "dataset",
       "value": 4
     }
   ]
