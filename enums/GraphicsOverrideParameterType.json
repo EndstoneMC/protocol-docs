@@ -2,211 +2,211 @@
   "name": "GraphicsOverrideParameterType",
   "values": [
     {
-      "name": "SkyZenithColor",
+      "name": "skyzenithcolor",
       "value": 0
     },
     {
-      "name": "SkyHorizonColor",
+      "name": "skyhorizoncolor",
       "value": 1
     },
     {
-      "name": "HorizonBlendMin",
+      "name": "horizonblendmin",
       "value": 2
     },
     {
-      "name": "HorizonBlendMax",
+      "name": "horizonblendmax",
       "value": 3
     },
     {
-      "name": "HorizonBlendStart",
+      "name": "horizonblendstart",
       "value": 4
     },
     {
-      "name": "HorizonBlendMieStart",
+      "name": "horizonblendmiestart",
       "value": 5
     },
     {
-      "name": "RayleighStrength",
+      "name": "rayleighstrength",
       "value": 6
     },
     {
-      "name": "SunMieStrength",
+      "name": "sunmiestrength",
       "value": 7
     },
     {
-      "name": "MoonMieStrength",
+      "name": "moonmiestrength",
       "value": 8
     },
     {
-      "name": "SunGlareShape",
+      "name": "sunglareshape",
       "value": 9
     },
     {
-      "name": "Chlorophyll",
+      "name": "chlorophyll",
       "value": 10
     },
     {
-      "name": "CDOM",
+      "name": "cdom",
       "value": 11
     },
     {
-      "name": "SuspendedSediment",
+      "name": "suspendedsediment",
       "value": 12
     },
     {
-      "name": "WavesDepth",
+      "name": "wavesdepth",
       "value": 13
     },
     {
-      "name": "WavesFrequency",
+      "name": "wavesfrequency",
       "value": 14
     },
     {
-      "name": "WavesFrequencyScaling",
+      "name": "wavesfrequencyscaling",
       "value": 15
     },
     {
-      "name": "WavesSpeed",
+      "name": "wavesspeed",
       "value": 16
     },
     {
-      "name": "WavesSpeedScaling",
+      "name": "wavesspeedscaling",
       "value": 17
     },
     {
-      "name": "WavesShape",
+      "name": "wavesshape",
       "value": 18
     },
     {
-      "name": "WavesOctaves",
+      "name": "wavesoctaves",
       "value": 19
     },
     {
-      "name": "WavesMix",
+      "name": "wavesmix",
       "value": 20
     },
     {
-      "name": "WavesPull",
+      "name": "wavespull",
       "value": 21
     },
     {
-      "name": "WavesDirectionIncrement",
+      "name": "wavesdirectionincrement",
       "value": 22
     },
     {
-      "name": "MidtonesContrast",
+      "name": "midtonescontrast",
       "value": 23
     },
     {
-      "name": "HighlightsContrast",
+      "name": "highlightscontrast",
       "value": 24
     },
     {
-      "name": "ShadowsContrast",
+      "name": "shadowscontrast",
       "value": 25
     },
     {
-      "name": "HighlightsGain",
+      "name": "highlightsgain",
       "value": 26
     },
     {
-      "name": "HighlightsGamma",
+      "name": "highlightsgamma",
       "value": 27
     },
     {
-      "name": "HighlightsOffset",
+      "name": "highlightsoffset",
       "value": 28
     },
     {
-      "name": "HighlightsSaturation",
+      "name": "highlightssaturation",
       "value": 29
     },
     {
-      "name": "MidtonesGain",
+      "name": "midtonesgain",
       "value": 30
     },
     {
-      "name": "MidtonesGamma",
+      "name": "midtonesgamma",
       "value": 31
     },
     {
-      "name": "MidtonesOffset",
+      "name": "midtonesoffset",
       "value": 32
     },
     {
-      "name": "MidtonesSaturation",
+      "name": "midtonessaturation",
       "value": 33
     },
     {
-      "name": "ShadowsGain",
+      "name": "shadowsgain",
       "value": 34
     },
     {
-      "name": "ShadowsGamma",
+      "name": "shadowsgamma",
       "value": 35
     },
     {
-      "name": "ShadowsOffset",
+      "name": "shadowsoffset",
       "value": 36
     },
     {
-      "name": "ShadowsSaturation",
+      "name": "shadowssaturation",
       "value": 37
     },
     {
-      "name": "HighlightsMin",
+      "name": "highlightsmin",
       "value": 38
     },
     {
-      "name": "ShadowsMax",
+      "name": "shadowsmax",
       "value": 39
     },
     {
-      "name": "Temperature",
+      "name": "temperature",
       "value": 40
     },
     {
-      "name": "SunColor",
+      "name": "suncolor",
       "value": 41
     },
     {
-      "name": "SunIlluminance",
+      "name": "sunilluminance",
       "value": 42
     },
     {
-      "name": "MoonColor",
+      "name": "mooncolor",
       "value": 43
     },
     {
-      "name": "MoonIlluminance",
+      "name": "moonilluminance",
       "value": 44
     },
     {
-      "name": "FlashColor",
+      "name": "flashcolor",
       "value": 45
     },
     {
-      "name": "FlashIlluminance",
+      "name": "flashilluminance",
       "value": 46
     },
     {
-      "name": "AmbientColor",
+      "name": "ambientcolor",
       "value": 47
     },
     {
-      "name": "AmbientIlluminance",
+      "name": "ambientilluminance",
       "value": 48
     },
     {
-      "name": "EmissiveDesaturation",
+      "name": "emissivedesaturation",
       "value": 49
     },
     {
-      "name": "SkyIntensity",
+      "name": "skyintensity",
       "value": 50
     },
     {
-      "name": "OrbitalOffsetDegrees",
+      "name": "orbitaloffsetdegrees",
       "value": 51
     }
   ]

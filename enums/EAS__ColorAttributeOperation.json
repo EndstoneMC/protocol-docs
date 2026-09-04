@@ -2,23 +2,23 @@
   "name": "EAS::ColorAttributeOperation",
   "values": [
     {
-      "name": "OVERRIDE",
+      "name": "override",
       "value": 0
     },
     {
-      "name": "ALPHA_BLEND",
+      "name": "alpha_blend",
       "value": 1
     },
     {
-      "name": "ADD",
+      "name": "add",
       "value": 2
     },
     {
-      "name": "SUBTRACT",
+      "name": "subtract",
       "value": 3
     },
     {
-      "name": "MULTIPLY",
+      "name": "multiply",
       "value": 4
     }
   ]

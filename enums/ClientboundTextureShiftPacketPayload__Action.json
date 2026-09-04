@@ -2,23 +2,23 @@
   "name": "ClientboundTextureShiftPacketPayload::Action",
   "values": [
     {
-      "name": "Invalid",
+      "name": "invalid",
       "value": 0
     },
     {
-      "name": "Initialize",
+      "name": "initialize",
       "value": 1
     },
     {
-      "name": "Start",
+      "name": "start",
       "value": 2
     },
     {
-      "name": "SetEnabled",
+      "name": "setenabled",
       "value": 3
     },
     {
-      "name": "Sync",
+      "name": "sync",
       "value": 4
     }
   ]

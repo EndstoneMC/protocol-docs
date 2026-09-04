@@ -2,15 +2,15 @@
   "name": "LessonAction",
   "values": [
     {
-      "name": "Start",
+      "name": "start",
       "value": 0
     },
     {
-      "name": "Complete",
+      "name": "complete",
       "value": 1
     },
     {
-      "name": "Restart",
+      "name": "restart",
       "value": 2
     }
   ]

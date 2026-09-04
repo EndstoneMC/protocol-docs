@@ -2,19 +2,19 @@
   "name": "CodeBuilderStorageQueryOptions::Operation",
   "values": [
     {
-      "name": "None",
+      "name": "none",
       "value": 0
     },
     {
-      "name": "Get",
+      "name": "get",
       "value": 1
     },
     {
-      "name": "Set",
+      "name": "set",
       "value": 2
     },
     {
-      "name": "Reset",
+      "name": "reset",
       "value": 3
     }
   ]

@@ -2,15 +2,15 @@
   "name": "RequestAbilityPacketPayload::Type",
   "values": [
     {
-      "name": "Unset",
+      "name": "unset",
       "value": 0
     },
     {
-      "name": "Bool",
+      "name": "bool",
       "value": 1
     },
     {
-      "name": "Float",
+      "name": "float",
       "value": 2
     }
   ]

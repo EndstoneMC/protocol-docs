@@ -2,39 +2,39 @@
   "name": "PackType",
   "values": [
     {
-      "name": "Invalid",
+      "name": "invalid",
       "value": 0
     },
     {
-      "name": "Addon",
+      "name": "addon",
       "value": 1
     },
     {
-      "name": "Cached",
+      "name": "cached",
       "value": 2
     },
     {
-      "name": "CopyProtected",
+      "name": "copyprotected",
       "value": 3
     },
     {
-      "name": "Behavior",
+      "name": "behavior",
       "value": 4
     },
     {
-      "name": "PersonaPiece",
+      "name": "personapiece",
       "value": 5
     },
     {
-      "name": "Resources",
+      "name": "resources",
       "value": 6
     },
     {
-      "name": "Skins",
+      "name": "skins",
       "value": 7
     },
     {
-      "name": "WorldTemplate",
+      "name": "worldtemplate",
       "value": 8
     }
   ]
