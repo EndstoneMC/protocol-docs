@@ -2,35 +2,35 @@
   "name": "EAS::BoolAttributeOperation",
   "values": [
     {
-      "name": "OVERRIDE",
+      "name": "override",
       "value": 0
     },
     {
-      "name": "ALPHA_BLEND",
+      "name": "alpha_blend",
       "value": 1
     },
     {
-      "name": "AND",
+      "name": "and",
       "value": 2
     },
     {
-      "name": "NAND",
+      "name": "nand",
       "value": 3
     },
     {
-      "name": "OR",
+      "name": "or",
       "value": 4
     },
     {
-      "name": "NOR",
+      "name": "nor",
       "value": 5
     },
     {
-      "name": "XOR",
+      "name": "xor",
       "value": 6
     },
     {
-      "name": "XNOR",
+      "name": "xnor",
       "value": 7
     }
   ]

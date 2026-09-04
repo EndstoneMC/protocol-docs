@@ -2,11 +2,11 @@
   "name": "AgentAnimation",
   "values": [
     {
-      "name": "ArmSwing",
+      "name": "armswing",
       "value": 0
     },
     {
-      "name": "Shrug",
+      "name": "shrug",
       "value": 1
     }
   ]

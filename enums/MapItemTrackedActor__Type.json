@@ -2,15 +2,15 @@
   "name": "MapItemTrackedActor::Type",
   "values": [
     {
-      "name": "Entity",
+      "name": "entity",
       "value": 0
     },
     {
-      "name": "BlockEntity",
+      "name": "blockentity",
       "value": 1
     },
     {
-      "name": "Other",
+      "name": "other",
       "value": 2
     }
   ]

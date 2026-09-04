@@ -2,15 +2,15 @@
   "name": "EducationEditionOffer",
   "values": [
     {
-      "name": "None",
+      "name": "none",
       "value": 0
     },
     {
-      "name": "RestOfWorld",
+      "name": "restofworld",
       "value": 1
     },
     {
-      "name": "China_Deprecated",
+      "name": "china_deprecated",
       "value": 2
     }
   ]

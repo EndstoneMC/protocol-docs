@@ -2,23 +2,23 @@
   "name": "AttributeOperands",
   "values": [
     {
-      "name": "OPERAND_MIN",
+      "name": "operand_min",
       "value": 0
     },
     {
-      "name": "OPERAND_MAX",
+      "name": "operand_max",
       "value": 1
     },
     {
-      "name": "OPERAND_CURRENT",
+      "name": "operand_current",
       "value": 2
     },
     {
-      "name": "TOTAL_OPERANDS",
+      "name": "total_operands",
       "value": 3
     },
     {
-      "name": "OPERAND_INVALID",
+      "name": "operand_invalid",
       "value": 3
     }
   ]

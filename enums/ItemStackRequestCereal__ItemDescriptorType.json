@@ -2,19 +2,19 @@
   "name": "ItemStackRequestCereal::ItemDescriptorType",
   "values": [
     {
-      "name": "Empty",
+      "name": "empty",
       "value": 0
     },
     {
-      "name": "ItemName",
+      "name": "itemname",
       "value": 1
     },
     {
-      "name": "Molang",
+      "name": "molang",
       "value": 2
     },
     {
-      "name": "ItemTag",
+      "name": "itemtag",
       "value": 3
     }
   ]
