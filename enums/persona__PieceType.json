@@ -2,111 +2,111 @@
   "name": "persona::PieceType",
   "values": [
     {
-      "name": "Skeleton",
+      "name": "skeleton",
       "value": 1
     },
     {
-      "name": "Body",
+      "name": "body",
       "value": 2
     },
     {
-      "name": "Skin",
+      "name": "skin",
       "value": 3
     },
     {
-      "name": "Bottom",
+      "name": "bottom",
       "value": 4
     },
     {
-      "name": "Feet",
+      "name": "feet",
       "value": 5
     },
     {
-      "name": "Dress",
+      "name": "dress",
       "value": 6
     },
     {
-      "name": "Top",
+      "name": "top",
       "value": 7
     },
     {
-      "name": "High_Pants",
+      "name": "high_pants",
       "value": 8
     },
     {
-      "name": "Hands",
+      "name": "hands",
       "value": 9
     },
     {
-      "name": "Outerwear",
+      "name": "outerwear",
       "value": 10
     },
     {
-      "name": "FacialHair",
+      "name": "facialhair",
       "value": 11
     },
     {
-      "name": "Mouth",
+      "name": "mouth",
       "value": 12
     },
     {
-      "name": "Eyes",
+      "name": "eyes",
       "value": 13
     },
     {
-      "name": "Hair",
+      "name": "hair",
       "value": 14
     },
     {
-      "name": "Hood",
+      "name": "hood",
       "value": 15
     },
     {
-      "name": "Back",
+      "name": "back",
       "value": 16
     },
     {
-      "name": "FaceAccessory",
+      "name": "faceaccessory",
       "value": 17
     },
     {
-      "name": "Head",
+      "name": "head",
       "value": 18
     },
     {
-      "name": "Legs",
+      "name": "legs",
       "value": 19
     },
     {
-      "name": "LeftLeg",
+      "name": "leftleg",
       "value": 20
     },
     {
-      "name": "RightLeg",
+      "name": "rightleg",
       "value": 21
     },
     {
-      "name": "Arms",
+      "name": "arms",
       "value": 22
     },
     {
-      "name": "LeftArm",
+      "name": "leftarm",
       "value": 23
     },
     {
-      "name": "RightArm",
+      "name": "rightarm",
       "value": 24
     },
     {
-      "name": "Capes",
+      "name": "capes",
       "value": 25
     },
     {
-      "name": "ClassicSkin",
+      "name": "classicskin",
       "value": 26
     },
     {
-      "name": "Emote",
+      "name": "emote",
       "value": 27
     }
   ]

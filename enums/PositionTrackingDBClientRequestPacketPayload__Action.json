@@ -2,7 +2,7 @@
   "name": "PositionTrackingDBClientRequestPacketPayload::Action",
   "values": [
     {
-      "name": "Query",
+      "name": "query",
       "value": 0
     }
   ]

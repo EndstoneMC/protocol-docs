@@ -2,15 +2,15 @@
   "name": "ItemVersion",
   "values": [
     {
-      "name": "Legacy",
+      "name": "legacy",
       "value": 0
     },
     {
-      "name": "DataDriven",
+      "name": "datadriven",
       "value": 1
     },
     {
-      "name": "None",
+      "name": "none",
       "value": 2
     }
   ]

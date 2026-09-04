@@ -2,15 +2,15 @@
   "name": "ShowStoreOfferRedirectType",
   "values": [
     {
-      "name": "MarketplaceOffer",
+      "name": "marketplaceoffer",
       "value": 0
     },
     {
-      "name": "DressingRoomOffer",
+      "name": "dressingroomoffer",
       "value": 1
     },
     {
-      "name": "ThirdPartyServerPage",
+      "name": "thirdpartyserverpage",
       "value": 2
     }
   ]

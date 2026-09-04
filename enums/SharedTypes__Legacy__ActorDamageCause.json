@@ -2,143 +2,143 @@
   "name": "SharedTypes::Legacy::ActorDamageCause",
   "values": [
     {
-      "name": "Override",
+      "name": "override",
       "value": 0
     },
     {
-      "name": "Contact",
+      "name": "contact",
       "value": 1
     },
     {
-      "name": "EntityAttack",
+      "name": "entityattack",
       "value": 2
     },
     {
-      "name": "Projectile",
+      "name": "projectile",
       "value": 3
     },
     {
-      "name": "Suffocation",
+      "name": "suffocation",
       "value": 4
     },
     {
-      "name": "Fall",
+      "name": "fall",
       "value": 5
     },
     {
-      "name": "Fire",
+      "name": "fire",
       "value": 6
     },
     {
-      "name": "FireTick",
+      "name": "firetick",
       "value": 7
     },
     {
-      "name": "Lava",
+      "name": "lava",
       "value": 8
     },
     {
-      "name": "Drowning",
+      "name": "drowning",
       "value": 9
     },
     {
-      "name": "BlockExplosion",
+      "name": "blockexplosion",
       "value": 10
     },
     {
-      "name": "EntityExplosion",
+      "name": "entityexplosion",
       "value": 11
     },
     {
-      "name": "Void",
+      "name": "void",
       "value": 12
     },
     {
-      "name": "SelfDestruct",
+      "name": "selfdestruct",
       "value": 13
     },
     {
-      "name": "Magic",
+      "name": "magic",
       "value": 14
     },
     {
-      "name": "Wither",
+      "name": "wither",
       "value": 15
     },
     {
-      "name": "Starve",
+      "name": "starve",
       "value": 16
     },
     {
-      "name": "Anvil",
+      "name": "anvil",
       "value": 17
     },
     {
-      "name": "Thorns",
+      "name": "thorns",
       "value": 18
     },
     {
-      "name": "FallingBlock",
+      "name": "fallingblock",
       "value": 19
     },
     {
-      "name": "Piston",
+      "name": "piston",
       "value": 20
     },
     {
-      "name": "FlyIntoWall",
+      "name": "flyintowall",
       "value": 21
     },
     {
-      "name": "Magma",
+      "name": "magma",
       "value": 22
     },
     {
-      "name": "Fireworks",
+      "name": "fireworks",
       "value": 23
     },
     {
-      "name": "Lightning",
+      "name": "lightning",
       "value": 24
     },
     {
-      "name": "Charging",
+      "name": "charging",
       "value": 25
     },
     {
-      "name": "Temperature",
+      "name": "temperature",
       "value": 26
     },
     {
-      "name": "Freezing",
+      "name": "freezing",
       "value": 27
     },
     {
-      "name": "Stalactite",
+      "name": "stalactite",
       "value": 28
     },
     {
-      "name": "Stalagmite",
+      "name": "stalagmite",
       "value": 29
     },
     {
-      "name": "RamAttack",
+      "name": "ramattack",
       "value": 30
     },
     {
-      "name": "SonicBoom",
+      "name": "sonicboom",
       "value": 31
     },
     {
-      "name": "Campfire",
+      "name": "campfire",
       "value": 32
     },
     {
-      "name": "SoulCampfire",
+      "name": "soulcampfire",
       "value": 33
     },
     {
-      "name": "MaceSmash",
+      "name": "macesmash",
       "value": 34
     }
   ]

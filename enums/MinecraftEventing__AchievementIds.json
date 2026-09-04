@@ -2,291 +2,291 @@
   "name": "MinecraftEventing::AchievementIds",
   "values": [
     {
-      "name": "ChestFullOfCobblestone",
+      "name": "chestfullofcobblestone",
       "value": 7
     },
     {
-      "name": "DiamondForYou",
+      "name": "diamondforyou",
       "value": 10
     },
     {
-      "name": "IronBelly",
+      "name": "ironbelly",
       "value": 20
     },
     {
-      "name": "IronMan",
+      "name": "ironman",
       "value": 21
     },
     {
-      "name": "OnARail",
+      "name": "onarail",
       "value": 29
     },
     {
-      "name": "Overkill",
+      "name": "overkill",
       "value": 30
     },
     {
-      "name": "ReturnToSender",
+      "name": "returntosender",
       "value": 37
     },
     {
-      "name": "SniperDuel",
+      "name": "sniperduel",
       "value": 38
     },
     {
-      "name": "StayinFrosty",
+      "name": "stayinfrosty",
       "value": 39
     },
     {
-      "name": "TakeInventory",
+      "name": "takeinventory",
       "value": 40
     },
     {
-      "name": "MapRoom",
+      "name": "maproom",
       "value": 50
     },
     {
-      "name": "FreightStation",
+      "name": "freightstation",
       "value": 52
     },
     {
-      "name": "SmeltEverything",
+      "name": "smelteverything",
       "value": 53
     },
     {
-      "name": "TasteOfYourOwnMedicine",
+      "name": "tasteofyourownmedicine",
       "value": 54
     },
     {
-      "name": "WhenPigsFly",
+      "name": "whenpigsfly",
       "value": 56
     },
     {
-      "name": "Inception",
+      "name": "inception",
       "value": 58
     },
     {
-      "name": "ArtificialSelection",
+      "name": "artificialselection",
       "value": 60
     },
     {
-      "name": "FreeDiver",
+      "name": "freediver",
       "value": 61
     },
     {
-      "name": "SpawnTheWither",
+      "name": "spawnthewither",
       "value": 62
     },
     {
-      "name": "Beaconator",
+      "name": "beaconator",
       "value": 63
     },
     {
-      "name": "GreatView",
+      "name": "greatview",
       "value": 64
     },
     {
-      "name": "SuperSonic",
+      "name": "supersonic",
       "value": 65
     },
     {
-      "name": "TheEndAgain",
+      "name": "theendagain",
       "value": 66
     },
     {
-      "name": "TreasureHunter",
+      "name": "treasurehunter",
       "value": 67
     },
     {
-      "name": "ShootingStar",
+      "name": "shootingstar",
       "value": 68
     },
     {
-      "name": "FashionShow",
+      "name": "fashionshow",
       "value": 69
     },
     {
-      "name": "SelfPublishedAuthor",
+      "name": "selfpublishedauthor",
       "value": 71
     },
     {
-      "name": "AlternativeFuel",
+      "name": "alternativefuel",
       "value": 72
     },
     {
-      "name": "SleepWithTheFishes",
+      "name": "sleepwiththefishes",
       "value": 73
     },
     {
-      "name": "Castaway",
+      "name": "castaway",
       "value": 74
     },
     {
-      "name": "ImAMarineBiologist",
+      "name": "imamarinebiologist",
       "value": 75
     },
     {
-      "name": "SailThe7Seas",
+      "name": "sailthe7seas",
       "value": 76
     },
     {
-      "name": "MeGold",
+      "name": "megold",
       "value": 77
     },
     {
-      "name": "Ahoy",
+      "name": "ahoy",
       "value": 78
     },
     {
-      "name": "Atlantis",
+      "name": "atlantis",
       "value": 79
     },
     {
-      "name": "OnePickleTwoPickleSeaPickleFour",
+      "name": "onepickletwopickleseapicklefour",
       "value": 80
     },
     {
-      "name": "DoaBarrelRoll",
+      "name": "doabarrelroll",
       "value": 81
     },
     {
-      "name": "Moskstraumen",
+      "name": "moskstraumen",
       "value": 82
     },
     {
-      "name": "Echolocation",
+      "name": "echolocation",
       "value": 83
     },
     {
-      "name": "WhereHaveYouBeen",
+      "name": "wherehaveyoubeen",
       "value": 84
     },
     {
-      "name": "TopOfTheWorld",
+      "name": "topoftheworld",
       "value": 85
     },
     {
-      "name": "FruitOnTheLoom",
+      "name": "fruitontheloom",
       "value": 86
     },
     {
-      "name": "SoundTheAlarm",
+      "name": "soundthealarm",
       "value": 87
     },
     {
-      "name": "BuyLowSellHigh",
+      "name": "buylowsellhigh",
       "value": 88
     },
     {
-      "name": "Disenchanted",
+      "name": "disenchanted",
       "value": 89
     },
     {
-      "name": "TimeForStew",
+      "name": "timeforstew",
       "value": 90
     },
     {
-      "name": "BeeOurGuest",
+      "name": "beeourguest",
       "value": 91
     },
     {
-      "name": "TotalBeeLocation",
+      "name": "totalbeelocation",
       "value": 92
     },
     {
-      "name": "StickySituation",
+      "name": "stickysituation",
       "value": 93
     },
     {
-      "name": "CoverMeInDebris",
+      "name": "covermeindebris",
       "value": 94
     },
     {
-      "name": "FloatYourGoat",
+      "name": "floatyourgoat",
       "value": 95
     },
     {
-      "name": "Friend",
+      "name": "friend",
       "value": 96
     },
     {
-      "name": "WaxOnWaxOff",
+      "name": "waxonwaxoff",
       "value": 97
     },
     {
-      "name": "StriderRiddenInLavaInOverworld",
+      "name": "striderriddeninlavainoverworld",
       "value": 98
     },
     {
-      "name": "GoatHornAcquired",
+      "name": "goathornacquired",
       "value": 99
     },
     {
-      "name": "JukeboxUsedInMeadows",
+      "name": "jukeboxusedinmeadows",
       "value": 100
     },
     {
-      "name": "TradedAtWorldHeight",
+      "name": "tradedatworldheight",
       "value": 101
     },
     {
-      "name": "SurvivedFallFromWorldHeight",
+      "name": "survivedfallfromworldheight",
       "value": 102
     },
     {
-      "name": "SneakCloseToSculkSensor",
+      "name": "sneakclosetosculksensor",
       "value": 103
     },
     {
-      "name": "ItSpreads",
+      "name": "itspreads",
       "value": 104
     },
     {
-      "name": "BirthdaySong",
+      "name": "birthdaysong",
       "value": 105
     },
     {
-      "name": "WithOurPowersCombined",
+      "name": "withourpowerscombined",
       "value": 106
     },
     {
-      "name": "PlantingThePast",
+      "name": "plantingthepast",
       "value": 107
     },
     {
-      "name": "CarefulRestoration",
+      "name": "carefulrestoration",
       "value": 108
     },
     {
-      "name": "Revaulting",
+      "name": "revaulting",
       "value": 109
     },
     {
-      "name": "CraftersCraftingCrafters",
+      "name": "crafterscraftingcrafters",
       "value": 110
     },
     {
-      "name": "WhoNeedsRockets",
+      "name": "whoneedsrockets",
       "value": 111
     },
     {
-      "name": "OverOverkill",
+      "name": "overoverkill",
       "value": 112
     },
     {
-      "name": "HeartTransplanter",
+      "name": "hearttransplanter",
       "value": 113
     },
     {
-      "name": "StayHydrated",
+      "name": "stayhydrated",
       "value": 114
     },
     {
-      "name": "MobKabob",
+      "name": "mobkabob",
       "value": 115
     },
     {
-      "name": "AdventuringTime",
+      "name": "adventuringtime",
       "value": 116
     }
   ]
