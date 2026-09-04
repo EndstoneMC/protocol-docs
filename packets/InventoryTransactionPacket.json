@@ -15,9 +15,7 @@
     {
       "name": "Transaction",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "NormalTransactionData",
           "InventoryMismatchData",

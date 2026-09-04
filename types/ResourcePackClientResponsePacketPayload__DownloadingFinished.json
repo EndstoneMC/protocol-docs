@@ -4,7 +4,8 @@
     {
       "name": "Response Type",
       "type": "string",
-      "enum": "ResourcePackResponse"
+      "enum": "ResourcePackResponse",
+      "value": "Response Type"
     }
   ]
 }

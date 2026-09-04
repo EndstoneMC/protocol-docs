@@ -6,11 +6,7 @@
     {
       "name": "Entries",
       "type": {
-        "switch": {
-          "name": "Action",
-          "type": "uint8",
-          "enum": "PlayerListPacketType"
-        },
+        "switch": "uvarint32",
         "cases": [
           "PlayerListPacketPayload::RemoveEntry",
           "PlayerListPacketPayload::AddEntry"

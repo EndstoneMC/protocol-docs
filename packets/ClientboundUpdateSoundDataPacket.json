@@ -9,9 +9,7 @@
     {
       "name": "Stop",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "SoundDataEvent::Stop",
           "SoundDataEvent::SetVolume",
@@ -26,9 +24,7 @@
     {
       "name": "SetVolume",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "SoundDataEvent::Stop",
           "SoundDataEvent::SetVolume",
@@ -43,9 +39,7 @@
     {
       "name": "SetPitch",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "SoundDataEvent::Stop",
           "SoundDataEvent::SetVolume",
@@ -60,9 +54,7 @@
     {
       "name": "Fade",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "SoundDataEvent::Stop",
           "SoundDataEvent::SetVolume",
@@ -77,9 +69,7 @@
     {
       "name": "SeekTo",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "SoundDataEvent::Stop",
           "SoundDataEvent::SetVolume",
@@ -94,9 +84,7 @@
     {
       "name": "Pause",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "SoundDataEvent::Stop",
           "SoundDataEvent::SetVolume",
@@ -111,9 +99,7 @@
     {
       "name": "Resume",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "SoundDataEvent::Stop",
           "SoundDataEvent::SetVolume",

@@ -4,7 +4,8 @@
     {
       "name": "Descriptor Type",
       "type": "uint8",
-      "enum": "ItemStackRequestCereal::ItemDescriptorType"
+      "enum": "ItemStackRequestCereal::ItemDescriptorType",
+      "value": 2
     },
     {
       "name": "Tag Expression",
