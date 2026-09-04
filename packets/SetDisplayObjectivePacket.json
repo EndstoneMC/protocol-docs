@@ -20,7 +20,7 @@
     },
     {
       "name": "SortOrder",
-      "type": "int32"
+      "type": "varint32"
     }
   ]
 }

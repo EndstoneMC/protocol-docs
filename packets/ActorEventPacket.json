@@ -8,12 +8,12 @@
     },
     {
       "name": "Event ID",
-      "type": "string",
+      "type": "uint8",
       "enum": "ActorEvent"
     },
     {
       "name": "Data",
-      "type": "int32"
+      "type": "varint32"
     }
   ]
 }

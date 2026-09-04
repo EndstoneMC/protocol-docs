@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Dimension ID",
-      "type": "int32"
+      "type": "varint32"
     }
   ]
 }

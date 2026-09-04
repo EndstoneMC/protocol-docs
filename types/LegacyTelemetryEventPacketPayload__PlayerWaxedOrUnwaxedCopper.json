@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Player Waxed or Unwaxed Copper Block ID",
-      "type": "int32"
+      "type": "varint32"
     }
   ]
 }

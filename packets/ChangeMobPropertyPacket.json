@@ -20,7 +20,7 @@
     },
     {
       "name": "IntComponent Value",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "FloatComponent Value",

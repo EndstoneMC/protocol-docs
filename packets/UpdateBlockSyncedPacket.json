@@ -8,23 +8,23 @@
     },
     {
       "name": "Block Runtime ID",
-      "type": "uint32"
+      "type": "uvarint32"
     },
     {
       "name": "Flags",
-      "type": "uint32"
+      "type": "uvarint32"
     },
     {
       "name": "Layer",
-      "type": "uint32"
+      "type": "uvarint32"
     },
     {
       "name": "Unique Actor Id",
-      "type": "uint64"
+      "type": "uvarint64"
     },
     {
       "name": "Actor Sync Message",
-      "type": "uint64"
+      "type": "uvarint64"
     }
   ]
 }

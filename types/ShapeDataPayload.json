@@ -3,11 +3,11 @@
   "fields": [
     {
       "name": "NetworkId",
-      "type": "uint64"
+      "type": "uvarint64"
     },
     {
       "name": "Shape Type",
-      "type": "string",
+      "type": "uint8",
       "enum": "ScriptModuleDebugUtilities::ScriptDebugShapeType",
       "optional": true
     },
@@ -44,9 +44,7 @@
     {
       "name": "Extra Shape Data",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           null,
           "ArrowDataPayload",

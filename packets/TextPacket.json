@@ -9,9 +9,7 @@
     {
       "name": "Body",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "TextPacketPayload::MessageOnly",
           "TextPacketPayload::AuthorAndMessage",

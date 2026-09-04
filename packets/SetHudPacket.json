@@ -4,13 +4,13 @@
   "fields": [
     {
       "name": "Hud Element",
-      "type": "string",
+      "type": "varint32",
       "enum": "HudElement",
       "repeat": "uvarint32"
     },
     {
       "name": "Hud Visible",
-      "type": "string",
+      "type": "varint32",
       "enum": "HudVisibility"
     }
   ]

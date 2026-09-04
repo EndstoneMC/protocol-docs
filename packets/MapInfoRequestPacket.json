@@ -9,7 +9,7 @@
     {
       "name": "Client Pixels List",
       "type": "MapInfoRequestPacketAnon::ClientPixelsProxy",
-      "repeat": "uvarint32",
+      "repeat": "uint32",
       "constraints": {
         "max_items": 16384
       }

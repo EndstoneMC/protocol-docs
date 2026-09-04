@@ -4,7 +4,7 @@
   "fields": [
     {
       "name": "PacketType",
-      "type": "string",
+      "type": "varint32",
       "enum": "MultiplayerSettingsPacketType"
     }
   ]

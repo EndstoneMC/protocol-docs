@@ -4,36 +4,42 @@
     {
       "name": "raw",
       "type": "string",
-      "enum": "TextPacketType"
+      "enum": "TextPacketType",
+      "value": "raw"
     },
     {
       "name": "tip",
       "type": "string",
-      "enum": "TextPacketType"
+      "enum": "TextPacketType",
+      "value": "tip"
     },
     {
       "name": "systemMessage",
       "type": "string",
-      "enum": "TextPacketType"
+      "enum": "TextPacketType",
+      "value": "systemMessage"
     },
     {
       "name": "textObjectWhisper",
       "type": "string",
-      "enum": "TextPacketType"
+      "enum": "TextPacketType",
+      "value": "textObjectWhisper"
     },
     {
       "name": "textObjectAnnouncement",
       "type": "string",
-      "enum": "TextPacketType"
+      "enum": "TextPacketType",
+      "value": "textObjectAnnouncement"
     },
     {
       "name": "textObject",
       "type": "string",
-      "enum": "TextPacketType"
+      "enum": "TextPacketType",
+      "value": "textObject"
     },
     {
       "name": "Message Type",
-      "type": "string",
+      "type": "uint8",
       "enum": "TextPacketType"
     },
     {

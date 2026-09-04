@@ -21,7 +21,7 @@
     },
     {
       "name": "Identifier for Parameter",
-      "type": "string",
+      "type": "uint8",
       "enum": "GraphicsOverrideParameterType"
     },
     {

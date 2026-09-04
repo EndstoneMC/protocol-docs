@@ -4,21 +4,24 @@
     {
       "name": "translate",
       "type": "string",
-      "enum": "TextPacketType"
+      "enum": "TextPacketType",
+      "value": "translate"
     },
     {
       "name": "popup",
       "type": "string",
-      "enum": "TextPacketType"
+      "enum": "TextPacketType",
+      "value": "popup"
     },
     {
       "name": "jukeboxPopup",
       "type": "string",
-      "enum": "TextPacketType"
+      "enum": "TextPacketType",
+      "value": "jukeboxPopup"
     },
     {
       "name": "Message Type",
-      "type": "string",
+      "type": "uint8",
       "enum": "TextPacketType"
     },
     {

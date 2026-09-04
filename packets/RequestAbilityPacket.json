@@ -4,11 +4,11 @@
   "fields": [
     {
       "name": "Ability",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Value Type",
-      "type": "string",
+      "type": "uint8",
       "enum": "RequestAbilityPacketPayload::Type"
     },
     {

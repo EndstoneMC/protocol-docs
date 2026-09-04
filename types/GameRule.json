@@ -12,9 +12,7 @@
     {
       "name": "Rule Value",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           null,
           "bool",

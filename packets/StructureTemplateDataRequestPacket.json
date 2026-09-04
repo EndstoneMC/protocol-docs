@@ -16,7 +16,7 @@
     },
     {
       "name": "Requested Operation",
-      "type": "string",
+      "type": "uint8",
       "enum": "StructureTemplateRequestOperation"
     }
   ]

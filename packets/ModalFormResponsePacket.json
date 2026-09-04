@@ -4,7 +4,7 @@
   "fields": [
     {
       "name": "Form ID",
-      "type": "uint32"
+      "type": "uvarint32"
     },
     {
       "name": "JSON Response",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Form Cancel Reason",
-      "type": "string",
+      "type": "uint8",
       "enum": "ModalFormCancelReason",
       "optional": true
     }

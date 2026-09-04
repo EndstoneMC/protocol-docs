@@ -91,7 +91,7 @@
     },
     {
       "name": "Listener",
-      "type": "string",
+      "type": "uint8",
       "enum": "SharedTypes::v1_21_90::CameraPreset::AudioListener",
       "optional": true
     },
@@ -107,7 +107,7 @@
     },
     {
       "name": "Control Scheme",
-      "type": "string",
+      "type": "uint8",
       "enum": "ControlScheme::Scheme",
       "optional": true
     }

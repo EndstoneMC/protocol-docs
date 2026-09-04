@@ -8,7 +8,7 @@
     },
     {
       "name": "CompressionAlgorithm",
-      "type": "string",
+      "type": "uint16",
       "enum": "PacketCompressionAlgorithm"
     },
     {

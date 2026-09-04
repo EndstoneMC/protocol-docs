@@ -8,7 +8,7 @@
     },
     {
       "name": "Player Permission Level",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Custom Permission Flags",

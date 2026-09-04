@@ -3,11 +3,11 @@
   "fields": [
     {
       "name": "Success Count",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Error Count",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Command Name",

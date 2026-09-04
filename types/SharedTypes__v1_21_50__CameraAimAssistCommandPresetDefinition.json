@@ -8,7 +8,7 @@
     },
     {
       "name": "Target Mode",
-      "type": "string",
+      "type": "uint8",
       "enum": "CameraAimAssist::TargetMode",
       "optional": true
     },

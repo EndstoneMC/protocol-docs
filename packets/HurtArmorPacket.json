@@ -4,15 +4,15 @@
   "fields": [
     {
       "name": "Cause",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Damage",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Armor Slots",
-      "type": "uint64"
+      "type": "uvarint64"
     }
   ]
 }

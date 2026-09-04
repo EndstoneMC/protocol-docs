@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Actor Runtime ID",
-      "type": "uint64"
+      "type": "uvarint64"
     }
   ]
 }

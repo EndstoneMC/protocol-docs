@@ -8,7 +8,7 @@
     },
     {
       "name": "Request Type",
-      "type": "string",
+      "type": "uint8",
       "enum": "NpcRequestPacketPayload::RequestType"
     },
     {

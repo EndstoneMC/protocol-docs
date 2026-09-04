@@ -4,7 +4,7 @@
   "fields": [
     {
       "name": "Title Type",
-      "type": "string",
+      "type": "varint32",
       "enum": "SetTitlePacketPayload::TitleType"
     },
     {
@@ -13,15 +13,15 @@
     },
     {
       "name": "Fade In Time",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Stay Time",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Fade Out Time",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Xuid",

@@ -4,17 +4,17 @@
   "fields": [
     {
       "name": "Violation Type",
-      "type": "string",
+      "type": "varint32",
       "enum": "PacketViolationType"
     },
     {
       "name": "Violation Severity",
-      "type": "string",
+      "type": "varint32",
       "enum": "PacketViolationSeverity"
     },
     {
       "name": "Violation PacketId",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Violation Context",

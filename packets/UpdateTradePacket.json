@@ -12,11 +12,11 @@
     },
     {
       "name": "Size",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Trader Tier",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Entity Unique Id",

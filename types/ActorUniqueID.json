@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Actor Unique ID",
-      "type": "int64"
+      "type": "varint64"
     }
   ]
 }

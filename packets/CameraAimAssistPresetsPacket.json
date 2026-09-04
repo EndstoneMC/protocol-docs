@@ -14,7 +14,7 @@
     },
     {
       "name": "Operation",
-      "type": "string",
+      "type": "uint8",
       "enum": "CameraAimAssistPresetsPacketOperation"
     }
   ]

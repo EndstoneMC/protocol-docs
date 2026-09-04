@@ -8,7 +8,7 @@
     },
     {
       "name": "Npc Dialogue Action Type",
-      "type": "string",
+      "type": "varint32",
       "enum": "NpcDialoguePacketPayload::NpcDialogueActionType"
     },
     {

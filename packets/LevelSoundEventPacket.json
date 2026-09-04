@@ -4,7 +4,7 @@
   "fields": [
     {
       "name": "Event ID",
-      "type": "string",
+      "type": "uvarint32",
       "enum": "SharedTypes::Legacy::LevelSoundEvent"
     },
     {
@@ -13,7 +13,7 @@
     },
     {
       "name": "Data",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Actor Identifier",

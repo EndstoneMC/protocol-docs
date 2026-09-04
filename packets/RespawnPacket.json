@@ -8,7 +8,7 @@
     },
     {
       "name": "State",
-      "type": "string",
+      "type": "uint8",
       "enum": "PlayerRespawnState"
     },
     {

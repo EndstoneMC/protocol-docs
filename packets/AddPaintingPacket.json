@@ -16,7 +16,7 @@
     },
     {
       "name": "Direction",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Motif",

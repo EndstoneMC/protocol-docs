@@ -4,21 +4,24 @@
     {
       "name": "chat",
       "type": "string",
-      "enum": "TextPacketType"
+      "enum": "TextPacketType",
+      "value": "chat"
     },
     {
       "name": "whisper",
       "type": "string",
-      "enum": "TextPacketType"
+      "enum": "TextPacketType",
+      "value": "whisper"
     },
     {
       "name": "announcement",
       "type": "string",
-      "enum": "TextPacketType"
+      "enum": "TextPacketType",
+      "value": "announcement"
     },
     {
       "name": "Message Type",
-      "type": "string",
+      "type": "uint8",
       "enum": "TextPacketType"
     },
     {

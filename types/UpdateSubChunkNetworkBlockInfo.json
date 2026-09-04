@@ -7,19 +7,19 @@
     },
     {
       "name": "Runtime Id",
-      "type": "uint32"
+      "type": "uvarint32"
     },
     {
       "name": "Update Flags",
-      "type": "uint32"
+      "type": "uvarint32"
     },
     {
       "name": "Sync Message - Entity Unique ID",
-      "type": "uint64"
+      "type": "uvarint64"
     },
     {
       "name": "Sync Message - Message",
-      "type": "uint32"
+      "type": "uvarint32"
     }
   ]
 }

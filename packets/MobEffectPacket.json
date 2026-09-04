@@ -8,16 +8,16 @@
     },
     {
       "name": "Event ID",
-      "type": "string",
+      "type": "uint8",
       "enum": "MobEffectPacketPayload::Event"
     },
     {
       "name": "Effect ID",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Effect Amplifier",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Show Particles",
@@ -25,7 +25,7 @@
     },
     {
       "name": "Effect Duration Ticks",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Tick",

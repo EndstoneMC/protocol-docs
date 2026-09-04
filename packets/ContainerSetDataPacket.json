@@ -8,11 +8,11 @@
     },
     {
       "name": "ID",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Value",
-      "type": "int32"
+      "type": "varint32"
     }
   ]
 }

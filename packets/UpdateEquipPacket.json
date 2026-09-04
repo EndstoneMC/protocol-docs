@@ -12,7 +12,7 @@
     },
     {
       "name": "Size",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Entity Unique Id",

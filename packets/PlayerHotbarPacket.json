@@ -4,7 +4,7 @@
   "fields": [
     {
       "name": "Selected Slot",
-      "type": "uint32"
+      "type": "uvarint32"
     },
     {
       "name": "Container ID",

@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Raw Id",
-      "type": "uint32"
+      "type": "uvarint32"
     }
   ]
 }

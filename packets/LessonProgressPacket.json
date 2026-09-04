@@ -4,11 +4,11 @@
   "fields": [
     {
       "name": "Lesson Action",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Score",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Activity Id",

@@ -3,12 +3,12 @@
   "fields": [
     {
       "name": "Block Interaction Type",
-      "type": "string",
+      "type": "uint8",
       "enum": "MinecraftEventing::POIBlockInteractionType"
     },
     {
       "name": "Item Id",
-      "type": "int16"
+      "type": "varint32"
     }
   ]
 }

@@ -8,15 +8,15 @@
     },
     {
       "name": "Block Runtime ID",
-      "type": "uint32"
+      "type": "uvarint32"
     },
     {
       "name": "Flags",
-      "type": "uint32"
+      "type": "uvarint32"
     },
     {
       "name": "Layer",
-      "type": "uint32"
+      "type": "uvarint32"
     }
   ]
 }

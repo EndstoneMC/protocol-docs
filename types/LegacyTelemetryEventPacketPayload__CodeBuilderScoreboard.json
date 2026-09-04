@@ -10,7 +10,7 @@
     },
     {
       "name": "Score",
-      "type": "int32"
+      "type": "varint32"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "fields": [
     {
       "name": "Graphics Mode Change",
-      "type": "string",
+      "type": "uint8",
       "enum": "GraphicsMode",
       "optional": true
     }

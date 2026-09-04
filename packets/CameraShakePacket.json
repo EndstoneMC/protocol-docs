@@ -12,12 +12,12 @@
     },
     {
       "name": "Shake Type",
-      "type": "string",
+      "type": "uint8",
       "enum": "CameraShakeType"
     },
     {
       "name": "Shake Action",
-      "type": "string",
+      "type": "uint8",
       "enum": "CameraShakeAction"
     }
   ]

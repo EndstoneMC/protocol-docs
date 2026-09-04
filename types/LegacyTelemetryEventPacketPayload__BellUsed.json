@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Item Id",
-      "type": "int16"
+      "type": "varint32"
     }
   ]
 }

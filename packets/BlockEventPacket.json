@@ -8,11 +8,11 @@
     },
     {
       "name": "Event Type",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Event Value",
-      "type": "int32"
+      "type": "varint32"
     }
   ]
 }

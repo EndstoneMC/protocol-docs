@@ -3,11 +3,11 @@
   "fields": [
     {
       "name": "X",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Z",
-      "type": "int32"
+      "type": "varint32"
     }
   ]
 }

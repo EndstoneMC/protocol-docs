@@ -4,7 +4,7 @@
   "fields": [
     {
       "name": "Agent Animation",
-      "type": "string",
+      "type": "uint8",
       "enum": "AgentAnimation"
     },
     {

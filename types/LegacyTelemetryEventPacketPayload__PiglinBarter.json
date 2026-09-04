@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Item Id",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Was Targeting Bartering Player",

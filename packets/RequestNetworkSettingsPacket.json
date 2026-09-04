@@ -4,7 +4,7 @@
   "fields": [
     {
       "name": "ClientNetworkVersion",
-      "type": "int32",
+      "type": "int32_be",
       "constraints": {
         "minimum": 898,
         "maximum": 898

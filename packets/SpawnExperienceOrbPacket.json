@@ -8,7 +8,7 @@
     },
     {
       "name": "XP Value",
-      "type": "int32"
+      "type": "varint32"
     }
   ]
 }

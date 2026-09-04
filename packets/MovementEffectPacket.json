@@ -8,12 +8,12 @@
     },
     {
       "name": "Effect ID",
-      "type": "string",
+      "type": "varint32",
       "enum": "MovementEffectType"
     },
     {
       "name": "Effect Duration",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Tick",

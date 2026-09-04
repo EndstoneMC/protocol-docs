@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Container Name",
-      "type": "string",
+      "type": "uint8",
       "enum": "ContainerEnumName"
     },
     {

@@ -4,7 +4,7 @@
   "fields": [
     {
       "name": "Spawn Position Type",
-      "type": "string",
+      "type": "varint32",
       "enum": "SpawnPositionType"
     },
     {

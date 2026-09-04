@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Achievement ID",
-      "type": "string",
+      "type": "uint8",
       "enum": "MinecraftEventing::AchievementIds"
     }
   ]

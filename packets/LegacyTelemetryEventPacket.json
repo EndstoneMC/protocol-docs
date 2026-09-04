@@ -8,7 +8,7 @@
     },
     {
       "name": "Event Type",
-      "type": "string",
+      "type": "varint32",
       "enum": "LegacyTelemetryEventPacketPayload::Type"
     },
     {
@@ -18,9 +18,7 @@
     {
       "name": "Event Data",
       "type": {
-        "switch": {
-          "type": "uvarint32"
-        },
+        "switch": "uvarint32",
         "cases": [
           "LegacyTelemetryEventPacketPayload::Achievement",
           "LegacyTelemetryEventPacketPayload::Interaction",

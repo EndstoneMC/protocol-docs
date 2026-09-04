@@ -4,15 +4,15 @@
   "fields": [
     {
       "name": "MaxTestsPerBatch",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "RepeatCount",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Rotation",
-      "type": "string",
+      "type": "uint8",
       "enum": "Rotation"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "name": "TestsPerRow",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "TestName",

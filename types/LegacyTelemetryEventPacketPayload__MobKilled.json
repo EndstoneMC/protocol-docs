@@ -3,24 +3,24 @@
   "fields": [
     {
       "name": "Instigator Actor ID",
-      "type": "int64"
+      "type": "varint64"
     },
     {
       "name": "Target Actor ID",
-      "type": "int64"
+      "type": "varint64"
     },
     {
       "name": "Instigator's Child Actor Type",
-      "type": "string",
+      "type": "varint32",
       "enum": "ActorType"
     },
     {
       "name": "Damage Source",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Trade Tier",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Trader Name",

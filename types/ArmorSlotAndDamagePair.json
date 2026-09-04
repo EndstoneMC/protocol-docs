@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Armor Slot",
-      "type": "string",
+      "type": "varint32",
       "enum": "SharedTypes::Legacy::ArmorSlot"
     },
     {

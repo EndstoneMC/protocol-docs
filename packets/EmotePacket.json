@@ -12,7 +12,7 @@
     },
     {
       "name": "Emote Length Ticks",
-      "type": "uint32"
+      "type": "uvarint32"
     },
     {
       "name": "Xuid",

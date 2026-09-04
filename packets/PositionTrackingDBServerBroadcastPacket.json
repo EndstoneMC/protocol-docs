@@ -4,7 +4,7 @@
   "fields": [
     {
       "name": "Action",
-      "type": "string",
+      "type": "uint8",
       "enum": "PositionTrackingDBServerBroadcastPacketPayload::Action"
     },
     {

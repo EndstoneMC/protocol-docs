@@ -3,20 +3,20 @@
   "fields": [
     {
       "name": "Interacted Entity ID",
-      "type": "int64"
+      "type": "varint64"
     },
     {
       "name": "Interaction Type",
-      "type": "string",
+      "type": "uint8",
       "enum": "MinecraftEventing::InteractionType"
     },
     {
       "name": "Interaction Actor Type",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Interaction Actor Variant",
-      "type": "int32"
+      "type": "varint32"
     },
     {
       "name": "Interaction Actor Color",

@@ -3,15 +3,15 @@
   "fields": [
     {
       "name": "Contents Color",
-      "type": "uint32"
+      "type": "uvarint32"
     },
     {
       "name": "Contents Type",
-      "type": "int16"
+      "type": "varint32"
     },
     {
       "name": "Fill Level",
-      "type": "int16"
+      "type": "varint32"
     }
   ]
 }
