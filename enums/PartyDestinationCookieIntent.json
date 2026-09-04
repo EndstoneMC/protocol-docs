@@ -2,15 +2,15 @@
   "name": "PartyDestinationCookieIntent",
   "values": [
     {
-      "name": "Notify",
+      "name": "notify",
       "value": 0
     },
     {
-      "name": "OptIn",
+      "name": "optin",
       "value": 1
     },
     {
-      "name": "OptOut",
+      "name": "optout",
       "value": 2
     }
   ]

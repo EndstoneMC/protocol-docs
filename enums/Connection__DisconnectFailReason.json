@@ -2,571 +2,571 @@
   "name": "Connection::DisconnectFailReason",
   "values": [
     {
-      "name": "Unknown",
+      "name": "unknown",
       "value": 0
     },
     {
-      "name": "CantConnectNoInternet",
+      "name": "cantconnectnointernet",
       "value": 1
     },
     {
-      "name": "NoPermissions",
+      "name": "nopermissions",
       "value": 2
     },
     {
-      "name": "UnrecoverableError",
+      "name": "unrecoverableerror",
       "value": 3
     },
     {
-      "name": "ThirdPartyBlocked",
+      "name": "thirdpartyblocked",
       "value": 4
     },
     {
-      "name": "ThirdPartyNoInternet",
+      "name": "thirdpartynointernet",
       "value": 5
     },
     {
-      "name": "ThirdPartyBadIP",
+      "name": "thirdpartybadip",
       "value": 6
     },
     {
-      "name": "ThirdPartyNoServerOrServerLocked",
+      "name": "thirdpartynoserverorserverlocked",
       "value": 7
     },
     {
-      "name": "VersionMismatch",
+      "name": "versionmismatch",
       "value": 8
     },
     {
-      "name": "SkinIssue",
+      "name": "skinissue",
       "value": 9
     },
     {
-      "name": "InviteSessionNotFound",
+      "name": "invitesessionnotfound",
       "value": 10
     },
     {
-      "name": "EduLevelSettingsMissing",
+      "name": "edulevelsettingsmissing",
       "value": 11
     },
     {
-      "name": "LocalServerNotFound",
+      "name": "localservernotfound",
       "value": 12
     },
     {
-      "name": "LegacyDisconnect",
+      "name": "legacydisconnect",
       "value": 13
     },
     {
-      "name": "INTERNAL_UserLeaveGameAttempted",
+      "name": "internal_userleavegameattempted",
       "value": 14
     },
     {
-      "name": "PlatformLockedSkinsError",
+      "name": "platformlockedskinserror",
       "value": 15
     },
     {
-      "name": "RealmsWorldUnassigned",
+      "name": "realmsworldunassigned",
       "value": 16
     },
     {
-      "name": "RealmsServerCantConnect",
+      "name": "realmsservercantconnect",
       "value": 17
     },
     {
-      "name": "RealmsServerHidden",
+      "name": "realmsserverhidden",
       "value": 18
     },
     {
-      "name": "RealmsServerDisabledBeta",
+      "name": "realmsserverdisabledbeta",
       "value": 19
     },
     {
-      "name": "RealmsServerDisabled",
+      "name": "realmsserverdisabled",
       "value": 20
     },
     {
-      "name": "CrossPlatformDisabled",
+      "name": "crossplatformdisabled",
       "value": 21
     },
     {
-      "name": "TESTONLY_CantConnect",
+      "name": "testonly_cantconnect",
       "value": 22
     },
     {
-      "name": "SessionNotFound",
+      "name": "sessionnotfound",
       "value": 23
     },
     {
-      "name": "ClientSettingsIncompatibleWithServer",
+      "name": "clientsettingsincompatiblewithserver",
       "value": 24
     },
     {
-      "name": "ServerFull",
+      "name": "serverfull",
       "value": 25
     },
     {
-      "name": "InvalidPlatformSkin",
+      "name": "invalidplatformskin",
       "value": 26
     },
     {
-      "name": "EditionVersionMismatch",
+      "name": "editionversionmismatch",
       "value": 27
     },
     {
-      "name": "EditionMismatch",
+      "name": "editionmismatch",
       "value": 28
     },
     {
-      "name": "LevelNewerThanExeVersion",
+      "name": "levelnewerthanexeversion",
       "value": 29
     },
     {
-      "name": "INTERNAL_NoFailOccurred",
+      "name": "internal_nofailoccurred",
       "value": 30
     },
     {
-      "name": "BannedSkin",
+      "name": "bannedskin",
       "value": 31
     },
     {
-      "name": "Timeout",
+      "name": "timeout",
       "value": 32
     },
     {
-      "name": "ServerNotFound",
+      "name": "servernotfound",
       "value": 33
     },
     {
-      "name": "OutdatedServer",
+      "name": "outdatedserver",
       "value": 34
     },
     {
-      "name": "OutdatedClient",
+      "name": "outdatedclient",
       "value": 35
     },
     {
-      "name": "NoPremiumPlatform",
+      "name": "nopremiumplatform",
       "value": 36
     },
     {
-      "name": "MultiplayerDisabled",
+      "name": "multiplayerdisabled",
       "value": 37
     },
     {
-      "name": "NoWiFi",
+      "name": "nowifi",
       "value": 38
     },
     {
-      "name": "WorldCorruption",
+      "name": "worldcorruption",
       "value": 39
     },
     {
-      "name": "NoReason",
+      "name": "noreason",
       "value": 40
     },
     {
-      "name": "Disconnected",
+      "name": "disconnected",
       "value": 41
     },
     {
-      "name": "InvalidPlayer",
+      "name": "invalidplayer",
       "value": 42
     },
     {
-      "name": "LoggedInOtherLocation",
+      "name": "loggedinotherlocation",
       "value": 43
     },
     {
-      "name": "ServerIdConflict",
+      "name": "serveridconflict",
       "value": 44
     },
     {
-      "name": "NotAllowed",
+      "name": "notallowed",
       "value": 45
     },
     {
-      "name": "NotAuthenticated",
+      "name": "notauthenticated",
       "value": 46
     },
     {
-      "name": "InvalidTenant",
+      "name": "invalidtenant",
       "value": 47
     },
     {
-      "name": "UnknownPacket",
+      "name": "unknownpacket",
       "value": 48
     },
     {
-      "name": "UnexpectedPacket",
+      "name": "unexpectedpacket",
       "value": 49
     },
     {
-      "name": "InvalidCommandRequestPacket",
+      "name": "invalidcommandrequestpacket",
       "value": 50
     },
     {
-      "name": "HostSuspended",
+      "name": "hostsuspended",
       "value": 51
     },
     {
-      "name": "LoginPacketNoRequest",
+      "name": "loginpacketnorequest",
       "value": 52
     },
     {
-      "name": "LoginPacketNoCert",
+      "name": "loginpacketnocert",
       "value": 53
     },
     {
-      "name": "MissingClient",
+      "name": "missingclient",
       "value": 54
     },
     {
-      "name": "Kicked",
+      "name": "kicked",
       "value": 55
     },
     {
-      "name": "KickedForExploit",
+      "name": "kickedforexploit",
       "value": 56
     },
     {
-      "name": "KickedForIdle",
+      "name": "kickedforidle",
       "value": 57
     },
     {
-      "name": "ResourcePackProblem",
+      "name": "resourcepackproblem",
       "value": 58
     },
     {
-      "name": "IncompatiblePack",
+      "name": "incompatiblepack",
       "value": 59
     },
     {
-      "name": "OutOfStorage",
+      "name": "outofstorage",
       "value": 60
     },
     {
-      "name": "InvalidLevel",
+      "name": "invalidlevel",
       "value": 61
     },
     {
-      "name": "DisconnectPacket",
+      "name": "disconnectpacket",
       "value": 62
     },
     {
-      "name": "BlockMismatch",
+      "name": "blockmismatch",
       "value": 63
     },
     {
-      "name": "InvalidHeights",
+      "name": "invalidheights",
       "value": 64
     },
     {
-      "name": "InvalidWidths",
+      "name": "invalidwidths",
       "value": 65
     },
     {
-      "name": "ConnectionLost",
+      "name": "connectionlost",
       "value": 66
     },
     {
-      "name": "ZombieConnection",
+      "name": "zombieconnection",
       "value": 67
     },
     {
-      "name": "Shutdown",
+      "name": "shutdown",
       "value": 68
     },
     {
-      "name": "ReasonNotSet",
+      "name": "reasonnotset",
       "value": 69
     },
     {
-      "name": "LoadingStateTimeout",
+      "name": "loadingstatetimeout",
       "value": 70
     },
     {
-      "name": "ResourcePackLoadingFailed",
+      "name": "resourcepackloadingfailed",
       "value": 71
     },
     {
-      "name": "SearchingForSessionLoadingScreenFailed",
+      "name": "searchingforsessionloadingscreenfailed",
       "value": 72
     },
     {
-      "name": "NetherNetProtocolVersion",
+      "name": "nethernetprotocolversion",
       "value": 73
     },
     {
-      "name": "SubsystemStatusError",
+      "name": "subsystemstatuserror",
       "value": 74
     },
     {
-      "name": "EmptyAuthFromDiscovery",
+      "name": "emptyauthfromdiscovery",
       "value": 75
     },
     {
-      "name": "EmptyUrlFromDiscovery",
+      "name": "emptyurlfromdiscovery",
       "value": 76
     },
     {
-      "name": "ExpiredAuthFromDiscovery",
+      "name": "expiredauthfromdiscovery",
       "value": 77
     },
     {
-      "name": "UnknownSignalServiceSignInFailure",
+      "name": "unknownsignalservicesigninfailure",
       "value": 78
     },
     {
-      "name": "XBLJoinLobbyFailure",
+      "name": "xbljoinlobbyfailure",
       "value": 79
     },
     {
-      "name": "UnspecifiedClientInstanceDisconnection",
+      "name": "unspecifiedclientinstancedisconnection",
       "value": 80
     },
     {
-      "name": "NetherNetSessionNotFound",
+      "name": "nethernetsessionnotfound",
       "value": 81
     },
     {
-      "name": "NetherNetCreatePeerConnection",
+      "name": "nethernetcreatepeerconnection",
       "value": 82
     },
     {
-      "name": "NetherNetICE",
+      "name": "nethernetice",
       "value": 83
     },
     {
-      "name": "NetherNetConnectRequest",
+      "name": "nethernetconnectrequest",
       "value": 84
     },
     {
-      "name": "NetherNetConnectResponse",
+      "name": "nethernetconnectresponse",
       "value": 85
     },
     {
-      "name": "NetherNetNegotiationTimeout",
+      "name": "nethernetnegotiationtimeout",
       "value": 86
     },
     {
-      "name": "NetherNetInactivityTimeout",
+      "name": "nethernetinactivitytimeout",
       "value": 87
     },
     {
-      "name": "StaleConnectionBeingReplaced",
+      "name": "staleconnectionbeingreplaced",
       "value": 88
     },
     {
-      "name": "RealmsSessionNotFound",
+      "name": "realmssessionnotfound",
       "value": 89
     },
     {
-      "name": "BadPacket",
+      "name": "badpacket",
       "value": 90
     },
     {
-      "name": "NetherNetFailedToCreateOffer",
+      "name": "nethernetfailedtocreateoffer",
       "value": 91
     },
     {
-      "name": "NetherNetFailedToCreateAnswer",
+      "name": "nethernetfailedtocreateanswer",
       "value": 92
     },
     {
-      "name": "NetherNetFailedToSetLocalDescription",
+      "name": "nethernetfailedtosetlocaldescription",
       "value": 93
     },
     {
-      "name": "NetherNetFailedToSetRemoteDescription",
+      "name": "nethernetfailedtosetremotedescription",
       "value": 94
     },
     {
-      "name": "NetherNetNegotiationTimeoutWaitingForResponse",
+      "name": "nethernetnegotiationtimeoutwaitingforresponse",
       "value": 95
     },
     {
-      "name": "NetherNetNegotiationTimeoutWaitingForAccept",
+      "name": "nethernetnegotiationtimeoutwaitingforaccept",
       "value": 96
     },
     {
-      "name": "NetherNetIncomingConnectionIgnored",
+      "name": "nethernetincomingconnectionignored",
       "value": 97
     },
     {
-      "name": "NetherNetSignalingParsingFailure",
+      "name": "nethernetsignalingparsingfailure",
       "value": 98
     },
     {
-      "name": "NetherNetSignalingUnknownError",
+      "name": "nethernetsignalingunknownerror",
       "value": 99
     },
     {
-      "name": "NetherNetSignalingUnicastDeliveryFailed",
+      "name": "nethernetsignalingunicastdeliveryfailed",
       "value": 100
     },
     {
-      "name": "NetherNetSignalingBroadcastDeliveryFailed",
+      "name": "nethernetsignalingbroadcastdeliveryfailed",
       "value": 101
     },
     {
-      "name": "NetherNetSignalingGenericDeliveryFailed",
+      "name": "nethernetsignalinggenericdeliveryfailed",
       "value": 102
     },
     {
-      "name": "EditorMismatchEditorWorld",
+      "name": "editormismatcheditorworld",
       "value": 103
     },
     {
-      "name": "EditorMismatchVanillaWorld",
+      "name": "editormismatchvanillaworld",
       "value": 104
     },
     {
-      "name": "WorldTransferNotPrimaryClient",
+      "name": "worldtransfernotprimaryclient",
       "value": 105
     },
     {
-      "name": "INTERNAL_RequestServerShutdown",
+      "name": "internal_requestservershutdown",
       "value": 106
     },
     {
-      "name": "ClientGameSetupCancelled",
+      "name": "clientgamesetupcancelled",
       "value": 107
     },
     {
-      "name": "ClientGameSetupFailed",
+      "name": "clientgamesetupfailed",
       "value": 108
     },
     {
-      "name": "NoVenue",
+      "name": "novenue",
       "value": 109
     },
     {
-      "name": "NetherNetSignalingSigninFailed",
+      "name": "nethernetsignalingsigninfailed",
       "value": 110
     },
     {
-      "name": "SessionAccessDenied",
+      "name": "sessionaccessdenied",
       "value": 111
     },
     {
-      "name": "ServiceSigninIssue",
+      "name": "servicesigninissue",
       "value": 112
     },
     {
-      "name": "NetherNetNoSignalingChannel",
+      "name": "nethernetnosignalingchannel",
       "value": 113
     },
     {
-      "name": "NetherNetNotLoggedIn",
+      "name": "nethernetnotloggedin",
       "value": 114
     },
     {
-      "name": "NetherNetClientSignalingError",
+      "name": "nethernetclientsignalingerror",
       "value": 115
     },
     {
-      "name": "SubClientLoginDisabled",
+      "name": "subclientlogindisabled",
       "value": 116
     },
     {
-      "name": "DeepLinkTryingToOpenDemoWorldWhileSignedIn",
+      "name": "deeplinktryingtoopendemoworldwhilesignedin",
       "value": 117
     },
     {
-      "name": "AsyncJoinTaskDenied",
+      "name": "asyncjointaskdenied",
       "value": 118
     },
     {
-      "name": "RealmsTimelineRequired",
+      "name": "realmstimelinerequired",
       "value": 119
     },
     {
-      "name": "GuestWithoutHost",
+      "name": "guestwithouthost",
       "value": 120
     },
     {
-      "name": "FailedToJoinExperience",
+      "name": "failedtojoinexperience",
       "value": 121
     },
     {
-      "name": "NetherNetDataChannelClosed",
+      "name": "nethernetdatachannelclosed",
       "value": 122
     },
     {
-      "name": "DiscoveryEnvironmentMismatch",
+      "name": "discoveryenvironmentmismatch",
       "value": 123
     },
     {
-      "name": "HostWithoutKeys",
+      "name": "hostwithoutkeys",
       "value": 124
     },
     {
-      "name": "HostSignedOut",
+      "name": "hostsignedout",
       "value": 125
     },
     {
-      "name": "ScriptWatchdogException",
+      "name": "scriptwatchdogexception",
       "value": 126
     },
     {
-      "name": "ScriptMemoryLimitExceeded",
+      "name": "scriptmemorylimitexceeded",
       "value": 127
     },
     {
-      "name": "StorageLowDuringGameplay",
+      "name": "storagelowduringgameplay",
       "value": 128
     },
     {
-      "name": "StorageFullDuringGameplay",
+      "name": "storagefullduringgameplay",
       "value": 129
     },
     {
-      "name": "LevelStorageCorruption",
+      "name": "levelstoragecorruption",
       "value": 130
     },
     {
-      "name": "EditionMismatchVanillaToEdu",
+      "name": "editionmismatchvanillatoedu",
       "value": 131
     },
     {
-      "name": "EditionMismatchEduToVanilla",
+      "name": "editionmismatchedutovanilla",
       "value": 132
     },
     {
-      "name": "EditorMismatchEditorToVanilla",
+      "name": "editormismatcheditortovanilla",
       "value": 133
     },
     {
-      "name": "EditorMismatchVanillaToEditor",
+      "name": "editormismatchvanillatoeditor",
       "value": 134
     },
     {
-      "name": "DenyListed",
+      "name": "denylisted",
       "value": 135
     },
     {
-      "name": "NonceMissing",
+      "name": "noncemissing",
       "value": 136
     },
     {
-      "name": "NonceNotFound",
+      "name": "noncenotfound",
       "value": 137
     },
     {
-      "name": "NonceExpired",
+      "name": "nonceexpired",
       "value": 138
     },
     {
-      "name": "NonceNotValid",
+      "name": "noncenotvalid",
       "value": 139
     },
     {
-      "name": "HostDisconnected",
+      "name": "hostdisconnected",
       "value": 140
     },
     {
-      "name": "EditorJoinIntentPolicyFailure",
+      "name": "editorjoinintentpolicyfailure",
       "value": 141
     }
   ]

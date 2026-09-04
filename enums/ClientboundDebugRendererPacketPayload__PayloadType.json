@@ -2,15 +2,15 @@
   "name": "ClientboundDebugRendererPacketPayload::PayloadType",
   "values": [
     {
-      "name": "Invalid",
+      "name": "invalid",
       "value": 0
     },
     {
-      "name": "ClearDebugMarkers",
+      "name": "cleardebugmarkers",
       "value": 1
     },
     {
-      "name": "AddDebugMarkerCube",
+      "name": "adddebugmarkercube",
       "value": 2
     }
   ]

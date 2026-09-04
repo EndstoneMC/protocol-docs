@@ -2,19 +2,19 @@
   "name": "GraphicsMode",
   "values": [
     {
-      "name": "Simple",
+      "name": "simple",
       "value": 0
     },
     {
-      "name": "Fancy",
+      "name": "fancy",
       "value": 1
     },
     {
-      "name": "Advanced",
+      "name": "advanced",
       "value": 2
     },
     {
-      "name": "RayTraced",
+      "name": "raytraced",
       "value": 3
     }
   ]

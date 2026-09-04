@@ -2,23 +2,23 @@
   "name": "SharedTypes::VillageType",
   "values": [
     {
-      "name": "Desert",
+      "name": "desert",
       "value": 0
     },
     {
-      "name": "Ice",
+      "name": "ice",
       "value": 1
     },
     {
-      "name": "Savanna",
+      "name": "savanna",
       "value": 2
     },
     {
-      "name": "Taiga",
+      "name": "taiga",
       "value": 3
     },
     {
-      "name": "Default",
+      "name": "default",
       "value": 4
     }
   ]

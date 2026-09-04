@@ -2,11 +2,11 @@
   "name": "ItemReleaseInventoryTransaction::ActionType",
   "values": [
     {
-      "name": "Release",
+      "name": "release",
       "value": 0
     },
     {
-      "name": "Use",
+      "name": "use",
       "value": 1
     }
   ]
