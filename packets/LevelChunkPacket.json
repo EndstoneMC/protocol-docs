@@ -42,6 +42,10 @@
     {
       "name": "Serialized Chunk Data",
       "type": "string"
+    },
+    {
+      "name": "Is Client Biome Update",
+      "type": "bool"
     }
   ]
 }
