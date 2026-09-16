@@ -1,4 +1,11 @@
 {
   "name": "SoundDataEvent::Pause",
-  "fields": []
+  "fields": [
+    {
+      "name": "Type",
+      "type": "uint8",
+      "enum": "SoundDataEventType",
+      "value": 5
+    }
+  ]
 }

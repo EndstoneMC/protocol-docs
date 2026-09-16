@@ -1,4 +1,11 @@
 {
   "name": "SoundDataEvent::Resume",
-  "fields": []
+  "fields": [
+    {
+      "name": "Type",
+      "type": "uint8",
+      "enum": "SoundDataEventType",
+      "value": 6
+    }
+  ]
 }

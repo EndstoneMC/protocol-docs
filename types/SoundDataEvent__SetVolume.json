@@ -2,6 +2,12 @@
   "name": "SoundDataEvent::SetVolume",
   "fields": [
     {
+      "name": "Type",
+      "type": "uint8",
+      "enum": "SoundDataEventType",
+      "value": 1
+    },
+    {
       "name": "Volume",
       "type": "float"
     }

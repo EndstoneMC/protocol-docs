@@ -2,6 +2,12 @@
   "name": "SoundDataEvent::SeekTo",
   "fields": [
     {
+      "name": "Type",
+      "type": "uint8",
+      "enum": "SoundDataEventType",
+      "value": 4
+    },
+    {
       "name": "Seconds",
       "type": "float"
     }

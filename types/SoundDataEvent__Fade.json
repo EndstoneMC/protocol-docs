@@ -2,6 +2,12 @@
   "name": "SoundDataEvent::Fade",
   "fields": [
     {
+      "name": "Type",
+      "type": "uint8",
+      "enum": "SoundDataEventType",
+      "value": 3
+    },
+    {
       "name": "Duration",
       "type": "float"
     },
