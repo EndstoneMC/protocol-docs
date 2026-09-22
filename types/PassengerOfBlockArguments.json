@@ -1,0 +1,38 @@
+{
+  "name": "PassengerOfBlockArguments",
+  "fields": [
+    {
+      "name": "BlockPos",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Offset",
+      "type": "Vec3",
+      "constraints": {
+        "minimum": -5,
+        "maximum": 5
+      }
+    },
+    {
+      "name": "Rotation",
+      "type": "float",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 360
+      }
+    },
+    {
+      "name": "RotationLimit",
+      "type": "float",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 360
+      }
+    },
+    {
+      "name": "EmoteType",
+      "type": "uint8",
+      "enum": "PassengerOfBlockArguments::EmoteType"
+    }
+  ]
+}

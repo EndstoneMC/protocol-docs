@@ -7,8 +7,8 @@
       "name": "ClientNetworkVersion",
       "type": "int32_be",
       "constraints": {
-        "minimum": 2211,
-        "maximum": 2211
+        "minimum": 2216,
+        "maximum": 2216
       }
     }
   ]

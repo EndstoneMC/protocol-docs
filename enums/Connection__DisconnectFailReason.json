@@ -600,6 +600,10 @@
     {
       "name": "unsupportedtransport",
       "value": 149
+    },
+    {
+      "name": "subclientloginnotbound",
+      "value": 150
     }
   ]
 }

@@ -4,7 +4,7 @@
   "fields": [
     {
       "name": "State",
-      "type": "string",
+      "type": "uint8",
       "enum": "MatchmakingState"
     },
     {
@@ -13,6 +13,11 @@
       "constraints": {
         "max_length": 100
       }
+    },
+    {
+      "name": "Options",
+      "type": "MatchmakingStateOptions",
+      "optional": true
     }
   ]
 }

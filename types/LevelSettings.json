@@ -50,6 +50,11 @@
       "type": "bool"
     },
     {
+      "name": "Editor Level Migration Version",
+      "type": "int8",
+      "enum": "Editor::EditorLevelMigrationVersion"
+    },
+    {
       "name": "Day Cycle Stop Time",
       "type": "varint32"
     },

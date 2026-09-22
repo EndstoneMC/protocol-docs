@@ -190,12 +190,16 @@
       "value": 44
     },
     {
-      "name": "count",
+      "name": "sameactorblockreplacementretainsitemsfix",
       "value": 55
     },
     {
+      "name": "count",
+      "value": 56
+    },
+    {
       "name": "latest",
-      "value": 54
+      "value": 55
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "name": "Editor::EditorLevelMigrationVersion",
+  "values": [
+    {
+      "name": "legacy",
+      "value": 0
+    },
+    {
+      "name": "editorachievements",
+      "value": 1
+    }
+  ]
+}
