@@ -1,0 +1,12 @@
+{
+  "name": "Audio::SignedAudioContent",
+  "fields": [
+    {
+      "name": "Compact JWT",
+      "type": "string",
+      "constraints": {
+        "max_length": 32768
+      }
+    }
+  ]
+}

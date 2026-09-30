@@ -29,6 +29,7 @@
           "ItemStackRequestCereal::CraftRecipeOptionalActionData",
           "ItemStackRequestCereal::CraftRepairAndDisenchantActionData",
           "ItemStackRequestCereal::CraftLoomActionData",
+          "ItemStackRequestCereal::CraftDiscPressActionData",
           "ItemStackRequestCereal::CraftNonImplementedActionData",
           "ItemStackRequestCereal::CraftResultsActionData"
         ]

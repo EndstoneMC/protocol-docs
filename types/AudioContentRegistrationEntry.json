@@ -1,0 +1,25 @@
+{
+  "name": "AudioContentRegistrationEntry",
+  "fields": [
+    {
+      "name": "Audio Content ID",
+      "type": "string",
+      "constraints": {
+        "min_length": 1,
+        "max_length": 36
+      }
+    },
+    {
+      "name": "Shared Metadata",
+      "type": "Audio::SignedAudioContent"
+    },
+    {
+      "name": "Server Content",
+      "type": "Audio::SignedAudioContent"
+    },
+    {
+      "name": "Playback Content",
+      "type": "Audio::SignedAudioContent"
+    }
+  ]
+}

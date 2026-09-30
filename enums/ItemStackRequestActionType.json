@@ -74,12 +74,16 @@
       "value": 17
     },
     {
-      "name": "craftnonimplemented",
+      "name": "craftreservedaction",
       "value": 18
     },
     {
-      "name": "craftresults",
+      "name": "craftnonimplemented",
       "value": 19
+    },
+    {
+      "name": "craftresults",
+      "value": 20
     }
   ]
 }

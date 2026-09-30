@@ -1,0 +1,14 @@
+{
+  "id": 360,
+  "name": "ServerboundRegisterAudioContentPacket",
+  "fields": [
+    {
+      "name": "Registrations",
+      "type": "AudioContentRegistrationEntry",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 64
+      }
+    }
+  ]
+}

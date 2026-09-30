@@ -1,0 +1,13 @@
+{
+  "name": "AudioContentPlaybackType",
+  "values": [
+    {
+      "name": "music",
+      "value": 0
+    },
+    {
+      "name": "sound",
+      "value": 1
+    }
+  ]
+}

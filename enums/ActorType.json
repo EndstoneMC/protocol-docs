@@ -636,6 +636,14 @@
     {
       "name": "cushion",
       "value": 154
+    },
+    {
+      "name": "frostbite",
+      "value": 199579
+    },
+    {
+      "name": "iceball",
+      "value": 4194460
     }
   ]
 }

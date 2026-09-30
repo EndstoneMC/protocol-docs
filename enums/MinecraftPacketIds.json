@@ -570,6 +570,10 @@
       "value": 142
     },
     {
+      "name": "serverboundcursoritemdrag",
+      "value": 358
+    },
+    {
       "name": "networksettings",
       "value": 143
     },
@@ -944,6 +948,14 @@
     {
       "name": "serverboundmatchmakingcancel",
       "value": 356
+    },
+    {
+      "name": "clientboundplayaudiocontent",
+      "value": 359
+    },
+    {
+      "name": "serverboundregisteraudiocontent",
+      "value": 360
     }
   ]
 }

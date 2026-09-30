@@ -156,6 +156,10 @@
     {
       "name": "crafter",
       "value": 36
+    },
+    {
+      "name": "reserved_container_type",
+      "value": 38
     }
   ]
 }

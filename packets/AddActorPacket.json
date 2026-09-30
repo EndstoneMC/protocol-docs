@@ -52,6 +52,11 @@
       "name": "Actor Links",
       "type": "ActorLink",
       "repeat": "uvarint32"
+    },
+    {
+      "name": "Passenger Block Data",
+      "type": "PassengerOfBlockArguments",
+      "optional": true
     }
   ]
 }

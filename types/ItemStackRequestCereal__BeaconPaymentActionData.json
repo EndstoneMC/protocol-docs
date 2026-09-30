@@ -12,7 +12,7 @@
       "type": "varint32",
       "constraints": {
         "minimum": 0,
-        "maximum": 37
+        "maximum": 38
       }
     },
     {
@@ -20,7 +20,7 @@
       "type": "varint32",
       "constraints": {
         "minimum": 0,
-        "maximum": 37
+        "maximum": 38
       }
     }
   ]

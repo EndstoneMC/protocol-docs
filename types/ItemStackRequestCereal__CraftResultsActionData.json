@@ -5,7 +5,7 @@
       "name": "Action type",
       "type": "uint8",
       "enum": "ItemStackRequestActionType",
-      "value": 19
+      "value": 20
     },
     {
       "name": "Craft Results",
