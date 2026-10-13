@@ -1,0 +1,15 @@
+{
+  "id": 304,
+  "name": "AgentAnimationPacket",
+  "fields": [
+    {
+      "name": "Agent Animation",
+      "type": "uint8",
+      "enum": "AgentAnimation"
+    },
+    {
+      "name": "Runtime Id",
+      "type": "ActorRuntimeID"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "SyncedAttribute",
+  "fields": [
+    {
+      "name": "Attribute Name",
+      "type": "string"
+    },
+    {
+      "name": "Min Value",
+      "type": "float"
+    },
+    {
+      "name": "Current Value",
+      "type": "float"
+    },
+    {
+      "name": "Max Value",
+      "type": "float"
+    }
+  ]
+}

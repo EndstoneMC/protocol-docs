@@ -1,0 +1,31 @@
+{
+  "id": 138,
+  "name": "EmotePacket",
+  "notes": "Sent in both directions; by client to request that an emote is played and then from the server to the clients to indicate which player needs to now emote.",
+  "fields": [
+    {
+      "name": "Actor Runtime Id",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Emote Id",
+      "type": "string"
+    },
+    {
+      "name": "Emote Length Ticks",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Xuid",
+      "type": "string"
+    },
+    {
+      "name": "PlatformId",
+      "type": "string"
+    },
+    {
+      "name": "Flags",
+      "type": "uint8"
+    }
+  ]
+}

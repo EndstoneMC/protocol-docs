@@ -1,0 +1,13 @@
+{
+  "name": "ScoreboardIdentityPacketType",
+  "values": [
+    {
+      "name": "update",
+      "value": 0
+    },
+    {
+      "name": "remove",
+      "value": 1
+    }
+  ]
+}

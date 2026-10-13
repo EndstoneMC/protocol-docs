@@ -1,0 +1,26 @@
+{
+  "id": 81,
+  "name": "UpdateEquipPacket",
+  "fields": [
+    {
+      "name": "Container Id",
+      "type": "uint8"
+    },
+    {
+      "name": "Type",
+      "type": "uint8"
+    },
+    {
+      "name": "Size",
+      "type": "varint32"
+    },
+    {
+      "name": "Entity Unique Id",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Data",
+      "type": "CompoundTag"
+    }
+  ]
+}

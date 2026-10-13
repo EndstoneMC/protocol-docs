@@ -1,0 +1,9 @@
+{
+  "name": "CameraInstructionOptions::SetInstruction::FacingOption",
+  "fields": [
+    {
+      "name": "pos",
+      "type": "Vec3"
+    }
+  ]
+}

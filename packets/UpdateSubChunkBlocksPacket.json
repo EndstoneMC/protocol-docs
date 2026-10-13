@@ -1,0 +1,14 @@
+{
+  "id": 172,
+  "name": "UpdateSubChunkBlocksPacket",
+  "fields": [
+    {
+      "name": "Sub Chunk Block Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Blocks Changed",
+      "type": "UpdateSubChunkBlocksChangedInfo"
+    }
+  ]
+}

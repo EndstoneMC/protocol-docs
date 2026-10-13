@@ -1,0 +1,12 @@
+{
+  "id": 64,
+  "name": "SimpleEventPacket",
+  "notes": "This is fired from the client to the server and a SetCommandsEnabledPacket is sent back when enabling commands.",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "uint16",
+      "enum": "SimpleEventPacketPayload::Subtype"
+    }
+  ]
+}

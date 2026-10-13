@@ -1,0 +1,41 @@
+{
+  "name": "SharedTypes::v1_26_0::CameraSplineDefinition",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "constraints": {
+        "pattern": "^\\w+:\\w+$"
+      }
+    },
+    {
+      "name": "total_time",
+      "type": "float",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "spline_type",
+      "type": "string",
+      "constraints": {
+        "pattern": "^(?:catmullrom|linear)$"
+      }
+    },
+    {
+      "name": "control_points",
+      "type": "SharedTypes::v1_26_0::CameraSplineControlPoint",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "progress_key_frames",
+      "type": "SharedTypes::v1_26_0::CameraSplineProgressKeyFrame",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "rotation_key_frames",
+      "type": "SharedTypes::v1_26_0::CameraSplineRotationKeyFrame",
+      "repeat": "uvarint32"
+    }
+  ]
+}

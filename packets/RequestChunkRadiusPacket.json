@@ -1,0 +1,15 @@
+{
+  "id": 69,
+  "name": "RequestChunkRadiusPacket",
+  "notes": "This packet is to make sure that the server expands/shrinks first. Additionally for ClientSide Chunk Generation we can send a byte, based on client's hardware capabilities what is the max chunk radius client can handle.",
+  "fields": [
+    {
+      "name": "Chunk Radius",
+      "type": "varint32"
+    },
+    {
+      "name": "Max ChunkRadius",
+      "type": "uint8"
+    }
+  ]
+}

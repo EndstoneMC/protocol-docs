@@ -1,0 +1,27 @@
+{
+  "name": "AttributeLayerSyncPacketData::RemoveEnvironmentAttributesData",
+  "fields": [
+    {
+      "name": "Attribute Layer Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 128
+      }
+    },
+    {
+      "name": "Attribute Layer Dimension",
+      "type": "DimensionType"
+    },
+    {
+      "name": "Attributes",
+      "type": "string",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 1024,
+        "items": {
+          "max_length": 128
+        }
+      }
+    }
+  ]
+}

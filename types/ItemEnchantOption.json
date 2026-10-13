@@ -1,0 +1,25 @@
+{
+  "name": "ItemEnchantOption",
+  "fields": [
+    {
+      "name": "Cost",
+      "type": "uint8"
+    },
+    {
+      "name": "Enchants",
+      "type": "ItemEnchants"
+    },
+    {
+      "name": "Enchant Name",
+      "type": "string",
+      "constraints": {
+        "min_length": 1,
+        "max_length": 256
+      }
+    },
+    {
+      "name": "Enchant Net Id",
+      "type": "TypedServerNetId<struct RecipeNetIdTag>"
+    }
+  ]
+}

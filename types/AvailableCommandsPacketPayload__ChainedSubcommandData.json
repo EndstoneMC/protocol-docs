@@ -1,0 +1,20 @@
+{
+  "name": "AvailableCommandsPacketPayload::ChainedSubcommandData",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 512
+      }
+    },
+    {
+      "name": "SubCommand values",
+      "type": "AvailableCommandsPacketPayload::ChainedSubcommandRelationship",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 32
+      }
+    }
+  ]
+}

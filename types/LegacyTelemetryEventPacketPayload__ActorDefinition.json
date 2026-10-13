@@ -1,0 +1,12 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::ActorDefinition",
+  "fields": [
+    {
+      "name": "Event Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 256
+      }
+    }
+  ]
+}

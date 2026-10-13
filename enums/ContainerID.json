@@ -1,0 +1,41 @@
+{
+  "name": "ContainerID",
+  "values": [
+    {
+      "name": "container_id_none",
+      "value": -1
+    },
+    {
+      "name": "container_id_inventory",
+      "value": 0
+    },
+    {
+      "name": "container_id_first",
+      "value": 1
+    },
+    {
+      "name": "container_id_last",
+      "value": 100
+    },
+    {
+      "name": "container_id_offhand",
+      "value": 119
+    },
+    {
+      "name": "container_id_armor",
+      "value": 120
+    },
+    {
+      "name": "container_id_selection_slots",
+      "value": 122
+    },
+    {
+      "name": "container_id_player_only_ui",
+      "value": 124
+    },
+    {
+      "name": "container_id_registry",
+      "value": 125
+    }
+  ]
+}

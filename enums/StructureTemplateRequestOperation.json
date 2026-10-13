@@ -1,0 +1,21 @@
+{
+  "name": "StructureTemplateRequestOperation",
+  "values": [
+    {
+      "name": "none",
+      "value": 0
+    },
+    {
+      "name": "exportfromsavemode",
+      "value": 1
+    },
+    {
+      "name": "exportfromloadmode",
+      "value": 2
+    },
+    {
+      "name": "querysavedstructure",
+      "value": 3
+    }
+  ]
+}

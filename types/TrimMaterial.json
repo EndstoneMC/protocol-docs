@@ -1,0 +1,17 @@
+{
+  "name": "TrimMaterial",
+  "fields": [
+    {
+      "name": "Material Id",
+      "type": "string"
+    },
+    {
+      "name": "Color",
+      "type": "string"
+    },
+    {
+      "name": "Item Name",
+      "type": "string"
+    }
+  ]
+}

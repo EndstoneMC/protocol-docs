@@ -1,0 +1,17 @@
+{
+  "name": "StructureTemplateResponseType",
+  "values": [
+    {
+      "name": "none",
+      "value": 0
+    },
+    {
+      "name": "export",
+      "value": 1
+    },
+    {
+      "name": "query",
+      "value": 2
+    }
+  ]
+}

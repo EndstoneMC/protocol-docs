@@ -1,0 +1,105 @@
+{
+  "name": "SerializedSkinRef",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "string"
+    },
+    {
+      "name": "ResourcePatch",
+      "type": "string",
+      "constraints": {
+        "description": "Verify that the string contains JSON within the maximum nesting depth"
+      }
+    },
+    {
+      "name": "ImageData",
+      "type": "SkinImage"
+    },
+    {
+      "name": "AnimatedImageData",
+      "type": "AnimatedImageData",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "CapeImageData",
+      "type": "SkinImage"
+    },
+    {
+      "name": "GeometryData",
+      "type": "string",
+      "constraints": {
+        "description": "Verify that the string contains valid depth-limited JSON"
+      }
+    },
+    {
+      "name": "GeometryDataMinEngineVersion",
+      "type": "string"
+    },
+    {
+      "name": "AnimationData",
+      "type": "string"
+    },
+    {
+      "name": "CapeID",
+      "type": "string"
+    },
+    {
+      "name": "FullID",
+      "type": "string"
+    },
+    {
+      "name": "ArmSize",
+      "type": "uint8",
+      "enum": "SharedTypes::persona::ArmSizeType"
+    },
+    {
+      "name": "SkinColor",
+      "type": "mce::Color"
+    },
+    {
+      "name": "PersonaPieces",
+      "type": "SerializedPersonaPieceHandle",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "PieceTintColors",
+      "type": {
+        "key": {
+          "type": "string",
+          "enum": "SharedTypes::persona::PieceType"
+        },
+        "value": "TintMapColor"
+      }
+    },
+    {
+      "name": "IsPremium",
+      "type": "bool"
+    },
+    {
+      "name": "IsPersona",
+      "type": "bool"
+    },
+    {
+      "name": "IsPersonaCapeOnClassicSkin",
+      "type": "bool"
+    },
+    {
+      "name": "IsPrimaryUser",
+      "type": "bool"
+    },
+    {
+      "name": "OverridesPlayerAppearance",
+      "type": "bool"
+    },
+    {
+      "name": "TrustedSkinFlag",
+      "type": "string",
+      "enum": "TrustedSkinFlag"
+    },
+    {
+      "name": "ProfileHash",
+      "type": "string"
+    }
+  ]
+}

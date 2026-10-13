@@ -1,0 +1,17 @@
+{
+  "name": "CameraInstructionOptions::SetInstruction::EntityOffsetOption",
+  "fields": [
+    {
+      "name": "entity_offset_x",
+      "type": "float"
+    },
+    {
+      "name": "entity_offset_y",
+      "type": "float"
+    },
+    {
+      "name": "entity_offset_z",
+      "type": "float"
+    }
+  ]
+}

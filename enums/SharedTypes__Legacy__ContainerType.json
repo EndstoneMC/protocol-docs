@@ -1,0 +1,165 @@
+{
+  "name": "SharedTypes::Legacy::ContainerType",
+  "values": [
+    {
+      "name": "none",
+      "value": -9
+    },
+    {
+      "name": "inventory",
+      "value": -1
+    },
+    {
+      "name": "container",
+      "value": 0
+    },
+    {
+      "name": "workbench",
+      "value": 1
+    },
+    {
+      "name": "furnace",
+      "value": 2
+    },
+    {
+      "name": "enchantment",
+      "value": 3
+    },
+    {
+      "name": "brewing_stand",
+      "value": 4
+    },
+    {
+      "name": "anvil",
+      "value": 5
+    },
+    {
+      "name": "dispenser",
+      "value": 6
+    },
+    {
+      "name": "dropper",
+      "value": 7
+    },
+    {
+      "name": "hopper",
+      "value": 8
+    },
+    {
+      "name": "cauldron",
+      "value": 9
+    },
+    {
+      "name": "minecart_chest",
+      "value": 10
+    },
+    {
+      "name": "minecart_hopper",
+      "value": 11
+    },
+    {
+      "name": "horse",
+      "value": 12
+    },
+    {
+      "name": "beacon",
+      "value": 13
+    },
+    {
+      "name": "structure_editor",
+      "value": 14
+    },
+    {
+      "name": "trade",
+      "value": 15
+    },
+    {
+      "name": "command_block",
+      "value": 16
+    },
+    {
+      "name": "jukebox",
+      "value": 17
+    },
+    {
+      "name": "armor",
+      "value": 18
+    },
+    {
+      "name": "hand",
+      "value": 19
+    },
+    {
+      "name": "compound_creator",
+      "value": 20
+    },
+    {
+      "name": "element_constructor",
+      "value": 21
+    },
+    {
+      "name": "material_reducer",
+      "value": 22
+    },
+    {
+      "name": "lab_table",
+      "value": 23
+    },
+    {
+      "name": "loom",
+      "value": 24
+    },
+    {
+      "name": "lectern",
+      "value": 25
+    },
+    {
+      "name": "grindstone",
+      "value": 26
+    },
+    {
+      "name": "blast_furnace",
+      "value": 27
+    },
+    {
+      "name": "smoker",
+      "value": 28
+    },
+    {
+      "name": "stonecutter",
+      "value": 29
+    },
+    {
+      "name": "cartography",
+      "value": 30
+    },
+    {
+      "name": "hud",
+      "value": 31
+    },
+    {
+      "name": "jigsaw_editor",
+      "value": 32
+    },
+    {
+      "name": "smithing_table",
+      "value": 33
+    },
+    {
+      "name": "chest_boat",
+      "value": 34
+    },
+    {
+      "name": "decorated_pot",
+      "value": 35
+    },
+    {
+      "name": "crafter",
+      "value": 36
+    },
+    {
+      "name": "reserved_container_type",
+      "value": 38
+    }
+  ]
+}

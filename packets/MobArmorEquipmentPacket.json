@@ -1,0 +1,31 @@
+{
+  "id": 32,
+  "name": "MobArmorEquipmentPacket",
+  "notes": "This is related to MobEquipmentPackets, but armor specifically and passes ALL equipment changes at once instead of one slot at a time.",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Head",
+      "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData"
+    },
+    {
+      "name": "Torso",
+      "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData"
+    },
+    {
+      "name": "Legs",
+      "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData"
+    },
+    {
+      "name": "Feet",
+      "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData"
+    },
+    {
+      "name": "Body",
+      "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData"
+    }
+  ]
+}

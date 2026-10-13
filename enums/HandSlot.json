@@ -1,0 +1,13 @@
+{
+  "name": "HandSlot",
+  "values": [
+    {
+      "name": "mainhand",
+      "value": 0
+    },
+    {
+      "name": "offhand",
+      "value": 1
+    }
+  ]
+}

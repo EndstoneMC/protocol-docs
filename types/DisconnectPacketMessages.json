@@ -1,0 +1,13 @@
+{
+  "name": "DisconnectPacketMessages",
+  "fields": [
+    {
+      "name": "Message",
+      "type": "string"
+    },
+    {
+      "name": "Filtered Message",
+      "type": "string"
+    }
+  ]
+}

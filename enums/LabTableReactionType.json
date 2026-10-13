@@ -1,0 +1,57 @@
+{
+  "name": "LabTableReactionType",
+  "values": [
+    {
+      "name": "none",
+      "value": 0
+    },
+    {
+      "name": "icebomb",
+      "value": 1
+    },
+    {
+      "name": "bleach",
+      "value": 2
+    },
+    {
+      "name": "elephanttoothpaste",
+      "value": 3
+    },
+    {
+      "name": "fertilizer",
+      "value": 4
+    },
+    {
+      "name": "heatblock",
+      "value": 5
+    },
+    {
+      "name": "magnesiumsalts",
+      "value": 6
+    },
+    {
+      "name": "miscfire",
+      "value": 7
+    },
+    {
+      "name": "miscexplosion",
+      "value": 8
+    },
+    {
+      "name": "misclava",
+      "value": 9
+    },
+    {
+      "name": "miscmystical",
+      "value": 10
+    },
+    {
+      "name": "miscsmoke",
+      "value": 11
+    },
+    {
+      "name": "misclargesmoke",
+      "value": 12
+    }
+  ]
+}

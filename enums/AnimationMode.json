@@ -1,0 +1,17 @@
+{
+  "name": "AnimationMode",
+  "values": [
+    {
+      "name": "none",
+      "value": 0
+    },
+    {
+      "name": "layers",
+      "value": 1
+    },
+    {
+      "name": "blocks",
+      "value": 2
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ServerboundLoadingScreenPacketType",
+  "values": [
+    {
+      "name": "unknown",
+      "value": 0
+    },
+    {
+      "name": "startloadingscreen",
+      "value": 1
+    },
+    {
+      "name": "endloadingscreen",
+      "value": 2
+    }
+  ]
+}

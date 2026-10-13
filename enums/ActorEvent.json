@@ -1,0 +1,249 @@
+{
+  "name": "ActorEvent",
+  "values": [
+    {
+      "name": "none",
+      "value": 0
+    },
+    {
+      "name": "jump",
+      "value": 1
+    },
+    {
+      "name": "hurt",
+      "value": 2
+    },
+    {
+      "name": "death",
+      "value": 3
+    },
+    {
+      "name": "start_attacking",
+      "value": 4
+    },
+    {
+      "name": "stop_attacking",
+      "value": 5
+    },
+    {
+      "name": "taming_failed",
+      "value": 6
+    },
+    {
+      "name": "taming_succeeded",
+      "value": 7
+    },
+    {
+      "name": "shake_wetness",
+      "value": 8
+    },
+    {
+      "name": "eat_grass",
+      "value": 10
+    },
+    {
+      "name": "fishhook_bubble",
+      "value": 11
+    },
+    {
+      "name": "fishhook_fishpos",
+      "value": 12
+    },
+    {
+      "name": "fishhook_hooktime",
+      "value": 13
+    },
+    {
+      "name": "fishhook_tease",
+      "value": 14
+    },
+    {
+      "name": "squid_fleeing",
+      "value": 15
+    },
+    {
+      "name": "zombie_converting",
+      "value": 16
+    },
+    {
+      "name": "play_ambient",
+      "value": 17
+    },
+    {
+      "name": "spawn_alive",
+      "value": 18
+    },
+    {
+      "name": "start_offer_flower",
+      "value": 19
+    },
+    {
+      "name": "stop_offer_flower",
+      "value": 20
+    },
+    {
+      "name": "love_hearts",
+      "value": 21
+    },
+    {
+      "name": "villager_angry",
+      "value": 22
+    },
+    {
+      "name": "villager_happy",
+      "value": 23
+    },
+    {
+      "name": "witch_hat_magic",
+      "value": 24
+    },
+    {
+      "name": "fireworks_explode",
+      "value": 25
+    },
+    {
+      "name": "in_love_hearts",
+      "value": 26
+    },
+    {
+      "name": "silverfish_merge_anim",
+      "value": 27
+    },
+    {
+      "name": "guardian_attack_sound",
+      "value": 28
+    },
+    {
+      "name": "drink_potion",
+      "value": 29
+    },
+    {
+      "name": "throw_potion",
+      "value": 30
+    },
+    {
+      "name": "prime_tntcart",
+      "value": 31
+    },
+    {
+      "name": "prime_creeper",
+      "value": 32
+    },
+    {
+      "name": "air_supply",
+      "value": 33
+    },
+    {
+      "name": "deprecated_add_player_levels",
+      "value": 34
+    },
+    {
+      "name": "guardian_mining_fatigue",
+      "value": 35
+    },
+    {
+      "name": "agent_swing_arm",
+      "value": 36
+    },
+    {
+      "name": "dragon_start_death_anim",
+      "value": 37
+    },
+    {
+      "name": "ground_dust",
+      "value": 38
+    },
+    {
+      "name": "shake",
+      "value": 39
+    },
+    {
+      "name": "feed",
+      "value": 57
+    },
+    {
+      "name": "baby_age",
+      "value": 60
+    },
+    {
+      "name": "instant_death",
+      "value": 61
+    },
+    {
+      "name": "notify_trade",
+      "value": 62
+    },
+    {
+      "name": "leash_destroyed",
+      "value": 63
+    },
+    {
+      "name": "caravan_updated",
+      "value": 64
+    },
+    {
+      "name": "talisman_activate",
+      "value": 65
+    },
+    {
+      "name": "deprecated_update_structure_feature",
+      "value": 66
+    },
+    {
+      "name": "player_spawned_mob",
+      "value": 67
+    },
+    {
+      "name": "puke",
+      "value": 68
+    },
+    {
+      "name": "update_stack_size",
+      "value": 69
+    },
+    {
+      "name": "start_swimming",
+      "value": 70
+    },
+    {
+      "name": "balloon_pop",
+      "value": 71
+    },
+    {
+      "name": "treasure_hunt",
+      "value": 72
+    },
+    {
+      "name": "summon_agent",
+      "value": 73
+    },
+    {
+      "name": "finished_charging_item",
+      "value": 74
+    },
+    {
+      "name": "actor_grow_up",
+      "value": 76
+    },
+    {
+      "name": "vibration_detected",
+      "value": 77
+    },
+    {
+      "name": "drink_milk",
+      "value": 78
+    },
+    {
+      "name": "shake_wetness_stop",
+      "value": 79
+    },
+    {
+      "name": "kinetic_damage_dealt",
+      "value": 80
+    },
+    {
+      "name": "hurt_without_receiving_damage",
+      "value": 81
+    }
+  ]
+}

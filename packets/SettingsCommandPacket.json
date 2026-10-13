@@ -1,0 +1,15 @@
+{
+  "id": 140,
+  "name": "SettingsCommandPacket",
+  "notes": "Used when the player changes the world settings like doDayNightCycle or WeatherCycle via the world settings menu",
+  "fields": [
+    {
+      "name": "Command",
+      "type": "string"
+    },
+    {
+      "name": "Suppress Output?",
+      "type": "bool"
+    }
+  ]
+}

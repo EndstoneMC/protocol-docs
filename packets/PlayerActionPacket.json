@@ -1,0 +1,28 @@
+{
+  "id": 36,
+  "name": "PlayerActionPacket",
+  "notes": "The expected actions change depending on the ServerAuthMovementMode specified in the StartGamePacket.\n\tSee the PlayerActionType enum for details on which have differing behavior.\n\tSee also PlayerAuthInputPacket and InventoryTransactionPacket for similar types of player actions.",
+  "fields": [
+    {
+      "name": "Player Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Action",
+      "type": "varint32",
+      "enum": "PlayerActionType"
+    },
+    {
+      "name": "Block Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Result Pos",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Face",
+      "type": "varint32"
+    }
+  ]
+}

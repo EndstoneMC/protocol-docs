@@ -1,0 +1,13 @@
+{
+  "name": "SharedTypes::FloatRange",
+  "fields": [
+    {
+      "name": "min",
+      "type": "float"
+    },
+    {
+      "name": "max",
+      "type": "float"
+    }
+  ]
+}

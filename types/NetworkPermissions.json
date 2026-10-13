@@ -1,0 +1,9 @@
+{
+  "name": "NetworkPermissions",
+  "fields": [
+    {
+      "name": "Server Auth Sound Enabled",
+      "type": "bool"
+    }
+  ]
+}

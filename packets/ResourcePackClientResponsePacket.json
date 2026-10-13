@@ -1,0 +1,19 @@
+{
+  "id": 8,
+  "name": "ResourcePackClientResponsePacket",
+  "notes": "Sent to MinecraftGame to complete the resource pack loading process.",
+  "fields": [
+    {
+      "name": "Response",
+      "type": {
+        "switch": "uvarint32",
+        "cases": [
+          "ResourcePackClientResponsePacketPayload::Cancel",
+          "ResourcePackClientResponsePacketPayload::Downloading",
+          "ResourcePackClientResponsePacketPayload::DownloadingFinished",
+          "ResourcePackClientResponsePacketPayload::ResourcePackStackFinished"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "TextProcessingEventOrigin",
+  "values": [
+    {
+      "name": "unknown",
+      "value": -1
+    },
+    {
+      "name": "serverchatpublic",
+      "value": 0
+    },
+    {
+      "name": "serverchatwhisper",
+      "value": 1
+    },
+    {
+      "name": "signtext",
+      "value": 2
+    },
+    {
+      "name": "anviltext",
+      "value": 3
+    },
+    {
+      "name": "bookandquilltext",
+      "value": 4
+    },
+    {
+      "name": "commandblocktext",
+      "value": 5
+    },
+    {
+      "name": "blockactordatatext",
+      "value": 6
+    },
+    {
+      "name": "joineventtext",
+      "value": 7
+    },
+    {
+      "name": "leaveeventtext",
+      "value": 8
+    },
+    {
+      "name": "slashcommandchat",
+      "value": 9
+    },
+    {
+      "name": "cartographytext",
+      "value": 10
+    },
+    {
+      "name": "kickcommand",
+      "value": 11
+    },
+    {
+      "name": "titlecommand",
+      "value": 12
+    },
+    {
+      "name": "summoncommand",
+      "value": 13
+    },
+    {
+      "name": "serverform",
+      "value": 14
+    },
+    {
+      "name": "datadrivenui",
+      "value": 15
+    }
+  ]
+}

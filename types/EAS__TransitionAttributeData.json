@@ -1,0 +1,33 @@
+{
+  "name": "EAS::TransitionAttributeData",
+  "fields": [
+    {
+      "name": "FromAttribute",
+      "type": {
+        "switch": "uvarint32",
+        "cases": [
+          "EAS::BoolAttributeData",
+          "EAS::FloatAttributeData",
+          "EAS::ColorAttributeData",
+          "EAS::StringAttributeData"
+        ]
+      }
+    },
+    {
+      "name": "ToAttribute",
+      "type": {
+        "switch": "uvarint32",
+        "cases": [
+          "EAS::BoolAttributeData",
+          "EAS::FloatAttributeData",
+          "EAS::ColorAttributeData",
+          "EAS::StringAttributeData"
+        ]
+      }
+    },
+    {
+      "name": "Settings",
+      "type": "EAS::TransitionSettingsData"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 104,
+  "name": "ShowProfilePacket",
+  "notes": "The only use in vanilla is a test command called ProfileCommand. It makes the user's xbox profile popup.",
+  "fields": [
+    {
+      "name": "Player XUID",
+      "type": "string"
+    }
+  ]
+}

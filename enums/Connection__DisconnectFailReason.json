@@ -1,0 +1,641 @@
+{
+  "name": "Connection::DisconnectFailReason",
+  "values": [
+    {
+      "name": "unknown",
+      "value": 0
+    },
+    {
+      "name": "cantconnectnointernet",
+      "value": 1
+    },
+    {
+      "name": "nopermissions",
+      "value": 2
+    },
+    {
+      "name": "unrecoverableerror",
+      "value": 3
+    },
+    {
+      "name": "thirdpartyblocked",
+      "value": 4
+    },
+    {
+      "name": "thirdpartynointernet",
+      "value": 5
+    },
+    {
+      "name": "thirdpartybadip",
+      "value": 6
+    },
+    {
+      "name": "thirdpartynoserverorserverlocked",
+      "value": 7
+    },
+    {
+      "name": "versionmismatch",
+      "value": 8
+    },
+    {
+      "name": "skinissue",
+      "value": 9
+    },
+    {
+      "name": "invitesessionnotfound",
+      "value": 10
+    },
+    {
+      "name": "edulevelsettingsmissing",
+      "value": 11
+    },
+    {
+      "name": "localservernotfound",
+      "value": 12
+    },
+    {
+      "name": "legacydisconnect",
+      "value": 13
+    },
+    {
+      "name": "internal_userleavegameattempted",
+      "value": 14
+    },
+    {
+      "name": "platformlockedskinserror",
+      "value": 15
+    },
+    {
+      "name": "realmsworldunassigned",
+      "value": 16
+    },
+    {
+      "name": "realmsservercantconnect",
+      "value": 17
+    },
+    {
+      "name": "realmsserverhidden",
+      "value": 18
+    },
+    {
+      "name": "realmsserverdisabledbeta",
+      "value": 19
+    },
+    {
+      "name": "realmsserverdisabled",
+      "value": 20
+    },
+    {
+      "name": "crossplatformdisabled",
+      "value": 21
+    },
+    {
+      "name": "testonly_cantconnect",
+      "value": 22
+    },
+    {
+      "name": "sessionnotfound",
+      "value": 23
+    },
+    {
+      "name": "clientsettingsincompatiblewithserver",
+      "value": 24
+    },
+    {
+      "name": "serverfull",
+      "value": 25
+    },
+    {
+      "name": "invalidplatformskin",
+      "value": 26
+    },
+    {
+      "name": "editionversionmismatch",
+      "value": 27
+    },
+    {
+      "name": "editionmismatch",
+      "value": 28
+    },
+    {
+      "name": "levelnewerthanexeversion",
+      "value": 29
+    },
+    {
+      "name": "internal_nofailoccurred",
+      "value": 30
+    },
+    {
+      "name": "bannedskin",
+      "value": 31
+    },
+    {
+      "name": "timeout",
+      "value": 32
+    },
+    {
+      "name": "servernotfound",
+      "value": 33
+    },
+    {
+      "name": "outdatedserver",
+      "value": 34
+    },
+    {
+      "name": "outdatedclient",
+      "value": 35
+    },
+    {
+      "name": "nopremiumplatform",
+      "value": 36
+    },
+    {
+      "name": "multiplayerdisabled",
+      "value": 37
+    },
+    {
+      "name": "nowifi",
+      "value": 38
+    },
+    {
+      "name": "worldcorruption",
+      "value": 39
+    },
+    {
+      "name": "noreason",
+      "value": 40
+    },
+    {
+      "name": "disconnected",
+      "value": 41
+    },
+    {
+      "name": "invalidplayer",
+      "value": 42
+    },
+    {
+      "name": "loggedinotherlocation",
+      "value": 43
+    },
+    {
+      "name": "serveridconflict",
+      "value": 44
+    },
+    {
+      "name": "notallowed",
+      "value": 45
+    },
+    {
+      "name": "notauthenticated",
+      "value": 46
+    },
+    {
+      "name": "invalidtenant",
+      "value": 47
+    },
+    {
+      "name": "unknownpacket",
+      "value": 48
+    },
+    {
+      "name": "unexpectedpacket",
+      "value": 49
+    },
+    {
+      "name": "invalidcommandrequestpacket",
+      "value": 50
+    },
+    {
+      "name": "hostsuspended",
+      "value": 51
+    },
+    {
+      "name": "loginpacketnorequest",
+      "value": 52
+    },
+    {
+      "name": "loginpacketnocert",
+      "value": 53
+    },
+    {
+      "name": "missingclient",
+      "value": 54
+    },
+    {
+      "name": "kicked",
+      "value": 55
+    },
+    {
+      "name": "kickedforexploit",
+      "value": 56
+    },
+    {
+      "name": "kickedforidle",
+      "value": 57
+    },
+    {
+      "name": "resourcepackproblem",
+      "value": 58
+    },
+    {
+      "name": "incompatiblepack",
+      "value": 59
+    },
+    {
+      "name": "outofstorage",
+      "value": 60
+    },
+    {
+      "name": "invalidlevel",
+      "value": 61
+    },
+    {
+      "name": "disconnectpacket",
+      "value": 62
+    },
+    {
+      "name": "blockmismatch",
+      "value": 63
+    },
+    {
+      "name": "invalidheights",
+      "value": 64
+    },
+    {
+      "name": "invalidwidths",
+      "value": 65
+    },
+    {
+      "name": "connectionlost",
+      "value": 66
+    },
+    {
+      "name": "zombieconnection",
+      "value": 67
+    },
+    {
+      "name": "shutdown",
+      "value": 68
+    },
+    {
+      "name": "reasonnotset",
+      "value": 69
+    },
+    {
+      "name": "loadingstatetimeout",
+      "value": 70
+    },
+    {
+      "name": "resourcepackloadingfailed",
+      "value": 71
+    },
+    {
+      "name": "searchingforsessionloadingscreenfailed",
+      "value": 72
+    },
+    {
+      "name": "nethernetprotocolversion",
+      "value": 73
+    },
+    {
+      "name": "subsystemstatuserror",
+      "value": 74
+    },
+    {
+      "name": "emptyauthfromdiscovery",
+      "value": 75
+    },
+    {
+      "name": "emptyurlfromdiscovery",
+      "value": 76
+    },
+    {
+      "name": "expiredauthfromdiscovery",
+      "value": 77
+    },
+    {
+      "name": "unknownsignalservicesigninfailure",
+      "value": 78
+    },
+    {
+      "name": "xbljoinlobbyfailure",
+      "value": 79
+    },
+    {
+      "name": "unspecifiedclientinstancedisconnection",
+      "value": 80
+    },
+    {
+      "name": "nethernetsessionnotfound",
+      "value": 81
+    },
+    {
+      "name": "nethernetcreatepeerconnection",
+      "value": 82
+    },
+    {
+      "name": "nethernetice",
+      "value": 83
+    },
+    {
+      "name": "nethernetconnectrequest",
+      "value": 84
+    },
+    {
+      "name": "nethernetconnectresponse",
+      "value": 85
+    },
+    {
+      "name": "nethernetnegotiationtimeout",
+      "value": 86
+    },
+    {
+      "name": "nethernetinactivitytimeout",
+      "value": 87
+    },
+    {
+      "name": "staleconnectionbeingreplaced",
+      "value": 88
+    },
+    {
+      "name": "realmssessionnotfound",
+      "value": 89
+    },
+    {
+      "name": "badpacket",
+      "value": 90
+    },
+    {
+      "name": "nethernetfailedtocreateoffer",
+      "value": 91
+    },
+    {
+      "name": "nethernetfailedtocreateanswer",
+      "value": 92
+    },
+    {
+      "name": "nethernetfailedtosetlocaldescription",
+      "value": 93
+    },
+    {
+      "name": "nethernetfailedtosetremotedescription",
+      "value": 94
+    },
+    {
+      "name": "nethernetnegotiationtimeoutwaitingforresponse",
+      "value": 95
+    },
+    {
+      "name": "nethernetnegotiationtimeoutwaitingforaccept",
+      "value": 96
+    },
+    {
+      "name": "nethernetincomingconnectionignored",
+      "value": 97
+    },
+    {
+      "name": "nethernetsignalingparsingfailure",
+      "value": 98
+    },
+    {
+      "name": "nethernetsignalingunknownerror",
+      "value": 99
+    },
+    {
+      "name": "nethernetsignalingunicastdeliveryfailed",
+      "value": 100
+    },
+    {
+      "name": "nethernetsignalingbroadcastdeliveryfailed",
+      "value": 101
+    },
+    {
+      "name": "nethernetsignalinggenericdeliveryfailed",
+      "value": 102
+    },
+    {
+      "name": "editormismatcheditorworld",
+      "value": 103
+    },
+    {
+      "name": "editormismatchvanillaworld",
+      "value": 104
+    },
+    {
+      "name": "worldtransfernotprimaryclient",
+      "value": 105
+    },
+    {
+      "name": "internal_requestservershutdown",
+      "value": 106
+    },
+    {
+      "name": "clientgamesetupcancelled",
+      "value": 107
+    },
+    {
+      "name": "clientgamesetupfailed",
+      "value": 108
+    },
+    {
+      "name": "novenue",
+      "value": 109
+    },
+    {
+      "name": "nethernetsignalingsigninfailed",
+      "value": 110
+    },
+    {
+      "name": "sessionaccessdenied",
+      "value": 111
+    },
+    {
+      "name": "servicesigninissue",
+      "value": 112
+    },
+    {
+      "name": "nethernetnosignalingchannel",
+      "value": 113
+    },
+    {
+      "name": "nethernetnotloggedin",
+      "value": 114
+    },
+    {
+      "name": "nethernetclientsignalingerror",
+      "value": 115
+    },
+    {
+      "name": "subclientlogindisabled",
+      "value": 116
+    },
+    {
+      "name": "deeplinktryingtoopendemoworldwhilesignedin",
+      "value": 117
+    },
+    {
+      "name": "asyncjointaskdenied",
+      "value": 118
+    },
+    {
+      "name": "realmstimelinerequired",
+      "value": 119
+    },
+    {
+      "name": "guestwithouthost",
+      "value": 120
+    },
+    {
+      "name": "failedtojoinexperience",
+      "value": 121
+    },
+    {
+      "name": "nethernetdatachannelclosed",
+      "value": 122
+    },
+    {
+      "name": "discoveryenvironmentmismatch",
+      "value": 123
+    },
+    {
+      "name": "hostwithoutkeys",
+      "value": 124
+    },
+    {
+      "name": "hostsignedout",
+      "value": 125
+    },
+    {
+      "name": "scriptwatchdogexception",
+      "value": 126
+    },
+    {
+      "name": "scriptmemorylimitexceeded",
+      "value": 127
+    },
+    {
+      "name": "storagelowduringgameplay",
+      "value": 128
+    },
+    {
+      "name": "storagefullduringgameplay",
+      "value": 129
+    },
+    {
+      "name": "levelstoragecorruption",
+      "value": 130
+    },
+    {
+      "name": "editionmismatchvanillatoedu",
+      "value": 131
+    },
+    {
+      "name": "editionmismatchedutovanilla",
+      "value": 132
+    },
+    {
+      "name": "editormismatcheditortovanilla",
+      "value": 133
+    },
+    {
+      "name": "editormismatchvanillatoeditor",
+      "value": 134
+    },
+    {
+      "name": "denylisted",
+      "value": 135
+    },
+    {
+      "name": "noncemissing",
+      "value": 136
+    },
+    {
+      "name": "noncenotfound",
+      "value": 137
+    },
+    {
+      "name": "nonceexpired",
+      "value": 138
+    },
+    {
+      "name": "noncenotvalid",
+      "value": 139
+    },
+    {
+      "name": "hostdisconnected",
+      "value": 140
+    },
+    {
+      "name": "editorjoinintentpolicyfailure",
+      "value": 141
+    },
+    {
+      "name": "nethernetidentitynotallowed",
+      "value": 142
+    },
+    {
+      "name": "invalidname",
+      "value": 143
+    },
+    {
+      "name": "expiredtoken",
+      "value": 144
+    },
+    {
+      "name": "hostacceptsnotypeofauth",
+      "value": 145
+    },
+    {
+      "name": "notauthenticatedfastfail",
+      "value": 146
+    },
+    {
+      "name": "editornotallowed",
+      "value": 147
+    },
+    {
+      "name": "missingstructuredata",
+      "value": 148
+    },
+    {
+      "name": "unsupportedtransport",
+      "value": 149
+    },
+    {
+      "name": "subclientloginnotbound",
+      "value": 150
+    },
+    {
+      "name": "sessionruntimeerror",
+      "value": 151
+    },
+    {
+      "name": "sessioninvalidresponse",
+      "value": 152
+    },
+    {
+      "name": "sessionnetworkerror",
+      "value": 153
+    },
+    {
+      "name": "sessionserviceerror",
+      "value": 154
+    },
+    {
+      "name": "sessionserviceunavailable",
+      "value": 155
+    },
+    {
+      "name": "sessionthrottled",
+      "value": 156
+    },
+    {
+      "name": "sessionrequestrejected",
+      "value": 157
+    },
+    {
+      "name": "sessionunknownerror",
+      "value": 158
+    }
+  ]
+}

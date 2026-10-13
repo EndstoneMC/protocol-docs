@@ -1,0 +1,59 @@
+{
+  "name": "MoveActorDeltaData",
+  "fields": [
+    {
+      "name": "Actor Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "New Position X",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "New Position Y",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "New Position Z",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Rotation X",
+      "type": "int8",
+      "optional": true
+    },
+    {
+      "name": "Rotation Y",
+      "type": "int8",
+      "optional": true
+    },
+    {
+      "name": "Rotation Y Head",
+      "type": "int8",
+      "optional": true
+    },
+    {
+      "name": "Is On Ground",
+      "type": "bool"
+    },
+    {
+      "name": "Force Move",
+      "type": "bool"
+    },
+    {
+      "name": "Force Move Local Entity",
+      "type": "bool"
+    },
+    {
+      "name": "Force Completion",
+      "type": "bool"
+    },
+    {
+      "name": "Ticks",
+      "type": "uvarint64"
+    }
+  ]
+}

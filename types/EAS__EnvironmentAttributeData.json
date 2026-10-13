@@ -1,0 +1,23 @@
+{
+  "name": "EAS::EnvironmentAttributeData",
+  "fields": [
+    {
+      "name": "AttributeName",
+      "type": "string",
+      "constraints": {
+        "max_length": 128
+      }
+    },
+    {
+      "name": "Payload",
+      "type": {
+        "switch": "uvarint32",
+        "cases": [
+          "EAS::ConstantAttributeData",
+          "EAS::TransitionAttributeData",
+          "EAS::NoiseTransitionAttributeData"
+        ]
+      }
+    }
+  ]
+}

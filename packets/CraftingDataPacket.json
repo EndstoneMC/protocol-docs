@@ -1,0 +1,66 @@
+{
+  "id": 52,
+  "name": "CraftingDataPacket",
+  "notes": "Sent from the server on level startup to send all recipes to the client.",
+  "fields": [
+    {
+      "name": "Shaped Recipes",
+      "type": "ShapedRecipePayload",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Shapeless Recipes",
+      "type": "ShapelessRecipePayload",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Multi Recipes",
+      "type": "MultiRecipePayload",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "User Data Shapeless Recipes",
+      "type": "ShapelessRecipePayload",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Shapeless Chemistry Recipes",
+      "type": "ShapelessRecipePayload",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Shaped Chemistry Recipes",
+      "type": "ShapedRecipePayload",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Smithing Transform Recipes",
+      "type": "SmithingTransformRecipePayload",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Smithing Trim Recipes",
+      "type": "SmithingTrimRecipePayload",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Potion Mixes",
+      "type": "PotionMixDataEntry",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Container Mixes",
+      "type": "ContainerMixDataEntry",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Material Reducers",
+      "type": "MaterialReducerDataEntry",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Clear Recipes",
+      "type": "bool"
+    }
+  ]
+}

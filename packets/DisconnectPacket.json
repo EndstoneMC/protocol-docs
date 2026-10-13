@@ -1,0 +1,21 @@
+{
+  "id": 5,
+  "name": "DisconnectPacket",
+  "fields": [
+    {
+      "name": "Reason",
+      "type": "varint32",
+      "enum": "Connection::DisconnectFailReason"
+    },
+    {
+      "name": "Messages",
+      "type": {
+        "switch": "uvarint32",
+        "cases": [
+          "DisconnectPacketMessages",
+          null
+        ]
+      }
+    }
+  ]
+}

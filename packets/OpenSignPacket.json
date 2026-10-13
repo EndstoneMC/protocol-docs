@@ -1,0 +1,14 @@
+{
+  "id": 303,
+  "name": "OpenSignPacket",
+  "fields": [
+    {
+      "name": "Pos",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Is Front Side",
+      "type": "bool"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "CameraInstructionOptions::AttachToEntityInstruction",
+  "fields": [
+    {
+      "name": "Entity Actor ID",
+      "type": "int64"
+    }
+  ]
+}

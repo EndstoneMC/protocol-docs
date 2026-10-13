@@ -1,0 +1,28 @@
+{
+  "id": 118,
+  "name": "SpawnParticleEffectPacket",
+  "notes": "This is not used for much anymore, only the Particle command (spawn particle by name at a location) and for ScriptServerSpawnParticleAttachedToActor and ScriptServerSpawnParticleInWorldEvent.",
+  "fields": [
+    {
+      "name": "Dimension Id",
+      "type": "uint8"
+    },
+    {
+      "name": "Actor Id",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Effect Name",
+      "type": "string"
+    },
+    {
+      "name": "Molang Variables",
+      "type": "string",
+      "optional": true
+    }
+  ]
+}

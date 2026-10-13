@@ -1,0 +1,13 @@
+{
+  "name": "PackIdVersion",
+  "fields": [
+    {
+      "name": "Pack UUID",
+      "type": "mce::UUID"
+    },
+    {
+      "name": "Pack Version",
+      "type": "SemVersion"
+    }
+  ]
+}

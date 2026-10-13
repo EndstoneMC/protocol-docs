@@ -1,0 +1,89 @@
+{
+  "name": "ItemStackRequestActionType",
+  "values": [
+    {
+      "name": "take",
+      "value": 0
+    },
+    {
+      "name": "place",
+      "value": 1
+    },
+    {
+      "name": "swap",
+      "value": 2
+    },
+    {
+      "name": "drop",
+      "value": 3
+    },
+    {
+      "name": "destroy",
+      "value": 4
+    },
+    {
+      "name": "consume",
+      "value": 5
+    },
+    {
+      "name": "create",
+      "value": 6
+    },
+    {
+      "name": "placeinitemcontainer",
+      "value": 7
+    },
+    {
+      "name": "takefromitemcontainer",
+      "value": 8
+    },
+    {
+      "name": "screenlabtablecombine",
+      "value": 9
+    },
+    {
+      "name": "screenbeaconpayment",
+      "value": 10
+    },
+    {
+      "name": "screenhudmineblock",
+      "value": 11
+    },
+    {
+      "name": "craftrecipe",
+      "value": 12
+    },
+    {
+      "name": "craftrecipeauto",
+      "value": 13
+    },
+    {
+      "name": "craftcreative",
+      "value": 14
+    },
+    {
+      "name": "craftrecipeoptional",
+      "value": 15
+    },
+    {
+      "name": "craftrepairanddisenchant",
+      "value": 16
+    },
+    {
+      "name": "craftloom",
+      "value": 17
+    },
+    {
+      "name": "craftreservedaction",
+      "value": 18
+    },
+    {
+      "name": "craftnonimplemented",
+      "value": 19
+    },
+    {
+      "name": "craftresults",
+      "value": 20
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": 122,
+  "name": "BiomeDefinitionListPacket",
+  "notes": "- mBiomeData: map of biome string indices to biome definition data.\n- mStringList: list of biome name strings.",
+  "fields": [
+    {
+      "name": "Map of Biome names to data",
+      "type": {
+        "key": "uint16",
+        "value": "BiomeDefinitionData"
+      }
+    },
+    {
+      "name": "String list",
+      "type": "BiomeStringList"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "WorldPosition",
+  "fields": [
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "DimensionType",
+      "type": "DimensionType"
+    }
+  ]
+}

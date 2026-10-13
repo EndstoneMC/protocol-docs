@@ -1,0 +1,25 @@
+{
+  "id": 348,
+  "name": "ClientboundUpdateSoundDataPacket",
+  "fields": [
+    {
+      "name": "Server Sound Handle",
+      "type": "ServerSoundHandle"
+    },
+    {
+      "name": "Event",
+      "type": {
+        "switch": "uvarint32",
+        "cases": [
+          "SoundDataEvent::Stop",
+          "SoundDataEvent::SetVolume",
+          "SoundDataEvent::SetPitch",
+          "SoundDataEvent::Fade",
+          "SoundDataEvent::SeekTo",
+          "SoundDataEvent::Pause",
+          "SoundDataEvent::Resume"
+        ]
+      }
+    }
+  ]
+}

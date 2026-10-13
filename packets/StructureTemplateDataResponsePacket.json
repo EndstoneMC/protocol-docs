@@ -1,0 +1,20 @@
+{
+  "id": 133,
+  "name": "StructureTemplateDataResponsePacket",
+  "notes": "The client sends a packet to the server, from there the structure is built and then put into a Tag where it is sent back to the client, from there you can view the structure in the Structure Block Screen. Currently this functionality is completely disabled and does nothing. Used to reply to a request for structure information.",
+  "fields": [
+    {
+      "name": "Structure Name",
+      "type": "string"
+    },
+    {
+      "name": "Structure's NBT",
+      "type": "CompoundTag"
+    },
+    {
+      "name": "Response Type",
+      "type": "uint8",
+      "enum": "StructureTemplateResponseType"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "ItemUseOnActorInventoryTransaction",
+  "fields": [
+    {
+      "name": "Actions",
+      "type": "InventoryTransaction"
+    },
+    {
+      "name": "Runtime Id",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Action Type",
+      "type": "varint32",
+      "enum": "ItemUseOnActorInventoryTransaction::ActionType"
+    },
+    {
+      "name": "Slot",
+      "type": "varint32"
+    },
+    {
+      "name": "Hand",
+      "type": "uint8",
+      "enum": "HandSlot"
+    },
+    {
+      "name": "Item",
+      "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData"
+    },
+    {
+      "name": "From Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Hit Position",
+      "type": "Vec3"
+    }
+  ]
+}

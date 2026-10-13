@@ -1,0 +1,54 @@
+{
+  "name": "ChatPacketPayload::SignedChat",
+  "fields": [
+    {
+      "name": "Key Id",
+      "type": "string",
+      "constraints": {
+        "max_length": 128
+      }
+    },
+    {
+      "name": "Sender Id",
+      "type": "string",
+      "constraints": {
+        "max_length": 64
+      }
+    },
+    {
+      "name": "Room Id",
+      "type": "string",
+      "constraints": {
+        "max_length": 128
+      }
+    },
+    {
+      "name": "Message Id",
+      "type": "string",
+      "constraints": {
+        "max_length": 64
+      }
+    },
+    {
+      "name": "Scan Text",
+      "type": "string",
+      "constraints": {
+        "max_length": 512
+      }
+    },
+    {
+      "name": "Redacted Text",
+      "type": "string",
+      "constraints": {
+        "max_length": 512
+      }
+    },
+    {
+      "name": "Signature",
+      "type": "string",
+      "constraints": {
+        "max_length": 256
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "BiomeMountainParamsData",
+  "fields": [
+    {
+      "name": "steep block",
+      "type": "uint32"
+    },
+    {
+      "name": "north slopes",
+      "type": "bool"
+    },
+    {
+      "name": "south slopes",
+      "type": "bool"
+    },
+    {
+      "name": "west slopes",
+      "type": "bool"
+    },
+    {
+      "name": "east slopes",
+      "type": "bool"
+    },
+    {
+      "name": "top slide enabled",
+      "type": "bool"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ActorLink",
+  "fields": [
+    {
+      "name": "Target A",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Target B",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Type",
+      "type": "uint8",
+      "enum": "ActorLinkType"
+    },
+    {
+      "name": "Immediate",
+      "type": "bool"
+    },
+    {
+      "name": "Passenger Initiated",
+      "type": "bool"
+    },
+    {
+      "name": "Vehicle Angular Velocity",
+      "type": "float"
+    }
+  ]
+}

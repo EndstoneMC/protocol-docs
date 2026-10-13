@@ -1,0 +1,169 @@
+{
+  "name": "PlayerActionType",
+  "values": [
+    {
+      "name": "unknown",
+      "value": -1
+    },
+    {
+      "name": "startdestroyblock",
+      "value": 0
+    },
+    {
+      "name": "abortdestroyblock",
+      "value": 1
+    },
+    {
+      "name": "stopdestroyblock",
+      "value": 2
+    },
+    {
+      "name": "getupdatedblock",
+      "value": 3
+    },
+    {
+      "name": "dropitem",
+      "value": 4
+    },
+    {
+      "name": "startsleeping",
+      "value": 5
+    },
+    {
+      "name": "stopsleeping",
+      "value": 6
+    },
+    {
+      "name": "respawn",
+      "value": 7
+    },
+    {
+      "name": "startjump",
+      "value": 8
+    },
+    {
+      "name": "startsprinting",
+      "value": 9
+    },
+    {
+      "name": "stopsprinting",
+      "value": 10
+    },
+    {
+      "name": "startsneaking",
+      "value": 11
+    },
+    {
+      "name": "stopsneaking",
+      "value": 12
+    },
+    {
+      "name": "creativedestroyblock",
+      "value": 13
+    },
+    {
+      "name": "changedimensionack",
+      "value": 14
+    },
+    {
+      "name": "startgliding",
+      "value": 15
+    },
+    {
+      "name": "stopgliding",
+      "value": 16
+    },
+    {
+      "name": "denydestroyblock",
+      "value": 17
+    },
+    {
+      "name": "crackblock",
+      "value": 18
+    },
+    {
+      "name": "changeskin",
+      "value": 19
+    },
+    {
+      "name": "updatedenchantingseed",
+      "value": 20
+    },
+    {
+      "name": "startswimming",
+      "value": 21
+    },
+    {
+      "name": "stopswimming",
+      "value": 22
+    },
+    {
+      "name": "startspinattack",
+      "value": 23
+    },
+    {
+      "name": "stopspinattack",
+      "value": 24
+    },
+    {
+      "name": "interactwithblock",
+      "value": 25
+    },
+    {
+      "name": "predictdestroyblock",
+      "value": 26
+    },
+    {
+      "name": "continuedestroyblock",
+      "value": 27
+    },
+    {
+      "name": "startitemuseon",
+      "value": 28
+    },
+    {
+      "name": "stopitemuseon",
+      "value": 29
+    },
+    {
+      "name": "handledteleport",
+      "value": 30
+    },
+    {
+      "name": "missedswing",
+      "value": 31
+    },
+    {
+      "name": "startcrawling",
+      "value": 32
+    },
+    {
+      "name": "stopcrawling",
+      "value": 33
+    },
+    {
+      "name": "startflying",
+      "value": 34
+    },
+    {
+      "name": "stopflying",
+      "value": 35
+    },
+    {
+      "name": "clientackserverdata",
+      "value": 36
+    },
+    {
+      "name": "startusingitem",
+      "value": 37
+    },
+    {
+      "name": "internalupdate",
+      "value": 38
+    },
+    {
+      "name": "count",
+      "value": 39
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "CommandOutputType",
+  "values": [
+    {
+      "name": "none",
+      "value": 0
+    },
+    {
+      "name": "lastoutput",
+      "value": 1
+    },
+    {
+      "name": "silent",
+      "value": 2
+    },
+    {
+      "name": "alloutput",
+      "value": 3
+    },
+    {
+      "name": "dataset",
+      "value": 4
+    }
+  ]
+}

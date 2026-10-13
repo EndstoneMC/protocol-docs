@@ -1,0 +1,10 @@
+{
+  "id": 187,
+  "name": "UpdateAbilitiesPacket",
+  "fields": [
+    {
+      "name": "Data",
+      "type": "SerializedAbilitiesData"
+    }
+  ]
+}

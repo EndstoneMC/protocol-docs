@@ -1,0 +1,31 @@
+{
+  "id": 44,
+  "name": "AnimatePacket",
+  "notes": "Combination of server bound and client bound packets to trigger animations.",
+  "fields": [
+    {
+      "name": "Action",
+      "type": "uint8",
+      "enum": "AnimatePacketPayload::Action"
+    },
+    {
+      "name": "Target Actor Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Data",
+      "type": "float"
+    },
+    {
+      "name": "Swing Source",
+      "type": "string",
+      "enum": "ActorSwingSource",
+      "optional": true
+    },
+    {
+      "name": "Hand",
+      "type": "uint8",
+      "enum": "HandSlot"
+    }
+  ]
+}

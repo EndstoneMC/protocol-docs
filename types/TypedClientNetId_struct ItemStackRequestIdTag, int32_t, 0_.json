@@ -1,0 +1,9 @@
+{
+  "name": "TypedClientNetId<struct ItemStackRequestIdTag, int32_t, 0>",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "varint32"
+    }
+  ]
+}

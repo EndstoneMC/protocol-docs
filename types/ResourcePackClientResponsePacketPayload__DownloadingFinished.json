@@ -1,0 +1,11 @@
+{
+  "name": "ResourcePackClientResponsePacketPayload::DownloadingFinished",
+  "fields": [
+    {
+      "name": "Response Type",
+      "type": "string",
+      "enum": "ResourcePackResponse",
+      "value": "downloadingfinished"
+    }
+  ]
+}

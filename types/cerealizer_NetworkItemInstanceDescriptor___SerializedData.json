@@ -1,0 +1,33 @@
+{
+  "name": "cerealizer<NetworkItemInstanceDescriptor>::SerializedData",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "varint32",
+      "constraints": {
+        "minimum": -32768,
+        "maximum": 32767
+      }
+    },
+    {
+      "name": "Stack size",
+      "type": "uint16"
+    },
+    {
+      "name": "Aux value",
+      "type": "uvarint32",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 32767
+      }
+    },
+    {
+      "name": "Block Runtime Id",
+      "type": "varint32"
+    },
+    {
+      "name": "User Data Buffer",
+      "type": "string"
+    }
+  ]
+}

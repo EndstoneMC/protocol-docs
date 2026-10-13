@@ -1,0 +1,23 @@
+{
+  "id": 83,
+  "name": "ResourcePackChunkDataPacket",
+  "notes": "(only one marked for uncompressed) realms resource pack download",
+  "fields": [
+    {
+      "name": "Resource Name",
+      "type": "string"
+    },
+    {
+      "name": "Chunk ID",
+      "type": "uint32"
+    },
+    {
+      "name": "Byte Offset",
+      "type": "uint64"
+    },
+    {
+      "name": "Chunk Data",
+      "type": "string"
+    }
+  ]
+}

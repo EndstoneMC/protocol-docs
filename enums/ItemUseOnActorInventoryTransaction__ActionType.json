@@ -1,0 +1,17 @@
+{
+  "name": "ItemUseOnActorInventoryTransaction::ActionType",
+  "values": [
+    {
+      "name": "interact",
+      "value": 0
+    },
+    {
+      "name": "attack",
+      "value": 1
+    },
+    {
+      "name": "item interact",
+      "value": 2
+    }
+  ]
+}

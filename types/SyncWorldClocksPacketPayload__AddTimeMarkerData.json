@@ -1,0 +1,17 @@
+{
+  "name": "SyncWorldClocksPacketPayload::AddTimeMarkerData",
+  "fields": [
+    {
+      "name": "ClockId",
+      "type": "uvarint64"
+    },
+    {
+      "name": "TimeMarkers",
+      "type": "TimeMarkerData",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 256
+      }
+    }
+  ]
+}

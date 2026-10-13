@@ -1,0 +1,213 @@
+{
+  "name": "GraphicsOverrideParameterType",
+  "values": [
+    {
+      "name": "skyzenithcolor",
+      "value": 0
+    },
+    {
+      "name": "skyhorizoncolor",
+      "value": 1
+    },
+    {
+      "name": "horizonblendmin",
+      "value": 2
+    },
+    {
+      "name": "horizonblendmax",
+      "value": 3
+    },
+    {
+      "name": "horizonblendstart",
+      "value": 4
+    },
+    {
+      "name": "horizonblendmiestart",
+      "value": 5
+    },
+    {
+      "name": "rayleighstrength",
+      "value": 6
+    },
+    {
+      "name": "sunmiestrength",
+      "value": 7
+    },
+    {
+      "name": "moonmiestrength",
+      "value": 8
+    },
+    {
+      "name": "sunglareshape",
+      "value": 9
+    },
+    {
+      "name": "chlorophyll",
+      "value": 10
+    },
+    {
+      "name": "cdom",
+      "value": 11
+    },
+    {
+      "name": "suspendedsediment",
+      "value": 12
+    },
+    {
+      "name": "wavesdepth",
+      "value": 13
+    },
+    {
+      "name": "wavesfrequency",
+      "value": 14
+    },
+    {
+      "name": "wavesfrequencyscaling",
+      "value": 15
+    },
+    {
+      "name": "wavesspeed",
+      "value": 16
+    },
+    {
+      "name": "wavesspeedscaling",
+      "value": 17
+    },
+    {
+      "name": "wavesshape",
+      "value": 18
+    },
+    {
+      "name": "wavesoctaves",
+      "value": 19
+    },
+    {
+      "name": "wavesmix",
+      "value": 20
+    },
+    {
+      "name": "wavespull",
+      "value": 21
+    },
+    {
+      "name": "wavesdirectionincrement",
+      "value": 22
+    },
+    {
+      "name": "midtonescontrast",
+      "value": 23
+    },
+    {
+      "name": "highlightscontrast",
+      "value": 24
+    },
+    {
+      "name": "shadowscontrast",
+      "value": 25
+    },
+    {
+      "name": "highlightsgain",
+      "value": 26
+    },
+    {
+      "name": "highlightsgamma",
+      "value": 27
+    },
+    {
+      "name": "highlightsoffset",
+      "value": 28
+    },
+    {
+      "name": "highlightssaturation",
+      "value": 29
+    },
+    {
+      "name": "midtonesgain",
+      "value": 30
+    },
+    {
+      "name": "midtonesgamma",
+      "value": 31
+    },
+    {
+      "name": "midtonesoffset",
+      "value": 32
+    },
+    {
+      "name": "midtonessaturation",
+      "value": 33
+    },
+    {
+      "name": "shadowsgain",
+      "value": 34
+    },
+    {
+      "name": "shadowsgamma",
+      "value": 35
+    },
+    {
+      "name": "shadowsoffset",
+      "value": 36
+    },
+    {
+      "name": "shadowssaturation",
+      "value": 37
+    },
+    {
+      "name": "highlightsmin",
+      "value": 38
+    },
+    {
+      "name": "shadowsmax",
+      "value": 39
+    },
+    {
+      "name": "temperature",
+      "value": 40
+    },
+    {
+      "name": "suncolor",
+      "value": 41
+    },
+    {
+      "name": "sunilluminance",
+      "value": 42
+    },
+    {
+      "name": "mooncolor",
+      "value": 43
+    },
+    {
+      "name": "moonilluminance",
+      "value": 44
+    },
+    {
+      "name": "flashcolor",
+      "value": 45
+    },
+    {
+      "name": "flashilluminance",
+      "value": 46
+    },
+    {
+      "name": "ambientcolor",
+      "value": 47
+    },
+    {
+      "name": "ambientilluminance",
+      "value": 48
+    },
+    {
+      "name": "emissivedesaturation",
+      "value": 49
+    },
+    {
+      "name": "skyintensity",
+      "value": 50
+    },
+    {
+      "name": "orbitaloffsetdegrees",
+      "value": 51
+    }
+  ]
+}

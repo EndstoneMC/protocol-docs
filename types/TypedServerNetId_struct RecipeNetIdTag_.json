@@ -1,0 +1,9 @@
+{
+  "name": "TypedServerNetId<struct RecipeNetIdTag>",
+  "fields": [
+    {
+      "name": "Raw Id",
+      "type": "uvarint32"
+    }
+  ]
+}

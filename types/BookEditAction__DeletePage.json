@@ -1,0 +1,9 @@
+{
+  "name": "BookEditAction::DeletePage",
+  "fields": [
+    {
+      "name": "Page Index",
+      "type": "varint32"
+    }
+  ]
+}

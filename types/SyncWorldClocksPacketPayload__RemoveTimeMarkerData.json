@@ -1,0 +1,17 @@
+{
+  "name": "SyncWorldClocksPacketPayload::RemoveTimeMarkerData",
+  "fields": [
+    {
+      "name": "ClockId",
+      "type": "uvarint64"
+    },
+    {
+      "name": "TimeMarkerIds",
+      "type": "uvarint64",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 256
+      }
+    }
+  ]
+}

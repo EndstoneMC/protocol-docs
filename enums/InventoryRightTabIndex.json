@@ -1,0 +1,21 @@
+{
+  "name": "InventoryRightTabIndex",
+  "values": [
+    {
+      "name": "none",
+      "value": 0
+    },
+    {
+      "name": "fullscreen",
+      "value": 1
+    },
+    {
+      "name": "crafting",
+      "value": 2
+    },
+    {
+      "name": "armor",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "TintMapColor",
+  "fields": [
+    {
+      "name": "Colors",
+      "type": "mce::Color",
+      "repeat": 4
+    }
+  ]
+}

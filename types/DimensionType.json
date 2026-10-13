@@ -1,0 +1,9 @@
+{
+  "name": "DimensionType",
+  "fields": [
+    {
+      "name": "value",
+      "type": "varint32"
+    }
+  ]
+}

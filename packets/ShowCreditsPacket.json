@@ -1,0 +1,15 @@
+{
+  "id": 75,
+  "name": "ShowCreditsPacket",
+  "notes": "That packet is sent to the client.  When the credits have concluded, a packet is sent back to the server to let it know to reinstate the player watching the credits.",
+  "fields": [
+    {
+      "name": "Player Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Credits State",
+      "type": "varint32"
+    }
+  ]
+}

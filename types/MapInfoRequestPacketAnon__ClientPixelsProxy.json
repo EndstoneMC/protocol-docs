@@ -1,0 +1,13 @@
+{
+  "name": "MapInfoRequestPacketAnon::ClientPixelsProxy",
+  "fields": [
+    {
+      "name": "pixel",
+      "type": "uint32"
+    },
+    {
+      "name": "index",
+      "type": "uint16"
+    }
+  ]
+}

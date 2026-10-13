@@ -1,0 +1,13 @@
+{
+  "name": "PropertySyncData::PropertySyncIntEntry",
+  "fields": [
+    {
+      "name": "Property Index",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Data",
+      "type": "varint32"
+    }
+  ]
+}

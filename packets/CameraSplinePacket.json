@@ -1,0 +1,12 @@
+{
+  "id": 338,
+  "name": "CameraSplinePacket",
+  "notes": "Sent by the server to clients for initializing custom spline data that can be played later through the camera command.",
+  "fields": [
+    {
+      "name": "Camera Data Splines",
+      "type": "SharedTypes::v1_26_0::CameraSplineDefinition",
+      "repeat": "uvarint32"
+    }
+  ]
+}

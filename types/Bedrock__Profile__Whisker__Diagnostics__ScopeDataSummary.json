@@ -1,0 +1,25 @@
+{
+  "name": "Bedrock::Profile::Whisker::Diagnostics::ScopeDataSummary",
+  "fields": [
+    {
+      "name": "Label",
+      "type": "string"
+    },
+    {
+      "name": "Indentation",
+      "type": "string"
+    },
+    {
+      "name": "TotalHighCostNS",
+      "type": "uint64"
+    },
+    {
+      "name": "TotalMidCostNS",
+      "type": "uint64"
+    },
+    {
+      "name": "TotalLowCostNS",
+      "type": "uint64"
+    }
+  ]
+}

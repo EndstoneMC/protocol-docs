@@ -1,0 +1,13 @@
+{
+  "name": "StructureRedstoneSaveMode",
+  "values": [
+    {
+      "name": "savestomemory",
+      "value": 0
+    },
+    {
+      "name": "savestodisk",
+      "value": 1
+    }
+  ]
+}

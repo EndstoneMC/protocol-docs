@@ -1,0 +1,17 @@
+{
+  "name": "ActorBlockSyncMessage::MessageId",
+  "values": [
+    {
+      "name": "none",
+      "value": 0
+    },
+    {
+      "name": "create",
+      "value": 1
+    },
+    {
+      "name": "destroy",
+      "value": 2
+    }
+  ]
+}

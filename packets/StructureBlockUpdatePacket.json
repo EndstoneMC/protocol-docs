@@ -1,0 +1,26 @@
+{
+  "id": 90,
+  "name": "StructureBlockUpdatePacket",
+  "fields": [
+    {
+      "name": "Block Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Structure Data",
+      "type": "StructureEditorData"
+    },
+    {
+      "name": "Trigger?",
+      "type": "bool"
+    },
+    {
+      "name": "IsWaterlogged",
+      "type": "bool"
+    },
+    {
+      "name": "KeepStructureVoid",
+      "type": "bool"
+    }
+  ]
+}

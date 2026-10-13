@@ -1,0 +1,13 @@
+{
+  "name": "PacketViolationType",
+  "values": [
+    {
+      "name": "unknown",
+      "value": -1
+    },
+    {
+      "name": "packetmalformed",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::RaidUpdate",
+  "fields": [
+    {
+      "name": "Current Wave",
+      "type": "varint32"
+    },
+    {
+      "name": "Total Waves",
+      "type": "varint32"
+    },
+    {
+      "name": "Success",
+      "type": "bool"
+    }
+  ]
+}

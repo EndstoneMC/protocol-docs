@@ -1,0 +1,25 @@
+{
+  "name": "BiomeMultinoiseGenRulesData",
+  "fields": [
+    {
+      "name": "temperature",
+      "type": "float"
+    },
+    {
+      "name": "humidity",
+      "type": "float"
+    },
+    {
+      "name": "altitude",
+      "type": "float"
+    },
+    {
+      "name": "weirdness",
+      "type": "float"
+    },
+    {
+      "name": "weight",
+      "type": "float"
+    }
+  ]
+}

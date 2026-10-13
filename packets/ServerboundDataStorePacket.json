@@ -1,0 +1,10 @@
+{
+  "id": 332,
+  "name": "ServerboundDataStorePacket",
+  "fields": [
+    {
+      "name": "Update",
+      "type": "Bedrock::DDUI::DataStoreUpdate"
+    }
+  ]
+}

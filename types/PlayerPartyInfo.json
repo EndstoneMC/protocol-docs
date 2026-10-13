@@ -1,0 +1,16 @@
+{
+  "name": "PlayerPartyInfo",
+  "fields": [
+    {
+      "name": "party_id",
+      "type": "string",
+      "constraints": {
+        "max_length": 49
+      }
+    },
+    {
+      "name": "is_party_leader",
+      "type": "bool"
+    }
+  ]
+}

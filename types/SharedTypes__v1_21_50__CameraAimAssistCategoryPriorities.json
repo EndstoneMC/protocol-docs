@@ -1,0 +1,75 @@
+{
+  "name": "SharedTypes::v1_21_50::CameraAimAssistCategoryPriorities",
+  "fields": [
+    {
+      "name": "entities",
+      "type": {
+        "key": "string",
+        "value": "int32"
+      },
+      "constraints": {
+        "additional_properties": {
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    {
+      "name": "blocks",
+      "type": {
+        "key": "string",
+        "value": "int32"
+      },
+      "constraints": {
+        "additional_properties": {
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    {
+      "name": "block_tags",
+      "type": {
+        "key": "string",
+        "value": "int32"
+      },
+      "constraints": {
+        "additional_properties": {
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    {
+      "name": "entity_type_families",
+      "type": {
+        "key": "string",
+        "value": "int32"
+      },
+      "constraints": {
+        "additional_properties": {
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    {
+      "name": "entity_default",
+      "type": "int32",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 100
+      },
+      "optional": true
+    },
+    {
+      "name": "block_default",
+      "type": "int32",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 100
+      },
+      "optional": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": 324,
+  "name": "PlayerVideoCapturePacket",
+  "notes": "Internal",
+  "fields": [
+    {
+      "name": "Start Video Capture",
+      "type": {
+        "switch": "uvarint32",
+        "cases": [
+          "PlayerVideoCapturePacketPayload::StartVideoCapture",
+          "PlayerVideoCapturePacketPayload::StopVideoCapture"
+        ]
+      }
+    },
+    {
+      "name": "Stop Video Capture",
+      "type": {
+        "switch": "uvarint32",
+        "cases": [
+          "PlayerVideoCapturePacketPayload::StartVideoCapture",
+          "PlayerVideoCapturePacketPayload::StopVideoCapture"
+        ]
+      }
+    }
+  ]
+}

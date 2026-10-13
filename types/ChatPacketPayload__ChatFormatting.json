@@ -1,0 +1,37 @@
+{
+  "name": "ChatPacketPayload::ChatFormatting",
+  "fields": [
+    {
+      "name": "Name Prefix",
+      "type": "string",
+      "constraints": {
+        "max_length": 64
+      },
+      "optional": true
+    },
+    {
+      "name": "Name Postfix",
+      "type": "string",
+      "constraints": {
+        "max_length": 64
+      },
+      "optional": true
+    },
+    {
+      "name": "Message Prefix",
+      "type": "string",
+      "constraints": {
+        "max_length": 64
+      },
+      "optional": true
+    },
+    {
+      "name": "Message Postfix",
+      "type": "string",
+      "constraints": {
+        "max_length": 64
+      },
+      "optional": true
+    }
+  ]
+}

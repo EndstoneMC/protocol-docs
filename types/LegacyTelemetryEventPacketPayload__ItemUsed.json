@@ -1,0 +1,21 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::ItemUsed",
+  "fields": [
+    {
+      "name": "Item Id",
+      "type": "int16"
+    },
+    {
+      "name": "Item Aux",
+      "type": "int32"
+    },
+    {
+      "name": "Use Method",
+      "type": "int32"
+    },
+    {
+      "name": "Count",
+      "type": "int32"
+    }
+  ]
+}

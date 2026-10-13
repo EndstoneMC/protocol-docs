@@ -1,0 +1,16 @@
+{
+  "id": 361,
+  "name": "ChatPacket",
+  "notes": "Carries a Chat Service signature that receiving clients verify. The hosting server relays the signed block unmodified and may only decorate around it.",
+  "fields": [
+    {
+      "name": "Signed Chat",
+      "type": "ChatPacketPayload::SignedChat"
+    },
+    {
+      "name": "Formatting",
+      "type": "ChatPacketPayload::ChatFormatting",
+      "optional": true
+    }
+  ]
+}

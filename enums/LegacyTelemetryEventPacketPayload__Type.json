@@ -1,0 +1,133 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::Type",
+  "values": [
+    {
+      "name": "achievement",
+      "value": 0
+    },
+    {
+      "name": "interaction",
+      "value": 1
+    },
+    {
+      "name": "portalcreated",
+      "value": 2
+    },
+    {
+      "name": "portalused",
+      "value": 3
+    },
+    {
+      "name": "mobkilled",
+      "value": 4
+    },
+    {
+      "name": "cauldronused",
+      "value": 5
+    },
+    {
+      "name": "playerdied",
+      "value": 6
+    },
+    {
+      "name": "bosskilled",
+      "value": 7
+    },
+    {
+      "name": "agentcommand_obsolete",
+      "value": 8
+    },
+    {
+      "name": "agentcreated",
+      "value": 9
+    },
+    {
+      "name": "patternremoved_obsolete",
+      "value": 10
+    },
+    {
+      "name": "slashcommand",
+      "value": 11
+    },
+    {
+      "name": "fishbucketed_obsolete",
+      "value": 12
+    },
+    {
+      "name": "mobborn",
+      "value": 13
+    },
+    {
+      "name": "petdied_obsolete",
+      "value": 14
+    },
+    {
+      "name": "poicauldronused",
+      "value": 15
+    },
+    {
+      "name": "composterused",
+      "value": 16
+    },
+    {
+      "name": "bellused",
+      "value": 17
+    },
+    {
+      "name": "actordefinition",
+      "value": 18
+    },
+    {
+      "name": "raidupdate",
+      "value": 19
+    },
+    {
+      "name": "playermovementanomaly_obsolete",
+      "value": 20
+    },
+    {
+      "name": "playermovementcorrected_obsolete",
+      "value": 21
+    },
+    {
+      "name": "honeyharvested",
+      "value": 22
+    },
+    {
+      "name": "targetblockhit",
+      "value": 23
+    },
+    {
+      "name": "piglinbarter",
+      "value": 24
+    },
+    {
+      "name": "playerwaxedorunwaxedcopper",
+      "value": 25
+    },
+    {
+      "name": "codebuilderruntimeaction",
+      "value": 26
+    },
+    {
+      "name": "codebuilderscoreboard",
+      "value": 27
+    },
+    {
+      "name": "striderriddeninlavainoverworld",
+      "value": 28
+    },
+    {
+      "name": "sneakclosetosculksensor",
+      "value": 29
+    },
+    {
+      "name": "carefulrestoration",
+      "value": 30
+    },
+    {
+      "name": "itemused",
+      "value": 31
+    }
+  ]
+}

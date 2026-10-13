@@ -1,0 +1,33 @@
+{
+  "name": "SoundDataEventType",
+  "values": [
+    {
+      "name": "stop",
+      "value": 0
+    },
+    {
+      "name": "setvolume",
+      "value": 1
+    },
+    {
+      "name": "setpitch",
+      "value": 2
+    },
+    {
+      "name": "fade",
+      "value": 3
+    },
+    {
+      "name": "seekto",
+      "value": 4
+    },
+    {
+      "name": "pause",
+      "value": 5
+    },
+    {
+      "name": "resume",
+      "value": 6
+    }
+  ]
+}

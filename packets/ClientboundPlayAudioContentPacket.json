@@ -1,0 +1,23 @@
+{
+  "id": 359,
+  "name": "ClientboundPlayAudioContentPacket",
+  "fields": [
+    {
+      "name": "Shared Metadata",
+      "type": "Audio::SignedAudioContent"
+    },
+    {
+      "name": "Playback Content",
+      "type": "Audio::SignedAudioContent"
+    },
+    {
+      "name": "Playback Type",
+      "type": "string",
+      "enum": "AudioContentPlaybackType"
+    },
+    {
+      "name": "Play Sound",
+      "type": "PlaySoundPacketPayload"
+    }
+  ]
+}

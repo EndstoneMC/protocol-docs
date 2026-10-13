@@ -1,0 +1,28 @@
+{
+  "name": "TextPacketPayload::MessageOnly",
+  "fields": [
+    {
+      "name": "Message Type",
+      "type": "uint8",
+      "enum": "TextPacketType",
+      "constraints": {
+        "enum_values": [
+          0,
+          5,
+          6,
+          9,
+          11,
+          10
+        ]
+      }
+    },
+    {
+      "name": "Message",
+      "type": "string",
+      "constraints": {
+        "min_length": 1,
+        "max_length": 65536
+      }
+    }
+  ]
+}

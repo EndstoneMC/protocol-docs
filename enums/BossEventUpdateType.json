@@ -1,0 +1,41 @@
+{
+  "name": "BossEventUpdateType",
+  "values": [
+    {
+      "name": "add",
+      "value": 0
+    },
+    {
+      "name": "playeradded",
+      "value": 1
+    },
+    {
+      "name": "remove",
+      "value": 2
+    },
+    {
+      "name": "playerremoved",
+      "value": 3
+    },
+    {
+      "name": "update_percent",
+      "value": 4
+    },
+    {
+      "name": "update_name",
+      "value": 5
+    },
+    {
+      "name": "update_properties",
+      "value": 6
+    },
+    {
+      "name": "update_style",
+      "value": 7
+    },
+    {
+      "name": "query",
+      "value": 8
+    }
+  ]
+}

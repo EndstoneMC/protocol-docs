@@ -1,0 +1,25 @@
+{
+  "name": "Social::GamePublishSetting",
+  "values": [
+    {
+      "name": "nomultiplay",
+      "value": 0
+    },
+    {
+      "name": "inviteonly",
+      "value": 1
+    },
+    {
+      "name": "friendsonly",
+      "value": 2
+    },
+    {
+      "name": "friendsoffriends",
+      "value": 3
+    },
+    {
+      "name": "public",
+      "value": 4
+    }
+  ]
+}

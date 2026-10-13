@@ -1,0 +1,17 @@
+{
+  "name": "ContainerMixDataEntry",
+  "fields": [
+    {
+      "name": "From Item Id",
+      "type": "varint32"
+    },
+    {
+      "name": "Reagent Item Id",
+      "type": "varint32"
+    },
+    {
+      "name": "To Item Id",
+      "type": "varint32"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "DataItemType",
+  "values": [
+    {
+      "name": "byte",
+      "value": 0
+    },
+    {
+      "name": "short",
+      "value": 1
+    },
+    {
+      "name": "int",
+      "value": 2
+    },
+    {
+      "name": "float",
+      "value": 3
+    },
+    {
+      "name": "string",
+      "value": 4
+    },
+    {
+      "name": "compoundtag",
+      "value": 5
+    },
+    {
+      "name": "pos",
+      "value": 6
+    },
+    {
+      "name": "int64",
+      "value": 7
+    },
+    {
+      "name": "vec3",
+      "value": 8
+    }
+  ]
+}

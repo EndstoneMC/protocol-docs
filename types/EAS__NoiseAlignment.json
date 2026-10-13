@@ -1,0 +1,14 @@
+{
+  "name": "EAS::NoiseAlignment",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "uint8",
+      "enum": "EAS::NoiseAlignmentType"
+    },
+    {
+      "name": "Value",
+      "type": "uvarint32"
+    }
+  ]
+}

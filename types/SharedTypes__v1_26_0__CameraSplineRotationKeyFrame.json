@@ -1,0 +1,22 @@
+{
+  "name": "SharedTypes::v1_26_0::CameraSplineRotationKeyFrame",
+  "fields": [
+    {
+      "name": "rotation",
+      "type": "Vec3"
+    },
+    {
+      "name": "time",
+      "type": "float",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "easing",
+      "type": "string",
+      "enum": "EasingType",
+      "optional": true
+    }
+  ]
+}

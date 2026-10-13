@@ -1,0 +1,61 @@
+{
+  "name": "BiomeDefinitionChunkGenData",
+  "fields": [
+    {
+      "name": "climate",
+      "type": "BiomeClimateData",
+      "optional": true
+    },
+    {
+      "name": "consolidated features",
+      "type": "BiomeConsolidatedFeaturesData",
+      "optional": true
+    },
+    {
+      "name": "mountain params",
+      "type": "BiomeMountainParamsData",
+      "optional": true
+    },
+    {
+      "name": "surface material adjustments",
+      "type": "BiomeSurfaceMaterialAdjustmentData",
+      "optional": true
+    },
+    {
+      "name": "overworld gen rules",
+      "type": "BiomeOverworldGenRulesData",
+      "optional": true
+    },
+    {
+      "name": "multinoise gen rules",
+      "type": "BiomeMultinoiseGenRulesData",
+      "optional": true
+    },
+    {
+      "name": "legacy world gen rules",
+      "type": "BiomeLegacyWorldGenRulesData",
+      "optional": true
+    },
+    {
+      "name": "replacement biomes",
+      "type": "BiomeReplacementsData",
+      "optional": true
+    },
+    {
+      "name": "Village Type",
+      "type": "uint8",
+      "enum": "SharedTypes::VillageType",
+      "optional": true
+    },
+    {
+      "name": "surface builder data",
+      "type": "BiomeSurfaceBuilderData",
+      "optional": true
+    },
+    {
+      "name": "subsurface builder data",
+      "type": "BiomeSurfaceBuilderData",
+      "optional": true
+    }
+  ]
+}

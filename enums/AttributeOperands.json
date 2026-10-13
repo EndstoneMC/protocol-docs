@@ -1,0 +1,25 @@
+{
+  "name": "AttributeOperands",
+  "values": [
+    {
+      "name": "operand_min",
+      "value": 0
+    },
+    {
+      "name": "operand_max",
+      "value": 1
+    },
+    {
+      "name": "operand_current",
+      "value": 2
+    },
+    {
+      "name": "total_operands",
+      "value": 3
+    },
+    {
+      "name": "operand_invalid",
+      "value": 3
+    }
+  ]
+}

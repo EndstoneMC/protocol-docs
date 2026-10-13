@@ -1,0 +1,13 @@
+{
+  "name": "CameraAimAssistPacketPayload::Action",
+  "values": [
+    {
+      "name": "set",
+      "value": 0
+    },
+    {
+      "name": "clear",
+      "value": 1
+    }
+  ]
+}

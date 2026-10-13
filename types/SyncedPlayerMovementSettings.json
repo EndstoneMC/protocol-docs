@@ -1,0 +1,13 @@
+{
+  "name": "SyncedPlayerMovementSettings",
+  "fields": [
+    {
+      "name": "Rewind History Size",
+      "type": "varint32"
+    },
+    {
+      "name": "Server Authoritative Block Breaking",
+      "type": "bool"
+    }
+  ]
+}

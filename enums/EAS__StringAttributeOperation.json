@@ -1,0 +1,9 @@
+{
+  "name": "EAS::StringAttributeOperation",
+  "values": [
+    {
+      "name": "override",
+      "value": 0
+    }
+  ]
+}

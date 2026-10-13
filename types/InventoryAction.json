@@ -1,0 +1,21 @@
+{
+  "name": "InventoryAction",
+  "fields": [
+    {
+      "name": "Source",
+      "type": "InventorySource"
+    },
+    {
+      "name": "Slot",
+      "type": "uvarint32"
+    },
+    {
+      "name": "From Item",
+      "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData"
+    },
+    {
+      "name": "To Item",
+      "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData"
+    }
+  ]
+}

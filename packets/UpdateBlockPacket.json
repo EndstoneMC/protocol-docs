@@ -1,0 +1,23 @@
+{
+  "id": 21,
+  "name": "UpdateBlockPacket",
+  "notes": "This happens often. Luckily, the packets are small.",
+  "fields": [
+    {
+      "name": "Block Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Block Runtime ID",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Flags",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Layer",
+      "type": "uvarint32"
+    }
+  ]
+}

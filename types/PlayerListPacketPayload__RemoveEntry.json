@@ -1,0 +1,19 @@
+{
+  "name": "PlayerListPacketPayload::RemoveEntry",
+  "fields": [
+    {
+      "name": "Action",
+      "type": "uint8",
+      "enum": "PlayerListPacketType",
+      "constraints": {
+        "enum_values": [
+          1
+        ]
+      }
+    },
+    {
+      "name": "UUID",
+      "type": "mce::UUID"
+    }
+  ]
+}

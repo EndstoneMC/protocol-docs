@@ -1,0 +1,129 @@
+{
+  "name": "MapDecoration::Type",
+  "values": [
+    {
+      "name": "markerwhite",
+      "value": 0
+    },
+    {
+      "name": "markergreen",
+      "value": 1
+    },
+    {
+      "name": "markerred",
+      "value": 2
+    },
+    {
+      "name": "markerblue",
+      "value": 3
+    },
+    {
+      "name": "xwhite",
+      "value": 4
+    },
+    {
+      "name": "trianglered",
+      "value": 5
+    },
+    {
+      "name": "squarewhite",
+      "value": 6
+    },
+    {
+      "name": "markersign",
+      "value": 7
+    },
+    {
+      "name": "markerpink",
+      "value": 8
+    },
+    {
+      "name": "markerorange",
+      "value": 9
+    },
+    {
+      "name": "markeryellow",
+      "value": 10
+    },
+    {
+      "name": "markerteal",
+      "value": 11
+    },
+    {
+      "name": "trianglegreen",
+      "value": 12
+    },
+    {
+      "name": "smallsquarewhite",
+      "value": 13
+    },
+    {
+      "name": "mansion",
+      "value": 14
+    },
+    {
+      "name": "monument",
+      "value": 15
+    },
+    {
+      "name": "nodraw",
+      "value": 16
+    },
+    {
+      "name": "villagedesert",
+      "value": 17
+    },
+    {
+      "name": "villageplains",
+      "value": 18
+    },
+    {
+      "name": "villagesavanna",
+      "value": 19
+    },
+    {
+      "name": "villagesnowy",
+      "value": 20
+    },
+    {
+      "name": "villagetaiga",
+      "value": 21
+    },
+    {
+      "name": "jungletemple",
+      "value": 22
+    },
+    {
+      "name": "witchhut",
+      "value": 23
+    },
+    {
+      "name": "trialchambers",
+      "value": 24
+    },
+    {
+      "name": "abandonedcamp",
+      "value": 25
+    },
+    {
+      "name": "buriedancientcity",
+      "value": 26
+    },
+    {
+      "name": "buriedmineshaft",
+      "value": 27
+    },
+    {
+      "name": "desertpyramid",
+      "value": 28
+    },
+    {
+      "name": "warmoceanruins",
+      "value": 29
+    },
+    {
+      "name": "count",
+      "value": 30
+    }
+  ]
+}

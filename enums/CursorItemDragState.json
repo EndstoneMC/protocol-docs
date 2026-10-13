@@ -1,0 +1,13 @@
+{
+  "name": "CursorItemDragState",
+  "values": [
+    {
+      "name": "start",
+      "value": 0
+    },
+    {
+      "name": "stop",
+      "value": 1
+    }
+  ]
+}

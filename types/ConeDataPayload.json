@@ -1,0 +1,17 @@
+{
+  "name": "ConeDataPayload",
+  "fields": [
+    {
+      "name": "Radii",
+      "type": "Vec2"
+    },
+    {
+      "name": "Height",
+      "type": "float"
+    },
+    {
+      "name": "Num Segments",
+      "type": "uint8"
+    }
+  ]
+}

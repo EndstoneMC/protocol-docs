@@ -1,0 +1,13 @@
+{
+  "name": "ServerConfiguration::PresenceConfiguration",
+  "fields": [
+    {
+      "name": "richPresenceId",
+      "type": "string",
+      "constraints": {
+        "max_length": 50
+      },
+      "optional": true
+    }
+  ]
+}

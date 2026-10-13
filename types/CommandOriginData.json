@@ -1,0 +1,33 @@
+{
+  "name": "CommandOriginData",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "string",
+      "enum": "CommandOriginType",
+      "constraints": {
+        "enum_values": [
+          0,
+          5,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "name": "UUID",
+      "type": "mce::UUID"
+    },
+    {
+      "name": "RequestId",
+      "type": "string",
+      "constraints": {
+        "max_length": 39
+      }
+    },
+    {
+      "name": "PlayerId",
+      "type": "int64"
+    }
+  ]
+}

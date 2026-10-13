@@ -1,0 +1,34 @@
+{
+  "name": "VoxelShapes::SerializableCells",
+  "fields": [
+    {
+      "name": "X Size",
+      "type": "uint8",
+      "constraints": {
+        "maximum": 127
+      }
+    },
+    {
+      "name": "Y Size",
+      "type": "uint8",
+      "constraints": {
+        "maximum": 127
+      }
+    },
+    {
+      "name": "Z Size",
+      "type": "uint8",
+      "constraints": {
+        "maximum": 127
+      }
+    },
+    {
+      "name": "Storage",
+      "type": "uint8",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 256048
+      }
+    }
+  ]
+}

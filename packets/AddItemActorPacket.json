@@ -1,0 +1,34 @@
+{
+  "id": 15,
+  "name": "AddItemActorPacket",
+  "fields": [
+    {
+      "name": "Target Actor ID",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Item",
+      "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData"
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Velocity",
+      "type": "Vec3"
+    },
+    {
+      "name": "Entity Data",
+      "type": "SynchedActorData::CopyableDataList"
+    },
+    {
+      "name": "Is From Fishing",
+      "type": "bool"
+    }
+  ]
+}

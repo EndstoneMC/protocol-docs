@@ -1,0 +1,41 @@
+{
+  "name": "MatchmakingState",
+  "values": [
+    {
+      "name": "idle",
+      "value": 0
+    },
+    {
+      "name": "matchmaking",
+      "value": 1
+    },
+    {
+      "name": "matchfound",
+      "value": 2
+    },
+    {
+      "name": "canceled",
+      "value": 3
+    },
+    {
+      "name": "playerleftparty",
+      "value": 4
+    },
+    {
+      "name": "playerleftserver",
+      "value": 5
+    },
+    {
+      "name": "servershutdown",
+      "value": 6
+    },
+    {
+      "name": "timedout",
+      "value": 7
+    },
+    {
+      "name": "requeueasparty",
+      "value": 8
+    }
+  ]
+}

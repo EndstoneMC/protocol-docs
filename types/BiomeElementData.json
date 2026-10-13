@@ -1,0 +1,37 @@
+{
+  "name": "BiomeElementData",
+  "fields": [
+    {
+      "name": "noise freq scale",
+      "type": "float"
+    },
+    {
+      "name": "noise lower bound",
+      "type": "float"
+    },
+    {
+      "name": "noise upper bound",
+      "type": "float"
+    },
+    {
+      "name": "height min type",
+      "type": "varint32"
+    },
+    {
+      "name": "height min",
+      "type": "uint16"
+    },
+    {
+      "name": "height max type",
+      "type": "varint32"
+    },
+    {
+      "name": "height max",
+      "type": "uint16"
+    },
+    {
+      "name": "adjusted materials",
+      "type": "BiomeSurfaceMaterialData"
+    }
+  ]
+}

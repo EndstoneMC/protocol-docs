@@ -1,0 +1,15 @@
+{
+  "name": "DataItemInt64Payload",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "uint8",
+      "enum": "DataItemType",
+      "value": 7
+    },
+    {
+      "name": "Value",
+      "type": "varint64"
+    }
+  ]
+}

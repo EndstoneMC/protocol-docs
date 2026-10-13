@@ -1,0 +1,15 @@
+{
+  "id": 343,
+  "name": "ServerboundDataDrivenScreenClosedPacket",
+  "fields": [
+    {
+      "name": "FormId",
+      "type": "uint32"
+    },
+    {
+      "name": "CloseReason",
+      "type": "string",
+      "enum": "DataDrivenScreenClosedReason"
+    }
+  ]
+}

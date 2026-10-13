@@ -1,0 +1,43 @@
+{
+  "id": 74,
+  "name": "BossEventPacket",
+  "fields": [
+    {
+      "name": "Target Actor ID",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Event Type",
+      "type": "uint8",
+      "enum": "BossEventUpdateType"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 256
+      }
+    },
+    {
+      "name": "FilteredName",
+      "type": "string",
+      "constraints": {
+        "max_length": 256
+      }
+    },
+    {
+      "name": "Health Percent",
+      "type": "float"
+    },
+    {
+      "name": "Color",
+      "type": "uint8",
+      "enum": "BossBarColor"
+    },
+    {
+      "name": "Overlay",
+      "type": "uint8",
+      "enum": "BossBarOverlay"
+    }
+  ]
+}

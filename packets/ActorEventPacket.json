@@ -1,0 +1,25 @@
+{
+  "id": 27,
+  "name": "ActorEventPacket",
+  "notes": "Ranges from a crossbow being ready to fire to taming animals..., some of which may be obsolete (frex, ADD_PLAYER_LEVELS)",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Event ID",
+      "type": "uint8",
+      "enum": "ActorEvent"
+    },
+    {
+      "name": "Data",
+      "type": "varint32"
+    },
+    {
+      "name": "Fire At Position",
+      "type": "Vec3",
+      "optional": true
+    }
+  ]
+}

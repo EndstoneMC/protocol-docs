@@ -1,0 +1,41 @@
+{
+  "name": "PackInfoData",
+  "fields": [
+    {
+      "name": "Pack Id Version",
+      "type": "PackIdVersion"
+    },
+    {
+      "name": "Pack Size",
+      "type": "uint64"
+    },
+    {
+      "name": "Content Key",
+      "type": "string"
+    },
+    {
+      "name": "Subpack Name",
+      "type": "string"
+    },
+    {
+      "name": "Content Identity",
+      "type": "ContentIdentity"
+    },
+    {
+      "name": "Has Scripts",
+      "type": "bool"
+    },
+    {
+      "name": "Is Addon Pack",
+      "type": "bool"
+    },
+    {
+      "name": "Is Ray Tracing Capable",
+      "type": "bool"
+    },
+    {
+      "name": "CDN URL",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "MinecraftEventing::InteractionType",
+  "values": [
+    {
+      "name": "breeding",
+      "value": 1
+    },
+    {
+      "name": "taming",
+      "value": 2
+    },
+    {
+      "name": "curing",
+      "value": 3
+    },
+    {
+      "name": "crafted",
+      "value": 4
+    },
+    {
+      "name": "shearing",
+      "value": 5
+    },
+    {
+      "name": "milking",
+      "value": 6
+    },
+    {
+      "name": "trading",
+      "value": 7
+    },
+    {
+      "name": "feeding",
+      "value": 8
+    },
+    {
+      "name": "igniting",
+      "value": 9
+    },
+    {
+      "name": "coloring",
+      "value": 10
+    },
+    {
+      "name": "naming",
+      "value": 11
+    },
+    {
+      "name": "leashing",
+      "value": 12
+    },
+    {
+      "name": "unleashing",
+      "value": 13
+    },
+    {
+      "name": "petsleep",
+      "value": 14
+    },
+    {
+      "name": "trusting",
+      "value": 15
+    },
+    {
+      "name": "commanding",
+      "value": 16
+    },
+    {
+      "name": "equipping",
+      "value": 17
+    }
+  ]
+}

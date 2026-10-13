@@ -1,0 +1,18 @@
+{
+  "id": 34,
+  "name": "BlockPickRequestPacket",
+  "fields": [
+    {
+      "name": "Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "With Data?",
+      "type": "bool"
+    },
+    {
+      "name": "Max Slots",
+      "type": "uint8"
+    }
+  ]
+}

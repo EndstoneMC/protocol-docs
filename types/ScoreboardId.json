@@ -1,0 +1,9 @@
+{
+  "name": "ScoreboardId",
+  "fields": [
+    {
+      "name": "Scoreboard Id",
+      "type": "varint64"
+    }
+  ]
+}

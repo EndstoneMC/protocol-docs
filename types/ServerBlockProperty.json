@@ -1,0 +1,13 @@
+{
+  "name": "ServerBlockProperty",
+  "fields": [
+    {
+      "name": "Block Name",
+      "type": "string"
+    },
+    {
+      "name": "Block Definition",
+      "type": "CompoundTag"
+    }
+  ]
+}

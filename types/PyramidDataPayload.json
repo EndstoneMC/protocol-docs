@@ -1,0 +1,18 @@
+{
+  "name": "PyramidDataPayload",
+  "fields": [
+    {
+      "name": "Width",
+      "type": "float"
+    },
+    {
+      "name": "Depth",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "Height",
+      "type": "float"
+    }
+  ]
+}

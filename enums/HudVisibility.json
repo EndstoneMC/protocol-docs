@@ -1,0 +1,13 @@
+{
+  "name": "HudVisibility",
+  "values": [
+    {
+      "name": "hide",
+      "value": 0
+    },
+    {
+      "name": "reset",
+      "value": 1
+    }
+  ]
+}

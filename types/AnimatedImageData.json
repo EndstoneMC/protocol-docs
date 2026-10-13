@@ -1,0 +1,23 @@
+{
+  "name": "AnimatedImageData",
+  "fields": [
+    {
+      "name": "SkinImage",
+      "type": "SkinImage"
+    },
+    {
+      "name": "AnimatedTextureType",
+      "type": "uvarint32",
+      "enum": "persona::AnimatedTextureType"
+    },
+    {
+      "name": "Frames",
+      "type": "float"
+    },
+    {
+      "name": "AnimationExpression",
+      "type": "uvarint32",
+      "enum": "persona::AnimationExpression"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 100,
+  "name": "ModalFormRequestPacket",
+  "notes": "Not sent from vanilla. The feature is meant for third-party servers to be able to drive dynamic ui forms. The request comes with some JSON that describes a custom UI screen thirdparty uses.Server->client.",
+  "fields": [
+    {
+      "name": "Form ID",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Form UI JSON",
+      "type": "string"
+    }
+  ]
+}

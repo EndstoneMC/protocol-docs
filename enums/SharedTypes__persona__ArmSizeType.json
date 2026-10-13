@@ -1,0 +1,13 @@
+{
+  "name": "SharedTypes::persona::ArmSizeType",
+  "values": [
+    {
+      "name": "slim",
+      "value": 0
+    },
+    {
+      "name": "wide",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "name": "CurrentCmdVersion",
+  "values": [
+    {
+      "name": "invalid",
+      "value": -1
+    },
+    {
+      "name": "initial",
+      "value": 1
+    },
+    {
+      "name": "tprotationclamping",
+      "value": 2
+    },
+    {
+      "name": "newbedrockcmdsystem",
+      "value": 3
+    },
+    {
+      "name": "executeusesvec3",
+      "value": 4
+    },
+    {
+      "name": "clonefixes",
+      "value": 5
+    },
+    {
+      "name": "updateaquatic",
+      "value": 6
+    },
+    {
+      "name": "entityselectorusesvec3",
+      "value": 7
+    },
+    {
+      "name": "containersdontdropitemsanymore",
+      "value": 8
+    },
+    {
+      "name": "filtersobeydimensions",
+      "value": 9
+    },
+    {
+      "name": "executeandblockcommandandselfselectorfixes",
+      "value": 10
+    },
+    {
+      "name": "instanteffectsuseticks",
+      "value": 11
+    },
+    {
+      "name": "dontregisterbrokenfunctioncommands",
+      "value": 12
+    },
+    {
+      "name": "clearspawnpointcommand",
+      "value": 13
+    },
+    {
+      "name": "cloneandteleportrotationfixes",
+      "value": 14
+    },
+    {
+      "name": "teleportdimensionfixes",
+      "value": 15
+    },
+    {
+      "name": "cloneupdateblockandtimefixes",
+      "value": 16
+    },
+    {
+      "name": "cloneintersectfix",
+      "value": 17
+    },
+    {
+      "name": "functionexecuteorderandchestslotfix",
+      "value": 18
+    },
+    {
+      "name": "nontickingareasnolongerconsideredloaded",
+      "value": 19
+    },
+    {
+      "name": "spreadplayershazardandresolveplayerbynamefix",
+      "value": 20
+    },
+    {
+      "name": "newexecutecommandsyntaxexperimentandchestloottablefixandteleportfacingverticalunclampedandlocatebiomeandfeaturemerged",
+      "value": 21
+    },
+    {
+      "name": "waterloggingaddedtostructurecommand",
+      "value": 22
+    },
+    {
+      "name": "selectordistancefilteredandrelativerotationfix",
+      "value": 23
+    },
+    {
+      "name": "newsummoncommandaddedrotationoptionsandbubblecolumnclonefixandexecuteindimensionteleportfixandnewexecuterotationfix",
+      "value": 24
+    },
+    {
+      "name": "newexecutecommandreleaseenchantcommandlevelfixandhasitemdatafixandcommanddeferral",
+      "value": 25
+    },
+    {
+      "name": "executeifscorefixes",
+      "value": 26
+    },
+    {
+      "name": "replaceitemandlootreplaceblockcommandsdonotplaceitemsintocauldronsfix",
+      "value": 27
+    },
+    {
+      "name": "changestocommandoriginrotation",
+      "value": 28
+    },
+    {
+      "name": "removeauxvalueparameterfromblockcommands",
+      "value": 29
+    },
+    {
+      "name": "volumeselectorfixes",
+      "value": 30
+    },
+    {
+      "name": "enablesummonrotation",
+      "value": 31
+    },
+    {
+      "name": "summoncommanddefaultrotation",
+      "value": 32
+    },
+    {
+      "name": "positionaldimensionfiltering",
+      "value": 33
+    },
+    {
+      "name": "commandselectorhasitemfilternolongercallssameitemfunction",
+      "value": 34
+    },
+    {
+      "name": "agentsweepingblocktest",
+      "value": 34
+    },
+    {
+      "name": "blockstateequals",
+      "value": 35
+    },
+    {
+      "name": "commandpositionfix",
+      "value": 35
+    },
+    {
+      "name": "commandselectorhasitemfilterusesdataasdamageforselectingdamageableitems",
+      "value": 36
+    },
+    {
+      "name": "executedetectconditionsubcommandnotallownonloadedblocks",
+      "value": 37
+    },
+    {
+      "name": "removesuicidekeyword",
+      "value": 38
+    },
+    {
+      "name": "clonecontainerblockentityremovalfix",
+      "value": 39
+    },
+    {
+      "name": "stopsoundmusicfix",
+      "value": 40
+    },
+    {
+      "name": "spreadplayersstuckingroundfixandmaxheightparameter",
+      "value": 41
+    },
+    {
+      "name": "locatestructureoutput",
+      "value": 42
+    },
+    {
+      "name": "postblockflattening",
+      "value": 43
+    },
+    {
+      "name": "testforblockcommanddoesnotignoreblockstate",
+      "value": 44
+    },
+    {
+      "name": "count",
+      "value": 56
+    },
+    {
+      "name": "latest",
+      "value": 55
+    }
+  ]
+}

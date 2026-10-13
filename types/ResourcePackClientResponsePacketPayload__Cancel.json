@@ -1,0 +1,11 @@
+{
+  "name": "ResourcePackClientResponsePacketPayload::Cancel",
+  "fields": [
+    {
+      "name": "Response Type",
+      "type": "string",
+      "enum": "ResourcePackResponse",
+      "value": "cancel"
+    }
+  ]
+}

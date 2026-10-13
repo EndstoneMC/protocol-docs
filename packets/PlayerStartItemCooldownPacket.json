@@ -1,0 +1,15 @@
+{
+  "id": 176,
+  "name": "PlayerStartItemCooldownPacket",
+  "notes": "Packet sent by the player to start the cooldown on an item.",
+  "fields": [
+    {
+      "name": "Item Category",
+      "type": "string"
+    },
+    {
+      "name": "Duration Ticks",
+      "type": "varint32"
+    }
+  ]
+}

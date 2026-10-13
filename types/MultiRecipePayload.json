@@ -1,0 +1,13 @@
+{
+  "name": "MultiRecipePayload",
+  "fields": [
+    {
+      "name": "Multi-Recipe UUID",
+      "type": "mce::UUID"
+    },
+    {
+      "name": "Net Id",
+      "type": "TypedServerNetId<struct RecipeNetIdTag>"
+    }
+  ]
+}

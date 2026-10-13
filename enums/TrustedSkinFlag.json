@@ -1,0 +1,17 @@
+{
+  "name": "TrustedSkinFlag",
+  "values": [
+    {
+      "name": "unset",
+      "value": 0
+    },
+    {
+      "name": "false",
+      "value": 1
+    },
+    {
+      "name": "true",
+      "value": 2
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "UpdateType",
+  "values": [
+    {
+      "name": "clearoverrides",
+      "value": 0
+    },
+    {
+      "name": "removeoverride",
+      "value": 1
+    },
+    {
+      "name": "setintoverride",
+      "value": 2
+    },
+    {
+      "name": "setfloatoverride",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ECS::Profiling::Diagnostics::SystemDiagnosticTimingInfo",
+  "fields": [
+    {
+      "name": "Display Name",
+      "type": "string"
+    },
+    {
+      "name": "System Index",
+      "type": "uint64"
+    },
+    {
+      "name": "Time in NS",
+      "type": "uint64"
+    },
+    {
+      "name": "Percent of Total",
+      "type": "uint8"
+    }
+  ]
+}

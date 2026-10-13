@@ -1,0 +1,13 @@
+{
+  "id": 119,
+  "name": "AvailableActorIdentifiersPacket",
+  "fields": [
+    {
+      "name": "Identifier List",
+      "type": "CompoundTag",
+      "constraints": {
+        "description": "Verify that the tag contains at least the \"idlist\" key"
+      }
+    }
+  ]
+}

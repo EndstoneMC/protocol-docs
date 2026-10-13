@@ -1,0 +1,649 @@
+{
+  "name": "ActorType",
+  "values": [
+    {
+      "name": "undefined",
+      "value": 1
+    },
+    {
+      "name": "mob",
+      "value": 256
+    },
+    {
+      "name": "pathfindermob",
+      "value": 768
+    },
+    {
+      "name": "monster",
+      "value": 2816
+    },
+    {
+      "name": "animal",
+      "value": 4864
+    },
+    {
+      "name": "tamableanimal",
+      "value": 21248
+    },
+    {
+      "name": "ambient",
+      "value": 33024
+    },
+    {
+      "name": "undeadmonster",
+      "value": 68352
+    },
+    {
+      "name": "zombiemonster",
+      "value": 199424
+    },
+    {
+      "name": "arthropod",
+      "value": 264960
+    },
+    {
+      "name": "minecart",
+      "value": 524288
+    },
+    {
+      "name": "skeletonmonster",
+      "value": 1116928
+    },
+    {
+      "name": "equineanimal",
+      "value": 2118400
+    },
+    {
+      "name": "projectile",
+      "value": 4194304
+    },
+    {
+      "name": "abstractarrow",
+      "value": 8388608
+    },
+    {
+      "name": "wateranimal",
+      "value": 8960
+    },
+    {
+      "name": "villagerbase",
+      "value": 16777984
+    },
+    {
+      "name": "chicken",
+      "value": 4874
+    },
+    {
+      "name": "cow",
+      "value": 4875
+    },
+    {
+      "name": "pig",
+      "value": 4876
+    },
+    {
+      "name": "sheep",
+      "value": 4877
+    },
+    {
+      "name": "wolf",
+      "value": 21262
+    },
+    {
+      "name": "villager",
+      "value": 16777999
+    },
+    {
+      "name": "mushroomcow",
+      "value": 4880
+    },
+    {
+      "name": "squid",
+      "value": 8977
+    },
+    {
+      "name": "rabbit",
+      "value": 4882
+    },
+    {
+      "name": "bat",
+      "value": 33043
+    },
+    {
+      "name": "irongolem",
+      "value": 788
+    },
+    {
+      "name": "snowgolem",
+      "value": 789
+    },
+    {
+      "name": "ocelot",
+      "value": 21270
+    },
+    {
+      "name": "horse",
+      "value": 2118423
+    },
+    {
+      "name": "polarbear",
+      "value": 4892
+    },
+    {
+      "name": "llama",
+      "value": 4893
+    },
+    {
+      "name": "parrot",
+      "value": 21278
+    },
+    {
+      "name": "dolphin",
+      "value": 8991
+    },
+    {
+      "name": "donkey",
+      "value": 2118424
+    },
+    {
+      "name": "mule",
+      "value": 2118425
+    },
+    {
+      "name": "skeletonhorse",
+      "value": 2183962
+    },
+    {
+      "name": "zombiehorse",
+      "value": 2183963
+    },
+    {
+      "name": "zombie",
+      "value": 199456
+    },
+    {
+      "name": "creeper",
+      "value": 2849
+    },
+    {
+      "name": "skeleton",
+      "value": 1116962
+    },
+    {
+      "name": "spider",
+      "value": 264995
+    },
+    {
+      "name": "pigzombie",
+      "value": 68388
+    },
+    {
+      "name": "slime",
+      "value": 2853
+    },
+    {
+      "name": "enderman",
+      "value": 2854
+    },
+    {
+      "name": "silverfish",
+      "value": 264999
+    },
+    {
+      "name": "cavespider",
+      "value": 265000
+    },
+    {
+      "name": "ghast",
+      "value": 2857
+    },
+    {
+      "name": "lavaslime",
+      "value": 2858
+    },
+    {
+      "name": "blaze",
+      "value": 2859
+    },
+    {
+      "name": "zombievillager",
+      "value": 199468
+    },
+    {
+      "name": "witch",
+      "value": 2861
+    },
+    {
+      "name": "stray",
+      "value": 1116974
+    },
+    {
+      "name": "husk",
+      "value": 199471
+    },
+    {
+      "name": "witherskeleton",
+      "value": 1116976
+    },
+    {
+      "name": "guardian",
+      "value": 2865
+    },
+    {
+      "name": "elderguardian",
+      "value": 2866
+    },
+    {
+      "name": "npc",
+      "value": 307
+    },
+    {
+      "name": "witherboss",
+      "value": 68404
+    },
+    {
+      "name": "dragon",
+      "value": 2869
+    },
+    {
+      "name": "shulker",
+      "value": 2870
+    },
+    {
+      "name": "endermite",
+      "value": 265015
+    },
+    {
+      "name": "agent",
+      "value": 312
+    },
+    {
+      "name": "vindicator",
+      "value": 2873
+    },
+    {
+      "name": "phantom",
+      "value": 68410
+    },
+    {
+      "name": "illagerbeast",
+      "value": 2875
+    },
+    {
+      "name": "armorstand",
+      "value": 317
+    },
+    {
+      "name": "tripodcamera",
+      "value": 318
+    },
+    {
+      "name": "player",
+      "value": 319
+    },
+    {
+      "name": "itementity",
+      "value": 64
+    },
+    {
+      "name": "primedtnt",
+      "value": 65
+    },
+    {
+      "name": "fallingblock",
+      "value": 66
+    },
+    {
+      "name": "movingblock",
+      "value": 67
+    },
+    {
+      "name": "experiencepotion",
+      "value": 4194372
+    },
+    {
+      "name": "experience",
+      "value": 69
+    },
+    {
+      "name": "eyeofender",
+      "value": 70
+    },
+    {
+      "name": "endercrystal",
+      "value": 71
+    },
+    {
+      "name": "fireworksrocket",
+      "value": 72
+    },
+    {
+      "name": "trident",
+      "value": 12582985
+    },
+    {
+      "name": "turtle",
+      "value": 4938
+    },
+    {
+      "name": "cat",
+      "value": 21323
+    },
+    {
+      "name": "shulkerbullet",
+      "value": 4194380
+    },
+    {
+      "name": "fishinghook",
+      "value": 77
+    },
+    {
+      "name": "chalkboard",
+      "value": 78
+    },
+    {
+      "name": "dragonfireball",
+      "value": 4194383
+    },
+    {
+      "name": "arrow",
+      "value": 12582992
+    },
+    {
+      "name": "snowball",
+      "value": 4194385
+    },
+    {
+      "name": "thrownegg",
+      "value": 4194386
+    },
+    {
+      "name": "painting",
+      "value": 83
+    },
+    {
+      "name": "largefireball",
+      "value": 4194389
+    },
+    {
+      "name": "thrownpotion",
+      "value": 4194390
+    },
+    {
+      "name": "enderpearl",
+      "value": 4194391
+    },
+    {
+      "name": "leashknot",
+      "value": 88
+    },
+    {
+      "name": "witherskull",
+      "value": 4194393
+    },
+    {
+      "name": "boatrideable",
+      "value": 90
+    },
+    {
+      "name": "witherskulldangerous",
+      "value": 4194395
+    },
+    {
+      "name": "lightningbolt",
+      "value": 93
+    },
+    {
+      "name": "smallfireball",
+      "value": 4194398
+    },
+    {
+      "name": "areaeffectcloud",
+      "value": 95
+    },
+    {
+      "name": "lingeringpotion",
+      "value": 4194405
+    },
+    {
+      "name": "llamaspit",
+      "value": 4194406
+    },
+    {
+      "name": "evocationfang",
+      "value": 4194407
+    },
+    {
+      "name": "evocationillager",
+      "value": 2920
+    },
+    {
+      "name": "vex",
+      "value": 2921
+    },
+    {
+      "name": "minecartrideable",
+      "value": 524372
+    },
+    {
+      "name": "minecarthopper",
+      "value": 524384
+    },
+    {
+      "name": "minecarttnt",
+      "value": 524385
+    },
+    {
+      "name": "minecartchest",
+      "value": 524386
+    },
+    {
+      "name": "minecartfurnace",
+      "value": 524387
+    },
+    {
+      "name": "minecartcommandblock",
+      "value": 524388
+    },
+    {
+      "name": "icebomb",
+      "value": 4194410
+    },
+    {
+      "name": "balloon",
+      "value": 107
+    },
+    {
+      "name": "pufferfish",
+      "value": 9068
+    },
+    {
+      "name": "salmon",
+      "value": 9069
+    },
+    {
+      "name": "drowned",
+      "value": 199534
+    },
+    {
+      "name": "tropicalfish",
+      "value": 9071
+    },
+    {
+      "name": "fish",
+      "value": 9072
+    },
+    {
+      "name": "panda",
+      "value": 4977
+    },
+    {
+      "name": "pillager",
+      "value": 2930
+    },
+    {
+      "name": "villagerv2",
+      "value": 16778099
+    },
+    {
+      "name": "zombievillagerv2",
+      "value": 199540
+    },
+    {
+      "name": "shield",
+      "value": 117
+    },
+    {
+      "name": "wanderingtrader",
+      "value": 886
+    },
+    {
+      "name": "lectern",
+      "value": 119
+    },
+    {
+      "name": "elderguardianghost",
+      "value": 2936
+    },
+    {
+      "name": "fox",
+      "value": 4985
+    },
+    {
+      "name": "bee",
+      "value": 378
+    },
+    {
+      "name": "piglin",
+      "value": 379
+    },
+    {
+      "name": "hoglin",
+      "value": 4988
+    },
+    {
+      "name": "strider",
+      "value": 4989
+    },
+    {
+      "name": "zoglin",
+      "value": 68478
+    },
+    {
+      "name": "piglinbrute",
+      "value": 383
+    },
+    {
+      "name": "goat",
+      "value": 4992
+    },
+    {
+      "name": "glowsquid",
+      "value": 9089
+    },
+    {
+      "name": "axolotl",
+      "value": 4994
+    },
+    {
+      "name": "warden",
+      "value": 2947
+    },
+    {
+      "name": "frog",
+      "value": 4996
+    },
+    {
+      "name": "tadpole",
+      "value": 9093
+    },
+    {
+      "name": "allay",
+      "value": 390
+    },
+    {
+      "name": "chestboatrideable",
+      "value": 218
+    },
+    {
+      "name": "traderllama",
+      "value": 5021
+    },
+    {
+      "name": "camel",
+      "value": 5002
+    },
+    {
+      "name": "sniffer",
+      "value": 5003
+    },
+    {
+      "name": "breeze",
+      "value": 2956
+    },
+    {
+      "name": "breezewindchargeprojectile",
+      "value": 4194445
+    },
+    {
+      "name": "armadillo",
+      "value": 5006
+    },
+    {
+      "name": "windchargeprojectile",
+      "value": 4194447
+    },
+    {
+      "name": "bogged",
+      "value": 1117072
+    },
+    {
+      "name": "ominousitemspawner",
+      "value": 145
+    },
+    {
+      "name": "creaking",
+      "value": 2962
+    },
+    {
+      "name": "happyghast",
+      "value": 5011
+    },
+    {
+      "name": "coppergolem",
+      "value": 916
+    },
+    {
+      "name": "nautilus",
+      "value": 9109
+    },
+    {
+      "name": "zombienautilus",
+      "value": 74646
+    },
+    {
+      "name": "parched",
+      "value": 1117079
+    },
+    {
+      "name": "camelhusk",
+      "value": 70552
+    },
+    {
+      "name": "sulfurcube",
+      "value": 921
+    },
+    {
+      "name": "cushion",
+      "value": 154
+    },
+    {
+      "name": "frostbite",
+      "value": 199579
+    },
+    {
+      "name": "iceball",
+      "value": 4194460
+    }
+  ]
+}

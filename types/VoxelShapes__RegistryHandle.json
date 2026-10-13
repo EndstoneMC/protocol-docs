@@ -1,0 +1,9 @@
+{
+  "name": "VoxelShapes::RegistryHandle",
+  "fields": [
+    {
+      "name": "Value",
+      "type": "uint16"
+    }
+  ]
+}

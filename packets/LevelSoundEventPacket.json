@@ -1,0 +1,40 @@
+{
+  "id": 123,
+  "name": "LevelSoundEventPacket",
+  "notes": "Most sounds get launched on server and replicated to clients, but a handful of player initiated sounds are launched on their client and replicated through the network.\n\t(In most of the codebase 'Event' means telemetry events; this is not the case here, this is how sounds get replicated across the network in vanilla.)\n\tWith support for custom entities. Entity Id is a string and Event Id is an integer.",
+  "fields": [
+    {
+      "name": "Sound Event",
+      "type": "string"
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Data",
+      "type": "varint32"
+    },
+    {
+      "name": "Actor Identifier",
+      "type": "string"
+    },
+    {
+      "name": "Is Baby",
+      "type": "bool"
+    },
+    {
+      "name": "Is Global",
+      "type": "bool"
+    },
+    {
+      "name": "Actor Unique Id",
+      "type": "int64"
+    },
+    {
+      "name": "Fire At Position",
+      "type": "Vec3",
+      "optional": true
+    }
+  ]
+}

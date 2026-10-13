@@ -1,0 +1,10 @@
+{
+  "id": 42,
+  "name": "SetHealthPacket",
+  "fields": [
+    {
+      "name": "Health",
+      "type": "varint32"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "FurnaceLayout",
+  "values": [
+    {
+      "name": "none",
+      "value": 0
+    },
+    {
+      "name": "inventoryonly",
+      "value": 1
+    },
+    {
+      "name": "default",
+      "value": 2
+    }
+  ]
+}

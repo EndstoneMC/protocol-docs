@@ -1,0 +1,12 @@
+{
+  "id": 160,
+  "name": "PlayerFogPacket",
+  "notes": "This is the packet that tracks the active fog stack from the server so the local players can apply different fog settings.",
+  "fields": [
+    {
+      "name": "Fog Stack",
+      "type": "string",
+      "repeat": "uvarint32"
+    }
+  ]
+}

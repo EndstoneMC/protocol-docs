@@ -1,0 +1,13 @@
+{
+  "name": "PlayerVideoCapturePacketPayload::StartVideoCapture",
+  "fields": [
+    {
+      "name": "FrameRate",
+      "type": "uint32"
+    },
+    {
+      "name": "FilePrefix",
+      "type": "string"
+    }
+  ]
+}

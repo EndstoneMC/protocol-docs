@@ -1,0 +1,11 @@
+{
+  "name": "ItemStackRequestCereal::LabTableCombineActionData",
+  "fields": [
+    {
+      "name": "Action type",
+      "type": "uint8",
+      "enum": "ItemStackRequestActionType",
+      "value": 9
+    }
+  ]
+}

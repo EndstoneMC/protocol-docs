@@ -1,0 +1,21 @@
+{
+  "id": 109,
+  "name": "LabTablePacket",
+  "notes": "The packet can be fired from the client through the UI or from the server during updates.",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "uint8",
+      "enum": "LabTablePacketPayload::Type"
+    },
+    {
+      "name": "Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Reaction",
+      "type": "uint8",
+      "enum": "LabTableReactionType"
+    }
+  ]
+}

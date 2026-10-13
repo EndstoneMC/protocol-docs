@@ -1,0 +1,31 @@
+{
+  "id": 110,
+  "name": "UpdateBlockSyncedPacket",
+  "notes": "Variation of UpdateBlockSyncedPacket that includes information to sync entities with renderchunk generation. Occasionally when blocks change a sync message is sent and during the change on the dimension, this packet is sent to the client to alert the update flags and sync info at a specific position.",
+  "fields": [
+    {
+      "name": "Block Position",
+      "type": "BlockPos"
+    },
+    {
+      "name": "Block Runtime ID",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Flags",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Layer",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Unique Actor Id",
+      "type": "uvarint64"
+    },
+    {
+      "name": "Actor Sync Message",
+      "type": "uvarint64"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::PortalUsed",
+  "fields": [
+    {
+      "name": "Source Dimension ID",
+      "type": "varint32"
+    },
+    {
+      "name": "Target Dimension ID",
+      "type": "varint32"
+    }
+  ]
+}

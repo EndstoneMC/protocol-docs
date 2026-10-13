@@ -1,0 +1,14 @@
+{
+  "name": "ScoreboardIdentityPacketInfo",
+  "fields": [
+    {
+      "name": "Scoreboard Id",
+      "type": "ScoreboardId"
+    },
+    {
+      "name": "Player Unique Id",
+      "type": "varint64",
+      "optional": true
+    }
+  ]
+}

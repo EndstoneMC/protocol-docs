@@ -1,0 +1,77 @@
+{
+  "name": "AgentActionType",
+  "values": [
+    {
+      "name": "attack",
+      "value": 1
+    },
+    {
+      "name": "collect",
+      "value": 2
+    },
+    {
+      "name": "destroy",
+      "value": 3
+    },
+    {
+      "name": "detectredstone",
+      "value": 4
+    },
+    {
+      "name": "detectobstacle",
+      "value": 5
+    },
+    {
+      "name": "drop",
+      "value": 6
+    },
+    {
+      "name": "dropall",
+      "value": 7
+    },
+    {
+      "name": "inspect",
+      "value": 8
+    },
+    {
+      "name": "inspectdata",
+      "value": 9
+    },
+    {
+      "name": "inspectitemcount",
+      "value": 10
+    },
+    {
+      "name": "inspectitemdetail",
+      "value": 11
+    },
+    {
+      "name": "inspectitemspace",
+      "value": 12
+    },
+    {
+      "name": "interact",
+      "value": 13
+    },
+    {
+      "name": "move",
+      "value": 14
+    },
+    {
+      "name": "placeblock",
+      "value": 15
+    },
+    {
+      "name": "till",
+      "value": 16
+    },
+    {
+      "name": "transferitemto",
+      "value": 17
+    },
+    {
+      "name": "turn",
+      "value": 18
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "CreativeGroupInfoPayload",
+  "fields": [
+    {
+      "name": "Creative Category",
+      "type": "uint8",
+      "enum": "SharedTypes::CreativeItemCategory",
+      "constraints": {
+        "enum_values": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Group Icon Item",
+      "type": "cerealizer<NetworkItemInstanceDescriptor>::SerializedData"
+    }
+  ]
+}

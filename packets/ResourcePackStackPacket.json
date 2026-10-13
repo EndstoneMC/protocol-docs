@@ -1,0 +1,31 @@
+{
+  "id": 7,
+  "name": "ResourcePackStackPacket",
+  "notes": "Sent to client in response to ResourcePackClientResponsePacket with info on current resource pack stack.",
+  "fields": [
+    {
+      "name": "Texture Pack Required",
+      "type": "bool"
+    },
+    {
+      "name": "Texture Pack List",
+      "type": "PackInstanceId",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 65535
+      }
+    },
+    {
+      "name": "Base Game Version",
+      "type": "string"
+    },
+    {
+      "name": "Experiments",
+      "type": "Experiments"
+    },
+    {
+      "name": "Include Editor Packs",
+      "type": "bool"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "MissingBlobData",
+  "fields": [
+    {
+      "name": "Blob Id",
+      "type": "uint64"
+    },
+    {
+      "name": "Blob Data",
+      "type": "string"
+    }
+  ]
+}

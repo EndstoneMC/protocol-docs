@@ -1,0 +1,11 @@
+{
+  "id": 3,
+  "name": "ServerToClientHandshakePacket",
+  "notes": "Sent from the server at the end of the login packet",
+  "fields": [
+    {
+      "name": "Handshake WebToken",
+      "type": "string"
+    }
+  ]
+}

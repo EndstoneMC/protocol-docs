@@ -1,0 +1,14 @@
+{
+  "name": "EnchantmentInstance",
+  "fields": [
+    {
+      "name": "Enchant Type",
+      "type": "uint8",
+      "enum": "EnchantmentType"
+    },
+    {
+      "name": "Enchant Level",
+      "type": "uint8"
+    }
+  ]
+}

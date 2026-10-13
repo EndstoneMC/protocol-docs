@@ -1,0 +1,11 @@
+{
+  "id": 334,
+  "name": "ClientboundDataDrivenUICloseScreenPacket",
+  "fields": [
+    {
+      "name": "FormId",
+      "type": "uint32",
+      "optional": true
+    }
+  ]
+}

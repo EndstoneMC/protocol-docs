@@ -1,0 +1,16 @@
+{
+  "id": 91,
+  "name": "ShowStoreOfferPacket",
+  "notes": "The server can redirect the user to a 3rd party server page, to a marketplace offer description page, or to a dressing room page containing desired offer.",
+  "fields": [
+    {
+      "name": "Offer Id",
+      "type": "mce::UUID"
+    },
+    {
+      "name": "Redirect Type",
+      "type": "uint8",
+      "enum": "ShowStoreOfferRedirectType"
+    }
+  ]
+}

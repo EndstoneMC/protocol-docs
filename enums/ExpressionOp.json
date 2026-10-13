@@ -1,0 +1,445 @@
+{
+  "name": "ExpressionOp",
+  "values": [
+    {
+      "name": "unknown",
+      "value": -1
+    },
+    {
+      "name": "leftbrace",
+      "value": 0
+    },
+    {
+      "name": "rightbrace",
+      "value": 1
+    },
+    {
+      "name": "leftbracket",
+      "value": 2
+    },
+    {
+      "name": "rightbracket",
+      "value": 3
+    },
+    {
+      "name": "leftparenthesis",
+      "value": 4
+    },
+    {
+      "name": "rightparenthesis",
+      "value": 5
+    },
+    {
+      "name": "negate",
+      "value": 6
+    },
+    {
+      "name": "logicalnot",
+      "value": 7
+    },
+    {
+      "name": "abs",
+      "value": 8
+    },
+    {
+      "name": "add",
+      "value": 9
+    },
+    {
+      "name": "acos",
+      "value": 10
+    },
+    {
+      "name": "asin",
+      "value": 11
+    },
+    {
+      "name": "atan",
+      "value": 12
+    },
+    {
+      "name": "atan2",
+      "value": 13
+    },
+    {
+      "name": "ceil",
+      "value": 14
+    },
+    {
+      "name": "clamp",
+      "value": 15
+    },
+    {
+      "name": "copysign",
+      "value": 16
+    },
+    {
+      "name": "cos",
+      "value": 17
+    },
+    {
+      "name": "dieroll",
+      "value": 18
+    },
+    {
+      "name": "dierollint",
+      "value": 19
+    },
+    {
+      "name": "div",
+      "value": 20
+    },
+    {
+      "name": "exp",
+      "value": 21
+    },
+    {
+      "name": "floor",
+      "value": 22
+    },
+    {
+      "name": "hermiteblend",
+      "value": 23
+    },
+    {
+      "name": "lerp",
+      "value": 24
+    },
+    {
+      "name": "lerprotate",
+      "value": 25
+    },
+    {
+      "name": "ln",
+      "value": 26
+    },
+    {
+      "name": "max",
+      "value": 27
+    },
+    {
+      "name": "min",
+      "value": 28
+    },
+    {
+      "name": "minangle",
+      "value": 29
+    },
+    {
+      "name": "mod",
+      "value": 30
+    },
+    {
+      "name": "mul",
+      "value": 31
+    },
+    {
+      "name": "pow",
+      "value": 32
+    },
+    {
+      "name": "random",
+      "value": 33
+    },
+    {
+      "name": "randomint",
+      "value": 34
+    },
+    {
+      "name": "round",
+      "value": 35
+    },
+    {
+      "name": "sin",
+      "value": 36
+    },
+    {
+      "name": "sign",
+      "value": 37
+    },
+    {
+      "name": "sqrt",
+      "value": 38
+    },
+    {
+      "name": "trunc",
+      "value": 39
+    },
+    {
+      "name": "queryfunction",
+      "value": 40
+    },
+    {
+      "name": "arrayvariable",
+      "value": 41
+    },
+    {
+      "name": "contextvariable",
+      "value": 42
+    },
+    {
+      "name": "entityvariable",
+      "value": 43
+    },
+    {
+      "name": "tempvariable",
+      "value": 44
+    },
+    {
+      "name": "memberaccessor",
+      "value": 45
+    },
+    {
+      "name": "hashedstringhash",
+      "value": 46
+    },
+    {
+      "name": "geometryvariable",
+      "value": 47
+    },
+    {
+      "name": "materialvariable",
+      "value": 48
+    },
+    {
+      "name": "texturevariable",
+      "value": 49
+    },
+    {
+      "name": "lessthan",
+      "value": 50
+    },
+    {
+      "name": "lessequal",
+      "value": 51
+    },
+    {
+      "name": "greaterequal",
+      "value": 52
+    },
+    {
+      "name": "greaterthan",
+      "value": 53
+    },
+    {
+      "name": "logicalequal",
+      "value": 54
+    },
+    {
+      "name": "logicalnotequal",
+      "value": 55
+    },
+    {
+      "name": "logicalor",
+      "value": 56
+    },
+    {
+      "name": "logicaland",
+      "value": 57
+    },
+    {
+      "name": "nullcoalescing",
+      "value": 58
+    },
+    {
+      "name": "conditional",
+      "value": 59
+    },
+    {
+      "name": "conditionalelse",
+      "value": 60
+    },
+    {
+      "name": "float",
+      "value": 61
+    },
+    {
+      "name": "pi",
+      "value": 62
+    },
+    {
+      "name": "array",
+      "value": 63
+    },
+    {
+      "name": "geometry",
+      "value": 64
+    },
+    {
+      "name": "material",
+      "value": 65
+    },
+    {
+      "name": "texture",
+      "value": 66
+    },
+    {
+      "name": "loop",
+      "value": 67
+    },
+    {
+      "name": "foreach",
+      "value": 68
+    },
+    {
+      "name": "break",
+      "value": 69
+    },
+    {
+      "name": "continue",
+      "value": 70
+    },
+    {
+      "name": "assignment",
+      "value": 71
+    },
+    {
+      "name": "pointer",
+      "value": 72
+    },
+    {
+      "name": "semicolon",
+      "value": 73
+    },
+    {
+      "name": "return",
+      "value": 74
+    },
+    {
+      "name": "comma",
+      "value": 75
+    },
+    {
+      "name": "this",
+      "value": 76
+    },
+    {
+      "name": "internal_nonevaluatedarray",
+      "value": 77
+    },
+    {
+      "name": "inverselerp",
+      "value": 78
+    },
+    {
+      "name": "easeinquad",
+      "value": 79
+    },
+    {
+      "name": "easeoutquad",
+      "value": 80
+    },
+    {
+      "name": "easeinoutquad",
+      "value": 81
+    },
+    {
+      "name": "easeincubic",
+      "value": 82
+    },
+    {
+      "name": "easeoutcubic",
+      "value": 83
+    },
+    {
+      "name": "easeinoutcubic",
+      "value": 84
+    },
+    {
+      "name": "easeinquart",
+      "value": 85
+    },
+    {
+      "name": "easeoutquart",
+      "value": 86
+    },
+    {
+      "name": "easeinoutquart",
+      "value": 87
+    },
+    {
+      "name": "easeinquint",
+      "value": 88
+    },
+    {
+      "name": "easeoutquint",
+      "value": 89
+    },
+    {
+      "name": "easeinoutquint",
+      "value": 90
+    },
+    {
+      "name": "easeinsine",
+      "value": 91
+    },
+    {
+      "name": "easeoutsine",
+      "value": 92
+    },
+    {
+      "name": "easeinoutsine",
+      "value": 93
+    },
+    {
+      "name": "easeinexpo",
+      "value": 94
+    },
+    {
+      "name": "easeoutexpo",
+      "value": 95
+    },
+    {
+      "name": "easeinoutexpo",
+      "value": 96
+    },
+    {
+      "name": "easeincirc",
+      "value": 97
+    },
+    {
+      "name": "easeoutcirc",
+      "value": 98
+    },
+    {
+      "name": "easeinoutcirc",
+      "value": 99
+    },
+    {
+      "name": "easeinbounce",
+      "value": 100
+    },
+    {
+      "name": "easeoutbounce",
+      "value": 101
+    },
+    {
+      "name": "easeinoutbounce",
+      "value": 102
+    },
+    {
+      "name": "easeinback",
+      "value": 103
+    },
+    {
+      "name": "easeoutback",
+      "value": 104
+    },
+    {
+      "name": "easeinoutback",
+      "value": 105
+    },
+    {
+      "name": "easeinelastic",
+      "value": 106
+    },
+    {
+      "name": "easeoutelastic",
+      "value": 107
+    },
+    {
+      "name": "easeinoutelastic",
+      "value": 108
+    }
+  ]
+}

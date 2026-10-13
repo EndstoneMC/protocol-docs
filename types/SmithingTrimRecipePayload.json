@@ -1,0 +1,29 @@
+{
+  "name": "SmithingTrimRecipePayload",
+  "fields": [
+    {
+      "name": "Recipe Id",
+      "type": "string"
+    },
+    {
+      "name": "Template Ingredient",
+      "type": "cerealizer<RecipeIngredient>::SerializedData"
+    },
+    {
+      "name": "Base Ingredient",
+      "type": "cerealizer<RecipeIngredient>::SerializedData"
+    },
+    {
+      "name": "Addition Ingredient",
+      "type": "cerealizer<RecipeIngredient>::SerializedData"
+    },
+    {
+      "name": "Tag",
+      "type": "string"
+    },
+    {
+      "name": "Net Id",
+      "type": "TypedServerNetId<struct RecipeNetIdTag>"
+    }
+  ]
+}

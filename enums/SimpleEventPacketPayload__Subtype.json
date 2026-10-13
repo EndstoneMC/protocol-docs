@@ -1,0 +1,21 @@
+{
+  "name": "SimpleEventPacketPayload::Subtype",
+  "values": [
+    {
+      "name": "uninitializedsubtype",
+      "value": 0
+    },
+    {
+      "name": "enablecommands",
+      "value": 1
+    },
+    {
+      "name": "disablecommands",
+      "value": 2
+    },
+    {
+      "name": "unlockworldtemplatesettings",
+      "value": 3
+    }
+  ]
+}

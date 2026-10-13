@@ -1,0 +1,21 @@
+{
+  "name": "CameraAimAssistActorPriority::PriorityData",
+  "fields": [
+    {
+      "name": "Preset Index",
+      "type": "int32"
+    },
+    {
+      "name": "Category Index",
+      "type": "int32"
+    },
+    {
+      "name": "Actor Index",
+      "type": "int32"
+    },
+    {
+      "name": "Priority Value",
+      "type": "int32"
+    }
+  ]
+}

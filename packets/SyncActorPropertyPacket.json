@@ -1,0 +1,11 @@
+{
+  "id": 165,
+  "name": "SyncActorPropertyPacket",
+  "notes": "Intended to one day replace SynchedActorData.",
+  "fields": [
+    {
+      "name": "Property Data",
+      "type": "CompoundTag"
+    }
+  ]
+}

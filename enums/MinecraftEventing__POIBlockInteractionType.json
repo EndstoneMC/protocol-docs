@@ -1,0 +1,109 @@
+{
+  "name": "MinecraftEventing::POIBlockInteractionType",
+  "values": [
+    {
+      "name": "none",
+      "value": 0
+    },
+    {
+      "name": "extend",
+      "value": 1
+    },
+    {
+      "name": "clone",
+      "value": 2
+    },
+    {
+      "name": "lock",
+      "value": 3
+    },
+    {
+      "name": "create",
+      "value": 4
+    },
+    {
+      "name": "createlocator",
+      "value": 5
+    },
+    {
+      "name": "rename",
+      "value": 6
+    },
+    {
+      "name": "itemplaced",
+      "value": 7
+    },
+    {
+      "name": "itemremoved",
+      "value": 8
+    },
+    {
+      "name": "cooking",
+      "value": 9
+    },
+    {
+      "name": "dousing",
+      "value": 10
+    },
+    {
+      "name": "lighting",
+      "value": 11
+    },
+    {
+      "name": "haystack",
+      "value": 12
+    },
+    {
+      "name": "filled",
+      "value": 13
+    },
+    {
+      "name": "emptied",
+      "value": 14
+    },
+    {
+      "name": "adddye",
+      "value": 15
+    },
+    {
+      "name": "dyeitem",
+      "value": 16
+    },
+    {
+      "name": "clearitem",
+      "value": 17
+    },
+    {
+      "name": "enchantarrow",
+      "value": 18
+    },
+    {
+      "name": "compostitemplaced",
+      "value": 19
+    },
+    {
+      "name": "recoveredbonemeal",
+      "value": 20
+    },
+    {
+      "name": "bookplaced",
+      "value": 21
+    },
+    {
+      "name": "bookopened",
+      "value": 22
+    },
+    {
+      "name": "disenchant",
+      "value": 23
+    },
+    {
+      "name": "repair",
+      "value": 24
+    },
+    {
+      "name": "disenchantandrepair",
+      "value": 25
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": 164,
+  "name": "ClientboundDebugRendererPacket",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "string",
+      "enum": "ClientboundDebugRendererPacketPayload::PayloadType",
+      "constraints": {
+        "enum_values": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "DebugMarkerData",
+      "type": "ClientboundDebugRendererPacketPayload::DebugMarkerData",
+      "optional": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "DataItemVec3Payload",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "uint8",
+      "enum": "DataItemType",
+      "value": 8
+    },
+    {
+      "name": "Value",
+      "type": "Vec3"
+    }
+  ]
+}

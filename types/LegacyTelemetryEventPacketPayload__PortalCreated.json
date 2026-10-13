@@ -1,0 +1,9 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::PortalCreated",
+  "fields": [
+    {
+      "name": "Dimension ID",
+      "type": "varint32"
+    }
+  ]
+}

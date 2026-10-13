@@ -1,0 +1,25 @@
+{
+  "name": "InventorySourceType",
+  "values": [
+    {
+      "name": "container inventory",
+      "value": 0
+    },
+    {
+      "name": "global inventory",
+      "value": 1
+    },
+    {
+      "name": "world interaction",
+      "value": 2
+    },
+    {
+      "name": "creative inventory",
+      "value": 3
+    },
+    {
+      "name": "non implemented feature todo",
+      "value": 99999
+    }
+  ]
+}

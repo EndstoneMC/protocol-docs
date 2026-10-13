@@ -1,0 +1,20 @@
+{
+  "id": 108,
+  "name": "SetScorePacket",
+  "notes": "Sets the scoreboard which is used for 3rd party content.",
+  "fields": [
+    {
+      "name": "Score Info",
+      "type": {
+        "switch": "uvarint32",
+        "cases": [
+          "RemoveScore",
+          "ChangePlayerScore",
+          "ChangeEntityScore",
+          "ChangeFakePlayerScore"
+        ]
+      },
+      "repeat": "uvarint32"
+    }
+  ]
+}

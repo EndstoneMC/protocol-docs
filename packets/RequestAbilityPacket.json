@@ -1,0 +1,28 @@
+{
+  "id": 184,
+  "name": "RequestAbilityPacket",
+  "notes": "Once changed, the server will broadcast the updated state of abilities for that player. If the request is rejected, the caller will receive their reverted state of Abilities.  Can only be used to modify the calling player.  \t- mVariable: Info about this variable",
+  "fields": [
+    {
+      "name": "Ability",
+      "type": "varint32",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 19
+      }
+    },
+    {
+      "name": "Value Type",
+      "type": "uint8",
+      "enum": "RequestAbilityPacketPayload::Type"
+    },
+    {
+      "name": "Bool",
+      "type": "bool"
+    },
+    {
+      "name": "Float",
+      "type": "float"
+    }
+  ]
+}

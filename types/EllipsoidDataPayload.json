@@ -1,0 +1,13 @@
+{
+  "name": "EllipsoidDataPayload",
+  "fields": [
+    {
+      "name": "Radii",
+      "type": "Vec3"
+    },
+    {
+      "name": "Segments Per Axis",
+      "type": "uint8"
+    }
+  ]
+}

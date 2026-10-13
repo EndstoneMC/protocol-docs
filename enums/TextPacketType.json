@@ -1,0 +1,53 @@
+{
+  "name": "TextPacketType",
+  "values": [
+    {
+      "name": "raw",
+      "value": 0
+    },
+    {
+      "name": "chat",
+      "value": 1
+    },
+    {
+      "name": "translate",
+      "value": 2
+    },
+    {
+      "name": "popup",
+      "value": 3
+    },
+    {
+      "name": "jukeboxpopup",
+      "value": 4
+    },
+    {
+      "name": "tip",
+      "value": 5
+    },
+    {
+      "name": "systemmessage",
+      "value": 6
+    },
+    {
+      "name": "whisper",
+      "value": 7
+    },
+    {
+      "name": "announcement",
+      "value": 8
+    },
+    {
+      "name": "textobjectwhisper",
+      "value": 9
+    },
+    {
+      "name": "textobject",
+      "value": 10
+    },
+    {
+      "name": "textobjectannouncement",
+      "value": 11
+    }
+  ]
+}

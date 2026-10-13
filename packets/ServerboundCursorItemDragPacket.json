@@ -1,0 +1,18 @@
+{
+  "id": 358,
+  "name": "ServerboundCursorItemDragPacket",
+  "notes": "Sent from the client when a cursor item split drag starts or stops.",
+  "fields": [
+    {
+      "name": "State",
+      "type": "uint8",
+      "enum": "CursorItemDragState",
+      "constraints": {
+        "enum_values": [
+          0,
+          1
+        ]
+      }
+    }
+  ]
+}

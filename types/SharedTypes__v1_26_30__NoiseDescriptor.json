@@ -1,0 +1,22 @@
+{
+  "name": "SharedTypes::v1_26_30::NoiseDescriptor",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "first_octave",
+      "type": "int32"
+    },
+    {
+      "name": "amplitudes",
+      "type": "float",
+      "repeat": "uvarint32",
+      "constraints": {
+        "min_items": 1,
+        "max_items": 100
+      }
+    }
+  ]
+}

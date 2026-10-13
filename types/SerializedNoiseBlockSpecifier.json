@@ -1,0 +1,21 @@
+{
+  "name": "SerializedNoiseBlockSpecifier",
+  "fields": [
+    {
+      "name": "noise",
+      "type": "string"
+    },
+    {
+      "name": "threshold",
+      "type": "float"
+    },
+    {
+      "name": "range",
+      "type": "SharedTypes::FloatRange"
+    },
+    {
+      "name": "block",
+      "type": "uint32"
+    }
+  ]
+}

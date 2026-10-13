@@ -1,0 +1,24 @@
+{
+  "name": "AttributeLayerSyncPacketData::UpdateEnvironmentAttributesData",
+  "fields": [
+    {
+      "name": "Attribute Layer Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 128
+      }
+    },
+    {
+      "name": "Attribute Layer Dimension",
+      "type": "DimensionType"
+    },
+    {
+      "name": "Attributes",
+      "type": "EAS::EnvironmentAttributeData",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 1024
+      }
+    }
+  ]
+}

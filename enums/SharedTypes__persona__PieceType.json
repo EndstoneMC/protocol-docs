@@ -1,0 +1,125 @@
+{
+  "name": "SharedTypes::persona::PieceType",
+  "values": [
+    {
+      "name": "unknown",
+      "value": 0
+    },
+    {
+      "name": "skeleton",
+      "value": 1
+    },
+    {
+      "name": "body",
+      "value": 2
+    },
+    {
+      "name": "skin",
+      "value": 3
+    },
+    {
+      "name": "bottom",
+      "value": 4
+    },
+    {
+      "name": "feet",
+      "value": 5
+    },
+    {
+      "name": "dress",
+      "value": 6
+    },
+    {
+      "name": "top",
+      "value": 7
+    },
+    {
+      "name": "high_pants",
+      "value": 8
+    },
+    {
+      "name": "hands",
+      "value": 9
+    },
+    {
+      "name": "outerwear",
+      "value": 10
+    },
+    {
+      "name": "facialhair",
+      "value": 11
+    },
+    {
+      "name": "mouth",
+      "value": 12
+    },
+    {
+      "name": "eyes",
+      "value": 13
+    },
+    {
+      "name": "hair",
+      "value": 14
+    },
+    {
+      "name": "hood",
+      "value": 15
+    },
+    {
+      "name": "back",
+      "value": 16
+    },
+    {
+      "name": "faceaccessory",
+      "value": 17
+    },
+    {
+      "name": "head",
+      "value": 18
+    },
+    {
+      "name": "legs",
+      "value": 19
+    },
+    {
+      "name": "leftleg",
+      "value": 20
+    },
+    {
+      "name": "rightleg",
+      "value": 21
+    },
+    {
+      "name": "arms",
+      "value": 22
+    },
+    {
+      "name": "leftarm",
+      "value": 23
+    },
+    {
+      "name": "rightarm",
+      "value": 24
+    },
+    {
+      "name": "capes",
+      "value": 25
+    },
+    {
+      "name": "classicskin",
+      "value": 26
+    },
+    {
+      "name": "emote",
+      "value": 27
+    },
+    {
+      "name": "coco",
+      "value": 28
+    },
+    {
+      "name": "unsupported",
+      "value": 29
+    }
+  ]
+}

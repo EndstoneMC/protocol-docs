@@ -1,0 +1,19 @@
+{
+  "id": 125,
+  "name": "LecternUpdatePacket",
+  "notes": "It is a request from the client to either turn the page in the lectern or drop the book.",
+  "fields": [
+    {
+      "name": "New page to show",
+      "type": "uint8"
+    },
+    {
+      "name": "Total Pages",
+      "type": "uint8"
+    },
+    {
+      "name": "Position of Lectern to update",
+      "type": "BlockPos"
+    }
+  ]
+}

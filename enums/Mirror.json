@@ -1,0 +1,21 @@
+{
+  "name": "Mirror",
+  "values": [
+    {
+      "name": "none",
+      "value": 0
+    },
+    {
+      "name": "x",
+      "value": 1
+    },
+    {
+      "name": "z",
+      "value": 2
+    },
+    {
+      "name": "xz",
+      "value": 3
+    }
+  ]
+}

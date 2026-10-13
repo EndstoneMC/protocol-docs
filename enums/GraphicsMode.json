@@ -1,0 +1,21 @@
+{
+  "name": "GraphicsMode",
+  "values": [
+    {
+      "name": "simple",
+      "value": 0
+    },
+    {
+      "name": "fancy",
+      "value": 1
+    },
+    {
+      "name": "advanced",
+      "value": 2
+    },
+    {
+      "name": "raytraced",
+      "value": 3
+    }
+  ]
+}

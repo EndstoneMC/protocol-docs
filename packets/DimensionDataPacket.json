@@ -1,0 +1,19 @@
+{
+  "id": 180,
+  "name": "DimensionDataPacket",
+  "notes": "Contains dimension definition data including height bounds and generator type for each dimension.",
+  "fields": [
+    {
+      "name": "Definitions",
+      "type": {
+        "key": "string",
+        "value": "DimensionDefinitionGroup::DimensionDefinition"
+      },
+      "constraints": {
+        "property_names": {
+          "max_length": 256
+        }
+      }
+    }
+  ]
+}

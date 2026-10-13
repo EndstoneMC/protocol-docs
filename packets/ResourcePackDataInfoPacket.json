@@ -1,0 +1,35 @@
+{
+  "id": 82,
+  "name": "ResourcePackDataInfoPacket",
+  "notes": "Sent from the serverFileChunkUploader during the initialization of the file uploader. This packet is sent to the primary client.",
+  "fields": [
+    {
+      "name": "Resource Name",
+      "type": "string"
+    },
+    {
+      "name": "Chunk Size",
+      "type": "uint32"
+    },
+    {
+      "name": "Number of Chunks",
+      "type": "uint32"
+    },
+    {
+      "name": "File Size",
+      "type": "uint64"
+    },
+    {
+      "name": "File Hash",
+      "type": "string"
+    },
+    {
+      "name": "Is Premium Pack",
+      "type": "bool"
+    },
+    {
+      "name": "Pack Type",
+      "type": "uint8"
+    }
+  ]
+}

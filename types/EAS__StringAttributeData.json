@@ -1,0 +1,17 @@
+{
+  "name": "EAS::StringAttributeData",
+  "fields": [
+    {
+      "name": "value",
+      "type": "string",
+      "constraints": {
+        "max_length": 128
+      }
+    },
+    {
+      "name": "operation",
+      "type": "string",
+      "enum": "EAS::StringAttributeOperation"
+    }
+  ]
+}

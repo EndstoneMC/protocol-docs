@@ -1,0 +1,25 @@
+{
+  "id": 159,
+  "name": "CameraShakePacket",
+  "notes": "It may be used to queue or stop a camera shake",
+  "fields": [
+    {
+      "name": "Intensity",
+      "type": "float"
+    },
+    {
+      "name": "Seconds",
+      "type": "float"
+    },
+    {
+      "name": "Shake Type",
+      "type": "uint8",
+      "enum": "CameraShakeType"
+    },
+    {
+      "name": "Shake Action",
+      "type": "uint8",
+      "enum": "CameraShakeAction"
+    }
+  ]
+}

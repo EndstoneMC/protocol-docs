@@ -1,0 +1,33 @@
+{
+  "name": "SharedTypes::CreativeItemCategory",
+  "values": [
+    {
+      "name": "all",
+      "value": 0
+    },
+    {
+      "name": "construction",
+      "value": 1
+    },
+    {
+      "name": "nature",
+      "value": 2
+    },
+    {
+      "name": "equipment",
+      "value": 3
+    },
+    {
+      "name": "items",
+      "value": 4
+    },
+    {
+      "name": "itemcommandonly",
+      "value": 5
+    },
+    {
+      "name": "undefined",
+      "value": 6
+    }
+  ]
+}

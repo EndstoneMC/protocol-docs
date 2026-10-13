@@ -1,0 +1,9 @@
+{
+  "name": "ShortTag",
+  "fields": [
+    {
+      "name": "data",
+      "type": "int16"
+    }
+  ]
+}

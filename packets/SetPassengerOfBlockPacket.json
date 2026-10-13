@@ -1,0 +1,16 @@
+{
+  "id": 357,
+  "name": "SetPassengerOfBlockPacket",
+  "notes": "Sent when an actor starts or stops riding a block.",
+  "fields": [
+    {
+      "name": "Passenger",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "PassengerOfBlockData",
+      "type": "PassengerOfBlockArguments",
+      "optional": true
+    }
+  ]
+}

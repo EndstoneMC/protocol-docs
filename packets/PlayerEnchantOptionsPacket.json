@@ -1,0 +1,14 @@
+{
+  "id": 146,
+  "name": "PlayerEnchantOptionsPacket",
+  "fields": [
+    {
+      "name": "Options",
+      "type": "ItemEnchantOption",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "CommandOutput",
+  "fields": [
+    {
+      "name": "Output Type",
+      "type": "string",
+      "enum": "CommandOutputType"
+    },
+    {
+      "name": "Success Count",
+      "type": "uint32"
+    },
+    {
+      "name": "Output Messages",
+      "type": "CommandOutputMessage",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Data Set",
+      "type": "string",
+      "optional": true
+    }
+  ]
+}

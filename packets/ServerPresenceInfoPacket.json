@@ -1,0 +1,11 @@
+{
+  "id": 347,
+  "name": "ServerPresenceInfoPacket",
+  "fields": [
+    {
+      "name": "presence_configuration",
+      "type": "ServerConfiguration::PresenceConfiguration",
+      "optional": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "CameraShakeType",
+  "values": [
+    {
+      "name": "positional",
+      "value": 0
+    },
+    {
+      "name": "rotational",
+      "value": 1
+    }
+  ]
+}

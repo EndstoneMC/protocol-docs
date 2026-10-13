@@ -1,0 +1,17 @@
+{
+  "name": "CommandBlockMode",
+  "values": [
+    {
+      "name": "normal",
+      "value": 0
+    },
+    {
+      "name": "repeating",
+      "value": 1
+    },
+    {
+      "name": "chain",
+      "value": 2
+    }
+  ]
+}

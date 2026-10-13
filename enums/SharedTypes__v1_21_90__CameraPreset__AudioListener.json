@@ -1,0 +1,13 @@
+{
+  "name": "SharedTypes::v1_21_90::CameraPreset::AudioListener",
+  "values": [
+    {
+      "name": "camera",
+      "value": 0
+    },
+    {
+      "name": "player",
+      "value": 1
+    }
+  ]
+}

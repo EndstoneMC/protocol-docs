@@ -1,0 +1,9 @@
+{
+  "name": "ServerConfiguration::ManagedChatJoinInfo",
+  "fields": [
+    {
+      "name": "Enabled",
+      "type": "bool"
+    }
+  ]
+}

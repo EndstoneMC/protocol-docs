@@ -1,0 +1,19 @@
+{
+  "name": "ItemStackRequestCereal::CraftRecipeOptionalActionData",
+  "fields": [
+    {
+      "name": "Action type",
+      "type": "uint8",
+      "enum": "ItemStackRequestActionType",
+      "value": 15
+    },
+    {
+      "name": "Recipe Net Id",
+      "type": "TypedServerNetId<struct RecipeNetIdTag>"
+    },
+    {
+      "name": "Filtered String Index",
+      "type": "int32"
+    }
+  ]
+}

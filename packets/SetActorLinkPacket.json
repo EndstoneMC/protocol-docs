@@ -1,0 +1,11 @@
+{
+  "id": 41,
+  "name": "SetActorLinkPacket",
+  "notes": "Sent when the player starts riding something. Two are sent at a time for some reason.",
+  "fields": [
+    {
+      "name": "Link",
+      "type": "ActorLink"
+    }
+  ]
+}

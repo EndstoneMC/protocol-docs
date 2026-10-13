@@ -1,0 +1,12 @@
+{
+  "id": 317,
+  "name": "ContainerRegistryCleanupPacket",
+  "notes": "Whenever the serverside ContainerRegistry does a clean, identifiers for the removed containers are gathered in a ContainerRegistryCleanUp\n\tpacket and sent to the client so that the clientside container registry can remove those same containers.",
+  "fields": [
+    {
+      "name": "Removed Containers",
+      "type": "FullContainerName",
+      "repeat": "uvarint32"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "ItemReleaseInventoryTransaction",
+  "fields": [
+    {
+      "name": "Actions",
+      "type": "InventoryTransaction"
+    },
+    {
+      "name": "Action Type",
+      "type": "varint32",
+      "enum": "ItemReleaseInventoryTransaction::ActionType"
+    },
+    {
+      "name": "Slot",
+      "type": "varint32"
+    },
+    {
+      "name": "Item",
+      "type": "cerealizer<NetworkItemStackDescriptor>::SerializedData"
+    },
+    {
+      "name": "From Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Hand",
+      "type": "uint8",
+      "enum": "HandSlot"
+    }
+  ]
+}

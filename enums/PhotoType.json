@@ -1,0 +1,17 @@
+{
+  "name": "PhotoType",
+  "values": [
+    {
+      "name": "portfolio",
+      "value": 0
+    },
+    {
+      "name": "photoitem",
+      "value": 1
+    },
+    {
+      "name": "book",
+      "value": 2
+    }
+  ]
+}

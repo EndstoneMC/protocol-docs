@@ -1,0 +1,13 @@
+{
+  "name": "BiomeWeightedTemperatureData",
+  "fields": [
+    {
+      "name": "temperature",
+      "type": "varint32"
+    },
+    {
+      "name": "weight",
+      "type": "uint32"
+    }
+  ]
+}

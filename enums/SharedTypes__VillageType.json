@@ -1,0 +1,25 @@
+{
+  "name": "SharedTypes::VillageType",
+  "values": [
+    {
+      "name": "desert",
+      "value": 0
+    },
+    {
+      "name": "ice",
+      "value": 1
+    },
+    {
+      "name": "savanna",
+      "value": 2
+    },
+    {
+      "name": "taiga",
+      "value": 3
+    },
+    {
+      "name": "default",
+      "value": 4
+    }
+  ]
+}

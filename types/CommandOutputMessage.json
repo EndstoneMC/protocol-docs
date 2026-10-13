@@ -1,0 +1,23 @@
+{
+  "name": "CommandOutputMessage",
+  "fields": [
+    {
+      "name": "Message ID",
+      "type": "string"
+    },
+    {
+      "name": "Successful?",
+      "type": "bool"
+    },
+    {
+      "name": "Parameters",
+      "type": "string",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Raw Message",
+      "type": "string",
+      "optional": true
+    }
+  ]
+}

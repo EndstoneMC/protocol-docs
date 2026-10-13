@@ -1,0 +1,27 @@
+{
+  "name": "ChangePlayerScore",
+  "fields": [
+    {
+      "name": "Action",
+      "type": "string",
+      "enum": "ScorePacketEntryAction",
+      "value": "changeplayer"
+    },
+    {
+      "name": "Scoreboard Id",
+      "type": "ScoreboardId"
+    },
+    {
+      "name": "Objective Name",
+      "type": "string"
+    },
+    {
+      "name": "Score Value",
+      "type": "int32"
+    },
+    {
+      "name": "Player Unique Id",
+      "type": "PlayerScoreboardId"
+    }
+  ]
+}

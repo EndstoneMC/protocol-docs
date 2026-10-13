@@ -1,0 +1,17 @@
+{
+  "name": "ItemVersion",
+  "values": [
+    {
+      "name": "legacy",
+      "value": 0
+    },
+    {
+      "name": "datadriven",
+      "value": 1
+    },
+    {
+      "name": "none",
+      "value": 2
+    }
+  ]
+}

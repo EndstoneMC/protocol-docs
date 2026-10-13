@@ -1,0 +1,19 @@
+{
+  "name": "FurnaceOptions",
+  "fields": [
+    {
+      "name": "Left Furnace Tab",
+      "type": "varint32",
+      "enum": "FurnaceLeftTabIndex"
+    },
+    {
+      "name": "Filtering",
+      "type": "bool"
+    },
+    {
+      "name": "Layout",
+      "type": "varint32",
+      "enum": "FurnaceLayout"
+    }
+  ]
+}

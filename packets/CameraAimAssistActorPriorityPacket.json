@@ -1,0 +1,12 @@
+{
+  "id": 339,
+  "name": "CameraAimAssistActorPriorityPacket",
+  "notes": "Sent by the server to clients for updating the actor priority for client aim-assist systems.",
+  "fields": [
+    {
+      "name": "Camera Aim-Assist Actor Priority List",
+      "type": "CameraAimAssistActorPriority::PriorityData",
+      "repeat": "uvarint32"
+    }
+  ]
+}

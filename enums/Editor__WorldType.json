@@ -1,0 +1,21 @@
+{
+  "name": "Editor::WorldType",
+  "values": [
+    {
+      "name": "noneditor",
+      "value": 0
+    },
+    {
+      "name": "editorproject",
+      "value": 1
+    },
+    {
+      "name": "editortestlevel",
+      "value": 2
+    },
+    {
+      "name": "editorrealmsupload",
+      "value": 3
+    }
+  ]
+}

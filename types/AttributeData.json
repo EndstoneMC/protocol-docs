@@ -1,0 +1,38 @@
+{
+  "name": "AttributeData",
+  "fields": [
+    {
+      "name": "Min Value",
+      "type": "float"
+    },
+    {
+      "name": "Max Value",
+      "type": "float"
+    },
+    {
+      "name": "Current Value",
+      "type": "float"
+    },
+    {
+      "name": "Default Min Value",
+      "type": "float"
+    },
+    {
+      "name": "Default Max Value",
+      "type": "float"
+    },
+    {
+      "name": "Default Value",
+      "type": "float"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Modifiers",
+      "type": "AttributeModifier",
+      "repeat": "uvarint32"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": 145,
+  "name": "CreativeContentPacket",
+  "notes": "Sent once by the server on startup to tell clients all of the items that can show up in the creative menu and recipe book.",
+  "fields": [
+    {
+      "name": "Groups",
+      "type": "CreativeGroupInfoPayload",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Entries",
+      "type": "CreativeItemEntryPayload",
+      "repeat": "uvarint32"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 17,
+  "name": "TakeItemActorPacket",
+  "notes": "From this the item and count is turned into an item and the transaction is handled afterwards.",
+  "fields": [
+    {
+      "name": "Item Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Actor Runtime ID",
+      "type": "ActorRuntimeID"
+    }
+  ]
+}

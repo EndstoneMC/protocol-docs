@@ -1,0 +1,27 @@
+{
+  "name": "ItemStackRequestCereal::BeaconPaymentActionData",
+  "fields": [
+    {
+      "name": "Action type",
+      "type": "uint8",
+      "enum": "ItemStackRequestActionType",
+      "value": 10
+    },
+    {
+      "name": "Primary Effect Id",
+      "type": "varint32",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 38
+      }
+    },
+    {
+      "name": "Secondary Effect Id",
+      "type": "varint32",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 38
+      }
+    }
+  ]
+}

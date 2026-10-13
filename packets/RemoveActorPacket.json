@@ -1,0 +1,11 @@
+{
+  "id": 14,
+  "name": "RemoveActorPacket",
+  "notes": "This is sent to the client to confirm which entity is being removed. This is done by sending an ActorUniqueID",
+  "fields": [
+    {
+      "name": "Target Actor ID",
+      "type": "ActorUniqueID"
+    }
+  ]
+}

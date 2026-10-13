@@ -1,0 +1,57 @@
+{
+  "name": "HudElement",
+  "values": [
+    {
+      "name": "paperdoll",
+      "value": 0
+    },
+    {
+      "name": "armor",
+      "value": 1
+    },
+    {
+      "name": "tooltips",
+      "value": 2
+    },
+    {
+      "name": "touchcontrols",
+      "value": 3
+    },
+    {
+      "name": "crosshair",
+      "value": 4
+    },
+    {
+      "name": "hotbar",
+      "value": 5
+    },
+    {
+      "name": "health",
+      "value": 6
+    },
+    {
+      "name": "progressbar",
+      "value": 7
+    },
+    {
+      "name": "hunger",
+      "value": 8
+    },
+    {
+      "name": "airbubbles",
+      "value": 9
+    },
+    {
+      "name": "horsehealth",
+      "value": 10
+    },
+    {
+      "name": "statuseffects",
+      "value": 11
+    },
+    {
+      "name": "itemtext",
+      "value": 12
+    }
+  ]
+}

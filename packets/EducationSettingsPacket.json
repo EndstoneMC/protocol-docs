@@ -1,0 +1,11 @@
+{
+  "id": 137,
+  "name": "EducationSettingsPacket",
+  "notes": "Currently transmits EducationLevelSettings to all clients when the game is starting.",
+  "fields": [
+    {
+      "name": "Education Level Settings",
+      "type": "EducationLevelSettings"
+    }
+  ]
+}

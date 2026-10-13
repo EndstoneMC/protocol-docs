@@ -1,0 +1,24 @@
+{
+  "id": 318,
+  "name": "MovementEffectPacket",
+  "notes": "These MovementEffects can be client-predicted.\n\tEx: Fireworks Rockets used while gliding send this packet to the client so they know the exact duration of the GLIDE_BOOST MovementEffect.",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Effect ID",
+      "type": "varint32",
+      "enum": "MovementEffectType"
+    },
+    {
+      "name": "Effect Duration",
+      "type": "varint32"
+    },
+    {
+      "name": "Tick",
+      "type": "PlayerInputTick"
+    }
+  ]
+}

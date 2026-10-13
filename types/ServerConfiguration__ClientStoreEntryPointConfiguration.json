@@ -1,0 +1,13 @@
+{
+  "name": "ServerConfiguration::ClientStoreEntryPointConfiguration",
+  "fields": [
+    {
+      "name": "storeId",
+      "type": "string"
+    },
+    {
+      "name": "storeName",
+      "type": "string"
+    }
+  ]
+}

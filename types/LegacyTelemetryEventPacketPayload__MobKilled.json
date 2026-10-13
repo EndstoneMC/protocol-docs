@@ -1,0 +1,33 @@
+{
+  "name": "LegacyTelemetryEventPacketPayload::MobKilled",
+  "fields": [
+    {
+      "name": "Instigator Actor ID",
+      "type": "varint64"
+    },
+    {
+      "name": "Target Actor ID",
+      "type": "varint64"
+    },
+    {
+      "name": "Instigator's Child Actor Type",
+      "type": "varint32",
+      "enum": "ActorType"
+    },
+    {
+      "name": "Damage Source",
+      "type": "varint32"
+    },
+    {
+      "name": "Trade Tier",
+      "type": "varint32"
+    },
+    {
+      "name": "Trader Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 128
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "AttributeModifierOperation",
+  "values": [
+    {
+      "name": "operation_addition",
+      "value": 0
+    },
+    {
+      "name": "operation_multiply_base",
+      "value": 1
+    },
+    {
+      "name": "operation_multiply_total",
+      "value": 2
+    },
+    {
+      "name": "operation_cap",
+      "value": 3
+    },
+    {
+      "name": "total_operations",
+      "value": 4
+    },
+    {
+      "name": "operation_invalid",
+      "value": 4
+    }
+  ]
+}

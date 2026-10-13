@@ -1,0 +1,22 @@
+{
+  "id": 175,
+  "name": "SubChunkRequestPacket",
+  "fields": [
+    {
+      "name": "Dimension Type",
+      "type": "DimensionType"
+    },
+    {
+      "name": "SubChunk Position Offset List",
+      "type": "SubChunkPacketPayload::SubChunkPosOffset",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 8192
+      }
+    },
+    {
+      "name": "Center Pos",
+      "type": "SubChunkPos"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "name": "ItemStackNetResult",
+  "values": [
+    {
+      "name": "success",
+      "value": 0
+    },
+    {
+      "name": "error",
+      "value": 1
+    },
+    {
+      "name": "invalidrequestactiontype",
+      "value": 2
+    },
+    {
+      "name": "actionrequestnotallowed",
+      "value": 3
+    },
+    {
+      "name": "screenhandlerendrequestfailed",
+      "value": 4
+    },
+    {
+      "name": "itemrequestactionhandlercommitfailed",
+      "value": 5
+    },
+    {
+      "name": "invalidrequestcraftactiontype",
+      "value": 6
+    },
+    {
+      "name": "invalidcraftrequest",
+      "value": 7
+    },
+    {
+      "name": "invalidcraftrequestscreen",
+      "value": 8
+    },
+    {
+      "name": "invalidcraftresult",
+      "value": 9
+    },
+    {
+      "name": "invalidcraftresultindex",
+      "value": 10
+    },
+    {
+      "name": "invalidcraftresultitem",
+      "value": 11
+    },
+    {
+      "name": "invaliditemnetid",
+      "value": 12
+    },
+    {
+      "name": "missingcreatedoutputcontainer",
+      "value": 13
+    },
+    {
+      "name": "failedtosetcreateditemoutputslot",
+      "value": 14
+    },
+    {
+      "name": "requestalreadyinprogress",
+      "value": 15
+    },
+    {
+      "name": "failedtoinitsparsecontainer",
+      "value": 16
+    },
+    {
+      "name": "resulttransferfailed",
+      "value": 17
+    },
+    {
+      "name": "expecteditemslotnotfullyconsumed",
+      "value": 18
+    },
+    {
+      "name": "expectedanywhereitemnotfullyconsumed",
+      "value": 19
+    },
+    {
+      "name": "itemalreadyconsumedfromslot",
+      "value": 20
+    },
+    {
+      "name": "consumedtoomuchfromslot",
+      "value": 21
+    },
+    {
+      "name": "mismatchslotexpectedconsumeditem",
+      "value": 22
+    },
+    {
+      "name": "mismatchslotexpectedconsumeditemnetidvariant",
+      "value": 23
+    },
+    {
+      "name": "failedtomatchexpectedslotconsumeditem",
+      "value": 24
+    },
+    {
+      "name": "failedtomatchexpectedallowedanywhereconsumeditem",
+      "value": 25
+    },
+    {
+      "name": "consumeditemoutofallowedslotrange",
+      "value": 26
+    },
+    {
+      "name": "consumeditemnotallowed",
+      "value": 27
+    },
+    {
+      "name": "playernotincreativemode",
+      "value": 28
+    },
+    {
+      "name": "invalidexperimentalreciperequest",
+      "value": 29
+    },
+    {
+      "name": "failedtocraftcreative",
+      "value": 30
+    },
+    {
+      "name": "failedtogetlevelrecipe",
+      "value": 31
+    },
+    {
+      "name": "failedtofindrecipebynetid",
+      "value": 32
+    },
+    {
+      "name": "mismatchedcraftingsize",
+      "value": 33
+    },
+    {
+      "name": "missinginputsparsecontainer",
+      "value": 34
+    },
+    {
+      "name": "mismatchedrecipeforinputgriditems",
+      "value": 35
+    },
+    {
+      "name": "emptycraftresults",
+      "value": 36
+    },
+    {
+      "name": "failedtoenchant",
+      "value": 37
+    },
+    {
+      "name": "missinginputitem",
+      "value": 38
+    },
+    {
+      "name": "insufficientplayerleveltoenchant",
+      "value": 39
+    },
+    {
+      "name": "missingmaterialitem",
+      "value": 40
+    },
+    {
+      "name": "missingactor",
+      "value": 41
+    },
+    {
+      "name": "unknownprimaryeffect",
+      "value": 42
+    },
+    {
+      "name": "primaryeffectoutofrange",
+      "value": 43
+    },
+    {
+      "name": "primaryeffectunavailable",
+      "value": 44
+    },
+    {
+      "name": "secondaryeffectoutofrange",
+      "value": 45
+    },
+    {
+      "name": "secondaryeffectunavailable",
+      "value": 46
+    },
+    {
+      "name": "dstcontainerequaltocreatedoutputcontainer",
+      "value": 47
+    },
+    {
+      "name": "dstcontainerandslotequaltosrccontainerandslot",
+      "value": 48
+    },
+    {
+      "name": "failedtovalidatesrcslot",
+      "value": 49
+    },
+    {
+      "name": "failedtovalidatedstslot",
+      "value": 50
+    },
+    {
+      "name": "invalidadjustedamount",
+      "value": 51
+    },
+    {
+      "name": "invaliditemsettype",
+      "value": 52
+    },
+    {
+      "name": "invalidtransferamount",
+      "value": 53
+    },
+    {
+      "name": "cannotswapitem",
+      "value": 54
+    },
+    {
+      "name": "cannotplaceitem",
+      "value": 55
+    },
+    {
+      "name": "unhandleditemsettype",
+      "value": 56
+    },
+    {
+      "name": "invalidremovedamount",
+      "value": 57
+    },
+    {
+      "name": "invalidregion",
+      "value": 58
+    },
+    {
+      "name": "cannotdropitem",
+      "value": 59
+    },
+    {
+      "name": "cannotdestroyitem",
+      "value": 60
+    },
+    {
+      "name": "invalidsourcecontainer",
+      "value": 61
+    },
+    {
+      "name": "itemnotconsumed",
+      "value": 62
+    },
+    {
+      "name": "invalidnumcrafts",
+      "value": 63
+    },
+    {
+      "name": "invalidcraftresultstacksize",
+      "value": 64
+    },
+    {
+      "name": "cannotremoveitem",
+      "value": 65
+    },
+    {
+      "name": "cannotconsumeitem",
+      "value": 66
+    },
+    {
+      "name": "screenstackerror",
+      "value": 67
+    }
+  ]
+}

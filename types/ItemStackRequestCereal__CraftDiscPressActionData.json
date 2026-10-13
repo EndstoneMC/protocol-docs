@@ -1,0 +1,25 @@
+{
+  "name": "ItemStackRequestCereal::CraftDiscPressActionData",
+  "fields": [
+    {
+      "name": "Action type",
+      "type": "uint8",
+      "enum": "ItemStackRequestActionType",
+      "value": 18
+    },
+    {
+      "name": "Reserved Id",
+      "type": "string",
+      "constraints": {
+        "max_length": 256
+      }
+    },
+    {
+      "name": "Num Crafts",
+      "type": "uint8",
+      "constraints": {
+        "minimum": 1
+      }
+    }
+  ]
+}

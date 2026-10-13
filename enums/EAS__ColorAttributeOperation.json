@@ -1,0 +1,25 @@
+{
+  "name": "EAS::ColorAttributeOperation",
+  "values": [
+    {
+      "name": "override",
+      "value": 0
+    },
+    {
+      "name": "alpha_blend",
+      "value": 1
+    },
+    {
+      "name": "add",
+      "value": 2
+    },
+    {
+      "name": "subtract",
+      "value": 3
+    },
+    {
+      "name": "multiply",
+      "value": 4
+    }
+  ]
+}

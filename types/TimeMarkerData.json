@@ -1,0 +1,25 @@
+{
+  "name": "TimeMarkerData",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "uvarint64"
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 128
+      }
+    },
+    {
+      "name": "Time",
+      "type": "varint32"
+    },
+    {
+      "name": "Period",
+      "type": "int32",
+      "optional": true
+    }
+  ]
+}

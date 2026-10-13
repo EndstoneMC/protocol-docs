@@ -1,0 +1,17 @@
+{
+  "name": "MultiplayerSettingsPacketType",
+  "values": [
+    {
+      "name": "enablemultiplayer",
+      "value": 0
+    },
+    {
+      "name": "disablemultiplayer",
+      "value": 1
+    },
+    {
+      "name": "refreshjoincode",
+      "value": 2
+    }
+  ]
+}

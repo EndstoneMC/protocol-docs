@@ -1,0 +1,21 @@
+{
+  "id": 326,
+  "name": "PlayerLocationPacket",
+  "notes": "Sent by PlayerLocationSender when a player position changes beyond a certain angle.",
+  "fields": [
+    {
+      "name": "Target Actor ID",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "Location",
+      "type": {
+        "switch": "uvarint32",
+        "cases": [
+          "PlayerLocationPacketPayload::CoordinatesLocation",
+          "PlayerLocationPacketPayload::HiddenLocation"
+        ]
+      }
+    }
+  ]
+}
