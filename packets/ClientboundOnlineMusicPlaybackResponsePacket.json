@@ -1,0 +1,23 @@
+{
+  "id": 363,
+  "name": "ClientboundOnlineMusicPlaybackResponsePacket",
+  "fields": [
+    {
+      "name": "Request ID",
+      "type": "uint32"
+    },
+    {
+      "name": "Source",
+      "type": "string",
+      "enum": "MusicPlaybackSource"
+    },
+    {
+      "name": "Shared Metadata",
+      "type": "Audio::SignedAudioContent"
+    },
+    {
+      "name": "Playback Content",
+      "type": "Audio::SignedAudioContent"
+    }
+  ]
+}

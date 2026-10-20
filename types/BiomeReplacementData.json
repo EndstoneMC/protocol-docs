@@ -20,7 +20,8 @@
     },
     {
       "name": "noise frequency scale",
-      "type": "float"
+      "type": "float",
+      "deprecated": true
     },
     {
       "name": "replacement index",

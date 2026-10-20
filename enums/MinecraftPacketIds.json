@@ -956,6 +956,18 @@
     {
       "name": "serverboundregisteraudiocontent",
       "value": 360
+    },
+    {
+      "name": "chat",
+      "value": 361
+    },
+    {
+      "name": "clientboundonlinemusicplaybackresponse",
+      "value": 363
+    },
+    {
+      "name": "serverboundrequestonlinemusicplayback",
+      "value": 362
     }
   ]
 }

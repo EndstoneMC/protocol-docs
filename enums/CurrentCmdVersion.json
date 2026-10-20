@@ -190,12 +190,16 @@
       "value": 44
     },
     {
-      "name": "count",
+      "name": "gametestrunsetmultitag",
       "value": 56
     },
     {
+      "name": "count",
+      "value": 57
+    },
+    {
       "name": "latest",
-      "value": 55
+      "value": 56
     }
   ]
 }

@@ -15,7 +15,8 @@
     {
       "name": "View Angle",
       "type": "Vec2",
-      "optional": true
+      "optional": true,
+      "deprecated": true
     },
     {
       "name": "Distance",

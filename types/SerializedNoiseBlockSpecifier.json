@@ -15,7 +15,8 @@
     },
     {
       "name": "block",
-      "type": "uint32"
+      "type": "uint32",
+      "deprecated": true
     }
   ]
 }

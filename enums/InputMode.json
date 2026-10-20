@@ -22,8 +22,12 @@
       "value": 4
     },
     {
-      "name": "count",
+      "name": "gamepadandmouse",
       "value": 5
+    },
+    {
+      "name": "count",
+      "value": 6
     }
   ]
 }

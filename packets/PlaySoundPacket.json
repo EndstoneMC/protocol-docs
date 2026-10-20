@@ -12,7 +12,8 @@
     },
     {
       "name": "Volume",
-      "type": "float"
+      "type": "float",
+      "deprecated": true
     },
     {
       "name": "Pitch",

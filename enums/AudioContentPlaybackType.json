@@ -8,6 +8,10 @@
     {
       "name": "sound",
       "value": 1
+    },
+    {
+      "name": "concurrentmusic",
+      "value": 2
     }
   ]
 }

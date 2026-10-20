@@ -16,7 +16,8 @@
     },
     {
       "name": "Trader Tier",
-      "type": "varint32"
+      "type": "varint32",
+      "deprecated": true
     },
     {
       "name": "Entity Unique Id",

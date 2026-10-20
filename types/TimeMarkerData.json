@@ -19,7 +19,8 @@
     {
       "name": "Period",
       "type": "int32",
-      "optional": true
+      "optional": true,
+      "deprecated": true
     }
   ]
 }

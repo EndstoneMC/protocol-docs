@@ -2278,24 +2278,20 @@
       "value": 613
     },
     {
-      "name": "ice_ball.break",
+      "name": "convert_to_frostbite",
       "value": 614
     },
     {
-      "name": "convert_to_frostbite",
+      "name": "convert_to_zombie",
       "value": 615
     },
     {
-      "name": "convert_to_zombie",
+      "name": "crack",
       "value": 616
     },
     {
-      "name": "crack",
-      "value": 617
-    },
-    {
       "name": "undefined",
-      "value": 618
+      "value": 617
     }
   ]
 }
