@@ -2,15 +2,15 @@
   "name": "TrustedSkinFlag",
   "values": [
     {
-      "name": "unset",
+      "name": "Unset",
       "value": 0
     },
     {
-      "name": "false",
+      "name": "False",
       "value": 1
     },
     {
-      "name": "true",
+      "name": "True",
       "value": 2
     }
   ]

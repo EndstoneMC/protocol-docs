@@ -2,11 +2,11 @@
   "name": "ObjectiveSortOrder",
   "values": [
     {
-      "name": "ascending",
+      "name": "Ascending",
       "value": 0
     },
     {
-      "name": "descending",
+      "name": "Descending",
       "value": 1
     }
   ]

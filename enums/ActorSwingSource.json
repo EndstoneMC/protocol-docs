@@ -2,39 +2,39 @@
   "name": "ActorSwingSource",
   "values": [
     {
-      "name": "none",
+      "name": "None",
       "value": 0
     },
     {
-      "name": "build",
+      "name": "Build",
       "value": 1
     },
     {
-      "name": "mine",
+      "name": "Mine",
       "value": 2
     },
     {
-      "name": "interact",
+      "name": "Interact",
       "value": 3
     },
     {
-      "name": "attack",
+      "name": "Attack",
       "value": 4
     },
     {
-      "name": "useitem",
+      "name": "UseItem",
       "value": 5
     },
     {
-      "name": "throwitem",
+      "name": "ThrowItem",
       "value": 6
     },
     {
-      "name": "dropitem",
+      "name": "DropItem",
       "value": 7
     },
     {
-      "name": "event",
+      "name": "Event",
       "value": 8
     }
   ]

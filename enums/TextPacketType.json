@@ -18,7 +18,7 @@
       "value": 3
     },
     {
-      "name": "jukeboxpopup",
+      "name": "jukeboxPopup",
       "value": 4
     },
     {
@@ -26,7 +26,7 @@
       "value": 5
     },
     {
-      "name": "systemmessage",
+      "name": "systemMessage",
       "value": 6
     },
     {
@@ -38,15 +38,15 @@
       "value": 8
     },
     {
-      "name": "textobjectwhisper",
+      "name": "textObjectWhisper",
       "value": 9
     },
     {
-      "name": "textobject",
+      "name": "textObject",
       "value": 10
     },
     {
-      "name": "textobjectannouncement",
+      "name": "textObjectAnnouncement",
       "value": 11
     }
   ]
