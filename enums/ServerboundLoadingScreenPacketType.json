@@ -2,15 +2,15 @@
   "name": "ServerboundLoadingScreenPacketType",
   "values": [
     {
-      "name": "unknown",
+      "name": "Unknown",
       "value": 0
     },
     {
-      "name": "startloadingscreen",
+      "name": "StartLoadingScreen",
       "value": 1
     },
     {
-      "name": "endloadingscreen",
+      "name": "EndLoadingScreen",
       "value": 2
     }
   ]

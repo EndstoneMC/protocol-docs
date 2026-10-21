@@ -2,11 +2,11 @@
   "name": "RewindType",
   "values": [
     {
-      "name": "player",
+      "name": "Player",
       "value": 0
     },
     {
-      "name": "vehicle",
+      "name": "Vehicle",
       "value": 1
     }
   ]

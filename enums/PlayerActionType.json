@@ -2,163 +2,163 @@
   "name": "PlayerActionType",
   "values": [
     {
-      "name": "unknown",
+      "name": "Unknown",
       "value": -1
     },
     {
-      "name": "startdestroyblock",
+      "name": "StartDestroyBlock",
       "value": 0
     },
     {
-      "name": "abortdestroyblock",
+      "name": "AbortDestroyBlock",
       "value": 1
     },
     {
-      "name": "stopdestroyblock",
+      "name": "StopDestroyBlock",
       "value": 2
     },
     {
-      "name": "getupdatedblock",
+      "name": "GetUpdatedBlock",
       "value": 3
     },
     {
-      "name": "dropitem",
+      "name": "DropItem",
       "value": 4
     },
     {
-      "name": "startsleeping",
+      "name": "StartSleeping",
       "value": 5
     },
     {
-      "name": "stopsleeping",
+      "name": "StopSleeping",
       "value": 6
     },
     {
-      "name": "respawn",
+      "name": "Respawn",
       "value": 7
     },
     {
-      "name": "startjump",
+      "name": "StartJump",
       "value": 8
     },
     {
-      "name": "startsprinting",
+      "name": "StartSprinting",
       "value": 9
     },
     {
-      "name": "stopsprinting",
+      "name": "StopSprinting",
       "value": 10
     },
     {
-      "name": "startsneaking",
+      "name": "StartSneaking",
       "value": 11
     },
     {
-      "name": "stopsneaking",
+      "name": "StopSneaking",
       "value": 12
     },
     {
-      "name": "creativedestroyblock",
+      "name": "CreativeDestroyBlock",
       "value": 13
     },
     {
-      "name": "changedimensionack",
+      "name": "ChangeDimensionAck",
       "value": 14
     },
     {
-      "name": "startgliding",
+      "name": "StartGliding",
       "value": 15
     },
     {
-      "name": "stopgliding",
+      "name": "StopGliding",
       "value": 16
     },
     {
-      "name": "denydestroyblock",
+      "name": "DenyDestroyBlock",
       "value": 17
     },
     {
-      "name": "crackblock",
+      "name": "CrackBlock",
       "value": 18
     },
     {
-      "name": "changeskin",
+      "name": "ChangeSkin",
       "value": 19
     },
     {
-      "name": "updatedenchantingseed",
+      "name": "UpdatedEnchantingSeed",
       "value": 20
     },
     {
-      "name": "startswimming",
+      "name": "StartSwimming",
       "value": 21
     },
     {
-      "name": "stopswimming",
+      "name": "StopSwimming",
       "value": 22
     },
     {
-      "name": "startspinattack",
+      "name": "StartSpinAttack",
       "value": 23
     },
     {
-      "name": "stopspinattack",
+      "name": "StopSpinAttack",
       "value": 24
     },
     {
-      "name": "interactwithblock",
+      "name": "InteractWithBlock",
       "value": 25
     },
     {
-      "name": "predictdestroyblock",
+      "name": "PredictDestroyBlock",
       "value": 26
     },
     {
-      "name": "continuedestroyblock",
+      "name": "ContinueDestroyBlock",
       "value": 27
     },
     {
-      "name": "startitemuseon",
+      "name": "StartItemUseOn",
       "value": 28
     },
     {
-      "name": "stopitemuseon",
+      "name": "StopItemUseOn",
       "value": 29
     },
     {
-      "name": "handledteleport",
+      "name": "HandledTeleport",
       "value": 30
     },
     {
-      "name": "missedswing",
+      "name": "MissedSwing",
       "value": 31
     },
     {
-      "name": "startcrawling",
+      "name": "StartCrawling",
       "value": 32
     },
     {
-      "name": "stopcrawling",
+      "name": "StopCrawling",
       "value": 33
     },
     {
-      "name": "startflying",
+      "name": "StartFlying",
       "value": 34
     },
     {
-      "name": "stopflying",
+      "name": "StopFlying",
       "value": 35
     },
     {
-      "name": "clientackserverdata",
+      "name": "ClientAckServerData",
       "value": 36
     },
     {
-      "name": "startusingitem",
+      "name": "StartUsingItem",
       "value": 37
     },
     {
-      "name": "count",
+      "name": "Count",
       "value": 38
     }
   ]

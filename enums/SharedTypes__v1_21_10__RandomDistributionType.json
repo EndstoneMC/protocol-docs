@@ -2,31 +2,31 @@
   "name": "SharedTypes::v1_21_10::RandomDistributionType",
   "values": [
     {
-      "name": "singlevalued",
+      "name": "SingleValued",
       "value": 0
     },
     {
-      "name": "uniform",
+      "name": "Uniform",
       "value": 1
     },
     {
-      "name": "gaussian",
+      "name": "Gaussian",
       "value": 2
     },
     {
-      "name": "inversegaussian",
+      "name": "InverseGaussian",
       "value": 3
     },
     {
-      "name": "fixedgrid",
+      "name": "FixedGrid",
       "value": 4
     },
     {
-      "name": "jitteredgrid",
+      "name": "JitteredGrid",
       "value": 5
     },
     {
-      "name": "triangle",
+      "name": "Triangle",
       "value": 6
     }
   ]

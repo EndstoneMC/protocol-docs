@@ -2,27 +2,27 @@
   "name": "CommandPermissionLevel",
   "values": [
     {
-      "name": "any",
+      "name": "Any",
       "value": 0
     },
     {
-      "name": "gamedirectors",
+      "name": "GameDirectors",
       "value": 1
     },
     {
-      "name": "admin",
+      "name": "Admin",
       "value": 2
     },
     {
-      "name": "host",
+      "name": "Host",
       "value": 3
     },
     {
-      "name": "owner",
+      "name": "Owner",
       "value": 4
     },
     {
-      "name": "internal",
+      "name": "Internal",
       "value": 5
     }
   ]

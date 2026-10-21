@@ -2,11 +2,11 @@
   "name": "persona::ArmSize::Type",
   "values": [
     {
-      "name": "slim",
+      "name": "Slim",
       "value": 0
     },
     {
-      "name": "wide",
+      "name": "Wide",
       "value": 1
     }
   ]

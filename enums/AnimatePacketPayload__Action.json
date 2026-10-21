@@ -2,23 +2,23 @@
   "name": "AnimatePacketPayload::Action",
   "values": [
     {
-      "name": "noaction",
+      "name": "NoAction",
       "value": 0
     },
     {
-      "name": "swing",
+      "name": "Swing",
       "value": 1
     },
     {
-      "name": "wakeup",
+      "name": "WakeUp",
       "value": 3
     },
     {
-      "name": "criticalhit",
+      "name": "CriticalHit",
       "value": 4
     },
     {
-      "name": "magiccriticalhit",
+      "name": "MagicCriticalHit",
       "value": 5
     }
   ]

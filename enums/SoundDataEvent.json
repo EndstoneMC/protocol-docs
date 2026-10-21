@@ -2,7 +2,7 @@
   "name": "SoundDataEvent",
   "values": [
     {
-      "name": "stop",
+      "name": "Stop",
       "value": 0
     }
   ]

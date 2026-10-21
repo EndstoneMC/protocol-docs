@@ -2,11 +2,11 @@
   "name": "ShowCreditsPacketPayload::CreditsState",
   "values": [
     {
-      "name": "start",
+      "name": "Start",
       "value": 0
     },
     {
-      "name": "finished",
+      "name": "Finished",
       "value": 1
     }
   ]

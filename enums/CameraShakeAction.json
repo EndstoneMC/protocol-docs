@@ -2,11 +2,11 @@
   "name": "CameraShakeAction",
   "values": [
     {
-      "name": "add",
+      "name": "Add",
       "value": 0
     },
     {
-      "name": "stop",
+      "name": "Stop",
       "value": 1
     }
   ]

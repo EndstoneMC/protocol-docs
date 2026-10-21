@@ -2,67 +2,67 @@
   "name": "CommandOriginType",
   "values": [
     {
-      "name": "player",
+      "name": "Player",
       "value": 0
     },
     {
-      "name": "commandblock",
+      "name": "CommandBlock",
       "value": 1
     },
     {
-      "name": "minecartcommandblock",
+      "name": "MinecartCommandBlock",
       "value": 2
     },
     {
-      "name": "devconsole",
+      "name": "DevConsole",
       "value": 3
     },
     {
-      "name": "test",
+      "name": "Test",
       "value": 4
     },
     {
-      "name": "automationplayer",
+      "name": "AutomationPlayer",
       "value": 5
     },
     {
-      "name": "clientautomation",
+      "name": "ClientAutomation",
       "value": 6
     },
     {
-      "name": "dedicatedserver",
+      "name": "DedicatedServer",
       "value": 7
     },
     {
-      "name": "entity",
+      "name": "Entity",
       "value": 8
     },
     {
-      "name": "virtual",
+      "name": "Virtual",
       "value": 9
     },
     {
-      "name": "gameargument",
+      "name": "GameArgument",
       "value": 10
     },
     {
-      "name": "entityserver",
+      "name": "EntityServer",
       "value": 11
     },
     {
-      "name": "precompiled",
+      "name": "Precompiled",
       "value": 12
     },
     {
-      "name": "gamedirectorentityserver",
+      "name": "GameDirectorEntityServer",
       "value": 13
     },
     {
-      "name": "scripting",
+      "name": "Scripting",
       "value": 14
     },
     {
-      "name": "executecontext",
+      "name": "ExecuteContext",
       "value": 15
     }
   ]

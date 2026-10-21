@@ -2,15 +2,15 @@
   "name": "MultiplayerSettingsPacketType",
   "values": [
     {
-      "name": "enablemultiplayer",
+      "name": "EnableMultiplayer",
       "value": 0
     },
     {
-      "name": "disablemultiplayer",
+      "name": "DisableMultiplayer",
       "value": 1
     },
     {
-      "name": "refreshjoincode",
+      "name": "RefreshJoincode",
       "value": 2
     }
   ]

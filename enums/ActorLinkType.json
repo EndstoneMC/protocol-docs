@@ -2,15 +2,15 @@
   "name": "ActorLinkType",
   "values": [
     {
-      "name": "none",
+      "name": "None",
       "value": 0
     },
     {
-      "name": "riding",
+      "name": "Riding",
       "value": 1
     },
     {
-      "name": "passenger",
+      "name": "Passenger",
       "value": 2
     }
   ]

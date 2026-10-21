@@ -2,107 +2,107 @@
   "name": "MinecraftEventing::POIBlockInteractionType",
   "values": [
     {
-      "name": "none",
+      "name": "None",
       "value": 0
     },
     {
-      "name": "extend",
+      "name": "Extend",
       "value": 1
     },
     {
-      "name": "clone",
+      "name": "Clone",
       "value": 2
     },
     {
-      "name": "lock",
+      "name": "Lock",
       "value": 3
     },
     {
-      "name": "create",
+      "name": "Create",
       "value": 4
     },
     {
-      "name": "createlocator",
+      "name": "CreateLocator",
       "value": 5
     },
     {
-      "name": "rename",
+      "name": "Rename",
       "value": 6
     },
     {
-      "name": "itemplaced",
+      "name": "ItemPlaced",
       "value": 7
     },
     {
-      "name": "itemremoved",
+      "name": "ItemRemoved",
       "value": 8
     },
     {
-      "name": "cooking",
+      "name": "Cooking",
       "value": 9
     },
     {
-      "name": "dousing",
+      "name": "Dousing",
       "value": 10
     },
     {
-      "name": "lighting",
+      "name": "Lighting",
       "value": 11
     },
     {
-      "name": "haystack",
+      "name": "Haystack",
       "value": 12
     },
     {
-      "name": "filled",
+      "name": "Filled",
       "value": 13
     },
     {
-      "name": "emptied",
+      "name": "Emptied",
       "value": 14
     },
     {
-      "name": "adddye",
+      "name": "AddDye",
       "value": 15
     },
     {
-      "name": "dyeitem",
+      "name": "DyeItem",
       "value": 16
     },
     {
-      "name": "clearitem",
+      "name": "ClearItem",
       "value": 17
     },
     {
-      "name": "enchantarrow",
+      "name": "EnchantArrow",
       "value": 18
     },
     {
-      "name": "compostitemplaced",
+      "name": "CompostItemPlaced",
       "value": 19
     },
     {
-      "name": "recoveredbonemeal",
+      "name": "RecoveredBonemeal",
       "value": 20
     },
     {
-      "name": "bookplaced",
+      "name": "BookPlaced",
       "value": 21
     },
     {
-      "name": "bookopened",
+      "name": "BookOpened",
       "value": 22
     },
     {
-      "name": "disenchant",
+      "name": "Disenchant",
       "value": 23
     },
     {
-      "name": "repair",
+      "name": "Repair",
       "value": 24
     },
     {
-      "name": "disenchantandrepair",
+      "name": "DisenchantAndRepair",
       "value": 25
     }
   ]
