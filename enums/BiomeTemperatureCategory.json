@@ -2,23 +2,23 @@
   "name": "BiomeTemperatureCategory",
   "values": [
     {
-      "name": "medium",
+      "name": "Medium",
       "value": 0
     },
     {
-      "name": "warm",
+      "name": "Warm",
       "value": 1
     },
     {
-      "name": "lukewarm",
+      "name": "Lukewarm",
       "value": 2
     },
     {
-      "name": "cold",
+      "name": "Cold",
       "value": 3
     },
     {
-      "name": "frozen",
+      "name": "Frozen",
       "value": 4
     }
   ]

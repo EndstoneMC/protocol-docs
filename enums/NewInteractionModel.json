@@ -2,19 +2,19 @@
   "name": "NewInteractionModel",
   "values": [
     {
-      "name": "touch",
+      "name": "Touch",
       "value": 0
     },
     {
-      "name": "crosshair",
+      "name": "Crosshair",
       "value": 1
     },
     {
-      "name": "classic",
+      "name": "Classic",
       "value": 2
     },
     {
-      "name": "count",
+      "name": "Count",
       "value": 3
     }
   ]

@@ -2,11 +2,11 @@
   "name": "NpcDialoguePacketPayload::NpcDialogueActionType",
   "values": [
     {
-      "name": "open",
+      "name": "Open",
       "value": 0
     },
     {
-      "name": "close",
+      "name": "Close",
       "value": 1
     }
   ]

@@ -2,19 +2,19 @@
   "name": "SetPlayerFurnaceOptionsPacketPayload::FurnaceType",
   "values": [
     {
-      "name": "none",
+      "name": "None",
       "value": 0
     },
     {
-      "name": "furnace",
+      "name": "Furnace",
       "value": 1
     },
     {
-      "name": "blastfurnace",
+      "name": "BlastFurnace",
       "value": 2
     },
     {
-      "name": "smoker",
+      "name": "Smoker",
       "value": 3
     }
   ]

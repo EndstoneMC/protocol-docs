@@ -2,27 +2,27 @@
   "name": "FurnaceLeftTabIndex",
   "values": [
     {
-      "name": "none",
+      "name": "None",
       "value": 0
     },
     {
-      "name": "recipefood",
+      "name": "RecipeFood",
       "value": 1
     },
     {
-      "name": "recipeitems",
+      "name": "RecipeItems",
       "value": 2
     },
     {
-      "name": "recipeblocks",
+      "name": "RecipeBlocks",
       "value": 3
     },
     {
-      "name": "recipesearch",
+      "name": "RecipeSearch",
       "value": 4
     },
     {
-      "name": "inventory",
+      "name": "Inventory",
       "value": 5
     }
   ]

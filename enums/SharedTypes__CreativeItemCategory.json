@@ -2,31 +2,31 @@
   "name": "SharedTypes::CreativeItemCategory",
   "values": [
     {
-      "name": "all",
+      "name": "All",
       "value": 0
     },
     {
-      "name": "construction",
+      "name": "Construction",
       "value": 1
     },
     {
-      "name": "nature",
+      "name": "Nature",
       "value": 2
     },
     {
-      "name": "equipment",
+      "name": "Equipment",
       "value": 3
     },
     {
-      "name": "items",
+      "name": "Items",
       "value": 4
     },
     {
-      "name": "itemcommandonly",
+      "name": "ItemCommandOnly",
       "value": 5
     },
     {
-      "name": "undefined",
+      "name": "Undefined",
       "value": 6
     }
   ]

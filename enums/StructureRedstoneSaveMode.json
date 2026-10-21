@@ -2,11 +2,11 @@
   "name": "StructureRedstoneSaveMode",
   "values": [
     {
-      "name": "savestomemory",
+      "name": "SavesToMemory",
       "value": 0
     },
     {
-      "name": "savestodisk",
+      "name": "SavesToDisk",
       "value": 1
     }
   ]
