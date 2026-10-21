@@ -2,15 +2,15 @@
   "name": "PhotoType",
   "values": [
     {
-      "name": "portfolio",
+      "name": "Portfolio",
       "value": 0
     },
     {
-      "name": "photoitem",
+      "name": "PhotoItem",
       "value": 1
     },
     {
-      "name": "book",
+      "name": "Book",
       "value": 2
     }
   ]

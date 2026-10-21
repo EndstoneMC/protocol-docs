@@ -2,159 +2,159 @@
   "name": "SharedTypes::Legacy::ContainerType",
   "values": [
     {
-      "name": "none",
+      "name": "NONE",
       "value": -9
     },
     {
-      "name": "inventory",
+      "name": "INVENTORY",
       "value": -1
     },
     {
-      "name": "container",
+      "name": "CONTAINER",
       "value": 0
     },
     {
-      "name": "workbench",
+      "name": "WORKBENCH",
       "value": 1
     },
     {
-      "name": "furnace",
+      "name": "FURNACE",
       "value": 2
     },
     {
-      "name": "enchantment",
+      "name": "ENCHANTMENT",
       "value": 3
     },
     {
-      "name": "brewing_stand",
+      "name": "BREWING_STAND",
       "value": 4
     },
     {
-      "name": "anvil",
+      "name": "ANVIL",
       "value": 5
     },
     {
-      "name": "dispenser",
+      "name": "DISPENSER",
       "value": 6
     },
     {
-      "name": "dropper",
+      "name": "DROPPER",
       "value": 7
     },
     {
-      "name": "hopper",
+      "name": "HOPPER",
       "value": 8
     },
     {
-      "name": "cauldron",
+      "name": "CAULDRON",
       "value": 9
     },
     {
-      "name": "minecart_chest",
+      "name": "MINECART_CHEST",
       "value": 10
     },
     {
-      "name": "minecart_hopper",
+      "name": "MINECART_HOPPER",
       "value": 11
     },
     {
-      "name": "horse",
+      "name": "HORSE",
       "value": 12
     },
     {
-      "name": "beacon",
+      "name": "BEACON",
       "value": 13
     },
     {
-      "name": "structure_editor",
+      "name": "STRUCTURE_EDITOR",
       "value": 14
     },
     {
-      "name": "trade",
+      "name": "TRADE",
       "value": 15
     },
     {
-      "name": "command_block",
+      "name": "COMMAND_BLOCK",
       "value": 16
     },
     {
-      "name": "jukebox",
+      "name": "JUKEBOX",
       "value": 17
     },
     {
-      "name": "armor",
+      "name": "ARMOR",
       "value": 18
     },
     {
-      "name": "hand",
+      "name": "HAND",
       "value": 19
     },
     {
-      "name": "compound_creator",
+      "name": "COMPOUND_CREATOR",
       "value": 20
     },
     {
-      "name": "element_constructor",
+      "name": "ELEMENT_CONSTRUCTOR",
       "value": 21
     },
     {
-      "name": "material_reducer",
+      "name": "MATERIAL_REDUCER",
       "value": 22
     },
     {
-      "name": "lab_table",
+      "name": "LAB_TABLE",
       "value": 23
     },
     {
-      "name": "loom",
+      "name": "LOOM",
       "value": 24
     },
     {
-      "name": "lectern",
+      "name": "LECTERN",
       "value": 25
     },
     {
-      "name": "grindstone",
+      "name": "GRINDSTONE",
       "value": 26
     },
     {
-      "name": "blast_furnace",
+      "name": "BLAST_FURNACE",
       "value": 27
     },
     {
-      "name": "smoker",
+      "name": "SMOKER",
       "value": 28
     },
     {
-      "name": "stonecutter",
+      "name": "STONECUTTER",
       "value": 29
     },
     {
-      "name": "cartography",
+      "name": "CARTOGRAPHY",
       "value": 30
     },
     {
-      "name": "hud",
+      "name": "HUD",
       "value": 31
     },
     {
-      "name": "jigsaw_editor",
+      "name": "JIGSAW_EDITOR",
       "value": 32
     },
     {
-      "name": "smithing_table",
+      "name": "SMITHING_TABLE",
       "value": 33
     },
     {
-      "name": "chest_boat",
+      "name": "CHEST_BOAT",
       "value": 34
     },
     {
-      "name": "decorated_pot",
+      "name": "DECORATED_POT",
       "value": 35
     },
     {
-      "name": "crafter",
+      "name": "CRAFTER",
       "value": 36
     }
   ]

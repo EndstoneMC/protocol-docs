@@ -2,43 +2,43 @@
   "name": "GraphicsOverrideParameterType",
   "values": [
     {
-      "name": "skyzenithcolor",
+      "name": "SkyZenithColor",
       "value": 0
     },
     {
-      "name": "skyhorizoncolor",
+      "name": "SkyHorizonColor",
       "value": 1
     },
     {
-      "name": "horizonblendmin",
+      "name": "HorizonBlendMin",
       "value": 2
     },
     {
-      "name": "horizonblendmax",
+      "name": "HorizonBlendMax",
       "value": 3
     },
     {
-      "name": "horizonblendstart",
+      "name": "HorizonBlendStart",
       "value": 4
     },
     {
-      "name": "horizonblendmiestart",
+      "name": "HorizonBlendMieStart",
       "value": 5
     },
     {
-      "name": "rayleighstrength",
+      "name": "RayleighStrength",
       "value": 6
     },
     {
-      "name": "sunmiestrength",
+      "name": "SunMieStrength",
       "value": 7
     },
     {
-      "name": "moonmiestrength",
+      "name": "MoonMieStrength",
       "value": 8
     },
     {
-      "name": "sunglareshape",
+      "name": "SunGlareShape",
       "value": 9
     }
   ]

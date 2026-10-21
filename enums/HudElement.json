@@ -2,55 +2,55 @@
   "name": "HudElement",
   "values": [
     {
-      "name": "paperdoll",
+      "name": "PaperDoll",
       "value": 0
     },
     {
-      "name": "armor",
+      "name": "Armor",
       "value": 1
     },
     {
-      "name": "tooltips",
+      "name": "ToolTips",
       "value": 2
     },
     {
-      "name": "touchcontrols",
+      "name": "TouchControls",
       "value": 3
     },
     {
-      "name": "crosshair",
+      "name": "Crosshair",
       "value": 4
     },
     {
-      "name": "hotbar",
+      "name": "HotBar",
       "value": 5
     },
     {
-      "name": "health",
+      "name": "Health",
       "value": 6
     },
     {
-      "name": "progressbar",
+      "name": "ProgressBar",
       "value": 7
     },
     {
-      "name": "hunger",
+      "name": "Hunger",
       "value": 8
     },
     {
-      "name": "airbubbles",
+      "name": "AirBubbles",
       "value": 9
     },
     {
-      "name": "horsehealth",
+      "name": "HorseHealth",
       "value": 10
     },
     {
-      "name": "statuseffects",
+      "name": "StatusEffects",
       "value": 11
     },
     {
-      "name": "itemtext",
+      "name": "ItemText",
       "value": 12
     }
   ]

@@ -2,19 +2,19 @@
   "name": "InventoryLayout",
   "values": [
     {
-      "name": "none",
+      "name": "None",
       "value": 0
     },
     {
-      "name": "survival",
+      "name": "Survival",
       "value": 1
     },
     {
-      "name": "recipebook",
+      "name": "RecipeBook",
       "value": 2
     },
     {
-      "name": "creative",
+      "name": "Creative",
       "value": 3
     }
   ]
