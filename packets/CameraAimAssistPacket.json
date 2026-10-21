@@ -24,8 +24,7 @@
     {
       "name": "Target Mode",
       "type": "uint8",
-      "enum": "CameraAimAssistPacketPayload::TargetMode",
-      "deprecated": true
+      "enum": "CameraAimAssistPacketPayload::TargetMode"
     },
     {
       "name": "Action",

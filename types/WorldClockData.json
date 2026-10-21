@@ -18,8 +18,7 @@
     },
     {
       "name": "IsPaused",
-      "type": "bool",
-      "deprecated": true
+      "type": "bool"
     },
     {
       "name": "TimeMarkers",

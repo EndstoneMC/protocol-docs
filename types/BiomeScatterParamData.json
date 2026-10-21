@@ -25,8 +25,7 @@
     },
     {
       "name": "chance denominator",
-      "type": "int32",
-      "deprecated": true
+      "type": "int32"
     },
     {
       "name": "iterations type",

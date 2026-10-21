@@ -14,8 +14,7 @@
     },
     {
       "name": "Color",
-      "type": "mce::Color",
-      "deprecated": true
+      "type": "mce::Color"
     },
     {
       "name": "duration",
