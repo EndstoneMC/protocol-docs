@@ -1,0 +1,15 @@
+{
+  "name": "UpdateSubChunkBlocksChangedInfo",
+  "fields": [
+    {
+      "name": "Blocks Changed - Standards",
+      "type": "UpdateSubChunkNetworkBlockInfo",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Blocks Changed - Extras",
+      "type": "UpdateSubChunkNetworkBlockInfo",
+      "repeat": "uvarint32"
+    }
+  ]
+}

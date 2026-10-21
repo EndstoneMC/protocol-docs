@@ -1,0 +1,29 @@
+{
+  "name": "SharedTypes::Legacy::Difficulty",
+  "values": [
+    {
+      "name": "Peaceful",
+      "value": 0
+    },
+    {
+      "name": "Easy",
+      "value": 1
+    },
+    {
+      "name": "Normal",
+      "value": 2
+    },
+    {
+      "name": "Hard",
+      "value": 3
+    },
+    {
+      "name": "Count",
+      "value": 4
+    },
+    {
+      "name": "Unknown",
+      "value": 5
+    }
+  ]
+}

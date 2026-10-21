@@ -1,0 +1,33 @@
+{
+  "name": "Rotation",
+  "values": [
+    {
+      "name": "None",
+      "value": 0
+    },
+    {
+      "name": "Rotate90",
+      "value": 1
+    },
+    {
+      "name": "Rotate180",
+      "value": 2
+    },
+    {
+      "name": "Rotate270",
+      "value": 3
+    },
+    {
+      "name": "Clockwise90",
+      "value": 1
+    },
+    {
+      "name": "Clockwise180",
+      "value": 2
+    },
+    {
+      "name": "CounterClockwise90",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "MolangVersion",
+  "values": [
+    {
+      "name": "Invalid",
+      "value": -1
+    },
+    {
+      "name": "BeforeVersioning",
+      "value": 0
+    },
+    {
+      "name": "Initial",
+      "value": 1
+    },
+    {
+      "name": "FixedItemRemainingUseDurationQuery",
+      "value": 2
+    },
+    {
+      "name": "ExpressionErrorMessages",
+      "value": 3
+    },
+    {
+      "name": "UnexpectedOperatorErrors",
+      "value": 4
+    },
+    {
+      "name": "ConditionalOperatorAssociativity",
+      "value": 5
+    },
+    {
+      "name": "ComparisonAndLogicalOperatorPrecedence",
+      "value": 6
+    },
+    {
+      "name": "DivideByNegativeValue",
+      "value": 7
+    },
+    {
+      "name": "FixedCapeFlapAmountQuery",
+      "value": 8
+    },
+    {
+      "name": "QueryBlockPropertyRenamedToState",
+      "value": 9
+    },
+    {
+      "name": "DeprecateOldBlockQueryNames",
+      "value": 10
+    },
+    {
+      "name": "DeprecatedSnifferAndCamelQueries",
+      "value": 11
+    },
+    {
+      "name": "LeafSupportingInFirstSolidBlockBelow",
+      "value": 12
+    },
+    {
+      "name": "NumValidVersions",
+      "value": 14
+    },
+    {
+      "name": "Latest",
+      "value": 13
+    },
+    {
+      "name": "HardcodedMolang",
+      "value": 13
+    }
+  ]
+}

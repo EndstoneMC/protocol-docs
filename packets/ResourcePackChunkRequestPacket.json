@@ -1,0 +1,14 @@
+{
+  "id": 84,
+  "name": "ResourcePackChunkRequestPacket",
+  "fields": [
+    {
+      "name": "Resource Name",
+      "type": "string"
+    },
+    {
+      "name": "Chunk",
+      "type": "uint32"
+    }
+  ]
+}

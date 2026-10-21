@@ -1,0 +1,14 @@
+{
+  "id": 75,
+  "name": "ShowCreditsPacket",
+  "fields": [
+    {
+      "name": "Player Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Credits State",
+      "type": "varint32"
+    }
+  ]
+}

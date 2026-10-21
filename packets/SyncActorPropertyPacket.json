@@ -1,0 +1,10 @@
+{
+  "id": 165,
+  "name": "SyncActorPropertyPacket",
+  "fields": [
+    {
+      "name": "Property Data",
+      "type": "CompoundTag"
+    }
+  ]
+}

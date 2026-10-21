@@ -1,0 +1,13 @@
+{
+  "name": "NpcDialoguePacketPayload::NpcDialogueActionType",
+  "values": [
+    {
+      "name": "Open",
+      "value": 0
+    },
+    {
+      "name": "Close",
+      "value": 1
+    }
+  ]
+}

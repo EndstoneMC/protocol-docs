@@ -1,0 +1,50 @@
+{
+  "name": "CameraInstruction",
+  "fields": [
+    {
+      "name": "Set",
+      "type": "CameraInstruction::SetInstruction",
+      "optional": true
+    },
+    {
+      "name": "Clear",
+      "type": "bool",
+      "optional": true
+    },
+    {
+      "name": "Fade",
+      "type": "CameraInstruction::FadeInstruction",
+      "optional": true
+    },
+    {
+      "name": "Target",
+      "type": "CameraInstruction::TargetInstruction",
+      "optional": true
+    },
+    {
+      "name": "RemoveTarget",
+      "type": "bool",
+      "optional": true
+    },
+    {
+      "name": "FieldOfView",
+      "type": "CameraInstruction::FovInstruction",
+      "optional": true
+    },
+    {
+      "name": "Spline",
+      "type": "CameraInstruction::SplineInstruction",
+      "optional": true
+    },
+    {
+      "name": "AttachToEntity",
+      "type": "CameraInstruction::AttachToEntityInstruction",
+      "optional": true
+    },
+    {
+      "name": "DetachFromEntity",
+      "type": "bool",
+      "optional": true
+    }
+  ]
+}

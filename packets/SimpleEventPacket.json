@@ -1,0 +1,11 @@
+{
+  "id": 64,
+  "name": "SimpleEventPacket",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "uint16",
+      "enum": "SimpleEventPacketPayload::Subtype"
+    }
+  ]
+}

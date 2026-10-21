@@ -1,0 +1,9 @@
+{
+  "name": "GraphicsOverrideParameterType",
+  "values": [
+    {
+      "name": "SkyZenithColor",
+      "value": 0
+    }
+  ]
+}

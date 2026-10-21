@@ -1,0 +1,27 @@
+{
+  "id": 143,
+  "name": "NetworkSettingsPacket",
+  "fields": [
+    {
+      "name": "Compression Threshold",
+      "type": "uint16"
+    },
+    {
+      "name": "CompressionAlgorithm",
+      "type": "uint16",
+      "enum": "PacketCompressionAlgorithm"
+    },
+    {
+      "name": "Client Throttle Enabled",
+      "type": "bool"
+    },
+    {
+      "name": "Client Throttle Threshold",
+      "type": "uint8"
+    },
+    {
+      "name": "Client Throttle Scalar",
+      "type": "float"
+    }
+  ]
+}

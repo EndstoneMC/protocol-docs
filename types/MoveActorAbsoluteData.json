@@ -1,0 +1,29 @@
+{
+  "name": "MoveActorAbsoluteData",
+  "fields": [
+    {
+      "name": "ActorRuntimeID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Header",
+      "type": "uint8"
+    },
+    {
+      "name": "Position",
+      "type": "Vec3"
+    },
+    {
+      "name": "Rotation X",
+      "type": "uint8"
+    },
+    {
+      "name": "Rotation Y",
+      "type": "uint8"
+    },
+    {
+      "name": "Rotation Y Head",
+      "type": "uint8"
+    }
+  ]
+}

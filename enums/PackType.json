@@ -1,0 +1,41 @@
+{
+  "name": "PackType",
+  "values": [
+    {
+      "name": "Invalid",
+      "value": 0
+    },
+    {
+      "name": "Addon",
+      "value": 1
+    },
+    {
+      "name": "Cached",
+      "value": 2
+    },
+    {
+      "name": "CopyProtected",
+      "value": 3
+    },
+    {
+      "name": "Behavior",
+      "value": 4
+    },
+    {
+      "name": "PersonaPiece",
+      "value": 5
+    },
+    {
+      "name": "Resources",
+      "value": 6
+    },
+    {
+      "name": "Skins",
+      "value": 7
+    },
+    {
+      "name": "WorldTemplate",
+      "value": 8
+    }
+  ]
+}

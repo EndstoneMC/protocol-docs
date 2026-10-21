@@ -1,0 +1,13 @@
+{
+  "name": "FeatureRegistry::FeatureBinaryJsonFormat",
+  "fields": [
+    {
+      "name": "Feature Name",
+      "type": "string"
+    },
+    {
+      "name": "Binary Json Output",
+      "type": "string"
+    }
+  ]
+}

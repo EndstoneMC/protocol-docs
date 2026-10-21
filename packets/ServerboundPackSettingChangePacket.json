@@ -1,0 +1,28 @@
+{
+  "id": 329,
+  "name": "ServerboundPackSettingChangePacket",
+  "fields": [
+    {
+      "name": "PackId",
+      "type": "mce::UUID"
+    },
+    {
+      "name": "PackSettingName",
+      "type": "string",
+      "constraints": {
+        "max_length": 128
+      }
+    },
+    {
+      "name": "PackSettingValue",
+      "type": {
+        "switch": "uvarint32",
+        "cases": [
+          "float",
+          "bool",
+          "string"
+        ]
+      }
+    }
+  ]
+}

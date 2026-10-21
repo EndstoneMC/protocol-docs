@@ -1,0 +1,31 @@
+{
+  "id": 169,
+  "name": "NpcDialoguePacket",
+  "fields": [
+    {
+      "name": "Npc Id Raw Id",
+      "type": "uint64"
+    },
+    {
+      "name": "Npc Dialogue Action Type",
+      "type": "varint32",
+      "enum": "NpcDialoguePacketPayload::NpcDialogueActionType"
+    },
+    {
+      "name": "Dialogue",
+      "type": "string"
+    },
+    {
+      "name": "Scene Name",
+      "type": "string"
+    },
+    {
+      "name": "Npc Name",
+      "type": "string"
+    },
+    {
+      "name": "Action JSON",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": 72,
+  "name": "GameRulesChangedPacket",
+  "fields": [
+    {
+      "name": "Rule Data",
+      "type": "GameRulesChangedPacketData"
+    }
+  ]
+}

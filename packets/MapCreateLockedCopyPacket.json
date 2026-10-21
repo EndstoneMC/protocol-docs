@@ -1,0 +1,14 @@
+{
+  "id": 131,
+  "name": "MapCreateLockedCopyPacket",
+  "fields": [
+    {
+      "name": "Original Map Id",
+      "type": "ActorUniqueID"
+    },
+    {
+      "name": "New Map Id",
+      "type": "ActorUniqueID"
+    }
+  ]
+}

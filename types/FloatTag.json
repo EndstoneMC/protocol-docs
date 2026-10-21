@@ -1,0 +1,9 @@
+{
+  "name": "FloatTag",
+  "fields": [
+    {
+      "name": "data",
+      "type": "float"
+    }
+  ]
+}

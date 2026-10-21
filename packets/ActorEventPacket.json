@@ -1,0 +1,19 @@
+{
+  "id": 27,
+  "name": "ActorEventPacket",
+  "fields": [
+    {
+      "name": "Target Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Event ID",
+      "type": "uint8",
+      "enum": "ActorEvent"
+    },
+    {
+      "name": "Data",
+      "type": "varint32"
+    }
+  ]
+}

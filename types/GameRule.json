@@ -1,0 +1,25 @@
+{
+  "name": "GameRule",
+  "fields": [
+    {
+      "name": "Rule Name",
+      "type": "string"
+    },
+    {
+      "name": "Rule Can Be Modified",
+      "type": "bool"
+    },
+    {
+      "name": "Rule Value",
+      "type": {
+        "switch": "uvarint32",
+        "cases": [
+          "std::monostate",
+          "bool",
+          "int32",
+          "float"
+        ]
+      }
+    }
+  ]
+}

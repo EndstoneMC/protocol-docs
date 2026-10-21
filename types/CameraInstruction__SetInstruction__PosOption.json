@@ -1,0 +1,9 @@
+{
+  "name": "CameraInstruction::SetInstruction::PosOption",
+  "fields": [
+    {
+      "name": "Pos",
+      "type": "Vec3"
+    }
+  ]
+}

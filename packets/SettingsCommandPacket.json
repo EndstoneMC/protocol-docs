@@ -1,0 +1,14 @@
+{
+  "id": 140,
+  "name": "SettingsCommandPacket",
+  "fields": [
+    {
+      "name": "Command",
+      "type": "string"
+    },
+    {
+      "name": "Suppress Output?",
+      "type": "bool"
+    }
+  ]
+}

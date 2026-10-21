@@ -1,0 +1,29 @@
+{
+  "name": "ScriptModuleDebugUtilities::ScriptDebugShapeType",
+  "values": [
+    {
+      "name": "Line",
+      "value": 0
+    },
+    {
+      "name": "Box",
+      "value": 1
+    },
+    {
+      "name": "Sphere",
+      "value": 2
+    },
+    {
+      "name": "Circle",
+      "value": 3
+    },
+    {
+      "name": "Text",
+      "value": 4
+    },
+    {
+      "name": "Arrow",
+      "value": 5
+    }
+  ]
+}

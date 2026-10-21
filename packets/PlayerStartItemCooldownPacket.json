@@ -1,0 +1,14 @@
+{
+  "id": 176,
+  "name": "PlayerStartItemCooldownPacket",
+  "fields": [
+    {
+      "name": "Item Category",
+      "type": "string"
+    },
+    {
+      "name": "Duration Ticks",
+      "type": "varint32"
+    }
+  ]
+}
