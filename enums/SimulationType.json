@@ -2,19 +2,19 @@
   "name": "SimulationType",
   "values": [
     {
-      "name": "game",
+      "name": "Game",
       "value": 0
     },
     {
-      "name": "editor",
+      "name": "Editor",
       "value": 1
     },
     {
-      "name": "test",
+      "name": "Test",
       "value": 2
     },
     {
-      "name": "invalid",
+      "name": "INVALID",
       "value": 3
     }
   ]

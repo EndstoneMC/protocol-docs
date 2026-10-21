@@ -2,15 +2,15 @@
   "name": "LabTablePacketPayload::Type",
   "values": [
     {
-      "name": "startcombine",
+      "name": "StartCombine",
       "value": 0
     },
     {
-      "name": "startreaction",
+      "name": "StartReaction",
       "value": 1
     },
     {
-      "name": "reset",
+      "name": "Reset",
       "value": 2
     }
   ]

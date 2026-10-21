@@ -2,19 +2,19 @@
   "name": "MobEffectPacketPayload::Event",
   "values": [
     {
-      "name": "invalid",
+      "name": "Invalid",
       "value": 0
     },
     {
-      "name": "add",
+      "name": "Add",
       "value": 1
     },
     {
-      "name": "update",
+      "name": "Update",
       "value": 2
     },
     {
-      "name": "remove",
+      "name": "Remove",
       "value": 3
     }
   ]

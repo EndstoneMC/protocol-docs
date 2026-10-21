@@ -2,19 +2,19 @@
   "name": "PacketViolationSeverity",
   "values": [
     {
-      "name": "unknown",
+      "name": "Unknown",
       "value": -1
     },
     {
-      "name": "warning",
+      "name": "Warning",
       "value": 0
     },
     {
-      "name": "finalwarning",
+      "name": "FinalWarning",
       "value": 1
     },
     {
-      "name": "terminatingconnection",
+      "name": "TerminatingConnection",
       "value": 2
     }
   ]
