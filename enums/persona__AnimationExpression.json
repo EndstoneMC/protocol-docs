@@ -2,11 +2,11 @@
   "name": "persona::AnimationExpression",
   "values": [
     {
-      "name": "linear",
+      "name": "Linear",
       "value": 0
     },
     {
-      "name": "blinking",
+      "name": "Blinking",
       "value": 1
     }
   ]

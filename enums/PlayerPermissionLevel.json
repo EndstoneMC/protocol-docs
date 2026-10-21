@@ -2,19 +2,19 @@
   "name": "PlayerPermissionLevel",
   "values": [
     {
-      "name": "visitor",
+      "name": "Visitor",
       "value": 0
     },
     {
-      "name": "member",
+      "name": "Member",
       "value": 1
     },
     {
-      "name": "operator",
+      "name": "Operator",
       "value": 2
     },
     {
-      "name": "custom",
+      "name": "Custom",
       "value": 3
     }
   ]

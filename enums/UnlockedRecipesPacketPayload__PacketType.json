@@ -2,23 +2,23 @@
   "name": "UnlockedRecipesPacketPayload::PacketType",
   "values": [
     {
-      "name": "empty",
+      "name": "Empty",
       "value": 0
     },
     {
-      "name": "initiallyunlockedrecipes",
+      "name": "InitiallyUnlockedRecipes",
       "value": 1
     },
     {
-      "name": "newlyunlockedrecipes",
+      "name": "NewlyUnlockedRecipes",
       "value": 2
     },
     {
-      "name": "removeunlockedrecipes",
+      "name": "RemoveUnlockedRecipes",
       "value": 3
     },
     {
-      "name": "removeallunlockedrecipes",
+      "name": "RemoveAllUnlockedRecipes",
       "value": 4
     }
   ]

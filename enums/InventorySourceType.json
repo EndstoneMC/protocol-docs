@@ -2,23 +2,23 @@
   "name": "InventorySourceType",
   "values": [
     {
-      "name": "container inventory",
+      "name": "Container Inventory",
       "value": 0
     },
     {
-      "name": "global inventory",
+      "name": "Global Inventory",
       "value": 1
     },
     {
-      "name": "world interaction",
+      "name": "World Interaction",
       "value": 2
     },
     {
-      "name": "creative inventory",
+      "name": "Creative Inventory",
       "value": 3
     },
     {
-      "name": "non implemented feature todo",
+      "name": "Non Implemented Feature TODO",
       "value": 99999
     }
   ]

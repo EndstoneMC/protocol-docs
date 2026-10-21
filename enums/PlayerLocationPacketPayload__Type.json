@@ -2,11 +2,11 @@
   "name": "PlayerLocationPacketPayload::Type",
   "values": [
     {
-      "name": "player_location_coordinates",
+      "name": "PLAYER_LOCATION_COORDINATES",
       "value": 0
     },
     {
-      "name": "player_location_hide",
+      "name": "PLAYER_LOCATION_HIDE",
       "value": 1
     }
   ]

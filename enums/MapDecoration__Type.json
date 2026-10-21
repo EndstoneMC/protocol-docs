@@ -2,107 +2,107 @@
   "name": "MapDecoration::Type",
   "values": [
     {
-      "name": "markerwhite",
+      "name": "MarkerWhite",
       "value": 0
     },
     {
-      "name": "markergreen",
+      "name": "MarkerGreen",
       "value": 1
     },
     {
-      "name": "markerred",
+      "name": "MarkerRed",
       "value": 2
     },
     {
-      "name": "markerblue",
+      "name": "MarkerBlue",
       "value": 3
     },
     {
-      "name": "xwhite",
+      "name": "XWhite",
       "value": 4
     },
     {
-      "name": "trianglered",
+      "name": "TriangleRed",
       "value": 5
     },
     {
-      "name": "squarewhite",
+      "name": "SquareWhite",
       "value": 6
     },
     {
-      "name": "markersign",
+      "name": "MarkerSign",
       "value": 7
     },
     {
-      "name": "markerpink",
+      "name": "MarkerPink",
       "value": 8
     },
     {
-      "name": "markerorange",
+      "name": "MarkerOrange",
       "value": 9
     },
     {
-      "name": "markeryellow",
+      "name": "MarkerYellow",
       "value": 10
     },
     {
-      "name": "markerteal",
+      "name": "MarkerTeal",
       "value": 11
     },
     {
-      "name": "trianglegreen",
+      "name": "TriangleGreen",
       "value": 12
     },
     {
-      "name": "smallsquarewhite",
+      "name": "SmallSquareWhite",
       "value": 13
     },
     {
-      "name": "mansion",
+      "name": "Mansion",
       "value": 14
     },
     {
-      "name": "monument",
+      "name": "Monument",
       "value": 15
     },
     {
-      "name": "nodraw",
+      "name": "NoDraw",
       "value": 16
     },
     {
-      "name": "villagedesert",
+      "name": "VillageDesert",
       "value": 17
     },
     {
-      "name": "villageplains",
+      "name": "VillagePlains",
       "value": 18
     },
     {
-      "name": "villagesavanna",
+      "name": "VillageSavanna",
       "value": 19
     },
     {
-      "name": "villagesnowy",
+      "name": "VillageSnowy",
       "value": 20
     },
     {
-      "name": "villagetaiga",
+      "name": "VillageTaiga",
       "value": 21
     },
     {
-      "name": "jungletemple",
+      "name": "JungleTemple",
       "value": 22
     },
     {
-      "name": "witchhut",
+      "name": "WitchHut",
       "value": 23
     },
     {
-      "name": "trialchambers",
+      "name": "TrialChambers",
       "value": 24
     },
     {
-      "name": "count",
+      "name": "Count",
       "value": 25
     }
   ]

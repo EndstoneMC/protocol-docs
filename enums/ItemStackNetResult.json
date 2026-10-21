@@ -2,275 +2,275 @@
   "name": "ItemStackNetResult",
   "values": [
     {
-      "name": "success",
+      "name": "Success",
       "value": 0
     },
     {
-      "name": "error",
+      "name": "Error",
       "value": 1
     },
     {
-      "name": "invalidrequestactiontype",
+      "name": "InvalidRequestActionType",
       "value": 2
     },
     {
-      "name": "actionrequestnotallowed",
+      "name": "ActionRequestNotAllowed",
       "value": 3
     },
     {
-      "name": "screenhandlerendrequestfailed",
+      "name": "ScreenHandlerEndRequestFailed",
       "value": 4
     },
     {
-      "name": "itemrequestactionhandlercommitfailed",
+      "name": "ItemRequestActionHandlerCommitFailed",
       "value": 5
     },
     {
-      "name": "invalidrequestcraftactiontype",
+      "name": "InvalidRequestCraftActionType",
       "value": 6
     },
     {
-      "name": "invalidcraftrequest",
+      "name": "InvalidCraftRequest",
       "value": 7
     },
     {
-      "name": "invalidcraftrequestscreen",
+      "name": "InvalidCraftRequestScreen",
       "value": 8
     },
     {
-      "name": "invalidcraftresult",
+      "name": "InvalidCraftResult",
       "value": 9
     },
     {
-      "name": "invalidcraftresultindex",
+      "name": "InvalidCraftResultIndex",
       "value": 10
     },
     {
-      "name": "invalidcraftresultitem",
+      "name": "InvalidCraftResultItem",
       "value": 11
     },
     {
-      "name": "invaliditemnetid",
+      "name": "InvalidItemNetId",
       "value": 12
     },
     {
-      "name": "missingcreatedoutputcontainer",
+      "name": "MissingCreatedOutputContainer",
       "value": 13
     },
     {
-      "name": "failedtosetcreateditemoutputslot",
+      "name": "FailedToSetCreatedItemOutputSlot",
       "value": 14
     },
     {
-      "name": "requestalreadyinprogress",
+      "name": "RequestAlreadyInProgress",
       "value": 15
     },
     {
-      "name": "failedtoinitsparsecontainer",
+      "name": "FailedToInitSparseContainer",
       "value": 16
     },
     {
-      "name": "resulttransferfailed",
+      "name": "ResultTransferFailed",
       "value": 17
     },
     {
-      "name": "expecteditemslotnotfullyconsumed",
+      "name": "ExpectedItemSlotNotFullyConsumed",
       "value": 18
     },
     {
-      "name": "expectedanywhereitemnotfullyconsumed",
+      "name": "ExpectedAnywhereItemNotFullyConsumed",
       "value": 19
     },
     {
-      "name": "itemalreadyconsumedfromslot",
+      "name": "ItemAlreadyConsumedFromSlot",
       "value": 20
     },
     {
-      "name": "consumedtoomuchfromslot",
+      "name": "ConsumedTooMuchFromSlot",
       "value": 21
     },
     {
-      "name": "mismatchslotexpectedconsumeditem",
+      "name": "MismatchSlotExpectedConsumedItem",
       "value": 22
     },
     {
-      "name": "mismatchslotexpectedconsumeditemnetidvariant",
+      "name": "MismatchSlotExpectedConsumedItemNetIdVariant",
       "value": 23
     },
     {
-      "name": "failedtomatchexpectedslotconsumeditem",
+      "name": "FailedToMatchExpectedSlotConsumedItem",
       "value": 24
     },
     {
-      "name": "failedtomatchexpectedallowedanywhereconsumeditem",
+      "name": "FailedToMatchExpectedAllowedAnywhereConsumedItem",
       "value": 25
     },
     {
-      "name": "consumeditemoutofallowedslotrange",
+      "name": "ConsumedItemOutOfAllowedSlotRange",
       "value": 26
     },
     {
-      "name": "consumeditemnotallowed",
+      "name": "ConsumedItemNotAllowed",
       "value": 27
     },
     {
-      "name": "playernotincreativemode",
+      "name": "PlayerNotInCreativeMode",
       "value": 28
     },
     {
-      "name": "invalidexperimentalreciperequest",
+      "name": "InvalidExperimentalRecipeRequest",
       "value": 29
     },
     {
-      "name": "failedtocraftcreative",
+      "name": "FailedToCraftCreative",
       "value": 30
     },
     {
-      "name": "failedtogetlevelrecipe",
+      "name": "FailedToGetLevelRecipe",
       "value": 31
     },
     {
-      "name": "failedtofindrecipebynetid",
+      "name": "FailedToFindRecipeByNetId",
       "value": 32
     },
     {
-      "name": "mismatchedcraftingsize",
+      "name": "MismatchedCraftingSize",
       "value": 33
     },
     {
-      "name": "missinginputsparsecontainer",
+      "name": "MissingInputSparseContainer",
       "value": 34
     },
     {
-      "name": "mismatchedrecipeforinputgriditems",
+      "name": "MismatchedRecipeForInputGridItems",
       "value": 35
     },
     {
-      "name": "emptycraftresults",
+      "name": "EmptyCraftResults",
       "value": 36
     },
     {
-      "name": "failedtoenchant",
+      "name": "FailedToEnchant",
       "value": 37
     },
     {
-      "name": "missinginputitem",
+      "name": "MissingInputItem",
       "value": 38
     },
     {
-      "name": "insufficientplayerleveltoenchant",
+      "name": "InsufficientPlayerLevelToEnchant",
       "value": 39
     },
     {
-      "name": "missingmaterialitem",
+      "name": "MissingMaterialItem",
       "value": 40
     },
     {
-      "name": "missingactor",
+      "name": "MissingActor",
       "value": 41
     },
     {
-      "name": "unknownprimaryeffect",
+      "name": "UnknownPrimaryEffect",
       "value": 42
     },
     {
-      "name": "primaryeffectoutofrange",
+      "name": "PrimaryEffectOutOfRange",
       "value": 43
     },
     {
-      "name": "primaryeffectunavailable",
+      "name": "PrimaryEffectUnavailable",
       "value": 44
     },
     {
-      "name": "secondaryeffectoutofrange",
+      "name": "SecondaryEffectOutOfRange",
       "value": 45
     },
     {
-      "name": "secondaryeffectunavailable",
+      "name": "SecondaryEffectUnavailable",
       "value": 46
     },
     {
-      "name": "dstcontainerequaltocreatedoutputcontainer",
+      "name": "DstContainerEqualToCreatedOutputContainer",
       "value": 47
     },
     {
-      "name": "dstcontainerandslotequaltosrccontainerandslot",
+      "name": "DstContainerAndSlotEqualToSrcContainerAndSlot",
       "value": 48
     },
     {
-      "name": "failedtovalidatesrcslot",
+      "name": "FailedToValidateSrcSlot",
       "value": 49
     },
     {
-      "name": "failedtovalidatedstslot",
+      "name": "FailedToValidateDstSlot",
       "value": 50
     },
     {
-      "name": "invalidadjustedamount",
+      "name": "InvalidAdjustedAmount",
       "value": 51
     },
     {
-      "name": "invaliditemsettype",
+      "name": "InvalidItemSetType",
       "value": 52
     },
     {
-      "name": "invalidtransferamount",
+      "name": "InvalidTransferAmount",
       "value": 53
     },
     {
-      "name": "cannotswapitem",
+      "name": "CannotSwapItem",
       "value": 54
     },
     {
-      "name": "cannotplaceitem",
+      "name": "CannotPlaceItem",
       "value": 55
     },
     {
-      "name": "unhandleditemsettype",
+      "name": "UnhandledItemSetType",
       "value": 56
     },
     {
-      "name": "invalidremovedamount",
+      "name": "InvalidRemovedAmount",
       "value": 57
     },
     {
-      "name": "invalidregion",
+      "name": "InvalidRegion",
       "value": 58
     },
     {
-      "name": "cannotdropitem",
+      "name": "CannotDropItem",
       "value": 59
     },
     {
-      "name": "cannotdestroyitem",
+      "name": "CannotDestroyItem",
       "value": 60
     },
     {
-      "name": "invalidsourcecontainer",
+      "name": "InvalidSourceContainer",
       "value": 61
     },
     {
-      "name": "itemnotconsumed",
+      "name": "ItemNotConsumed",
       "value": 62
     },
     {
-      "name": "invalidnumcrafts",
+      "name": "InvalidNumCrafts",
       "value": 63
     },
     {
-      "name": "invalidcraftresultstacksize",
+      "name": "InvalidCraftResultStackSize",
       "value": 64
     },
     {
-      "name": "cannotremoveitem",
+      "name": "CannotRemoveItem",
       "value": 65
     },
     {
-      "name": "cannotconsumeitem",
+      "name": "CannotConsumeItem",
       "value": 66
     },
     {
-      "name": "screenstackerror",
+      "name": "ScreenStackError",
       "value": 67
     }
   ]

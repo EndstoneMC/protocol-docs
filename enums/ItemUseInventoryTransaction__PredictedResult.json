@@ -2,11 +2,11 @@
   "name": "ItemUseInventoryTransaction::PredictedResult",
   "values": [
     {
-      "name": "failure",
+      "name": "Failure",
       "value": 0
     },
     {
-      "name": "success",
+      "name": "Success",
       "value": 1
     }
   ]

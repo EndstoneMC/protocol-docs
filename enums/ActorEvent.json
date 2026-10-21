@@ -2,247 +2,247 @@
   "name": "ActorEvent",
   "values": [
     {
-      "name": "none",
+      "name": "NONE",
       "value": 0
     },
     {
-      "name": "jump",
+      "name": "JUMP",
       "value": 1
     },
     {
-      "name": "hurt",
+      "name": "HURT",
       "value": 2
     },
     {
-      "name": "death",
+      "name": "DEATH",
       "value": 3
     },
     {
-      "name": "start_attacking",
+      "name": "START_ATTACKING",
       "value": 4
     },
     {
-      "name": "stop_attacking",
+      "name": "STOP_ATTACKING",
       "value": 5
     },
     {
-      "name": "taming_failed",
+      "name": "TAMING_FAILED",
       "value": 6
     },
     {
-      "name": "taming_succeeded",
+      "name": "TAMING_SUCCEEDED",
       "value": 7
     },
     {
-      "name": "shake_wetness",
+      "name": "SHAKE_WETNESS",
       "value": 8
     },
     {
-      "name": "eat_grass",
+      "name": "EAT_GRASS",
       "value": 10
     },
     {
-      "name": "fishhook_bubble",
+      "name": "FISHHOOK_BUBBLE",
       "value": 11
     },
     {
-      "name": "fishhook_fishpos",
+      "name": "FISHHOOK_FISHPOS",
       "value": 12
     },
     {
-      "name": "fishhook_hooktime",
+      "name": "FISHHOOK_HOOKTIME",
       "value": 13
     },
     {
-      "name": "fishhook_tease",
+      "name": "FISHHOOK_TEASE",
       "value": 14
     },
     {
-      "name": "squid_fleeing",
+      "name": "SQUID_FLEEING",
       "value": 15
     },
     {
-      "name": "zombie_converting",
+      "name": "ZOMBIE_CONVERTING",
       "value": 16
     },
     {
-      "name": "play_ambient",
+      "name": "PLAY_AMBIENT",
       "value": 17
     },
     {
-      "name": "spawn_alive",
+      "name": "SPAWN_ALIVE",
       "value": 18
     },
     {
-      "name": "start_offer_flower",
+      "name": "START_OFFER_FLOWER",
       "value": 19
     },
     {
-      "name": "stop_offer_flower",
+      "name": "STOP_OFFER_FLOWER",
       "value": 20
     },
     {
-      "name": "love_hearts",
+      "name": "LOVE_HEARTS",
       "value": 21
     },
     {
-      "name": "villager_angry",
+      "name": "VILLAGER_ANGRY",
       "value": 22
     },
     {
-      "name": "villager_happy",
+      "name": "VILLAGER_HAPPY",
       "value": 23
     },
     {
-      "name": "witch_hat_magic",
+      "name": "WITCH_HAT_MAGIC",
       "value": 24
     },
     {
-      "name": "fireworks_explode",
+      "name": "FIREWORKS_EXPLODE",
       "value": 25
     },
     {
-      "name": "in_love_hearts",
+      "name": "IN_LOVE_HEARTS",
       "value": 26
     },
     {
-      "name": "silverfish_merge_anim",
+      "name": "SILVERFISH_MERGE_ANIM",
       "value": 27
     },
     {
-      "name": "guardian_attack_sound",
+      "name": "GUARDIAN_ATTACK_SOUND",
       "value": 28
     },
     {
-      "name": "drink_potion",
+      "name": "DRINK_POTION",
       "value": 29
     },
     {
-      "name": "throw_potion",
+      "name": "THROW_POTION",
       "value": 30
     },
     {
-      "name": "prime_tntcart",
+      "name": "PRIME_TNTCART",
       "value": 31
     },
     {
-      "name": "prime_creeper",
+      "name": "PRIME_CREEPER",
       "value": 32
     },
     {
-      "name": "air_supply",
+      "name": "AIR_SUPPLY",
       "value": 33
     },
     {
-      "name": "deprecated_add_player_levels",
+      "name": "DEPRECATED_ADD_PLAYER_LEVELS",
       "value": 34
     },
     {
-      "name": "guardian_mining_fatigue",
+      "name": "GUARDIAN_MINING_FATIGUE",
       "value": 35
     },
     {
-      "name": "agent_swing_arm",
+      "name": "AGENT_SWING_ARM",
       "value": 36
     },
     {
-      "name": "dragon_start_death_anim",
+      "name": "DRAGON_START_DEATH_ANIM",
       "value": 37
     },
     {
-      "name": "ground_dust",
+      "name": "GROUND_DUST",
       "value": 38
     },
     {
-      "name": "shake",
+      "name": "SHAKE",
       "value": 39
     },
     {
-      "name": "feed",
+      "name": "FEED",
       "value": 57
     },
     {
-      "name": "baby_age",
+      "name": "BABY_AGE",
       "value": 60
     },
     {
-      "name": "instant_death",
+      "name": "INSTANT_DEATH",
       "value": 61
     },
     {
-      "name": "notify_trade",
+      "name": "NOTIFY_TRADE",
       "value": 62
     },
     {
-      "name": "leash_destroyed",
+      "name": "LEASH_DESTROYED",
       "value": 63
     },
     {
-      "name": "caravan_updated",
+      "name": "CARAVAN_UPDATED",
       "value": 64
     },
     {
-      "name": "talisman_activate",
+      "name": "TALISMAN_ACTIVATE",
       "value": 65
     },
     {
-      "name": "deprecated_update_structure_feature",
+      "name": "DEPRECATED_UPDATE_STRUCTURE_FEATURE",
       "value": 66
     },
     {
-      "name": "player_spawned_mob",
+      "name": "PLAYER_SPAWNED_MOB",
       "value": 67
     },
     {
-      "name": "puke",
+      "name": "PUKE",
       "value": 68
     },
     {
-      "name": "update_stack_size",
+      "name": "UPDATE_STACK_SIZE",
       "value": 69
     },
     {
-      "name": "start_swimming",
+      "name": "START_SWIMMING",
       "value": 70
     },
     {
-      "name": "balloon_pop",
+      "name": "BALLOON_POP",
       "value": 71
     },
     {
-      "name": "treasure_hunt",
+      "name": "TREASURE_HUNT",
       "value": 72
     },
     {
-      "name": "summon_agent",
+      "name": "SUMMON_AGENT",
       "value": 73
     },
     {
-      "name": "finished_charging_item",
+      "name": "FINISHED_CHARGING_ITEM",
       "value": 74
     },
     {
-      "name": "actor_grow_up",
+      "name": "ACTOR_GROW_UP",
       "value": 76
     },
     {
-      "name": "vibration_detected",
+      "name": "VIBRATION_DETECTED",
       "value": 77
     },
     {
-      "name": "drink_milk",
+      "name": "DRINK_MILK",
       "value": 78
     },
     {
-      "name": "shake_wetness_stop",
+      "name": "SHAKE_WETNESS_STOP",
       "value": 79
     },
     {
-      "name": "kinetic_damage_dealt",
+      "name": "KINETIC_DAMAGE_DEALT",
       "value": 80
     },
     {
-      "name": "hurt_without_receiving_damage",
+      "name": "HURT_WITHOUT_RECEIVING_DAMAGE",
       "value": 81
     }
   ]

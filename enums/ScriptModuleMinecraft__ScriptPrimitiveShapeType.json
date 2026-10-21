@@ -2,43 +2,43 @@
   "name": "ScriptModuleMinecraft::ScriptPrimitiveShapeType",
   "values": [
     {
-      "name": "line",
+      "name": "Line",
       "value": 0
     },
     {
-      "name": "box",
+      "name": "Box",
       "value": 1
     },
     {
-      "name": "sphere",
+      "name": "Sphere",
       "value": 2
     },
     {
-      "name": "circle",
+      "name": "Circle",
       "value": 3
     },
     {
-      "name": "text",
+      "name": "Text",
       "value": 4
     },
     {
-      "name": "arrow",
+      "name": "Arrow",
       "value": 5
     },
     {
-      "name": "cylinder",
+      "name": "Cylinder",
       "value": 6
     },
     {
-      "name": "pyramid",
+      "name": "Pyramid",
       "value": 7
     },
     {
-      "name": "ellipsoid",
+      "name": "Ellipsoid",
       "value": 8
     },
     {
-      "name": "cone",
+      "name": "Cone",
       "value": 9
     }
   ]

@@ -2,267 +2,267 @@
   "name": "PlayerAuthInputPacketPayload::InputData",
   "values": [
     {
-      "name": "ascend",
+      "name": "Ascend",
       "value": 0
     },
     {
-      "name": "descend",
+      "name": "Descend",
       "value": 1
     },
     {
-      "name": "northjump",
+      "name": "NorthJump",
       "value": 2
     },
     {
-      "name": "jumpdown",
+      "name": "JumpDown",
       "value": 3
     },
     {
-      "name": "sprintdown",
+      "name": "SprintDown",
       "value": 4
     },
     {
-      "name": "changeheight",
+      "name": "ChangeHeight",
       "value": 5
     },
     {
-      "name": "jumping",
+      "name": "Jumping",
       "value": 6
     },
     {
-      "name": "autojumpinginwater",
+      "name": "AutoJumpingInWater",
       "value": 7
     },
     {
-      "name": "sneaking",
+      "name": "Sneaking",
       "value": 8
     },
     {
-      "name": "sneakdown",
+      "name": "SneakDown",
       "value": 9
     },
     {
-      "name": "up",
+      "name": "Up",
       "value": 10
     },
     {
-      "name": "down",
+      "name": "Down",
       "value": 11
     },
     {
-      "name": "left",
+      "name": "Left",
       "value": 12
     },
     {
-      "name": "right",
+      "name": "Right",
       "value": 13
     },
     {
-      "name": "upleft",
+      "name": "UpLeft",
       "value": 14
     },
     {
-      "name": "upright",
+      "name": "UpRight",
       "value": 15
     },
     {
-      "name": "wantup",
+      "name": "WantUp",
       "value": 16
     },
     {
-      "name": "wantdown",
+      "name": "WantDown",
       "value": 17
     },
     {
-      "name": "wantdownslow",
+      "name": "WantDownSlow",
       "value": 18
     },
     {
-      "name": "wantupslow",
+      "name": "WantUpSlow",
       "value": 19
     },
     {
-      "name": "sprinting",
+      "name": "Sprinting",
       "value": 20
     },
     {
-      "name": "ascendblock",
+      "name": "AscendBlock",
       "value": 21
     },
     {
-      "name": "descendblock",
+      "name": "DescendBlock",
       "value": 22
     },
     {
-      "name": "sneaktoggledown",
+      "name": "SneakToggleDown",
       "value": 23
     },
     {
-      "name": "persistsneak",
+      "name": "PersistSneak",
       "value": 24
     },
     {
-      "name": "startsprinting",
+      "name": "StartSprinting",
       "value": 25
     },
     {
-      "name": "stopsprinting",
+      "name": "StopSprinting",
       "value": 26
     },
     {
-      "name": "startsneaking",
+      "name": "StartSneaking",
       "value": 27
     },
     {
-      "name": "stopsneaking",
+      "name": "StopSneaking",
       "value": 28
     },
     {
-      "name": "startswimming",
+      "name": "StartSwimming",
       "value": 29
     },
     {
-      "name": "stopswimming",
+      "name": "StopSwimming",
       "value": 30
     },
     {
-      "name": "startjumping",
+      "name": "StartJumping",
       "value": 31
     },
     {
-      "name": "startgliding",
+      "name": "StartGliding",
       "value": 32
     },
     {
-      "name": "stopgliding",
+      "name": "StopGliding",
       "value": 33
     },
     {
-      "name": "performiteminteraction",
+      "name": "PerformItemInteraction",
       "value": 34
     },
     {
-      "name": "performblockactions",
+      "name": "PerformBlockActions",
       "value": 35
     },
     {
-      "name": "performitemstackrequest",
+      "name": "PerformItemStackRequest",
       "value": 36
     },
     {
-      "name": "handledteleport",
+      "name": "HandledTeleport",
       "value": 37
     },
     {
-      "name": "emoting",
+      "name": "Emoting",
       "value": 38
     },
     {
-      "name": "missedswing",
+      "name": "MissedSwing",
       "value": 39
     },
     {
-      "name": "startcrawling",
+      "name": "StartCrawling",
       "value": 40
     },
     {
-      "name": "stopcrawling",
+      "name": "StopCrawling",
       "value": 41
     },
     {
-      "name": "startflying",
+      "name": "StartFlying",
       "value": 42
     },
     {
-      "name": "stopflying",
+      "name": "StopFlying",
       "value": 43
     },
     {
-      "name": "clientackserverdata",
+      "name": "ClientAckServerData",
       "value": 44
     },
     {
-      "name": "isinclientpredictedvehicle",
+      "name": "IsInClientPredictedVehicle",
       "value": 45
     },
     {
-      "name": "paddlingleft",
+      "name": "PaddlingLeft",
       "value": 46
     },
     {
-      "name": "paddlingright",
+      "name": "PaddlingRight",
       "value": 47
     },
     {
-      "name": "blockbreakingdelayenabled",
+      "name": "BlockBreakingDelayEnabled",
       "value": 48
     },
     {
-      "name": "horizontalcollision",
+      "name": "HorizontalCollision",
       "value": 49
     },
     {
-      "name": "verticalcollision",
+      "name": "VerticalCollision",
       "value": 50
     },
     {
-      "name": "downleft",
+      "name": "DownLeft",
       "value": 51
     },
     {
-      "name": "downright",
+      "name": "DownRight",
       "value": 52
     },
     {
-      "name": "startusingitem",
+      "name": "StartUsingItem",
       "value": 53
     },
     {
-      "name": "iscamerarelativemovementenabled",
+      "name": "IsCameraRelativeMovementEnabled",
       "value": 54
     },
     {
-      "name": "isrotcontrolledbymovedirection",
+      "name": "IsRotControlledByMoveDirection",
       "value": 55
     },
     {
-      "name": "startspinattack",
+      "name": "StartSpinAttack",
       "value": 56
     },
     {
-      "name": "stopspinattack",
+      "name": "StopSpinAttack",
       "value": 57
     },
     {
-      "name": "ishotbaronlytouch",
+      "name": "IsHotbarOnlyTouch",
       "value": 58
     },
     {
-      "name": "jumpreleasedraw",
+      "name": "JumpReleasedRaw",
       "value": 59
     },
     {
-      "name": "jumppressedraw",
+      "name": "JumpPressedRaw",
       "value": 60
     },
     {
-      "name": "jumpcurrentraw",
+      "name": "JumpCurrentRaw",
       "value": 61
     },
     {
-      "name": "sneakreleasedraw",
+      "name": "SneakReleasedRaw",
       "value": 62
     },
     {
-      "name": "sneakpressedraw",
+      "name": "SneakPressedRaw",
       "value": 63
     },
     {
-      "name": "sneakcurrentraw",
+      "name": "SneakCurrentRaw",
       "value": 64
     },
     {
-      "name": "internalupdate",
+      "name": "InternalUpdate",
       "value": 65
     }
   ]
