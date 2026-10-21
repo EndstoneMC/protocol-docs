@@ -2,123 +2,123 @@
   "name": "SharedTypes::persona::PieceType",
   "values": [
     {
-      "name": "unknown",
+      "name": "Unknown",
       "value": 0
     },
     {
-      "name": "skeleton",
+      "name": "Skeleton",
       "value": 1
     },
     {
-      "name": "body",
+      "name": "Body",
       "value": 2
     },
     {
-      "name": "skin",
+      "name": "Skin",
       "value": 3
     },
     {
-      "name": "bottom",
+      "name": "Bottom",
       "value": 4
     },
     {
-      "name": "feet",
+      "name": "Feet",
       "value": 5
     },
     {
-      "name": "dress",
+      "name": "Dress",
       "value": 6
     },
     {
-      "name": "top",
+      "name": "Top",
       "value": 7
     },
     {
-      "name": "high_pants",
+      "name": "High_Pants",
       "value": 8
     },
     {
-      "name": "hands",
+      "name": "Hands",
       "value": 9
     },
     {
-      "name": "outerwear",
+      "name": "Outerwear",
       "value": 10
     },
     {
-      "name": "facialhair",
+      "name": "FacialHair",
       "value": 11
     },
     {
-      "name": "mouth",
+      "name": "Mouth",
       "value": 12
     },
     {
-      "name": "eyes",
+      "name": "Eyes",
       "value": 13
     },
     {
-      "name": "hair",
+      "name": "Hair",
       "value": 14
     },
     {
-      "name": "hood",
+      "name": "Hood",
       "value": 15
     },
     {
-      "name": "back",
+      "name": "Back",
       "value": 16
     },
     {
-      "name": "faceaccessory",
+      "name": "FaceAccessory",
       "value": 17
     },
     {
-      "name": "head",
+      "name": "Head",
       "value": 18
     },
     {
-      "name": "legs",
+      "name": "Legs",
       "value": 19
     },
     {
-      "name": "leftleg",
+      "name": "LeftLeg",
       "value": 20
     },
     {
-      "name": "rightleg",
+      "name": "RightLeg",
       "value": 21
     },
     {
-      "name": "arms",
+      "name": "Arms",
       "value": 22
     },
     {
-      "name": "leftarm",
+      "name": "LeftArm",
       "value": 23
     },
     {
-      "name": "rightarm",
+      "name": "RightArm",
       "value": 24
     },
     {
-      "name": "capes",
+      "name": "Capes",
       "value": 25
     },
     {
-      "name": "classicskin",
+      "name": "ClassicSkin",
       "value": 26
     },
     {
-      "name": "emote",
+      "name": "Emote",
       "value": 27
     },
     {
-      "name": "coco",
+      "name": "CoCo",
       "value": 28
     },
     {
-      "name": "unsupported",
+      "name": "Unsupported",
       "value": 29
     }
   ]

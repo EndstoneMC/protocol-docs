@@ -2,19 +2,19 @@
   "name": "ItemUseInventoryTransaction::ActionType",
   "values": [
     {
-      "name": "place",
+      "name": "Place",
       "value": 0
     },
     {
-      "name": "use",
+      "name": "Use",
       "value": 1
     },
     {
-      "name": "destroy",
+      "name": "Destroy",
       "value": 2
     },
     {
-      "name": "use as attack",
+      "name": "Use As Attack",
       "value": 3
     }
   ]

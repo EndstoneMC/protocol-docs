@@ -2,23 +2,23 @@
   "name": "Social::GamePublishSetting",
   "values": [
     {
-      "name": "nomultiplay",
+      "name": "NoMultiPlay",
       "value": 0
     },
     {
-      "name": "inviteonly",
+      "name": "InviteOnly",
       "value": 1
     },
     {
-      "name": "friendsonly",
+      "name": "FriendsOnly",
       "value": 2
     },
     {
-      "name": "friendsoffriends",
+      "name": "FriendsOfFriends",
       "value": 3
     },
     {
-      "name": "public",
+      "name": "Public",
       "value": 4
     }
   ]

@@ -2,31 +2,31 @@
   "name": "GeneratorType",
   "values": [
     {
-      "name": "legacy",
+      "name": "Legacy",
       "value": 0
     },
     {
-      "name": "overworld",
+      "name": "Overworld",
       "value": 1
     },
     {
-      "name": "flat",
+      "name": "Flat",
       "value": 2
     },
     {
-      "name": "nether",
+      "name": "Nether",
       "value": 3
     },
     {
-      "name": "theend",
+      "name": "TheEnd",
       "value": 4
     },
     {
-      "name": "void",
+      "name": "Void",
       "value": 5
     },
     {
-      "name": "undefined",
+      "name": "Undefined",
       "value": 6
     }
   ]

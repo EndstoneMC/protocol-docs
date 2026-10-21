@@ -2,15 +2,15 @@
   "name": "FurnaceLayout",
   "values": [
     {
-      "name": "none",
+      "name": "None",
       "value": 0
     },
     {
-      "name": "inventoryonly",
+      "name": "InventoryOnly",
       "value": 1
     },
     {
-      "name": "default",
+      "name": "Default",
       "value": 2
     }
   ]

@@ -2,75 +2,75 @@
   "name": "AgentActionType",
   "values": [
     {
-      "name": "attack",
+      "name": "Attack",
       "value": 1
     },
     {
-      "name": "collect",
+      "name": "Collect",
       "value": 2
     },
     {
-      "name": "destroy",
+      "name": "Destroy",
       "value": 3
     },
     {
-      "name": "detectredstone",
+      "name": "DetectRedstone",
       "value": 4
     },
     {
-      "name": "detectobstacle",
+      "name": "DetectObstacle",
       "value": 5
     },
     {
-      "name": "drop",
+      "name": "Drop",
       "value": 6
     },
     {
-      "name": "dropall",
+      "name": "DropAll",
       "value": 7
     },
     {
-      "name": "inspect",
+      "name": "Inspect",
       "value": 8
     },
     {
-      "name": "inspectdata",
+      "name": "InspectData",
       "value": 9
     },
     {
-      "name": "inspectitemcount",
+      "name": "InspectItemCount",
       "value": 10
     },
     {
-      "name": "inspectitemdetail",
+      "name": "InspectItemDetail",
       "value": 11
     },
     {
-      "name": "inspectitemspace",
+      "name": "InspectItemSpace",
       "value": 12
     },
     {
-      "name": "interact",
+      "name": "Interact",
       "value": 13
     },
     {
-      "name": "move",
+      "name": "Move",
       "value": 14
     },
     {
-      "name": "placeblock",
+      "name": "PlaceBlock",
       "value": 15
     },
     {
-      "name": "till",
+      "name": "Till",
       "value": 16
     },
     {
-      "name": "transferitemto",
+      "name": "TransferItemTo",
       "value": 17
     },
     {
-      "name": "turn",
+      "name": "Turn",
       "value": 18
     }
   ]

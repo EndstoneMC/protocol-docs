@@ -2,19 +2,19 @@
   "name": "ScorePacketEntryAction",
   "values": [
     {
-      "name": "remove",
+      "name": "Remove",
       "value": 0
     },
     {
-      "name": "changeplayer",
+      "name": "ChangePlayer",
       "value": 1
     },
     {
-      "name": "changeentity",
+      "name": "ChangeEntity",
       "value": 2
     },
     {
-      "name": "changefakeplayer",
+      "name": "ChangeFakePlayer",
       "value": 3
     }
   ]

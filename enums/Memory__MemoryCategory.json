@@ -2,447 +2,447 @@
   "name": "Memory::MemoryCategory",
   "values": [
     {
-      "name": "unknown",
+      "name": "Unknown",
       "value": 0
     },
     {
-      "name": "invalid_sizeunknown",
+      "name": "Invalid_SizeUnknown",
       "value": 1
     },
     {
-      "name": "actor",
+      "name": "Actor",
       "value": 2
     },
     {
-      "name": "actoranimation",
+      "name": "ActorAnimation",
       "value": 3
     },
     {
-      "name": "actorrendering",
+      "name": "ActorRendering",
       "value": 4
     },
     {
-      "name": "blocktickingqueues",
+      "name": "BlockTickingQueues",
       "value": 5
     },
     {
-      "name": "biome_storage",
+      "name": "Biome_Storage",
       "value": 6
     },
     {
-      "name": "blobs",
+      "name": "Blobs",
       "value": 7
     },
     {
-      "name": "cereal",
+      "name": "Cereal",
       "value": 8
     },
     {
-      "name": "circuitsystem",
+      "name": "CircuitSystem",
       "value": 9
     },
     {
-      "name": "client",
+      "name": "Client",
       "value": 10
     },
     {
-      "name": "commands",
+      "name": "Commands",
       "value": 11
     },
     {
-      "name": "dbstorage",
+      "name": "DBStorage",
       "value": 12
     },
     {
-      "name": "debug",
+      "name": "Debug",
       "value": 13
     },
     {
-      "name": "documentation",
+      "name": "Documentation",
       "value": 14
     },
     {
-      "name": "ecssystems",
+      "name": "ECSSystems",
       "value": 15
     },
     {
-      "name": "fmod",
+      "name": "FMOD",
       "value": 16
     },
     {
-      "name": "fonts",
+      "name": "Fonts",
       "value": 17
     },
     {
-      "name": "imgui",
+      "name": "ImGui",
       "value": 18
     },
     {
-      "name": "input",
+      "name": "Input",
       "value": 19
     },
     {
-      "name": "jsonui",
+      "name": "JsonUI",
       "value": 20
     },
     {
-      "name": "jsonui_controlfactory_json",
+      "name": "JsonUI_ControlFactory_Json",
       "value": 21
     },
     {
-      "name": "jsonui_controltree",
+      "name": "JsonUI_ControlTree",
       "value": 22
     },
     {
-      "name": "jsonui_controltree_controlelement",
+      "name": "JsonUI_ControlTree_ControlElement",
       "value": 23
     },
     {
-      "name": "jsonui_controltree_populatedatabinding",
+      "name": "JsonUI_ControlTree_PopulateDataBinding",
       "value": 24
     },
     {
-      "name": "jsonui_controltree_populatefocus",
+      "name": "JsonUI_ControlTree_PopulateFocus",
       "value": 25
     },
     {
-      "name": "jsonui_controltree_populatelayout",
+      "name": "JsonUI_ControlTree_PopulateLayout",
       "value": 26
     },
     {
-      "name": "jsonui_controltree_populateother",
+      "name": "JsonUI_ControlTree_PopulateOther",
       "value": 27
     },
     {
-      "name": "jsonui_controltree_populatesprite",
+      "name": "JsonUI_ControlTree_PopulateSprite",
       "value": 28
     },
     {
-      "name": "jsonui_controltree_populatetext",
+      "name": "JsonUI_ControlTree_PopulateText",
       "value": 29
     },
     {
-      "name": "jsonui_controltree_populatetts",
+      "name": "JsonUI_ControlTree_PopulateTTS",
       "value": 30
     },
     {
-      "name": "jsonui_controltree_visibility",
+      "name": "JsonUI_ControlTree_Visibility",
       "value": 31
     },
     {
-      "name": "jsonui_createui",
+      "name": "JsonUI_CreateUI",
       "value": 32
     },
     {
-      "name": "jsonui_defs",
+      "name": "JsonUI_Defs",
       "value": 33
     },
     {
-      "name": "jsonui_layoutmanager",
+      "name": "JsonUI_LayoutManager",
       "value": 34
     },
     {
-      "name": "jsonui_layoutmanager_removedependencies",
+      "name": "JsonUI_LayoutManager_RemoveDependencies",
       "value": 35
     },
     {
-      "name": "jsonui_layoutmanager_initvariable",
+      "name": "JsonUI_LayoutManager_InitVariable",
       "value": 36
     },
     {
-      "name": "languages",
+      "name": "Languages",
       "value": 37
     },
     {
-      "name": "level",
+      "name": "Level",
       "value": 38
     },
     {
-      "name": "levelstructures",
+      "name": "LevelStructures",
       "value": 39
     },
     {
-      "name": "levelchunk",
+      "name": "LevelChunk",
       "value": 40
     },
     {
-      "name": "levelchunkgen",
+      "name": "LevelChunkGen",
       "value": 41
     },
     {
-      "name": "levelchunkgenthreadlocal",
+      "name": "LevelChunkGenThreadLocal",
       "value": 42
     },
     {
-      "name": "lightvolumemanager",
+      "name": "LightVolumeManager",
       "value": 43
     },
     {
-      "name": "network",
+      "name": "Network",
       "value": 44
     },
     {
-      "name": "marketplace",
+      "name": "Marketplace",
       "value": 45
     },
     {
-      "name": "material_dragoncompileddefinition",
+      "name": "Material_DragonCompiledDefinition",
       "value": 46
     },
     {
-      "name": "material_dragonmaterial",
+      "name": "Material_DragonMaterial",
       "value": 47
     },
     {
-      "name": "material_dragonresource",
+      "name": "Material_DragonResource",
       "value": 48
     },
     {
-      "name": "material_dragonuniformmap",
+      "name": "Material_DragonUniformMap",
       "value": 49
     },
     {
-      "name": "material_rendermaterial",
+      "name": "Material_RenderMaterial",
       "value": 50
     },
     {
-      "name": "material_rendermaterialgroup",
+      "name": "Material_RenderMaterialGroup",
       "value": 51
     },
     {
-      "name": "material_variationmanager",
+      "name": "Material_VariationManager",
       "value": 52
     },
     {
-      "name": "molang",
+      "name": "Molang",
       "value": 53
     },
     {
-      "name": "oreui",
+      "name": "OreUI",
       "value": 54
     },
     {
-      "name": "oreui_client",
+      "name": "OreUI_Client",
       "value": 55
     },
     {
-      "name": "persona_pieces",
+      "name": "Persona_Pieces",
       "value": 56
     },
     {
-      "name": "persona_animations",
+      "name": "Persona_Animations",
       "value": 57
     },
     {
-      "name": "persona_characters",
+      "name": "Persona_Characters",
       "value": 58
     },
     {
-      "name": "persona_skinpacks",
+      "name": "Persona_SkinPacks",
       "value": 59
     },
     {
-      "name": "persona_repo",
+      "name": "Persona_Repo",
       "value": 60
     },
     {
-      "name": "player",
+      "name": "Player",
       "value": 61
     },
     {
-      "name": "renderchunk",
+      "name": "RenderChunk",
       "value": 62
     },
     {
-      "name": "renderchunk_indexbuffer",
+      "name": "RenderChunk_IndexBuffer",
       "value": 63
     },
     {
-      "name": "renderchunk_vertexbuffer",
+      "name": "RenderChunk_VertexBuffer",
       "value": 64
     },
     {
-      "name": "rendering",
+      "name": "Rendering",
       "value": 65
     },
     {
-      "name": "rendering_bgfxinit",
+      "name": "Rendering_BgfxInit",
       "value": 66
     },
     {
-      "name": "rendering_bgfxstartframe",
+      "name": "Rendering_BgfxStartFrame",
       "value": 67
     },
     {
-      "name": "rendering_blocktessellator",
+      "name": "Rendering_BlockTessellator",
       "value": 68
     },
     {
-      "name": "rendering_endframe",
+      "name": "Rendering_EndFrame",
       "value": 69
     },
     {
-      "name": "rendering_graphicstasksinit",
+      "name": "Rendering_GraphicsTasksInit",
       "value": 70
     },
     {
-      "name": "rendering_library",
+      "name": "Rendering_Library",
       "value": 71
     },
     {
-      "name": "rendering_polygonoperatorpool",
+      "name": "Rendering_PolygonOperatorPool",
       "value": 72
     },
     {
-      "name": "rendering_pbrtexturedata",
+      "name": "Rendering_PBRTextureData",
       "value": 73
     },
     {
-      "name": "rendering_renderregistry",
+      "name": "Rendering_RenderRegistry",
       "value": 74
     },
     {
-      "name": "rendering_setup",
+      "name": "Rendering_Setup",
       "value": 75
     },
     {
-      "name": "rendering_vertices",
+      "name": "Rendering_Vertices",
       "value": 76
     },
     {
-      "name": "requestlog",
+      "name": "RequestLog",
       "value": 77
     },
     {
-      "name": "resourcepacks",
+      "name": "ResourcePacks",
       "value": 78
     },
     {
-      "name": "sound",
+      "name": "Sound",
       "value": 79
     },
     {
-      "name": "subchunk_biomedata",
+      "name": "SubChunk_BiomeData",
       "value": 80
     },
     {
-      "name": "subchunk_blockdata",
+      "name": "SubChunk_BlockData",
       "value": 81
     },
     {
-      "name": "subchunk_lightdata",
+      "name": "SubChunk_LightData",
       "value": 82
     },
     {
-      "name": "textures",
+      "name": "Textures",
       "value": 83
     },
     {
-      "name": "weatherrenderer",
+      "name": "WeatherRenderer",
       "value": 84
     },
     {
-      "name": "world_generator",
+      "name": "World_Generator",
       "value": 85
     },
     {
-      "name": "tasks",
+      "name": "Tasks",
       "value": 86
     },
     {
-      "name": "test",
+      "name": "Test",
       "value": 87
     },
     {
-      "name": "test_loadtesttags",
+      "name": "Test_LoadTestTags",
       "value": 88
     },
     {
-      "name": "scripting",
+      "name": "Scripting",
       "value": 89
     },
     {
-      "name": "scripting_runtime",
+      "name": "Scripting_Runtime",
       "value": 90
     },
     {
-      "name": "scripting_context",
+      "name": "Scripting_Context",
       "value": 91
     },
     {
-      "name": "scripting_context_bindings_mc",
+      "name": "Scripting_Context_Bindings_MC",
       "value": 92
     },
     {
-      "name": "scripting_context_bindings_gt",
+      "name": "Scripting_Context_Bindings_GT",
       "value": 93
     },
     {
-      "name": "scripting_context_run",
+      "name": "Scripting_Context_Run",
       "value": 94
     },
     {
-      "name": "datadrivenui",
+      "name": "DataDrivenUI",
       "value": 95
     },
     {
-      "name": "datadrivenui_defs",
+      "name": "DataDrivenUI_Defs",
       "value": 96
     },
     {
-      "name": "gameface",
+      "name": "Gameface",
       "value": 97
     },
     {
-      "name": "gameface_system",
+      "name": "Gameface_System",
       "value": 98
     },
     {
-      "name": "gameface_dom",
+      "name": "Gameface_DOM",
       "value": 99
     },
     {
-      "name": "gameface_css",
+      "name": "Gameface_CSS",
       "value": 100
     },
     {
-      "name": "gameface_display",
+      "name": "Gameface_Display",
       "value": 101
     },
     {
-      "name": "gameface_tempallocator",
+      "name": "Gameface_TempAllocator",
       "value": 102
     },
     {
-      "name": "gameface_poolallocator",
+      "name": "Gameface_PoolAllocator",
       "value": 103
     },
     {
-      "name": "gameface_dump",
+      "name": "Gameface_Dump",
       "value": 104
     },
     {
-      "name": "gameface_media",
+      "name": "Gameface_Media",
       "value": 105
     },
     {
-      "name": "gameface_json",
+      "name": "Gameface_JSON",
       "value": 106
     },
     {
-      "name": "gameface_scriptengine",
+      "name": "Gameface_ScriptEngine",
       "value": 107
     },
     {
-      "name": "gameface_script",
+      "name": "Gameface_Script",
       "value": 108
     },
     {
-      "name": "gameface_layout",
+      "name": "Gameface_Layout",
       "value": 109
     },
     {
-      "name": "executable",
+      "name": "Executable",
       "value": 110
     }
   ]

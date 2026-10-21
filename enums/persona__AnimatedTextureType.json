@@ -2,19 +2,19 @@
   "name": "persona::AnimatedTextureType",
   "values": [
     {
-      "name": "none",
+      "name": "None",
       "value": 0
     },
     {
-      "name": "face",
+      "name": "Face",
       "value": 1
     },
     {
-      "name": "body32x32",
+      "name": "Body32x32",
       "value": 2
     },
     {
-      "name": "body128x128",
+      "name": "Body128x128",
       "value": 3
     }
   ]

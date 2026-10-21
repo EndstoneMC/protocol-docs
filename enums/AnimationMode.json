@@ -2,15 +2,15 @@
   "name": "AnimationMode",
   "values": [
     {
-      "name": "none",
+      "name": "None",
       "value": 0
     },
     {
-      "name": "layers",
+      "name": "Layers",
       "value": 1
     },
     {
-      "name": "blocks",
+      "name": "Blocks",
       "value": 2
     }
   ]

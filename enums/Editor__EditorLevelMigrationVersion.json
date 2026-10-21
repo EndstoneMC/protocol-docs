@@ -2,11 +2,11 @@
   "name": "Editor::EditorLevelMigrationVersion",
   "values": [
     {
-      "name": "legacy",
+      "name": "Legacy",
       "value": 0
     },
     {
-      "name": "editorachievements",
+      "name": "EditorAchievements",
       "value": 1
     }
   ]

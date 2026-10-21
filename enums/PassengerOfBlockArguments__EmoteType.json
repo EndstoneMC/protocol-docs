@@ -2,15 +2,15 @@
   "name": "PassengerOfBlockArguments::EmoteType",
   "values": [
     {
-      "name": "standing",
+      "name": "Standing",
       "value": 0
     },
     {
-      "name": "riding",
+      "name": "Riding",
       "value": 1
     },
     {
-      "name": "laying",
+      "name": "Laying",
       "value": 2
     }
   ]
