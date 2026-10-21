@@ -1,0 +1,10 @@
+{
+  "id": 313,
+  "name": "JigsawStructureDataPacket",
+  "fields": [
+    {
+      "name": "Jigsaw Structure Data Tag",
+      "type": "CompoundTag"
+    }
+  ]
+}

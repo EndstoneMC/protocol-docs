@@ -1,0 +1,10 @@
+{
+  "id": 95,
+  "name": "AutomationClientConnectPacket",
+  "fields": [
+    {
+      "name": "Web Socket Data",
+      "type": "WebSocketPacketData"
+    }
+  ]
+}

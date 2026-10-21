@@ -1,0 +1,17 @@
+{
+  "id": 308,
+  "name": "SetHudPacket",
+  "fields": [
+    {
+      "name": "Hud Element",
+      "type": "varint32",
+      "enum": "HudElement",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Hud Visible",
+      "type": "varint32",
+      "enum": "HudVisibility"
+    }
+  ]
+}

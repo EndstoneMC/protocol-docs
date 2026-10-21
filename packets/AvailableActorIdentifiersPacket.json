@@ -1,0 +1,10 @@
+{
+  "id": 119,
+  "name": "AvailableActorIdentifiersPacket",
+  "fields": [
+    {
+      "name": "Identifier List",
+      "type": "CompoundTag"
+    }
+  ]
+}

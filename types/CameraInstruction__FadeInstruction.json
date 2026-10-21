@@ -1,0 +1,15 @@
+{
+  "name": "CameraInstruction::FadeInstruction",
+  "fields": [
+    {
+      "name": "Time",
+      "type": "CameraInstruction::FadeInstruction::TimeOption",
+      "optional": true
+    },
+    {
+      "name": "Color",
+      "type": "CameraInstruction::FadeInstruction::ColorOption",
+      "optional": true
+    }
+  ]
+}

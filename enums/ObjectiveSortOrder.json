@@ -1,0 +1,13 @@
+{
+  "name": "ObjectiveSortOrder",
+  "values": [
+    {
+      "name": "Ascending",
+      "value": 0
+    },
+    {
+      "name": "Descending",
+      "value": 1
+    }
+  ]
+}

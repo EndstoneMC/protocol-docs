@@ -1,0 +1,18 @@
+{
+  "id": 47,
+  "name": "ContainerClosePacket",
+  "fields": [
+    {
+      "name": "Container Id",
+      "type": "uint8"
+    },
+    {
+      "name": "Container Type",
+      "type": "uint8"
+    },
+    {
+      "name": "Server Initiated Close",
+      "type": "bool"
+    }
+  ]
+}

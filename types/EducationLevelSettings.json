@@ -1,0 +1,47 @@
+{
+  "name": "EducationLevelSettings",
+  "fields": [
+    {
+      "name": "Code Builder Default URI",
+      "type": "string"
+    },
+    {
+      "name": "Code Builder Title",
+      "type": "string"
+    },
+    {
+      "name": "Can resize Code Builder",
+      "type": "bool"
+    },
+    {
+      "name": "Disable legacy title bar",
+      "type": "bool"
+    },
+    {
+      "name": "Post Process Filter",
+      "type": "string"
+    },
+    {
+      "name": "Screenshot Border Resource Path",
+      "type": "string"
+    },
+    {
+      "name": "Agent Capabilities",
+      "type": "AgentCapabilities",
+      "optional": true
+    },
+    {
+      "name": "Local Settings",
+      "type": "EducationLocalLevelSettings"
+    },
+    {
+      "name": "(Deprecated) Always False",
+      "type": "bool"
+    },
+    {
+      "name": "External Link Settings",
+      "type": "ExternalLinkSettings",
+      "optional": true
+    }
+  ]
+}

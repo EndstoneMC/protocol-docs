@@ -1,0 +1,22 @@
+{
+  "id": 46,
+  "name": "ContainerOpenPacket",
+  "fields": [
+    {
+      "name": "Container Id",
+      "type": "uint8"
+    },
+    {
+      "name": "Container Type",
+      "type": "uint8"
+    },
+    {
+      "name": "Position",
+      "type": "NetworkBlockPosition"
+    },
+    {
+      "name": "Target Actor ID",
+      "type": "ActorUniqueID"
+    }
+  ]
+}

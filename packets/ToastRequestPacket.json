@@ -1,0 +1,14 @@
+{
+  "id": 186,
+  "name": "ToastRequestPacket",
+  "fields": [
+    {
+      "name": "Title",
+      "type": "string"
+    },
+    {
+      "name": "Content",
+      "type": "string"
+    }
+  ]
+}

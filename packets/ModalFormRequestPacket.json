@@ -1,0 +1,14 @@
+{
+  "id": 100,
+  "name": "ModalFormRequestPacket",
+  "fields": [
+    {
+      "name": "Form ID",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Form UI JSON",
+      "type": "string"
+    }
+  ]
+}

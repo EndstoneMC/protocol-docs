@@ -1,0 +1,18 @@
+{
+  "id": 125,
+  "name": "LecternUpdatePacket",
+  "fields": [
+    {
+      "name": "New page to show",
+      "type": "uint8"
+    },
+    {
+      "name": "Total Pages",
+      "type": "uint8"
+    },
+    {
+      "name": "Position of Lectern to update",
+      "type": "NetworkBlockPosition"
+    }
+  ]
+}

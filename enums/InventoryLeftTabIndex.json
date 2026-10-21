@@ -1,0 +1,33 @@
+{
+  "name": "InventoryLeftTabIndex",
+  "values": [
+    {
+      "name": "None",
+      "value": 0
+    },
+    {
+      "name": "RecipeConstruction",
+      "value": 1
+    },
+    {
+      "name": "RecipeEquipment",
+      "value": 2
+    },
+    {
+      "name": "RecipeItems",
+      "value": 3
+    },
+    {
+      "name": "RecipeNature",
+      "value": 4
+    },
+    {
+      "name": "RecipeSearch",
+      "value": 5
+    },
+    {
+      "name": "Survival",
+      "value": 6
+    }
+  ]
+}

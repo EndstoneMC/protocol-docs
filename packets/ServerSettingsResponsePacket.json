@@ -1,0 +1,14 @@
+{
+  "id": 103,
+  "name": "ServerSettingsResponsePacket",
+  "fields": [
+    {
+      "name": "Form ID",
+      "type": "uvarint32"
+    },
+    {
+      "name": "Form UI JSON",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": 17,
+  "name": "TakeItemActorPacket",
+  "fields": [
+    {
+      "name": "Item Runtime ID",
+      "type": "ActorRuntimeID"
+    },
+    {
+      "name": "Actor Runtime ID",
+      "type": "ActorRuntimeID"
+    }
+  ]
+}

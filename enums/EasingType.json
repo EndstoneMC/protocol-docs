@@ -1,0 +1,133 @@
+{
+  "name": "EasingType",
+  "values": [
+    {
+      "name": "linear",
+      "value": 0
+    },
+    {
+      "name": "spring",
+      "value": 1
+    },
+    {
+      "name": "in_quad",
+      "value": 2
+    },
+    {
+      "name": "out_quad",
+      "value": 3
+    },
+    {
+      "name": "in_out_quad",
+      "value": 4
+    },
+    {
+      "name": "in_cubic",
+      "value": 5
+    },
+    {
+      "name": "out_cubic",
+      "value": 6
+    },
+    {
+      "name": "in_out_cubic",
+      "value": 7
+    },
+    {
+      "name": "in_quart",
+      "value": 8
+    },
+    {
+      "name": "out_quart",
+      "value": 9
+    },
+    {
+      "name": "in_out_quart",
+      "value": 10
+    },
+    {
+      "name": "in_quint",
+      "value": 11
+    },
+    {
+      "name": "out_quint",
+      "value": 12
+    },
+    {
+      "name": "in_out_quint",
+      "value": 13
+    },
+    {
+      "name": "in_sine",
+      "value": 14
+    },
+    {
+      "name": "out_sine",
+      "value": 15
+    },
+    {
+      "name": "in_out_sine",
+      "value": 16
+    },
+    {
+      "name": "in_expo",
+      "value": 17
+    },
+    {
+      "name": "out_expo",
+      "value": 18
+    },
+    {
+      "name": "in_out_expo",
+      "value": 19
+    },
+    {
+      "name": "in_circ",
+      "value": 20
+    },
+    {
+      "name": "out_circ",
+      "value": 21
+    },
+    {
+      "name": "in_out_circ",
+      "value": 22
+    },
+    {
+      "name": "in_bounce",
+      "value": 23
+    },
+    {
+      "name": "out_bounce",
+      "value": 24
+    },
+    {
+      "name": "in_out_bounce",
+      "value": 25
+    },
+    {
+      "name": "in_back",
+      "value": 26
+    },
+    {
+      "name": "out_back",
+      "value": 27
+    },
+    {
+      "name": "in_out_back",
+      "value": 28
+    },
+    {
+      "name": "in_elastic",
+      "value": 29
+    },
+    {
+      "name": "out_elastic",
+      "value": 30
+    },
+    {
+      "name": "in_out_elastic",
+      "value": 31
+    }
+  ]
+}

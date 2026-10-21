@@ -1,0 +1,21 @@
+{
+  "id": 320,
+  "name": "CameraAimAssistPresetsPacket",
+  "fields": [
+    {
+      "name": "Camera Aim-Assist Presets",
+      "type": "SharedTypes::v1_21_50::CameraAimAssistCategoryDefinition",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Camera Aim-Assist Categories",
+      "type": "SharedTypes::v1_21_50::CameraAimAssistPresetDefinition",
+      "repeat": "uvarint32"
+    },
+    {
+      "name": "Operation",
+      "type": "uint8",
+      "enum": "CameraAimAssistPresetsPacketOperation"
+    }
+  ]
+}

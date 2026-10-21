@@ -1,0 +1,18 @@
+{
+  "id": 54,
+  "name": "GuiDataPickItemPacket",
+  "fields": [
+    {
+      "name": "Item Name",
+      "type": "string"
+    },
+    {
+      "name": "Item Effect Name",
+      "type": "string"
+    },
+    {
+      "name": "Slot",
+      "type": "int32"
+    }
+  ]
+}

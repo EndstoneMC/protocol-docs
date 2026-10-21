@@ -1,0 +1,10 @@
+{
+  "id": 314,
+  "name": "CurrentStructureFeaturePacket",
+  "fields": [
+    {
+      "name": "Current Structure Feature",
+      "type": "string"
+    }
+  ]
+}

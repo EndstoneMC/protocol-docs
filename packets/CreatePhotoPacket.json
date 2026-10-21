@@ -1,0 +1,18 @@
+{
+  "id": 171,
+  "name": "CreatePhotoPacket",
+  "fields": [
+    {
+      "name": "Raw ID",
+      "type": "uint64"
+    },
+    {
+      "name": "Photo Name",
+      "type": "string"
+    },
+    {
+      "name": "Photo Item Name",
+      "type": "string"
+    }
+  ]
+}

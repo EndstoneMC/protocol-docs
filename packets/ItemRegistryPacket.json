@@ -1,0 +1,11 @@
+{
+  "id": 162,
+  "name": "ItemRegistryPacket",
+  "fields": [
+    {
+      "name": "Item Data",
+      "type": "ItemData",
+      "repeat": "uvarint32"
+    }
+  ]
+}

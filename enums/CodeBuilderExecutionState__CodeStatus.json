@@ -1,0 +1,29 @@
+{
+  "name": "CodeBuilderExecutionState::CodeStatus",
+  "values": [
+    {
+      "name": "None",
+      "value": 0
+    },
+    {
+      "name": "NotStarted",
+      "value": 1
+    },
+    {
+      "name": "InProgress",
+      "value": 2
+    },
+    {
+      "name": "Paused",
+      "value": 3
+    },
+    {
+      "name": "Error",
+      "value": 4
+    },
+    {
+      "name": "Succeeded",
+      "value": 5
+    }
+  ]
+}

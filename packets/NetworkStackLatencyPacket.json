@@ -1,0 +1,14 @@
+{
+  "id": 115,
+  "name": "NetworkStackLatencyPacket",
+  "fields": [
+    {
+      "name": "Creation Time",
+      "type": "uint64"
+    },
+    {
+      "name": "Is From Server",
+      "type": "bool"
+    }
+  ]
+}

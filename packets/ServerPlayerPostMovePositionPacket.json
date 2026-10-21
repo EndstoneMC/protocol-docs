@@ -1,0 +1,10 @@
+{
+  "id": 16,
+  "name": "ServerPlayerPostMovePositionPacket",
+  "fields": [
+    {
+      "name": "Pos",
+      "type": "Vec3"
+    }
+  ]
+}

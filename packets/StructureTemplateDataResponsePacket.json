@@ -1,0 +1,19 @@
+{
+  "id": 133,
+  "name": "StructureTemplateDataResponsePacket",
+  "fields": [
+    {
+      "name": "Structure Name",
+      "type": "string"
+    },
+    {
+      "name": "Structure's NBT",
+      "type": "CompoundTag"
+    },
+    {
+      "name": "Response Type",
+      "type": "uint8",
+      "enum": "StructureTemplateResponseType"
+    }
+  ]
+}

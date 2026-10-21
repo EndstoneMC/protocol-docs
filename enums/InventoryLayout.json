@@ -1,0 +1,21 @@
+{
+  "name": "InventoryLayout",
+  "values": [
+    {
+      "name": "None",
+      "value": 0
+    },
+    {
+      "name": "Survival",
+      "value": 1
+    },
+    {
+      "name": "RecipeBook",
+      "value": 2
+    },
+    {
+      "name": "Creative",
+      "value": 3
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "unity_5eb3f6f7962d9979d50bf7c8efaa92c9::ClientPixelsProxy",
+  "fields": [
+    {
+      "name": "pixel",
+      "type": "uint32"
+    },
+    {
+      "name": "index",
+      "type": "uint16"
+    }
+  ]
+}

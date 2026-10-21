@@ -1,0 +1,33 @@
+{
+  "name": "GameType",
+  "values": [
+    {
+      "name": "Undefined",
+      "value": -1
+    },
+    {
+      "name": "Survival",
+      "value": 0
+    },
+    {
+      "name": "Creative",
+      "value": 1
+    },
+    {
+      "name": "Adventure",
+      "value": 2
+    },
+    {
+      "name": "Default",
+      "value": 5
+    },
+    {
+      "name": "Spectator",
+      "value": 6
+    },
+    {
+      "name": "WorldDefault",
+      "value": 0
+    }
+  ]
+}

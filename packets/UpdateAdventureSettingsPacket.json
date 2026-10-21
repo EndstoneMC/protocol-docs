@@ -1,0 +1,10 @@
+{
+  "id": 188,
+  "name": "UpdateAdventureSettingsPacket",
+  "fields": [
+    {
+      "name": "Adventure Settings",
+      "type": "AdventureSettings"
+    }
+  ]
+}

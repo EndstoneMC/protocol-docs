@@ -1,0 +1,13 @@
+{
+  "name": "ExternalLinkSettings",
+  "fields": [
+    {
+      "name": "URL",
+      "type": "string"
+    },
+    {
+      "name": "Display Name",
+      "type": "string"
+    }
+  ]
+}

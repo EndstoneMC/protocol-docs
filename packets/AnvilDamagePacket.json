@@ -1,0 +1,14 @@
+{
+  "id": 141,
+  "name": "AnvilDamagePacket",
+  "fields": [
+    {
+      "name": "Damage Amount",
+      "type": "uint8"
+    },
+    {
+      "name": "Block Position",
+      "type": "NetworkBlockPosition"
+    }
+  ]
+}

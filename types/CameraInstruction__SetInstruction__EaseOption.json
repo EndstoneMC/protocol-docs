@@ -1,0 +1,13 @@
+{
+  "name": "CameraInstruction::SetInstruction::EaseOption",
+  "fields": [
+    {
+      "name": "type",
+      "type": "uint8"
+    },
+    {
+      "name": "time",
+      "type": "float"
+    }
+  ]
+}
