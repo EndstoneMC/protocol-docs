@@ -2,443 +2,443 @@
   "name": "ExpressionOp",
   "values": [
     {
-      "name": "unknown",
+      "name": "Unknown",
       "value": -1
     },
     {
-      "name": "leftbrace",
+      "name": "LeftBrace",
       "value": 0
     },
     {
-      "name": "rightbrace",
+      "name": "RightBrace",
       "value": 1
     },
     {
-      "name": "leftbracket",
+      "name": "LeftBracket",
       "value": 2
     },
     {
-      "name": "rightbracket",
+      "name": "RightBracket",
       "value": 3
     },
     {
-      "name": "leftparenthesis",
+      "name": "LeftParenthesis",
       "value": 4
     },
     {
-      "name": "rightparenthesis",
+      "name": "RightParenthesis",
       "value": 5
     },
     {
-      "name": "negate",
+      "name": "Negate",
       "value": 6
     },
     {
-      "name": "logicalnot",
+      "name": "LogicalNot",
       "value": 7
     },
     {
-      "name": "abs",
+      "name": "Abs",
       "value": 8
     },
     {
-      "name": "add",
+      "name": "Add",
       "value": 9
     },
     {
-      "name": "acos",
+      "name": "Acos",
       "value": 10
     },
     {
-      "name": "asin",
+      "name": "Asin",
       "value": 11
     },
     {
-      "name": "atan",
+      "name": "Atan",
       "value": 12
     },
     {
-      "name": "atan2",
+      "name": "Atan2",
       "value": 13
     },
     {
-      "name": "ceil",
+      "name": "Ceil",
       "value": 14
     },
     {
-      "name": "clamp",
+      "name": "Clamp",
       "value": 15
     },
     {
-      "name": "copysign",
+      "name": "CopySign",
       "value": 16
     },
     {
-      "name": "cos",
+      "name": "Cos",
       "value": 17
     },
     {
-      "name": "dieroll",
+      "name": "DieRoll",
       "value": 18
     },
     {
-      "name": "dierollint",
+      "name": "DieRollInt",
       "value": 19
     },
     {
-      "name": "div",
+      "name": "Div",
       "value": 20
     },
     {
-      "name": "exp",
+      "name": "Exp",
       "value": 21
     },
     {
-      "name": "floor",
+      "name": "Floor",
       "value": 22
     },
     {
-      "name": "hermiteblend",
+      "name": "HermiteBlend",
       "value": 23
     },
     {
-      "name": "lerp",
+      "name": "Lerp",
       "value": 24
     },
     {
-      "name": "lerprotate",
+      "name": "LerpRotate",
       "value": 25
     },
     {
-      "name": "ln",
+      "name": "Ln",
       "value": 26
     },
     {
-      "name": "max",
+      "name": "Max",
       "value": 27
     },
     {
-      "name": "min",
+      "name": "Min",
       "value": 28
     },
     {
-      "name": "minangle",
+      "name": "MinAngle",
       "value": 29
     },
     {
-      "name": "mod",
+      "name": "Mod",
       "value": 30
     },
     {
-      "name": "mul",
+      "name": "Mul",
       "value": 31
     },
     {
-      "name": "pow",
+      "name": "Pow",
       "value": 32
     },
     {
-      "name": "random",
+      "name": "Random",
       "value": 33
     },
     {
-      "name": "randomint",
+      "name": "RandomInt",
       "value": 34
     },
     {
-      "name": "round",
+      "name": "Round",
       "value": 35
     },
     {
-      "name": "sin",
+      "name": "Sin",
       "value": 36
     },
     {
-      "name": "sign",
+      "name": "Sign",
       "value": 37
     },
     {
-      "name": "sqrt",
+      "name": "Sqrt",
       "value": 38
     },
     {
-      "name": "trunc",
+      "name": "Trunc",
       "value": 39
     },
     {
-      "name": "queryfunction",
+      "name": "QueryFunction",
       "value": 40
     },
     {
-      "name": "arrayvariable",
+      "name": "ArrayVariable",
       "value": 41
     },
     {
-      "name": "contextvariable",
+      "name": "ContextVariable",
       "value": 42
     },
     {
-      "name": "entityvariable",
+      "name": "EntityVariable",
       "value": 43
     },
     {
-      "name": "tempvariable",
+      "name": "TempVariable",
       "value": 44
     },
     {
-      "name": "memberaccessor",
+      "name": "MemberAccessor",
       "value": 45
     },
     {
-      "name": "hashedstringhash",
+      "name": "HashedStringHash",
       "value": 46
     },
     {
-      "name": "geometryvariable",
+      "name": "GeometryVariable",
       "value": 47
     },
     {
-      "name": "materialvariable",
+      "name": "MaterialVariable",
       "value": 48
     },
     {
-      "name": "texturevariable",
+      "name": "TextureVariable",
       "value": 49
     },
     {
-      "name": "lessthan",
+      "name": "LessThan",
       "value": 50
     },
     {
-      "name": "lessequal",
+      "name": "LessEqual",
       "value": 51
     },
     {
-      "name": "greaterequal",
+      "name": "GreaterEqual",
       "value": 52
     },
     {
-      "name": "greaterthan",
+      "name": "GreaterThan",
       "value": 53
     },
     {
-      "name": "logicalequal",
+      "name": "LogicalEqual",
       "value": 54
     },
     {
-      "name": "logicalnotequal",
+      "name": "LogicalNotEqual",
       "value": 55
     },
     {
-      "name": "logicalor",
+      "name": "LogicalOr",
       "value": 56
     },
     {
-      "name": "logicaland",
+      "name": "LogicalAnd",
       "value": 57
     },
     {
-      "name": "nullcoalescing",
+      "name": "NullCoalescing",
       "value": 58
     },
     {
-      "name": "conditional",
+      "name": "Conditional",
       "value": 59
     },
     {
-      "name": "conditionalelse",
+      "name": "ConditionalElse",
       "value": 60
     },
     {
-      "name": "float",
+      "name": "Float",
       "value": 61
     },
     {
-      "name": "pi",
+      "name": "Pi",
       "value": 62
     },
     {
-      "name": "array",
+      "name": "Array",
       "value": 63
     },
     {
-      "name": "geometry",
+      "name": "Geometry",
       "value": 64
     },
     {
-      "name": "material",
+      "name": "Material",
       "value": 65
     },
     {
-      "name": "texture",
+      "name": "Texture",
       "value": 66
     },
     {
-      "name": "loop",
+      "name": "Loop",
       "value": 67
     },
     {
-      "name": "foreach",
+      "name": "ForEach",
       "value": 68
     },
     {
-      "name": "break",
+      "name": "Break",
       "value": 69
     },
     {
-      "name": "continue",
+      "name": "Continue",
       "value": 70
     },
     {
-      "name": "assignment",
+      "name": "Assignment",
       "value": 71
     },
     {
-      "name": "pointer",
+      "name": "Pointer",
       "value": 72
     },
     {
-      "name": "semicolon",
+      "name": "Semicolon",
       "value": 73
     },
     {
-      "name": "return",
+      "name": "Return",
       "value": 74
     },
     {
-      "name": "comma",
+      "name": "Comma",
       "value": 75
     },
     {
-      "name": "this",
+      "name": "This",
       "value": 76
     },
     {
-      "name": "internal_nonevaluatedarray",
+      "name": "Internal_NonEvaluatedArray",
       "value": 77
     },
     {
-      "name": "inverselerp",
+      "name": "InverseLerp",
       "value": 78
     },
     {
-      "name": "easeinquad",
+      "name": "EaseInQuad",
       "value": 79
     },
     {
-      "name": "easeoutquad",
+      "name": "EaseOutQuad",
       "value": 80
     },
     {
-      "name": "easeinoutquad",
+      "name": "EaseInOutQuad",
       "value": 81
     },
     {
-      "name": "easeincubic",
+      "name": "EaseInCubic",
       "value": 82
     },
     {
-      "name": "easeoutcubic",
+      "name": "EaseOutCubic",
       "value": 83
     },
     {
-      "name": "easeinoutcubic",
+      "name": "EaseInOutCubic",
       "value": 84
     },
     {
-      "name": "easeinquart",
+      "name": "EaseInQuart",
       "value": 85
     },
     {
-      "name": "easeoutquart",
+      "name": "EaseOutQuart",
       "value": 86
     },
     {
-      "name": "easeinoutquart",
+      "name": "EaseInOutQuart",
       "value": 87
     },
     {
-      "name": "easeinquint",
+      "name": "EaseInQuint",
       "value": 88
     },
     {
-      "name": "easeoutquint",
+      "name": "EaseOutQuint",
       "value": 89
     },
     {
-      "name": "easeinoutquint",
+      "name": "EaseInOutQuint",
       "value": 90
     },
     {
-      "name": "easeinsine",
+      "name": "EaseInSine",
       "value": 91
     },
     {
-      "name": "easeoutsine",
+      "name": "EaseOutSine",
       "value": 92
     },
     {
-      "name": "easeinoutsine",
+      "name": "EaseInOutSine",
       "value": 93
     },
     {
-      "name": "easeinexpo",
+      "name": "EaseInExpo",
       "value": 94
     },
     {
-      "name": "easeoutexpo",
+      "name": "EaseOutExpo",
       "value": 95
     },
     {
-      "name": "easeinoutexpo",
+      "name": "EaseInOutExpo",
       "value": 96
     },
     {
-      "name": "easeincirc",
+      "name": "EaseInCirc",
       "value": 97
     },
     {
-      "name": "easeoutcirc",
+      "name": "EaseOutCirc",
       "value": 98
     },
     {
-      "name": "easeinoutcirc",
+      "name": "EaseInOutCirc",
       "value": 99
     },
     {
-      "name": "easeinbounce",
+      "name": "EaseInBounce",
       "value": 100
     },
     {
-      "name": "easeoutbounce",
+      "name": "EaseOutBounce",
       "value": 101
     },
     {
-      "name": "easeinoutbounce",
+      "name": "EaseInOutBounce",
       "value": 102
     },
     {
-      "name": "easeinback",
+      "name": "EaseInBack",
       "value": 103
     },
     {
-      "name": "easeoutback",
+      "name": "EaseOutBack",
       "value": 104
     },
     {
-      "name": "easeinoutback",
+      "name": "EaseInOutBack",
       "value": 105
     },
     {
-      "name": "easeinelastic",
+      "name": "EaseInElastic",
       "value": 106
     },
     {
-      "name": "easeoutelastic",
+      "name": "EaseOutElastic",
       "value": 107
     },
     {
-      "name": "easeinoutelastic",
+      "name": "EaseInOutElastic",
       "value": 108
     }
   ]

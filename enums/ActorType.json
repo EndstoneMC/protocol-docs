@@ -2,635 +2,635 @@
   "name": "ActorType",
   "values": [
     {
-      "name": "undefined",
+      "name": "Undefined",
       "value": 1
     },
     {
-      "name": "mob",
+      "name": "Mob",
       "value": 256
     },
     {
-      "name": "pathfindermob",
+      "name": "PathfinderMob",
       "value": 768
     },
     {
-      "name": "monster",
+      "name": "Monster",
       "value": 2816
     },
     {
-      "name": "animal",
+      "name": "Animal",
       "value": 4864
     },
     {
-      "name": "tamableanimal",
+      "name": "TamableAnimal",
       "value": 21248
     },
     {
-      "name": "ambient",
+      "name": "Ambient",
       "value": 33024
     },
     {
-      "name": "undeadmonster",
+      "name": "UndeadMonster",
       "value": 68352
     },
     {
-      "name": "zombiemonster",
+      "name": "ZombieMonster",
       "value": 199424
     },
     {
-      "name": "arthropod",
+      "name": "Arthropod",
       "value": 264960
     },
     {
-      "name": "minecart",
+      "name": "Minecart",
       "value": 524288
     },
     {
-      "name": "skeletonmonster",
+      "name": "SkeletonMonster",
       "value": 1116928
     },
     {
-      "name": "equineanimal",
+      "name": "EquineAnimal",
       "value": 2118400
     },
     {
-      "name": "projectile",
+      "name": "Projectile",
       "value": 4194304
     },
     {
-      "name": "abstractarrow",
+      "name": "AbstractArrow",
       "value": 8388608
     },
     {
-      "name": "wateranimal",
+      "name": "WaterAnimal",
       "value": 8960
     },
     {
-      "name": "villagerbase",
+      "name": "VillagerBase",
       "value": 16777984
     },
     {
-      "name": "chicken",
+      "name": "Chicken",
       "value": 4874
     },
     {
-      "name": "cow",
+      "name": "Cow",
       "value": 4875
     },
     {
-      "name": "pig",
+      "name": "Pig",
       "value": 4876
     },
     {
-      "name": "sheep",
+      "name": "Sheep",
       "value": 4877
     },
     {
-      "name": "wolf",
+      "name": "Wolf",
       "value": 21262
     },
     {
-      "name": "villager",
+      "name": "Villager",
       "value": 16777999
     },
     {
-      "name": "mushroomcow",
+      "name": "MushroomCow",
       "value": 4880
     },
     {
-      "name": "squid",
+      "name": "Squid",
       "value": 8977
     },
     {
-      "name": "rabbit",
+      "name": "Rabbit",
       "value": 4882
     },
     {
-      "name": "bat",
+      "name": "Bat",
       "value": 33043
     },
     {
-      "name": "irongolem",
+      "name": "IronGolem",
       "value": 788
     },
     {
-      "name": "snowgolem",
+      "name": "SnowGolem",
       "value": 789
     },
     {
-      "name": "ocelot",
+      "name": "Ocelot",
       "value": 21270
     },
     {
-      "name": "horse",
+      "name": "Horse",
       "value": 2118423
     },
     {
-      "name": "polarbear",
+      "name": "PolarBear",
       "value": 4892
     },
     {
-      "name": "llama",
+      "name": "Llama",
       "value": 4893
     },
     {
-      "name": "parrot",
+      "name": "Parrot",
       "value": 21278
     },
     {
-      "name": "dolphin",
+      "name": "Dolphin",
       "value": 8991
     },
     {
-      "name": "donkey",
+      "name": "Donkey",
       "value": 2118424
     },
     {
-      "name": "mule",
+      "name": "Mule",
       "value": 2118425
     },
     {
-      "name": "skeletonhorse",
+      "name": "SkeletonHorse",
       "value": 2183962
     },
     {
-      "name": "zombiehorse",
+      "name": "ZombieHorse",
       "value": 2183963
     },
     {
-      "name": "zombie",
+      "name": "Zombie",
       "value": 199456
     },
     {
-      "name": "creeper",
+      "name": "Creeper",
       "value": 2849
     },
     {
-      "name": "skeleton",
+      "name": "Skeleton",
       "value": 1116962
     },
     {
-      "name": "spider",
+      "name": "Spider",
       "value": 264995
     },
     {
-      "name": "pigzombie",
+      "name": "PigZombie",
       "value": 68388
     },
     {
-      "name": "slime",
+      "name": "Slime",
       "value": 2853
     },
     {
-      "name": "enderman",
+      "name": "EnderMan",
       "value": 2854
     },
     {
-      "name": "silverfish",
+      "name": "Silverfish",
       "value": 264999
     },
     {
-      "name": "cavespider",
+      "name": "CaveSpider",
       "value": 265000
     },
     {
-      "name": "ghast",
+      "name": "Ghast",
       "value": 2857
     },
     {
-      "name": "lavaslime",
+      "name": "LavaSlime",
       "value": 2858
     },
     {
-      "name": "blaze",
+      "name": "Blaze",
       "value": 2859
     },
     {
-      "name": "zombievillager",
+      "name": "ZombieVillager",
       "value": 199468
     },
     {
-      "name": "witch",
+      "name": "Witch",
       "value": 2861
     },
     {
-      "name": "stray",
+      "name": "Stray",
       "value": 1116974
     },
     {
-      "name": "husk",
+      "name": "Husk",
       "value": 199471
     },
     {
-      "name": "witherskeleton",
+      "name": "WitherSkeleton",
       "value": 1116976
     },
     {
-      "name": "guardian",
+      "name": "Guardian",
       "value": 2865
     },
     {
-      "name": "elderguardian",
+      "name": "ElderGuardian",
       "value": 2866
     },
     {
-      "name": "npc",
+      "name": "Npc",
       "value": 307
     },
     {
-      "name": "witherboss",
+      "name": "WitherBoss",
       "value": 68404
     },
     {
-      "name": "dragon",
+      "name": "Dragon",
       "value": 2869
     },
     {
-      "name": "shulker",
+      "name": "Shulker",
       "value": 2870
     },
     {
-      "name": "endermite",
+      "name": "Endermite",
       "value": 265015
     },
     {
-      "name": "agent",
+      "name": "Agent",
       "value": 312
     },
     {
-      "name": "vindicator",
+      "name": "Vindicator",
       "value": 2873
     },
     {
-      "name": "phantom",
+      "name": "Phantom",
       "value": 68410
     },
     {
-      "name": "illagerbeast",
+      "name": "IllagerBeast",
       "value": 2875
     },
     {
-      "name": "armorstand",
+      "name": "ArmorStand",
       "value": 317
     },
     {
-      "name": "tripodcamera",
+      "name": "TripodCamera",
       "value": 318
     },
     {
-      "name": "player",
+      "name": "Player",
       "value": 319
     },
     {
-      "name": "itementity",
+      "name": "ItemEntity",
       "value": 64
     },
     {
-      "name": "primedtnt",
+      "name": "PrimedTnt",
       "value": 65
     },
     {
-      "name": "fallingblock",
+      "name": "FallingBlock",
       "value": 66
     },
     {
-      "name": "movingblock",
+      "name": "MovingBlock",
       "value": 67
     },
     {
-      "name": "experiencepotion",
+      "name": "ExperiencePotion",
       "value": 4194372
     },
     {
-      "name": "experience",
+      "name": "Experience",
       "value": 69
     },
     {
-      "name": "eyeofender",
+      "name": "EyeOfEnder",
       "value": 70
     },
     {
-      "name": "endercrystal",
+      "name": "EnderCrystal",
       "value": 71
     },
     {
-      "name": "fireworksrocket",
+      "name": "FireworksRocket",
       "value": 72
     },
     {
-      "name": "trident",
+      "name": "Trident",
       "value": 12582985
     },
     {
-      "name": "turtle",
+      "name": "Turtle",
       "value": 4938
     },
     {
-      "name": "cat",
+      "name": "Cat",
       "value": 21323
     },
     {
-      "name": "shulkerbullet",
+      "name": "ShulkerBullet",
       "value": 4194380
     },
     {
-      "name": "fishinghook",
+      "name": "FishingHook",
       "value": 77
     },
     {
-      "name": "chalkboard",
+      "name": "Chalkboard",
       "value": 78
     },
     {
-      "name": "dragonfireball",
+      "name": "DragonFireball",
       "value": 4194383
     },
     {
-      "name": "arrow",
+      "name": "Arrow",
       "value": 12582992
     },
     {
-      "name": "snowball",
+      "name": "Snowball",
       "value": 4194385
     },
     {
-      "name": "thrownegg",
+      "name": "ThrownEgg",
       "value": 4194386
     },
     {
-      "name": "painting",
+      "name": "Painting",
       "value": 83
     },
     {
-      "name": "largefireball",
+      "name": "LargeFireball",
       "value": 4194389
     },
     {
-      "name": "thrownpotion",
+      "name": "ThrownPotion",
       "value": 4194390
     },
     {
-      "name": "enderpearl",
+      "name": "Enderpearl",
       "value": 4194391
     },
     {
-      "name": "leashknot",
+      "name": "LeashKnot",
       "value": 88
     },
     {
-      "name": "witherskull",
+      "name": "WitherSkull",
       "value": 4194393
     },
     {
-      "name": "boatrideable",
+      "name": "BoatRideable",
       "value": 90
     },
     {
-      "name": "witherskulldangerous",
+      "name": "WitherSkullDangerous",
       "value": 4194395
     },
     {
-      "name": "lightningbolt",
+      "name": "LightningBolt",
       "value": 93
     },
     {
-      "name": "smallfireball",
+      "name": "SmallFireball",
       "value": 4194398
     },
     {
-      "name": "areaeffectcloud",
+      "name": "AreaEffectCloud",
       "value": 95
     },
     {
-      "name": "lingeringpotion",
+      "name": "LingeringPotion",
       "value": 4194405
     },
     {
-      "name": "llamaspit",
+      "name": "LlamaSpit",
       "value": 4194406
     },
     {
-      "name": "evocationfang",
+      "name": "EvocationFang",
       "value": 4194407
     },
     {
-      "name": "evocationillager",
+      "name": "EvocationIllager",
       "value": 2920
     },
     {
-      "name": "vex",
+      "name": "Vex",
       "value": 2921
     },
     {
-      "name": "minecartrideable",
+      "name": "MinecartRideable",
       "value": 524372
     },
     {
-      "name": "minecarthopper",
+      "name": "MinecartHopper",
       "value": 524384
     },
     {
-      "name": "minecarttnt",
+      "name": "MinecartTNT",
       "value": 524385
     },
     {
-      "name": "minecartchest",
+      "name": "MinecartChest",
       "value": 524386
     },
     {
-      "name": "minecartfurnace",
+      "name": "MinecartFurnace",
       "value": 524387
     },
     {
-      "name": "minecartcommandblock",
+      "name": "MinecartCommandBlock",
       "value": 524388
     },
     {
-      "name": "icebomb",
+      "name": "IceBomb",
       "value": 4194410
     },
     {
-      "name": "balloon",
+      "name": "Balloon",
       "value": 107
     },
     {
-      "name": "pufferfish",
+      "name": "Pufferfish",
       "value": 9068
     },
     {
-      "name": "salmon",
+      "name": "Salmon",
       "value": 9069
     },
     {
-      "name": "drowned",
+      "name": "Drowned",
       "value": 199534
     },
     {
-      "name": "tropicalfish",
+      "name": "Tropicalfish",
       "value": 9071
     },
     {
-      "name": "fish",
+      "name": "Fish",
       "value": 9072
     },
     {
-      "name": "panda",
+      "name": "Panda",
       "value": 4977
     },
     {
-      "name": "pillager",
+      "name": "Pillager",
       "value": 2930
     },
     {
-      "name": "villagerv2",
+      "name": "VillagerV2",
       "value": 16778099
     },
     {
-      "name": "zombievillagerv2",
+      "name": "ZombieVillagerV2",
       "value": 199540
     },
     {
-      "name": "shield",
+      "name": "Shield",
       "value": 117
     },
     {
-      "name": "wanderingtrader",
+      "name": "WanderingTrader",
       "value": 886
     },
     {
-      "name": "lectern",
+      "name": "Lectern",
       "value": 119
     },
     {
-      "name": "elderguardianghost",
+      "name": "ElderGuardianGhost",
       "value": 2936
     },
     {
-      "name": "fox",
+      "name": "Fox",
       "value": 4985
     },
     {
-      "name": "bee",
+      "name": "Bee",
       "value": 378
     },
     {
-      "name": "piglin",
+      "name": "Piglin",
       "value": 379
     },
     {
-      "name": "hoglin",
+      "name": "Hoglin",
       "value": 4988
     },
     {
-      "name": "strider",
+      "name": "Strider",
       "value": 4989
     },
     {
-      "name": "zoglin",
+      "name": "Zoglin",
       "value": 68478
     },
     {
-      "name": "piglinbrute",
+      "name": "PiglinBrute",
       "value": 383
     },
     {
-      "name": "goat",
+      "name": "Goat",
       "value": 4992
     },
     {
-      "name": "glowsquid",
+      "name": "GlowSquid",
       "value": 9089
     },
     {
-      "name": "axolotl",
+      "name": "Axolotl",
       "value": 4994
     },
     {
-      "name": "warden",
+      "name": "Warden",
       "value": 2947
     },
     {
-      "name": "frog",
+      "name": "Frog",
       "value": 4996
     },
     {
-      "name": "tadpole",
+      "name": "Tadpole",
       "value": 9093
     },
     {
-      "name": "allay",
+      "name": "Allay",
       "value": 390
     },
     {
-      "name": "chestboatrideable",
+      "name": "ChestBoatRideable",
       "value": 218
     },
     {
-      "name": "traderllama",
+      "name": "TraderLlama",
       "value": 5021
     },
     {
-      "name": "camel",
+      "name": "Camel",
       "value": 5002
     },
     {
-      "name": "sniffer",
+      "name": "Sniffer",
       "value": 5003
     },
     {
-      "name": "breeze",
+      "name": "Breeze",
       "value": 2956
     },
     {
-      "name": "breezewindchargeprojectile",
+      "name": "BreezeWindChargeProjectile",
       "value": 4194445
     },
     {
-      "name": "armadillo",
+      "name": "Armadillo",
       "value": 5006
     },
     {
-      "name": "windchargeprojectile",
+      "name": "WindChargeProjectile",
       "value": 4194447
     },
     {
-      "name": "bogged",
+      "name": "Bogged",
       "value": 1117072
     },
     {
-      "name": "ominousitemspawner",
+      "name": "OminousItemSpawner",
       "value": 145
     },
     {
-      "name": "creaking",
+      "name": "Creaking",
       "value": 2962
     },
     {
-      "name": "happyghast",
+      "name": "HappyGhast",
       "value": 5011
     },
     {
-      "name": "coppergolem",
+      "name": "CopperGolem",
       "value": 916
     },
     {
-      "name": "nautilus",
+      "name": "Nautilus",
       "value": 9109
     },
     {
-      "name": "zombienautilus",
+      "name": "ZombieNautilus",
       "value": 74646
     },
     {
-      "name": "parched",
+      "name": "Parched",
       "value": 1117079
     },
     {
-      "name": "camelhusk",
+      "name": "CamelHusk",
       "value": 70552
     },
     {
-      "name": "sulfurcube",
+      "name": "SulfurCube",
       "value": 2969
     }
   ]

@@ -2,31 +2,31 @@
   "name": "EAS::FloatAttributeOperation",
   "values": [
     {
-      "name": "override",
+      "name": "OVERRIDE",
       "value": 0
     },
     {
-      "name": "alpha_blend",
+      "name": "ALPHA_BLEND",
       "value": 1
     },
     {
-      "name": "add",
+      "name": "ADD",
       "value": 2
     },
     {
-      "name": "subtract",
+      "name": "SUBTRACT",
       "value": 3
     },
     {
-      "name": "multiply",
+      "name": "MULTIPLY",
       "value": 4
     },
     {
-      "name": "minimum",
+      "name": "MINIMUM",
       "value": 4
     },
     {
-      "name": "maximum",
+      "name": "MAXIMUM",
       "value": 4
     }
   ]

@@ -2,15 +2,15 @@
   "name": "ActorBlockSyncMessage::MessageId",
   "values": [
     {
-      "name": "none",
+      "name": "NONE",
       "value": 0
     },
     {
-      "name": "create",
+      "name": "CREATE",
       "value": 1
     },
     {
-      "name": "destroy",
+      "name": "DESTROY",
       "value": 2
     }
   ]
