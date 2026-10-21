@@ -2,39 +2,39 @@
   "name": "DataItemType",
   "values": [
     {
-      "name": "byte",
+      "name": "Byte",
       "value": 0
     },
     {
-      "name": "short",
+      "name": "Short",
       "value": 1
     },
     {
-      "name": "int",
+      "name": "Int",
       "value": 2
     },
     {
-      "name": "float",
+      "name": "Float",
       "value": 3
     },
     {
-      "name": "string",
+      "name": "String",
       "value": 4
     },
     {
-      "name": "compoundtag",
+      "name": "CompoundTag",
       "value": 5
     },
     {
-      "name": "pos",
+      "name": "Pos",
       "value": 6
     },
     {
-      "name": "int64",
+      "name": "Int64",
       "value": 7
     },
     {
-      "name": "vec3",
+      "name": "Vec3",
       "value": 8
     }
   ]

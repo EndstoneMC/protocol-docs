@@ -2,43 +2,43 @@
   "name": "PlayStatus",
   "values": [
     {
-      "name": "loginsuccess",
+      "name": "LoginSuccess",
       "value": 0
     },
     {
-      "name": "loginfailed_clientold",
+      "name": "LoginFailed_ClientOld",
       "value": 1
     },
     {
-      "name": "loginfailed_serverold",
+      "name": "LoginFailed_ServerOld",
       "value": 2
     },
     {
-      "name": "playerspawn",
+      "name": "PlayerSpawn",
       "value": 3
     },
     {
-      "name": "loginfailed_invalidtenant",
+      "name": "LoginFailed_InvalidTenant",
       "value": 4
     },
     {
-      "name": "loginfailed_editionmismatchedutovanilla",
+      "name": "LoginFailed_EditionMismatchEduToVanilla",
       "value": 5
     },
     {
-      "name": "loginfailed_editionmismatchvanillatoedu",
+      "name": "LoginFailed_EditionMismatchVanillaToEdu",
       "value": 6
     },
     {
-      "name": "loginfailed_serverfullsubclient",
+      "name": "LoginFailed_ServerFullSubClient",
       "value": 7
     },
     {
-      "name": "loginfailed_editormismatcheditortovanilla",
+      "name": "LoginFailed_EditorMismatchEditorToVanilla",
       "value": 8
     },
     {
-      "name": "loginfailed_editormismatchvanillatoeditor",
+      "name": "LoginFailed_EditorMismatchVanillaToEditor",
       "value": 9
     }
   ]

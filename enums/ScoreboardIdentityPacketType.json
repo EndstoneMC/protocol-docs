@@ -2,11 +2,11 @@
   "name": "ScoreboardIdentityPacketType",
   "values": [
     {
-      "name": "update",
+      "name": "Update",
       "value": 0
     },
     {
-      "name": "remove",
+      "name": "Remove",
       "value": 1
     }
   ]

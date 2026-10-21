@@ -2,11 +2,11 @@
   "name": "MusicPlaybackSource",
   "values": [
     {
-      "name": "local",
+      "name": "Local",
       "value": 0
     },
     {
-      "name": "online",
+      "name": "Online",
       "value": 1
     }
   ]

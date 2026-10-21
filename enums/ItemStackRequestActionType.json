@@ -2,87 +2,87 @@
   "name": "ItemStackRequestActionType",
   "values": [
     {
-      "name": "take",
+      "name": "Take",
       "value": 0
     },
     {
-      "name": "place",
+      "name": "Place",
       "value": 1
     },
     {
-      "name": "swap",
+      "name": "Swap",
       "value": 2
     },
     {
-      "name": "drop",
+      "name": "Drop",
       "value": 3
     },
     {
-      "name": "destroy",
+      "name": "Destroy",
       "value": 4
     },
     {
-      "name": "consume",
+      "name": "Consume",
       "value": 5
     },
     {
-      "name": "create",
+      "name": "Create",
       "value": 6
     },
     {
-      "name": "placeinitemcontainer",
+      "name": "PlaceInItemContainer",
       "value": 7
     },
     {
-      "name": "takefromitemcontainer",
+      "name": "TakeFromItemContainer",
       "value": 8
     },
     {
-      "name": "screenlabtablecombine",
+      "name": "ScreenLabTableCombine",
       "value": 9
     },
     {
-      "name": "screenbeaconpayment",
+      "name": "ScreenBeaconPayment",
       "value": 10
     },
     {
-      "name": "screenhudmineblock",
+      "name": "ScreenHUDMineBlock",
       "value": 11
     },
     {
-      "name": "craftrecipe",
+      "name": "CraftRecipe",
       "value": 12
     },
     {
-      "name": "craftrecipeauto",
+      "name": "CraftRecipeAuto",
       "value": 13
     },
     {
-      "name": "craftcreative",
+      "name": "CraftCreative",
       "value": 14
     },
     {
-      "name": "craftrecipeoptional",
+      "name": "CraftRecipeOptional",
       "value": 15
     },
     {
-      "name": "craftrepairanddisenchant",
+      "name": "CraftRepairAndDisenchant",
       "value": 16
     },
     {
-      "name": "craftloom",
+      "name": "CraftLoom",
       "value": 17
     },
     {
-      "name": "craftdiscpress",
+      "name": "CraftDiscPress",
       "value": 18
     },
     {
-      "name": "craftnonimplemented",
+      "name": "CraftNonImplemented",
       "value": 19
     },
     {
-      "name": "craftresults",
+      "name": "CraftResults",
       "value": 20
     }
   ]

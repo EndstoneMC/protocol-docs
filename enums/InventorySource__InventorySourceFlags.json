@@ -2,11 +2,11 @@
   "name": "InventorySource::InventorySourceFlags",
   "values": [
     {
-      "name": "no flag",
+      "name": "No Flag",
       "value": 0
     },
     {
-      "name": "world interaction random",
+      "name": "World Interaction Random",
       "value": 1
     }
   ]

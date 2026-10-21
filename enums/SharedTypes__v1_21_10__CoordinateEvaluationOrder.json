@@ -2,27 +2,27 @@
   "name": "SharedTypes::v1_21_10::CoordinateEvaluationOrder",
   "values": [
     {
-      "name": "xyz",
+      "name": "XYZ",
       "value": 0
     },
     {
-      "name": "xzy",
+      "name": "XZY",
       "value": 1
     },
     {
-      "name": "yxz",
+      "name": "YXZ",
       "value": 2
     },
     {
-      "name": "yzx",
+      "name": "YZX",
       "value": 3
     },
     {
-      "name": "zxy",
+      "name": "ZXY",
       "value": 4
     },
     {
-      "name": "zyx",
+      "name": "ZYX",
       "value": 5
     }
   ]

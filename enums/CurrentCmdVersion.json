@@ -2,203 +2,203 @@
   "name": "CurrentCmdVersion",
   "values": [
     {
-      "name": "invalid",
+      "name": "Invalid",
       "value": -1
     },
     {
-      "name": "initial",
+      "name": "Initial",
       "value": 1
     },
     {
-      "name": "tprotationclamping",
+      "name": "TpRotationClamping",
       "value": 2
     },
     {
-      "name": "newbedrockcmdsystem",
+      "name": "NewBedrockCmdSystem",
       "value": 3
     },
     {
-      "name": "executeusesvec3",
+      "name": "ExecuteUsesVec3",
       "value": 4
     },
     {
-      "name": "clonefixes",
+      "name": "CloneFixes",
       "value": 5
     },
     {
-      "name": "updateaquatic",
+      "name": "UpdateAquatic",
       "value": 6
     },
     {
-      "name": "entityselectorusesvec3",
+      "name": "EntitySelectorUsesVec3",
       "value": 7
     },
     {
-      "name": "containersdontdropitemsanymore",
+      "name": "ContainersDontDropItemsAnymore",
       "value": 8
     },
     {
-      "name": "filtersobeydimensions",
+      "name": "FiltersObeyDimensions",
       "value": 9
     },
     {
-      "name": "executeandblockcommandandselfselectorfixes",
+      "name": "ExecuteAndBlockCommandAndSelfSelectorFixes",
       "value": 10
     },
     {
-      "name": "instanteffectsuseticks",
+      "name": "InstantEffectsUseTicks",
       "value": 11
     },
     {
-      "name": "dontregisterbrokenfunctioncommands",
+      "name": "DontRegisterBrokenFunctionCommands",
       "value": 12
     },
     {
-      "name": "clearspawnpointcommand",
+      "name": "ClearSpawnPointCommand",
       "value": 13
     },
     {
-      "name": "cloneandteleportrotationfixes",
+      "name": "CloneAndTeleportRotationFixes",
       "value": 14
     },
     {
-      "name": "teleportdimensionfixes",
+      "name": "TeleportDimensionFixes",
       "value": 15
     },
     {
-      "name": "cloneupdateblockandtimefixes",
+      "name": "CloneUpdateBlockAndTimeFixes",
       "value": 16
     },
     {
-      "name": "cloneintersectfix",
+      "name": "CloneIntersectFix",
       "value": 17
     },
     {
-      "name": "functionexecuteorderandchestslotfix",
+      "name": "FunctionExecuteOrderAndChestSlotFix",
       "value": 18
     },
     {
-      "name": "nontickingareasnolongerconsideredloaded",
+      "name": "NonTickingAreasNoLongerConsideredLoaded",
       "value": 19
     },
     {
-      "name": "spreadplayershazardandresolveplayerbynamefix",
+      "name": "SpreadplayersHazardAndResolvePlayerByNameFix",
       "value": 20
     },
     {
-      "name": "newexecutecommandsyntaxexperimentandchestloottablefixandteleportfacingverticalunclampedandlocatebiomeandfeaturemerged",
+      "name": "NewExecuteCommandSyntaxExperimentAndChestLootTableFixAndTeleportFacingVerticalUnclampedAndLocateBiomeAndFeatureMerged",
       "value": 21
     },
     {
-      "name": "waterloggingaddedtostructurecommand",
+      "name": "WaterloggingAddedToStructureCommand",
       "value": 22
     },
     {
-      "name": "selectordistancefilteredandrelativerotationfix",
+      "name": "SelectorDistanceFilteredAndRelativeRotationFix",
       "value": 23
     },
     {
-      "name": "newsummoncommandaddedrotationoptionsandbubblecolumnclonefixandexecuteindimensionteleportfixandnewexecuterotationfix",
+      "name": "NewSummonCommandAddedRotationOptionsAndBubbleColumnCloneFixAndExecuteInDimensionTeleportFixAndNewExecuteRotationFix",
       "value": 24
     },
     {
-      "name": "newexecutecommandreleaseenchantcommandlevelfixandhasitemdatafixandcommanddeferral",
+      "name": "NewExecuteCommandReleaseEnchantCommandLevelFixAndHasItemDataFixAndCommandDeferral",
       "value": 25
     },
     {
-      "name": "executeifscorefixes",
+      "name": "ExecuteIfScoreFixes",
       "value": 26
     },
     {
-      "name": "replaceitemandlootreplaceblockcommandsdonotplaceitemsintocauldronsfix",
+      "name": "ReplaceItemAndLootReplaceBlockCommandsDoNotPlaceItemsIntoCauldronsFix",
       "value": 27
     },
     {
-      "name": "changestocommandoriginrotation",
+      "name": "ChangesToCommandOriginRotation",
       "value": 28
     },
     {
-      "name": "removeauxvalueparameterfromblockcommands",
+      "name": "RemoveAuxValueParameterFromBlockCommands",
       "value": 29
     },
     {
-      "name": "volumeselectorfixes",
+      "name": "VolumeSelectorFixes",
       "value": 30
     },
     {
-      "name": "enablesummonrotation",
+      "name": "EnableSummonRotation",
       "value": 31
     },
     {
-      "name": "summoncommanddefaultrotation",
+      "name": "SummonCommandDefaultRotation",
       "value": 32
     },
     {
-      "name": "positionaldimensionfiltering",
+      "name": "PositionalDimensionFiltering",
       "value": 33
     },
     {
-      "name": "commandselectorhasitemfilternolongercallssameitemfunction",
+      "name": "CommandSelectorHasItemFilterNoLongerCallsSameItemFunction",
       "value": 34
     },
     {
-      "name": "agentsweepingblocktest",
+      "name": "AgentSweepingBlockTest",
       "value": 34
     },
     {
-      "name": "blockstateequals",
+      "name": "BlockStateEquals",
       "value": 35
     },
     {
-      "name": "commandpositionfix",
+      "name": "CommandPositionFix",
       "value": 35
     },
     {
-      "name": "commandselectorhasitemfilterusesdataasdamageforselectingdamageableitems",
+      "name": "CommandSelectorHasItemFilterUsesDataAsDamageForSelectingDamageableItems",
       "value": 36
     },
     {
-      "name": "executedetectconditionsubcommandnotallownonloadedblocks",
+      "name": "ExecuteDetectConditionSubcommandNotAllowNonLoadedBlocks",
       "value": 37
     },
     {
-      "name": "removesuicidekeyword",
+      "name": "RemoveSuicideKeyword",
       "value": 38
     },
     {
-      "name": "clonecontainerblockentityremovalfix",
+      "name": "CloneContainerBlockEntityRemovalFix",
       "value": 39
     },
     {
-      "name": "stopsoundmusicfix",
+      "name": "StopSoundMusicFix",
       "value": 40
     },
     {
-      "name": "spreadplayersstuckingroundfixandmaxheightparameter",
+      "name": "SpreadPlayersStuckInGroundFixAndMaxHeightParameter",
       "value": 41
     },
     {
-      "name": "locatestructureoutput",
+      "name": "LocateStructureOutput",
       "value": 42
     },
     {
-      "name": "postblockflattening",
+      "name": "PostBlockFlattening",
       "value": 43
     },
     {
-      "name": "testforblockcommanddoesnotignoreblockstate",
+      "name": "TestForBlockCommandDoesNotIgnoreBlockState",
       "value": 44
     },
     {
-      "name": "gametestrunsetmultitag",
+      "name": "GameTestRunSetMultiTag",
       "value": 56
     },
     {
-      "name": "count",
+      "name": "Count",
       "value": 57
     },
     {
-      "name": "latest",
+      "name": "Latest",
       "value": 56
     }
   ]

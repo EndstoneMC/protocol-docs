@@ -2,19 +2,19 @@
   "name": "InventoryRightTabIndex",
   "values": [
     {
-      "name": "none",
+      "name": "None",
       "value": 0
     },
     {
-      "name": "fullscreen",
+      "name": "FullScreen",
       "value": 1
     },
     {
-      "name": "crafting",
+      "name": "Crafting",
       "value": 2
     },
     {
-      "name": "armor",
+      "name": "Armor",
       "value": 3
     }
   ]

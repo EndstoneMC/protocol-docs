@@ -2,31 +2,31 @@
   "name": "SubChunkPacketPayload::SubChunkRequestResult",
   "values": [
     {
-      "name": "undefined",
+      "name": "Undefined",
       "value": 0
     },
     {
-      "name": "success",
+      "name": "Success",
       "value": 1
     },
     {
-      "name": "levelchunkdoesntexist",
+      "name": "LevelChunkDoesntExist",
       "value": 2
     },
     {
-      "name": "wrongdimension",
+      "name": "WrongDimension",
       "value": 3
     },
     {
-      "name": "playerdoesntexist",
+      "name": "PlayerDoesntExist",
       "value": 4
     },
     {
-      "name": "indexoutofbounds",
+      "name": "IndexOutOfBounds",
       "value": 5
     },
     {
-      "name": "successallair",
+      "name": "SuccessAllAir",
       "value": 6
     }
   ]

@@ -2,39 +2,39 @@
   "name": "MatchmakingState",
   "values": [
     {
-      "name": "idle",
+      "name": "Idle",
       "value": 0
     },
     {
-      "name": "matchmaking",
+      "name": "Matchmaking",
       "value": 1
     },
     {
-      "name": "matchfound",
+      "name": "MatchFound",
       "value": 2
     },
     {
-      "name": "canceled",
+      "name": "Canceled",
       "value": 3
     },
     {
-      "name": "playerleftparty",
+      "name": "PlayerLeftParty",
       "value": 4
     },
     {
-      "name": "playerleftserver",
+      "name": "PlayerLeftServer",
       "value": 5
     },
     {
-      "name": "servershutdown",
+      "name": "ServerShutdown",
       "value": 6
     },
     {
-      "name": "timedout",
+      "name": "TimedOut",
       "value": 7
     },
     {
-      "name": "requeueasparty",
+      "name": "RequeueAsParty",
       "value": 8
     }
   ]

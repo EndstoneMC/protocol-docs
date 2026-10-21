@@ -2,23 +2,23 @@
   "name": "BossBarOverlay",
   "values": [
     {
-      "name": "progress",
+      "name": "PROGRESS",
       "value": 0
     },
     {
-      "name": "notched_6",
+      "name": "NOTCHED_6",
       "value": 1
     },
     {
-      "name": "notched_10",
+      "name": "NOTCHED_10",
       "value": 2
     },
     {
-      "name": "notched_12",
+      "name": "NOTCHED_12",
       "value": 3
     },
     {
-      "name": "notched_20",
+      "name": "NOTCHED_20",
       "value": 4
     }
   ]

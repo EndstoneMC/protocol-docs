@@ -2,23 +2,23 @@
   "name": "DataDrivenScreenClosedReason",
   "values": [
     {
-      "name": "programmaticclose",
+      "name": "ProgrammaticClose",
       "value": 0
     },
     {
-      "name": "programmaticcloseall",
+      "name": "ProgrammaticCloseAll",
       "value": 1
     },
     {
-      "name": "clientcanceled",
+      "name": "ClientCanceled",
       "value": 2
     },
     {
-      "name": "userbusy",
+      "name": "UserBusy",
       "value": 3
     },
     {
-      "name": "invalidform",
+      "name": "InvalidForm",
       "value": 4
     }
   ]

@@ -2,27 +2,27 @@
   "name": "AttributeModifierOperation",
   "values": [
     {
-      "name": "operation_addition",
+      "name": "OPERATION_ADDITION",
       "value": 0
     },
     {
-      "name": "operation_multiply_base",
+      "name": "OPERATION_MULTIPLY_BASE",
       "value": 1
     },
     {
-      "name": "operation_multiply_total",
+      "name": "OPERATION_MULTIPLY_TOTAL",
       "value": 2
     },
     {
-      "name": "operation_cap",
+      "name": "OPERATION_CAP",
       "value": 3
     },
     {
-      "name": "total_operations",
+      "name": "TOTAL_OPERATIONS",
       "value": 4
     },
     {
-      "name": "operation_invalid",
+      "name": "OPERATION_INVALID",
       "value": 4
     }
   ]

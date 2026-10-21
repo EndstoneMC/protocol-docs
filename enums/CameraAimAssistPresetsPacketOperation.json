@@ -2,11 +2,11 @@
   "name": "CameraAimAssistPresetsPacketOperation",
   "values": [
     {
-      "name": "set",
+      "name": "Set",
       "value": 0
     },
     {
-      "name": "addtoexisting",
+      "name": "AddToExisting",
       "value": 1
     }
   ]
