@@ -1,0 +1,145 @@
+{
+  "name": "SharedTypes::Legacy::ActorDamageCause",
+  "values": [
+    {
+      "name": "override",
+      "value": 0
+    },
+    {
+      "name": "contact",
+      "value": 1
+    },
+    {
+      "name": "entityattack",
+      "value": 2
+    },
+    {
+      "name": "projectile",
+      "value": 3
+    },
+    {
+      "name": "suffocation",
+      "value": 4
+    },
+    {
+      "name": "fall",
+      "value": 5
+    },
+    {
+      "name": "fire",
+      "value": 6
+    },
+    {
+      "name": "firetick",
+      "value": 7
+    },
+    {
+      "name": "lava",
+      "value": 8
+    },
+    {
+      "name": "drowning",
+      "value": 9
+    },
+    {
+      "name": "blockexplosion",
+      "value": 10
+    },
+    {
+      "name": "entityexplosion",
+      "value": 11
+    },
+    {
+      "name": "void",
+      "value": 12
+    },
+    {
+      "name": "selfdestruct",
+      "value": 13
+    },
+    {
+      "name": "magic",
+      "value": 14
+    },
+    {
+      "name": "wither",
+      "value": 15
+    },
+    {
+      "name": "starve",
+      "value": 16
+    },
+    {
+      "name": "anvil",
+      "value": 17
+    },
+    {
+      "name": "thorns",
+      "value": 18
+    },
+    {
+      "name": "fallingblock",
+      "value": 19
+    },
+    {
+      "name": "piston",
+      "value": 20
+    },
+    {
+      "name": "flyintowall",
+      "value": 21
+    },
+    {
+      "name": "magma",
+      "value": 22
+    },
+    {
+      "name": "fireworks",
+      "value": 23
+    },
+    {
+      "name": "lightning",
+      "value": 24
+    },
+    {
+      "name": "charging",
+      "value": 25
+    },
+    {
+      "name": "temperature",
+      "value": 26
+    },
+    {
+      "name": "freezing",
+      "value": 27
+    },
+    {
+      "name": "stalactite",
+      "value": 28
+    },
+    {
+      "name": "stalagmite",
+      "value": 29
+    },
+    {
+      "name": "ramattack",
+      "value": 30
+    },
+    {
+      "name": "sonicboom",
+      "value": 31
+    },
+    {
+      "name": "campfire",
+      "value": 32
+    },
+    {
+      "name": "soulcampfire",
+      "value": 33
+    },
+    {
+      "name": "macesmash",
+      "value": 34
+    }
+  ]
+}

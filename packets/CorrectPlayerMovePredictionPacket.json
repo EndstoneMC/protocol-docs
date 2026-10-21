@@ -1,0 +1,36 @@
+{
+  "id": 161,
+  "name": "CorrectPlayerMovePredictionPacket",
+  "fields": [
+    {
+      "name": "PredictionType",
+      "type": "uint8",
+      "enum": "RewindType"
+    },
+    {
+      "name": "Pos",
+      "type": "Vec3"
+    },
+    {
+      "name": "Pos Delta",
+      "type": "Vec3"
+    },
+    {
+      "name": "Rotation",
+      "type": "Vec2"
+    },
+    {
+      "name": "VehicleAngularVelocity",
+      "type": "float",
+      "optional": true
+    },
+    {
+      "name": "On Ground",
+      "type": "bool"
+    },
+    {
+      "name": "Tick",
+      "type": "PlayerInputTick"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 316,
+  "name": "CameraAimAssistPacket",
+  "fields": [
+    {
+      "name": "Preset Id",
+      "type": "string"
+    },
+    {
+      "name": "View Angle",
+      "type": "Vec2"
+    },
+    {
+      "name": "Distance",
+      "type": "float",
+      "constraints": {
+        "minimum": 1,
+        "maximum": 16
+      }
+    },
+    {
+      "name": "Target Mode",
+      "type": "uint8",
+      "enum": "CameraAimAssistPacketPayload::TargetMode"
+    },
+    {
+      "name": "Action",
+      "type": "uint8",
+      "enum": "CameraAimAssistPacketPayload::Action"
+    },
+    {
+      "name": "Show Debug Render",
+      "type": "bool"
+    }
+  ]
+}

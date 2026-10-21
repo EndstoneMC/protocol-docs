@@ -1,0 +1,41 @@
+{
+  "name": "SetTitlePacketPayload::TitleType",
+  "values": [
+    {
+      "name": "clear",
+      "value": 0
+    },
+    {
+      "name": "reset",
+      "value": 1
+    },
+    {
+      "name": "title",
+      "value": 2
+    },
+    {
+      "name": "subtitle",
+      "value": 3
+    },
+    {
+      "name": "actionbar",
+      "value": 4
+    },
+    {
+      "name": "times",
+      "value": 5
+    },
+    {
+      "name": "titletextobject",
+      "value": 6
+    },
+    {
+      "name": "subtitletextobject",
+      "value": 7
+    },
+    {
+      "name": "actionbartextobject",
+      "value": 8
+    }
+  ]
+}

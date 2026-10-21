@@ -1,0 +1,13 @@
+{
+  "name": "MovementEffectType",
+  "values": [
+    {
+      "name": "glide_boost",
+      "value": 0
+    },
+    {
+      "name": "dolphin_boost",
+      "value": 1
+    }
+  ]
+}

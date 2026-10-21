@@ -1,0 +1,13 @@
+{
+  "name": "RewindType",
+  "values": [
+    {
+      "name": "player",
+      "value": 0
+    },
+    {
+      "name": "vehicle",
+      "value": 1
+    }
+  ]
+}

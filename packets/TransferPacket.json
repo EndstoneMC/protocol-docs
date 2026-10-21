@@ -1,0 +1,18 @@
+{
+  "id": 85,
+  "name": "TransferPacket",
+  "fields": [
+    {
+      "name": "Server Address",
+      "type": "string"
+    },
+    {
+      "name": "Server Port",
+      "type": "uint16"
+    },
+    {
+      "name": "Reload World",
+      "type": "bool"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": 179,
+  "name": "TickingAreasLoadStatusPacket",
+  "fields": [
+    {
+      "name": "Waiting For Preload",
+      "type": "bool"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "FullContainerName",
+  "fields": [
+    {
+      "name": "Container Name",
+      "type": "uint8",
+      "enum": "ContainerEnumName"
+    },
+    {
+      "name": "Dynamic ID",
+      "type": "uint32",
+      "optional": true
+    }
+  ]
+}

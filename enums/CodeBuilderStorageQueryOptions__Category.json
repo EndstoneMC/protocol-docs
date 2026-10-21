@@ -1,0 +1,17 @@
+{
+  "name": "CodeBuilderStorageQueryOptions::Category",
+  "values": [
+    {
+      "name": "none",
+      "value": 0
+    },
+    {
+      "name": "codestatus",
+      "value": 1
+    },
+    {
+      "name": "instantiation",
+      "value": 2
+    }
+  ]
+}

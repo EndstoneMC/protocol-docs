@@ -1,0 +1,17 @@
+{
+  "name": "SoftEnumUpdateType",
+  "values": [
+    {
+      "name": "add",
+      "value": 0
+    },
+    {
+      "name": "remove",
+      "value": 1
+    },
+    {
+      "name": "replace",
+      "value": 2
+    }
+  ]
+}

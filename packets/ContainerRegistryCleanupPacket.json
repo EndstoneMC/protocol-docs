@@ -1,0 +1,11 @@
+{
+  "id": 317,
+  "name": "ContainerRegistryCleanupPacket",
+  "fields": [
+    {
+      "name": "Removed Containers",
+      "type": "FullContainerName",
+      "repeat": "uvarint32"
+    }
+  ]
+}

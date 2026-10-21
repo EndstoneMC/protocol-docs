@@ -1,0 +1,261 @@
+{
+  "name": "ContainerEnumName",
+  "values": [
+    {
+      "name": "anvilinputcontainer",
+      "value": 0
+    },
+    {
+      "name": "anvilmaterialcontainer",
+      "value": 1
+    },
+    {
+      "name": "anvilresultpreviewcontainer",
+      "value": 2
+    },
+    {
+      "name": "smithingtableinputcontainer",
+      "value": 3
+    },
+    {
+      "name": "smithingtablematerialcontainer",
+      "value": 4
+    },
+    {
+      "name": "smithingtableresultpreviewcontainer",
+      "value": 5
+    },
+    {
+      "name": "armorcontainer",
+      "value": 6
+    },
+    {
+      "name": "levelentitycontainer",
+      "value": 7
+    },
+    {
+      "name": "beaconpaymentcontainer",
+      "value": 8
+    },
+    {
+      "name": "brewingstandinputcontainer",
+      "value": 9
+    },
+    {
+      "name": "brewingstandresultcontainer",
+      "value": 10
+    },
+    {
+      "name": "brewingstandfuelcontainer",
+      "value": 11
+    },
+    {
+      "name": "combinedhotbarandinventorycontainer",
+      "value": 12
+    },
+    {
+      "name": "craftinginputcontainer",
+      "value": 13
+    },
+    {
+      "name": "craftingoutputpreviewcontainer",
+      "value": 14
+    },
+    {
+      "name": "recipeconstructioncontainer",
+      "value": 15
+    },
+    {
+      "name": "recipenaturecontainer",
+      "value": 16
+    },
+    {
+      "name": "recipeitemscontainer",
+      "value": 17
+    },
+    {
+      "name": "recipesearchcontainer",
+      "value": 18
+    },
+    {
+      "name": "recipesearchbarcontainer",
+      "value": 19
+    },
+    {
+      "name": "recipeequipmentcontainer",
+      "value": 20
+    },
+    {
+      "name": "recipebookcontainer",
+      "value": 21
+    },
+    {
+      "name": "enchantinginputcontainer",
+      "value": 22
+    },
+    {
+      "name": "enchantingmaterialcontainer",
+      "value": 23
+    },
+    {
+      "name": "furnacefuelcontainer",
+      "value": 24
+    },
+    {
+      "name": "furnaceingredientcontainer",
+      "value": 25
+    },
+    {
+      "name": "furnaceresultcontainer",
+      "value": 26
+    },
+    {
+      "name": "horseequipcontainer",
+      "value": 27
+    },
+    {
+      "name": "hotbarcontainer",
+      "value": 28
+    },
+    {
+      "name": "inventorycontainer",
+      "value": 29
+    },
+    {
+      "name": "shulkerboxcontainer",
+      "value": 30
+    },
+    {
+      "name": "tradeingredient1container",
+      "value": 31
+    },
+    {
+      "name": "tradeingredient2container",
+      "value": 32
+    },
+    {
+      "name": "traderesultpreviewcontainer",
+      "value": 33
+    },
+    {
+      "name": "offhandcontainer",
+      "value": 34
+    },
+    {
+      "name": "compoundcreatorinput",
+      "value": 35
+    },
+    {
+      "name": "compoundcreatoroutputpreview",
+      "value": 36
+    },
+    {
+      "name": "elementconstructoroutputpreview",
+      "value": 37
+    },
+    {
+      "name": "materialreducerinput",
+      "value": 38
+    },
+    {
+      "name": "materialreduceroutput",
+      "value": 39
+    },
+    {
+      "name": "labtableinput",
+      "value": 40
+    },
+    {
+      "name": "loominputcontainer",
+      "value": 41
+    },
+    {
+      "name": "loomdyecontainer",
+      "value": 42
+    },
+    {
+      "name": "loommaterialcontainer",
+      "value": 43
+    },
+    {
+      "name": "loomresultpreviewcontainer",
+      "value": 44
+    },
+    {
+      "name": "blastfurnaceingredientcontainer",
+      "value": 45
+    },
+    {
+      "name": "smokeringredientcontainer",
+      "value": 46
+    },
+    {
+      "name": "trade2ingredient1container",
+      "value": 47
+    },
+    {
+      "name": "trade2ingredient2container",
+      "value": 48
+    },
+    {
+      "name": "trade2resultpreviewcontainer",
+      "value": 49
+    },
+    {
+      "name": "grindstoneinputcontainer",
+      "value": 50
+    },
+    {
+      "name": "grindstoneadditionalcontainer",
+      "value": 51
+    },
+    {
+      "name": "grindstoneresultpreviewcontainer",
+      "value": 52
+    },
+    {
+      "name": "stonecutterinputcontainer",
+      "value": 53
+    },
+    {
+      "name": "stonecutterresultpreviewcontainer",
+      "value": 54
+    },
+    {
+      "name": "cartographyinputcontainer",
+      "value": 55
+    },
+    {
+      "name": "cartographyadditionalcontainer",
+      "value": 56
+    },
+    {
+      "name": "cartographyresultpreviewcontainer",
+      "value": 57
+    },
+    {
+      "name": "barrelcontainer",
+      "value": 58
+    },
+    {
+      "name": "cursorcontainer",
+      "value": 59
+    },
+    {
+      "name": "createdoutputcontainer",
+      "value": 60
+    },
+    {
+      "name": "smithingtabletemplatecontainer",
+      "value": 61
+    },
+    {
+      "name": "crafterlevelentitycontainer",
+      "value": 62
+    },
+    {
+      "name": "dynamiccontainer",
+      "value": 63
+    }
+  ]
+}

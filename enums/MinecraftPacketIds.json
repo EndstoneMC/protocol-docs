@@ -1,0 +1,917 @@
+{
+  "name": "MinecraftPacketIds",
+  "values": [
+    {
+      "name": "keepalive",
+      "value": 0
+    },
+    {
+      "name": "login",
+      "value": 1
+    },
+    {
+      "name": "playstatus",
+      "value": 2
+    },
+    {
+      "name": "servertoclienthandshake",
+      "value": 3
+    },
+    {
+      "name": "clienttoserverhandshake",
+      "value": 4
+    },
+    {
+      "name": "disconnect",
+      "value": 5
+    },
+    {
+      "name": "resourcepacksinfo",
+      "value": 6
+    },
+    {
+      "name": "resourcepackstack",
+      "value": 7
+    },
+    {
+      "name": "resourcepackclientresponse",
+      "value": 8
+    },
+    {
+      "name": "text",
+      "value": 9
+    },
+    {
+      "name": "settime",
+      "value": 10
+    },
+    {
+      "name": "startgame",
+      "value": 11
+    },
+    {
+      "name": "addplayer",
+      "value": 12
+    },
+    {
+      "name": "addactor",
+      "value": 13
+    },
+    {
+      "name": "removeactor",
+      "value": 14
+    },
+    {
+      "name": "additemactor",
+      "value": 15
+    },
+    {
+      "name": "serverplayerpostmoveposition",
+      "value": 16
+    },
+    {
+      "name": "takeitemactor",
+      "value": 17
+    },
+    {
+      "name": "moveabsoluteactor",
+      "value": 18
+    },
+    {
+      "name": "moveplayer",
+      "value": 19
+    },
+    {
+      "name": "passengerjump",
+      "value": 20
+    },
+    {
+      "name": "updateblock",
+      "value": 21
+    },
+    {
+      "name": "addpainting",
+      "value": 22
+    },
+    {
+      "name": "ticksync",
+      "value": 23
+    },
+    {
+      "name": "levelsoundeventv1",
+      "value": 24
+    },
+    {
+      "name": "levelevent",
+      "value": 25
+    },
+    {
+      "name": "tileevent",
+      "value": 26
+    },
+    {
+      "name": "actorevent",
+      "value": 27
+    },
+    {
+      "name": "mobeffect",
+      "value": 28
+    },
+    {
+      "name": "updateattributes",
+      "value": 29
+    },
+    {
+      "name": "inventorytransaction",
+      "value": 30
+    },
+    {
+      "name": "playerequipment",
+      "value": 31
+    },
+    {
+      "name": "mobarmorequipment",
+      "value": 32
+    },
+    {
+      "name": "interact",
+      "value": 33
+    },
+    {
+      "name": "blockpickrequest",
+      "value": 34
+    },
+    {
+      "name": "actorpickrequest",
+      "value": 35
+    },
+    {
+      "name": "playeraction",
+      "value": 36
+    },
+    {
+      "name": "actorfall",
+      "value": 37
+    },
+    {
+      "name": "hurtarmor",
+      "value": 38
+    },
+    {
+      "name": "setactordata",
+      "value": 39
+    },
+    {
+      "name": "setactormotion",
+      "value": 40
+    },
+    {
+      "name": "setactorlink",
+      "value": 41
+    },
+    {
+      "name": "sethealth",
+      "value": 42
+    },
+    {
+      "name": "setspawnposition",
+      "value": 43
+    },
+    {
+      "name": "animate",
+      "value": 44
+    },
+    {
+      "name": "respawn",
+      "value": 45
+    },
+    {
+      "name": "containeropen",
+      "value": 46
+    },
+    {
+      "name": "containerclose",
+      "value": 47
+    },
+    {
+      "name": "playerhotbar",
+      "value": 48
+    },
+    {
+      "name": "inventorycontent",
+      "value": 49
+    },
+    {
+      "name": "inventoryslot",
+      "value": 50
+    },
+    {
+      "name": "containersetdata",
+      "value": 51
+    },
+    {
+      "name": "craftingdata",
+      "value": 52
+    },
+    {
+      "name": "craftingevent",
+      "value": 53
+    },
+    {
+      "name": "guidatapickitem",
+      "value": 54
+    },
+    {
+      "name": "adventuresettings",
+      "value": 55
+    },
+    {
+      "name": "blockactordata",
+      "value": 56
+    },
+    {
+      "name": "playerinput",
+      "value": 57
+    },
+    {
+      "name": "fullchunkdata",
+      "value": 58
+    },
+    {
+      "name": "setcommandsenabled",
+      "value": 59
+    },
+    {
+      "name": "setdifficulty",
+      "value": 60
+    },
+    {
+      "name": "changedimension",
+      "value": 61
+    },
+    {
+      "name": "setplayergametype",
+      "value": 62
+    },
+    {
+      "name": "playerlist",
+      "value": 63
+    },
+    {
+      "name": "simpleevent",
+      "value": 64
+    },
+    {
+      "name": "legacytelemetryevent",
+      "value": 65
+    },
+    {
+      "name": "spawnexperienceorb",
+      "value": 66
+    },
+    {
+      "name": "mapdata",
+      "value": 67
+    },
+    {
+      "name": "mapinforequest",
+      "value": 68
+    },
+    {
+      "name": "requestchunkradius",
+      "value": 69
+    },
+    {
+      "name": "chunkradiusupdated",
+      "value": 70
+    },
+    {
+      "name": "itemframedropitem",
+      "value": 71
+    },
+    {
+      "name": "gameruleschanged",
+      "value": 72
+    },
+    {
+      "name": "camera",
+      "value": 73
+    },
+    {
+      "name": "bossevent",
+      "value": 74
+    },
+    {
+      "name": "showcredits",
+      "value": 75
+    },
+    {
+      "name": "availablecommands",
+      "value": 76
+    },
+    {
+      "name": "commandrequest",
+      "value": 77
+    },
+    {
+      "name": "commandblockupdate",
+      "value": 78
+    },
+    {
+      "name": "commandoutput",
+      "value": 79
+    },
+    {
+      "name": "updatetrade",
+      "value": 80
+    },
+    {
+      "name": "updateequip",
+      "value": 81
+    },
+    {
+      "name": "resourcepackdatainfo",
+      "value": 82
+    },
+    {
+      "name": "resourcepackchunkdata",
+      "value": 83
+    },
+    {
+      "name": "resourcepackchunkrequest",
+      "value": 84
+    },
+    {
+      "name": "transfer",
+      "value": 85
+    },
+    {
+      "name": "playsound",
+      "value": 86
+    },
+    {
+      "name": "stopsound",
+      "value": 87
+    },
+    {
+      "name": "settitle",
+      "value": 88
+    },
+    {
+      "name": "addbehaviortree",
+      "value": 89
+    },
+    {
+      "name": "structureblockupdate",
+      "value": 90
+    },
+    {
+      "name": "showstoreoffer",
+      "value": 91
+    },
+    {
+      "name": "purchasereceipt",
+      "value": 92
+    },
+    {
+      "name": "playerskin",
+      "value": 93
+    },
+    {
+      "name": "subclientlogin",
+      "value": 94
+    },
+    {
+      "name": "automationclientconnect",
+      "value": 95
+    },
+    {
+      "name": "setlasthurtby",
+      "value": 96
+    },
+    {
+      "name": "bookedit",
+      "value": 97
+    },
+    {
+      "name": "npcrequest",
+      "value": 98
+    },
+    {
+      "name": "phototransfer",
+      "value": 99
+    },
+    {
+      "name": "showmodalform",
+      "value": 100
+    },
+    {
+      "name": "modalformresponse",
+      "value": 101
+    },
+    {
+      "name": "serversettingsrequest",
+      "value": 102
+    },
+    {
+      "name": "serversettingsresponse",
+      "value": 103
+    },
+    {
+      "name": "showprofile",
+      "value": 104
+    },
+    {
+      "name": "setdefaultgametype",
+      "value": 105
+    },
+    {
+      "name": "removeobjective",
+      "value": 106
+    },
+    {
+      "name": "setdisplayobjective",
+      "value": 107
+    },
+    {
+      "name": "setscore",
+      "value": 108
+    },
+    {
+      "name": "labtable",
+      "value": 109
+    },
+    {
+      "name": "updateblocksynced",
+      "value": 110
+    },
+    {
+      "name": "movedeltaactor",
+      "value": 111
+    },
+    {
+      "name": "setscoreboardidentity",
+      "value": 112
+    },
+    {
+      "name": "setlocalplayerasinit",
+      "value": 113
+    },
+    {
+      "name": "updatesoftenum",
+      "value": 114
+    },
+    {
+      "name": "ping",
+      "value": 115
+    },
+    {
+      "name": "blockpalette",
+      "value": 116
+    },
+    {
+      "name": "scriptcustomevent",
+      "value": 117
+    },
+    {
+      "name": "spawnparticleeffect",
+      "value": 118
+    },
+    {
+      "name": "availableactoridlist",
+      "value": 119
+    },
+    {
+      "name": "levelsoundeventv2",
+      "value": 120
+    },
+    {
+      "name": "networkchunkpublisherupdate",
+      "value": 121
+    },
+    {
+      "name": "biomedefinitionlist",
+      "value": 122
+    },
+    {
+      "name": "levelsoundevent",
+      "value": 123
+    },
+    {
+      "name": "leveleventgeneric",
+      "value": 124
+    },
+    {
+      "name": "lecternupdate",
+      "value": 125
+    },
+    {
+      "name": "videostreamconnect",
+      "value": 126
+    },
+    {
+      "name": "addentity",
+      "value": 127
+    },
+    {
+      "name": "removeentity",
+      "value": 128
+    },
+    {
+      "name": "clientcachestatus",
+      "value": 129
+    },
+    {
+      "name": "onscreentextureanimation",
+      "value": 130
+    },
+    {
+      "name": "mapcreatelockedcopy",
+      "value": 131
+    },
+    {
+      "name": "structuretemplatedataexportrequest",
+      "value": 132
+    },
+    {
+      "name": "structuretemplatedataexportresponse",
+      "value": 133
+    },
+    {
+      "name": "clientcacheblobstatuspacket",
+      "value": 135
+    },
+    {
+      "name": "clientcachemissresponsepacket",
+      "value": 136
+    },
+    {
+      "name": "educationsettingspacket",
+      "value": 137
+    },
+    {
+      "name": "emote",
+      "value": 138
+    },
+    {
+      "name": "multiplayersettingspacket",
+      "value": 139
+    },
+    {
+      "name": "settingscommandpacket",
+      "value": 140
+    },
+    {
+      "name": "anvildamage",
+      "value": 141
+    },
+    {
+      "name": "completedusingitem",
+      "value": 142
+    },
+    {
+      "name": "networksettings",
+      "value": 143
+    },
+    {
+      "name": "playerauthinputpacket",
+      "value": 144
+    },
+    {
+      "name": "creativecontent",
+      "value": 145
+    },
+    {
+      "name": "playerenchantoptions",
+      "value": 146
+    },
+    {
+      "name": "itemstackrequest",
+      "value": 147
+    },
+    {
+      "name": "itemstackresponse",
+      "value": 148
+    },
+    {
+      "name": "playerarmordamage",
+      "value": 149
+    },
+    {
+      "name": "codebuilderpacket",
+      "value": 150
+    },
+    {
+      "name": "updateplayergametype",
+      "value": 151
+    },
+    {
+      "name": "emotelist",
+      "value": 152
+    },
+    {
+      "name": "positiontrackingdbserverbroadcast",
+      "value": 153
+    },
+    {
+      "name": "positiontrackingdbclientrequest",
+      "value": 154
+    },
+    {
+      "name": "debuginfopacket",
+      "value": 155
+    },
+    {
+      "name": "packetviolationwarning",
+      "value": 156
+    },
+    {
+      "name": "motionpredictionhints",
+      "value": 157
+    },
+    {
+      "name": "triggeranimation",
+      "value": 158
+    },
+    {
+      "name": "camerashake",
+      "value": 159
+    },
+    {
+      "name": "playerfogsetting",
+      "value": 160
+    },
+    {
+      "name": "correctplayermovepredictionpacket",
+      "value": 161
+    },
+    {
+      "name": "itemregistrypacket",
+      "value": 162
+    },
+    {
+      "name": "filtertextpacket",
+      "value": 163
+    },
+    {
+      "name": "clientbounddebugrendererpacket",
+      "value": 164
+    },
+    {
+      "name": "syncactorproperty",
+      "value": 165
+    },
+    {
+      "name": "addvolumeentitypacket",
+      "value": 166
+    },
+    {
+      "name": "removevolumeentitypacket",
+      "value": 167
+    },
+    {
+      "name": "simulationtypepacket",
+      "value": 168
+    },
+    {
+      "name": "npcdialoguepacket",
+      "value": 169
+    },
+    {
+      "name": "eduuriresourcepacket",
+      "value": 170
+    },
+    {
+      "name": "createphotopacket",
+      "value": 171
+    },
+    {
+      "name": "updatesubchunkblocks",
+      "value": 172
+    },
+    {
+      "name": "photoinforequest",
+      "value": 173
+    },
+    {
+      "name": "subchunkpacket",
+      "value": 174
+    },
+    {
+      "name": "subchunkrequestpacket",
+      "value": 175
+    },
+    {
+      "name": "playerstartitemcooldown",
+      "value": 176
+    },
+    {
+      "name": "scriptmessagepacket",
+      "value": 177
+    },
+    {
+      "name": "codebuildersourcepacket",
+      "value": 178
+    },
+    {
+      "name": "tickingareasloadstatus",
+      "value": 179
+    },
+    {
+      "name": "dimensiondatapacket",
+      "value": 180
+    },
+    {
+      "name": "agentaction",
+      "value": 181
+    },
+    {
+      "name": "changemobproperty",
+      "value": 182
+    },
+    {
+      "name": "lessonprogresspacket",
+      "value": 183
+    },
+    {
+      "name": "requestabilitypacket",
+      "value": 184
+    },
+    {
+      "name": "requestpermissionspacket",
+      "value": 185
+    },
+    {
+      "name": "toastrequest",
+      "value": 186
+    },
+    {
+      "name": "updateabilitiespacket",
+      "value": 187
+    },
+    {
+      "name": "updateadventuresettingspacket",
+      "value": 188
+    },
+    {
+      "name": "deathinfo",
+      "value": 189
+    },
+    {
+      "name": "editornetworkpacket",
+      "value": 190
+    },
+    {
+      "name": "featureregistrypacket",
+      "value": 191
+    },
+    {
+      "name": "serverstats",
+      "value": 192
+    },
+    {
+      "name": "requestnetworksettings",
+      "value": 193
+    },
+    {
+      "name": "gametestrequestpacket",
+      "value": 194
+    },
+    {
+      "name": "gametestresultspacket",
+      "value": 195
+    },
+    {
+      "name": "playerclientinputpermissions",
+      "value": 196
+    },
+    {
+      "name": "clientcheatabilitypacket",
+      "value": 197
+    },
+    {
+      "name": "camerapresets",
+      "value": 198
+    },
+    {
+      "name": "unlockedrecipes",
+      "value": 199
+    },
+    {
+      "name": "titlespecificpacketsstart",
+      "value": 200
+    },
+    {
+      "name": "titlespecificpacketsend",
+      "value": 299
+    },
+    {
+      "name": "camerainstruction",
+      "value": 300
+    },
+    {
+      "name": "compressedbiomedefinitionlist",
+      "value": 301
+    },
+    {
+      "name": "trimdata",
+      "value": 302
+    },
+    {
+      "name": "opensign",
+      "value": 303
+    },
+    {
+      "name": "agentanimation",
+      "value": 304
+    },
+    {
+      "name": "refreshentitlementspacket",
+      "value": 305
+    },
+    {
+      "name": "playertogglecrafterslotrequestpacket",
+      "value": 306
+    },
+    {
+      "name": "setplayerinventoryoptions",
+      "value": 307
+    },
+    {
+      "name": "sethudpacket",
+      "value": 308
+    },
+    {
+      "name": "awardachievementpacket",
+      "value": 309
+    },
+    {
+      "name": "clientboundclosescreen",
+      "value": 310
+    },
+    {
+      "name": "clientboundloadingscreenpacket",
+      "value": 311
+    },
+    {
+      "name": "serverboundloadingscreenpacket",
+      "value": 312
+    },
+    {
+      "name": "jigsawstructuredatapacket",
+      "value": 313
+    },
+    {
+      "name": "currentstructurefeaturepacket",
+      "value": 314
+    },
+    {
+      "name": "serverbounddiagnosticspacket",
+      "value": 315
+    },
+    {
+      "name": "cameraaimassist",
+      "value": 316
+    },
+    {
+      "name": "containerregistrycleanup",
+      "value": 317
+    },
+    {
+      "name": "movementeffect",
+      "value": 318
+    },
+    {
+      "name": "setmovementauthoritymode",
+      "value": 319
+    },
+    {
+      "name": "cameraaimassistpresets",
+      "value": 320
+    },
+    {
+      "name": "clientcameraaimassist",
+      "value": 321
+    },
+    {
+      "name": "clientmovementpredictionsyncpacket",
+      "value": 322
+    },
+    {
+      "name": "updateclientoptions",
+      "value": 323
+    },
+    {
+      "name": "playervideocapturepacket",
+      "value": 324
+    },
+    {
+      "name": "playerupdateentityoverridespacket",
+      "value": 325
+    },
+    {
+      "name": "playerlocation",
+      "value": 326
+    }
+  ]
+}

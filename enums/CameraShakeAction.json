@@ -1,0 +1,13 @@
+{
+  "name": "CameraShakeAction",
+  "values": [
+    {
+      "name": "add",
+      "value": 0
+    },
+    {
+      "name": "stop",
+      "value": 1
+    }
+  ]
+}

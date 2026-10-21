@@ -1,0 +1,10 @@
+{
+  "id": 130,
+  "name": "OnScreenTextureAnimationPacket",
+  "fields": [
+    {
+      "name": "Effect Id",
+      "type": "uint32"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ClientCameraAimAssistPacketAction",
+  "values": [
+    {
+      "name": "setfromcamerapreset",
+      "value": 0
+    },
+    {
+      "name": "clear",
+      "value": 1
+    }
+  ]
+}

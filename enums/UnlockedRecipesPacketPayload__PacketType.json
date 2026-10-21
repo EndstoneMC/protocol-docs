@@ -1,0 +1,25 @@
+{
+  "name": "UnlockedRecipesPacketPayload::PacketType",
+  "values": [
+    {
+      "name": "empty",
+      "value": 0
+    },
+    {
+      "name": "initiallyunlockedrecipes",
+      "value": 1
+    },
+    {
+      "name": "newlyunlockedrecipes",
+      "value": 2
+    },
+    {
+      "name": "removeunlockedrecipes",
+      "value": 3
+    },
+    {
+      "name": "removeallunlockedrecipes",
+      "value": 4
+    }
+  ]
+}

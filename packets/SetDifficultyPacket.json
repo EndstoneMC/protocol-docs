@@ -1,0 +1,10 @@
+{
+  "id": 60,
+  "name": "SetDifficultyPacket",
+  "fields": [
+    {
+      "name": "Difficulty",
+      "type": "uvarint32"
+    }
+  ]
+}
