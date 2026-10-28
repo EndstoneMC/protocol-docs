@@ -17,10 +17,7 @@
       "type": "string",
       "repeat": "uvarint32",
       "constraints": {
-        "max_items": 1024,
-        "items": {
-          "max_length": 128
-        }
+        "max_items": 1024
       }
     }
   ]

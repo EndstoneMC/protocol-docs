@@ -24,8 +24,9 @@
       "type": "Experiments"
     },
     {
-      "name": "Include Editor Packs",
-      "type": "bool"
+      "name": "Editor Pack Types",
+      "type": "uint8",
+      "enum": "Editor::EditorPackType"
     }
   ]
 }

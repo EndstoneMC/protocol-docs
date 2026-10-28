@@ -67,10 +67,7 @@
       "type": "PlayerBlockActionData",
       "repeat": "uvarint32",
       "constraints": {
-        "max_items": 100,
-        "items": {
-          "description": "Verify block actions are one of StartDestroyBlock, AbortDestroyBlock, StopDestroyBlock, CrackBlock, PredictDestroyBlock, or ContinueDestroyBlock"
-        }
+        "max_items": 100
       },
       "optional": true
     },

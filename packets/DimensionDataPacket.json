@@ -8,11 +8,6 @@
       "type": {
         "key": "string",
         "value": "DimensionDefinitionGroup::DimensionDefinition"
-      },
-      "constraints": {
-        "property_names": {
-          "max_length": 256
-        }
       }
     }
   ]

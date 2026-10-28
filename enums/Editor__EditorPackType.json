@@ -1,0 +1,17 @@
+{
+  "name": "Editor::EditorPackType",
+  "values": [
+    {
+      "name": "None",
+      "value": 0
+    },
+    {
+      "name": "Core",
+      "value": 1
+    },
+    {
+      "name": "Annotation",
+      "value": 2
+    }
+  ]
+}

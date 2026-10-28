@@ -7,11 +7,7 @@
     },
     {
       "name": "Offset",
-      "type": "Vec3",
-      "constraints": {
-        "minimum": -5,
-        "maximum": 5
-      }
+      "type": "Vec3"
     },
     {
       "name": "Rotation",

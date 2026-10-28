@@ -6,12 +6,6 @@
       "type": {
         "key": "string",
         "value": "int32"
-      },
-      "constraints": {
-        "additional_properties": {
-          "minimum": 0,
-          "maximum": 100
-        }
       }
     },
     {
@@ -19,12 +13,6 @@
       "type": {
         "key": "string",
         "value": "int32"
-      },
-      "constraints": {
-        "additional_properties": {
-          "minimum": 0,
-          "maximum": 100
-        }
       }
     },
     {
@@ -32,12 +20,6 @@
       "type": {
         "key": "string",
         "value": "int32"
-      },
-      "constraints": {
-        "additional_properties": {
-          "minimum": 0,
-          "maximum": 100
-        }
       }
     },
     {
@@ -45,12 +27,6 @@
       "type": {
         "key": "string",
         "value": "int32"
-      },
-      "constraints": {
-        "additional_properties": {
-          "minimum": 0,
-          "maximum": 100
-        }
       }
     },
     {

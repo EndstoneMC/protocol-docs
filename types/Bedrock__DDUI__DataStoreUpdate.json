@@ -38,9 +38,7 @@
         "variant_types": [
           null,
           null,
-          {
-            "max_length": 5000
-          }
+          {}
         ]
       }
     },
