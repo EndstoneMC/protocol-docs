@@ -1,0 +1,17 @@
+{
+  "name": "MusicPlaybackFailureEntry",
+  "fields": [
+    {
+      "name": "State",
+      "type": "string",
+      "enum": "MusicPlaybackState"
+    },
+    {
+      "name": "Description",
+      "type": "string",
+      "constraints": {
+        "max_length": 65536
+      }
+    }
+  ]
+}

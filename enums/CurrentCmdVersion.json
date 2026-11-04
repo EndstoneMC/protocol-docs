@@ -194,12 +194,16 @@
       "value": 56
     },
     {
-      "name": "Count",
+      "name": "SameActorBlockReplacementRetainsItemsFix",
       "value": 57
     },
     {
+      "name": "Count",
+      "value": 58
+    },
+    {
       "name": "Latest",
-      "value": 56
+      "value": 57
     }
   ]
 }

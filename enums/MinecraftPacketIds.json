@@ -968,6 +968,14 @@
     {
       "name": "ServerboundRequestOnlineMusicPlayback",
       "value": 362
+    },
+    {
+      "name": "PlayerToggleArmorVisibilityRequestPacket",
+      "value": 364
+    },
+    {
+      "name": "ClientboundMusicPlaybackFailure",
+      "value": 365
     }
   ]
 }

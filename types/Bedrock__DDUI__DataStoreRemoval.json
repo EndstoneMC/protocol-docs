@@ -2,11 +2,11 @@
   "name": "Bedrock::DDUI::DataStoreRemoval",
   "fields": [
     {
-      "name": "Data Store Name",
+      "name": "Variable Name",
       "type": "string",
       "constraints": {
         "min_length": 1,
-        "max_length": 1000
+        "max_length": 2000
       }
     }
   ]

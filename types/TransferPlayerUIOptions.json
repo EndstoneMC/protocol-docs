@@ -1,0 +1,40 @@
+{
+  "name": "TransferPlayerUIOptions",
+  "fields": [
+    {
+      "name": "TitleText",
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "BodyText",
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "TitleVisible",
+      "type": "bool",
+      "optional": true
+    },
+    {
+      "name": "BodyVisible",
+      "type": "bool",
+      "optional": true
+    },
+    {
+      "name": "CancelButtonText",
+      "type": "string",
+      "optional": true
+    },
+    {
+      "name": "CancelButtonVisible",
+      "type": "bool",
+      "optional": true
+    },
+    {
+      "name": "CancelButtonDelaySeconds",
+      "type": "float",
+      "optional": true
+    }
+  ]
+}

@@ -29,6 +29,10 @@
       "name": "EmoteType",
       "type": "uint8",
       "enum": "PassengerOfBlockArguments::EmoteType"
+    },
+    {
+      "name": "BlockType",
+      "type": "uint64"
     }
   ]
 }

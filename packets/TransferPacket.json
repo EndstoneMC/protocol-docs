@@ -18,6 +18,11 @@
       "name": "Gatherings Configuration",
       "type": "ServerConfiguration::GatheringsConfigurationJoinInfo",
       "optional": true
+    },
+    {
+      "name": "Server Transfer Settings",
+      "type": "TransferPlayerUIOptions",
+      "optional": true
     }
   ]
 }

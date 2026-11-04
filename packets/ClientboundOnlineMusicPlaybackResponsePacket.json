@@ -7,9 +7,9 @@
       "type": "uint32"
     },
     {
-      "name": "Source",
+      "name": "State",
       "type": "string",
-      "enum": "MusicPlaybackSource"
+      "enum": "MusicPlaybackState"
     },
     {
       "name": "Shared Metadata",

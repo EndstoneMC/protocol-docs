@@ -2,26 +2,11 @@
   "name": "Bedrock::DDUI::DataStoreUpdate",
   "fields": [
     {
-      "name": "Data Store Name",
+      "name": "Variable Name",
       "type": "string",
       "constraints": {
         "min_length": 1,
-        "max_length": 1000
-      }
-    },
-    {
-      "name": "Property",
-      "type": "string",
-      "constraints": {
-        "min_length": 1,
-        "max_length": 1000
-      }
-    },
-    {
-      "name": "Path",
-      "type": "string",
-      "constraints": {
-        "max_length": 1000
+        "max_length": 2000
       }
     },
     {
@@ -43,14 +28,7 @@
       }
     },
     {
-      "name": "Property Update Count",
-      "type": "uint32",
-      "constraints": {
-        "maximum": 4294967294
-      }
-    },
-    {
-      "name": "Path Update Count",
+      "name": "Update Count",
       "type": "uint32",
       "constraints": {
         "maximum": 4294967294

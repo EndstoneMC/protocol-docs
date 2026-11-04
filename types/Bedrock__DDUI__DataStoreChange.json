@@ -2,19 +2,11 @@
   "name": "Bedrock::DDUI::DataStoreChange",
   "fields": [
     {
-      "name": "Data Store Name",
+      "name": "Variable Name",
       "type": "string",
       "constraints": {
         "min_length": 1,
-        "max_length": 1000
-      }
-    },
-    {
-      "name": "Property",
-      "type": "string",
-      "constraints": {
-        "min_length": 1,
-        "max_length": 1000
+        "max_length": 2000
       }
     },
     {
@@ -25,8 +17,15 @@
       }
     },
     {
-      "name": "The New Property Value",
-      "type": "cereal::DynamicValue"
+      "name": "The New Variable Value",
+      "type": {
+        "switch": "uvarint32",
+        "cases": [
+          "double",
+          "bool",
+          "string"
+        ]
+      }
     }
   ]
 }

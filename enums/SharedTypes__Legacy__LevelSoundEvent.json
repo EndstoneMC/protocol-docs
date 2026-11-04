@@ -2290,8 +2290,20 @@
       "value": 616
     },
     {
-      "name": "undefined",
+      "name": "ice_ball.throw",
       "value": 617
+    },
+    {
+      "name": "record.flurry",
+      "value": 618
+    },
+    {
+      "name": "imitate.frostbite",
+      "value": 619
+    },
+    {
+      "name": "undefined",
+      "value": 620
     }
   ]
 }

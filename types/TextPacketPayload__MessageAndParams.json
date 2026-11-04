@@ -28,6 +28,10 @@
       "constraints": {
         "max_items": 4
       }
+    },
+    {
+      "name": "Queue?",
+      "type": "bool"
     }
   ]
 }

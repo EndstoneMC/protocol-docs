@@ -1,0 +1,14 @@
+{
+  "id": 365,
+  "name": "ClientboundMusicPlaybackFailurePacket",
+  "fields": [
+    {
+      "name": "Failures",
+      "type": "MusicPlaybackFailureEntry",
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 28
+      }
+    }
+  ]
+}

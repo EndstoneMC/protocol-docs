@@ -6,7 +6,10 @@
     {
       "name": "Fog Stack",
       "type": "string",
-      "repeat": "uvarint32"
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 16
+      }
     }
   ]
 }

@@ -6,7 +6,10 @@
     {
       "name": "Removed Containers",
       "type": "FullContainerName",
-      "repeat": "uvarint32"
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 1000
+      }
     }
   ]
 }

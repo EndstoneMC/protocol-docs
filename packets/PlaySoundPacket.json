@@ -35,6 +35,11 @@
       "name": "Playback Position Seconds",
       "type": "float",
       "optional": true
+    },
+    {
+      "name": "Start Delay Seconds",
+      "type": "float",
+      "optional": true
     }
   ]
 }

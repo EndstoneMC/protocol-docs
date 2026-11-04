@@ -41,7 +41,10 @@
     {
       "name": "Memory Category Values",
       "type": "Memory::MemoryCategoryCounter",
-      "repeat": "uvarint32"
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 111
+      }
     },
     {
       "name": "Entity Diagnostics",
@@ -62,7 +65,10 @@
     {
       "name": "Whisker Scopes",
       "type": "Bedrock::Profile::Whisker::Diagnostics::ScopeDataSummary",
-      "repeat": "uvarint32"
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 33
+      }
     }
   ]
 }

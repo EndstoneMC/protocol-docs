@@ -1,0 +1,11 @@
+{
+  "id": 364,
+  "name": "PlayerToggleArmorVisibilityRequestPacket",
+  "notes": "The server derives the player identity from the connection.",
+  "fields": [
+    {
+      "name": "Hide Armor",
+      "type": "bool"
+    }
+  ]
+}

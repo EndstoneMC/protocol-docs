@@ -9,7 +9,10 @@
     {
       "name": "Emote piece ids",
       "type": "mce::UUID",
-      "repeat": "uvarint32"
+      "repeat": "uvarint32",
+      "constraints": {
+        "max_items": 6
+      }
     }
   ]
 }
