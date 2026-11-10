@@ -16,13 +16,6 @@
       }
     },
     {
-      "name": "Room Id",
-      "type": "string",
-      "constraints": {
-        "max_length": 128
-      }
-    },
-    {
       "name": "Message Id",
       "type": "string",
       "constraints": {
@@ -41,6 +34,13 @@
       "type": "string",
       "constraints": {
         "max_length": 512
+      }
+    },
+    {
+      "name": "Author Name",
+      "type": "string",
+      "constraints": {
+        "max_length": 192
       }
     },
     {

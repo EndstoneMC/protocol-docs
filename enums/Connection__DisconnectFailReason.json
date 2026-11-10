@@ -636,6 +636,10 @@
     {
       "name": "SessionUnknownError",
       "value": 158
+    },
+    {
+      "name": "BrokenData",
+      "value": 159
     }
   ]
 }

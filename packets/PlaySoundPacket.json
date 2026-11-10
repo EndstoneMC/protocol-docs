@@ -40,6 +40,11 @@
       "name": "Start Delay Seconds",
       "type": "float",
       "optional": true
+    },
+    {
+      "name": "Attach Options",
+      "type": "SoundAttachOptions",
+      "optional": true
     }
   ]
 }

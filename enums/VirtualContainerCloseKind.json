@@ -1,0 +1,17 @@
+{
+  "name": "VirtualContainerCloseKind",
+  "values": [
+    {
+      "name": "Request",
+      "value": 0
+    },
+    {
+      "name": "Closed",
+      "value": 1
+    },
+    {
+      "name": "Confirmed",
+      "value": 2
+    }
+  ]
+}

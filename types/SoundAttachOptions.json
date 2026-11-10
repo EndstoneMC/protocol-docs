@@ -1,0 +1,9 @@
+{
+  "name": "SoundAttachOptions",
+  "fields": [
+    {
+      "name": "Entity To Attach To ID",
+      "type": "ActorRuntimeID"
+    }
+  ]
+}

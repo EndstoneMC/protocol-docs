@@ -1,0 +1,37 @@
+{
+  "name": "VirtualContainerCloseCause",
+  "values": [
+    {
+      "name": "Unknown",
+      "value": 0
+    },
+    {
+      "name": "UserClosed",
+      "value": 1
+    },
+    {
+      "name": "ServerRequested",
+      "value": 2
+    },
+    {
+      "name": "UserBusy",
+      "value": 3
+    },
+    {
+      "name": "ClientNotReady",
+      "value": 4
+    },
+    {
+      "name": "InvalidContents",
+      "value": 5
+    },
+    {
+      "name": "UiCreationFailed",
+      "value": 6
+    },
+    {
+      "name": "UiCancelled",
+      "value": 7
+    }
+  ]
+}

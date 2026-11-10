@@ -22,6 +22,11 @@
     {
       "name": "Client Throttle Scalar",
       "type": "float"
+    },
+    {
+      "name": "SCTP Recovery Profile",
+      "type": "uint8",
+      "enum": "SctpRecoveryProfile"
     }
   ]
 }

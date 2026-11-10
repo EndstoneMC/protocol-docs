@@ -1,0 +1,43 @@
+{
+  "id": 367,
+  "name": "VirtualContainerClosePacket",
+  "notes": "Request is server-to-client. Closed is client-to-server for opening failure, user close, or acknowledgement of a server request. Confirmed is server-to-client after inventory work drains. Successful opening sends no acknowledgement.",
+  "fields": [
+    {
+      "name": "Session Id",
+      "type": "uvarint64",
+      "constraints": {
+        "minimum": 1
+      }
+    },
+    {
+      "name": "Kind",
+      "type": "uint8",
+      "enum": "VirtualContainerCloseKind",
+      "constraints": {
+        "enum_values": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Cause",
+      "type": "uint8",
+      "enum": "VirtualContainerCloseCause",
+      "constraints": {
+        "enum_values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    }
+  ]
+}

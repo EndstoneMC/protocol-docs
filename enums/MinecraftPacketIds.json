@@ -976,6 +976,14 @@
     {
       "name": "ClientboundMusicPlaybackFailure",
       "value": 365
+    },
+    {
+      "name": "VirtualContainerOpen",
+      "value": 366
+    },
+    {
+      "name": "VirtualContainerClose",
+      "value": 367
     }
   ]
 }

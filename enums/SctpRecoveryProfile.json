@@ -1,0 +1,17 @@
+{
+  "name": "SctpRecoveryProfile",
+  "values": [
+    {
+      "name": "Default",
+      "value": 0
+    },
+    {
+      "name": "Balanced",
+      "value": 2
+    },
+    {
+      "name": "Fast",
+      "value": 1
+    }
+  ]
+}
