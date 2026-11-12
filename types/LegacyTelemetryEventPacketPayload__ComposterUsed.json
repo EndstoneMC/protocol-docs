@@ -8,7 +8,7 @@
     },
     {
       "name": "Item Id",
-      "type": "varint32"
+      "type": "int16"
     }
   ]
 }
