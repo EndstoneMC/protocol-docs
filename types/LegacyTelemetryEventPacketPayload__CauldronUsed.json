@@ -7,11 +7,11 @@
     },
     {
       "name": "Contents Type",
-      "type": "varint32"
+      "type": "int16"
     },
     {
       "name": "Fill Level",
-      "type": "varint32"
+      "type": "int16"
     }
   ]
 }
